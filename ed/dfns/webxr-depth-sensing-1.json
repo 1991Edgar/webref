@@ -21,7 +21,68 @@
         "title": "Terminology",
         "number": "1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "native-depth-buffer",
+      "href": "https://immersive-web.github.io/depth-sensing/#native-depth-buffer",
+      "linkingText": [
+        "native depth buffer"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://immersive-web.github.io/depth-sensing/#terminology",
+        "title": "Terminology",
+        "number": "1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "native-depth-information",
+      "href": "https://immersive-web.github.io/depth-sensing/#native-depth-information",
+      "linkingText": [
+        "native depth information"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://immersive-web.github.io/depth-sensing/#terminology",
+        "title": "Terminology",
+        "number": "1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "depth-coordinates-transformation-matrix",
+      "href": "https://immersive-web.github.io/depth-sensing/#depth-coordinates-transformation-matrix",
+      "linkingText": [
+        "depth coordinates transformation matrix"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://immersive-web.github.io/depth-sensing/#terminology",
+        "title": "Terminology",
+        "number": "1.1"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "depth-sensing",
@@ -40,7 +101,72 @@
         "title": "Feature descriptor",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "enumdef-xrdepthtype",
+      "href": "https://immersive-web.github.io/depth-sensing/#enumdef-xrdepthtype",
+      "linkingText": [
+        "XRDepthType"
+      ],
+      "localLinkingText": [],
+      "type": "enum",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "usage-and-formats",
+        "href": "https://immersive-web.github.io/depth-sensing/#usage-and-formats",
+        "title": "Intended depth type, data usage, and data formats",
+        "number": "2.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-xrdepthtype-raw",
+      "href": "https://immersive-web.github.io/depth-sensing/#dom-xrdepthtype-raw",
+      "linkingText": [
+        "\"raw\""
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "XRDepthType"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "usage-and-formats",
+        "href": "https://immersive-web.github.io/depth-sensing/#usage-and-formats",
+        "title": "Intended depth type, data usage, and data formats",
+        "number": "2.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-xrdepthtype-smooth",
+      "href": "https://immersive-web.github.io/depth-sensing/#dom-xrdepthtype-smooth",
+      "linkingText": [
+        "\"smooth\""
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "XRDepthType"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "usage-and-formats",
+        "href": "https://immersive-web.github.io/depth-sensing/#usage-and-formats",
+        "title": "Intended depth type, data usage, and data formats",
+        "number": "2.2"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "enumdef-xrdepthusage",
@@ -56,10 +182,11 @@
       "heading": {
         "id": "usage-and-formats",
         "href": "https://immersive-web.github.io/depth-sensing/#usage-and-formats",
-        "title": "Intended data usage and data formats",
+        "title": "Intended depth type, data usage, and data formats",
         "number": "2.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrdepthusage-cpu-optimized",
@@ -75,11 +202,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "usage-and-formats",
+        "href": "https://immersive-web.github.io/depth-sensing/#usage-and-formats",
+        "title": "Intended depth type, data usage, and data formats",
+        "number": "2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrdepthusage-gpu-optimized",
@@ -95,11 +224,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "usage-and-formats",
+        "href": "https://immersive-web.github.io/depth-sensing/#usage-and-formats",
+        "title": "Intended depth type, data usage, and data formats",
+        "number": "2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "enumdef-xrdepthdataformat",
@@ -113,11 +244,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "usage-and-formats",
+        "href": "https://immersive-web.github.io/depth-sensing/#usage-and-formats",
+        "title": "Intended depth type, data usage, and data formats",
+        "number": "2.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrdepthdataformat-luminance-alpha",
@@ -133,11 +266,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "usage-and-formats",
+        "href": "https://immersive-web.github.io/depth-sensing/#usage-and-formats",
+        "title": "Intended depth type, data usage, and data formats",
+        "number": "2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrdepthdataformat-unsigned-short",
@@ -153,11 +288,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "usage-and-formats",
+        "href": "https://immersive-web.github.io/depth-sensing/#usage-and-formats",
+        "title": "Intended depth type, data usage, and data formats",
+        "number": "2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrdepthdataformat-float32",
@@ -173,11 +310,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "usage-and-formats",
+        "href": "https://immersive-web.github.io/depth-sensing/#usage-and-formats",
+        "title": "Intended depth type, data usage, and data formats",
+        "number": "2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dictdef-xrdepthstateinit",
@@ -196,7 +335,8 @@
         "title": "Session configuration",
         "number": "2.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrdepthstateinit-usagepreference",
@@ -212,11 +352,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "session-configuration",
+        "href": "https://immersive-web.github.io/depth-sensing/#session-configuration",
+        "title": "Session configuration",
+        "number": "2.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrdepthstateinit-dataformatpreference",
@@ -232,11 +374,57 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "session-configuration",
+        "href": "https://immersive-web.github.io/depth-sensing/#session-configuration",
+        "title": "Session configuration",
+        "number": "2.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-xrdepthstateinit-depthtyperequest",
+      "href": "https://immersive-web.github.io/depth-sensing/#dom-xrdepthstateinit-depthtyperequest",
+      "linkingText": [
+        "depthTypeRequest"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "XRDepthStateInit"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "session-configuration",
+        "href": "https://immersive-web.github.io/depth-sensing/#session-configuration",
+        "title": "Session configuration",
+        "number": "2.3"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-xrdepthstateinit-matchdepthview",
+      "href": "https://immersive-web.github.io/depth-sensing/#dom-xrdepthstateinit-matchdepthview",
+      "linkingText": [
+        "matchDepthView"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "XRDepthStateInit"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "session-configuration",
+        "href": "https://immersive-web.github.io/depth-sensing/#session-configuration",
+        "title": "Session configuration",
+        "number": "2.3"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrsessioninit-depthsensing",
@@ -252,11 +440,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "session-configuration",
+        "href": "https://immersive-web.github.io/depth-sensing/#session-configuration",
+        "title": "Session configuration",
+        "number": "2.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "find-supported-configuration-combination",
@@ -270,11 +460,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "session-configuration",
+        "href": "https://immersive-web.github.io/depth-sensing/#session-configuration",
+        "title": "Session configuration",
+        "number": "2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrsession-depthusage",
@@ -290,11 +482,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "session-configuration",
+        "href": "https://immersive-web.github.io/depth-sensing/#session-configuration",
+        "title": "Session configuration",
+        "number": "2.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrsession-depthdataformat",
@@ -310,11 +504,101 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "session-configuration",
+        "href": "https://immersive-web.github.io/depth-sensing/#session-configuration",
+        "title": "Session configuration",
+        "number": "2.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-xrsession-depthtype",
+      "href": "https://immersive-web.github.io/depth-sensing/#dom-xrsession-depthtype",
+      "linkingText": [
+        "depthType"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "XRSession"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "session-configuration",
+        "href": "https://immersive-web.github.io/depth-sensing/#session-configuration",
+        "title": "Session configuration",
+        "number": "2.3"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-xrsession-depthactive",
+      "href": "https://immersive-web.github.io/depth-sensing/#dom-xrsession-depthactive",
+      "linkingText": [
+        "depthActive"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "XRSession"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "session-configuration",
+        "href": "https://immersive-web.github.io/depth-sensing/#session-configuration",
+        "title": "Session configuration",
+        "number": "2.3"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-xrsession-pausedepthsensing",
+      "href": "https://immersive-web.github.io/depth-sensing/#dom-xrsession-pausedepthsensing",
+      "linkingText": [
+        "pauseDepthSensing()"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "XRSession"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "session-configuration",
+        "href": "https://immersive-web.github.io/depth-sensing/#session-configuration",
+        "title": "Session configuration",
+        "number": "2.3"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-xrsession-resumedepthsensing",
+      "href": "https://immersive-web.github.io/depth-sensing/#dom-xrsession-resumedepthsensing",
+      "linkingText": [
+        "resumeDepthSensing()"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "XRSession"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "session-configuration",
+        "href": "https://immersive-web.github.io/depth-sensing/#session-configuration",
+        "title": "Session configuration",
+        "number": "2.3"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "xrdepthinformation",
@@ -333,7 +617,8 @@
         "title": "XRDepthInformation",
         "number": "3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrdepthinformation-width",
@@ -349,11 +634,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "xr-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-depth-info-section",
+        "title": "XRDepthInformation",
+        "number": "3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrdepthinformation-height",
@@ -369,11 +656,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "xr-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-depth-info-section",
+        "title": "XRDepthInformation",
+        "number": "3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrdepthinformation-normdepthbufferfromnormview",
@@ -389,11 +678,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "xr-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-depth-info-section",
+        "title": "XRDepthInformation",
+        "number": "3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrdepthinformation-rawvaluetometers",
@@ -409,11 +700,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "xr-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-depth-info-section",
+        "title": "XRDepthInformation",
+        "number": "3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "xrdepthinformation-view",
@@ -429,11 +722,35 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "xr-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-depth-info-section",
+        "title": "XRDepthInformation",
+        "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "xrdepthinformation-sensor",
+      "href": "https://immersive-web.github.io/depth-sensing/#xrdepthinformation-sensor",
+      "linkingText": [
+        "sensor"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "XRDepthInformation"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "xr-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-depth-info-section",
+        "title": "XRDepthInformation",
+        "number": "3.1"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrdepthinformation-depth-buffer",
@@ -449,11 +766,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "xr-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-depth-info-section",
+        "title": "XRDepthInformation",
+        "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "attempting-to-access-the-depth-buffer",
@@ -467,11 +786,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "xr-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-depth-info-section",
+        "title": "XRDepthInformation",
+        "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrcpudepthinformation",
@@ -490,7 +811,8 @@
         "title": "XRCPUDepthInformation",
         "number": "3.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrcpudepthinformation-data",
@@ -506,11 +828,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "xr-cpu-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-cpu-depth-info-section",
+        "title": "XRCPUDepthInformation",
+        "number": "3.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrcpudepthinformation-getdepthinmeters",
@@ -526,11 +850,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "xr-cpu-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-cpu-depth-info-section",
+        "title": "XRCPUDepthInformation",
+        "number": "3.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrcpudepthinformation-getdepthinmeters-x-y-x",
@@ -546,11 +872,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "xr-cpu-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-cpu-depth-info-section",
+        "title": "XRCPUDepthInformation",
+        "number": "3.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrcpudepthinformation-getdepthinmeters-x-y-y",
@@ -566,11 +894,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "xr-cpu-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-cpu-depth-info-section",
+        "title": "XRCPUDepthInformation",
+        "number": "3.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "obtain-depth-at-coordinates",
@@ -584,11 +914,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "xr-cpu-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-cpu-depth-info-section",
+        "title": "XRCPUDepthInformation",
+        "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrframe-getdepthinformation-view-view",
@@ -604,11 +936,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "xr-cpu-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-cpu-depth-info-section",
+        "title": "XRCPUDepthInformation",
+        "number": "3.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrframe-getdepthinformation",
@@ -624,11 +958,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "xr-cpu-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-cpu-depth-info-section",
+        "title": "XRCPUDepthInformation",
+        "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "obtain-cpu-depth-information",
@@ -642,11 +978,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "xr-cpu-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-cpu-depth-info-section",
+        "title": "XRCPUDepthInformation",
+        "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "create-a-cpu-depth-information-instance",
@@ -660,11 +998,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "xr-cpu-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-cpu-depth-info-section",
+        "title": "XRCPUDepthInformation",
+        "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrwebgldepthinformation",
@@ -683,7 +1023,8 @@
         "title": "XRWebGLDepthInformation",
         "number": "3.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrwebgldepthinformation-texture",
@@ -699,11 +1040,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "xr-gpu-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-gpu-depth-info-section",
+        "title": "XRWebGLDepthInformation",
+        "number": "3.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrwebgldepthinformation-texturetype",
@@ -719,11 +1062,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "xr-gpu-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-gpu-depth-info-section",
+        "title": "XRWebGLDepthInformation",
+        "number": "3.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrwebgldepthinformation-imageindex",
@@ -739,11 +1084,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "xr-gpu-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-gpu-depth-info-section",
+        "title": "XRWebGLDepthInformation",
+        "number": "3.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrwebglbinding-getdepthinformation",
@@ -759,11 +1106,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "xr-gpu-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-gpu-depth-info-section",
+        "title": "XRWebGLDepthInformation",
+        "number": "3.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrwebglbinding-getdepthinformation-view-view",
@@ -779,11 +1128,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "xr-gpu-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-gpu-depth-info-section",
+        "title": "XRWebGLDepthInformation",
+        "number": "3.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrwebgldepthinformation-getdepthinformation",
@@ -799,11 +1150,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "xr-gpu-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-gpu-depth-info-section",
+        "title": "XRWebGLDepthInformation",
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "obtain-webgl-depth-information",
@@ -817,11 +1170,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "xr-gpu-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-gpu-depth-info-section",
+        "title": "XRWebGLDepthInformation",
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "create-a-webgl-depth-information-instance",
@@ -835,11 +1190,225 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/depth-sensing/#title",
-        "title": "WebXR Depth Sensing Module"
+        "id": "xr-gpu-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-gpu-depth-info-section",
+        "title": "XRWebGLDepthInformation",
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "xrgpudepthinformation-array-layer-index",
+      "href": "https://immersive-web.github.io/depth-sensing/#xrgpudepthinformation-array-layer-index",
+      "linkingText": [
+        "array layer index"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "XRGPUDepthInformation"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "xr-webgpu-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-webgpu-depth-info-section",
+        "title": "XRGPUDepthInformation",
+        "number": "3.4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "xrgpudepthinformation",
+      "href": "https://immersive-web.github.io/depth-sensing/#xrgpudepthinformation",
+      "linkingText": [
+        "XRGPUDepthInformation"
+      ],
+      "localLinkingText": [],
+      "type": "interface",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "xr-webgpu-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-webgpu-depth-info-section",
+        "title": "XRGPUDepthInformation",
+        "number": "3.4"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-xrgpudepthinformation-texture",
+      "href": "https://immersive-web.github.io/depth-sensing/#dom-xrgpudepthinformation-texture",
+      "linkingText": [
+        "texture"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "XRGPUDepthInformation"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "xr-webgpu-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-webgpu-depth-info-section",
+        "title": "XRGPUDepthInformation",
+        "number": "3.4"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-xrgpudepthinformation-getviewdescriptor",
+      "href": "https://immersive-web.github.io/depth-sensing/#dom-xrgpudepthinformation-getviewdescriptor",
+      "linkingText": [
+        "getViewDescriptor()"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "XRGPUDepthInformation"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "xr-webgpu-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-webgpu-depth-info-section",
+        "title": "XRGPUDepthInformation",
+        "number": "3.4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "xrframe-list-of-webgpu-depth-textures",
+      "href": "https://immersive-web.github.io/depth-sensing/#xrframe-list-of-webgpu-depth-textures",
+      "linkingText": [
+        "list of WebGPU depth textures"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "XRFrame"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "xr-webgpu-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-webgpu-depth-info-section",
+        "title": "XRGPUDepthInformation",
+        "number": "3.4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-xrgpubinding-getdepthinformation-view-view",
+      "href": "https://immersive-web.github.io/depth-sensing/#dom-xrgpubinding-getdepthinformation-view-view",
+      "linkingText": [
+        "view"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "XRGPUBinding/getDepthInformation(view)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "xr-webgpu-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-webgpu-depth-info-section",
+        "title": "XRGPUDepthInformation",
+        "number": "3.4"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-xrgpubinding-getdepthinformation",
+      "href": "https://immersive-web.github.io/depth-sensing/#dom-xrgpubinding-getdepthinformation",
+      "linkingText": [
+        "getDepthInformation(view)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "XRGPUBinding"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "xr-webgpu-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-webgpu-depth-info-section",
+        "title": "XRGPUDepthInformation",
+        "number": "3.4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "obtain-webgpu-depth-information",
+      "href": "https://immersive-web.github.io/depth-sensing/#obtain-webgpu-depth-information",
+      "linkingText": [
+        "obtain WebGPU depth information"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "xr-webgpu-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-webgpu-depth-info-section",
+        "title": "XRGPUDepthInformation",
+        "number": "3.4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "create-a-webgpu-depth-information-instance",
+      "href": "https://immersive-web.github.io/depth-sensing/#create-a-webgpu-depth-information-instance",
+      "linkingText": [
+        "create a WebGPU depth information instance"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "xr-webgpu-depth-info-section",
+        "href": "https://immersive-web.github.io/depth-sensing/#xr-webgpu-depth-info-section",
+        "title": "XRGPUDepthInformation",
+        "number": "3.4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "invalid-depth-data",
+      "href": "https://immersive-web.github.io/depth-sensing/#invalid-depth-data",
+      "linkingText": [
+        "invalid depth data"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "results-interpretation",
+        "href": "https://immersive-web.github.io/depth-sensing/#results-interpretation",
+        "title": "Interpreting the results",
+        "number": "4"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "native-depth-sensing",
@@ -857,13 +1426,14 @@
         "href": "https://immersive-web.github.io/depth-sensing/#title",
         "title": "WebXR Depth Sensing Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "depth-coordinates-transformation-matrix",
-      "href": "https://immersive-web.github.io/depth-sensing/#depth-coordinates-transformation-matrix",
+      "id": "support-depth-sensing-type",
+      "href": "https://immersive-web.github.io/depth-sensing/#support-depth-sensing-type",
       "linkingText": [
-        "depth coordinates transformation matrix"
+        "support depth sensing type"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -875,7 +1445,8 @@
         "href": "https://immersive-web.github.io/depth-sensing/#title",
         "title": "WebXR Depth Sensing Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "support-depth-sensing-usage",
@@ -893,7 +1464,8 @@
         "href": "https://immersive-web.github.io/depth-sensing/#title",
         "title": "WebXR Depth Sensing Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "support-depth-sensing-data-format",
@@ -911,13 +1483,14 @@
         "href": "https://immersive-web.github.io/depth-sensing/#title",
         "title": "WebXR Depth Sensing Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "support-depth-sensing-usage-and-data-format-combination",
-      "href": "https://immersive-web.github.io/depth-sensing/#support-depth-sensing-usage-and-data-format-combination",
+      "id": "depth-sensing-configuration",
+      "href": "https://immersive-web.github.io/depth-sensing/#depth-sensing-configuration",
       "linkingText": [
-        "support depth sensing usage and data format combination"
+        "depth sensing configuration"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -929,7 +1502,27 @@
         "href": "https://immersive-web.github.io/depth-sensing/#title",
         "title": "WebXR Depth Sensing Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "support-the-depth-sensing-configuration",
+      "href": "https://immersive-web.github.io/depth-sensing/#support-the-depth-sensing-configuration",
+      "linkingText": [
+        "support the depth sensing configuration"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "title",
+        "href": "https://immersive-web.github.io/depth-sensing/#title",
+        "title": "WebXR Depth Sensing Module"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "preferred-native-depth-sensing-capability",
@@ -947,13 +1540,14 @@
         "href": "https://immersive-web.github.io/depth-sensing/#title",
         "title": "WebXR Depth Sensing Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "preferred-native-depth-sensing-format",
-      "href": "https://immersive-web.github.io/depth-sensing/#preferred-native-depth-sensing-format",
+      "id": "depth-sensing-active-state",
+      "href": "https://immersive-web.github.io/depth-sensing/#depth-sensing-active-state",
       "linkingText": [
-        "preferred native depth sensing format"
+        "depth sensing active state"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -965,7 +1559,8 @@
         "href": "https://immersive-web.github.io/depth-sensing/#title",
         "title": "WebXR Depth Sensing Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "limit-the-amount-of-information",
@@ -983,7 +1578,8 @@
         "href": "https://immersive-web.github.io/depth-sensing/#title",
         "title": "WebXR Depth Sensing Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "block-access",
@@ -1001,7 +1597,8 @@
         "href": "https://immersive-web.github.io/depth-sensing/#title",
         "title": "WebXR Depth Sensing Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

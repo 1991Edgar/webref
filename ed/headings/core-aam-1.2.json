@@ -1,1846 +1,2642 @@
 {
   "spec": {
     "title": "Core Accessibility API Mappings 1.2",
-    "url": "https://w3c.github.io/core-aam/"
+    "url": "https://w3c.github.io/aria/core-aam/"
   },
   "headings": [
     {
       "id": "title",
-      "href": "https://w3c.github.io/core-aam/#title",
+      "href": "https://w3c.github.io/aria/core-aam/#title",
       "level": 1,
       "title": "Core Accessibility API Mappings 1.2"
     },
     {
       "id": "toc",
-      "href": "https://w3c.github.io/core-aam/#toc",
+      "href": "https://w3c.github.io/aria/core-aam/#toc",
       "level": 2,
-      "title": "Table of Contents"
+      "title": "Table of Contents",
+      "alternateIds": [
+        "table-of-contents"
+      ]
     },
     {
       "id": "intro",
-      "href": "https://w3c.github.io/core-aam/#intro",
+      "href": "https://w3c.github.io/aria/core-aam/#intro",
       "level": 2,
       "title": "Introduction",
+      "alternateIds": [
+        "x1-introduction"
+      ],
       "number": "1"
     },
     {
       "id": "intro_aapi",
-      "href": "https://w3c.github.io/core-aam/#intro_aapi",
+      "href": "https://w3c.github.io/aria/core-aam/#intro_aapi",
       "level": 3,
       "title": "Accessibility APIs",
+      "alternateIds": [
+        "x1-1-accessibility-apis"
+      ],
       "number": "1.1"
     },
     {
       "id": "comparing-accessibility-apis",
-      "href": "https://w3c.github.io/core-aam/#comparing-accessibility-apis",
+      "href": "https://w3c.github.io/aria/core-aam/#comparing-accessibility-apis",
       "level": 3,
       "title": "Comparing Accessibility APIs",
+      "alternateIds": [
+        "x1-2-comparing-accessibility-apis"
+      ],
       "number": "1.2"
     },
     {
       "id": "atk-at-spi",
-      "href": "https://w3c.github.io/core-aam/#atk-at-spi",
+      "href": "https://w3c.github.io/aria/core-aam/#atk-at-spi",
       "level": 4,
       "title": "ATK/AT-SPI",
+      "alternateIds": [
+        "x1-2-1-atk-at-spi"
+      ],
       "number": "1.2.1"
     },
     {
       "id": "uia-ui-automation",
-      "href": "https://w3c.github.io/core-aam/#uia-ui-automation",
+      "href": "https://w3c.github.io/aria/core-aam/#uia-ui-automation",
       "level": 4,
       "title": "UIA (UI Automation)",
+      "alternateIds": [
+        "x1-2-2-uia-ui-automation"
+      ],
       "number": "1.2.2"
     },
     {
-      "id": "accessible-names-and-descriptions",
-      "href": "https://w3c.github.io/core-aam/#accessible-names-and-descriptions",
+      "id": "android-accessibility-api",
+      "href": "https://w3c.github.io/aria/core-aam/#android-accessibility-api",
       "level": 4,
-      "title": "Accessible Names and Descriptions",
+      "title": "Android Accessibility API",
+      "alternateIds": [
+        "x1-2-3-android-accessibility-api"
+      ],
       "number": "1.2.3"
     },
     {
+      "id": "accessible-names-and-descriptions",
+      "href": "https://w3c.github.io/aria/core-aam/#accessible-names-and-descriptions",
+      "level": 4,
+      "title": "Accessible Names and Descriptions",
+      "alternateIds": [
+        "x1-2-4-accessible-names-and-descriptions"
+      ],
+      "number": "1.2.4"
+    },
+    {
       "id": "conformance",
-      "href": "https://w3c.github.io/core-aam/#conformance",
+      "href": "https://w3c.github.io/aria/core-aam/#conformance",
       "level": 2,
       "title": "Conformance",
+      "alternateIds": [
+        "x2-conformance"
+      ],
       "number": "2"
     },
     {
-      "id": "rfc-2119-keywords",
-      "href": "https://w3c.github.io/core-aam/#rfc-2119-keywords",
+      "id": "features-deprecated-in-wai-aria",
+      "href": "https://w3c.github.io/aria/core-aam/#features-deprecated-in-wai-aria",
       "level": 3,
-      "title": "RFC-2119 Keywords",
+      "title": "Features Deprecated in WAI-ARIA",
+      "alternateIds": [
+        "x2-1-features-deprecated-in-wai-aria"
+      ],
       "number": "2.1"
     },
     {
-      "id": "normative-and-informative-sections",
-      "href": "https://w3c.github.io/core-aam/#normative-and-informative-sections",
-      "level": 3,
-      "title": "Normative and Informative Sections",
-      "number": "2.2"
-    },
-    {
-      "id": "features-deprecated-in-wai-aria",
-      "href": "https://w3c.github.io/core-aam/#features-deprecated-in-wai-aria",
-      "level": 3,
-      "title": "Features Deprecated in WAI-ARIA",
-      "number": "2.3"
-    },
-    {
-      "id": "glossary",
-      "href": "https://w3c.github.io/core-aam/#glossary",
+      "id": "mapping",
+      "href": "https://w3c.github.io/aria/core-aam/#mapping",
       "level": 2,
-      "title": "Important Terms",
+      "title": "Mapping WAI-ARIA to Accessibility APIs",
+      "alternateIds": [
+        "x3-mapping-wai-aria-to-accessibility-apis"
+      ],
       "number": "3"
     },
     {
-      "id": "mapping",
-      "href": "https://w3c.github.io/core-aam/#mapping",
-      "level": 2,
-      "title": "Mapping WAI-ARIA to Accessibility APIs",
-      "number": "4"
-    },
-    {
       "id": "mapping_general",
-      "href": "https://w3c.github.io/core-aam/#mapping_general",
+      "href": "https://w3c.github.io/aria/core-aam/#mapping_general",
       "level": 3,
       "title": "General rules for exposing WAI-ARIA semantics",
-      "number": "4.1"
+      "alternateIds": [
+        "x3-1-general-rules-for-exposing-wai-aria-semantics"
+      ],
+      "number": "3.1"
     },
     {
       "id": "mapping_conflicts",
-      "href": "https://w3c.github.io/core-aam/#mapping_conflicts",
+      "href": "https://w3c.github.io/aria/core-aam/#mapping_conflicts",
       "level": 3,
       "title": "Conflicts between native markup semantics and WAI-ARIA",
-      "number": "4.2"
+      "alternateIds": [
+        "x3-2-conflicts-between-native-markup-semantics-and-wai-aria"
+      ],
+      "number": "3.2"
     },
     {
       "id": "mapping_nodirect",
-      "href": "https://w3c.github.io/core-aam/#mapping_nodirect",
+      "href": "https://w3c.github.io/aria/core-aam/#mapping_nodirect",
       "level": 3,
       "title": "Exposing attributes that do not directly map to accessibility API properties",
-      "number": "4.3"
+      "alternateIds": [
+        "x3-3-exposing-attributes-that-do-not-directly-map-to-accessibility-api-properties"
+      ],
+      "number": "3.3"
     },
     {
       "id": "mapping_role",
-      "href": "https://w3c.github.io/core-aam/#mapping_role",
+      "href": "https://w3c.github.io/aria/core-aam/#mapping_role",
       "level": 3,
       "title": "Role mapping",
-      "number": "4.4"
+      "alternateIds": [
+        "x3-4-role-mapping"
+      ],
+      "number": "3.4"
     },
     {
       "id": "roleMappingGeneralRules",
-      "href": "https://w3c.github.io/core-aam/#roleMappingGeneralRules",
+      "href": "https://w3c.github.io/aria/core-aam/#roleMappingGeneralRules",
       "level": 4,
       "title": "General rules",
-      "number": "4.4.1"
+      "alternateIds": [
+        "x3-4-1-general-rules"
+      ],
+      "number": "3.4.1"
     },
     {
       "id": "roleMappingComputedRole",
-      "href": "https://w3c.github.io/core-aam/#roleMappingComputedRole",
+      "href": "https://w3c.github.io/aria/core-aam/#roleMappingComputedRole",
       "level": 4,
       "title": "Computed Role",
-      "number": "4.4.2"
+      "alternateIds": [
+        "x3-4-2-computed-role"
+      ],
+      "number": "3.4.2"
     },
     {
       "id": "mapping_role_table",
-      "href": "https://w3c.github.io/core-aam/#mapping_role_table",
+      "href": "https://w3c.github.io/aria/core-aam/#mapping_role_table",
       "level": 4,
       "title": "Role Mapping Tables",
-      "number": "4.4.3"
+      "alternateIds": [
+        "x3-4-3-role-mapping-tables"
+      ],
+      "number": "3.4.3"
     },
     {
       "id": "alert",
-      "href": "https://w3c.github.io/core-aam/#alert",
+      "href": "https://w3c.github.io/aria/core-aam/#alert",
       "level": 5,
       "title": "alert",
-      "number": "4.4.3.1"
+      "alternateIds": [
+        "role-map-alert"
+      ],
+      "number": "3.4.3.1"
     },
     {
       "id": "alertdialog",
-      "href": "https://w3c.github.io/core-aam/#alertdialog",
+      "href": "https://w3c.github.io/aria/core-aam/#alertdialog",
       "level": 5,
       "title": "alertdialog",
-      "number": "4.4.3.2"
+      "alternateIds": [
+        "role-map-alertdialog"
+      ],
+      "number": "3.4.3.2"
     },
     {
       "id": "application",
-      "href": "https://w3c.github.io/core-aam/#application",
+      "href": "https://w3c.github.io/aria/core-aam/#application",
       "level": 5,
       "title": "application",
-      "number": "4.4.3.3"
+      "alternateIds": [
+        "role-map-application"
+      ],
+      "number": "3.4.3.3"
     },
     {
       "id": "article",
-      "href": "https://w3c.github.io/core-aam/#article",
+      "href": "https://w3c.github.io/aria/core-aam/#article",
       "level": 5,
       "title": "article",
-      "number": "4.4.3.4"
+      "alternateIds": [
+        "role-map-article"
+      ],
+      "number": "3.4.3.4"
     },
     {
       "id": "banner",
-      "href": "https://w3c.github.io/core-aam/#banner",
+      "href": "https://w3c.github.io/aria/core-aam/#banner",
       "level": 5,
       "title": "banner",
-      "number": "4.4.3.5"
+      "alternateIds": [
+        "role-map-banner"
+      ],
+      "number": "3.4.3.5"
     },
     {
       "id": "blockquote",
-      "href": "https://w3c.github.io/core-aam/#blockquote",
+      "href": "https://w3c.github.io/aria/core-aam/#blockquote",
       "level": 5,
       "title": "blockquote",
-      "number": "4.4.3.6"
+      "alternateIds": [
+        "role-map-blockquote"
+      ],
+      "number": "3.4.3.6"
     },
     {
       "id": "button-with-default-values-for-aria-pressed-and-aria-haspopup",
-      "href": "https://w3c.github.io/core-aam/#button-with-default-values-for-aria-pressed-and-aria-haspopup",
+      "href": "https://w3c.github.io/aria/core-aam/#button-with-default-values-for-aria-pressed-and-aria-haspopup",
       "level": 5,
       "title": "button with default values for aria-pressed and aria-haspopup",
-      "number": "4.4.3.7"
+      "alternateIds": [
+        "role-map-button"
+      ],
+      "number": "3.4.3.7"
     },
     {
       "id": "button-with-non-false-value-for-aria-haspopup",
-      "href": "https://w3c.github.io/core-aam/#button-with-non-false-value-for-aria-haspopup",
+      "href": "https://w3c.github.io/aria/core-aam/#button-with-non-false-value-for-aria-haspopup",
       "level": 5,
       "title": "button with non-false value for aria-haspopup",
-      "number": "4.4.3.8"
+      "alternateIds": [
+        "role-map-button-haspopup"
+      ],
+      "number": "3.4.3.8"
     },
     {
       "id": "button-with-defined-value-for-aria-pressed",
-      "href": "https://w3c.github.io/core-aam/#button-with-defined-value-for-aria-pressed",
+      "href": "https://w3c.github.io/aria/core-aam/#button-with-defined-value-for-aria-pressed",
       "level": 5,
       "title": "button with defined value for aria-pressed",
-      "number": "4.4.3.9"
+      "alternateIds": [
+        "role-map-button-pressed"
+      ],
+      "number": "3.4.3.9"
     },
     {
       "id": "caption",
-      "href": "https://w3c.github.io/core-aam/#caption",
+      "href": "https://w3c.github.io/aria/core-aam/#caption",
       "level": 5,
       "title": "caption",
-      "number": "4.4.3.10"
+      "alternateIds": [
+        "role-map-caption"
+      ],
+      "number": "3.4.3.10"
     },
     {
       "id": "cell",
-      "href": "https://w3c.github.io/core-aam/#cell",
+      "href": "https://w3c.github.io/aria/core-aam/#cell",
       "level": 5,
       "title": "cell",
-      "number": "4.4.3.11"
+      "alternateIds": [
+        "role-map-cell"
+      ],
+      "number": "3.4.3.11"
     },
     {
       "id": "checkbox",
-      "href": "https://w3c.github.io/core-aam/#checkbox",
+      "href": "https://w3c.github.io/aria/core-aam/#checkbox",
       "level": 5,
       "title": "checkbox",
-      "number": "4.4.3.12"
+      "alternateIds": [
+        "role-map-checkbox"
+      ],
+      "number": "3.4.3.12"
     },
     {
       "id": "code",
-      "href": "https://w3c.github.io/core-aam/#code",
+      "href": "https://w3c.github.io/aria/core-aam/#code",
       "level": 5,
       "title": "code",
-      "number": "4.4.3.13"
+      "alternateIds": [
+        "role-map-code"
+      ],
+      "number": "3.4.3.13"
     },
     {
       "id": "columnheader",
-      "href": "https://w3c.github.io/core-aam/#columnheader",
+      "href": "https://w3c.github.io/aria/core-aam/#columnheader",
       "level": 5,
       "title": "columnheader",
-      "number": "4.4.3.14"
+      "alternateIds": [
+        "role-map-columnheader"
+      ],
+      "number": "3.4.3.14"
     },
     {
       "id": "combobox",
-      "href": "https://w3c.github.io/core-aam/#combobox",
+      "href": "https://w3c.github.io/aria/core-aam/#combobox",
       "level": 5,
       "title": "combobox",
-      "number": "4.4.3.15"
+      "alternateIds": [
+        "role-map-combobox"
+      ],
+      "number": "3.4.3.15"
     },
     {
       "id": "comment",
-      "href": "https://w3c.github.io/core-aam/#comment",
+      "href": "https://w3c.github.io/aria/core-aam/#comment",
       "level": 5,
       "title": "comment",
-      "number": "4.4.3.16"
+      "alternateIds": [
+        "role-map-comment"
+      ],
+      "number": "3.4.3.16"
     },
     {
       "id": "complementary",
-      "href": "https://w3c.github.io/core-aam/#complementary",
+      "href": "https://w3c.github.io/aria/core-aam/#complementary",
       "level": 5,
       "title": "complementary",
-      "number": "4.4.3.17"
+      "alternateIds": [
+        "role-map-complementary"
+      ],
+      "number": "3.4.3.17"
     },
     {
       "id": "contentinfo",
-      "href": "https://w3c.github.io/core-aam/#contentinfo",
+      "href": "https://w3c.github.io/aria/core-aam/#contentinfo",
       "level": 5,
       "title": "contentinfo",
-      "number": "4.4.3.18"
+      "alternateIds": [
+        "role-map-contentinfo"
+      ],
+      "number": "3.4.3.18"
     },
     {
       "id": "definition",
-      "href": "https://w3c.github.io/core-aam/#definition",
+      "href": "https://w3c.github.io/aria/core-aam/#definition",
       "level": 5,
       "title": "definition",
-      "number": "4.4.3.19"
+      "alternateIds": [
+        "role-map-definition"
+      ],
+      "number": "3.4.3.19"
     },
     {
       "id": "deletion",
-      "href": "https://w3c.github.io/core-aam/#deletion",
+      "href": "https://w3c.github.io/aria/core-aam/#deletion",
       "level": 5,
       "title": "deletion",
-      "number": "4.4.3.20"
+      "alternateIds": [
+        "role-map-deletion"
+      ],
+      "number": "3.4.3.20"
     },
     {
       "id": "dialog",
-      "href": "https://w3c.github.io/core-aam/#dialog",
+      "href": "https://w3c.github.io/aria/core-aam/#dialog",
       "level": 5,
       "title": "dialog",
-      "number": "4.4.3.21"
+      "alternateIds": [
+        "role-map-dialog"
+      ],
+      "number": "3.4.3.21"
     },
     {
       "id": "directory-deprecated",
-      "href": "https://w3c.github.io/core-aam/#directory-deprecated",
+      "href": "https://w3c.github.io/aria/core-aam/#directory-deprecated",
       "level": 5,
       "title": "directory (deprecated)",
-      "number": "4.4.3.22"
+      "alternateIds": [
+        "role-map-directory"
+      ],
+      "number": "3.4.3.22"
     },
     {
       "id": "document",
-      "href": "https://w3c.github.io/core-aam/#document",
+      "href": "https://w3c.github.io/aria/core-aam/#document",
       "level": 5,
       "title": "document",
-      "number": "4.4.3.23"
+      "alternateIds": [
+        "role-map-document"
+      ],
+      "number": "3.4.3.23"
     },
     {
       "id": "emphasis",
-      "href": "https://w3c.github.io/core-aam/#emphasis",
+      "href": "https://w3c.github.io/aria/core-aam/#emphasis",
       "level": 5,
       "title": "emphasis",
-      "number": "4.4.3.24"
+      "alternateIds": [
+        "role-map-emphasis"
+      ],
+      "number": "3.4.3.24"
     },
     {
       "id": "feed",
-      "href": "https://w3c.github.io/core-aam/#feed",
+      "href": "https://w3c.github.io/aria/core-aam/#feed",
       "level": 5,
       "title": "feed",
-      "number": "4.4.3.25"
+      "alternateIds": [
+        "role-map-feed"
+      ],
+      "number": "3.4.3.25"
     },
     {
       "id": "figure",
-      "href": "https://w3c.github.io/core-aam/#figure",
+      "href": "https://w3c.github.io/aria/core-aam/#figure",
       "level": 5,
       "title": "figure",
-      "number": "4.4.3.26"
+      "alternateIds": [
+        "role-map-figure"
+      ],
+      "number": "3.4.3.26"
     },
     {
       "id": "form-with-an-accessible-name",
-      "href": "https://w3c.github.io/core-aam/#form-with-an-accessible-name",
+      "href": "https://w3c.github.io/aria/core-aam/#form-with-an-accessible-name",
       "level": 5,
       "title": "form with an accessible name",
-      "number": "4.4.3.27"
+      "alternateIds": [
+        "role-map-form"
+      ],
+      "number": "3.4.3.27"
     },
     {
       "id": "form-without-an-accessible-name",
-      "href": "https://w3c.github.io/core-aam/#form-without-an-accessible-name",
+      "href": "https://w3c.github.io/aria/core-aam/#form-without-an-accessible-name",
       "level": 5,
       "title": "form without an accessible name",
-      "number": "4.4.3.28"
+      "alternateIds": [
+        "role-map-form-nameless"
+      ],
+      "number": "3.4.3.28"
     },
     {
       "id": "generic",
-      "href": "https://w3c.github.io/core-aam/#generic",
+      "href": "https://w3c.github.io/aria/core-aam/#generic",
       "level": 5,
       "title": "generic",
-      "number": "4.4.3.29"
+      "alternateIds": [
+        "role-map-generic"
+      ],
+      "number": "3.4.3.29"
     },
     {
       "id": "grid",
-      "href": "https://w3c.github.io/core-aam/#grid",
+      "href": "https://w3c.github.io/aria/core-aam/#grid",
       "level": 5,
       "title": "grid",
-      "number": "4.4.3.30"
+      "alternateIds": [
+        "role-map-grid"
+      ],
+      "number": "3.4.3.30"
     },
     {
       "id": "gridcell",
-      "href": "https://w3c.github.io/core-aam/#gridcell",
+      "href": "https://w3c.github.io/aria/core-aam/#gridcell",
       "level": 5,
       "title": "gridcell",
-      "number": "4.4.3.31"
+      "alternateIds": [
+        "role-map-gridcell"
+      ],
+      "number": "3.4.3.31"
     },
     {
       "id": "group",
-      "href": "https://w3c.github.io/core-aam/#group",
+      "href": "https://w3c.github.io/aria/core-aam/#group",
       "level": 5,
       "title": "group",
-      "number": "4.4.3.32"
+      "alternateIds": [
+        "role-map-group"
+      ],
+      "number": "3.4.3.32"
     },
     {
       "id": "heading",
-      "href": "https://w3c.github.io/core-aam/#heading",
+      "href": "https://w3c.github.io/aria/core-aam/#heading",
       "level": 5,
       "title": "heading",
-      "number": "4.4.3.33"
+      "alternateIds": [
+        "role-map-heading"
+      ],
+      "number": "3.4.3.33"
     },
     {
       "id": "image",
-      "href": "https://w3c.github.io/core-aam/#image",
+      "href": "https://w3c.github.io/aria/core-aam/#image",
       "level": 5,
       "title": "image",
-      "number": "4.4.3.34"
+      "alternateIds": [
+        "role-map-image"
+      ],
+      "number": "3.4.3.34"
     },
     {
       "id": "img",
-      "href": "https://w3c.github.io/core-aam/#img",
+      "href": "https://w3c.github.io/aria/core-aam/#img",
       "level": 5,
       "title": "img",
-      "number": "4.4.3.35"
+      "alternateIds": [
+        "role-map-img"
+      ],
+      "number": "3.4.3.35"
     },
     {
       "id": "insertion",
-      "href": "https://w3c.github.io/core-aam/#insertion",
+      "href": "https://w3c.github.io/aria/core-aam/#insertion",
       "level": 5,
       "title": "insertion",
-      "number": "4.4.3.36"
+      "alternateIds": [
+        "role-map-insertion"
+      ],
+      "number": "3.4.3.36"
     },
     {
       "id": "link",
-      "href": "https://w3c.github.io/core-aam/#link",
+      "href": "https://w3c.github.io/aria/core-aam/#link",
       "level": 5,
       "title": "link",
-      "number": "4.4.3.37"
+      "alternateIds": [
+        "role-map-link"
+      ],
+      "number": "3.4.3.37"
     },
     {
       "id": "list",
-      "href": "https://w3c.github.io/core-aam/#list",
+      "href": "https://w3c.github.io/aria/core-aam/#list",
       "level": 5,
       "title": "list",
-      "number": "4.4.3.38"
+      "alternateIds": [
+        "role-map-list"
+      ],
+      "number": "3.4.3.38"
     },
     {
       "id": "listbox-without-an-accessibility-parent-of-combobox",
-      "href": "https://w3c.github.io/core-aam/#listbox-without-an-accessibility-parent-of-combobox",
+      "href": "https://w3c.github.io/aria/core-aam/#listbox-without-an-accessibility-parent-of-combobox",
       "level": 5,
       "title": "listbox without an accessibility parent of combobox",
-      "number": "4.4.3.39"
+      "alternateIds": [
+        "role-map-listbox"
+      ],
+      "number": "3.4.3.39"
     },
     {
       "id": "listbox-with-an-accessibility-parent-of-combobox",
-      "href": "https://w3c.github.io/core-aam/#listbox-with-an-accessibility-parent-of-combobox",
+      "href": "https://w3c.github.io/aria/core-aam/#listbox-with-an-accessibility-parent-of-combobox",
       "level": 5,
       "title": "listbox with an accessibility parent of combobox",
-      "number": "4.4.3.40"
+      "alternateIds": [
+        "role-map-listbox-in-combobox"
+      ],
+      "number": "3.4.3.40"
     },
     {
       "id": "listitem",
-      "href": "https://w3c.github.io/core-aam/#listitem",
+      "href": "https://w3c.github.io/aria/core-aam/#listitem",
       "level": 5,
       "title": "listitem",
-      "number": "4.4.3.41"
+      "alternateIds": [
+        "role-map-listitem"
+      ],
+      "number": "3.4.3.41"
     },
     {
       "id": "log",
-      "href": "https://w3c.github.io/core-aam/#log",
+      "href": "https://w3c.github.io/aria/core-aam/#log",
       "level": 5,
       "title": "log",
-      "number": "4.4.3.42"
+      "alternateIds": [
+        "role-map-log"
+      ],
+      "number": "3.4.3.42"
     },
     {
       "id": "main",
-      "href": "https://w3c.github.io/core-aam/#main",
+      "href": "https://w3c.github.io/aria/core-aam/#main",
       "level": 5,
       "title": "main",
-      "number": "4.4.3.43"
+      "alternateIds": [
+        "role-map-main"
+      ],
+      "number": "3.4.3.43"
     },
     {
       "id": "mark",
-      "href": "https://w3c.github.io/core-aam/#mark",
+      "href": "https://w3c.github.io/aria/core-aam/#mark",
       "level": 5,
       "title": "mark",
-      "number": "4.4.3.44"
+      "alternateIds": [
+        "role-map-mark"
+      ],
+      "number": "3.4.3.44"
     },
     {
       "id": "marquee",
-      "href": "https://w3c.github.io/core-aam/#marquee",
+      "href": "https://w3c.github.io/aria/core-aam/#marquee",
       "level": 5,
       "title": "marquee",
-      "number": "4.4.3.45"
+      "alternateIds": [
+        "role-map-marquee"
+      ],
+      "number": "3.4.3.45"
     },
     {
       "id": "math",
-      "href": "https://w3c.github.io/core-aam/#math",
+      "href": "https://w3c.github.io/aria/core-aam/#math",
       "level": 5,
       "title": "math",
-      "number": "4.4.3.46"
+      "alternateIds": [
+        "role-map-math"
+      ],
+      "number": "3.4.3.46"
     },
     {
       "id": "menu",
-      "href": "https://w3c.github.io/core-aam/#menu",
+      "href": "https://w3c.github.io/aria/core-aam/#menu",
       "level": 5,
       "title": "menu",
-      "number": "4.4.3.47"
+      "alternateIds": [
+        "role-map-menu"
+      ],
+      "number": "3.4.3.47"
     },
     {
       "id": "menubar",
-      "href": "https://w3c.github.io/core-aam/#menubar",
+      "href": "https://w3c.github.io/aria/core-aam/#menubar",
       "level": 5,
       "title": "menubar",
-      "number": "4.4.3.48"
+      "alternateIds": [
+        "role-map-menubar"
+      ],
+      "number": "3.4.3.48"
     },
     {
       "id": "menuitem",
-      "href": "https://w3c.github.io/core-aam/#menuitem",
+      "href": "https://w3c.github.io/aria/core-aam/#menuitem",
       "level": 5,
       "title": "menuitem",
-      "number": "4.4.3.49"
+      "alternateIds": [
+        "role-map-menuitem"
+      ],
+      "number": "3.4.3.49"
     },
     {
       "id": "menuitemcheckbox",
-      "href": "https://w3c.github.io/core-aam/#menuitemcheckbox",
+      "href": "https://w3c.github.io/aria/core-aam/#menuitemcheckbox",
       "level": 5,
       "title": "menuitemcheckbox",
-      "number": "4.4.3.50"
+      "alternateIds": [
+        "role-map-menuitemcheckbox"
+      ],
+      "number": "3.4.3.50"
     },
     {
       "id": "menuitemradio",
-      "href": "https://w3c.github.io/core-aam/#menuitemradio",
+      "href": "https://w3c.github.io/aria/core-aam/#menuitemradio",
       "level": 5,
       "title": "menuitemradio",
-      "number": "4.4.3.51"
+      "alternateIds": [
+        "role-map-menuitemradio"
+      ],
+      "number": "3.4.3.51"
     },
     {
       "id": "meter",
-      "href": "https://w3c.github.io/core-aam/#meter",
+      "href": "https://w3c.github.io/aria/core-aam/#meter",
       "level": 5,
       "title": "meter",
-      "number": "4.4.3.52"
+      "alternateIds": [
+        "role-map-meter"
+      ],
+      "number": "3.4.3.52"
     },
     {
       "id": "navigation",
-      "href": "https://w3c.github.io/core-aam/#navigation",
+      "href": "https://w3c.github.io/aria/core-aam/#navigation",
       "level": 5,
       "title": "navigation",
-      "number": "4.4.3.53"
+      "alternateIds": [
+        "role-map-navigation"
+      ],
+      "number": "3.4.3.53"
     },
     {
       "id": "none",
-      "href": "https://w3c.github.io/core-aam/#none",
+      "href": "https://w3c.github.io/aria/core-aam/#none",
       "level": 5,
       "title": "none",
-      "number": "4.4.3.54"
+      "alternateIds": [
+        "role-map-none"
+      ],
+      "number": "3.4.3.54"
     },
     {
       "id": "note",
-      "href": "https://w3c.github.io/core-aam/#note",
+      "href": "https://w3c.github.io/aria/core-aam/#note",
       "level": 5,
       "title": "note",
-      "number": "4.4.3.55"
+      "alternateIds": [
+        "role-map-note"
+      ],
+      "number": "3.4.3.55"
     },
     {
       "id": "option-not-inside-combobox",
-      "href": "https://w3c.github.io/core-aam/#option-not-inside-combobox",
+      "href": "https://w3c.github.io/aria/core-aam/#option-not-inside-combobox",
       "level": 5,
       "title": "option not inside combobox",
-      "number": "4.4.3.56"
+      "alternateIds": [
+        "role-map-option"
+      ],
+      "number": "3.4.3.56"
     },
     {
       "id": "option-inside-combobox",
-      "href": "https://w3c.github.io/core-aam/#option-inside-combobox",
+      "href": "https://w3c.github.io/aria/core-aam/#option-inside-combobox",
       "level": 5,
       "title": "option inside combobox",
-      "number": "4.4.3.57"
+      "alternateIds": [
+        "role-map-option-in-combobox"
+      ],
+      "number": "3.4.3.57"
     },
     {
       "id": "paragraph",
-      "href": "https://w3c.github.io/core-aam/#paragraph",
+      "href": "https://w3c.github.io/aria/core-aam/#paragraph",
       "level": 5,
       "title": "paragraph",
-      "number": "4.4.3.58"
+      "alternateIds": [
+        "role-map-paragraph"
+      ],
+      "number": "3.4.3.58"
     },
     {
       "id": "presentation",
-      "href": "https://w3c.github.io/core-aam/#presentation",
+      "href": "https://w3c.github.io/aria/core-aam/#presentation",
       "level": 5,
       "title": "presentation",
-      "number": "4.4.3.59"
+      "alternateIds": [
+        "role-map-presentation"
+      ],
+      "number": "3.4.3.59"
     },
     {
       "id": "progressbar",
-      "href": "https://w3c.github.io/core-aam/#progressbar",
+      "href": "https://w3c.github.io/aria/core-aam/#progressbar",
       "level": 5,
       "title": "progressbar",
-      "number": "4.4.3.60"
+      "alternateIds": [
+        "role-map-progressbar"
+      ],
+      "number": "3.4.3.60"
     },
     {
       "id": "radio",
-      "href": "https://w3c.github.io/core-aam/#radio",
+      "href": "https://w3c.github.io/aria/core-aam/#radio",
       "level": 5,
       "title": "radio",
-      "number": "4.4.3.61"
+      "alternateIds": [
+        "role-map-radio"
+      ],
+      "number": "3.4.3.61"
     },
     {
       "id": "radiogroup",
-      "href": "https://w3c.github.io/core-aam/#radiogroup",
+      "href": "https://w3c.github.io/aria/core-aam/#radiogroup",
       "level": 5,
       "title": "radiogroup",
-      "number": "4.4.3.62"
+      "alternateIds": [
+        "role-map-radiogroup"
+      ],
+      "number": "3.4.3.62"
     },
     {
       "id": "region-with-an-accessible-name",
-      "href": "https://w3c.github.io/core-aam/#region-with-an-accessible-name",
+      "href": "https://w3c.github.io/aria/core-aam/#region-with-an-accessible-name",
       "level": 5,
       "title": "region with an accessible name",
-      "number": "4.4.3.63"
+      "alternateIds": [
+        "role-map-region"
+      ],
+      "number": "3.4.3.63"
     },
     {
       "id": "region-without-an-accessible-name",
-      "href": "https://w3c.github.io/core-aam/#region-without-an-accessible-name",
+      "href": "https://w3c.github.io/aria/core-aam/#region-without-an-accessible-name",
       "level": 5,
       "title": "region without an accessible name",
-      "number": "4.4.3.64"
+      "alternateIds": [
+        "role-map-region-nameless"
+      ],
+      "number": "3.4.3.64"
     },
     {
       "id": "row-not-inside-treegrid",
-      "href": "https://w3c.github.io/core-aam/#row-not-inside-treegrid",
+      "href": "https://w3c.github.io/aria/core-aam/#row-not-inside-treegrid",
       "level": 5,
       "title": "row not inside treegrid",
-      "number": "4.4.3.65"
+      "alternateIds": [
+        "role-map-row"
+      ],
+      "number": "3.4.3.65"
     },
     {
       "id": "row-inside-treegrid",
-      "href": "https://w3c.github.io/core-aam/#row-inside-treegrid",
+      "href": "https://w3c.github.io/aria/core-aam/#row-inside-treegrid",
       "level": 5,
       "title": "row inside treegrid",
-      "number": "4.4.3.66"
+      "alternateIds": [
+        "role-map-row-in-treegrid"
+      ],
+      "number": "3.4.3.66"
     },
     {
       "id": "rowgroup",
-      "href": "https://w3c.github.io/core-aam/#rowgroup",
+      "href": "https://w3c.github.io/aria/core-aam/#rowgroup",
       "level": 5,
       "title": "rowgroup",
-      "number": "4.4.3.67"
+      "alternateIds": [
+        "role-map-rowgroup"
+      ],
+      "number": "3.4.3.67"
     },
     {
       "id": "rowheader",
-      "href": "https://w3c.github.io/core-aam/#rowheader",
+      "href": "https://w3c.github.io/aria/core-aam/#rowheader",
       "level": 5,
       "title": "rowheader",
-      "number": "4.4.3.68"
+      "alternateIds": [
+        "role-map-rowheader"
+      ],
+      "number": "3.4.3.68"
     },
     {
       "id": "scrollbar",
-      "href": "https://w3c.github.io/core-aam/#scrollbar",
+      "href": "https://w3c.github.io/aria/core-aam/#scrollbar",
       "level": 5,
       "title": "scrollbar",
-      "number": "4.4.3.69"
+      "alternateIds": [
+        "role-map-scrollbar"
+      ],
+      "number": "3.4.3.69"
     },
     {
       "id": "search",
-      "href": "https://w3c.github.io/core-aam/#search",
+      "href": "https://w3c.github.io/aria/core-aam/#search",
       "level": 5,
       "title": "search",
-      "number": "4.4.3.70"
+      "alternateIds": [
+        "role-map-search"
+      ],
+      "number": "3.4.3.70"
     },
     {
       "id": "searchbox",
-      "href": "https://w3c.github.io/core-aam/#searchbox",
+      "href": "https://w3c.github.io/aria/core-aam/#searchbox",
       "level": 5,
       "title": "searchbox",
-      "number": "4.4.3.71"
+      "alternateIds": [
+        "role-map-searchbox"
+      ],
+      "number": "3.4.3.71"
     },
     {
       "id": "sectionfooter",
-      "href": "https://w3c.github.io/core-aam/#sectionfooter",
+      "href": "https://w3c.github.io/aria/core-aam/#sectionfooter",
       "level": 5,
       "title": "sectionfooter",
-      "number": "4.4.3.72"
+      "alternateIds": [
+        "role-map-sectionfooter"
+      ],
+      "number": "3.4.3.72"
     },
     {
       "id": "sectionheader",
-      "href": "https://w3c.github.io/core-aam/#sectionheader",
+      "href": "https://w3c.github.io/aria/core-aam/#sectionheader",
       "level": 5,
       "title": "sectionheader",
-      "number": "4.4.3.73"
+      "alternateIds": [
+        "role-map-sectionheader"
+      ],
+      "number": "3.4.3.73"
     },
     {
       "id": "separator-non-focusable",
-      "href": "https://w3c.github.io/core-aam/#separator-non-focusable",
+      "href": "https://w3c.github.io/aria/core-aam/#separator-non-focusable",
       "level": 5,
       "title": "separator (non-focusable)",
-      "number": "4.4.3.74"
+      "alternateIds": [
+        "role-map-separator"
+      ],
+      "number": "3.4.3.74"
     },
     {
       "id": "separator-focusable",
-      "href": "https://w3c.github.io/core-aam/#separator-focusable",
+      "href": "https://w3c.github.io/aria/core-aam/#separator-focusable",
       "level": 5,
       "title": "separator (focusable)",
-      "number": "4.4.3.75"
+      "alternateIds": [
+        "role-map-separator-focusable"
+      ],
+      "number": "3.4.3.75"
     },
     {
       "id": "slider",
-      "href": "https://w3c.github.io/core-aam/#slider",
+      "href": "https://w3c.github.io/aria/core-aam/#slider",
       "level": 5,
       "title": "slider",
-      "number": "4.4.3.76"
+      "alternateIds": [
+        "role-map-slider"
+      ],
+      "number": "3.4.3.76"
     },
     {
       "id": "spinbutton",
-      "href": "https://w3c.github.io/core-aam/#spinbutton",
+      "href": "https://w3c.github.io/aria/core-aam/#spinbutton",
       "level": 5,
       "title": "spinbutton",
-      "number": "4.4.3.77"
+      "alternateIds": [
+        "role-map-spinbutton"
+      ],
+      "number": "3.4.3.77"
     },
     {
       "id": "status",
-      "href": "https://w3c.github.io/core-aam/#status",
+      "href": "https://w3c.github.io/aria/core-aam/#status",
       "level": 5,
       "title": "status",
-      "number": "4.4.3.78"
+      "alternateIds": [
+        "role-map-status"
+      ],
+      "number": "3.4.3.78"
     },
     {
       "id": "strong",
-      "href": "https://w3c.github.io/core-aam/#strong",
+      "href": "https://w3c.github.io/aria/core-aam/#strong",
       "level": 5,
       "title": "strong",
-      "number": "4.4.3.79"
+      "alternateIds": [
+        "role-map-strong"
+      ],
+      "number": "3.4.3.79"
     },
     {
       "id": "subscript",
-      "href": "https://w3c.github.io/core-aam/#subscript",
+      "href": "https://w3c.github.io/aria/core-aam/#subscript",
       "level": 5,
       "title": "subscript",
-      "number": "4.4.3.80"
+      "alternateIds": [
+        "role-map-subscript"
+      ],
+      "number": "3.4.3.80"
     },
     {
       "id": "suggestion",
-      "href": "https://w3c.github.io/core-aam/#suggestion",
+      "href": "https://w3c.github.io/aria/core-aam/#suggestion",
       "level": 5,
       "title": "suggestion",
-      "number": "4.4.3.81"
+      "alternateIds": [
+        "role-map-suggestion"
+      ],
+      "number": "3.4.3.81"
     },
     {
       "id": "superscript",
-      "href": "https://w3c.github.io/core-aam/#superscript",
+      "href": "https://w3c.github.io/aria/core-aam/#superscript",
       "level": 5,
       "title": "superscript",
-      "number": "4.4.3.82"
+      "alternateIds": [
+        "role-map-superscript"
+      ],
+      "number": "3.4.3.82"
     },
     {
       "id": "switch",
-      "href": "https://w3c.github.io/core-aam/#switch",
+      "href": "https://w3c.github.io/aria/core-aam/#switch",
       "level": 5,
       "title": "switch",
-      "number": "4.4.3.83"
+      "alternateIds": [
+        "role-map-switch"
+      ],
+      "number": "3.4.3.83"
     },
     {
       "id": "tab",
-      "href": "https://w3c.github.io/core-aam/#tab",
+      "href": "https://w3c.github.io/aria/core-aam/#tab",
       "level": 5,
       "title": "tab",
-      "number": "4.4.3.84"
+      "alternateIds": [
+        "role-map-tab"
+      ],
+      "number": "3.4.3.84"
     },
     {
       "id": "table",
-      "href": "https://w3c.github.io/core-aam/#table",
+      "href": "https://w3c.github.io/aria/core-aam/#table",
       "level": 5,
       "title": "table",
-      "number": "4.4.3.85"
+      "alternateIds": [
+        "role-map-table"
+      ],
+      "number": "3.4.3.85"
     },
     {
       "id": "tablist",
-      "href": "https://w3c.github.io/core-aam/#tablist",
+      "href": "https://w3c.github.io/aria/core-aam/#tablist",
       "level": 5,
       "title": "tablist",
-      "number": "4.4.3.86"
+      "alternateIds": [
+        "role-map-tablist"
+      ],
+      "number": "3.4.3.86"
     },
     {
       "id": "tabpanel",
-      "href": "https://w3c.github.io/core-aam/#tabpanel",
+      "href": "https://w3c.github.io/aria/core-aam/#tabpanel",
       "level": 5,
       "title": "tabpanel",
-      "number": "4.4.3.87"
+      "alternateIds": [
+        "role-map-tabpanel"
+      ],
+      "number": "3.4.3.87"
     },
     {
       "id": "term",
-      "href": "https://w3c.github.io/core-aam/#term",
+      "href": "https://w3c.github.io/aria/core-aam/#term",
       "level": 5,
       "title": "term",
-      "number": "4.4.3.88"
+      "alternateIds": [
+        "role-map-term"
+      ],
+      "number": "3.4.3.88"
     },
     {
       "id": "textbox-when-aria-multiline-is-false",
-      "href": "https://w3c.github.io/core-aam/#textbox-when-aria-multiline-is-false",
+      "href": "https://w3c.github.io/aria/core-aam/#textbox-when-aria-multiline-is-false",
       "level": 5,
       "title": "textbox when aria-multiline is false",
-      "number": "4.4.3.89"
+      "alternateIds": [
+        "role-map-textbox"
+      ],
+      "number": "3.4.3.89"
     },
     {
       "id": "textbox-when-aria-multiline-is-true",
-      "href": "https://w3c.github.io/core-aam/#textbox-when-aria-multiline-is-true",
+      "href": "https://w3c.github.io/aria/core-aam/#textbox-when-aria-multiline-is-true",
       "level": 5,
       "title": "textbox when aria-multiline is true",
-      "number": "4.4.3.90"
+      "alternateIds": [
+        "role-map-textbox-multiline"
+      ],
+      "number": "3.4.3.90"
     },
     {
       "id": "time",
-      "href": "https://w3c.github.io/core-aam/#time",
+      "href": "https://w3c.github.io/aria/core-aam/#time",
       "level": 5,
       "title": "time",
-      "number": "4.4.3.91"
+      "alternateIds": [
+        "role-map-time"
+      ],
+      "number": "3.4.3.91"
     },
     {
       "id": "timer",
-      "href": "https://w3c.github.io/core-aam/#timer",
+      "href": "https://w3c.github.io/aria/core-aam/#timer",
       "level": 5,
       "title": "timer",
-      "number": "4.4.3.92"
+      "alternateIds": [
+        "role-map-timer"
+      ],
+      "number": "3.4.3.92"
     },
     {
       "id": "toolbar",
-      "href": "https://w3c.github.io/core-aam/#toolbar",
+      "href": "https://w3c.github.io/aria/core-aam/#toolbar",
       "level": 5,
       "title": "toolbar",
-      "number": "4.4.3.93"
+      "alternateIds": [
+        "role-map-toolbar"
+      ],
+      "number": "3.4.3.93"
     },
     {
       "id": "tooltip",
-      "href": "https://w3c.github.io/core-aam/#tooltip",
+      "href": "https://w3c.github.io/aria/core-aam/#tooltip",
       "level": 5,
       "title": "tooltip",
-      "number": "4.4.3.94"
+      "alternateIds": [
+        "role-map-tooltip"
+      ],
+      "number": "3.4.3.94"
     },
     {
       "id": "tree",
-      "href": "https://w3c.github.io/core-aam/#tree",
+      "href": "https://w3c.github.io/aria/core-aam/#tree",
       "level": 5,
       "title": "tree",
-      "number": "4.4.3.95"
+      "alternateIds": [
+        "role-map-tree"
+      ],
+      "number": "3.4.3.95"
     },
     {
       "id": "treegrid",
-      "href": "https://w3c.github.io/core-aam/#treegrid",
+      "href": "https://w3c.github.io/aria/core-aam/#treegrid",
       "level": 5,
       "title": "treegrid",
-      "number": "4.4.3.96"
+      "alternateIds": [
+        "role-map-treegrid"
+      ],
+      "number": "3.4.3.96"
     },
     {
       "id": "treeitem",
-      "href": "https://w3c.github.io/core-aam/#treeitem",
+      "href": "https://w3c.github.io/aria/core-aam/#treeitem",
       "level": 5,
       "title": "treeitem",
-      "number": "4.4.3.97"
+      "alternateIds": [
+        "role-map-treeitem"
+      ],
+      "number": "3.4.3.97"
     },
     {
       "id": "mapping_state-property",
-      "href": "https://w3c.github.io/core-aam/#mapping_state-property",
+      "href": "https://w3c.github.io/aria/core-aam/#mapping_state-property",
       "level": 3,
       "title": "State and Property Mapping",
-      "number": "4.5"
+      "alternateIds": [
+        "x3-5-state-and-property-mapping"
+      ],
+      "number": "3.5"
     },
     {
       "id": "statePropertyMappingGeneralRules",
-      "href": "https://w3c.github.io/core-aam/#statePropertyMappingGeneralRules",
+      "href": "https://w3c.github.io/aria/core-aam/#statePropertyMappingGeneralRules",
       "level": 4,
       "title": "General rules",
-      "number": "4.5.1"
+      "alternateIds": [
+        "x3-5-1-general-rules"
+      ],
+      "number": "3.5.1"
     },
     {
       "id": "mapping_state-property_table",
-      "href": "https://w3c.github.io/core-aam/#mapping_state-property_table",
+      "href": "https://w3c.github.io/aria/core-aam/#mapping_state-property_table",
       "level": 4,
       "title": "State and Property Mapping Tables",
-      "number": "4.5.2"
+      "alternateIds": [
+        "x3-5-2-state-and-property-mapping-tables"
+      ],
+      "number": "3.5.2"
     },
     {
       "id": "not_mapped",
-      "href": "https://w3c.github.io/core-aam/#not_mapped",
+      "href": "https://w3c.github.io/aria/core-aam/#not_mapped",
       "level": 5,
       "title": "Not Mapped",
-      "number": "4.5.2.1"
+      "alternateIds": [
+        "x3-5-2-1-not-mapped"
+      ],
+      "number": "3.5.2.1"
     },
     {
       "id": "aria-activedescendant",
-      "href": "https://w3c.github.io/core-aam/#aria-activedescendant",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-activedescendant",
       "level": 5,
       "title": "aria-activedescendant",
-      "number": "4.5.2.2"
+      "alternateIds": [
+        "ariaActiveDescendant"
+      ],
+      "number": "3.5.2.2"
     },
     {
       "id": "aria-atomic-true",
-      "href": "https://w3c.github.io/core-aam/#aria-atomic-true",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-atomic-true",
       "level": 5,
       "title": "aria-atomic=true",
-      "number": "4.5.2.3"
+      "alternateIds": [
+        "ariaAtomicTrue"
+      ],
+      "number": "3.5.2.3"
     },
     {
       "id": "aria-atomic-false",
-      "href": "https://w3c.github.io/core-aam/#aria-atomic-false",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-atomic-false",
       "level": 5,
       "title": "aria-atomic=false",
-      "number": "4.5.2.4"
+      "alternateIds": [
+        "ariaAtomicFalse"
+      ],
+      "number": "3.5.2.4"
     },
     {
       "id": "aria-autocomplete-inline-list-or-both",
-      "href": "https://w3c.github.io/core-aam/#aria-autocomplete-inline-list-or-both",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-autocomplete-inline-list-or-both",
       "level": 5,
       "title": "aria-autocomplete=inline, list, or both",
-      "number": "4.5.2.5"
+      "alternateIds": [
+        "ariaAutocompleteInlineListBoth"
+      ],
+      "number": "3.5.2.5"
     },
     {
       "id": "aria-autocomplete-none",
-      "href": "https://w3c.github.io/core-aam/#aria-autocomplete-none",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-autocomplete-none",
       "level": 5,
       "title": "aria-autocomplete=none",
-      "number": "4.5.2.6"
+      "alternateIds": [
+        "ariaAutocompleteNone"
+      ],
+      "number": "3.5.2.6"
     },
     {
       "id": "aria-braillelabel",
-      "href": "https://w3c.github.io/core-aam/#aria-braillelabel",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-braillelabel",
       "level": 5,
       "title": "aria-braillelabel",
-      "number": "4.5.2.7"
+      "alternateIds": [
+        "ariaBraillelabel"
+      ],
+      "number": "3.5.2.7"
     },
     {
       "id": "aria-brailleroledescription",
-      "href": "https://w3c.github.io/core-aam/#aria-brailleroledescription",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-brailleroledescription",
       "level": 5,
       "title": "aria-brailleroledescription",
-      "number": "4.5.2.8"
+      "alternateIds": [
+        "ariaBrailleroledescription"
+      ],
+      "number": "3.5.2.8"
     },
     {
       "id": "aria-brailleroledescription-is-undefined-or-the-empty-string",
-      "href": "https://w3c.github.io/core-aam/#aria-brailleroledescription-is-undefined-or-the-empty-string",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-brailleroledescription-is-undefined-or-the-empty-string",
       "level": 5,
       "title": "aria-brailleroledescription is undefined or the empty string",
-      "number": "4.5.2.9"
+      "alternateIds": [
+        "ariaBrailleroledescriptionUndefined"
+      ],
+      "number": "3.5.2.9"
     },
     {
       "id": "aria-busy-true",
-      "href": "https://w3c.github.io/core-aam/#aria-busy-true",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-busy-true",
       "level": 5,
       "title": "aria-busy=true",
-      "number": "4.5.2.10"
+      "alternateIds": [
+        "ariaBusyTrue"
+      ],
+      "number": "3.5.2.10"
     },
     {
       "id": "aria-busy-false",
-      "href": "https://w3c.github.io/core-aam/#aria-busy-false",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-busy-false",
       "level": 5,
       "title": "aria-busy=false",
-      "number": "4.5.2.11"
+      "alternateIds": [
+        "ariaBusyFalse"
+      ],
+      "number": "3.5.2.11"
     },
     {
       "id": "aria-checked-true",
-      "href": "https://w3c.github.io/core-aam/#aria-checked-true",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-checked-true",
       "level": 5,
       "title": "aria-checked=true",
-      "number": "4.5.2.12"
+      "alternateIds": [
+        "ariaCheckedTrue"
+      ],
+      "number": "3.5.2.12"
     },
     {
       "id": "aria-checked-false",
-      "href": "https://w3c.github.io/core-aam/#aria-checked-false",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-checked-false",
       "level": 5,
       "title": "aria-checked=false",
-      "number": "4.5.2.13"
+      "alternateIds": [
+        "ariaCheckedFalse"
+      ],
+      "number": "3.5.2.13"
     },
     {
       "id": "aria-checked-mixed",
-      "href": "https://w3c.github.io/core-aam/#aria-checked-mixed",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-checked-mixed",
       "level": 5,
       "title": "aria-checked=mixed",
-      "number": "4.5.2.14"
+      "alternateIds": [
+        "ariaCheckedMixed"
+      ],
+      "number": "3.5.2.14"
     },
     {
       "id": "aria-checked-is-undefined",
-      "href": "https://w3c.github.io/core-aam/#aria-checked-is-undefined",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-checked-is-undefined",
       "level": 5,
       "title": "aria-checked is undefined",
-      "number": "4.5.2.15"
+      "alternateIds": [
+        "ariaCheckedUndefined"
+      ],
+      "number": "3.5.2.15"
     },
     {
       "id": "aria-colcount",
-      "href": "https://w3c.github.io/core-aam/#aria-colcount",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-colcount",
       "level": 5,
       "title": "aria-colcount",
-      "number": "4.5.2.16"
+      "alternateIds": [
+        "ariaColCount"
+      ],
+      "number": "3.5.2.16"
     },
     {
       "id": "aria-colindex",
-      "href": "https://w3c.github.io/core-aam/#aria-colindex",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-colindex",
       "level": 5,
       "title": "aria-colindex",
-      "number": "4.5.2.17"
+      "alternateIds": [
+        "ariaColIndex"
+      ],
+      "number": "3.5.2.17"
     },
     {
       "id": "aria-colindextext",
-      "href": "https://w3c.github.io/core-aam/#aria-colindextext",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-colindextext",
       "level": 5,
       "title": "aria-colindextext",
-      "number": "4.5.2.18"
+      "alternateIds": [
+        "ariaColIndexText"
+      ],
+      "number": "3.5.2.18"
     },
     {
       "id": "aria-colspan",
-      "href": "https://w3c.github.io/core-aam/#aria-colspan",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-colspan",
       "level": 5,
       "title": "aria-colspan",
-      "number": "4.5.2.19"
+      "alternateIds": [
+        "ariaColSpan"
+      ],
+      "number": "3.5.2.19"
     },
     {
       "id": "aria-controls",
-      "href": "https://w3c.github.io/core-aam/#aria-controls",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-controls",
       "level": 5,
       "title": "aria-controls",
-      "number": "4.5.2.20"
+      "alternateIds": [
+        "ariaControls"
+      ],
+      "number": "3.5.2.20"
     },
     {
       "id": "aria-current-with-non-false-allowed-value",
-      "href": "https://w3c.github.io/core-aam/#aria-current-with-non-false-allowed-value",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-current-with-non-false-allowed-value",
       "level": 5,
       "title": "aria-current with non-false allowed value",
-      "number": "4.5.2.21"
+      "alternateIds": [
+        "ariaCurrent"
+      ],
+      "number": "3.5.2.21"
     },
     {
       "id": "aria-current-with-unrecognized-value",
-      "href": "https://w3c.github.io/core-aam/#aria-current-with-unrecognized-value",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-current-with-unrecognized-value",
       "level": 5,
       "title": "aria-current with unrecognized value",
-      "number": "4.5.2.22"
+      "alternateIds": [
+        "ariaCurrentUnrecognizedValue"
+      ],
+      "number": "3.5.2.22"
     },
     {
       "id": "aria-current-is-false-or-undefined",
-      "href": "https://w3c.github.io/core-aam/#aria-current-is-false-or-undefined",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-current-is-false-or-undefined",
       "level": 5,
       "title": "aria-current is false or undefined",
-      "number": "4.5.2.23"
+      "alternateIds": [
+        "ariaCurrentUndefined"
+      ],
+      "number": "3.5.2.23"
     },
     {
       "id": "aria-describedby",
-      "href": "https://w3c.github.io/core-aam/#aria-describedby",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-describedby",
       "level": 5,
       "title": "aria-describedby",
-      "number": "4.5.2.24"
+      "alternateIds": [
+        "ariaDescribedBy"
+      ],
+      "number": "3.5.2.24"
     },
     {
       "id": "aria-description",
-      "href": "https://w3c.github.io/core-aam/#aria-description",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-description",
       "level": 5,
       "title": "aria-description",
-      "number": "4.5.2.25"
+      "alternateIds": [
+        "ariaDescription"
+      ],
+      "number": "3.5.2.25"
     },
     {
       "id": "aria-details",
-      "href": "https://w3c.github.io/core-aam/#aria-details",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-details",
       "level": 5,
       "title": "aria-details",
-      "number": "4.5.2.26"
+      "alternateIds": [
+        "ariaDetails"
+      ],
+      "number": "3.5.2.26"
     },
     {
       "id": "aria-disabled-true",
-      "href": "https://w3c.github.io/core-aam/#aria-disabled-true",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-disabled-true",
       "level": 5,
       "title": "aria-disabled=true",
-      "number": "4.5.2.27"
+      "alternateIds": [
+        "ariaDisabledTrue"
+      ],
+      "number": "3.5.2.27"
     },
     {
       "id": "aria-disabled-false",
-      "href": "https://w3c.github.io/core-aam/#aria-disabled-false",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-disabled-false",
       "level": 5,
       "title": "aria-disabled=false",
-      "number": "4.5.2.28"
+      "alternateIds": [
+        "ariaDisabledFalse"
+      ],
+      "number": "3.5.2.28"
     },
     {
-      "id": "aria-dropeffect-copy-move-link-execute-or-popup",
-      "href": "https://w3c.github.io/core-aam/#aria-dropeffect-copy-move-link-execute-or-popup",
+      "id": "aria-dropeffect-copy-move-link-execute-or-popup-deprecated",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-dropeffect-copy-move-link-execute-or-popup-deprecated",
       "level": 5,
-      "title": "aria-dropeffect=copy, move, link, execute, or popup",
-      "number": "4.5.2.29"
+      "title": "aria-dropeffect=copy, move, link, execute, or popup (deprecated)",
+      "alternateIds": [
+        "ariaDropeffectMoveLinkExecutePopup"
+      ],
+      "number": "3.5.2.29"
     },
     {
-      "id": "aria-dropeffect-none",
-      "href": "https://w3c.github.io/core-aam/#aria-dropeffect-none",
+      "id": "aria-dropeffect-none-deprecated",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-dropeffect-none-deprecated",
       "level": 5,
-      "title": "aria-dropeffect=none",
-      "number": "4.5.2.30"
+      "title": "aria-dropeffect=none (deprecated)",
+      "alternateIds": [
+        "ariaDropeffectNone"
+      ],
+      "number": "3.5.2.30"
     },
     {
       "id": "aria-errormessage",
-      "href": "https://w3c.github.io/core-aam/#aria-errormessage",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-errormessage",
       "level": 5,
       "title": "aria-errormessage",
-      "number": "4.5.2.31"
+      "alternateIds": [
+        "ariaErrorMessage"
+      ],
+      "number": "3.5.2.31"
     },
     {
       "id": "aria-expanded-true",
-      "href": "https://w3c.github.io/core-aam/#aria-expanded-true",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-expanded-true",
       "level": 5,
       "title": "aria-expanded=true",
-      "number": "4.5.2.32"
+      "alternateIds": [
+        "ariaExpandedTrue"
+      ],
+      "number": "3.5.2.32"
     },
     {
       "id": "aria-expanded-false",
-      "href": "https://w3c.github.io/core-aam/#aria-expanded-false",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-expanded-false",
       "level": 5,
       "title": "aria-expanded=false",
-      "number": "4.5.2.33"
+      "alternateIds": [
+        "ariaExpandedFalse"
+      ],
+      "number": "3.5.2.33"
     },
     {
       "id": "aria-expanded-is-undefined",
-      "href": "https://w3c.github.io/core-aam/#aria-expanded-is-undefined",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-expanded-is-undefined",
       "level": 5,
       "title": "aria-expanded is undefined",
-      "number": "4.5.2.34"
+      "alternateIds": [
+        "ariaExpandedUndefined"
+      ],
+      "number": "3.5.2.34"
     },
     {
       "id": "aria-flowto",
-      "href": "https://w3c.github.io/core-aam/#aria-flowto",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-flowto",
       "level": 5,
       "title": "aria-flowto",
-      "number": "4.5.2.35"
+      "alternateIds": [
+        "ariaFlowto"
+      ],
+      "number": "3.5.2.35"
     },
     {
       "id": "aria-grabbed-true",
-      "href": "https://w3c.github.io/core-aam/#aria-grabbed-true",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-grabbed-true",
       "level": 5,
       "title": "aria-grabbed=true",
-      "number": "4.5.2.36"
+      "alternateIds": [
+        "ariaGrabbedTrue"
+      ],
+      "number": "3.5.2.36"
     },
     {
       "id": "aria-grabbed-false",
-      "href": "https://w3c.github.io/core-aam/#aria-grabbed-false",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-grabbed-false",
       "level": 5,
       "title": "aria-grabbed=false",
-      "number": "4.5.2.37"
+      "alternateIds": [
+        "ariaGrabbedFalse"
+      ],
+      "number": "3.5.2.37"
     },
     {
       "id": "aria-grabbed-is-undefined",
-      "href": "https://w3c.github.io/core-aam/#aria-grabbed-is-undefined",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-grabbed-is-undefined",
       "level": 5,
       "title": "aria-grabbed is undefined",
-      "number": "4.5.2.38"
+      "alternateIds": [
+        "ariaGrabbedUndefined"
+      ],
+      "number": "3.5.2.38"
     },
     {
       "id": "aria-haspopup-true",
-      "href": "https://w3c.github.io/core-aam/#aria-haspopup-true",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-haspopup-true",
       "level": 5,
       "title": "aria-haspopup=true",
-      "number": "4.5.2.39"
+      "alternateIds": [
+        "ariaHaspopupTrue"
+      ],
+      "number": "3.5.2.39"
     },
     {
       "id": "aria-haspopup-false",
-      "href": "https://w3c.github.io/core-aam/#aria-haspopup-false",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-haspopup-false",
       "level": 5,
       "title": "aria-haspopup=false",
-      "number": "4.5.2.40"
+      "alternateIds": [
+        "ariaHaspopupFalse"
+      ],
+      "number": "3.5.2.40"
     },
     {
       "id": "aria-haspopup-dialog",
-      "href": "https://w3c.github.io/core-aam/#aria-haspopup-dialog",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-haspopup-dialog",
       "level": 5,
       "title": "aria-haspopup=dialog",
-      "number": "4.5.2.41"
+      "alternateIds": [
+        "ariaHaspopupDialog"
+      ],
+      "number": "3.5.2.41"
     },
     {
       "id": "aria-haspopup-grid",
-      "href": "https://w3c.github.io/core-aam/#aria-haspopup-grid",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-haspopup-grid",
       "level": 5,
       "title": "aria-haspopup=grid",
-      "number": "4.5.2.42"
+      "alternateIds": [
+        "ariaHaspopupGrid"
+      ],
+      "number": "3.5.2.42"
     },
     {
       "id": "aria-haspopup-listbox",
-      "href": "https://w3c.github.io/core-aam/#aria-haspopup-listbox",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-haspopup-listbox",
       "level": 5,
       "title": "aria-haspopup=listbox",
-      "number": "4.5.2.43"
+      "alternateIds": [
+        "ariaHaspopupListbox"
+      ],
+      "number": "3.5.2.43"
     },
     {
       "id": "aria-haspopup-menu",
-      "href": "https://w3c.github.io/core-aam/#aria-haspopup-menu",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-haspopup-menu",
       "level": 5,
       "title": "aria-haspopup=menu",
-      "number": "4.5.2.44"
+      "alternateIds": [
+        "ariaHaspopupMenu"
+      ],
+      "number": "3.5.2.44"
     },
     {
       "id": "aria-haspopup-tree",
-      "href": "https://w3c.github.io/core-aam/#aria-haspopup-tree",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-haspopup-tree",
       "level": 5,
       "title": "aria-haspopup=tree",
-      "number": "4.5.2.45"
+      "alternateIds": [
+        "ariaHaspopupTree"
+      ],
+      "number": "3.5.2.45"
     },
     {
       "id": "aria-hidden-true-on-unfocused-element",
-      "href": "https://w3c.github.io/core-aam/#aria-hidden-true-on-unfocused-element",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-hidden-true-on-unfocused-element",
       "level": 5,
       "title": "aria-hidden=true on unfocused element",
-      "number": "4.5.2.46"
+      "alternateIds": [
+        "ariaHiddenTrue"
+      ],
+      "number": "3.5.2.46"
     },
     {
       "id": "aria-hidden-true-when-element-is-focused-or-fires-an-accessibility-event",
-      "href": "https://w3c.github.io/core-aam/#aria-hidden-true-when-element-is-focused-or-fires-an-accessibility-event",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-hidden-true-when-element-is-focused-or-fires-an-accessibility-event",
       "level": 5,
       "title": "aria-hidden=true when element is focused or fires an accessibility event",
-      "number": "4.5.2.47"
+      "alternateIds": [
+        "ariaHiddenTrueElementExposed"
+      ],
+      "number": "3.5.2.47"
     },
     {
       "id": "aria-hidden-false",
-      "href": "https://w3c.github.io/core-aam/#aria-hidden-false",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-hidden-false",
       "level": 5,
       "title": "aria-hidden=false",
-      "number": "4.5.2.48"
+      "alternateIds": [
+        "ariaHiddenFalse"
+      ],
+      "number": "3.5.2.48"
     },
     {
       "id": "aria-invalid-true",
-      "href": "https://w3c.github.io/core-aam/#aria-invalid-true",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-invalid-true",
       "level": 5,
       "title": "aria-invalid=true",
-      "number": "4.5.2.49"
+      "alternateIds": [
+        "ariaInvalidTrue"
+      ],
+      "number": "3.5.2.49"
     },
     {
       "id": "aria-invalid-false",
-      "href": "https://w3c.github.io/core-aam/#aria-invalid-false",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-invalid-false",
       "level": 5,
       "title": "aria-invalid=false",
-      "number": "4.5.2.50"
+      "alternateIds": [
+        "ariaInvalidFalse"
+      ],
+      "number": "3.5.2.50"
     },
     {
       "id": "aria-invalid-spelling-or-grammar",
-      "href": "https://w3c.github.io/core-aam/#aria-invalid-spelling-or-grammar",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-invalid-spelling-or-grammar",
       "level": 5,
       "title": "aria-invalid=spelling or grammar",
-      "number": "4.5.2.51"
+      "alternateIds": [
+        "ariaInvalidSpellingGrammar"
+      ],
+      "number": "3.5.2.51"
     },
     {
       "id": "aria-invalid-with-unrecognized-value",
-      "href": "https://w3c.github.io/core-aam/#aria-invalid-with-unrecognized-value",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-invalid-with-unrecognized-value",
       "level": 5,
       "title": "aria-invalid with unrecognized value",
-      "number": "4.5.2.52"
+      "alternateIds": [
+        "ariaInvalidUnrecognizedValue"
+      ],
+      "number": "3.5.2.52"
     },
     {
       "id": "aria-keyshortcuts",
-      "href": "https://w3c.github.io/core-aam/#aria-keyshortcuts",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-keyshortcuts",
       "level": 5,
       "title": "aria-keyshortcuts",
-      "number": "4.5.2.53"
+      "alternateIds": [
+        "ariaKeyshortcuts"
+      ],
+      "number": "3.5.2.53"
     },
     {
       "id": "aria-label",
-      "href": "https://w3c.github.io/core-aam/#aria-label",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-label",
       "level": 5,
       "title": "aria-label",
-      "number": "4.5.2.54"
+      "alternateIds": [
+        "ariaLabel"
+      ],
+      "number": "3.5.2.54"
     },
     {
       "id": "aria-labelledby",
-      "href": "https://w3c.github.io/core-aam/#aria-labelledby",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-labelledby",
       "level": 5,
       "title": "aria-labelledby",
-      "number": "4.5.2.55"
+      "alternateIds": [
+        "ariaLabelledBy"
+      ],
+      "number": "3.5.2.55"
     },
     {
       "id": "aria-level-on-non-heading",
-      "href": "https://w3c.github.io/core-aam/#aria-level-on-non-heading",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-level-on-non-heading",
       "level": 5,
       "title": "aria-level on non-heading",
-      "number": "4.5.2.56"
+      "alternateIds": [
+        "ariaLevel"
+      ],
+      "number": "3.5.2.56"
     },
     {
       "id": "aria-level-on-heading",
-      "href": "https://w3c.github.io/core-aam/#aria-level-on-heading",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-level-on-heading",
       "level": 5,
       "title": "aria-level on heading",
-      "number": "4.5.2.57"
+      "alternateIds": [
+        "ariaLevelHeading"
+      ],
+      "number": "3.5.2.57"
     },
     {
       "id": "aria-live-assertive",
-      "href": "https://w3c.github.io/core-aam/#aria-live-assertive",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-live-assertive",
       "level": 5,
       "title": "aria-live=assertive",
-      "number": "4.5.2.58"
+      "alternateIds": [
+        "ariaLiveAssertive"
+      ],
+      "number": "3.5.2.58"
     },
     {
       "id": "aria-live-polite",
-      "href": "https://w3c.github.io/core-aam/#aria-live-polite",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-live-polite",
       "level": 5,
       "title": "aria-live=polite",
-      "number": "4.5.2.59"
+      "alternateIds": [
+        "ariaLivePolite"
+      ],
+      "number": "3.5.2.59"
     },
     {
       "id": "aria-live-off",
-      "href": "https://w3c.github.io/core-aam/#aria-live-off",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-live-off",
       "level": 5,
       "title": "aria-live=off",
-      "number": "4.5.2.60"
+      "alternateIds": [
+        "ariaLiveOff"
+      ],
+      "number": "3.5.2.60"
     },
     {
       "id": "aria-modal-true",
-      "href": "https://w3c.github.io/core-aam/#aria-modal-true",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-modal-true",
       "level": 5,
       "title": "aria-modal=true",
-      "number": "4.5.2.61"
+      "alternateIds": [
+        "ariaModalTrue"
+      ],
+      "number": "3.5.2.61"
     },
     {
       "id": "aria-modal-false",
-      "href": "https://w3c.github.io/core-aam/#aria-modal-false",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-modal-false",
       "level": 5,
       "title": "aria-modal=false",
-      "number": "4.5.2.62"
+      "alternateIds": [
+        "ariaModalFalse"
+      ],
+      "number": "3.5.2.62"
     },
     {
       "id": "aria-multiline-true",
-      "href": "https://w3c.github.io/core-aam/#aria-multiline-true",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-multiline-true",
       "level": 5,
       "title": "aria-multiline=true",
-      "number": "4.5.2.63"
+      "alternateIds": [
+        "ariaMultilineTrue"
+      ],
+      "number": "3.5.2.63"
     },
     {
       "id": "aria-multiline-false",
-      "href": "https://w3c.github.io/core-aam/#aria-multiline-false",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-multiline-false",
       "level": 5,
       "title": "aria-multiline=false",
-      "number": "4.5.2.64"
+      "alternateIds": [
+        "ariaMultilineFalse"
+      ],
+      "number": "3.5.2.64"
     },
     {
       "id": "aria-multiselectable-true",
-      "href": "https://w3c.github.io/core-aam/#aria-multiselectable-true",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-multiselectable-true",
       "level": 5,
       "title": "aria-multiselectable=true",
-      "number": "4.5.2.65"
+      "alternateIds": [
+        "ariaMultiselectableTrue"
+      ],
+      "number": "3.5.2.65"
     },
     {
       "id": "aria-multiselectable-false",
-      "href": "https://w3c.github.io/core-aam/#aria-multiselectable-false",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-multiselectable-false",
       "level": 5,
       "title": "aria-multiselectable=false",
-      "number": "4.5.2.66"
+      "alternateIds": [
+        "ariaMultiselectableFalse"
+      ],
+      "number": "3.5.2.66"
     },
     {
       "id": "aria-orientation-horizontal",
-      "href": "https://w3c.github.io/core-aam/#aria-orientation-horizontal",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-orientation-horizontal",
       "level": 5,
       "title": "aria-orientation=horizontal",
-      "number": "4.5.2.67"
+      "alternateIds": [
+        "ariaOrientationHorizontal"
+      ],
+      "number": "3.5.2.67"
     },
     {
       "id": "aria-orientation-vertical",
-      "href": "https://w3c.github.io/core-aam/#aria-orientation-vertical",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-orientation-vertical",
       "level": 5,
       "title": "aria-orientation=vertical",
-      "number": "4.5.2.68"
+      "alternateIds": [
+        "ariaOrientationVertical"
+      ],
+      "number": "3.5.2.68"
     },
     {
       "id": "aria-orientation-is-undefined",
-      "href": "https://w3c.github.io/core-aam/#aria-orientation-is-undefined",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-orientation-is-undefined",
       "level": 5,
       "title": "aria-orientation is undefined",
-      "number": "4.5.2.69"
+      "alternateIds": [
+        "ariaOrientationUndefined"
+      ],
+      "number": "3.5.2.69"
     },
     {
       "id": "aria-owns",
-      "href": "https://w3c.github.io/core-aam/#aria-owns",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-owns",
       "level": 5,
       "title": "aria-owns",
-      "number": "4.5.2.70"
+      "alternateIds": [
+        "ariaOwns"
+      ],
+      "number": "3.5.2.70"
     },
     {
       "id": "aria-placeholder",
-      "href": "https://w3c.github.io/core-aam/#aria-placeholder",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-placeholder",
       "level": 5,
       "title": "aria-placeholder",
-      "number": "4.5.2.71"
+      "alternateIds": [
+        "ariaPlaceholder"
+      ],
+      "number": "3.5.2.71"
     },
     {
       "id": "aria-posinset",
-      "href": "https://w3c.github.io/core-aam/#aria-posinset",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-posinset",
       "level": 5,
       "title": "aria-posinset",
-      "number": "4.5.2.72"
+      "alternateIds": [
+        "ariaPosinset"
+      ],
+      "number": "3.5.2.72"
     },
     {
       "id": "aria-pressed-true",
-      "href": "https://w3c.github.io/core-aam/#aria-pressed-true",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-pressed-true",
       "level": 5,
       "title": "aria-pressed=true",
-      "number": "4.5.2.73"
+      "alternateIds": [
+        "ariaPressedTrue"
+      ],
+      "number": "3.5.2.73"
     },
     {
       "id": "aria-pressed-mixed",
-      "href": "https://w3c.github.io/core-aam/#aria-pressed-mixed",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-pressed-mixed",
       "level": 5,
       "title": "aria-pressed=mixed",
-      "number": "4.5.2.74"
+      "alternateIds": [
+        "ariaPressedMixed"
+      ],
+      "number": "3.5.2.74"
     },
     {
       "id": "aria-pressed-false",
-      "href": "https://w3c.github.io/core-aam/#aria-pressed-false",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-pressed-false",
       "level": 5,
       "title": "aria-pressed=false",
-      "number": "4.5.2.75"
+      "alternateIds": [
+        "ariaPressedFalse"
+      ],
+      "number": "3.5.2.75"
     },
     {
       "id": "aria-pressed-is-undefined",
-      "href": "https://w3c.github.io/core-aam/#aria-pressed-is-undefined",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-pressed-is-undefined",
       "level": 5,
       "title": "aria-pressed is undefined",
-      "number": "4.5.2.76"
+      "alternateIds": [
+        "ariaPressedUndefined"
+      ],
+      "number": "3.5.2.76"
     },
     {
       "id": "aria-readonly-true",
-      "href": "https://w3c.github.io/core-aam/#aria-readonly-true",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-readonly-true",
       "level": 5,
       "title": "aria-readonly=true",
-      "number": "4.5.2.77"
+      "alternateIds": [
+        "ariaReadonlyTrue"
+      ],
+      "number": "3.5.2.77"
     },
     {
       "id": "aria-readonly-false",
-      "href": "https://w3c.github.io/core-aam/#aria-readonly-false",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-readonly-false",
       "level": 5,
       "title": "aria-readonly=false",
-      "number": "4.5.2.78"
+      "alternateIds": [
+        "ariaReadonlyFalse"
+      ],
+      "number": "3.5.2.78"
     },
     {
       "id": "aria-readonly-is-unspecified-on-gridcell",
-      "href": "https://w3c.github.io/core-aam/#aria-readonly-is-unspecified-on-gridcell",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-readonly-is-unspecified-on-gridcell",
       "level": 5,
       "title": "aria-readonly is unspecified on gridcell",
-      "number": "4.5.2.79"
+      "alternateIds": [
+        "ariaReadonlyUnspecifiedOnGridcell"
+      ],
+      "number": "3.5.2.79"
     },
     {
       "id": "aria-relevant",
-      "href": "https://w3c.github.io/core-aam/#aria-relevant",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-relevant",
       "level": 5,
       "title": "aria-relevant",
-      "number": "4.5.2.80"
+      "alternateIds": [
+        "ariaRelevant"
+      ],
+      "number": "3.5.2.80"
     },
     {
       "id": "aria-required-true",
-      "href": "https://w3c.github.io/core-aam/#aria-required-true",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-required-true",
       "level": 5,
       "title": "aria-required=true",
-      "number": "4.5.2.81"
+      "alternateIds": [
+        "ariaRequiredTrue"
+      ],
+      "number": "3.5.2.81"
     },
     {
       "id": "aria-required-false",
-      "href": "https://w3c.github.io/core-aam/#aria-required-false",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-required-false",
       "level": 5,
       "title": "aria-required=false",
-      "number": "4.5.2.82"
+      "alternateIds": [
+        "ariaRequiredFalse"
+      ],
+      "number": "3.5.2.82"
     },
     {
       "id": "aria-roledescription",
-      "href": "https://w3c.github.io/core-aam/#aria-roledescription",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-roledescription",
       "level": 5,
       "title": "aria-roledescription",
-      "number": "4.5.2.83"
+      "alternateIds": [
+        "ariaRoleDescription"
+      ],
+      "number": "3.5.2.83"
     },
     {
       "id": "aria-roledescription-is-undefined-or-the-empty-string",
-      "href": "https://w3c.github.io/core-aam/#aria-roledescription-is-undefined-or-the-empty-string",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-roledescription-is-undefined-or-the-empty-string",
       "level": 5,
       "title": "aria-roledescription is undefined or the empty string",
-      "number": "4.5.2.84"
+      "alternateIds": [
+        "ariaRoleDescriptionEmptyString"
+      ],
+      "number": "3.5.2.84"
     },
     {
       "id": "aria-rowcount",
-      "href": "https://w3c.github.io/core-aam/#aria-rowcount",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-rowcount",
       "level": 5,
       "title": "aria-rowcount",
-      "number": "4.5.2.85"
+      "alternateIds": [
+        "ariaRowCount"
+      ],
+      "number": "3.5.2.85"
     },
     {
       "id": "aria-rowindex",
-      "href": "https://w3c.github.io/core-aam/#aria-rowindex",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-rowindex",
       "level": 5,
       "title": "aria-rowindex",
-      "number": "4.5.2.86"
+      "alternateIds": [
+        "ariaRowIndex"
+      ],
+      "number": "3.5.2.86"
     },
     {
       "id": "aria-rowindextext",
-      "href": "https://w3c.github.io/core-aam/#aria-rowindextext",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-rowindextext",
       "level": 5,
       "title": "aria-rowindextext",
-      "number": "4.5.2.87"
+      "alternateIds": [
+        "ariaRowIndexText"
+      ],
+      "number": "3.5.2.87"
     },
     {
       "id": "aria-rowspan",
-      "href": "https://w3c.github.io/core-aam/#aria-rowspan",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-rowspan",
       "level": 5,
       "title": "aria-rowspan",
-      "number": "4.5.2.88"
+      "alternateIds": [
+        "ariaRowSpan"
+      ],
+      "number": "3.5.2.88"
     },
     {
       "id": "aria-selected-true",
-      "href": "https://w3c.github.io/core-aam/#aria-selected-true",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-selected-true",
       "level": 5,
       "title": "aria-selected=true",
-      "number": "4.5.2.89"
+      "alternateIds": [
+        "ariaSelectedTrue"
+      ],
+      "number": "3.5.2.89"
     },
     {
       "id": "aria-selected-false",
-      "href": "https://w3c.github.io/core-aam/#aria-selected-false",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-selected-false",
       "level": 5,
       "title": "aria-selected=false",
-      "number": "4.5.2.90"
+      "alternateIds": [
+        "ariaSelectedFalse"
+      ],
+      "number": "3.5.2.90"
     },
     {
       "id": "aria-selected-is-undefined",
-      "href": "https://w3c.github.io/core-aam/#aria-selected-is-undefined",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-selected-is-undefined",
       "level": 5,
       "title": "aria-selected is undefined",
-      "number": "4.5.2.91"
+      "alternateIds": [
+        "ariaSelectedUndefined"
+      ],
+      "number": "3.5.2.91"
     },
     {
       "id": "aria-setsize",
-      "href": "https://w3c.github.io/core-aam/#aria-setsize",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-setsize",
       "level": 5,
       "title": "aria-setsize",
-      "number": "4.5.2.92"
+      "alternateIds": [
+        "ariaSetsize"
+      ],
+      "number": "3.5.2.92"
     },
     {
       "id": "aria-sort-ascending",
-      "href": "https://w3c.github.io/core-aam/#aria-sort-ascending",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-sort-ascending",
       "level": 5,
       "title": "aria-sort=ascending",
-      "number": "4.5.2.93"
+      "alternateIds": [
+        "ariaSortAscending"
+      ],
+      "number": "3.5.2.93"
     },
     {
       "id": "aria-sort-descending",
-      "href": "https://w3c.github.io/core-aam/#aria-sort-descending",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-sort-descending",
       "level": 5,
       "title": "aria-sort=descending",
-      "number": "4.5.2.94"
+      "alternateIds": [
+        "ariaSortDescending"
+      ],
+      "number": "3.5.2.94"
     },
     {
       "id": "aria-sort-other",
-      "href": "https://w3c.github.io/core-aam/#aria-sort-other",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-sort-other",
       "level": 5,
       "title": "aria-sort=other",
-      "number": "4.5.2.95"
+      "alternateIds": [
+        "ariaSortOther"
+      ],
+      "number": "3.5.2.95"
     },
     {
       "id": "aria-sort-none",
-      "href": "https://w3c.github.io/core-aam/#aria-sort-none",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-sort-none",
       "level": 5,
       "title": "aria-sort=none",
-      "number": "4.5.2.96"
+      "alternateIds": [
+        "ariaSortNone"
+      ],
+      "number": "3.5.2.96"
     },
     {
       "id": "aria-valuemax",
-      "href": "https://w3c.github.io/core-aam/#aria-valuemax",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-valuemax",
       "level": 5,
       "title": "aria-valuemax",
-      "number": "4.5.2.97"
+      "alternateIds": [
+        "ariaValueMax"
+      ],
+      "number": "3.5.2.97"
     },
     {
       "id": "aria-valuemin",
-      "href": "https://w3c.github.io/core-aam/#aria-valuemin",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-valuemin",
       "level": 5,
       "title": "aria-valuemin",
-      "number": "4.5.2.98"
+      "alternateIds": [
+        "ariaValueMin"
+      ],
+      "number": "3.5.2.98"
     },
     {
       "id": "aria-valuenow",
-      "href": "https://w3c.github.io/core-aam/#aria-valuenow",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-valuenow",
       "level": 5,
       "title": "aria-valuenow",
-      "number": "4.5.2.99"
+      "alternateIds": [
+        "ariaValueNow"
+      ],
+      "number": "3.5.2.99"
     },
     {
       "id": "aria-valuetext",
-      "href": "https://w3c.github.io/core-aam/#aria-valuetext",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-valuetext",
       "level": 5,
       "title": "aria-valuetext",
-      "number": "4.5.2.100"
+      "alternateIds": [
+        "ariaValueText"
+      ],
+      "number": "3.5.2.100"
     },
     {
       "id": "mapping_additional",
-      "href": "https://w3c.github.io/core-aam/#mapping_additional",
+      "href": "https://w3c.github.io/aria/core-aam/#mapping_additional",
       "level": 3,
       "title": "Special Processing Requiring Additional Computation",
-      "number": "4.6"
+      "alternateIds": [
+        "x3-6-special-processing-requiring-additional-computation"
+      ],
+      "number": "3.6"
     },
     {
       "id": "mapping_additional_nd",
-      "href": "https://w3c.github.io/core-aam/#mapping_additional_nd",
+      "href": "https://w3c.github.io/aria/core-aam/#mapping_additional_nd",
       "level": 4,
       "title": "Name and Description",
-      "number": "4.6.1"
+      "alternateIds": [
+        "x3-6-1-name-and-description"
+      ],
+      "number": "3.6.1"
     },
     {
       "id": "mapping_additional_relations",
-      "href": "https://w3c.github.io/core-aam/#mapping_additional_relations",
+      "href": "https://w3c.github.io/aria/core-aam/#mapping_additional_relations",
       "level": 4,
       "title": "Relations",
-      "number": "4.6.2"
+      "alternateIds": [
+        "x3-6-2-relations"
+      ],
+      "number": "3.6.2"
     },
     {
       "id": "mapping_additional_relations_reverse_relations",
-      "href": "https://w3c.github.io/core-aam/#mapping_additional_relations_reverse_relations",
+      "href": "https://w3c.github.io/aria/core-aam/#mapping_additional_relations_reverse_relations",
       "level": 5,
       "title": "Reverse Relations",
-      "number": "4.6.2.1"
+      "alternateIds": [
+        "x3-6-2-1-reverse-relations"
+      ],
+      "number": "3.6.2.1"
     },
     {
       "id": "mapping_additional_relations_implied",
-      "href": "https://w3c.github.io/core-aam/#mapping_additional_relations_implied",
+      "href": "https://w3c.github.io/aria/core-aam/#mapping_additional_relations_implied",
       "level": 5,
       "title": "Implied reverse relations",
-      "number": "4.6.2.2"
+      "alternateIds": [
+        "x3-6-2-2-implied-reverse-relations"
+      ],
+      "number": "3.6.2.2"
     },
     {
       "id": "mapping_additional_position",
-      "href": "https://w3c.github.io/core-aam/#mapping_additional_position",
+      "href": "https://w3c.github.io/aria/core-aam/#mapping_additional_position",
       "level": 4,
       "title": "Group Position",
-      "number": "4.6.3"
+      "alternateIds": [
+        "x3-6-3-group-position"
+      ],
+      "number": "3.6.3"
     },
     {
       "id": "mapping_actions",
-      "href": "https://w3c.github.io/core-aam/#mapping_actions",
+      "href": "https://w3c.github.io/aria/core-aam/#mapping_actions",
       "level": 3,
       "title": "Actions",
-      "number": "4.7"
+      "alternateIds": [
+        "x3-7-actions"
+      ],
+      "number": "3.7"
     },
     {
       "id": "mapping_events",
-      "href": "https://w3c.github.io/core-aam/#mapping_events",
+      "href": "https://w3c.github.io/aria/core-aam/#mapping_events",
       "level": 3,
       "title": "Events",
-      "number": "4.8"
+      "alternateIds": [
+        "x3-8-events"
+      ],
+      "number": "3.8"
     },
     {
       "id": "mapping_events_state-change",
-      "href": "https://w3c.github.io/core-aam/#mapping_events_state-change",
+      "href": "https://w3c.github.io/aria/core-aam/#mapping_events_state-change",
       "level": 4,
       "title": "State and Property Change Events",
-      "number": "4.8.1"
+      "alternateIds": [
+        "x3-8-1-state-and-property-change-events"
+      ],
+      "number": "3.8.1"
     },
     {
       "id": "aria-activedescendant-0",
-      "href": "https://w3c.github.io/core-aam/#aria-activedescendant-0",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-activedescendant-0",
       "level": 5,
       "title": "aria-activedescendant",
-      "number": "4.8.1.1"
+      "alternateIds": [
+        "event-aria-activedescendant"
+      ],
+      "number": "3.8.1.1"
     },
     {
       "id": "aria-busy-state",
-      "href": "https://w3c.github.io/core-aam/#aria-busy-state",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-busy-state",
       "level": 5,
       "title": "aria-busy (state)",
-      "number": "4.8.1.2"
+      "alternateIds": [
+        "event-aria-busy"
+      ],
+      "number": "3.8.1.2"
     },
     {
       "id": "aria-checked-state",
-      "href": "https://w3c.github.io/core-aam/#aria-checked-state",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-checked-state",
       "level": 5,
       "title": "aria-checked (state)",
-      "number": "4.8.1.3"
+      "alternateIds": [
+        "event-aria-checked"
+      ],
+      "number": "3.8.1.3"
     },
     {
       "id": "aria-current-state",
-      "href": "https://w3c.github.io/core-aam/#aria-current-state",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-current-state",
       "level": 5,
       "title": "aria-current (state)",
-      "number": "4.8.1.4"
+      "alternateIds": [
+        "event-aria-current"
+      ],
+      "number": "3.8.1.4"
     },
     {
       "id": "aria-disabled-state",
-      "href": "https://w3c.github.io/core-aam/#aria-disabled-state",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-disabled-state",
       "level": 5,
       "title": "aria-disabled (state)",
-      "number": "4.8.1.5"
+      "alternateIds": [
+        "event-aria-disabled"
+      ],
+      "number": "3.8.1.5"
     },
     {
       "id": "aria-describedby-0",
-      "href": "https://w3c.github.io/core-aam/#aria-describedby-0",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-describedby-0",
       "level": 5,
       "title": "aria-describedby",
-      "number": "4.8.1.6"
+      "alternateIds": [
+        "event-aria-describedby"
+      ],
+      "number": "3.8.1.6"
     },
     {
       "id": "aria-dropeffect-property-deprecated",
-      "href": "https://w3c.github.io/core-aam/#aria-dropeffect-property-deprecated",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-dropeffect-property-deprecated",
       "level": 5,
       "title": "aria-dropeffect (property, deprecated)",
-      "number": "4.8.1.7"
+      "alternateIds": [
+        "event-aria-dropeffect"
+      ],
+      "number": "3.8.1.7"
     },
     {
       "id": "aria-expanded-state",
-      "href": "https://w3c.github.io/core-aam/#aria-expanded-state",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-expanded-state",
       "level": 5,
       "title": "aria-expanded (state)",
-      "number": "4.8.1.8"
+      "alternateIds": [
+        "event-aria-expanded"
+      ],
+      "number": "3.8.1.8"
     },
     {
       "id": "aria-grabbed-state-deprecated",
-      "href": "https://w3c.github.io/core-aam/#aria-grabbed-state-deprecated",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-grabbed-state-deprecated",
       "level": 5,
       "title": "aria-grabbed (state, deprecated)",
-      "number": "4.8.1.9"
+      "alternateIds": [
+        "event-aria-grabbed"
+      ],
+      "number": "3.8.1.9"
     },
     {
       "id": "aria-hidden-state",
-      "href": "https://w3c.github.io/core-aam/#aria-hidden-state",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-hidden-state",
       "level": 5,
       "title": "aria-hidden (state)",
-      "number": "4.8.1.10"
+      "alternateIds": [
+        "event-aria-hidden"
+      ],
+      "number": "3.8.1.10"
     },
     {
       "id": "aria-invalid-state",
-      "href": "https://w3c.github.io/core-aam/#aria-invalid-state",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-invalid-state",
       "level": 5,
       "title": "aria-invalid (state)",
-      "number": "4.8.1.11"
+      "alternateIds": [
+        "event-aria-invalid"
+      ],
+      "number": "3.8.1.11"
     },
     {
       "id": "aria-label-and-aria-labelledby",
-      "href": "https://w3c.github.io/core-aam/#aria-label-and-aria-labelledby",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-label-and-aria-labelledby",
       "level": 5,
       "title": "aria-label and aria-labelledby",
-      "number": "4.8.1.12"
+      "alternateIds": [
+        "event-aria-label"
+      ],
+      "number": "3.8.1.12"
     },
     {
       "id": "aria-pressed-state",
-      "href": "https://w3c.github.io/core-aam/#aria-pressed-state",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-pressed-state",
       "level": 5,
       "title": "aria-pressed (state)",
-      "number": "4.8.1.13"
+      "alternateIds": [
+        "event-aria-pressed"
+      ],
+      "number": "3.8.1.13"
     },
     {
       "id": "aria-readonly",
-      "href": "https://w3c.github.io/core-aam/#aria-readonly",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-readonly",
       "level": 5,
       "title": "aria-readonly",
-      "number": "4.8.1.14"
+      "alternateIds": [
+        "event-aria-readonly"
+      ],
+      "number": "3.8.1.14"
     },
     {
       "id": "aria-required",
-      "href": "https://w3c.github.io/core-aam/#aria-required",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-required",
       "level": 5,
       "title": "aria-required",
-      "number": "4.8.1.15"
+      "alternateIds": [
+        "event-aria-required"
+      ],
+      "number": "3.8.1.15"
     },
     {
       "id": "aria-selected-state",
-      "href": "https://w3c.github.io/core-aam/#aria-selected-state",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-selected-state",
       "level": 5,
       "title": "aria-selected (state)",
-      "number": "4.8.1.16"
+      "alternateIds": [
+        "event-aria-selected"
+      ],
+      "number": "3.8.1.16"
     },
     {
       "id": "aria-valuenow-0",
-      "href": "https://w3c.github.io/core-aam/#aria-valuenow-0",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-valuenow-0",
       "level": 5,
       "title": "aria-valuenow",
-      "number": "4.8.1.17"
+      "alternateIds": [
+        "event-aria-valuenow"
+      ],
+      "number": "3.8.1.17"
     },
     {
       "id": "aria-valuetext-0",
-      "href": "https://w3c.github.io/core-aam/#aria-valuetext-0",
+      "href": "https://w3c.github.io/aria/core-aam/#aria-valuetext-0",
       "level": 5,
       "title": "aria-valuetext",
-      "number": "4.8.1.18"
+      "alternateIds": [
+        "event-aria-valuetext"
+      ],
+      "number": "3.8.1.18"
     },
     {
       "id": "mapping_events_visibility",
-      "href": "https://w3c.github.io/core-aam/#mapping_events_visibility",
+      "href": "https://w3c.github.io/aria/core-aam/#mapping_events_visibility",
       "level": 4,
       "title": "Changes to document content or node visibility",
-      "number": "4.8.2"
+      "alternateIds": [
+        "x3-8-2-changes-to-document-content-or-node-visibility"
+      ],
+      "number": "3.8.2"
     },
     {
       "id": "focus_state_event_table",
-      "href": "https://w3c.github.io/core-aam/#focus_state_event_table",
+      "href": "https://w3c.github.io/aria/core-aam/#focus_state_event_table",
       "level": 4,
       "title": "Focus Changes",
-      "number": "4.8.3"
+      "alternateIds": [
+        "x3-8-3-focus-changes"
+      ],
+      "number": "3.8.3"
     },
     {
       "id": "mapping_events_selection",
-      "href": "https://w3c.github.io/core-aam/#mapping_events_selection",
+      "href": "https://w3c.github.io/aria/core-aam/#mapping_events_selection",
       "level": 4,
       "title": "Selection",
-      "number": "4.8.4"
+      "alternateIds": [
+        "x3-8-4-selection"
+      ],
+      "number": "3.8.4"
     },
     {
       "id": "mapping_events_menus",
-      "href": "https://w3c.github.io/core-aam/#mapping_events_menus",
+      "href": "https://w3c.github.io/aria/core-aam/#mapping_events_menus",
       "level": 4,
       "title": "Special Events for Menus",
-      "number": "4.8.5"
+      "alternateIds": [
+        "x3-8-5-special-events-for-menus"
+      ],
+      "number": "3.8.5"
+    },
+    {
+      "id": "mapping_algorithms",
+      "href": "https://w3c.github.io/aria/core-aam/#mapping_algorithms",
+      "level": 2,
+      "title": "Algorithms",
+      "alternateIds": [
+        "x4-algorithms"
+      ],
+      "number": "4"
+    },
+    {
+      "id": "arianotifymixin-algorithm-mapping-tables",
+      "href": "https://w3c.github.io/aria/core-aam/#arianotifymixin-algorithm-mapping-tables",
+      "level": 3,
+      "title": "ARIANotifyMixin Algorithm Mapping Tables",
+      "alternateIds": [
+        "x4-1-arianotifymixin-algorithm-mapping-tables"
+      ],
+      "number": "4.1"
+    },
+    {
+      "id": "arianotify",
+      "href": "https://w3c.github.io/aria/core-aam/#arianotify",
+      "level": 4,
+      "title": "ariaNotify",
+      "alternateIds": [
+        "arianotifymixin-map-arianotify"
+      ],
+      "number": "4.1.1"
     },
     {
       "id": "privacy-considerations",
-      "href": "https://w3c.github.io/core-aam/#privacy-considerations",
+      "href": "https://w3c.github.io/aria/core-aam/#privacy-considerations",
       "level": 2,
       "title": "Privacy considerations",
+      "alternateIds": [
+        "x5-privacy-considerations"
+      ],
       "number": "5"
     },
     {
       "id": "security-considerations",
-      "href": "https://w3c.github.io/core-aam/#security-considerations",
+      "href": "https://w3c.github.io/aria/core-aam/#security-considerations",
       "level": 2,
       "title": "Security considerations",
+      "alternateIds": [
+        "x6-security-considerations"
+      ],
       "number": "6"
     },
     {
       "id": "changelog",
-      "href": "https://w3c.github.io/core-aam/#changelog",
+      "href": "https://w3c.github.io/aria/core-aam/#changelog",
       "level": 2,
       "title": "Change Log",
+      "alternateIds": [
+        "a-change-log"
+      ],
       "number": "A"
     },
     {
       "id": "substantive-changes-since-the-last-candidate-recommendation-snapshot",
-      "href": "https://w3c.github.io/core-aam/#substantive-changes-since-the-last-candidate-recommendation-snapshot",
+      "href": "https://w3c.github.io/aria/core-aam/#substantive-changes-since-the-last-candidate-recommendation-snapshot",
       "level": 3,
       "title": "Substantive changes since the last Candidate Recommendation Snapshot",
+      "alternateIds": [
+        "a-1-substantive-changes-since-the-last-candidate-recommendation-snapshot"
+      ],
       "number": "A.1"
     },
     {
       "id": "substantive-changes-since-the-core-accessibility-api-mappings-1-1-recommendation",
-      "href": "https://w3c.github.io/core-aam/#substantive-changes-since-the-core-accessibility-api-mappings-1-1-recommendation",
+      "href": "https://w3c.github.io/aria/core-aam/#substantive-changes-since-the-core-accessibility-api-mappings-1-1-recommendation",
       "level": 3,
       "title": "Substantive changes since the Core Accessibility API Mappings 1.1 Recommendation",
+      "alternateIds": [
+        "a-2-substantive-changes-since-the-core-accessibility-api-mappings-1-1-recommendation"
+      ],
       "number": "A.2"
     },
     {
       "id": "acknowledgements",
-      "href": "https://w3c.github.io/core-aam/#acknowledgements",
+      "href": "https://w3c.github.io/aria/core-aam/#acknowledgements",
       "level": 2,
       "title": "Acknowledgments",
+      "alternateIds": [
+        "b-acknowledgments"
+      ],
       "number": "B"
     },
     {
       "id": "ack_group",
-      "href": "https://w3c.github.io/core-aam/#ack_group",
+      "href": "https://w3c.github.io/aria/core-aam/#ack_group",
       "level": 3,
       "title": "ARIA WG participants at the time of publication",
+      "alternateIds": [
+        "b-1-aria-wg-participants-at-the-time-of-publication"
+      ],
       "number": "B.1"
     },
     {
       "id": "ack_funders",
-      "href": "https://w3c.github.io/core-aam/#ack_funders",
+      "href": "https://w3c.github.io/aria/core-aam/#ack_funders",
       "level": 3,
       "title": "Enabling funders",
+      "alternateIds": [
+        "b-2-enabling-funders"
+      ],
       "number": "B.2"
     },
     {
       "id": "references",
-      "href": "https://w3c.github.io/core-aam/#references",
+      "href": "https://w3c.github.io/aria/core-aam/#references",
       "level": 2,
       "title": "References",
+      "alternateIds": [
+        "c-references"
+      ],
       "number": "C"
     },
     {
       "id": "normative-references",
-      "href": "https://w3c.github.io/core-aam/#normative-references",
+      "href": "https://w3c.github.io/aria/core-aam/#normative-references",
       "level": 3,
       "title": "Normative references",
+      "alternateIds": [
+        "c-1-normative-references"
+      ],
       "number": "C.1"
     },
     {
       "id": "informative-references",
-      "href": "https://w3c.github.io/core-aam/#informative-references",
+      "href": "https://w3c.github.io/aria/core-aam/#informative-references",
       "level": 3,
       "title": "Informative references",
+      "alternateIds": [
+        "c-2-informative-references"
+      ],
       "number": "C.2"
     }
   ]

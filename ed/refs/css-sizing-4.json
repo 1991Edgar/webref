@@ -54,6 +54,10 @@
         "url": "https://drafts.csswg.org/css-overflow-3/"
       },
       {
+        "name": "CSS-PAGE-3",
+        "url": "https://drafts.csswg.org/css-page-3/"
+      },
+      {
         "name": "CSS-SIZING-3",
         "url": "https://drafts.csswg.org/css-sizing-3/"
       },
@@ -64,6 +68,10 @@
       {
         "name": "CSS-VALUES-4",
         "url": "https://drafts.csswg.org/css-values-4/"
+      },
+      {
+        "name": "CSS-VALUES-5",
+        "url": "https://drafts.csswg.org/css-values-5/"
       },
       {
         "name": "CSS-WRITING-MODES-4",
@@ -78,12 +86,32 @@
         "url": "https://drafts.csswg.org/css-multicol/"
       },
       {
+        "name": "CSSOM-1",
+        "url": "https://drafts.csswg.org/cssom/"
+      },
+      {
+        "name": "CSSOM-VIEW-1",
+        "url": "https://drafts.csswg.org/cssom-view/"
+      },
+      {
+        "name": "DOM",
+        "url": "https://dom.spec.whatwg.org/"
+      },
+      {
+        "name": "HTML",
+        "url": "https://html.spec.whatwg.org/multipage/"
+      },
+      {
         "name": "RESIZE-OBSERVER-1",
         "url": "https://drafts.csswg.org/resize-observer/"
       },
       {
         "name": "RFC2119",
         "url": "https://datatracker.ietf.org/doc/html/rfc2119"
+      },
+      {
+        "name": "WEBIDL",
+        "url": "https://webidl.spec.whatwg.org/"
       }
     ],
     "informative": [
@@ -94,10 +122,6 @@
       {
         "name": "CSS-POSITION-3",
         "url": "https://drafts.csswg.org/css-position-3/"
-      },
-      {
-        "name": "HTML",
-        "url": "https://html.spec.whatwg.org/multipage/"
       }
     ]
   }

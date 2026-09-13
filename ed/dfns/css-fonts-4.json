@@ -21,13 +21,14 @@
         "title": "Font family: the font-family property",
         "number": "2.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
-      "id": "family-name-value",
-      "href": "https://drafts.csswg.org/css-fonts-4/#family-name-value",
+      "id": "font-family-name-value",
+      "href": "https://drafts.csswg.org/css-fonts-4/#font-family-name-value",
       "linkingText": [
-        "<family-name>"
+        "<font-family-name>"
       ],
       "localLinkingText": [],
       "type": "type",
@@ -40,13 +41,14 @@
         "title": "Font family: the font-family property",
         "number": "2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
-      "id": "system-family-name-value",
-      "href": "https://drafts.csswg.org/css-fonts-4/#system-family-name-value",
+      "id": "system-font-family-name-value",
+      "href": "https://drafts.csswg.org/css-fonts-4/#system-font-family-name-value",
       "linkingText": [
-        "<system-family-name>"
+        "<system-font-family-name>"
       ],
       "localLinkingText": [],
       "type": "type",
@@ -59,7 +61,8 @@
         "title": "Font family: the font-family property",
         "number": "2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-caption",
@@ -80,7 +83,8 @@
         "title": "Font family: the font-family property",
         "number": "2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-icon",
@@ -101,7 +105,8 @@
         "title": "Font family: the font-family property",
         "number": "2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-menu",
@@ -122,7 +127,8 @@
         "title": "Font family: the font-family property",
         "number": "2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-message-box",
@@ -143,7 +149,8 @@
         "title": "Font family: the font-family property",
         "number": "2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-small-caption",
@@ -164,7 +171,8 @@
         "title": "Font family: the font-family property",
         "number": "2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-status-bar",
@@ -185,13 +193,14 @@
         "title": "Font family: the font-family property",
         "number": "2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
-      "id": "typedef-generic-family",
-      "href": "https://drafts.csswg.org/css-fonts-4/#typedef-generic-family",
+      "id": "typedef-generic-font-family",
+      "href": "https://drafts.csswg.org/css-fonts-4/#typedef-generic-font-family",
       "linkingText": [
-        "<generic-family>"
+        "<generic-font-family>"
       ],
       "localLinkingText": [],
       "type": "type",
@@ -201,16 +210,17 @@
       "heading": {
         "id": "generic-family-name-syntax",
         "href": "https://drafts.csswg.org/css-fonts-4/#generic-family-name-syntax",
-        "title": "Syntax of <generic-family>",
+        "title": "Syntax of <generic-font-family>",
         "number": "2.1.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
-      "id": "typedef-generic-script-specific",
-      "href": "https://drafts.csswg.org/css-fonts-4/#typedef-generic-script-specific",
+      "id": "typedef-generic-font-script-specific",
+      "href": "https://drafts.csswg.org/css-fonts-4/#typedef-generic-font-script-specific",
       "linkingText": [
-        "<generic-script-specific>"
+        "<generic-font-script-specific>"
       ],
       "localLinkingText": [],
       "type": "type",
@@ -220,16 +230,17 @@
       "heading": {
         "id": "generic-family-name-syntax",
         "href": "https://drafts.csswg.org/css-fonts-4/#generic-family-name-syntax",
-        "title": "Syntax of <generic-family>",
+        "title": "Syntax of <generic-font-family>",
         "number": "2.1.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
-      "id": "typedef-generic-complete",
-      "href": "https://drafts.csswg.org/css-fonts-4/#typedef-generic-complete",
+      "id": "typedef-generic-font-complete",
+      "href": "https://drafts.csswg.org/css-fonts-4/#typedef-generic-font-complete",
       "linkingText": [
-        "<generic-complete>"
+        "<generic-font-complete>"
       ],
       "localLinkingText": [],
       "type": "type",
@@ -239,16 +250,17 @@
       "heading": {
         "id": "generic-family-name-syntax",
         "href": "https://drafts.csswg.org/css-fonts-4/#generic-family-name-syntax",
-        "title": "Syntax of <generic-family>",
+        "title": "Syntax of <generic-font-family>",
         "number": "2.1.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
-      "id": "typedef-generic-incomplete",
-      "href": "https://drafts.csswg.org/css-fonts-4/#typedef-generic-incomplete",
+      "id": "typedef-generic-font-incomplete",
+      "href": "https://drafts.csswg.org/css-fonts-4/#typedef-generic-font-incomplete",
       "linkingText": [
-        "<generic-incomplete>"
+        "<generic-font-incomplete>"
       ],
       "localLinkingText": [],
       "type": "type",
@@ -258,10 +270,11 @@
       "heading": {
         "id": "generic-family-name-syntax",
         "href": "https://drafts.csswg.org/css-fonts-4/#generic-family-name-syntax",
-        "title": "Syntax of <generic-family>",
+        "title": "Syntax of <generic-font-family>",
         "number": "2.1.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "valdef-font-family-serif",
@@ -273,7 +286,7 @@
       "type": "value",
       "for": [
         "font-family",
-        "<generic-family>"
+        "<generic-font-family>"
       ],
       "access": "public",
       "informative": false,
@@ -283,7 +296,8 @@
         "title": "Generic font families",
         "number": "2.1.5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-family-sans-serif",
@@ -295,7 +309,7 @@
       "type": "value",
       "for": [
         "font-family",
-        "<generic-family>"
+        "<generic-font-family>"
       ],
       "access": "public",
       "informative": false,
@@ -305,7 +319,8 @@
         "title": "Generic font families",
         "number": "2.1.5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-family-cursive",
@@ -317,7 +332,7 @@
       "type": "value",
       "for": [
         "font-family",
-        "<generic-family>"
+        "<generic-font-family>"
       ],
       "access": "public",
       "informative": false,
@@ -327,7 +342,8 @@
         "title": "Generic font families",
         "number": "2.1.5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-family-fantasy",
@@ -339,7 +355,7 @@
       "type": "value",
       "for": [
         "font-family",
-        "<generic-family>"
+        "<generic-font-family>"
       ],
       "access": "public",
       "informative": false,
@@ -349,7 +365,8 @@
         "title": "Generic font families",
         "number": "2.1.5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-family-monospace",
@@ -361,7 +378,7 @@
       "type": "value",
       "for": [
         "font-family",
-        "<generic-family>"
+        "<generic-font-family>"
       ],
       "access": "public",
       "informative": false,
@@ -371,7 +388,8 @@
         "title": "Generic font families",
         "number": "2.1.5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-family-system-ui",
@@ -383,7 +401,7 @@
       "type": "value",
       "for": [
         "font-family",
-        "<generic-family>"
+        "<generic-font-family>"
       ],
       "access": "public",
       "informative": false,
@@ -393,7 +411,8 @@
         "title": "Generic font families",
         "number": "2.1.5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-family-math",
@@ -404,8 +423,7 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "font-family",
-        "<generic-family>"
+        "font-family"
       ],
       "access": "public",
       "informative": false,
@@ -415,7 +433,8 @@
         "title": "Generic font families",
         "number": "2.1.5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-family-generic-fangsong",
@@ -427,7 +446,7 @@
       "type": "value",
       "for": [
         "font-family",
-        "<generic-family>"
+        "<generic-font-family>"
       ],
       "access": "public",
       "informative": false,
@@ -437,7 +456,8 @@
         "title": "Generic font families",
         "number": "2.1.5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-family-generic-kai",
@@ -449,7 +469,7 @@
       "type": "value",
       "for": [
         "font-family",
-        "<generic-family>"
+        "<generic-font-family>"
       ],
       "access": "public",
       "informative": false,
@@ -459,7 +479,31 @@
         "title": "Generic font families",
         "number": "2.1.5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-font-family-generic-khmer-mul",
+      "href": "https://drafts.csswg.org/css-fonts-4/#valdef-font-family-generic-khmer-mul",
+      "linkingText": [
+        "generic(khmer-mul)"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "font-family",
+        "<generic-font-family>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "generic-font-families",
+        "href": "https://drafts.csswg.org/css-fonts-4/#generic-font-families",
+        "title": "Generic font families",
+        "number": "2.1.5"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-family-generic-nastaliq",
@@ -471,7 +515,7 @@
       "type": "value",
       "for": [
         "font-family",
-        "<generic-family>"
+        "<generic-font-family>"
       ],
       "access": "public",
       "informative": false,
@@ -481,7 +525,8 @@
         "title": "Generic font families",
         "number": "2.1.5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-family-ui-serif",
@@ -493,7 +538,7 @@
       "type": "value",
       "for": [
         "font-family",
-        "<generic-family>"
+        "<generic-font-family>"
       ],
       "access": "public",
       "informative": false,
@@ -503,7 +548,8 @@
         "title": "Generic font families",
         "number": "2.1.5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-family-ui-sans-serif",
@@ -515,7 +561,7 @@
       "type": "value",
       "for": [
         "font-family",
-        "<generic-family>"
+        "<generic-font-family>"
       ],
       "access": "public",
       "informative": false,
@@ -525,7 +571,8 @@
         "title": "Generic font families",
         "number": "2.1.5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-family-ui-monospace",
@@ -537,7 +584,7 @@
       "type": "value",
       "for": [
         "font-family",
-        "<generic-family>"
+        "<generic-font-family>"
       ],
       "access": "public",
       "informative": false,
@@ -547,7 +594,8 @@
         "title": "Generic font families",
         "number": "2.1.5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-family-ui-rounded",
@@ -559,7 +607,7 @@
       "type": "value",
       "for": [
         "font-family",
-        "<generic-family>"
+        "<generic-font-family>"
       ],
       "access": "public",
       "informative": false,
@@ -569,7 +617,8 @@
         "title": "Generic font families",
         "number": "2.1.5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-font-weight",
@@ -588,7 +637,8 @@
         "title": "Font weight: the font-weight property",
         "number": "2.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "font-weight-absolute-values",
@@ -607,7 +657,8 @@
         "title": "Font weight: the font-weight property",
         "number": "2.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "valdef-font-weight-normal",
@@ -628,7 +679,8 @@
         "title": "Font weight: the font-weight property",
         "number": "2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-weight-bold",
@@ -649,7 +701,8 @@
         "title": "Font weight: the font-weight property",
         "number": "2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-weight-bolder",
@@ -670,7 +723,8 @@
         "title": "Font weight: the font-weight property",
         "number": "2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-weight-lighter",
@@ -691,7 +745,8 @@
         "title": "Font weight: the font-weight property",
         "number": "2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-font-width",
@@ -710,7 +765,8 @@
         "title": "Font width: the font-width property",
         "number": "2.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-font-width-ultra-condensed",
@@ -731,7 +787,8 @@
         "title": "Font width: the font-width property",
         "number": "2.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-font-width-extra-condensed",
@@ -752,7 +809,8 @@
         "title": "Font width: the font-width property",
         "number": "2.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-font-width-condensed",
@@ -773,7 +831,8 @@
         "title": "Font width: the font-width property",
         "number": "2.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-font-width-semi-condensed",
@@ -794,7 +853,8 @@
         "title": "Font width: the font-width property",
         "number": "2.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-font-width-normal",
@@ -815,7 +875,8 @@
         "title": "Font width: the font-width property",
         "number": "2.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-font-width-semi-expanded",
@@ -836,7 +897,8 @@
         "title": "Font width: the font-width property",
         "number": "2.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-font-width-expanded",
@@ -857,7 +919,8 @@
         "title": "Font width: the font-width property",
         "number": "2.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-font-width-extra-expanded",
@@ -878,7 +941,8 @@
         "title": "Font width: the font-width property",
         "number": "2.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-font-width-ultra-expanded",
@@ -899,7 +963,8 @@
         "title": "Font width: the font-width property",
         "number": "2.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "propdef-font-stretch",
@@ -918,7 +983,8 @@
         "title": "Font width: the font-stretch legacy name alias",
         "number": "2.3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-font-style",
@@ -937,7 +1003,8 @@
         "title": "Font style: the font-style property",
         "number": "2.4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-font-style-normal",
@@ -958,7 +1025,8 @@
         "title": "Font style: the font-style property",
         "number": "2.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-style-italic",
@@ -979,7 +1047,52 @@
         "title": "Font style: the font-style property",
         "number": "2.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-font-style-left",
+      "href": "https://drafts.csswg.org/css-fonts-4/#valdef-font-style-left",
+      "linkingText": [
+        "left"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "font-style"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "font-style-prop",
+        "href": "https://drafts.csswg.org/css-fonts-4/#font-style-prop",
+        "title": "Font style: the font-style property",
+        "number": "2.4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-font-style-right",
+      "href": "https://drafts.csswg.org/css-fonts-4/#valdef-font-style-right",
+      "linkingText": [
+        "right"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "font-style"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "font-style-prop",
+        "href": "https://drafts.csswg.org/css-fonts-4/#font-style-prop",
+        "title": "Font style: the font-style property",
+        "number": "2.4"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-style-oblique-angle--90deg-90deg",
@@ -1000,7 +1113,8 @@
         "title": "Font style: the font-style property",
         "number": "2.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-font-size",
@@ -1019,7 +1133,48 @@
         "title": "Font size: the font-size property",
         "number": "2.5"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "typedef-absolute-size",
+      "href": "https://drafts.csswg.org/css-fonts-4/#typedef-absolute-size",
+      "linkingText": [
+        "<absolute-size>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "font-size-prop",
+        "href": "https://drafts.csswg.org/css-fonts-4/#font-size-prop",
+        "title": "Font size: the font-size property",
+        "number": "2.5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "typedef-relative-size",
+      "href": "https://drafts.csswg.org/css-fonts-4/#typedef-relative-size",
+      "linkingText": [
+        "<relative-size>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "font-size-prop",
+        "href": "https://drafts.csswg.org/css-fonts-4/#font-size-prop",
+        "title": "Font size: the font-size property",
+        "number": "2.5"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-size-math",
@@ -1040,7 +1195,8 @@
         "title": "Font size: the font-size property",
         "number": "2.5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-font-size-adjust",
@@ -1059,7 +1215,8 @@
         "title": "Relative sizing: the font-size-adjust property",
         "number": "2.6"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "aspect-value",
@@ -1078,7 +1235,8 @@
         "title": "Relative sizing: the font-size-adjust property",
         "number": "2.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "font-size-adjust-none-value",
@@ -1099,7 +1257,8 @@
         "title": "Relative sizing: the font-size-adjust property",
         "number": "2.6"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-font",
@@ -1118,7 +1277,8 @@
         "title": "Shorthand font property: the font property",
         "number": "2.7"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "font-variant-css21-values",
@@ -1137,7 +1297,8 @@
         "title": "Shorthand font property: the font property",
         "number": "2.7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "font-width-css3-values",
@@ -1156,64 +1317,8 @@
         "title": "Shorthand font property: the font property",
         "number": "2.7"
       },
-      "definedIn": "pre"
-    },
-    {
-      "id": "set-explicitly",
-      "href": "https://drafts.csswg.org/css-fonts-4/#set-explicitly",
-      "linkingText": [
-        "Set Explicitly"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "font-prop",
-        "href": "https://drafts.csswg.org/css-fonts-4/#font-prop",
-        "title": "Shorthand font property: the font property",
-        "number": "2.7"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "reset-implicitly",
-      "href": "https://drafts.csswg.org/css-fonts-4/#reset-implicitly",
-      "linkingText": [
-        "Reset Implicitly"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "font-prop",
-        "href": "https://drafts.csswg.org/css-fonts-4/#font-prop",
-        "title": "Shorthand font property: the font property",
-        "number": "2.7"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "cascaded-independently",
-      "href": "https://drafts.csswg.org/css-fonts-4/#cascaded-independently",
-      "linkingText": [
-        "Cascaded Independently"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "font-prop",
-        "href": "https://drafts.csswg.org/css-fonts-4/#font-prop",
-        "title": "Shorthand font property: the font property",
-        "number": "2.7"
-      },
-      "definedIn": "dt"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "propdef-font-synthesis-weight",
@@ -1232,7 +1337,8 @@
         "title": "Controlling synthesized bold: The font-synthesis-weight property",
         "number": "2.8.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-font-synthesis-weight-auto",
@@ -1253,7 +1359,8 @@
         "title": "Controlling synthesized bold: The font-synthesis-weight property",
         "number": "2.8.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-synthesis-weight-none",
@@ -1274,7 +1381,8 @@
         "title": "Controlling synthesized bold: The font-synthesis-weight property",
         "number": "2.8.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-font-synthesis-style",
@@ -1293,7 +1401,8 @@
         "title": "Controlling synthesized oblique: The font-synthesis-style property",
         "number": "2.8.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-font-synthesis-style-auto",
@@ -1314,7 +1423,8 @@
         "title": "Controlling synthesized oblique: The font-synthesis-style property",
         "number": "2.8.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-synthesis-style-none",
@@ -1335,7 +1445,30 @@
         "title": "Controlling synthesized oblique: The font-synthesis-style property",
         "number": "2.8.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-font-synthesis-style-oblique-only",
+      "href": "https://drafts.csswg.org/css-fonts-4/#valdef-font-synthesis-style-oblique-only",
+      "linkingText": [
+        "oblique-only"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "font-synthesis-style"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "font-synthesis-style",
+        "href": "https://drafts.csswg.org/css-fonts-4/#font-synthesis-style",
+        "title": "Controlling synthesized oblique: The font-synthesis-style property",
+        "number": "2.8.2"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-font-synthesis-small-caps",
@@ -1354,7 +1487,8 @@
         "title": "Controlling synthesized small caps: The font-synthesis-small-caps property",
         "number": "2.8.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-font-synthesis-small-caps-auto",
@@ -1375,7 +1509,8 @@
         "title": "Controlling synthesized small caps: The font-synthesis-small-caps property",
         "number": "2.8.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-synthesis-small-caps-none",
@@ -1396,7 +1531,8 @@
         "title": "Controlling synthesized small caps: The font-synthesis-small-caps property",
         "number": "2.8.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-font-synthesis-position",
@@ -1415,7 +1551,8 @@
         "title": "Controlling synthesized super- and subscripts: The font-synthesis-position property",
         "number": "2.8.4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-font-synthesis-position-auto",
@@ -1436,7 +1573,8 @@
         "title": "Controlling synthesized super- and subscripts: The font-synthesis-position property",
         "number": "2.8.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-synthesis-position-none",
@@ -1457,7 +1595,8 @@
         "title": "Controlling synthesized super- and subscripts: The font-synthesis-position property",
         "number": "2.8.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-font-synthesis",
@@ -1476,7 +1615,8 @@
         "title": "Controlling synthetic faces: the font-synthesis shorthand",
         "number": "2.8.5"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "font-download-timer",
@@ -1497,7 +1637,8 @@
         "title": "The Font Display Timeline",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "font-block-period",
@@ -1518,7 +1659,8 @@
         "title": "The Font Display Timeline",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "font-swap-period",
@@ -1539,7 +1681,8 @@
         "title": "The Font Display Timeline",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "font-failure-period",
@@ -1560,7 +1703,8 @@
         "title": "The Font Display Timeline",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "render-with-a-fallback-font-face",
@@ -1579,7 +1723,8 @@
         "title": "The Font Display Timeline",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "render-with-an-invisible-fallback-font-face",
@@ -1598,7 +1743,8 @@
         "title": "The Font Display Timeline",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "at-font-face-rule",
@@ -1617,7 +1763,8 @@
         "title": "The @font-face rule",
         "number": "4.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "descdef-font-face-font-family",
@@ -1638,7 +1785,8 @@
         "title": "Font family: the font-family descriptor",
         "number": "4.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "descdef-font-face-src",
@@ -1659,7 +1807,8 @@
         "title": "Font reference: the src descriptor",
         "number": "4.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "typedef-font-src-list",
@@ -1678,7 +1827,8 @@
         "title": "Parsing the src descriptor",
         "number": "4.3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "typedef-font-src",
@@ -1697,7 +1847,74 @@
         "title": "Parsing the src descriptor",
         "number": "4.3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "format()",
+      "href": "https://drafts.csswg.org/css-fonts-4/#format()",
+      "linkingText": [
+        "format( <font-format> )"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "@font-face/src"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "font-face-src-parsing",
+        "href": "https://drafts.csswg.org/css-fonts-4/#font-face-src-parsing",
+        "title": "Parsing the src descriptor",
+        "number": "4.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "tech()",
+      "href": "https://drafts.csswg.org/css-fonts-4/#tech()",
+      "linkingText": [
+        "tech( <font-tech># )"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "@font-face/src"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "font-face-src-parsing",
+        "href": "https://drafts.csswg.org/css-fonts-4/#font-face-src-parsing",
+        "title": "Parsing the src descriptor",
+        "number": "4.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "local()",
+      "href": "https://drafts.csswg.org/css-fonts-4/#local()",
+      "linkingText": [
+        "local( <font-family-name> )"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "@font-face/src"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "font-face-src-parsing",
+        "href": "https://drafts.csswg.org/css-fonts-4/#font-face-src-parsing",
+        "title": "Parsing the src descriptor",
+        "number": "4.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "font-format-values",
@@ -1716,7 +1933,8 @@
         "title": "Parsing the src descriptor",
         "number": "4.3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "font-tech-values",
@@ -1735,7 +1953,8 @@
         "title": "Parsing the src descriptor",
         "number": "4.3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "font-features-tech-values",
@@ -1754,7 +1973,8 @@
         "title": "Parsing the src descriptor",
         "number": "4.3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "color-font-tech-values",
@@ -1773,7 +1993,8 @@
         "title": "Parsing the src descriptor",
         "number": "4.3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "descdef-font-face-font-style",
@@ -1794,7 +2015,8 @@
         "title": "Font property descriptors: the font-style, font-weight, and font-width descriptors",
         "number": "4.4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "descdef-font-face-font-weight",
@@ -1815,7 +2037,8 @@
         "title": "Font property descriptors: the font-style, font-weight, and font-width descriptors",
         "number": "4.4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "descdef-font-face-font-width",
@@ -1836,20 +2059,21 @@
         "title": "Font property descriptors: the font-style, font-weight, and font-width descriptors",
         "number": "4.4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
-      "id": "font-face-font-stretch",
-      "href": "https://drafts.csswg.org/css-fonts-4/#font-face-font-stretch",
+      "id": "descdef-font-face-font-stretch",
+      "href": "https://drafts.csswg.org/css-fonts-4/#descdef-font-face-font-stretch",
       "linkingText": [
         "font-stretch"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "descriptor",
       "for": [
         "@font-face"
       ],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "font-stretch-desc",
@@ -1857,7 +2081,8 @@
         "title": "Font width: the font-stretch legacy name alias",
         "number": "4.4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "descdef-font-face-unicode-range",
@@ -1878,7 +2103,8 @@
         "title": "Character range: the unicode-range descriptor",
         "number": "4.5"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "effective-character-map",
@@ -1889,7 +2115,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "unicode-range-desc",
@@ -1897,7 +2123,8 @@
         "title": "Character range: the unicode-range descriptor",
         "number": "4.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "descdef-font-face-font-feature-settings",
@@ -1918,7 +2145,8 @@
         "title": "Font features and variations: the font-feature-settings and font-variation-settings descriptors",
         "number": "4.6"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "descdef-font-face-font-variation-settings",
@@ -1939,7 +2167,8 @@
         "title": "Font features and variations: the font-feature-settings and font-variation-settings descriptors",
         "number": "4.6"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "descdef-font-face-font-named-instance",
@@ -1960,7 +2189,8 @@
         "title": "Using named instances from variable fonts: the font-named-instance descriptor",
         "number": "4.7"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "fetch-a-font",
@@ -1971,7 +2201,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "font-fetching-requirements",
@@ -1979,7 +2209,8 @@
         "title": "Font fetching requirements",
         "number": "4.8.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "descdef-font-face-font-display",
@@ -2000,7 +2231,8 @@
         "title": "Controlling Font Display Per Font-Face: the font-display descriptor",
         "number": "4.9"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-font-face-font-display-auto",
@@ -2021,7 +2253,8 @@
         "title": "Controlling Font Display Per Font-Face: the font-display descriptor",
         "number": "4.9"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-face-font-display-block",
@@ -2042,7 +2275,8 @@
         "title": "Controlling Font Display Per Font-Face: the font-display descriptor",
         "number": "4.9"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-face-font-display-swap",
@@ -2063,7 +2297,8 @@
         "title": "Controlling Font Display Per Font-Face: the font-display descriptor",
         "number": "4.9"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-face-font-display-fallback",
@@ -2084,7 +2319,8 @@
         "title": "Controlling Font Display Per Font-Face: the font-display descriptor",
         "number": "4.9"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-face-font-display-optional",
@@ -2105,7 +2341,8 @@
         "title": "Controlling Font Display Per Font-Face: the font-display descriptor",
         "number": "4.9"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "descdef-font-feature-values-font-display",
@@ -2126,7 +2363,8 @@
         "title": "Controlling Font Display Per Font-Family via @font-feature-values",
         "number": "4.9.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "descdef-font-face-font-language-override",
@@ -2147,7 +2385,8 @@
         "title": "Default font language overriding: the font-language-override descriptor",
         "number": "4.10"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "descdef-font-face-ascent-override",
@@ -2168,7 +2407,8 @@
         "title": "Default font metrics overriding: the ascent-override, descent-override and line-gap-override descriptors",
         "number": "4.11"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "descdef-font-face-descent-override",
@@ -2189,7 +2429,8 @@
         "title": "Default font metrics overriding: the ascent-override, descent-override and line-gap-override descriptors",
         "number": "4.11"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "descdef-font-face-line-gap-override",
@@ -2210,7 +2451,8 @@
         "title": "Default font metrics overriding: the ascent-override, descent-override and line-gap-override descriptors",
         "number": "4.11"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "character-map",
@@ -2229,7 +2471,8 @@
         "title": "Matching font styles",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "support",
@@ -2248,7 +2491,8 @@
         "title": "Matching font styles",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "default-face",
@@ -2259,7 +2503,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "font-style-matching",
@@ -2267,7 +2511,8 @@
         "title": "Matching font styles",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "composite-face",
@@ -2278,7 +2523,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "font-style-matching",
@@ -2286,7 +2531,8 @@
         "title": "Matching font styles",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "installed-font-fallback",
@@ -2305,7 +2551,8 @@
         "title": "Matching font styles",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "first-available-font",
@@ -2324,7 +2571,8 @@
         "title": "Matching font styles",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-font-kerning",
@@ -2343,7 +2591,8 @@
         "title": "Kerning: the font-kerning property",
         "number": "6.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "font-kerning-auto-value",
@@ -2364,7 +2613,8 @@
         "title": "Kerning: the font-kerning property",
         "number": "6.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "font-kerning-normal-value",
@@ -2385,7 +2635,8 @@
         "title": "Kerning: the font-kerning property",
         "number": "6.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "font-kerning-none-value",
@@ -2406,7 +2657,8 @@
         "title": "Kerning: the font-kerning property",
         "number": "6.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-font-variant-ligatures",
@@ -2425,7 +2677,8 @@
         "title": "Ligatures: the font-variant-ligatures property",
         "number": "6.4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "common-lig-values",
@@ -2444,7 +2697,8 @@
         "title": "Ligatures: the font-variant-ligatures property",
         "number": "6.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "discretionary-lig-values",
@@ -2463,7 +2717,8 @@
         "title": "Ligatures: the font-variant-ligatures property",
         "number": "6.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "historical-lig-values",
@@ -2482,7 +2737,8 @@
         "title": "Ligatures: the font-variant-ligatures property",
         "number": "6.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "contextual-alt-values",
@@ -2501,7 +2757,8 @@
         "title": "Ligatures: the font-variant-ligatures property",
         "number": "6.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "font-variant-ligatures-normal-value",
@@ -2522,7 +2779,8 @@
         "title": "Ligatures: the font-variant-ligatures property",
         "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "font-variant-ligatures-none-value",
@@ -2543,7 +2801,8 @@
         "title": "Ligatures: the font-variant-ligatures property",
         "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-ligatures-common-ligatures",
@@ -2564,7 +2823,8 @@
         "title": "Ligatures: the font-variant-ligatures property",
         "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-ligatures-no-common-ligatures",
@@ -2585,7 +2845,8 @@
         "title": "Ligatures: the font-variant-ligatures property",
         "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-ligatures-discretionary-ligatures",
@@ -2606,7 +2867,8 @@
         "title": "Ligatures: the font-variant-ligatures property",
         "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-ligatures-no-discretionary-ligatures",
@@ -2627,7 +2889,8 @@
         "title": "Ligatures: the font-variant-ligatures property",
         "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-ligatures-historical-ligatures",
@@ -2648,7 +2911,8 @@
         "title": "Ligatures: the font-variant-ligatures property",
         "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-ligatures-no-historical-ligatures",
@@ -2669,7 +2933,8 @@
         "title": "Ligatures: the font-variant-ligatures property",
         "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-ligatures-contextual",
@@ -2690,7 +2955,8 @@
         "title": "Ligatures: the font-variant-ligatures property",
         "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-ligatures-no-contextual",
@@ -2711,7 +2977,8 @@
         "title": "Ligatures: the font-variant-ligatures property",
         "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-font-variant-position",
@@ -2730,7 +2997,8 @@
         "title": "Subscript and superscript forms: the font-variant-position property",
         "number": "6.5"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "font-variant-position-normal-value",
@@ -2751,7 +3019,8 @@
         "title": "Subscript and superscript forms: the font-variant-position property",
         "number": "6.5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-position-sub",
@@ -2772,7 +3041,8 @@
         "title": "Subscript and superscript forms: the font-variant-position property",
         "number": "6.5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-position-super",
@@ -2793,7 +3063,8 @@
         "title": "Subscript and superscript forms: the font-variant-position property",
         "number": "6.5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-font-variant-caps",
@@ -2812,7 +3083,8 @@
         "title": "Capitalization: the font-variant-caps property",
         "number": "6.6"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "font-variant-caps-normal-value",
@@ -2833,7 +3105,8 @@
         "title": "Capitalization: the font-variant-caps property",
         "number": "6.6"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-caps-small-caps",
@@ -2854,7 +3127,8 @@
         "title": "Capitalization: the font-variant-caps property",
         "number": "6.6"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-caps-all-small-caps",
@@ -2875,7 +3149,8 @@
         "title": "Capitalization: the font-variant-caps property",
         "number": "6.6"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-caps-petite-caps",
@@ -2896,7 +3171,8 @@
         "title": "Capitalization: the font-variant-caps property",
         "number": "6.6"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-caps-all-petite-caps",
@@ -2917,7 +3193,8 @@
         "title": "Capitalization: the font-variant-caps property",
         "number": "6.6"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-caps-unicase",
@@ -2938,7 +3215,8 @@
         "title": "Capitalization: the font-variant-caps property",
         "number": "6.6"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-caps-titling-caps",
@@ -2959,7 +3237,8 @@
         "title": "Capitalization: the font-variant-caps property",
         "number": "6.6"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-font-variant-numeric",
@@ -2978,7 +3257,8 @@
         "title": "Numerical formatting: the font-variant-numeric property",
         "number": "6.7"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "numeric-figure-values",
@@ -2997,7 +3277,8 @@
         "title": "Numerical formatting: the font-variant-numeric property",
         "number": "6.7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "numeric-spacing-values",
@@ -3016,7 +3297,8 @@
         "title": "Numerical formatting: the font-variant-numeric property",
         "number": "6.7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "numeric-fraction-values",
@@ -3035,7 +3317,8 @@
         "title": "Numerical formatting: the font-variant-numeric property",
         "number": "6.7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "font-variant-numeric-normal-value",
@@ -3056,7 +3339,8 @@
         "title": "Numerical formatting: the font-variant-numeric property",
         "number": "6.7"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-numeric-lining-nums",
@@ -3077,7 +3361,8 @@
         "title": "Numerical formatting: the font-variant-numeric property",
         "number": "6.7"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-numeric-oldstyle-nums",
@@ -3098,7 +3383,8 @@
         "title": "Numerical formatting: the font-variant-numeric property",
         "number": "6.7"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-numeric-proportional-nums",
@@ -3119,7 +3405,8 @@
         "title": "Numerical formatting: the font-variant-numeric property",
         "number": "6.7"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-numeric-tabular-nums",
@@ -3140,7 +3427,8 @@
         "title": "Numerical formatting: the font-variant-numeric property",
         "number": "6.7"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-numeric-diagonal-fractions",
@@ -3161,7 +3449,8 @@
         "title": "Numerical formatting: the font-variant-numeric property",
         "number": "6.7"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-numeric-stacked-fractions",
@@ -3182,7 +3471,8 @@
         "title": "Numerical formatting: the font-variant-numeric property",
         "number": "6.7"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-numeric-ordinal",
@@ -3203,7 +3493,8 @@
         "title": "Numerical formatting: the font-variant-numeric property",
         "number": "6.7"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-numeric-slashed-zero",
@@ -3224,7 +3515,8 @@
         "title": "Numerical formatting: the font-variant-numeric property",
         "number": "6.7"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-font-variant-alternates",
@@ -3243,13 +3535,14 @@
         "title": "Alternates and swashes: the font-variant-alternates property",
         "number": "6.8"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
-      "id": "feature-value-name-value",
-      "href": "https://drafts.csswg.org/css-fonts-4/#feature-value-name-value",
+      "id": "font-feature-index-value",
+      "href": "https://drafts.csswg.org/css-fonts-4/#font-feature-index-value",
       "linkingText": [
-        "<feature-value-name>"
+        "<font-feature-index>"
       ],
       "localLinkingText": [],
       "type": "type",
@@ -3262,7 +3555,28 @@
         "title": "Alternates and swashes: the font-variant-alternates property",
         "number": "6.8"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "font-feature-value-name-value",
+      "href": "https://drafts.csswg.org/css-fonts-4/#font-feature-value-name-value",
+      "linkingText": [
+        "<font-feature-value-name>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "font-variant-alternates-prop",
+        "href": "https://drafts.csswg.org/css-fonts-4/#font-variant-alternates-prop",
+        "title": "Alternates and swashes: the font-variant-alternates property",
+        "number": "6.8"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "font-specific",
@@ -3281,7 +3595,8 @@
         "title": "Alternates and swashes: the font-variant-alternates property",
         "number": "6.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "font-variant-alternates-normal-value",
@@ -3302,7 +3617,8 @@
         "title": "Alternates and swashes: the font-variant-alternates property",
         "number": "6.8"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-alternates-historical-forms",
@@ -3323,13 +3639,14 @@
         "title": "Alternates and swashes: the font-variant-alternates property",
         "number": "6.8"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "stylistic",
       "href": "https://drafts.csswg.org/css-fonts-4/#stylistic",
       "linkingText": [
-        "stylistic(<feature-value-name>)"
+        "stylistic(<font-feature-value-name>)"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -3344,13 +3661,14 @@
         "title": "Alternates and swashes: the font-variant-alternates property",
         "number": "6.8"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "styleset",
       "href": "https://drafts.csswg.org/css-fonts-4/#styleset",
       "linkingText": [
-        "styleset(<feature-value-name>#)"
+        "styleset(<font-feature-value-name>#)"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -3365,13 +3683,14 @@
         "title": "Alternates and swashes: the font-variant-alternates property",
         "number": "6.8"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "character-variant",
       "href": "https://drafts.csswg.org/css-fonts-4/#character-variant",
       "linkingText": [
-        "character-variant(<feature-value-name>#)"
+        "character-variant(<font-feature-value-name>#)"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -3386,13 +3705,14 @@
         "title": "Alternates and swashes: the font-variant-alternates property",
         "number": "6.8"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "swash",
       "href": "https://drafts.csswg.org/css-fonts-4/#swash",
       "linkingText": [
-        "swash(<feature-value-name>)"
+        "swash(<font-feature-value-name>)"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -3407,13 +3727,14 @@
         "title": "Alternates and swashes: the font-variant-alternates property",
         "number": "6.8"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "ornaments",
       "href": "https://drafts.csswg.org/css-fonts-4/#ornaments",
       "linkingText": [
-        "ornaments(<feature-value-name>)"
+        "ornaments(<font-feature-value-name>)"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -3428,13 +3749,14 @@
         "title": "Alternates and swashes: the font-variant-alternates property",
         "number": "6.8"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "annotation",
       "href": "https://drafts.csswg.org/css-fonts-4/#annotation",
       "linkingText": [
-        "annotation(<feature-value-name>)"
+        "annotation(<font-feature-value-name>)"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -3449,7 +3771,8 @@
         "title": "Alternates and swashes: the font-variant-alternates property",
         "number": "6.8"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "at-ruledef-font-feature-values",
@@ -3468,16 +3791,38 @@
         "title": "Defining font specific alternates: the @font-feature-values rule",
         "number": "6.9"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
-      "id": "font-feature-values-font-feature-value-type",
-      "href": "https://drafts.csswg.org/css-fonts-4/#font-feature-values-font-feature-value-type",
+      "id": "font-feature-value-block",
+      "href": "https://drafts.csswg.org/css-fonts-4/#font-feature-value-block",
       "linkingText": [
-        "font-feature-value-type"
+        "font feature value block",
+        "feature value block"
       ],
       "localLinkingText": [],
       "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "font-feature-values-syntax",
+        "href": "https://drafts.csswg.org/css-fonts-4/#font-feature-values-syntax",
+        "title": "Basic syntax",
+        "number": "6.9.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "typedef-font-feature-values-font-feature-value-type",
+      "href": "https://drafts.csswg.org/css-fonts-4/#typedef-font-feature-values-font-feature-value-type",
+      "linkingText": [
+        "<font-feature-value-type>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
       "for": [
         "@font-feature-values"
       ],
@@ -3489,7 +3834,8 @@
         "title": "Basic syntax",
         "number": "6.9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "at-ruledef-font-feature-values-stylistic",
@@ -3510,7 +3856,8 @@
         "title": "Basic syntax",
         "number": "6.9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "at-ruledef-font-feature-values-historical-forms",
@@ -3531,7 +3878,8 @@
         "title": "Basic syntax",
         "number": "6.9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "at-ruledef-font-feature-values-styleset",
@@ -3552,7 +3900,8 @@
         "title": "Basic syntax",
         "number": "6.9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "at-ruledef-font-feature-values-character-variant",
@@ -3573,7 +3922,8 @@
         "title": "Basic syntax",
         "number": "6.9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "at-ruledef-font-feature-values-swash",
@@ -3594,7 +3944,8 @@
         "title": "Basic syntax",
         "number": "6.9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "at-ruledef-font-feature-values-ornaments",
@@ -3615,7 +3966,8 @@
         "title": "Basic syntax",
         "number": "6.9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "at-ruledef-font-feature-values-annotation",
@@ -3636,7 +3988,8 @@
         "title": "Basic syntax",
         "number": "6.9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "font-feature-value-declaration",
@@ -3655,7 +4008,8 @@
         "title": "Basic syntax",
         "number": "6.9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-font-variant-east-asian",
@@ -3674,7 +4028,8 @@
         "title": "East Asian text rendering: the font-variant-east-asian property",
         "number": "6.10"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "east-asian-variant-values",
@@ -3693,7 +4048,8 @@
         "title": "East Asian text rendering: the font-variant-east-asian property",
         "number": "6.10"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "east-asian-width-values",
@@ -3712,7 +4068,8 @@
         "title": "East Asian text rendering: the font-variant-east-asian property",
         "number": "6.10"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "font-variant-east-asian-normal-value",
@@ -3733,7 +4090,8 @@
         "title": "East Asian text rendering: the font-variant-east-asian property",
         "number": "6.10"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-east-asian-jis78",
@@ -3754,7 +4112,8 @@
         "title": "East Asian text rendering: the font-variant-east-asian property",
         "number": "6.10"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-east-asian-jis83",
@@ -3775,7 +4134,8 @@
         "title": "East Asian text rendering: the font-variant-east-asian property",
         "number": "6.10"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-east-asian-jis90",
@@ -3796,7 +4156,8 @@
         "title": "East Asian text rendering: the font-variant-east-asian property",
         "number": "6.10"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-east-asian-jis04",
@@ -3817,7 +4178,8 @@
         "title": "East Asian text rendering: the font-variant-east-asian property",
         "number": "6.10"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-east-asian-simplified",
@@ -3838,7 +4200,8 @@
         "title": "East Asian text rendering: the font-variant-east-asian property",
         "number": "6.10"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-east-asian-traditional",
@@ -3859,7 +4222,8 @@
         "title": "East Asian text rendering: the font-variant-east-asian property",
         "number": "6.10"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-east-asian-full-width",
@@ -3880,7 +4244,8 @@
         "title": "East Asian text rendering: the font-variant-east-asian property",
         "number": "6.10"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-east-asian-proportional-width",
@@ -3901,7 +4266,8 @@
         "title": "East Asian text rendering: the font-variant-east-asian property",
         "number": "6.10"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-east-asian-ruby",
@@ -3922,7 +4288,8 @@
         "title": "East Asian text rendering: the font-variant-east-asian property",
         "number": "6.10"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-font-variant",
@@ -3941,7 +4308,8 @@
         "title": "Overall shorthand for font rendering: the font-variant property",
         "number": "6.11"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "font-variant-normal-value",
@@ -3962,7 +4330,8 @@
         "title": "Overall shorthand for font rendering: the font-variant property",
         "number": "6.11"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "font-variant-none-value",
@@ -3983,7 +4352,8 @@
         "title": "Overall shorthand for font rendering: the font-variant property",
         "number": "6.11"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-font-feature-settings",
@@ -4002,7 +4372,8 @@
         "title": "Low-level font feature settings control: the font-feature-settings property",
         "number": "6.12"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "font-feature-settings-normal-value",
@@ -4023,7 +4394,8 @@
         "title": "Low-level font feature settings control: the font-feature-settings property",
         "number": "6.12"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "feature-tag-value",
@@ -4032,7 +4404,7 @@
         "<feature-tag-value>"
       ],
       "localLinkingText": [],
-      "type": "value",
+      "type": "type",
       "for": [
         "font-feature-settings"
       ],
@@ -4044,7 +4416,8 @@
         "title": "Low-level font feature settings control: the font-feature-settings property",
         "number": "6.12"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-opentype-tag",
@@ -4063,7 +4436,52 @@
         "title": "Low-level font feature settings control: the font-feature-settings property",
         "number": "6.12"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "valdef-feature-tag-value-on",
+      "href": "https://drafts.csswg.org/css-fonts-4/#valdef-feature-tag-value-on",
+      "linkingText": [
+        "on"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<feature-tag-value>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "font-feature-settings-prop",
+        "href": "https://drafts.csswg.org/css-fonts-4/#font-feature-settings-prop",
+        "title": "Low-level font feature settings control: the font-feature-settings property",
+        "number": "6.12"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "valdef-feature-tag-value-off",
+      "href": "https://drafts.csswg.org/css-fonts-4/#valdef-feature-tag-value-off",
+      "linkingText": [
+        "off"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<feature-tag-value>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "font-feature-settings-prop",
+        "href": "https://drafts.csswg.org/css-fonts-4/#font-feature-settings-prop",
+        "title": "Low-level font feature settings control: the font-feature-settings property",
+        "number": "6.12"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-font-language-override",
@@ -4082,7 +4500,8 @@
         "title": "Font language override: the font-language-override property",
         "number": "6.13"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "font-language-override-normal-value",
@@ -4103,7 +4522,8 @@
         "title": "Font language override: the font-language-override property",
         "number": "6.13"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-font-optical-sizing",
@@ -4122,7 +4542,8 @@
         "title": "Optical sizing control: the font-optical-sizing property",
         "number": "8.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "font-optical-sizing-auto-value",
@@ -4143,7 +4564,8 @@
         "title": "Optical sizing control: the font-optical-sizing property",
         "number": "8.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "font-optical-sizing-none-value",
@@ -4164,7 +4586,8 @@
         "title": "Optical sizing control: the font-optical-sizing property",
         "number": "8.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-font-variation-settings",
@@ -4183,7 +4606,8 @@
         "title": "Low-level font variation settings control: the font-variation-settings property",
         "number": "8.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "propdef-font-palette",
@@ -4202,7 +4626,8 @@
         "title": "Controlling Color Font Palettes: The font-palette property",
         "number": "9.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "funcdef-palette-mix",
@@ -4221,7 +4646,8 @@
         "title": "Controlling Color Font Palettes: The font-palette property",
         "number": "9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-font-palette-normal",
@@ -4242,7 +4668,8 @@
         "title": "Controlling Color Font Palettes: The font-palette property",
         "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-palette-light",
@@ -4263,7 +4690,8 @@
         "title": "Controlling Color Font Palettes: The font-palette property",
         "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-palette-dark",
@@ -4284,7 +4712,8 @@
         "title": "Controlling Color Font Palettes: The font-palette property",
         "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "typedef-font-palette-palette-identifier",
@@ -4305,7 +4734,8 @@
         "title": "Controlling Color Font Palettes: The font-palette property",
         "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "typedef-font-palette-palette-mix",
@@ -4326,7 +4756,8 @@
         "title": "Controlling Color Font Palettes: The font-palette property",
         "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "at-ruledef-font-palette-values",
@@ -4345,7 +4776,8 @@
         "title": "User-defined font color palettes: The @font-palette-values rule",
         "number": "9.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "descdef-font-palette-values-font-family",
@@ -4366,7 +4798,8 @@
         "title": "Font family: the font-family descriptor",
         "number": "9.2.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "descdef-font-palette-values-base-palette",
@@ -4387,7 +4820,8 @@
         "title": "Specifying the base palette: the base-palette descriptor",
         "number": "9.2.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-base-palette-light",
@@ -4408,7 +4842,8 @@
         "title": "Specifying the base palette: the base-palette descriptor",
         "number": "9.2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-base-palette-dark",
@@ -4429,28 +4864,8 @@
         "title": "Specifying the base palette: the base-palette descriptor",
         "number": "9.2.2"
       },
-      "definedIn": "dt"
-    },
-    {
-      "id": "typedef-base-palette-integer",
-      "href": "https://drafts.csswg.org/css-fonts-4/#typedef-base-palette-integer",
-      "linkingText": [
-        "<integer>"
-      ],
-      "localLinkingText": [],
-      "type": "type",
-      "for": [
-        "base-palette"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "base-palette-desc",
-        "href": "https://drafts.csswg.org/css-fonts-4/#base-palette-desc",
-        "title": "Specifying the base palette: the base-palette descriptor",
-        "number": "9.2.2"
-      },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "descdef-font-palette-values-override-colors",
@@ -4471,7 +4886,8 @@
         "title": "Overriding a colors from a palette: The override-colors descriptor",
         "number": "9.2.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "propdef-font-variant-emoji",
@@ -4490,7 +4906,8 @@
         "title": "Selecting the text presentation style: The font-variant-emoji property",
         "number": "9.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "emoji-presentation-participating-code-points",
@@ -4509,7 +4926,8 @@
         "title": "Selecting the text presentation style: The font-variant-emoji property",
         "number": "9.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-font-variant-emoji-normal",
@@ -4530,7 +4948,8 @@
         "title": "Selecting the text presentation style: The font-variant-emoji property",
         "number": "9.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-emoji-text",
@@ -4551,7 +4970,8 @@
         "title": "Selecting the text presentation style: The font-variant-emoji property",
         "number": "9.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-emoji-emoji",
@@ -4572,7 +4992,8 @@
         "title": "Selecting the text presentation style: The font-variant-emoji property",
         "number": "9.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-font-variant-emoji-unicode",
@@ -4593,18 +5014,261 @@
         "title": "Selecting the text presentation style: The font-variant-emoji property",
         "number": "9.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
-      "id": "cssfontfacerule-interface",
-      "href": "https://drafts.csswg.org/css-fonts-4/#cssfontfacerule-interface",
+      "id": "valdef-font-features-tech-features-opentype",
+      "href": "https://drafts.csswg.org/css-fonts-4/#valdef-font-features-tech-features-opentype",
+      "linkingText": [
+        "features-opentype"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<font-features-tech>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "font-tech-definitions",
+        "href": "https://drafts.csswg.org/css-fonts-4/#font-tech-definitions",
+        "title": "Font tech",
+        "number": "11.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "valdef-font-features-tech-features-aat",
+      "href": "https://drafts.csswg.org/css-fonts-4/#valdef-font-features-tech-features-aat",
+      "linkingText": [
+        "features-aat"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<font-features-tech>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "font-tech-definitions",
+        "href": "https://drafts.csswg.org/css-fonts-4/#font-tech-definitions",
+        "title": "Font tech",
+        "number": "11.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "valdef-font-features-tech-features-graphite",
+      "href": "https://drafts.csswg.org/css-fonts-4/#valdef-font-features-tech-features-graphite",
+      "linkingText": [
+        "features-graphite"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<font-features-tech>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "font-tech-definitions",
+        "href": "https://drafts.csswg.org/css-fonts-4/#font-tech-definitions",
+        "title": "Font tech",
+        "number": "11.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "valdef-font-tech-variations",
+      "href": "https://drafts.csswg.org/css-fonts-4/#valdef-font-tech-variations",
+      "linkingText": [
+        "variations"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<font-tech>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "font-tech-definitions",
+        "href": "https://drafts.csswg.org/css-fonts-4/#font-tech-definitions",
+        "title": "Font tech",
+        "number": "11.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "valdef-color-font-tech-color-colrv0",
+      "href": "https://drafts.csswg.org/css-fonts-4/#valdef-color-font-tech-color-colrv0",
+      "linkingText": [
+        "color-colrv0"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<color-font-tech>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "font-tech-definitions",
+        "href": "https://drafts.csswg.org/css-fonts-4/#font-tech-definitions",
+        "title": "Font tech",
+        "number": "11.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "valdef-color-font-tech-color-colrv1",
+      "href": "https://drafts.csswg.org/css-fonts-4/#valdef-color-font-tech-color-colrv1",
+      "linkingText": [
+        "color-colrv1"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<color-font-tech>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "font-tech-definitions",
+        "href": "https://drafts.csswg.org/css-fonts-4/#font-tech-definitions",
+        "title": "Font tech",
+        "number": "11.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "valdef-color-font-tech-color-svg",
+      "href": "https://drafts.csswg.org/css-fonts-4/#valdef-color-font-tech-color-svg",
+      "linkingText": [
+        "color-svg"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<color-font-tech>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "font-tech-definitions",
+        "href": "https://drafts.csswg.org/css-fonts-4/#font-tech-definitions",
+        "title": "Font tech",
+        "number": "11.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "valdef-color-font-tech-color-sbix",
+      "href": "https://drafts.csswg.org/css-fonts-4/#valdef-color-font-tech-color-sbix",
+      "linkingText": [
+        "color-sbix"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<color-font-tech>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "font-tech-definitions",
+        "href": "https://drafts.csswg.org/css-fonts-4/#font-tech-definitions",
+        "title": "Font tech",
+        "number": "11.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "valdef-color-font-tech-color-cbdt",
+      "href": "https://drafts.csswg.org/css-fonts-4/#valdef-color-font-tech-color-cbdt",
+      "linkingText": [
+        "color-cbdt"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<color-font-tech>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "font-tech-definitions",
+        "href": "https://drafts.csswg.org/css-fonts-4/#font-tech-definitions",
+        "title": "Font tech",
+        "number": "11.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "valdef-font-tech-palettes",
+      "href": "https://drafts.csswg.org/css-fonts-4/#valdef-font-tech-palettes",
+      "linkingText": [
+        "palettes"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<font-tech>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "font-tech-definitions",
+        "href": "https://drafts.csswg.org/css-fonts-4/#font-tech-definitions",
+        "title": "Font tech",
+        "number": "11.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "valdef-font-tech-incremental",
+      "href": "https://drafts.csswg.org/css-fonts-4/#valdef-font-tech-incremental",
+      "linkingText": [
+        "incremental"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<font-tech>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "font-tech-definitions",
+        "href": "https://drafts.csswg.org/css-fonts-4/#font-tech-definitions",
+        "title": "Font tech",
+        "number": "11.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "om-fontface",
+      "href": "https://drafts.csswg.org/css-fonts-4/#om-fontface",
       "linkingText": [
         "CSSFontFaceRule"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "interface",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "om-fontface",
@@ -4612,7 +5276,8 @@
         "title": "The CSSFontFaceRule interface",
         "number": "12.1"
       },
-      "definedIn": "prose"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "cssfontfacedescriptors",
@@ -4631,7 +5296,8 @@
         "title": "The CSSFontFaceRule interface",
         "number": "12.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfacedescriptors-src",
@@ -4652,7 +5318,8 @@
         "title": "The CSSFontFaceRule interface",
         "number": "12.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfacedescriptors-fontfamily",
@@ -4673,7 +5340,8 @@
         "title": "The CSSFontFaceRule interface",
         "number": "12.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfacedescriptors-font-family",
@@ -4694,7 +5362,8 @@
         "title": "The CSSFontFaceRule interface",
         "number": "12.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfacedescriptors-fontstyle",
@@ -4715,7 +5384,8 @@
         "title": "The CSSFontFaceRule interface",
         "number": "12.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfacedescriptors-font-style",
@@ -4736,7 +5406,8 @@
         "title": "The CSSFontFaceRule interface",
         "number": "12.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfacedescriptors-fontweight",
@@ -4757,7 +5428,8 @@
         "title": "The CSSFontFaceRule interface",
         "number": "12.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfacedescriptors-font-weight",
@@ -4778,7 +5450,8 @@
         "title": "The CSSFontFaceRule interface",
         "number": "12.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfacedescriptors-fontstretch",
@@ -4799,7 +5472,8 @@
         "title": "The CSSFontFaceRule interface",
         "number": "12.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfacedescriptors-font-stretch",
@@ -4820,7 +5494,8 @@
         "title": "The CSSFontFaceRule interface",
         "number": "12.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfacedescriptors-fontwidth",
@@ -4841,7 +5516,8 @@
         "title": "The CSSFontFaceRule interface",
         "number": "12.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfacedescriptors-font-width",
@@ -4862,7 +5538,8 @@
         "title": "The CSSFontFaceRule interface",
         "number": "12.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfacedescriptors-unicoderange",
@@ -4883,7 +5560,8 @@
         "title": "The CSSFontFaceRule interface",
         "number": "12.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfacedescriptors-unicode-range",
@@ -4904,7 +5582,8 @@
         "title": "The CSSFontFaceRule interface",
         "number": "12.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfacedescriptors-fontfeaturesettings",
@@ -4925,7 +5604,8 @@
         "title": "The CSSFontFaceRule interface",
         "number": "12.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfacedescriptors-font-feature-settings",
@@ -4946,7 +5626,8 @@
         "title": "The CSSFontFaceRule interface",
         "number": "12.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfacedescriptors-fontvariationsettings",
@@ -4967,7 +5648,8 @@
         "title": "The CSSFontFaceRule interface",
         "number": "12.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfacedescriptors-font-variation-settings",
@@ -4988,7 +5670,8 @@
         "title": "The CSSFontFaceRule interface",
         "number": "12.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfacedescriptors-fontnamedinstance",
@@ -5009,7 +5692,8 @@
         "title": "The CSSFontFaceRule interface",
         "number": "12.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfacedescriptors-font-named-instance",
@@ -5030,7 +5714,8 @@
         "title": "The CSSFontFaceRule interface",
         "number": "12.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfacedescriptors-fontdisplay",
@@ -5051,7 +5736,8 @@
         "title": "The CSSFontFaceRule interface",
         "number": "12.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfacedescriptors-font-display",
@@ -5072,7 +5758,8 @@
         "title": "The CSSFontFaceRule interface",
         "number": "12.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfacedescriptors-fontlanguageoverride",
@@ -5093,7 +5780,8 @@
         "title": "The CSSFontFaceRule interface",
         "number": "12.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfacedescriptors-font-language-override",
@@ -5114,7 +5802,8 @@
         "title": "The CSSFontFaceRule interface",
         "number": "12.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfacedescriptors-ascentoverride",
@@ -5135,7 +5824,8 @@
         "title": "The CSSFontFaceRule interface",
         "number": "12.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfacedescriptors-ascent-override",
@@ -5156,7 +5846,8 @@
         "title": "The CSSFontFaceRule interface",
         "number": "12.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfacedescriptors-descentoverride",
@@ -5177,7 +5868,8 @@
         "title": "The CSSFontFaceRule interface",
         "number": "12.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfacedescriptors-descent-override",
@@ -5198,7 +5890,8 @@
         "title": "The CSSFontFaceRule interface",
         "number": "12.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfacedescriptors-linegapoverride",
@@ -5219,7 +5912,8 @@
         "title": "The CSSFontFaceRule interface",
         "number": "12.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfacedescriptors-line-gap-override",
@@ -5240,26 +5934,8 @@
         "title": "The CSSFontFaceRule interface",
         "number": "12.1"
       },
-      "definedIn": "pre"
-    },
-    {
-      "id": "cssfontfacerule",
-      "href": "https://drafts.csswg.org/css-fonts-4/#cssfontfacerule",
-      "linkingText": [
-        "CSSFontFaceRule"
-      ],
-      "localLinkingText": [],
-      "type": "interface",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "om-fontface",
-        "href": "https://drafts.csswg.org/css-fonts-4/#om-fontface",
-        "title": "The CSSFontFaceRule interface",
-        "number": "12.1"
-      },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfacerule-style",
@@ -5280,7 +5956,28 @@
         "title": "The CSSFontFaceRule interface",
         "number": "12.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "om-fontfeaturevalues",
+      "href": "https://drafts.csswg.org/css-fonts-4/#om-fontfeaturevalues",
+      "linkingText": [
+        "CSSFontFeatureValuesRule"
+      ],
+      "localLinkingText": [],
+      "type": "interface",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "om-fontfeaturevalues",
+        "href": "https://drafts.csswg.org/css-fonts-4/#om-fontfeaturevalues",
+        "title": "The CSSFontFeatureValuesRule interface",
+        "number": "12.2"
+      },
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-cssrule-font_feature_values_rule",
@@ -5301,87 +5998,8 @@
         "title": "The CSSFontFeatureValuesRule interface",
         "number": "12.2"
       },
-      "definedIn": "pre"
-    },
-    {
-      "id": "cssfontfeaturevaluesrule-dfn",
-      "href": "https://drafts.csswg.org/css-fonts-4/#cssfontfeaturevaluesrule-dfn",
-      "linkingText": [
-        "CSSFontFeatureValuesRule"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "om-fontfeaturevalues",
-        "href": "https://drafts.csswg.org/css-fonts-4/#om-fontfeaturevalues",
-        "title": "The CSSFontFeatureValuesRule interface",
-        "number": "12.2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "cssfontfeaturevaluesrule",
-      "href": "https://drafts.csswg.org/css-fonts-4/#cssfontfeaturevaluesrule",
-      "linkingText": [
-        "CSSFontFeatureValuesRule"
-      ],
-      "localLinkingText": [],
-      "type": "interface",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "om-fontfeaturevalues",
-        "href": "https://drafts.csswg.org/css-fonts-4/#om-fontfeaturevalues",
-        "title": "The CSSFontFeatureValuesRule interface",
-        "number": "12.2"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-cssfontfeaturevaluesrule-fontfamily",
-      "href": "https://drafts.csswg.org/css-fonts-4/#dom-cssfontfeaturevaluesrule-fontfamily",
-      "linkingText": [
-        "fontFamily"
-      ],
-      "localLinkingText": [],
-      "type": "attribute",
-      "for": [
-        "CSSFontFeatureValuesRule"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "om-fontfeaturevalues",
-        "href": "https://drafts.csswg.org/css-fonts-4/#om-fontfeaturevalues",
-        "title": "The CSSFontFeatureValuesRule interface",
-        "number": "12.2"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-cssfontfeaturevaluesrule-annotation",
-      "href": "https://drafts.csswg.org/css-fonts-4/#dom-cssfontfeaturevaluesrule-annotation",
-      "linkingText": [
-        "annotation"
-      ],
-      "localLinkingText": [],
-      "type": "attribute",
-      "for": [
-        "CSSFontFeatureValuesRule"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "om-fontfeaturevalues",
-        "href": "https://drafts.csswg.org/css-fonts-4/#om-fontfeaturevalues",
-        "title": "The CSSFontFeatureValuesRule interface",
-        "number": "12.2"
-      },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfeaturevaluesrule-ornaments",
@@ -5402,7 +6020,8 @@
         "title": "The CSSFontFeatureValuesRule interface",
         "number": "12.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfeaturevaluesrule-stylistic",
@@ -5423,7 +6042,8 @@
         "title": "The CSSFontFeatureValuesRule interface",
         "number": "12.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfeaturevaluesrule-swash",
@@ -5444,7 +6064,8 @@
         "title": "The CSSFontFeatureValuesRule interface",
         "number": "12.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfeaturevaluesrule-charactervariant",
@@ -5465,7 +6086,8 @@
         "title": "The CSSFontFeatureValuesRule interface",
         "number": "12.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfeaturevaluesrule-styleset",
@@ -5486,7 +6108,8 @@
         "title": "The CSSFontFeatureValuesRule interface",
         "number": "12.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfeaturevaluesrule-historicalforms",
@@ -5507,7 +6130,8 @@
         "title": "The CSSFontFeatureValuesRule interface",
         "number": "12.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "cssfontfeaturevaluesmap",
@@ -5526,7 +6150,8 @@
         "title": "The CSSFontFeatureValuesRule interface",
         "number": "12.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfeaturevaluesmap-set",
@@ -5547,7 +6172,8 @@
         "title": "The CSSFontFeatureValuesRule interface",
         "number": "12.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfeaturevaluesmap-set-featurevaluename-values-featurevaluename",
@@ -5568,7 +6194,8 @@
         "title": "The CSSFontFeatureValuesRule interface",
         "number": "12.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontfeaturevaluesmap-set-featurevaluename-values-values",
@@ -5589,11 +6216,56 @@
         "title": "The CSSFontFeatureValuesRule interface",
         "number": "12.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
-      "id": "cssfontpalettevaluesrule",
-      "href": "https://drafts.csswg.org/css-fonts-4/#cssfontpalettevaluesrule",
+      "id": "dom-cssfontfeaturevaluesrule-fontfamily",
+      "href": "https://drafts.csswg.org/css-fonts-4/#dom-cssfontfeaturevaluesrule-fontfamily",
+      "linkingText": [
+        "fontFamily"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "CSSFontFeatureValuesRule"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "om-fontfeaturevalues",
+        "href": "https://drafts.csswg.org/css-fonts-4/#om-fontfeaturevalues",
+        "title": "The CSSFontFeatureValuesRule interface",
+        "number": "12.2"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-cssfontfeaturevaluesrule-annotation",
+      "href": "https://drafts.csswg.org/css-fonts-4/#dom-cssfontfeaturevaluesrule-annotation",
+      "linkingText": [
+        "annotation"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "CSSFontFeatureValuesRule"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "om-fontfeaturevalues",
+        "href": "https://drafts.csswg.org/css-fonts-4/#om-fontfeaturevalues",
+        "title": "The CSSFontFeatureValuesRule interface",
+        "number": "12.2"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "om-fontpalettevalues",
+      "href": "https://drafts.csswg.org/css-fonts-4/#om-fontpalettevalues",
       "linkingText": [
         "CSSFontPaletteValuesRule"
       ],
@@ -5608,7 +6280,8 @@
         "title": "The CSSFontPaletteValuesRule interface",
         "number": "12.3"
       },
-      "definedIn": "pre"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-cssfontpalettevaluesrule-name",
@@ -5629,7 +6302,8 @@
         "title": "The CSSFontPaletteValuesRule interface",
         "number": "12.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontpalettevaluesrule-fontfamily",
@@ -5650,7 +6324,8 @@
         "title": "The CSSFontPaletteValuesRule interface",
         "number": "12.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontpalettevaluesrule-basepalette",
@@ -5671,7 +6346,8 @@
         "title": "The CSSFontPaletteValuesRule interface",
         "number": "12.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssfontpalettevaluesrule-overridecolors",
@@ -5692,7 +6368,8 @@
         "title": "The CSSFontPaletteValuesRule interface",
         "number": "12.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     }
   ]
 }

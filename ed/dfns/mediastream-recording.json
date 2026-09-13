@@ -21,7 +21,8 @@
         "title": "Media Recorder API",
         "number": "2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mediarecorder-mediarecorder-stream-options-stream",
@@ -40,11 +41,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "mediarecorder-api",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorder-api",
+        "title": "Media Recorder API",
+        "number": "2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mediarecorder-mediarecorder-stream-options-options",
@@ -63,11 +66,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "mediarecorder-api",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorder-api",
+        "title": "Media Recorder API",
+        "number": "2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mediarecorder-start-timeslice-timeslice",
@@ -84,11 +89,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "mediarecorder-api",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorder-api",
+        "title": "Media Recorder API",
+        "number": "2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mediarecorder-istypesupported-type-type",
@@ -104,11 +111,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "mediarecorder-api",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorder-api",
+        "title": "Media Recorder API",
+        "number": "2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mediarecorder-mediarecorder",
@@ -132,7 +141,8 @@
         "title": "Constructors",
         "number": "2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "constrainedmimetype",
@@ -146,11 +156,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "mediarecorder-constructor",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorder-constructor",
+        "title": "Constructors",
+        "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "constrainedbitspersecond",
@@ -164,11 +176,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "mediarecorder-constructor",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorder-constructor",
+        "title": "Constructors",
+        "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "videokeyframeintervalduration",
@@ -182,11 +196,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "mediarecorder-constructor",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorder-constructor",
+        "title": "Constructors",
+        "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "videokeyframeintervalcount",
@@ -200,11 +216,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "mediarecorder-constructor",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorder-constructor",
+        "title": "Constructors",
+        "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mediarecorder-stream",
@@ -225,7 +243,8 @@
         "title": "Attributes",
         "number": "2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-mediarecorder-mimetype",
@@ -241,11 +260,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "mediarecorder-attributes",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorder-attributes",
+        "title": "Attributes",
+        "number": "2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-mediarecorder-state",
@@ -261,11 +282,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "mediarecorder-attributes",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorder-attributes",
+        "title": "Attributes",
+        "number": "2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-mediarecorder-onstart",
@@ -281,11 +304,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "mediarecorder-attributes",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorder-attributes",
+        "title": "Attributes",
+        "number": "2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-mediarecorder-onstop",
@@ -301,11 +326,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "mediarecorder-attributes",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorder-attributes",
+        "title": "Attributes",
+        "number": "2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-mediarecorder-ondataavailable",
@@ -321,11 +348,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "mediarecorder-attributes",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorder-attributes",
+        "title": "Attributes",
+        "number": "2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-mediarecorder-onpause",
@@ -341,11 +370,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "mediarecorder-attributes",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorder-attributes",
+        "title": "Attributes",
+        "number": "2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-mediarecorder-onresume",
@@ -361,11 +392,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "mediarecorder-attributes",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorder-attributes",
+        "title": "Attributes",
+        "number": "2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-mediarecorder-onerror",
@@ -381,11 +414,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "mediarecorder-attributes",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorder-attributes",
+        "title": "Attributes",
+        "number": "2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-mediarecorder-videobitspersecond",
@@ -401,11 +436,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "mediarecorder-attributes",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorder-attributes",
+        "title": "Attributes",
+        "number": "2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-mediarecorder-audiobitspersecond",
@@ -421,11 +458,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "mediarecorder-attributes",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorder-attributes",
+        "title": "Attributes",
+        "number": "2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-mediarecorder-audiobitratemode",
@@ -441,11 +480,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "mediarecorder-attributes",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorder-attributes",
+        "title": "Attributes",
+        "number": "2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-mediarecorder-start",
@@ -467,7 +508,8 @@
         "title": "Methods",
         "number": "2.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "abstract-opdef-inactivate-the-recorder",
@@ -481,11 +523,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "mediarecorder-methods",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorder-methods",
+        "title": "Methods",
+        "number": "2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mediarecorder-stop",
@@ -501,11 +545,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "mediarecorder-methods",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorder-methods",
+        "title": "Methods",
+        "number": "2.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-mediarecorder-pause",
@@ -521,11 +567,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "mediarecorder-methods",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorder-methods",
+        "title": "Methods",
+        "number": "2.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-mediarecorder-resume",
@@ -541,11 +589,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "mediarecorder-methods",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorder-methods",
+        "title": "Methods",
+        "number": "2.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-mediarecorder-requestdata",
@@ -561,11 +611,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "mediarecorder-methods",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorder-methods",
+        "title": "Methods",
+        "number": "2.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-mediarecorder-istypesupported",
@@ -581,11 +633,33 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "mediarecorder-methods",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorder-methods",
+        "title": "Methods",
+        "number": "2.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "list-of-synchronously-exposed-codec-identifiers",
+      "href": "https://w3c.github.io/mediacapture-record/#list-of-synchronously-exposed-codec-identifiers",
+      "linkingText": [
+        "list of synchronously exposed codec identifiers"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "mediarecorder-methods",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorder-methods",
+        "title": "Methods",
+        "number": "2.3"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "abstract-opdef-is-type-supported",
@@ -599,11 +673,33 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "mediarecorder-methods",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorder-methods",
+        "title": "Methods",
+        "number": "2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "abstract-opdef-is-synchronously-exposed",
+      "href": "https://w3c.github.io/mediacapture-record/#abstract-opdef-is-synchronously-exposed",
+      "linkingText": [
+        "is synchronously exposed"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "mediarecorder-methods",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorder-methods",
+        "title": "Methods",
+        "number": "2.3"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "fire-a-blob-event",
@@ -622,7 +718,8 @@
         "title": "Data handling",
         "number": "2.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dictdef-mediarecorderoptions",
@@ -641,7 +738,8 @@
         "title": "MediaRecorderOptions",
         "number": "2.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mediarecorderoptions-mimetype",
@@ -662,7 +760,8 @@
         "title": "Members",
         "number": "2.5.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-mediarecorderoptions-audiobitspersecond",
@@ -678,11 +777,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "mediarecorderoptions-members",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorderoptions-members",
+        "title": "Members",
+        "number": "2.5.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-mediarecorderoptions-videobitspersecond",
@@ -698,11 +799,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "mediarecorderoptions-members",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorderoptions-members",
+        "title": "Members",
+        "number": "2.5.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-mediarecorderoptions-bitspersecond",
@@ -718,11 +821,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "mediarecorderoptions-members",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorderoptions-members",
+        "title": "Members",
+        "number": "2.5.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-mediarecorderoptions-audiobitratemode",
@@ -738,11 +843,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "mediarecorderoptions-members",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorderoptions-members",
+        "title": "Members",
+        "number": "2.5.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-mediarecorderoptions-videokeyframeintervalduration",
@@ -758,11 +865,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "mediarecorderoptions-members",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorderoptions-members",
+        "title": "Members",
+        "number": "2.5.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-mediarecorderoptions-videokeyframeintervalcount",
@@ -778,11 +887,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "mediarecorderoptions-members",
+        "href": "https://w3c.github.io/mediacapture-record/#mediarecorderoptions-members",
+        "title": "Members",
+        "number": "2.5.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "enumdef-bitratemode",
@@ -801,7 +912,8 @@
         "title": "BitrateMode",
         "number": "2.6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-bitratemode-constant",
@@ -823,7 +935,8 @@
         "title": "Values",
         "number": "2.6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-bitratemode-variable",
@@ -840,11 +953,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "bitratemode-values",
+        "href": "https://w3c.github.io/mediacapture-record/#bitratemode-values",
+        "title": "Values",
+        "number": "2.6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "enumdef-recordingstate",
@@ -863,7 +978,8 @@
         "title": "RecordingState",
         "number": "2.7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-recordingstate-inactive",
@@ -885,7 +1001,8 @@
         "title": "Values",
         "number": "2.7.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-recordingstate-recording",
@@ -902,11 +1019,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "recordingstate-values",
+        "href": "https://w3c.github.io/mediacapture-record/#recordingstate-values",
+        "title": "Values",
+        "number": "2.7.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-recordingstate-paused",
@@ -923,11 +1042,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "recordingstate-values",
+        "href": "https://w3c.github.io/mediacapture-record/#recordingstate-values",
+        "title": "Values",
+        "number": "2.7.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "blobevent",
@@ -946,7 +1067,8 @@
         "title": "Blob Event",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-blobevent-blobevent-type-eventinitdict-type",
@@ -963,11 +1085,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "blobevent-section",
+        "href": "https://w3c.github.io/mediacapture-record/#blobevent-section",
+        "title": "Blob Event",
+        "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-blobevent-blobevent-type-eventinitdict-eventinitdict",
@@ -984,11 +1108,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "blobevent-section",
+        "href": "https://w3c.github.io/mediacapture-record/#blobevent-section",
+        "title": "Blob Event",
+        "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-blobevent-blobevent",
@@ -1010,7 +1136,8 @@
         "title": "Constructors",
         "number": "3.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-blobevent-data",
@@ -1031,7 +1158,8 @@
         "title": "Attributes",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-blobevent-timecode",
@@ -1047,11 +1175,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "blobevent-attributes",
+        "href": "https://w3c.github.io/mediacapture-record/#blobevent-attributes",
+        "title": "Attributes",
+        "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dictdef-blobeventinit",
@@ -1070,7 +1200,8 @@
         "title": "BlobEventInit",
         "number": "3.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-blobeventinit-data",
@@ -1091,7 +1222,8 @@
         "title": "Members",
         "number": "3.3.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-blobeventinit-timecode",
@@ -1107,11 +1239,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-record/#title",
-        "title": "MediaStream Recording"
+        "id": "blobeventinit-members",
+        "href": "https://w3c.github.io/mediacapture-record/#blobeventinit-members",
+        "title": "Members",
+        "number": "3.3.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "fire-an-error-event",
@@ -1130,7 +1264,8 @@
         "title": "Error events",
         "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "eventdef-mediarecorder-start",
@@ -1151,7 +1286,8 @@
         "title": "Event summary",
         "number": "5"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "eventdef-mediarecorder-stop",
@@ -1172,7 +1308,8 @@
         "title": "Event summary",
         "number": "5"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "eventdef-mediarecorder-dataavailable",
@@ -1193,7 +1330,8 @@
         "title": "Event summary",
         "number": "5"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "eventdef-mediarecorder-pause",
@@ -1214,7 +1352,8 @@
         "title": "Event summary",
         "number": "5"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "eventdef-mediarecorder-resume",
@@ -1235,7 +1374,8 @@
         "title": "Event summary",
         "number": "5"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "eventdef-mediarecorder-error",
@@ -1256,7 +1396,8 @@
         "title": "Event summary",
         "number": "5"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     }
   ]
 }

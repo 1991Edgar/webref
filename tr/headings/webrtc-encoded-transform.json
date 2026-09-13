@@ -26,7 +26,10 @@
       "id": "toc",
       "href": "https://www.w3.org/TR/webrtc-encoded-transform/#toc",
       "level": 2,
-      "title": "Table of Contents"
+      "title": "Table of Contents",
+      "alternateIds": [
+        "contents"
+      ]
     },
     {
       "id": "introduction",
@@ -50,17 +53,17 @@
       "number": "2.1"
     },
     {
-      "id": "stream-creation",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#stream-creation",
-      "level": 4,
-      "title": "Stream creation",
-      "number": "2.1.1"
-    },
-    {
       "id": "stream-processing",
       "href": "https://www.w3.org/TR/webrtc-encoded-transform/#stream-processing",
       "level": 4,
       "title": "Stream processing",
+      "number": "2.1.1"
+    },
+    {
+      "id": "transform-processing",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#transform-processing",
+      "level": 4,
+      "title": "RTCRtpTransform common processing",
       "number": "2.1.2"
     },
     {
@@ -74,14 +77,14 @@
       "id": "sframe",
       "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe",
       "level": 2,
-      "title": "SFrameTransform",
+      "title": "SFrame transforms",
       "number": "3"
     },
     {
-      "id": "sframe-transform-algorithm",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe-transform-algorithm",
+      "id": "sframe-algorithms",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sframe-algorithms",
       "level": 3,
-      "title": "Algorithm",
+      "title": "Algorithms",
       "number": "3.1"
     },
     {
@@ -95,15 +98,22 @@
       "id": "scriptTransform",
       "href": "https://www.w3.org/TR/webrtc-encoded-transform/#scriptTransform",
       "level": 2,
-      "title": "RTCRtpScriptTransform",
+      "title": "Script Transform",
       "number": "4"
     },
     {
-      "id": "RTCEncodedVideoFrameType",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrameType",
+      "id": "RTCEncodedFrameMetadata",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedFrameMetadata",
       "level": 3,
-      "title": "RTCEncodedVideoFrameType dictionary",
+      "title": "RTCEncodedFrameMetadata dictionary",
       "number": "4.1"
+    },
+    {
+      "id": "RTCEncodedFrameMetadata-members",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedFrameMetadata-members",
+      "level": 4,
+      "title": "Members",
+      "number": "4.1.1"
     },
     {
       "id": "RTCEncodedVideoFrameMetadata",
@@ -127,15 +137,15 @@
       "number": "4.3"
     },
     {
-      "id": "RTCEncodedVideoFrame-members",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrame-members",
+      "id": "RTCEncodedVideoFrame-constructor",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrame-constructor",
       "level": 4,
       "title": "Constructor",
       "number": "4.3.1"
     },
     {
-      "id": "RTCEncodedVideoFrame-members①",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrame-members%E2%91%A0",
+      "id": "RTCEncodedVideoFrame-members",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedVideoFrame-members",
       "level": 4,
       "title": "Members",
       "number": "4.3.2"
@@ -176,15 +186,15 @@
       "number": "4.5"
     },
     {
-      "id": "RTCEncodedAudioFrame-members",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrame-members",
+      "id": "RTCEncodedAudioFrame-constructor",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrame-constructor",
       "level": 4,
       "title": "Constructor",
       "number": "4.5.1"
     },
     {
-      "id": "RTCEncodedAudioFrame-members①",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrame-members%E2%91%A0",
+      "id": "RTCEncodedAudioFrame-members",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCEncodedAudioFrame-members",
       "level": 4,
       "title": "Members",
       "number": "4.5.2"
@@ -204,67 +214,88 @@
       "number": "4.5.4"
     },
     {
-      "id": "RTCRtpScriptTransformer-interfaces",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-interfaces",
-      "level": 3,
-      "title": "Interfaces",
-      "number": "4.6"
+      "id": "RTCRtpScriptTransform-interface",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransform-interface",
+      "level": 2,
+      "title": "RTCRtpScriptTransform interface",
+      "number": "5"
     },
     {
-      "id": "RTCRtpScriptTransform-operations",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransform-operations",
+      "id": "RTCRtpScriptTransform-internal-slots",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransform-internal-slots",
       "level": 3,
-      "title": "Operations",
-      "number": "4.7"
+      "title": "Internal slots",
+      "number": "5.1"
+    },
+    {
+      "id": "RTCRtpScriptTransform-constructor",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransform-constructor",
+      "level": 3,
+      "title": "Constructor",
+      "number": "5.2"
+    },
+    {
+      "id": "RTCRtpScriptTransform-algorithms",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransform-algorithms",
+      "level": 3,
+      "title": "Algorithms",
+      "number": "5.3"
+    },
+    {
+      "id": "RTCRtpScriptTransformer-interface",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-interface",
+      "level": 2,
+      "title": "RTCRtpScriptTransformer interface",
+      "number": "6"
+    },
+    {
+      "id": "RTCRtpScriptTransformer-internal-slots",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-internal-slots",
+      "level": 3,
+      "title": "Internal slots",
+      "number": "6.1"
+    },
+    {
+      "id": "RTCRtpScriptTransformer-methods",
+      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-methods",
+      "level": 3,
+      "title": "Methods",
+      "number": "6.2"
     },
     {
       "id": "RTCRtpScriptTransformer-attributes",
       "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-attributes",
       "level": 3,
       "title": "Attributes",
-      "number": "4.8"
+      "number": "6.3"
     },
     {
       "id": "RTCRtpScriptTransformer-events",
       "href": "https://www.w3.org/TR/webrtc-encoded-transform/#RTCRtpScriptTransformer-events",
       "level": 3,
       "title": "Events",
-      "number": "4.9"
+      "number": "6.4"
     },
     {
       "id": "KeyFrame-algorithms",
       "href": "https://www.w3.org/TR/webrtc-encoded-transform/#KeyFrame-algorithms",
       "level": 3,
       "title": "KeyFrame Algorithms",
-      "number": "4.10"
-    },
-    {
-      "id": "rtcrtpsender-extension",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#rtcrtpsender-extension",
-      "level": 2,
-      "title": "RTCRtpSender extension",
-      "number": "5"
-    },
-    {
-      "id": "sender-operation",
-      "href": "https://www.w3.org/TR/webrtc-encoded-transform/#sender-operation",
-      "level": 3,
-      "title": "Extension operation",
-      "number": "5.1"
+      "number": "6.5"
     },
     {
       "id": "privacy",
       "href": "https://www.w3.org/TR/webrtc-encoded-transform/#privacy",
       "level": 2,
       "title": "Privacy and security considerations",
-      "number": "6"
+      "number": "7"
     },
     {
       "id": "examples",
       "href": "https://www.w3.org/TR/webrtc-encoded-transform/#examples",
       "level": 2,
       "title": "Examples",
-      "number": "7"
+      "number": "8"
     },
     {
       "id": "w3c-conformance",
@@ -318,7 +349,7 @@
       "id": "informative",
       "href": "https://www.w3.org/TR/webrtc-encoded-transform/#informative",
       "level": 3,
-      "title": "Informative References"
+      "title": "Non-Normative References"
     },
     {
       "id": "idl-index",

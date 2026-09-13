@@ -10,11 +10,15 @@
         "url": "https://www.w3.org/TR/css-overflow-3/"
       },
       {
-        "name": "CSS21",
-        "url": "https://www.w3.org/TR/CSS21/"
+        "name": "css-position",
+        "url": "https://www.w3.org/TR/css-position-3/"
       },
       {
-        "name": "CSSOM-VIEW",
+        "name": "CSS21",
+        "url": "https://www.w3.org/TR/CSS2/"
+      },
+      {
+        "name": "CSSOM-View",
         "url": "https://www.w3.org/TR/cssom-view-1/"
       },
       {
@@ -30,24 +34,40 @@
         "url": "https://html.spec.whatwg.org/multipage/"
       },
       {
+        "name": "HTML401",
+        "url": "https://www.w3.org/TR/html401/"
+      },
+      {
+        "name": "infra",
+        "url": "https://infra.spec.whatwg.org/"
+      },
+      {
         "name": "PointerLock",
-        "url": "https://www.w3.org/TR/pointerlock/"
+        "url": "https://www.w3.org/TR/pointerlock-2/"
       },
       {
         "name": "RFC2119",
-        "url": "https://www.rfc-editor.org/rfc/rfc2119"
+        "url": "https://www.rfc-editor.org/info/rfc2119/"
       },
       {
         "name": "RFC8174",
-        "url": "https://www.rfc-editor.org/rfc/rfc8174"
+        "url": "https://www.rfc-editor.org/info/rfc8174/"
       },
       {
         "name": "TOUCH-EVENTS",
         "url": "https://www.w3.org/TR/touch-events/"
       },
       {
-        "name": "UIEVENTS",
+        "name": "UIEvents",
         "url": "https://www.w3.org/TR/uievents/"
+      },
+      {
+        "name": "UIEvents-Key",
+        "url": "https://www.w3.org/TR/uievents-key/"
+      },
+      {
+        "name": "WEBDRIVER-BIDI",
+        "url": "https://www.w3.org/TR/webdriver-bidi/"
       },
       {
         "name": "WEBIDL",
@@ -61,7 +81,7 @@
       },
       {
         "name": "PointerEvents",
-        "url": "https://www.w3.org/TR/pointerevents/"
+        "url": "https://www.w3.org/TR/pointerevents4/"
       },
       {
         "name": "PointerEvents3",

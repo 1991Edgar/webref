@@ -21,7 +21,8 @@
         "title": "Structure and Terminology",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "selector-subject",
@@ -44,7 +45,8 @@
         "title": "Structure and Terminology",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "match",
@@ -63,7 +65,8 @@
         "title": "Structure and Terminology",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "simple",
@@ -82,7 +85,8 @@
         "title": "Structure and Terminology",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "compound",
@@ -101,7 +105,28 @@
         "title": "Structure and Terminology",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "pseudo-compound",
+      "href": "https://www.w3.org/TR/selectors-4/#pseudo-compound",
+      "linkingText": [
+        "pseudo-compound selector"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "structure",
+        "href": "https://www.w3.org/TR/selectors-4/#structure",
+        "title": "Structure and Terminology",
+        "number": "3.1"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "selector-combinator",
@@ -122,7 +147,8 @@
         "title": "Structure and Terminology",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "complex",
@@ -141,7 +167,8 @@
         "title": "Structure and Terminology",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "list-of-simple-selectors",
@@ -162,7 +189,8 @@
         "title": "Structure and Terminology",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "selector-list",
@@ -182,26 +210,8 @@
         "title": "Structure and Terminology",
         "number": "3.1"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "featureless",
-      "href": "https://www.w3.org/TR/selectors-4/#featureless",
-      "linkingText": [
-        "featureless"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "data-model",
-        "href": "https://www.w3.org/TR/selectors-4/#data-model",
-        "title": "Data Model",
-        "number": "3.2"
-      },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "document-language",
@@ -220,7 +230,8 @@
         "title": "Data Model",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "host-language",
@@ -239,7 +250,28 @@
         "title": "Data Model",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "featureless",
+      "href": "https://www.w3.org/TR/selectors-4/#featureless",
+      "linkingText": [
+        "featureless"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "featureless-elements",
+        "href": "https://www.w3.org/TR/selectors-4/#featureless-elements",
+        "title": "Featureless Elements",
+        "number": "3.2.1"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "scoped-selector",
@@ -260,7 +292,8 @@
         "title": "Scoped Selectors",
         "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "scoping-root",
@@ -279,7 +312,8 @@
         "title": "Scoped Selectors",
         "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "relative-selector",
@@ -300,7 +334,8 @@
         "title": "Relative Selectors",
         "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "relative-selector-anchor-elements",
@@ -321,7 +356,8 @@
         "title": "Relative Selectors",
         "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "pseudo-class",
@@ -340,7 +376,8 @@
         "title": "Pseudo-classes",
         "number": "3.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "functional-pseudo-class",
@@ -359,13 +396,14 @@
         "title": "Pseudo-classes",
         "number": "3.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "pseudo-element",
       "href": "https://www.w3.org/TR/selectors-4/#pseudo-element",
       "linkingText": [
-        "pseudo-element"
+        "pseudo-elements"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -378,7 +416,28 @@
         "title": "Pseudo-elements",
         "number": "3.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "functional-pseudo-element",
+      "href": "https://www.w3.org/TR/selectors-4/#functional-pseudo-element",
+      "linkingText": [
+        "functional pseudo-element"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "pseudo-element-syntax",
+        "href": "https://www.w3.org/TR/selectors-4/#pseudo-element-syntax",
+        "title": "Syntax",
+        "number": "3.6.1"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "originating-element",
@@ -397,7 +456,8 @@
         "title": "Binding to the Document Tree",
         "number": "3.6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "sub-pseudo-element",
@@ -416,7 +476,8 @@
         "title": "Sub-pseudo-elements",
         "number": "3.6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "originating-pseudo-element",
@@ -435,7 +496,8 @@
         "title": "Sub-pseudo-elements",
         "number": "3.6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "ultimate-originating-element",
@@ -454,7 +516,8 @@
         "title": "Sub-pseudo-elements",
         "number": "3.6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "whitespace",
@@ -473,7 +536,8 @@
         "title": "Characters and case sensitivity",
         "number": "3.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "nsdecl",
@@ -492,7 +556,8 @@
         "title": "Declaring Namespace Prefixes",
         "number": "3.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "invalid-selector",
@@ -513,7 +578,8 @@
         "title": "Invalid Selectors and Error Handling",
         "number": "3.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "legacy-selector-alias",
@@ -532,7 +598,28 @@
         "title": "Legacy Aliases",
         "number": "3.10"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "logical-combination-pseudo-classes",
+      "href": "https://www.w3.org/TR/selectors-4/#logical-combination-pseudo-classes",
+      "linkingText": [
+        "logical combination pseudo-classes"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "logical-combination",
+        "href": "https://www.w3.org/TR/selectors-4/#logical-combination",
+        "title": "Logical Combinations",
+        "number": "4"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "matches-pseudo",
@@ -551,7 +638,8 @@
         "title": "The Matches-Any Pseudo-class: :is()",
         "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "selectordef-matches",
@@ -570,7 +658,8 @@
         "title": "The Matches-Any Pseudo-class: :is()",
         "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "negation-pseudo",
@@ -589,7 +678,8 @@
         "title": "The Negation (Matches-None) Pseudo-class: :not()",
         "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "where-pseudo",
@@ -608,7 +698,8 @@
         "title": "The Specificity-adjustment Pseudo-class: :where()",
         "number": "4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "has-pseudo",
@@ -627,7 +718,8 @@
         "title": "The Relational Pseudo-class: :has()",
         "number": "4.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "has-allowed-pseudo-element",
@@ -646,7 +738,8 @@
         "title": "The Relational Pseudo-class: :has()",
         "number": "4.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "type-selector",
@@ -665,7 +758,8 @@
         "title": "Type (tag name) selector",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "universal-selector",
@@ -684,7 +778,8 @@
         "title": "Universal selector",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "defined-pseudo",
@@ -703,7 +798,8 @@
         "title": "The Defined Pseudo-class: :defined",
         "number": "5.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "attribute-selector",
@@ -722,7 +818,8 @@
         "title": "Attribute selectors",
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "class-selector",
@@ -741,7 +838,8 @@
         "title": "Class selectors",
         "number": "6.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "id-selector",
@@ -760,7 +858,8 @@
         "title": "ID selectors",
         "number": "6.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dir-pseudo",
@@ -779,7 +878,8 @@
         "title": "The Directionality Pseudo-class: :dir()",
         "number": "7.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "lang-pseudo",
@@ -798,7 +898,8 @@
         "title": "The Language Pseudo-class: :lang()",
         "number": "7.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "language-range",
@@ -817,7 +918,8 @@
         "title": "The Language Pseudo-class: :lang()",
         "number": "7.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "any-link-pseudo",
@@ -836,7 +938,8 @@
         "title": "The Hyperlink Pseudo-class: :any-link",
         "number": "8.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "link-pseudo",
@@ -855,7 +958,8 @@
         "title": "The Link History Pseudo-classes: :link and :visited",
         "number": "8.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "visited-pseudo",
@@ -874,26 +978,8 @@
         "title": "The Link History Pseudo-classes: :link and :visited",
         "number": "8.2"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "local-link-pseudo",
-      "href": "https://www.w3.org/TR/selectors-4/#local-link-pseudo",
-      "linkingText": [
-        ":local-link"
-      ],
-      "localLinkingText": [],
-      "type": "selector",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "the-local-link-pseudo",
-        "href": "https://www.w3.org/TR/selectors-4/#the-local-link-pseudo",
-        "title": "The Local Link Pseudo-class: :local-link",
-        "number": "8.3"
-      },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "target-pseudo",
@@ -910,28 +996,10 @@
         "id": "the-target-pseudo",
         "href": "https://www.w3.org/TR/selectors-4/#the-target-pseudo",
         "title": "The Target Pseudo-class: :target",
-        "number": "8.4"
+        "number": "8.3"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "target-within-pseudo",
-      "href": "https://www.w3.org/TR/selectors-4/#target-within-pseudo",
-      "linkingText": [
-        ":target-within"
-      ],
-      "localLinkingText": [],
-      "type": "selector",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "the-target-within-pseudo",
-        "href": "https://www.w3.org/TR/selectors-4/#the-target-within-pseudo",
-        "title": "The Target Container Pseudo-class: :target-within",
-        "number": "8.5"
-      },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "scope-pseudo",
@@ -948,9 +1016,10 @@
         "id": "the-scope-pseudo",
         "href": "https://www.w3.org/TR/selectors-4/#the-scope-pseudo",
         "title": "The Reference Element Pseudo-class: :scope",
-        "number": "8.6"
+        "number": "8.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "user-action-pseudo-class",
@@ -969,7 +1038,8 @@
         "title": "User Action Pseudo-classes",
         "number": "9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "hover-pseudo",
@@ -988,7 +1058,8 @@
         "title": "The Pointer Hover Pseudo-class: :hover",
         "number": "9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "active-pseudo",
@@ -1007,7 +1078,8 @@
         "title": "The Activation Pseudo-class: :active",
         "number": "9.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "focus-pseudo",
@@ -1026,7 +1098,8 @@
         "title": "The Input Focus Pseudo-class: :focus",
         "number": "9.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "indicate-focus",
@@ -1045,7 +1118,8 @@
         "title": "The Focus-Indicated Pseudo-class: :focus-visible",
         "number": "9.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "focus-visible-pseudo",
@@ -1064,7 +1138,8 @@
         "title": "The Focus-Indicated Pseudo-class: :focus-visible",
         "number": "9.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "focus-within-pseudo",
@@ -1083,83 +1158,8 @@
         "title": "The Focus Container Pseudo-class: :focus-within",
         "number": "9.5"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "current-pseudo",
-      "href": "https://www.w3.org/TR/selectors-4/#current-pseudo",
-      "linkingText": [
-        ":current"
-      ],
-      "localLinkingText": [],
-      "type": "selector",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "the-current-pseudo",
-        "href": "https://www.w3.org/TR/selectors-4/#the-current-pseudo",
-        "title": "The Current-element Pseudo-class: :current",
-        "number": "10.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "selectordef-current",
-      "href": "https://www.w3.org/TR/selectors-4/#selectordef-current",
-      "linkingText": [
-        ":current()"
-      ],
-      "localLinkingText": [],
-      "type": "selector",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "the-current-pseudo",
-        "href": "https://www.w3.org/TR/selectors-4/#the-current-pseudo",
-        "title": "The Current-element Pseudo-class: :current",
-        "number": "10.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "past-pseudo",
-      "href": "https://www.w3.org/TR/selectors-4/#past-pseudo",
-      "linkingText": [
-        ":past"
-      ],
-      "localLinkingText": [],
-      "type": "selector",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "the-past-pseudo",
-        "href": "https://www.w3.org/TR/selectors-4/#the-past-pseudo",
-        "title": "The Past-element Pseudo-class: :past",
-        "number": "10.2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "future-pseudo",
-      "href": "https://www.w3.org/TR/selectors-4/#future-pseudo",
-      "linkingText": [
-        ":future"
-      ],
-      "localLinkingText": [],
-      "type": "selector",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "the-future-pseudo",
-        "href": "https://www.w3.org/TR/selectors-4/#the-future-pseudo",
-        "title": "The Future-element Pseudo-class: :future",
-        "number": "10.3"
-      },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "selectordef-playing",
@@ -1176,9 +1176,10 @@
         "id": "video-state",
         "href": "https://www.w3.org/TR/selectors-4/#video-state",
         "title": "Media Playback State: the :playing, :paused, and :seeking pseudo-classes",
-        "number": "11.1"
+        "number": "10.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "selectordef-paused",
@@ -1195,9 +1196,10 @@
         "id": "video-state",
         "href": "https://www.w3.org/TR/selectors-4/#video-state",
         "title": "Media Playback State: the :playing, :paused, and :seeking pseudo-classes",
-        "number": "11.1"
+        "number": "10.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "selectordef-seeking",
@@ -1214,9 +1216,10 @@
         "id": "video-state",
         "href": "https://www.w3.org/TR/selectors-4/#video-state",
         "title": "Media Playback State: the :playing, :paused, and :seeking pseudo-classes",
-        "number": "11.1"
+        "number": "10.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "selectordef-buffering",
@@ -1233,9 +1236,10 @@
         "id": "media-loading-state",
         "href": "https://www.w3.org/TR/selectors-4/#media-loading-state",
         "title": "Media Loading State: the :buffering and :stalled pseudo-classes",
-        "number": "11.2"
+        "number": "10.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "selectordef-stalled",
@@ -1252,9 +1256,10 @@
         "id": "media-loading-state",
         "href": "https://www.w3.org/TR/selectors-4/#media-loading-state",
         "title": "Media Loading State: the :buffering and :stalled pseudo-classes",
-        "number": "11.2"
+        "number": "10.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "selectordef-muted",
@@ -1271,9 +1276,10 @@
         "id": "sound-state",
         "href": "https://www.w3.org/TR/selectors-4/#sound-state",
         "title": "Sound State: the :muted and :volume-locked pseudo-classes",
-        "number": "11.3"
+        "number": "10.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "selectordef-volume-locked",
@@ -1290,9 +1296,10 @@
         "id": "sound-state",
         "href": "https://www.w3.org/TR/selectors-4/#sound-state",
         "title": "Sound State: the :muted and :volume-locked pseudo-classes",
-        "number": "11.3"
+        "number": "10.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "selectordef-open",
@@ -1308,16 +1315,17 @@
       "heading": {
         "id": "open-state",
         "href": "https://www.w3.org/TR/selectors-4/#open-state",
-        "title": "Collapse State: the :open and :closed pseudo-class",
-        "number": "12.1"
+        "title": "Collapse State: the :open pseudo-class",
+        "number": "11.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "selectordef-closed",
-      "href": "https://www.w3.org/TR/selectors-4/#selectordef-closed",
+      "id": "selectordef-popover-open",
+      "href": "https://www.w3.org/TR/selectors-4/#selectordef-popover-open",
       "linkingText": [
-        ":closed"
+        ":popover-open"
       ],
       "localLinkingText": [],
       "type": "selector",
@@ -1325,12 +1333,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "open-state",
-        "href": "https://www.w3.org/TR/selectors-4/#open-state",
-        "title": "Collapse State: the :open and :closed pseudo-class",
-        "number": "12.1"
+        "id": "popover-open-state",
+        "href": "https://www.w3.org/TR/selectors-4/#popover-open-state",
+        "title": "Popover State: the :popover-open pseudo-class",
+        "number": "11.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "selectordef-modal",
@@ -1347,9 +1356,10 @@
         "id": "modal-state",
         "href": "https://www.w3.org/TR/selectors-4/#modal-state",
         "title": "Modal (Exclusive Interaction) State: the :modal pseudo-class",
-        "number": "12.2"
+        "number": "11.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "selectordef-fullscreen",
@@ -1366,9 +1376,10 @@
         "id": "fullscreen-state",
         "href": "https://www.w3.org/TR/selectors-4/#fullscreen-state",
         "title": "Fullscreen Presentation State: the :fullscreen pseudo-class",
-        "number": "12.3"
+        "number": "11.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "selectordef-picture-in-picture",
@@ -1385,9 +1396,10 @@
         "id": "pip-state",
         "href": "https://www.w3.org/TR/selectors-4/#pip-state",
         "title": "Picture-in-Picture Presentation State: the :picture-in-picture pseudo-class",
-        "number": "12.4"
+        "number": "11.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "enabled-pseudo",
@@ -1404,9 +1416,10 @@
         "id": "enableddisabled",
         "href": "https://www.w3.org/TR/selectors-4/#enableddisabled",
         "title": "The :enabled and :disabled Pseudo-classes",
-        "number": "13.1.1"
+        "number": "12.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "disabled-pseudo",
@@ -1423,9 +1436,10 @@
         "id": "enableddisabled",
         "href": "https://www.w3.org/TR/selectors-4/#enableddisabled",
         "title": "The :enabled and :disabled Pseudo-classes",
-        "number": "13.1.1"
+        "number": "12.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "read-write-pseudo",
@@ -1442,9 +1456,10 @@
         "id": "rw-pseudos",
         "href": "https://www.w3.org/TR/selectors-4/#rw-pseudos",
         "title": "The Mutability Pseudo-classes: :read-only and :read-write",
-        "number": "13.1.2"
+        "number": "12.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "read-only-pseudo",
@@ -1461,9 +1476,10 @@
         "id": "rw-pseudos",
         "href": "https://www.w3.org/TR/selectors-4/#rw-pseudos",
         "title": "The Mutability Pseudo-classes: :read-only and :read-write",
-        "number": "13.1.2"
+        "number": "12.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "placeholder-shown-pseudo",
@@ -1480,9 +1496,10 @@
         "id": "placeholder",
         "href": "https://www.w3.org/TR/selectors-4/#placeholder",
         "title": "The Placeholder-shown Pseudo-class: :placeholder-shown",
-        "number": "13.1.3"
+        "number": "12.1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "selectordef-autofill",
@@ -1499,9 +1516,10 @@
         "id": "autofill",
         "href": "https://www.w3.org/TR/selectors-4/#autofill",
         "title": "The Automatic Input Pseudo-class: :autofill",
-        "number": "13.1.4"
+        "number": "12.1.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "default-pseudo",
@@ -1518,9 +1536,30 @@
         "id": "the-default-pseudo",
         "href": "https://www.w3.org/TR/selectors-4/#the-default-pseudo",
         "title": "The Default-option Pseudo-class: :default",
-        "number": "13.1.5"
+        "number": "12.1.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "input-value-pseudo-classes",
+      "href": "https://www.w3.org/TR/selectors-4/#input-value-pseudo-classes",
+      "linkingText": [
+        "input value pseudo-classes"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "checked",
+        "href": "https://www.w3.org/TR/selectors-4/#checked",
+        "title": "The Selected-option Pseudo-classes: :checked, :unchecked, and :indeterminate",
+        "number": "12.2.1"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "checked-pseudo",
@@ -1536,10 +1575,31 @@
       "heading": {
         "id": "checked",
         "href": "https://www.w3.org/TR/selectors-4/#checked",
-        "title": "The Selected-option Pseudo-class: :checked",
-        "number": "13.2.1"
+        "title": "The Selected-option Pseudo-classes: :checked, :unchecked, and :indeterminate",
+        "number": "12.2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "unchecked-pseudo",
+      "href": "https://www.w3.org/TR/selectors-4/#unchecked-pseudo",
+      "linkingText": [
+        ":unchecked"
+      ],
+      "localLinkingText": [],
+      "type": "selector",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "checked",
+        "href": "https://www.w3.org/TR/selectors-4/#checked",
+        "title": "The Selected-option Pseudo-classes: :checked, :unchecked, and :indeterminate",
+        "number": "12.2.1"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "indeterminate-pseudo",
@@ -1553,31 +1613,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "indeterminate",
-        "href": "https://www.w3.org/TR/selectors-4/#indeterminate",
-        "title": "The Indeterminate-value Pseudo-class: :indeterminate",
-        "number": "13.2.2"
+        "id": "checked",
+        "href": "https://www.w3.org/TR/selectors-4/#checked",
+        "title": "The Selected-option Pseudo-classes: :checked, :unchecked, and :indeterminate",
+        "number": "12.2.1"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "blank-pseudo",
-      "href": "https://www.w3.org/TR/selectors-4/#blank-pseudo",
-      "linkingText": [
-        ":blank"
-      ],
-      "localLinkingText": [],
-      "type": "selector",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "blank",
-        "href": "https://www.w3.org/TR/selectors-4/#blank",
-        "title": "The Empty-Value Pseudo-class: :blank",
-        "number": "13.3.1"
-      },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valid-pseudo",
@@ -1594,9 +1636,10 @@
         "id": "validity-pseudos",
         "href": "https://www.w3.org/TR/selectors-4/#validity-pseudos",
         "title": "The Validity Pseudo-classes: :valid and :invalid",
-        "number": "13.3.2"
+        "number": "12.3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "invalid-pseudo",
@@ -1613,9 +1656,10 @@
         "id": "validity-pseudos",
         "href": "https://www.w3.org/TR/selectors-4/#validity-pseudos",
         "title": "The Validity Pseudo-classes: :valid and :invalid",
-        "number": "13.3.2"
+        "number": "12.3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "in-range-pseudo",
@@ -1632,9 +1676,10 @@
         "id": "range-pseudos",
         "href": "https://www.w3.org/TR/selectors-4/#range-pseudos",
         "title": "The Range Pseudo-classes: :in-range and :out-of-range",
-        "number": "13.3.3"
+        "number": "12.3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "out-of-range-pseudo",
@@ -1651,9 +1696,10 @@
         "id": "range-pseudos",
         "href": "https://www.w3.org/TR/selectors-4/#range-pseudos",
         "title": "The Range Pseudo-classes: :in-range and :out-of-range",
-        "number": "13.3.3"
+        "number": "12.3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "required-pseudo",
@@ -1670,9 +1716,10 @@
         "id": "opt-pseudos",
         "href": "https://www.w3.org/TR/selectors-4/#opt-pseudos",
         "title": "The Optionality Pseudo-classes: :required and :optional",
-        "number": "13.3.4"
+        "number": "12.3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "optional-pseudo",
@@ -1689,9 +1736,10 @@
         "id": "opt-pseudos",
         "href": "https://www.w3.org/TR/selectors-4/#opt-pseudos",
         "title": "The Optionality Pseudo-classes: :required and :optional",
-        "number": "13.3.4"
+        "number": "12.3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "user-invalid-pseudo",
@@ -1708,9 +1756,10 @@
         "id": "user-pseudos",
         "href": "https://www.w3.org/TR/selectors-4/#user-pseudos",
         "title": "The User-interaction Pseudo-classes: :user-valid and :user-invalid",
-        "number": "13.3.5"
+        "number": "12.3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "user-valid-pseudo",
@@ -1727,9 +1776,10 @@
         "id": "user-pseudos",
         "href": "https://www.w3.org/TR/selectors-4/#user-pseudos",
         "title": "The User-interaction Pseudo-classes: :user-valid and :user-invalid",
-        "number": "13.3.5"
+        "number": "12.3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "structural-pseudo-classes",
@@ -1740,14 +1790,15 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "structural-pseudos",
         "href": "https://www.w3.org/TR/selectors-4/#structural-pseudos",
-        "title": "14. Tree-Structural pseudo-classes"
+        "title": "13. Tree-Structural pseudo-classes"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "root-pseudo",
@@ -1764,9 +1815,10 @@
         "id": "the-root-pseudo",
         "href": "https://www.w3.org/TR/selectors-4/#the-root-pseudo",
         "title": ":root pseudo-class",
-        "number": "14.1"
+        "number": "13.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "empty-pseudo",
@@ -1783,9 +1835,10 @@
         "id": "the-empty-pseudo",
         "href": "https://www.w3.org/TR/selectors-4/#the-empty-pseudo",
         "title": ":empty pseudo-class",
-        "number": "14.2"
+        "number": "13.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "nth-child-pseudo",
@@ -1802,9 +1855,10 @@
         "id": "the-nth-child-pseudo",
         "href": "https://www.w3.org/TR/selectors-4/#the-nth-child-pseudo",
         "title": ":nth-child() pseudo-class",
-        "number": "14.3.1"
+        "number": "13.3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "nth-last-child-pseudo",
@@ -1821,9 +1875,10 @@
         "id": "the-nth-last-child-pseudo",
         "href": "https://www.w3.org/TR/selectors-4/#the-nth-last-child-pseudo",
         "title": ":nth-last-child() pseudo-class",
-        "number": "14.3.2"
+        "number": "13.3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "first-child-pseudo",
@@ -1840,9 +1895,10 @@
         "id": "the-first-child-pseudo",
         "href": "https://www.w3.org/TR/selectors-4/#the-first-child-pseudo",
         "title": ":first-child pseudo-class",
-        "number": "14.3.3"
+        "number": "13.3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "last-child-pseudo",
@@ -1859,9 +1915,10 @@
         "id": "the-last-child-pseudo",
         "href": "https://www.w3.org/TR/selectors-4/#the-last-child-pseudo",
         "title": ":last-child pseudo-class",
-        "number": "14.3.4"
+        "number": "13.3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "only-child-pseudo",
@@ -1878,9 +1935,10 @@
         "id": "the-only-child-pseudo",
         "href": "https://www.w3.org/TR/selectors-4/#the-only-child-pseudo",
         "title": ":only-child pseudo-class",
-        "number": "14.3.5"
+        "number": "13.3.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "nth-of-type-pseudo",
@@ -1897,9 +1955,10 @@
         "id": "the-nth-of-type-pseudo",
         "href": "https://www.w3.org/TR/selectors-4/#the-nth-of-type-pseudo",
         "title": ":nth-of-type() pseudo-class",
-        "number": "14.4.1"
+        "number": "13.4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "nth-last-of-type-pseudo",
@@ -1916,9 +1975,10 @@
         "id": "the-nth-last-of-type-pseudo",
         "href": "https://www.w3.org/TR/selectors-4/#the-nth-last-of-type-pseudo",
         "title": ":nth-last-of-type() pseudo-class",
-        "number": "14.4.2"
+        "number": "13.4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "first-of-type-pseudo",
@@ -1935,9 +1995,10 @@
         "id": "the-first-of-type-pseudo",
         "href": "https://www.w3.org/TR/selectors-4/#the-first-of-type-pseudo",
         "title": ":first-of-type pseudo-class",
-        "number": "14.4.3"
+        "number": "13.4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "last-of-type-pseudo",
@@ -1954,9 +2015,10 @@
         "id": "the-last-of-type-pseudo",
         "href": "https://www.w3.org/TR/selectors-4/#the-last-of-type-pseudo",
         "title": ":last-of-type pseudo-class",
-        "number": "14.4.4"
+        "number": "13.4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "only-of-type-pseudo",
@@ -1973,9 +2035,10 @@
         "id": "the-only-of-type-pseudo",
         "href": "https://www.w3.org/TR/selectors-4/#the-only-of-type-pseudo",
         "title": ":only-of-type pseudo-class",
-        "number": "14.4.5"
+        "number": "13.4.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "descendant-combinator",
@@ -1992,9 +2055,10 @@
         "id": "descendant-combinators",
         "href": "https://www.w3.org/TR/selectors-4/#descendant-combinators",
         "title": "Descendant combinator ( )",
-        "number": "15.1"
+        "number": "14.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "child-combinator",
@@ -2011,9 +2075,10 @@
         "id": "child-combinators",
         "href": "https://www.w3.org/TR/selectors-4/#child-combinators",
         "title": "Child combinator (>)",
-        "number": "15.2"
+        "number": "14.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "selectordef-child",
@@ -2030,9 +2095,10 @@
         "id": "child-combinators",
         "href": "https://www.w3.org/TR/selectors-4/#child-combinators",
         "title": "Child combinator (>)",
-        "number": "15.2"
+        "number": "14.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "next-sibling-combinator",
@@ -2049,9 +2115,10 @@
         "id": "adjacent-sibling-combinators",
         "href": "https://www.w3.org/TR/selectors-4/#adjacent-sibling-combinators",
         "title": "Next-sibling combinator (+)",
-        "number": "15.3"
+        "number": "14.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "selectordef-adjacent",
@@ -2068,9 +2135,10 @@
         "id": "adjacent-sibling-combinators",
         "href": "https://www.w3.org/TR/selectors-4/#adjacent-sibling-combinators",
         "title": "Next-sibling combinator (+)",
-        "number": "15.3"
+        "number": "14.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "subsequent-sibling-combinator",
@@ -2087,9 +2155,10 @@
         "id": "general-sibling-combinators",
         "href": "https://www.w3.org/TR/selectors-4/#general-sibling-combinators",
         "title": "Subsequent-sibling combinator (~)",
-        "number": "15.4"
+        "number": "14.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "selectordef-sibling",
@@ -2106,85 +2175,10 @@
         "id": "general-sibling-combinators",
         "href": "https://www.w3.org/TR/selectors-4/#general-sibling-combinators",
         "title": "Subsequent-sibling combinator (~)",
-        "number": "15.4"
+        "number": "14.4"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "column-combinator",
-      "href": "https://www.w3.org/TR/selectors-4/#column-combinator",
-      "linkingText": [
-        "column combinator"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "the-column-combinator",
-        "href": "https://www.w3.org/TR/selectors-4/#the-column-combinator",
-        "title": "Column combinator (||)",
-        "number": "16.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "selectordef-column",
-      "href": "https://www.w3.org/TR/selectors-4/#selectordef-column",
-      "linkingText": [
-        "||"
-      ],
-      "localLinkingText": [],
-      "type": "selector",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "the-column-combinator",
-        "href": "https://www.w3.org/TR/selectors-4/#the-column-combinator",
-        "title": "Column combinator (||)",
-        "number": "16.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "nth-col-pseudo",
-      "href": "https://www.w3.org/TR/selectors-4/#nth-col-pseudo",
-      "linkingText": [
-        ":nth-col()"
-      ],
-      "localLinkingText": [],
-      "type": "selector",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "the-nth-col-pseudo",
-        "href": "https://www.w3.org/TR/selectors-4/#the-nth-col-pseudo",
-        "title": ":nth-col() pseudo-class",
-        "number": "16.2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "nth-last-col-pseudo",
-      "href": "https://www.w3.org/TR/selectors-4/#nth-last-col-pseudo",
-      "linkingText": [
-        ":nth-last-col()"
-      ],
-      "localLinkingText": [],
-      "type": "selector",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "the-nth-last-col-pseudo",
-        "href": "https://www.w3.org/TR/selectors-4/#the-nth-last-col-pseudo",
-        "title": ":nth-last-col() pseudo-class",
-        "number": "16.3"
-      },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "specificity",
@@ -2200,9 +2194,10 @@
       "heading": {
         "id": "specificity-rules",
         "href": "https://www.w3.org/TR/selectors-4/#specificity-rules",
-        "title": "17. Calculating a selector’s specificity"
+        "title": "15. Calculating a selector’s specificity"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "typedef-selector-list",
@@ -2218,9 +2213,10 @@
       "heading": {
         "id": "grammar",
         "href": "https://www.w3.org/TR/selectors-4/#grammar",
-        "title": "18. Grammar"
+        "title": "16. Grammar"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-complex-selector-list",
@@ -2236,9 +2232,29 @@
       "heading": {
         "id": "grammar",
         "href": "https://www.w3.org/TR/selectors-4/#grammar",
-        "title": "18. Grammar"
+        "title": "16. Grammar"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "typedef-complex-real-selector-list",
+      "href": "https://www.w3.org/TR/selectors-4/#typedef-complex-real-selector-list",
+      "linkingText": [
+        "<complex-real-selector-list>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "grammar",
+        "href": "https://www.w3.org/TR/selectors-4/#grammar",
+        "title": "16. Grammar"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-compound-selector-list",
@@ -2254,9 +2270,10 @@
       "heading": {
         "id": "grammar",
         "href": "https://www.w3.org/TR/selectors-4/#grammar",
-        "title": "18. Grammar"
+        "title": "16. Grammar"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-simple-selector-list",
@@ -2272,9 +2289,10 @@
       "heading": {
         "id": "grammar",
         "href": "https://www.w3.org/TR/selectors-4/#grammar",
-        "title": "18. Grammar"
+        "title": "16. Grammar"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-relative-selector-list",
@@ -2290,9 +2308,29 @@
       "heading": {
         "id": "grammar",
         "href": "https://www.w3.org/TR/selectors-4/#grammar",
-        "title": "18. Grammar"
+        "title": "16. Grammar"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "typedef-relative-real-selector-list",
+      "href": "https://www.w3.org/TR/selectors-4/#typedef-relative-real-selector-list",
+      "linkingText": [
+        "<relative-real-selector-list>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "grammar",
+        "href": "https://www.w3.org/TR/selectors-4/#grammar",
+        "title": "16. Grammar"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-complex-selector",
@@ -2308,9 +2346,48 @@
       "heading": {
         "id": "grammar",
         "href": "https://www.w3.org/TR/selectors-4/#grammar",
-        "title": "18. Grammar"
+        "title": "16. Grammar"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "typedef-complex-selector-unit",
+      "href": "https://www.w3.org/TR/selectors-4/#typedef-complex-selector-unit",
+      "linkingText": [
+        "<complex-selector-unit>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "grammar",
+        "href": "https://www.w3.org/TR/selectors-4/#grammar",
+        "title": "16. Grammar"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "typedef-complex-real-selector",
+      "href": "https://www.w3.org/TR/selectors-4/#typedef-complex-real-selector",
+      "linkingText": [
+        "<complex-real-selector>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "grammar",
+        "href": "https://www.w3.org/TR/selectors-4/#grammar",
+        "title": "16. Grammar"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-relative-selector",
@@ -2326,9 +2403,29 @@
       "heading": {
         "id": "grammar",
         "href": "https://www.w3.org/TR/selectors-4/#grammar",
-        "title": "18. Grammar"
+        "title": "16. Grammar"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "typedef-relative-real-selector",
+      "href": "https://www.w3.org/TR/selectors-4/#typedef-relative-real-selector",
+      "linkingText": [
+        "<relative-real-selector>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "grammar",
+        "href": "https://www.w3.org/TR/selectors-4/#grammar",
+        "title": "16. Grammar"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-compound-selector",
@@ -2344,9 +2441,29 @@
       "heading": {
         "id": "grammar",
         "href": "https://www.w3.org/TR/selectors-4/#grammar",
-        "title": "18. Grammar"
+        "title": "16. Grammar"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "typedef-pseudo-compound-selector",
+      "href": "https://www.w3.org/TR/selectors-4/#typedef-pseudo-compound-selector",
+      "linkingText": [
+        "<pseudo-compound-selector>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "grammar",
+        "href": "https://www.w3.org/TR/selectors-4/#grammar",
+        "title": "16. Grammar"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-simple-selector",
@@ -2362,9 +2479,10 @@
       "heading": {
         "id": "grammar",
         "href": "https://www.w3.org/TR/selectors-4/#grammar",
-        "title": "18. Grammar"
+        "title": "16. Grammar"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-combinator",
@@ -2380,45 +2498,10 @@
       "heading": {
         "id": "grammar",
         "href": "https://www.w3.org/TR/selectors-4/#grammar",
-        "title": "18. Grammar"
+        "title": "16. Grammar"
       },
-      "definedIn": "pre"
-    },
-    {
-      "id": "typedef-type-selector",
-      "href": "https://www.w3.org/TR/selectors-4/#typedef-type-selector",
-      "linkingText": [
-        "<type-selector>"
-      ],
-      "localLinkingText": [],
-      "type": "type",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "grammar",
-        "href": "https://www.w3.org/TR/selectors-4/#grammar",
-        "title": "18. Grammar"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "typedef-ns-prefix",
-      "href": "https://www.w3.org/TR/selectors-4/#typedef-ns-prefix",
-      "linkingText": [
-        "<ns-prefix>"
-      ],
-      "localLinkingText": [],
-      "type": "type",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "grammar",
-        "href": "https://www.w3.org/TR/selectors-4/#grammar",
-        "title": "18. Grammar"
-      },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-wq-name",
@@ -2434,9 +2517,48 @@
       "heading": {
         "id": "grammar",
         "href": "https://www.w3.org/TR/selectors-4/#grammar",
-        "title": "18. Grammar"
+        "title": "16. Grammar"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "typedef-ns-prefix",
+      "href": "https://www.w3.org/TR/selectors-4/#typedef-ns-prefix",
+      "linkingText": [
+        "<ns-prefix>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "grammar",
+        "href": "https://www.w3.org/TR/selectors-4/#grammar",
+        "title": "16. Grammar"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "typedef-type-selector",
+      "href": "https://www.w3.org/TR/selectors-4/#typedef-type-selector",
+      "linkingText": [
+        "<type-selector>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "grammar",
+        "href": "https://www.w3.org/TR/selectors-4/#grammar",
+        "title": "16. Grammar"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-subclass-selector",
@@ -2452,9 +2574,10 @@
       "heading": {
         "id": "grammar",
         "href": "https://www.w3.org/TR/selectors-4/#grammar",
-        "title": "18. Grammar"
+        "title": "16. Grammar"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-id-selector",
@@ -2470,9 +2593,10 @@
       "heading": {
         "id": "grammar",
         "href": "https://www.w3.org/TR/selectors-4/#grammar",
-        "title": "18. Grammar"
+        "title": "16. Grammar"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-class-selector",
@@ -2488,9 +2612,10 @@
       "heading": {
         "id": "grammar",
         "href": "https://www.w3.org/TR/selectors-4/#grammar",
-        "title": "18. Grammar"
+        "title": "16. Grammar"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-attribute-selector",
@@ -2506,9 +2631,10 @@
       "heading": {
         "id": "grammar",
         "href": "https://www.w3.org/TR/selectors-4/#grammar",
-        "title": "18. Grammar"
+        "title": "16. Grammar"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-attr-matcher",
@@ -2524,9 +2650,10 @@
       "heading": {
         "id": "grammar",
         "href": "https://www.w3.org/TR/selectors-4/#grammar",
-        "title": "18. Grammar"
+        "title": "16. Grammar"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-attr-modifier",
@@ -2542,9 +2669,10 @@
       "heading": {
         "id": "grammar",
         "href": "https://www.w3.org/TR/selectors-4/#grammar",
-        "title": "18. Grammar"
+        "title": "16. Grammar"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-pseudo-class-selector",
@@ -2560,9 +2688,10 @@
       "heading": {
         "id": "grammar",
         "href": "https://www.w3.org/TR/selectors-4/#grammar",
-        "title": "18. Grammar"
+        "title": "16. Grammar"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-pseudo-element-selector",
@@ -2578,9 +2707,29 @@
       "heading": {
         "id": "grammar",
         "href": "https://www.w3.org/TR/selectors-4/#grammar",
-        "title": "18. Grammar"
+        "title": "16. Grammar"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "typedef-legacy-pseudo-element-selector",
+      "href": "https://www.w3.org/TR/selectors-4/#typedef-legacy-pseudo-element-selector",
+      "linkingText": [
+        "<legacy-pseudo-element-selector>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "grammar",
+        "href": "https://www.w3.org/TR/selectors-4/#grammar",
+        "title": "16. Grammar"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-forgiving-selector-list",
@@ -2597,17 +2746,16 @@
         "id": "forgiving-selector",
         "href": "https://www.w3.org/TR/selectors-4/#forgiving-selector",
         "title": "<forgiving-selector-list> and <forgiving-relative-selector-list>",
-        "number": "18.1"
+        "number": "16.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "parse-as-a-forgiving-selector-list",
       "href": "https://www.w3.org/TR/selectors-4/#parse-as-a-forgiving-selector-list",
       "linkingText": [
-        "parse as a forgiving selector list",
-        "parsed as a forgiving selector list",
-        "parsing as a forgiving selector list"
+        "parse as a forgiving selector list"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -2618,28 +2766,10 @@
         "id": "forgiving-selector",
         "href": "https://www.w3.org/TR/selectors-4/#forgiving-selector",
         "title": "<forgiving-selector-list> and <forgiving-relative-selector-list>",
-        "number": "18.1"
+        "number": "16.1"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "typedef-forgiving-relative-selector-list",
-      "href": "https://www.w3.org/TR/selectors-4/#typedef-forgiving-relative-selector-list",
-      "linkingText": [
-        "<forgiving-relative-selector-list>"
-      ],
-      "localLinkingText": [],
-      "type": "type",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "forgiving-selector",
-        "href": "https://www.w3.org/TR/selectors-4/#forgiving-selector",
-        "title": "<forgiving-selector-list> and <forgiving-relative-selector-list>",
-        "number": "18.1"
-      },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "parse-a-selector",
@@ -2656,9 +2786,10 @@
         "id": "parse-selector",
         "href": "https://www.w3.org/TR/selectors-4/#parse-selector",
         "title": "Parse A Selector",
-        "number": "19.1"
+        "number": "17.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "parse-a-relative-selector",
@@ -2675,9 +2806,10 @@
         "id": "parse-relative-selector",
         "href": "https://www.w3.org/TR/selectors-4/#parse-relative-selector",
         "title": "Parse A Relative Selector",
-        "number": "19.2"
+        "number": "17.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "match-a-selector-against-an-element",
@@ -2694,9 +2826,10 @@
         "id": "match-against-element",
         "href": "https://www.w3.org/TR/selectors-4/#match-against-element",
         "title": "Match a Selector Against an Element",
-        "number": "19.3"
+        "number": "17.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "match-a-complex-selector-against-an-element",
@@ -2713,9 +2846,10 @@
         "id": "match-against-element",
         "href": "https://www.w3.org/TR/selectors-4/#match-against-element",
         "title": "Match a Selector Against an Element",
-        "number": "19.3"
+        "number": "17.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "match-a-selector-against-a-pseudo-element",
@@ -2732,9 +2866,10 @@
         "id": "match-against-pseudo-element",
         "href": "https://www.w3.org/TR/selectors-4/#match-against-pseudo-element",
         "title": "Match a Selector Against a Pseudo-element",
-        "number": "19.4"
+        "number": "17.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "match-a-selector-against-a-tree",
@@ -2751,9 +2886,10 @@
         "id": "match-against-tree",
         "href": "https://www.w3.org/TR/selectors-4/#match-against-tree",
         "title": "Match a Selector Against a Tree",
-        "number": "19.5"
+        "number": "17.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "unknown--webkit--pseudo-elements",
@@ -2772,7 +2908,8 @@
         "title": "Obsolete but Required -webkit- Parsing Quirks for Web Compat",
         "number": "B"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "evaluating-selectors",
@@ -2789,9 +2926,10 @@
         "id": "changes-2013",
         "href": "https://www.w3.org/TR/selectors-4/#changes-2013",
         "title": "Changes since the 2 May 2013 Working Draft",
-        "number": "20.4"
+        "number": "18.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

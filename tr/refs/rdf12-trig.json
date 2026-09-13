@@ -22,12 +22,12 @@
         "url": "https://www.w3.org/TR/rdf12-concepts/"
       },
       {
-        "name": "RDF12-TURTLE",
-        "url": "https://www.w3.org/TR/rdf12-turtle/"
-      },
-      {
         "name": "RFC2119",
         "url": "https://www.rfc-editor.org/rfc/rfc2119"
+      },
+      {
+        "name": "RFC3629",
+        "url": "https://www.rfc-editor.org/rfc/rfc3629"
       },
       {
         "name": "RFC3986",
@@ -38,22 +38,26 @@
         "url": "https://www.rfc-editor.org/rfc/rfc3987"
       },
       {
+        "name": "RFC6906",
+        "url": "https://www.rfc-editor.org/rfc/rfc6906"
+      },
+      {
         "name": "RFC8174",
         "url": "https://www.rfc-editor.org/rfc/rfc8174"
       },
       {
         "name": "UNICODE",
         "url": "https://www.unicode.org/versions/latest/"
-      },
-      {
-        "name": "UTF-8",
-        "url": "https://www.rfc-editor.org/rfc/rfc3629"
       }
     ],
     "informative": [
       {
         "name": "LANG-SUBTAG-REGISTRY",
         "url": "http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry"
+      },
+      {
+        "name": "RDF12-INTEROP",
+        "url": "https://w3c.github.io/rdf-interop/spec/"
       },
       {
         "name": "RDF12-N-QUADS",
@@ -69,7 +73,7 @@
       },
       {
         "name": "RDF12-PRIMER",
-        "url": "https://w3c.github.io/rdf-primer/spec/"
+        "url": "https://www.w3.org/TR/rdf12-primer/"
       },
       {
         "name": "RDF12-SCHEMA",
@@ -80,12 +84,24 @@
         "url": "https://www.w3.org/TR/rdf12-semantics/"
       },
       {
+        "name": "RDF12-TURTLE",
+        "url": "https://www.w3.org/TR/rdf12-turtle/"
+      },
+      {
         "name": "RDF12-XML",
         "url": "https://www.w3.org/TR/rdf12-xml/"
       },
       {
         "name": "RFC3023",
         "url": "https://www.rfc-editor.org/rfc/rfc3023"
+      },
+      {
+        "name": "RFC4288",
+        "url": "https://www.rfc-editor.org/rfc/rfc4288"
+      },
+      {
+        "name": "RFC7231",
+        "url": "https://httpwg.org/specs/rfc7231.html"
       },
       {
         "name": "SPARQL12-CONCEPTS",
@@ -134,6 +150,10 @@
       {
         "name": "SPARQL12-UPDATE",
         "url": "https://www.w3.org/TR/sparql12-update/"
+      },
+      {
+        "name": "TRIG",
+        "url": "https://www.w3.org/TR/trig/"
       },
       {
         "name": "UNICODE-SECURITY",

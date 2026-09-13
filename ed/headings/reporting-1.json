@@ -20,7 +20,10 @@
       "id": "toc",
       "href": "https://w3c.github.io/reporting/#toc",
       "level": 2,
-      "title": "Table of Contents"
+      "title": "Table of Contents",
+      "alternateIds": [
+        "contents"
+      ]
     },
     {
       "id": "intro",
@@ -161,6 +164,13 @@
       "level": 4,
       "title": "Attempt to deliver reports to endpoint",
       "number": "3.5.2"
+    },
+    {
+      "id": "strip-url-for-use-in-reports-heading",
+      "href": "https://w3c.github.io/reporting/#strip-url-for-use-in-reports-heading",
+      "level": 3,
+      "title": "Strip URL for use in reports",
+      "number": "3.6"
     },
     {
       "id": "observers",

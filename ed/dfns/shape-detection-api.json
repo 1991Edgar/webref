@@ -5,6 +5,26 @@
   },
   "dfns": [
     {
+      "id": "shape-detection-task-source",
+      "href": "https://wicg.github.io/shape-detection-api/#shape-detection-task-source",
+      "linkingText": [
+        "shape detection task source"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "api",
+        "href": "https://wicg.github.io/shape-detection-api/#api",
+        "title": "Shape Detection API",
+        "number": "2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "facedetector",
       "href": "https://wicg.github.io/shape-detection-api/#facedetector",
       "linkingText": [
@@ -21,7 +41,8 @@
         "title": "Face Detection API",
         "number": "2.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-facedetector-facedetector-facedetectoroptions-facedetectoroptions",
@@ -40,11 +61,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "face-detection-api",
+        "href": "https://wicg.github.io/shape-detection-api/#face-detection-api",
+        "title": "Face Detection API",
+        "number": "2.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-facedetector-detect-image-image",
@@ -60,11 +83,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "face-detection-api",
+        "href": "https://wicg.github.io/shape-detection-api/#face-detection-api",
+        "title": "Face Detection API",
+        "number": "2.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-facedetector-facedetector",
@@ -83,11 +108,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "face-detection-api",
+        "href": "https://wicg.github.io/shape-detection-api/#face-detection-api",
+        "title": "Face Detection API",
+        "number": "2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-facedetector-detect",
@@ -103,11 +130,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "face-detection-api",
+        "href": "https://wicg.github.io/shape-detection-api/#face-detection-api",
+        "title": "Face Detection API",
+        "number": "2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dictdef-facedetectoroptions",
@@ -126,7 +155,8 @@
         "title": "FaceDetectorOptions",
         "number": "2.2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-facedetectoroptions-maxdetectedfaces",
@@ -142,11 +172,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "facedetectoroptions-section",
+        "href": "https://wicg.github.io/shape-detection-api/#facedetectoroptions-section",
+        "title": "FaceDetectorOptions",
+        "number": "2.2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-facedetectoroptions-fastmode",
@@ -162,11 +194,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "facedetectoroptions-section",
+        "href": "https://wicg.github.io/shape-detection-api/#facedetectoroptions-section",
+        "title": "FaceDetectorOptions",
+        "number": "2.2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dictdef-detectedface",
@@ -185,7 +219,8 @@
         "title": "DetectedFace",
         "number": "2.2.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-detectedface-boundingbox",
@@ -201,11 +236,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "detectedface-section",
+        "href": "https://wicg.github.io/shape-detection-api/#detectedface-section",
+        "title": "DetectedFace",
+        "number": "2.2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-detectedface-landmarks",
@@ -221,11 +258,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "detectedface-section",
+        "href": "https://wicg.github.io/shape-detection-api/#detectedface-section",
+        "title": "DetectedFace",
+        "number": "2.2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dictdef-landmark",
@@ -239,11 +278,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "detectedface-section",
+        "href": "https://wicg.github.io/shape-detection-api/#detectedface-section",
+        "title": "DetectedFace",
+        "number": "2.2.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-landmark-locations",
@@ -259,11 +300,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "detectedface-section",
+        "href": "https://wicg.github.io/shape-detection-api/#detectedface-section",
+        "title": "DetectedFace",
+        "number": "2.2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-landmark-type",
@@ -279,11 +322,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "detectedface-section",
+        "href": "https://wicg.github.io/shape-detection-api/#detectedface-section",
+        "title": "DetectedFace",
+        "number": "2.2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "enumdef-landmarktype",
@@ -297,11 +342,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "detectedface-section",
+        "href": "https://wicg.github.io/shape-detection-api/#detectedface-section",
+        "title": "DetectedFace",
+        "number": "2.2.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-landmarktype-mouth",
@@ -318,11 +365,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "detectedface-section",
+        "href": "https://wicg.github.io/shape-detection-api/#detectedface-section",
+        "title": "DetectedFace",
+        "number": "2.2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-landmarktype-eye",
@@ -339,11 +388,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "detectedface-section",
+        "href": "https://wicg.github.io/shape-detection-api/#detectedface-section",
+        "title": "DetectedFace",
+        "number": "2.2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-landmarktype-nose",
@@ -360,11 +411,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "detectedface-section",
+        "href": "https://wicg.github.io/shape-detection-api/#detectedface-section",
+        "title": "DetectedFace",
+        "number": "2.2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "barcodedetector",
@@ -383,7 +436,8 @@
         "title": "Barcode Detection API",
         "number": "2.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-barcodedetector-barcodedetector-barcodedetectoroptions-barcodedetectoroptions",
@@ -402,11 +456,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "barcode-detection-api",
+        "href": "https://wicg.github.io/shape-detection-api/#barcode-detection-api",
+        "title": "Barcode Detection API",
+        "number": "2.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-barcodedetector-detect-image-image",
@@ -422,11 +478,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "barcode-detection-api",
+        "href": "https://wicg.github.io/shape-detection-api/#barcode-detection-api",
+        "title": "Barcode Detection API",
+        "number": "2.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-barcodedetector-barcodedetector",
@@ -445,11 +503,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "barcode-detection-api",
+        "href": "https://wicg.github.io/shape-detection-api/#barcode-detection-api",
+        "title": "Barcode Detection API",
+        "number": "2.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-barcodedetector-getsupportedformats",
@@ -465,11 +525,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "barcode-detection-api",
+        "href": "https://wicg.github.io/shape-detection-api/#barcode-detection-api",
+        "title": "Barcode Detection API",
+        "number": "2.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-barcodedetector-detect",
@@ -485,11 +547,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "barcode-detection-api",
+        "href": "https://wicg.github.io/shape-detection-api/#barcode-detection-api",
+        "title": "Barcode Detection API",
+        "number": "2.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dictdef-barcodedetectoroptions",
@@ -508,7 +572,8 @@
         "title": "BarcodeDetectorOptions",
         "number": "2.3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-barcodedetectoroptions-formats",
@@ -524,11 +589,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "barcodedetectoroptions-section",
+        "href": "https://wicg.github.io/shape-detection-api/#barcodedetectoroptions-section",
+        "title": "BarcodeDetectorOptions",
+        "number": "2.3.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dictdef-detectedbarcode",
@@ -547,7 +614,8 @@
         "title": "DetectedBarcode",
         "number": "2.3.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-detectedbarcode-boundingbox",
@@ -563,11 +631,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "detectedbarcode-section",
+        "href": "https://wicg.github.io/shape-detection-api/#detectedbarcode-section",
+        "title": "DetectedBarcode",
+        "number": "2.3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-detectedbarcode-rawvalue",
@@ -583,11 +653,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "detectedbarcode-section",
+        "href": "https://wicg.github.io/shape-detection-api/#detectedbarcode-section",
+        "title": "DetectedBarcode",
+        "number": "2.3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-detectedbarcode-format",
@@ -603,11 +675,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "detectedbarcode-section",
+        "href": "https://wicg.github.io/shape-detection-api/#detectedbarcode-section",
+        "title": "DetectedBarcode",
+        "number": "2.3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-detectedbarcode-cornerpoints",
@@ -623,11 +697,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "detectedbarcode-section",
+        "href": "https://wicg.github.io/shape-detection-api/#detectedbarcode-section",
+        "title": "DetectedBarcode",
+        "number": "2.3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "enumdef-barcodeformat",
@@ -646,7 +722,8 @@
         "title": "BarcodeFormat",
         "number": "2.3.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-barcodeformat-aztec",
@@ -663,11 +740,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "barcodeformat-section",
+        "href": "https://wicg.github.io/shape-detection-api/#barcodeformat-section",
+        "title": "BarcodeFormat",
+        "number": "2.3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-barcodeformat-code_128",
@@ -684,11 +763,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "barcodeformat-section",
+        "href": "https://wicg.github.io/shape-detection-api/#barcodeformat-section",
+        "title": "BarcodeFormat",
+        "number": "2.3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "code-128",
@@ -702,11 +783,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "barcodeformat-section",
+        "href": "https://wicg.github.io/shape-detection-api/#barcodeformat-section",
+        "title": "BarcodeFormat",
+        "number": "2.3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-barcodeformat-code_39",
@@ -723,11 +806,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "barcodeformat-section",
+        "href": "https://wicg.github.io/shape-detection-api/#barcodeformat-section",
+        "title": "BarcodeFormat",
+        "number": "2.3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "code-39",
@@ -741,11 +826,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "barcodeformat-section",
+        "href": "https://wicg.github.io/shape-detection-api/#barcodeformat-section",
+        "title": "BarcodeFormat",
+        "number": "2.3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-barcodeformat-code_93",
@@ -762,11 +849,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "barcodeformat-section",
+        "href": "https://wicg.github.io/shape-detection-api/#barcodeformat-section",
+        "title": "BarcodeFormat",
+        "number": "2.3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-barcodeformat-codabar",
@@ -783,11 +872,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "barcodeformat-section",
+        "href": "https://wicg.github.io/shape-detection-api/#barcodeformat-section",
+        "title": "BarcodeFormat",
+        "number": "2.3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-barcodeformat-data_matrix",
@@ -804,11 +895,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "barcodeformat-section",
+        "href": "https://wicg.github.io/shape-detection-api/#barcodeformat-section",
+        "title": "BarcodeFormat",
+        "number": "2.3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-barcodeformat-ean_13",
@@ -825,11 +918,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "barcodeformat-section",
+        "href": "https://wicg.github.io/shape-detection-api/#barcodeformat-section",
+        "title": "BarcodeFormat",
+        "number": "2.3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "ean-13",
@@ -843,11 +938,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "barcodeformat-section",
+        "href": "https://wicg.github.io/shape-detection-api/#barcodeformat-section",
+        "title": "BarcodeFormat",
+        "number": "2.3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-barcodeformat-ean_8",
@@ -864,11 +961,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "barcodeformat-section",
+        "href": "https://wicg.github.io/shape-detection-api/#barcodeformat-section",
+        "title": "BarcodeFormat",
+        "number": "2.3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-barcodeformat-itf",
@@ -885,11 +984,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "barcodeformat-section",
+        "href": "https://wicg.github.io/shape-detection-api/#barcodeformat-section",
+        "title": "BarcodeFormat",
+        "number": "2.3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-barcodeformat-pdf417",
@@ -906,11 +1007,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "barcodeformat-section",
+        "href": "https://wicg.github.io/shape-detection-api/#barcodeformat-section",
+        "title": "BarcodeFormat",
+        "number": "2.3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-barcodeformat-qr_code",
@@ -927,11 +1030,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "barcodeformat-section",
+        "href": "https://wicg.github.io/shape-detection-api/#barcodeformat-section",
+        "title": "BarcodeFormat",
+        "number": "2.3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-barcodeformat-unknown",
@@ -948,11 +1053,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "barcodeformat-section",
+        "href": "https://wicg.github.io/shape-detection-api/#barcodeformat-section",
+        "title": "BarcodeFormat",
+        "number": "2.3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-barcodeformat-upc_a",
@@ -969,11 +1076,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "barcodeformat-section",
+        "href": "https://wicg.github.io/shape-detection-api/#barcodeformat-section",
+        "title": "BarcodeFormat",
+        "number": "2.3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "upc-a",
@@ -987,11 +1096,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "barcodeformat-section",
+        "href": "https://wicg.github.io/shape-detection-api/#barcodeformat-section",
+        "title": "BarcodeFormat",
+        "number": "2.3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-barcodeformat-upc_e",
@@ -1008,11 +1119,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/shape-detection-api/#title",
-        "title": "Accelerated Shape Detection in Images"
+        "id": "barcodeformat-section",
+        "href": "https://wicg.github.io/shape-detection-api/#barcodeformat-section",
+        "title": "BarcodeFormat",
+        "number": "2.3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     }
   ]
 }

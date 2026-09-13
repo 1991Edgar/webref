@@ -1,12 +1,13 @@
 {
   "spec": {
-    "title": "CSS Easing Functions Level 2",
+    "title": "CSS Easing Functions Module Level 2",
     "url": "https://drafts.csswg.org/css-easing-2/"
   },
   "links": {
     "rawlinks": {
       "http://lists.w3.org/Archives/Public/public-css-testsuite": {},
       "http://wpt.live/css/css-easing/cubic-bezier-timing-functions-output.html": {},
+      "http://wpt.live/css/css-easing/linear-timing-functions-chrome-406926307-crash.html": {},
       "http://wpt.live/css/css-easing/linear-timing-functions-output.html": {},
       "http://wpt.live/css/css-easing/linear-timing-functions-syntax.html": {},
       "http://wpt.live/css/css-easing/step-timing-functions-output.html": {},
@@ -33,6 +34,7 @@
       "https://datatracker.ietf.org/doc/html/rfc2119": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/easing-function": {},
       "https://drafts.css-houdini.org/css-typed-om-1/": {},
+      "https://drafts.csswg.org/css-cascade-5/": {},
       "https://drafts.csswg.org/css-easing/": {},
       "https://drafts.csswg.org/css-position-3/": {},
       "https://drafts.csswg.org/css-values-3/": {},
@@ -44,6 +46,7 @@
       "https://drafts.csswg.org/web-animations-1/": {},
       "https://github.com/w3c/csswg-drafts/issues": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-easing/cubic-bezier-timing-functions-output.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-easing/linear-timing-functions-chrome-406926307-crash.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-easing/linear-timing-functions-output.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-easing/linear-timing-functions-syntax.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-easing/step-timing-functions-output.html": {},
@@ -55,6 +58,7 @@
       "https://lists.w3.org/Archives/Public/public-css-archive/": {},
       "https://lists.w3.org/Archives/Public/www-style/": {},
       "https://wpt.fyi/results/css/css-easing/cubic-bezier-timing-functions-output.html": {},
+      "https://wpt.fyi/results/css/css-easing/linear-timing-functions-chrome-406926307-crash.html": {},
       "https://wpt.fyi/results/css/css-easing/linear-timing-functions-output.html": {},
       "https://wpt.fyi/results/css/css-easing/linear-timing-functions-syntax.html": {},
       "https://wpt.fyi/results/css/css-easing/step-timing-functions-output.html": {},
@@ -70,12 +74,17 @@
         ]
       },
       "https://www.w3.org/TR/css3-transitions/": {},
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://drafts.css-houdini.org/css-typed-om-1/": {
         "anchors": [
           "css-internal-representation"
+        ]
+      },
+      "https://drafts.csswg.org/css-cascade-5/": {
+        "anchors": [
+          "used-value"
         ]
       },
       "https://drafts.csswg.org/css-easing-1/": {

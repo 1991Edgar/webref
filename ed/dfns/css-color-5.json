@@ -21,7 +21,8 @@
         "title": "The <color> syntax",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "typedef-color-base",
@@ -40,7 +41,8 @@
         "title": "The <color> syntax",
         "number": "2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-color-function",
@@ -59,7 +61,8 @@
         "title": "The <color> syntax",
         "number": "2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "absolute-color",
@@ -78,7 +81,48 @@
         "title": "The <color> syntax",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "resolve-to-srgb",
+      "href": "https://drafts.csswg.org/css-color-5/#resolve-to-srgb",
+      "linkingText": [
+        "resolve to sRGB"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "color-syntax",
+        "href": "https://drafts.csswg.org/css-color-5/#color-syntax",
+        "title": "The <color> syntax",
+        "number": "2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "support-legacy-color-syntax",
+      "href": "https://drafts.csswg.org/css-color-5/#support-legacy-color-syntax",
+      "linkingText": [
+        "support legacy color syntax"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "color-syntax",
+        "href": "https://drafts.csswg.org/css-color-5/#color-syntax",
+        "title": "The <color> syntax",
+        "number": "2"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "funcdef-color-mix",
@@ -97,7 +141,28 @@
         "title": "Mixing Colors: the color-mix() Function",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "calculate-a-color-mix",
+      "href": "https://drafts.csswg.org/css-color-5/#calculate-a-color-mix",
+      "linkingText": [
+        "calculate a color-mix()"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "color-mix-result",
+        "href": "https://drafts.csswg.org/css-color-5/#color-mix-result",
+        "title": "Calculating the Result of color-mix",
+        "number": "3.3"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "relative-color",
@@ -116,7 +181,8 @@
         "title": "Processing Model for Relative Colors",
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "origin-color",
@@ -135,7 +201,48 @@
         "title": "Processing Model for Relative Colors",
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "relative-color-processing-space",
+      "href": "https://drafts.csswg.org/css-color-5/#relative-color-processing-space",
+      "linkingText": [
+        "relative color processing space"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "rcs-intro",
+        "href": "https://drafts.csswg.org/css-color-5/#rcs-intro",
+        "title": "Processing Model for Relative Colors",
+        "number": "4.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "conversion-if-required",
+      "href": "https://drafts.csswg.org/css-color-5/#conversion-if-required",
+      "linkingText": [
+        "Conversion, if required"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "rcs-intro",
+        "href": "https://drafts.csswg.org/css-color-5/#rcs-intro",
+        "title": "Processing Model for Relative Colors",
+        "number": "4.1"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "originally-specified-color-space",
@@ -154,13 +261,14 @@
         "title": "Processing Model for Relative Colors",
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "channel-keyword",
-      "href": "https://drafts.csswg.org/css-color-5/#channel-keyword",
+      "id": "component-keyword",
+      "href": "https://drafts.csswg.org/css-color-5/#component-keyword",
       "linkingText": [
-        "channel keyword"
+        "component keyword"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -173,7 +281,8 @@
         "title": "Relative Color Syntax",
         "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "typedef-modern-rgb-syntax",
@@ -192,7 +301,8 @@
         "title": "Relative sRGB Colors",
         "number": "4.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-modern-rgba-syntax",
@@ -211,7 +321,8 @@
         "title": "Relative sRGB Colors",
         "number": "4.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "valdef-rgb-r",
@@ -232,7 +343,8 @@
         "title": "Relative sRGB Colors",
         "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-rgb-g",
@@ -253,7 +365,8 @@
         "title": "Relative sRGB Colors",
         "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-rgb-b",
@@ -274,7 +387,8 @@
         "title": "Relative sRGB Colors",
         "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-rgb-alpha",
@@ -295,7 +409,8 @@
         "title": "Relative sRGB Colors",
         "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "typedef-modern-hsl-syntax",
@@ -314,7 +429,8 @@
         "title": "Relative HSL Colors",
         "number": "4.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-modern-hsla-syntax",
@@ -333,7 +449,8 @@
         "title": "Relative HSL Colors",
         "number": "4.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "valdef-hsl-h",
@@ -354,7 +471,8 @@
         "title": "Relative HSL Colors",
         "number": "4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-hsl-s",
@@ -375,7 +493,8 @@
         "title": "Relative HSL Colors",
         "number": "4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-hsl-l",
@@ -396,7 +515,8 @@
         "title": "Relative HSL Colors",
         "number": "4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-hsl-alpha",
@@ -417,7 +537,8 @@
         "title": "Relative HSL Colors",
         "number": "4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "funcdef-hwb",
@@ -436,7 +557,8 @@
         "title": "Relative HWB Colors",
         "number": "4.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "valdef-hwb-h",
@@ -457,7 +579,8 @@
         "title": "Relative HWB Colors",
         "number": "4.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-hwb-w",
@@ -478,7 +601,8 @@
         "title": "Relative HWB Colors",
         "number": "4.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-hwb-b",
@@ -499,7 +623,8 @@
         "title": "Relative HWB Colors",
         "number": "4.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-hwb-alpha",
@@ -520,7 +645,8 @@
         "title": "Relative HWB Colors",
         "number": "4.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "funcdef-lab",
@@ -539,7 +665,8 @@
         "title": "Relative Lab Colors",
         "number": "4.6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "valdef-lab-l",
@@ -560,7 +687,8 @@
         "title": "Relative Lab Colors",
         "number": "4.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-lab-a",
@@ -581,7 +709,8 @@
         "title": "Relative Lab Colors",
         "number": "4.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-lab-b",
@@ -602,7 +731,8 @@
         "title": "Relative Lab Colors",
         "number": "4.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-lab-alpha",
@@ -623,7 +753,8 @@
         "title": "Relative Lab Colors",
         "number": "4.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "funcdef-oklab",
@@ -642,7 +773,8 @@
         "title": "Relative Oklab Colors",
         "number": "4.7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "valdef-oklab-l",
@@ -663,7 +795,8 @@
         "title": "Relative Oklab Colors",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-oklab-a",
@@ -684,7 +817,8 @@
         "title": "Relative Oklab Colors",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-oklab-b",
@@ -705,7 +839,8 @@
         "title": "Relative Oklab Colors",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-oklab-alpha",
@@ -726,7 +861,8 @@
         "title": "Relative Oklab Colors",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "funcdef-lch",
@@ -745,7 +881,8 @@
         "title": "Relative LCH Colors",
         "number": "4.8"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "valdef-lch-l",
@@ -766,7 +903,8 @@
         "title": "Relative LCH Colors",
         "number": "4.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-lch-c",
@@ -787,7 +925,8 @@
         "title": "Relative LCH Colors",
         "number": "4.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-lch-h",
@@ -808,7 +947,8 @@
         "title": "Relative LCH Colors",
         "number": "4.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-lch-alpha",
@@ -829,7 +969,8 @@
         "title": "Relative LCH Colors",
         "number": "4.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "funcdef-oklch",
@@ -843,12 +984,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "relative-OKLCh",
-        "href": "https://drafts.csswg.org/css-color-5/#relative-OKLCh",
-        "title": "Relative OKLCh Colors",
+        "id": "relative-OkLCh",
+        "href": "https://drafts.csswg.org/css-color-5/#relative-OkLCh",
+        "title": "Relative OkLCh Colors",
         "number": "4.9"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "valdef-oklch-l",
@@ -864,12 +1006,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "relative-OKLCh",
-        "href": "https://drafts.csswg.org/css-color-5/#relative-OKLCh",
-        "title": "Relative OKLCh Colors",
+        "id": "relative-OkLCh",
+        "href": "https://drafts.csswg.org/css-color-5/#relative-OkLCh",
+        "title": "Relative OkLCh Colors",
         "number": "4.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-oklch-c",
@@ -885,12 +1028,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "relative-OKLCh",
-        "href": "https://drafts.csswg.org/css-color-5/#relative-OKLCh",
-        "title": "Relative OKLCh Colors",
+        "id": "relative-OkLCh",
+        "href": "https://drafts.csswg.org/css-color-5/#relative-OkLCh",
+        "title": "Relative OkLCh Colors",
         "number": "4.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-oklch-h",
@@ -906,12 +1050,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "relative-OKLCh",
-        "href": "https://drafts.csswg.org/css-color-5/#relative-OKLCh",
-        "title": "Relative OKLCh Colors",
+        "id": "relative-OkLCh",
+        "href": "https://drafts.csswg.org/css-color-5/#relative-OkLCh",
+        "title": "Relative OkLCh Colors",
         "number": "4.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-oklch-alpha",
@@ -927,12 +1072,55 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "relative-OKLCh",
-        "href": "https://drafts.csswg.org/css-color-5/#relative-OKLCh",
-        "title": "Relative OKLCh Colors",
+        "id": "relative-OkLCh",
+        "href": "https://drafts.csswg.org/css-color-5/#relative-OkLCh",
+        "title": "Relative OkLCh Colors",
         "number": "4.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "funcdef-alpha",
+      "href": "https://drafts.csswg.org/css-color-5/#funcdef-alpha",
+      "linkingText": [
+        "alpha()"
+      ],
+      "localLinkingText": [],
+      "type": "function",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "relative-alpha",
+        "href": "https://drafts.csswg.org/css-color-5/#relative-alpha",
+        "title": "Relative Alpha Colors",
+        "number": "4.10"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "valdef-alpha-alpha",
+      "href": "https://drafts.csswg.org/css-color-5/#valdef-alpha-alpha",
+      "linkingText": [
+        "alpha"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "alpha()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "relative-alpha",
+        "href": "https://drafts.csswg.org/css-color-5/#relative-alpha",
+        "title": "Relative Alpha Colors",
+        "number": "4.10"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "funcdef-color",
@@ -951,7 +1139,8 @@
         "title": "Specifying Predefined and Custom Color Spaces: the color() Function",
         "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-colorspace-params",
@@ -970,7 +1159,8 @@
         "title": "Specifying Predefined and Custom Color Spaces: the color() Function",
         "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-custom-params",
@@ -989,7 +1179,8 @@
         "title": "Specifying Predefined and Custom Color Spaces: the color() Function",
         "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-predefined-rgb-params",
@@ -1008,7 +1199,8 @@
         "title": "Specifying Predefined and Custom Color Spaces: the color() Function",
         "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-predefined-rgb",
@@ -1027,7 +1219,8 @@
         "title": "Specifying Predefined and Custom Color Spaces: the color() Function",
         "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-xyz-params",
@@ -1046,26 +1239,8 @@
         "title": "Specifying Predefined and Custom Color Spaces: the color() Function",
         "number": "5"
       },
-      "definedIn": "pre"
-    },
-    {
-      "id": "typedef-xyz",
-      "href": "https://drafts.csswg.org/css-color-5/#typedef-xyz",
-      "linkingText": [
-        "<xyz>"
-      ],
-      "localLinkingText": [],
-      "type": "type",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "color-function",
-        "href": "https://drafts.csswg.org/css-color-5/#color-function",
-        "title": "Specifying Predefined and Custom Color Spaces: the color() Function",
-        "number": "5"
-      },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "invalid-color",
@@ -1084,7 +1259,8 @@
         "title": "Specifying Predefined and Custom Color Spaces: the color() Function",
         "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valid-color",
@@ -1103,7 +1279,8 @@
         "title": "Specifying Predefined and Custom Color Spaces: the color() Function",
         "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "out-of-gamut",
@@ -1122,7 +1299,8 @@
         "title": "Specifying Predefined and Custom Color Spaces: the color() Function",
         "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-color-r",
@@ -1143,7 +1321,8 @@
         "title": "Relative Color-Function Colors",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-color-g",
@@ -1164,7 +1343,8 @@
         "title": "Relative Color-Function Colors",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-color-b",
@@ -1185,7 +1365,8 @@
         "title": "Relative Color-Function Colors",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-color-x",
@@ -1206,7 +1387,8 @@
         "title": "Relative Color-Function Colors",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-color-y",
@@ -1227,7 +1409,8 @@
         "title": "Relative Color-Function Colors",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-color-z",
@@ -1248,7 +1431,8 @@
         "title": "Relative Color-Function Colors",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-color-alpha",
@@ -1269,7 +1453,8 @@
         "title": "Relative Color-Function Colors",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "at-ruledef-profile",
@@ -1288,7 +1473,8 @@
         "title": "Specifying a Color Profile: the @color-profile at-rule",
         "number": "5.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "css-color-profile",
@@ -1309,7 +1495,8 @@
         "title": "Specifying a Color Profile: the @color-profile at-rule",
         "number": "5.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "descdef-color-profile-src",
@@ -1330,7 +1517,8 @@
         "title": "Specifying a Color Profile: the @color-profile at-rule",
         "number": "5.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "fetch-an-external-color-profile",
@@ -1349,7 +1537,8 @@
         "title": "Specifying a Color Profile: the @color-profile at-rule",
         "number": "5.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "descdef-color-profile-rendering-intent",
@@ -1370,7 +1559,8 @@
         "title": "Specifying a Color Profile: the @color-profile at-rule",
         "number": "5.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "gamut-map",
@@ -1389,7 +1579,8 @@
         "title": "Specifying a Color Profile: the @color-profile at-rule",
         "number": "5.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-color-profile-rendering-intent-relative-colorimetric",
@@ -1410,7 +1601,8 @@
         "title": "Specifying a Color Profile: the @color-profile at-rule",
         "number": "5.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-profile-rendering-intent-absolute-colorimetric",
@@ -1431,7 +1623,8 @@
         "title": "Specifying a Color Profile: the @color-profile at-rule",
         "number": "5.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-profile-rendering-intent-perceptual",
@@ -1452,7 +1645,8 @@
         "title": "Specifying a Color Profile: the @color-profile at-rule",
         "number": "5.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-profile-rendering-intent-saturation",
@@ -1473,7 +1667,8 @@
         "title": "Specifying a Color Profile: the @color-profile at-rule",
         "number": "5.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "descdef-color-profile-components",
@@ -1494,7 +1689,8 @@
         "title": "Specifying a Color Profile: the @color-profile at-rule",
         "number": "5.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "funcdef-device-cmyk",
@@ -1513,7 +1709,8 @@
         "title": "Uncalibrated CMYK Colors: the device-cmyk() Function",
         "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-legacy-device-cmyk-syntax",
@@ -1532,7 +1729,8 @@
         "title": "Uncalibrated CMYK Colors: the device-cmyk() Function",
         "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-modern-device-cmyk-syntax",
@@ -1551,7 +1749,8 @@
         "title": "Uncalibrated CMYK Colors: the device-cmyk() Function",
         "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-cmyk-component",
@@ -1570,7 +1769,8 @@
         "title": "Uncalibrated CMYK Colors: the device-cmyk() Function",
         "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "naively-convert-from-cmyk-to-rgba",
@@ -1590,7 +1790,8 @@
         "title": "Naively Converting Between Uncalibrated CMYK and sRGB-Based Color",
         "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "naively-convert-from-rgba-to-cmyk",
@@ -1610,7 +1811,8 @@
         "title": "Naively Converting Between Uncalibrated CMYK and sRGB-Based Color",
         "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "funcdef-light-dark",
@@ -1629,7 +1831,70 @@
         "title": "Reacting to the used color-scheme: the light-dark() Function",
         "number": "7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "typedef-light-dark-color",
+      "href": "https://drafts.csswg.org/css-color-5/#typedef-light-dark-color",
+      "linkingText": [
+        "<light-dark-color>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "light-dark",
+        "href": "https://drafts.csswg.org/css-color-5/#light-dark",
+        "title": "Reacting to the used color-scheme: the light-dark() Function",
+        "number": "7"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "typedef-light-dark-image",
+      "href": "https://drafts.csswg.org/css-color-5/#typedef-light-dark-image",
+      "linkingText": [
+        "<light-dark-image>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "light-dark",
+        "href": "https://drafts.csswg.org/css-color-5/#light-dark",
+        "title": "Reacting to the used color-scheme: the light-dark() Function",
+        "number": "7"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "valdef-light-dark-none",
+      "href": "https://drafts.csswg.org/css-color-5/#valdef-light-dark-none",
+      "linkingText": [
+        "none"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "light-dark()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "light-dark",
+        "href": "https://drafts.csswg.org/css-color-5/#light-dark",
+        "title": "Reacting to the used color-scheme: the light-dark() Function",
+        "number": "7"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "funcdef-contrast-color",
@@ -1648,7 +1913,8 @@
         "title": "Dynamically specifying a text color with adequate contrast: the contrast-color() Function",
         "number": "8"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-color-space",
@@ -1667,7 +1933,8 @@
         "title": "Color Space for Interpolation",
         "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-rectangular-color-space",
@@ -1686,7 +1953,8 @@
         "title": "Color Space for Interpolation",
         "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-polar-color-space",
@@ -1705,7 +1973,8 @@
         "title": "Color Space for Interpolation",
         "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-custom-color-space",
@@ -1724,7 +1993,8 @@
         "title": "Color Space for Interpolation",
         "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-hue-interpolation-method",
@@ -1743,7 +2013,8 @@
         "title": "Color Space for Interpolation",
         "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "color-interpolation-method",
@@ -1762,7 +2033,28 @@
         "title": "Color Space for Interpolation",
         "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "effective-percentage",
+      "href": "https://drafts.csswg.org/css-color-5/#effective-percentage",
+      "linkingText": [
+        "effective percentage"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "serial-color-mix",
+        "href": "https://drafts.csswg.org/css-color-5/#serial-color-mix",
+        "title": "Serializing color-mix()",
+        "number": "11.1"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "csscolorprofilerule",
@@ -1781,7 +2073,8 @@
         "title": "The CSSColorProfileRule interface",
         "number": "12.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csscolorprofilerule-name",
@@ -1802,7 +2095,8 @@
         "title": "The CSSColorProfileRule interface",
         "number": "12.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-csscolorprofilerule-src",
@@ -1823,7 +2117,8 @@
         "title": "The CSSColorProfileRule interface",
         "number": "12.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-csscolorprofilerule-renderingintent",
@@ -1844,7 +2139,8 @@
         "title": "The CSSColorProfileRule interface",
         "number": "12.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-csscolorprofilerule-components",
@@ -1865,7 +2161,8 @@
         "title": "The CSSColorProfileRule interface",
         "number": "12.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     }
   ]
 }

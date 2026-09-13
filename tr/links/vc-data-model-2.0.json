@@ -11,26 +11,42 @@
       "https://datatracker.ietf.org/doc/draft-iab-web-pki-problems/": {},
       "https://datatracker.ietf.org/doc/draft-mcnally-envelope/": {},
       "https://datatracker.ietf.org/doc/draft-ssmith-acdc/": {},
-      "https://datatracker.ietf.org/doc/html/bcp14": {},
       "https://doi.org/10.6028/NIST.SP.800-57pt1r5": {},
       "https://en.wikipedia.org/wiki/Blind_signature": {},
       "https://en.wikipedia.org/wiki/CAPTCHA": {},
       "https://en.wikipedia.org/wiki/Challenge%E2%80%93response_authentication": {},
+      "https://en.wikipedia.org/wiki/Commercial_National_Security_Algorithm_Suite": {},
       "https://en.wikipedia.org/wiki/Man-in-the-middle_attack": {},
       "https://en.wikipedia.org/wiki/Red_team": {},
       "https://en.wikipedia.org/wiki/Replay_attack": {},
       "https://en.wikipedia.org/wiki/Semantic_technology": {},
       "https://en.wikipedia.org/wiki/Spoofing_attack": {},
+      "https://github.com/Aisp-GitHub": {},
+      "https://github.com/AlexAndrei98": {},
+      "https://github.com/Chaoxinhu": {},
+      "https://github.com/Denisthemalice": {},
+      "https://github.com/Emmanuel": {},
+      "https://github.com/Ilan": {},
+      "https://github.com/Iso5786": {},
+      "https://github.com/Lance": {},
+      "https://github.com/RorschachRev": {},
+      "https://github.com/Taro": {},
+      "https://github.com/caribouW3": {},
+      "https://github.com/cdr": {},
+      "https://github.com/ckennedy422": {},
+      "https://github.com/confiks": {},
+      "https://github.com/enuoCM": {},
+      "https://github.com/etaleo": {},
+      "https://github.com/glauserr": {},
+      "https://github.com/isaackps": {},
+      "https://github.com/nage": {},
+      "https://github.com/tcibm": {},
       "https://github.com/w3c/vc-data-model/issues/": {},
-      "https://github.com/w3c/vc-data-model/issues/1437": {},
-      "https://github.com/w3c/vc-data-model/issues/?q=is%3Aissue+is%3Aopen+label%3A%22CR1%22": {},
-      "https://github.com/w3c/vc-data-model/issues/?q=is%3Aissue+is%3Aopen+label%3A%22before-PR%22": {},
-      "https://github.com/w3c/vc-data-model/issues/?q=is%3Aissue+is%3Aopen+label%3A%22normative%22": {},
-      "https://github.com/w3c/vc-data-model/issues/?q=is%3Aissue+is%3Aopen+label%3A%22pr+exists%22": {},
+      "https://github.com/whatisthejava": {},
       "https://helpx.adobe.com/acrobat/kb/approved-trust-list1.html": {},
       "https://httpwg.org/specs/rfc7231.html": {
         "anchors": [
-          "section-6.5.13"
+          "rfc.section.6.5.13"
         ]
       },
       "https://httpwg.org/specs/rfc9110.html": {},
@@ -41,7 +57,6 @@
         ]
       },
       "https://lists.w3.org/Archives/Public/public-vc-comments/": {},
-      "https://media.defense.gov/2022/Sep/07/2003071834/-1/-1/0/CSA_CNSA_2.0_ALGORITHMS_.PDF": {},
       "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf": {},
       "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf": {},
       "https://schema.org/": {},
@@ -50,7 +65,6 @@
           "absolute-url-string"
         ]
       },
-      "https://w3c.github.io/vc-data-model-2.0-test-suite/": {},
       "https://w3c.github.io/vc-extensions/": {
         "anchors": [
           "securing-mechanisms"
@@ -65,6 +79,7 @@
       "https://www.etsi.org/deliver/etsi_ts/119600_119699/119612/02.01.01_60/ts_119612v020101p.pdf": {},
       "https://www.iana.org/assignments/media-types/media-types.xhtml": {},
       "https://www.iso.org/standard/69084.html": {},
+      "https://www.rfc-editor.org/info/bcp14": {},
       "https://www.rfc-editor.org/rfc/rfc2119": {},
       "https://www.rfc-editor.org/rfc/rfc2397": {},
       "https://www.rfc-editor.org/rfc/rfc5646": {},
@@ -93,6 +108,7 @@
         ]
       },
       "https://www.w3.org/TR/2024/CR-vc-data-model-2.0-20240201/": {},
+      "https://www.w3.org/TR/2024/CR-vc-data-model-2.0-20241219/": {},
       "https://www.w3.org/TR/SRI/": {
         "anchors": [
           "the-integrity-attribute",
@@ -105,7 +121,7 @@
         ]
       },
       "https://www.w3.org/TR/WCAG21/": {},
-      "https://www.w3.org/TR/controller-document/": {},
+      "https://www.w3.org/TR/cid-1.0/": {},
       "https://www.w3.org/TR/did-core/": {},
       "https://www.w3.org/TR/i18n-glossary/": {
         "anchors": [
@@ -172,6 +188,7 @@
       },
       "https://www.w3.org/TR/vc-jose-cose/": {},
       "https://www.w3.org/TR/vc-json-schema/": {},
+      "https://www.w3.org/TR/vc-overview/": {},
       "https://www.w3.org/TR/vc-use-cases/": {
         "anchors": [
           "user-tasks"
@@ -190,9 +207,10 @@
           "BitstringStatusList"
         ]
       },
-      "https://www.w3.org/ns/credentials/status/index.jsonld": {},
+      "https://www.w3.org/ns/credentials/status/v1": {},
       "https://www.w3.org/policies/patent-policy/": {
         "anchors": [
+          "sec-Requirements",
           "def-essential",
           "sec-Disclosure"
         ]

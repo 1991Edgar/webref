@@ -21,7 +21,8 @@
         "title": "Changing the Box Model: the box-sizing property",
         "number": "3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-box-sizing-content-box",
@@ -42,7 +43,8 @@
         "title": "Changing the Box Model: the box-sizing property",
         "number": "3.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-box-sizing-border-box",
@@ -63,7 +65,8 @@
         "title": "Changing the Box Model: the box-sizing property",
         "number": "3.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "min-inner-width",
@@ -82,7 +85,8 @@
         "title": "Changing the Box Model: the box-sizing property",
         "number": "3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "max-inner-width",
@@ -101,7 +105,8 @@
         "title": "Changing the Box Model: the box-sizing property",
         "number": "3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "min-inner-height",
@@ -120,7 +125,8 @@
         "title": "Changing the Box Model: the box-sizing property",
         "number": "3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "max-inner-height",
@@ -139,7 +145,8 @@
         "title": "Changing the Box Model: the box-sizing property",
         "number": "3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "propdef-outline",
@@ -158,7 +165,8 @@
         "title": "Outlines Shorthand: the outline property",
         "number": "4.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "propdef-outline-width",
@@ -177,7 +185,8 @@
         "title": "Outline Thickness: the outline-width property",
         "number": "4.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "propdef-outline-style",
@@ -196,7 +205,8 @@
         "title": "Outline Patterns: the outline-style property",
         "number": "4.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "propdef-outline-color",
@@ -215,7 +225,8 @@
         "title": "Outline Colors: the outline-color property",
         "number": "4.4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-outline-color-invert",
@@ -236,7 +247,8 @@
         "title": "Outline Colors: the outline-color property",
         "number": "4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-outline-offset",
@@ -255,7 +267,8 @@
         "title": "Offsetting the Outline: the outline-offset property",
         "number": "4.5"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "propdef-resize",
@@ -274,7 +287,8 @@
         "title": "Resizing Boxes: the resize property",
         "number": "5.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "propdef-text-overflow",
@@ -293,7 +307,8 @@
         "title": "Overflow Ellipsis: the text-overflow property",
         "number": "5.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "overflow-clip",
@@ -314,7 +329,8 @@
         "title": "Overflow Ellipsis: the text-overflow property",
         "number": "5.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "overflow-ellipsis",
@@ -335,7 +351,8 @@
         "title": "Overflow Ellipsis: the text-overflow property",
         "number": "5.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-cursor",
@@ -354,7 +371,72 @@
         "title": "Styling the Cursor: the cursor property",
         "number": "6.1.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "typedef-cursor-cursor-image",
+      "href": "https://www.w3.org/TR/css-ui-3/#typedef-cursor-cursor-image",
+      "linkingText": [
+        "<cursor-image>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [
+        "cursor"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "cursor",
+        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
+        "title": "Styling the Cursor: the cursor property",
+        "number": "6.1.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "valdef-cursor-cursor-predefined",
+      "href": "https://www.w3.org/TR/css-ui-3/#valdef-cursor-cursor-predefined",
+      "linkingText": [
+        "<cursor-predefined>"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "cursor"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "cursor",
+        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
+        "title": "Styling the Cursor: the cursor property",
+        "number": "6.1.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "typedef-cursor-predefined",
+      "href": "https://www.w3.org/TR/css-ui-3/#typedef-cursor-predefined",
+      "linkingText": [
+        "<cursor-predefined>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "valdef-cursor-auto",
@@ -370,12 +452,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-default",
@@ -391,12 +474,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-none",
@@ -412,12 +496,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-context-menu",
@@ -433,12 +518,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-help",
@@ -454,12 +540,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-pointer",
@@ -475,12 +562,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-progress",
@@ -496,12 +584,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-wait",
@@ -517,12 +606,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-cell",
@@ -538,12 +628,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-crosshair",
@@ -559,12 +650,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-text",
@@ -580,12 +672,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-vertical-text",
@@ -601,12 +694,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-alias",
@@ -622,12 +716,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-copy",
@@ -643,12 +738,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-move",
@@ -664,12 +760,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-no-drop",
@@ -685,12 +782,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-not-allowed",
@@ -706,12 +804,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-grab",
@@ -727,12 +826,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-grabbing",
@@ -748,12 +848,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-e-resize",
@@ -769,12 +870,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-n-resize",
@@ -790,12 +892,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-ne-resize",
@@ -811,12 +914,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-nw-resize",
@@ -832,12 +936,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-s-resize",
@@ -853,12 +958,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-se-resize",
@@ -874,12 +980,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-sw-resize",
@@ -895,12 +1002,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-w-resize",
@@ -916,12 +1024,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-ew-resize",
@@ -937,12 +1046,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-ns-resize",
@@ -958,12 +1068,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-nesw-resize",
@@ -979,12 +1090,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-nwse-resize",
@@ -1000,12 +1112,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-col-resize",
@@ -1021,12 +1134,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-row-resize",
@@ -1042,12 +1156,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-all-scroll",
@@ -1063,12 +1178,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-zoom-in",
@@ -1084,12 +1200,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-cursor-zoom-out",
@@ -1105,12 +1222,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "cursor",
-        "href": "https://www.w3.org/TR/css-ui-3/#cursor",
-        "title": "Styling the Cursor: the cursor property",
-        "number": "6.1.1"
+        "id": "predefined-cursors",
+        "href": "https://www.w3.org/TR/css-ui-3/#predefined-cursors",
+        "title": "Predefined Cursors",
+        "number": "6.1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-caret-color",
@@ -1129,7 +1247,8 @@
         "title": "Coloring the Insertion Caret: the caret-color property",
         "number": "6.2.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-caret-color-auto",
@@ -1150,7 +1269,8 @@
         "title": "Coloring the Insertion Caret: the caret-color property",
         "number": "6.2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     }
   ]
 }

@@ -21,7 +21,8 @@
         "title": "Scope",
         "number": "1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "avif",
@@ -35,11 +36,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://aomediacodec.github.io/av1-avif/#title",
-        "title": "AV1 Image File Format (AVIF)"
+        "id": "general",
+        "href": "https://aomediacodec.github.io/av1-avif/#general",
+        "title": "Scope",
+        "number": "1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "avif-file",
@@ -53,11 +56,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://aomediacodec.github.io/av1-avif/#title",
-        "title": "AV1 Image File Format (AVIF)"
+        "id": "general",
+        "href": "https://aomediacodec.github.io/av1-avif/#general",
+        "title": "Scope",
+        "number": "1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "av1-image-item-type-av01",
@@ -78,7 +83,8 @@
         "title": "AV1 Image Item",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "av1-image-item",
@@ -97,7 +103,8 @@
         "title": "AV1 Image Item",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "av1-image-item-data",
@@ -111,11 +118,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://aomediacodec.github.io/av1-avif/#title",
-        "title": "AV1 Image File Format (AVIF)"
+        "id": "image-item",
+        "href": "https://aomediacodec.github.io/av1-avif/#image-item",
+        "title": "AV1 Image Item",
+        "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "av1itemconfigurationproperty-av1c",
@@ -136,7 +145,8 @@
         "title": "AV1 Item Configuration Property",
         "number": "2.2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "av1itemconfigurationproperty",
@@ -155,7 +165,8 @@
         "title": "AV1 Item Configuration Property",
         "number": "2.2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "operatingpointselectorproperty-a1op",
@@ -176,7 +187,8 @@
         "title": "Definition",
         "number": "2.3.2.1.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "operatingpointselectorproperty",
@@ -195,7 +207,8 @@
         "title": "Description",
         "number": "2.3.2.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "op_index",
@@ -214,7 +227,8 @@
         "title": "Semantics",
         "number": "2.3.2.1.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "av1layeredimageindexingproperty-a1lx",
@@ -235,7 +249,8 @@
         "title": "Definition",
         "number": "2.3.2.3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "av1layeredimageindexingproperty",
@@ -254,7 +269,8 @@
         "title": "Description",
         "number": "2.3.2.3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "layer_size",
@@ -273,7 +289,8 @@
         "title": "Semantics",
         "number": "2.3.2.3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "av1-image-sequence",
@@ -292,7 +309,8 @@
         "title": "Image Sequences",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "av1-auxiliary-image-item",
@@ -311,7 +329,8 @@
         "title": "Auxiliary Image Items and Sequences",
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "av1-auxiliary-image-sequence",
@@ -325,11 +344,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://aomediacodec.github.io/av1-avif/#title",
-        "title": "AV1 Image File Format (AVIF)"
+        "id": "auxiliary-images",
+        "href": "https://aomediacodec.github.io/av1-avif/#auxiliary-images",
+        "title": "Auxiliary Image Items and Sequences",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "av1-alpha-image-item",
@@ -343,11 +364,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://aomediacodec.github.io/av1-avif/#title",
-        "title": "AV1 Image File Format (AVIF)"
+        "id": "auxiliary-images",
+        "href": "https://aomediacodec.github.io/av1-avif/#auxiliary-images",
+        "title": "Auxiliary Image Items and Sequences",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "av1-alpha-image-sequence",
@@ -361,11 +384,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://aomediacodec.github.io/av1-avif/#title",
-        "title": "AV1 Image File Format (AVIF)"
+        "id": "auxiliary-images",
+        "href": "https://aomediacodec.github.io/av1-avif/#auxiliary-images",
+        "title": "Auxiliary Image Items and Sequences",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "av1-depth-image-item",
@@ -379,11 +404,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://aomediacodec.github.io/av1-avif/#title",
-        "title": "AV1 Image File Format (AVIF)"
+        "id": "auxiliary-images",
+        "href": "https://aomediacodec.github.io/av1-avif/#auxiliary-images",
+        "title": "Auxiliary Image Items and Sequences",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "av1-depth-image-sequence",
@@ -397,11 +424,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://aomediacodec.github.io/av1-avif/#title",
-        "title": "AV1 Image File Format (AVIF)"
+        "id": "auxiliary-images",
+        "href": "https://aomediacodec.github.io/av1-avif/#auxiliary-images",
+        "title": "Auxiliary Image Items and Sequences",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "grid-derived-image-item",
@@ -420,7 +449,8 @@
         "title": "Grid Derived Image Item",
         "number": "4.2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "tone-map-derived-image-item",
@@ -439,7 +469,8 @@
         "title": "Tone Map Derived Image Item",
         "number": "4.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "sample-transform-derived-image-item",
@@ -458,7 +489,8 @@
         "title": "Sample Transform Derived Image Item",
         "number": "4.2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "sample-transform-derived-image-item-type-sato",
@@ -479,7 +511,8 @@
         "title": "Definition",
         "number": "4.2.3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "sato-expression",
@@ -500,7 +533,8 @@
         "title": "Syntax",
         "number": "4.2.3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "sato-version",
@@ -521,7 +555,8 @@
         "title": "Semantics",
         "number": "4.2.3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "sato-reserved",
@@ -537,11 +572,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://aomediacodec.github.io/av1-avif/#title",
-        "title": "AV1 Image File Format (AVIF)"
+        "id": "sample-transform-semantics",
+        "href": "https://aomediacodec.github.io/av1-avif/#sample-transform-semantics",
+        "title": "Semantics",
+        "number": "4.2.3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "sato-bit_depth",
@@ -557,11 +594,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://aomediacodec.github.io/av1-avif/#title",
-        "title": "AV1 Image File Format (AVIF)"
+        "id": "sample-transform-semantics",
+        "href": "https://aomediacodec.github.io/av1-avif/#sample-transform-semantics",
+        "title": "Semantics",
+        "number": "4.2.3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "sato-intermediate-bit-depth",
@@ -577,11 +616,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://aomediacodec.github.io/av1-avif/#title",
-        "title": "AV1 Image File Format (AVIF)"
+        "id": "sample-transform-semantics",
+        "href": "https://aomediacodec.github.io/av1-avif/#sample-transform-semantics",
+        "title": "Semantics",
+        "number": "4.2.3.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "sato-num_bits",
@@ -597,11 +638,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://aomediacodec.github.io/av1-avif/#title",
-        "title": "AV1 Image File Format (AVIF)"
+        "id": "sample-transform-semantics",
+        "href": "https://aomediacodec.github.io/av1-avif/#sample-transform-semantics",
+        "title": "Semantics",
+        "number": "4.2.3.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "sato-token_count",
@@ -617,11 +660,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://aomediacodec.github.io/av1-avif/#title",
-        "title": "AV1 Image File Format (AVIF)"
+        "id": "sample-transform-semantics",
+        "href": "https://aomediacodec.github.io/av1-avif/#sample-transform-semantics",
+        "title": "Semantics",
+        "number": "4.2.3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "sato-token",
@@ -637,11 +682,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://aomediacodec.github.io/av1-avif/#title",
-        "title": "AV1 Image File Format (AVIF)"
+        "id": "sample-transform-semantics",
+        "href": "https://aomediacodec.github.io/av1-avif/#sample-transform-semantics",
+        "title": "Semantics",
+        "number": "4.2.3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "sato-operand",
@@ -657,11 +704,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://aomediacodec.github.io/av1-avif/#title",
-        "title": "AV1 Image File Format (AVIF)"
+        "id": "sample-transform-semantics",
+        "href": "https://aomediacodec.github.io/av1-avif/#sample-transform-semantics",
+        "title": "Semantics",
+        "number": "4.2.3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "sato-operator",
@@ -677,11 +726,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://aomediacodec.github.io/av1-avif/#title",
-        "title": "AV1 Image File Format (AVIF)"
+        "id": "sample-transform-semantics",
+        "href": "https://aomediacodec.github.io/av1-avif/#sample-transform-semantics",
+        "title": "Semantics",
+        "number": "4.2.3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "sato-constant",
@@ -697,11 +748,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://aomediacodec.github.io/av1-avif/#title",
-        "title": "AV1 Image File Format (AVIF)"
+        "id": "sample-transform-semantics",
+        "href": "https://aomediacodec.github.io/av1-avif/#sample-transform-semantics",
+        "title": "Semantics",
+        "number": "4.2.3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "sampletransform",
@@ -720,7 +773,8 @@
         "title": "Constraints",
         "number": "4.2.3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "avif-image-brand-avif",
@@ -741,7 +795,8 @@
         "title": "AVIF image and image collection brand",
         "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "avif-intra-only-brand-avio",
@@ -757,11 +812,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://aomediacodec.github.io/av1-avif/#title",
-        "title": "AV1 Image File Format (AVIF)"
+        "id": "image-and-image-collection-brand",
+        "href": "https://aomediacodec.github.io/av1-avif/#image-and-image-collection-brand",
+        "title": "AVIF image and image collection brand",
+        "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "avif-image-sequence-brand-avis",
@@ -782,7 +839,8 @@
         "title": "AVIF image sequence brands",
         "number": "6.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "avif-baseline-profile",
@@ -801,7 +859,8 @@
         "title": "AVIF Baseline Profile",
         "number": "8.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "avif-baseline-profile-ma1b",
@@ -822,7 +881,8 @@
         "title": "AVIF Baseline Profile",
         "number": "8.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "avif-advanced-profile",
@@ -841,7 +901,8 @@
         "title": "AVIF Advanced Profile",
         "number": "8.3"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "avif-advanced-profile-ma1a",
@@ -862,7 +923,8 @@
         "title": "AVIF Advanced Profile",
         "number": "8.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

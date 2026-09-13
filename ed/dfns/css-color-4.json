@@ -21,7 +21,8 @@
         "title": "Color Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "color-space",
@@ -40,7 +41,8 @@
         "title": "Color Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "additive-color-space",
@@ -59,7 +61,8 @@
         "title": "Color Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "luminance",
@@ -78,7 +81,8 @@
         "title": "Color Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "chromaticity",
@@ -97,7 +101,8 @@
         "title": "Color Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "white-point",
@@ -116,7 +121,8 @@
         "title": "Color Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "d50",
@@ -135,7 +141,8 @@
         "title": "Color Terminology",
         "number": "2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "d65",
@@ -154,7 +161,8 @@
         "title": "Color Terminology",
         "number": "2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "characterized",
@@ -173,7 +181,8 @@
         "title": "Color Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "calibrated",
@@ -192,7 +201,8 @@
         "title": "Color Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "gamut",
@@ -211,7 +221,8 @@
         "title": "Color Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "invalid-color",
@@ -230,7 +241,8 @@
         "title": "Color Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valid-color",
@@ -249,7 +261,8 @@
         "title": "Color Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "out-of-gamut",
@@ -268,7 +281,8 @@
         "title": "Color Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "in-gamut",
@@ -287,7 +301,8 @@
         "title": "Color Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-color",
@@ -306,7 +321,8 @@
         "title": "Foreground Color: the color property",
         "number": "3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "propdef-opacity",
@@ -325,7 +341,8 @@
         "title": "Transparency: the opacity property",
         "number": "3.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "typedef-opacity-opacity-value",
@@ -346,7 +363,8 @@
         "title": "Transparency: the opacity property",
         "number": "3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "tagged-image",
@@ -365,7 +383,8 @@
         "title": "Color Space of Tagged Images",
         "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "untagged-image",
@@ -384,7 +403,8 @@
         "title": "Color Spaces of Untagged Colors",
         "number": "3.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "untagged-video",
@@ -403,7 +423,8 @@
         "title": "Color Spaces of Untagged Colors",
         "number": "3.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "alpha-channel",
@@ -423,7 +444,8 @@
         "title": "Representing Colors: the <color> type",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "color-functions",
@@ -434,7 +456,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "color-type",
@@ -442,7 +464,8 @@
         "title": "Representing Colors: the <color> type",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "cylindrical-polar-color",
@@ -461,7 +484,8 @@
         "title": "Representing Colors: the <color> type",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "rectangular-orthogonal-color",
@@ -480,7 +504,8 @@
         "title": "Representing Colors: the <color> type",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "opaque-black",
@@ -499,7 +524,8 @@
         "title": "Representing Colors: the <color> type",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "transparent-black",
@@ -518,7 +544,8 @@
         "title": "Representing Colors: the <color> type",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "typedef-color",
@@ -537,7 +564,8 @@
         "title": "The <color> syntax",
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "typedef-color-base",
@@ -556,7 +584,8 @@
         "title": "The <color> syntax",
         "number": "4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-color-function",
@@ -575,7 +604,8 @@
         "title": "The <color> syntax",
         "number": "4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "absolute-color",
@@ -594,7 +624,48 @@
         "title": "The <color> syntax",
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "resolve-to-srgb",
+      "href": "https://drafts.csswg.org/css-color-4/#resolve-to-srgb",
+      "linkingText": [
+        "resolve to sRGB"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "color-syntax",
+        "href": "https://drafts.csswg.org/css-color-4/#color-syntax",
+        "title": "The <color> syntax",
+        "number": "4.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "support-legacy-color-syntax",
+      "href": "https://drafts.csswg.org/css-color-4/#support-legacy-color-syntax",
+      "linkingText": [
+        "support legacy color syntax"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "color-syntax",
+        "href": "https://drafts.csswg.org/css-color-4/#color-syntax",
+        "title": "The <color> syntax",
+        "number": "4.1"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "modern-color-syntax",
@@ -613,7 +684,8 @@
         "title": "Modern (Space-separated) Color Function Syntax",
         "number": "4.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "legacy-color-syntax",
@@ -632,7 +704,8 @@
         "title": "Legacy (Comma-separated) Color Function Syntax",
         "number": "4.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "typedef-color-alpha-value",
@@ -653,7 +726,8 @@
         "title": "Representing Transparency in Colors: the <alpha-value> syntax",
         "number": "4.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-hue",
@@ -672,18 +746,18 @@
         "title": "Representing Cylindrical-coordinate Hues: the <hue> syntax",
         "number": "4.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "missing-color-component",
       "href": "https://drafts.csswg.org/css-color-4/#missing-color-component",
       "linkingText": [
-        "missing color component"
-      ],
-      "localLinkingText": [
+        "missing color component",
         "missing",
         "missing component"
       ],
+      "localLinkingText": [],
       "type": "dfn",
       "for": [],
       "access": "public",
@@ -694,7 +768,8 @@
         "title": "“Missing” Color Components and the none Keyword",
         "number": "4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-color-none",
@@ -715,7 +790,8 @@
         "title": "“Missing” Color Components and the none Keyword",
         "number": "4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "powerless-color-component",
@@ -737,7 +813,8 @@
         "title": "“Powerless” Color Components",
         "number": "4.4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "parse-a-css-color-value",
@@ -756,7 +833,8 @@
         "title": "Parsing a <color> Value",
         "number": "4.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "funcdef-rgb",
@@ -775,7 +853,8 @@
         "title": "The RGB functions: rgb() and rgba()",
         "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "funcdef-rgba",
@@ -794,7 +873,8 @@
         "title": "The RGB functions: rgb() and rgba()",
         "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-legacy-rgb-syntax",
@@ -813,7 +893,8 @@
         "title": "The RGB functions: rgb() and rgba()",
         "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-legacy-rgba-syntax",
@@ -832,7 +913,8 @@
         "title": "The RGB functions: rgb() and rgba()",
         "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-modern-rgb-syntax",
@@ -851,7 +933,8 @@
         "title": "The RGB functions: rgb() and rgba()",
         "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-modern-rgba-syntax",
@@ -870,7 +953,8 @@
         "title": "The RGB functions: rgb() and rgba()",
         "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "hex-color",
@@ -890,7 +974,8 @@
         "title": "The RGB Hexadecimal Notations: #RRGGBB",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "typedef-hex-color",
@@ -909,7 +994,8 @@
         "title": "The RGB Hexadecimal Notations: #RRGGBB",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "named-color",
@@ -928,7 +1014,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "typedef-named-color",
@@ -947,7 +1034,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-color-aliceblue",
@@ -969,7 +1057,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-antiquewhite",
@@ -991,7 +1080,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-aqua",
@@ -1013,7 +1103,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-aquamarine",
@@ -1035,7 +1126,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-azure",
@@ -1057,7 +1149,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-beige",
@@ -1079,7 +1172,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-bisque",
@@ -1101,7 +1195,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-black",
@@ -1123,7 +1218,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-blanchedalmond",
@@ -1145,7 +1241,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-blue",
@@ -1167,7 +1264,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-blueviolet",
@@ -1189,7 +1287,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-brown",
@@ -1211,7 +1310,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-burlywood",
@@ -1233,7 +1333,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-cadetblue",
@@ -1255,7 +1356,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-chartreuse",
@@ -1277,7 +1379,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-chocolate",
@@ -1299,7 +1402,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-coral",
@@ -1321,7 +1425,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-cornflowerblue",
@@ -1343,7 +1448,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-cornsilk",
@@ -1365,7 +1471,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-crimson",
@@ -1387,7 +1494,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-cyan",
@@ -1409,7 +1517,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-darkblue",
@@ -1431,7 +1540,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-darkcyan",
@@ -1453,7 +1563,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-darkgoldenrod",
@@ -1475,7 +1586,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-darkgray",
@@ -1497,7 +1609,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-darkgreen",
@@ -1519,7 +1632,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-darkgrey",
@@ -1541,7 +1655,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-darkkhaki",
@@ -1563,7 +1678,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-darkmagenta",
@@ -1585,7 +1701,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-darkolivegreen",
@@ -1607,7 +1724,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-darkorange",
@@ -1629,7 +1747,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-darkorchid",
@@ -1651,7 +1770,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-darkred",
@@ -1673,7 +1793,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-darksalmon",
@@ -1695,7 +1816,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-darkseagreen",
@@ -1717,7 +1839,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-darkslateblue",
@@ -1739,7 +1862,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-darkslategray",
@@ -1761,7 +1885,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-darkslategrey",
@@ -1783,7 +1908,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-darkturquoise",
@@ -1805,7 +1931,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-darkviolet",
@@ -1827,7 +1954,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-deeppink",
@@ -1849,7 +1977,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-deepskyblue",
@@ -1871,7 +2000,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-dimgray",
@@ -1893,7 +2023,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-dimgrey",
@@ -1915,7 +2046,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-dodgerblue",
@@ -1937,7 +2069,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-firebrick",
@@ -1959,7 +2092,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-floralwhite",
@@ -1981,7 +2115,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-forestgreen",
@@ -2003,7 +2138,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-fuchsia",
@@ -2025,7 +2161,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-gainsboro",
@@ -2047,7 +2184,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-ghostwhite",
@@ -2069,7 +2207,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-gold",
@@ -2091,7 +2230,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-goldenrod",
@@ -2113,7 +2253,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-gray",
@@ -2135,7 +2276,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-green",
@@ -2157,7 +2299,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-greenyellow",
@@ -2179,7 +2322,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-grey",
@@ -2201,7 +2345,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-honeydew",
@@ -2223,7 +2368,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-hotpink",
@@ -2245,7 +2391,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-indianred",
@@ -2267,7 +2414,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-indigo",
@@ -2289,7 +2437,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-ivory",
@@ -2311,7 +2460,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-khaki",
@@ -2333,7 +2483,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-lavender",
@@ -2355,7 +2506,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-lavenderblush",
@@ -2377,7 +2529,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-lawngreen",
@@ -2399,7 +2552,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-lemonchiffon",
@@ -2421,7 +2575,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-lightblue",
@@ -2443,7 +2598,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-lightcoral",
@@ -2465,7 +2621,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-lightcyan",
@@ -2487,7 +2644,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-lightgoldenrodyellow",
@@ -2509,7 +2667,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-lightgray",
@@ -2531,7 +2690,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-lightgreen",
@@ -2553,7 +2713,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-lightgrey",
@@ -2575,7 +2736,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-lightpink",
@@ -2597,7 +2759,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-lightsalmon",
@@ -2619,7 +2782,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-lightseagreen",
@@ -2641,7 +2805,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-lightskyblue",
@@ -2663,7 +2828,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-lightslategray",
@@ -2685,7 +2851,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-lightslategrey",
@@ -2707,7 +2874,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-lightsteelblue",
@@ -2729,7 +2897,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-lightyellow",
@@ -2751,7 +2920,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-lime",
@@ -2773,7 +2943,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-limegreen",
@@ -2795,7 +2966,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-linen",
@@ -2817,7 +2989,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-magenta",
@@ -2839,7 +3012,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-maroon",
@@ -2861,7 +3035,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-mediumaquamarine",
@@ -2883,7 +3058,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-mediumblue",
@@ -2905,7 +3081,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-mediumorchid",
@@ -2927,7 +3104,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-mediumpurple",
@@ -2949,7 +3127,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-mediumseagreen",
@@ -2971,7 +3150,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-mediumslateblue",
@@ -2993,7 +3173,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-mediumspringgreen",
@@ -3015,7 +3196,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-mediumturquoise",
@@ -3037,7 +3219,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-mediumvioletred",
@@ -3059,7 +3242,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-midnightblue",
@@ -3081,7 +3265,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-mintcream",
@@ -3103,7 +3288,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-mistyrose",
@@ -3125,7 +3311,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-moccasin",
@@ -3147,7 +3334,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-navajowhite",
@@ -3169,7 +3357,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-navy",
@@ -3191,7 +3380,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-oldlace",
@@ -3213,7 +3403,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-olive",
@@ -3235,7 +3426,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-olivedrab",
@@ -3257,7 +3449,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-orange",
@@ -3279,7 +3472,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-orangered",
@@ -3301,7 +3495,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-orchid",
@@ -3323,7 +3518,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-palegoldenrod",
@@ -3345,7 +3541,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-palegreen",
@@ -3367,7 +3564,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-paleturquoise",
@@ -3389,7 +3587,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-palevioletred",
@@ -3411,7 +3610,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-papayawhip",
@@ -3433,7 +3633,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-peachpuff",
@@ -3455,7 +3656,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-peru",
@@ -3477,7 +3679,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-pink",
@@ -3499,7 +3702,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-plum",
@@ -3521,7 +3725,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-powderblue",
@@ -3543,7 +3748,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-purple",
@@ -3565,7 +3771,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-rebeccapurple",
@@ -3587,7 +3794,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-red",
@@ -3609,7 +3817,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-rosybrown",
@@ -3631,7 +3840,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-royalblue",
@@ -3653,7 +3863,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-saddlebrown",
@@ -3675,7 +3886,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-salmon",
@@ -3697,7 +3909,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-sandybrown",
@@ -3719,7 +3932,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-seagreen",
@@ -3741,7 +3955,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-seashell",
@@ -3763,7 +3978,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-sienna",
@@ -3785,7 +4001,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-silver",
@@ -3807,7 +4024,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-skyblue",
@@ -3829,7 +4047,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-slateblue",
@@ -3851,7 +4070,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-slategray",
@@ -3873,7 +4093,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-slategrey",
@@ -3895,7 +4116,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-snow",
@@ -3917,7 +4139,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-springgreen",
@@ -3939,7 +4162,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-steelblue",
@@ -3961,7 +4185,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-tan",
@@ -3983,7 +4208,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-teal",
@@ -4005,7 +4231,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-thistle",
@@ -4027,7 +4254,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-tomato",
@@ -4049,7 +4277,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-turquoise",
@@ -4071,7 +4300,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-violet",
@@ -4093,7 +4323,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-wheat",
@@ -4115,7 +4346,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-white",
@@ -4137,7 +4369,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-whitesmoke",
@@ -4159,7 +4392,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-yellow",
@@ -4181,7 +4415,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-yellowgreen",
@@ -4203,7 +4438,8 @@
         "title": "Named Colors",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "css-system-colors",
@@ -4214,7 +4450,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "css-system-colors",
@@ -4222,7 +4458,8 @@
         "title": "System Colors",
         "number": "6.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "typedef-system-color",
@@ -4241,7 +4478,8 @@
         "title": "System Colors",
         "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-color-accentcolor",
@@ -4263,7 +4501,8 @@
         "title": "System Colors",
         "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-accentcolortext",
@@ -4285,7 +4524,8 @@
         "title": "System Colors",
         "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-activetext",
@@ -4307,7 +4547,8 @@
         "title": "System Colors",
         "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-buttonborder",
@@ -4329,7 +4570,8 @@
         "title": "System Colors",
         "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-buttonface",
@@ -4351,7 +4593,8 @@
         "title": "System Colors",
         "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-buttontext",
@@ -4373,7 +4616,8 @@
         "title": "System Colors",
         "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-canvas",
@@ -4395,7 +4639,8 @@
         "title": "System Colors",
         "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-canvastext",
@@ -4417,7 +4662,8 @@
         "title": "System Colors",
         "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-field",
@@ -4439,7 +4685,8 @@
         "title": "System Colors",
         "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-fieldtext",
@@ -4461,7 +4708,8 @@
         "title": "System Colors",
         "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-graytext",
@@ -4483,7 +4731,8 @@
         "title": "System Colors",
         "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-highlight",
@@ -4505,7 +4754,8 @@
         "title": "System Colors",
         "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-highlighttext",
@@ -4527,7 +4777,8 @@
         "title": "System Colors",
         "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-linktext",
@@ -4549,7 +4800,8 @@
         "title": "System Colors",
         "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-mark",
@@ -4571,7 +4823,8 @@
         "title": "System Colors",
         "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-marktext",
@@ -4593,7 +4846,8 @@
         "title": "System Colors",
         "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-selecteditem",
@@ -4615,7 +4869,8 @@
         "title": "System Colors",
         "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-selecteditemtext",
@@ -4637,7 +4892,8 @@
         "title": "System Colors",
         "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-visitedtext",
@@ -4659,7 +4915,8 @@
         "title": "System Colors",
         "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "system-color-pairings",
@@ -4678,7 +4935,8 @@
         "title": "System Colors",
         "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-color-transparent",
@@ -4699,7 +4957,8 @@
         "title": "The transparent keyword",
         "number": "6.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-color-currentcolor",
@@ -4720,7 +4979,8 @@
         "title": "The currentcolor keyword",
         "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-hsl-hsl",
@@ -4741,7 +5001,8 @@
         "title": "HSL Colors: hsl() and hsla() functions",
         "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "funcdef-hsl",
@@ -4760,7 +5021,8 @@
         "title": "HSL Colors: hsl() and hsla() functions",
         "number": "7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "funcdef-hsla",
@@ -4779,7 +5041,8 @@
         "title": "HSL Colors: hsl() and hsla() functions",
         "number": "7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-modern-hsl-syntax",
@@ -4798,7 +5061,8 @@
         "title": "HSL Colors: hsl() and hsla() functions",
         "number": "7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-modern-hsla-syntax",
@@ -4817,7 +5081,8 @@
         "title": "HSL Colors: hsl() and hsla() functions",
         "number": "7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-legacy-hsl-syntax",
@@ -4836,7 +5101,8 @@
         "title": "HSL Colors: hsl() and hsla() functions",
         "number": "7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-legacy-hsla-syntax",
@@ -4855,7 +5121,8 @@
         "title": "HSL Colors: hsl() and hsla() functions",
         "number": "7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "valdef-hwb-hwb",
@@ -4876,7 +5143,8 @@
         "title": "HWB Colors: hwb() function",
         "number": "8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "funcdef-hwb",
@@ -4895,7 +5163,8 @@
         "title": "HWB Colors: hwb() function",
         "number": "8"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "chromatic-adaptation-transform",
@@ -4914,7 +5183,8 @@
         "title": "CIE Lab and LCH",
         "number": "9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "funcdef-lab",
@@ -4933,7 +5203,8 @@
         "title": "Specifying Lab and LCH: the lab() and lch() functional notations",
         "number": "9.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "valdef-lab-lab",
@@ -4954,7 +5225,8 @@
         "title": "Specifying Lab and LCH: the lab() and lch() functional notations",
         "number": "9.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "funcdef-lch",
@@ -4973,7 +5245,8 @@
         "title": "Specifying Lab and LCH: the lab() and lch() functional notations",
         "number": "9.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "valdef-lch-lch",
@@ -4994,7 +5267,8 @@
         "title": "Specifying Lab and LCH: the lab() and lch() functional notations",
         "number": "9.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "funcdef-oklab",
@@ -5010,10 +5284,11 @@
       "heading": {
         "id": "specifying-oklab-oklch",
         "href": "https://drafts.csswg.org/css-color-4/#specifying-oklab-oklch",
-        "title": "Specifying Oklab and OKLCh: the oklab() and oklch() functional notations",
+        "title": "Specifying Oklab and OkLCh: the oklab() and oklch() functional notations",
         "number": "9.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "valdef-oklab-oklab",
@@ -5031,10 +5306,11 @@
       "heading": {
         "id": "specifying-oklab-oklch",
         "href": "https://drafts.csswg.org/css-color-4/#specifying-oklab-oklch",
-        "title": "Specifying Oklab and OKLCh: the oklab() and oklch() functional notations",
+        "title": "Specifying Oklab and OkLCh: the oklab() and oklch() functional notations",
         "number": "9.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "funcdef-oklch",
@@ -5050,16 +5326,17 @@
       "heading": {
         "id": "specifying-oklab-oklch",
         "href": "https://drafts.csswg.org/css-color-4/#specifying-oklab-oklch",
-        "title": "Specifying Oklab and OKLCh: the oklab() and oklch() functional notations",
+        "title": "Specifying Oklab and OkLCh: the oklab() and oklch() functional notations",
         "number": "9.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "valdef-oklch-oklch",
       "href": "https://drafts.csswg.org/css-color-4/#valdef-oklch-oklch",
       "linkingText": [
-        "OKLCh"
+        "OkLCh"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -5071,10 +5348,11 @@
       "heading": {
         "id": "specifying-oklab-oklch",
         "href": "https://drafts.csswg.org/css-color-4/#specifying-oklab-oklch",
-        "title": "Specifying Oklab and OKLCh: the oklab() and oklch() functional notations",
+        "title": "Specifying Oklab and OkLCh: the oklab() and oklch() functional notations",
         "number": "9.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "funcdef-color",
@@ -5093,7 +5371,8 @@
         "title": "Specifying Predefined Colors: the color() function",
         "number": "10.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-colorspace-params",
@@ -5112,7 +5391,8 @@
         "title": "Specifying Predefined Colors: the color() function",
         "number": "10.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-predefined-rgb-params",
@@ -5131,7 +5411,8 @@
         "title": "Specifying Predefined Colors: the color() function",
         "number": "10.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-predefined-rgb",
@@ -5150,7 +5431,8 @@
         "title": "Specifying Predefined Colors: the color() function",
         "number": "10.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-xyz-params",
@@ -5169,7 +5451,8 @@
         "title": "Specifying Predefined Colors: the color() function",
         "number": "10.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-xyz-space",
@@ -5188,7 +5471,8 @@
         "title": "Specifying Predefined Colors: the color() function",
         "number": "10.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "cant-be-displayed",
@@ -5207,7 +5491,8 @@
         "title": "Specifying Predefined Colors: the color() function",
         "number": "10.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "can-be-displayed",
@@ -5226,7 +5511,8 @@
         "title": "Specifying Predefined Colors: the color() function",
         "number": "10.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "sRGB-space",
@@ -5245,7 +5531,8 @@
         "title": "The Predefined sRGB Color Space: the sRGB keyword",
         "number": "10.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-color-srgb",
@@ -5266,7 +5553,8 @@
         "title": "The Predefined sRGB Color Space: the sRGB keyword",
         "number": "10.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "sRGB-linear-space",
@@ -5282,10 +5570,11 @@
       "heading": {
         "id": "predefined-sRGB-linear",
         "href": "https://drafts.csswg.org/css-color-4/#predefined-sRGB-linear",
-        "title": "The Predefined Linear-light sRGB Color Space: the srgb-linear keyword",
+        "title": "The Predefined Linear-Light sRGB Color Space: the srgb-linear keyword",
         "number": "10.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-color-srgb-linear",
@@ -5303,10 +5592,11 @@
       "heading": {
         "id": "predefined-sRGB-linear",
         "href": "https://drafts.csswg.org/css-color-4/#predefined-sRGB-linear",
-        "title": "The Predefined Linear-light sRGB Color Space: the srgb-linear keyword",
+        "title": "The Predefined Linear-Light sRGB Color Space: the srgb-linear keyword",
         "number": "10.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-display-p3",
@@ -5327,7 +5617,30 @@
         "title": "The Predefined Display P3 Color Space: the display-p3 keyword",
         "number": "10.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-color-display-p3-linear",
+      "href": "https://drafts.csswg.org/css-color-4/#valdef-color-display-p3-linear",
+      "linkingText": [
+        "display-p3-linear"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "color()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "predefined-display-p3-linear",
+        "href": "https://drafts.csswg.org/css-color-4/#predefined-display-p3-linear",
+        "title": "The Predefined Linear-Light Display P3 Color Space: the display-p3-linear keyword",
+        "number": "10.5"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-a98-rgb",
@@ -5346,9 +5659,10 @@
         "id": "predefined-a98-rgb",
         "href": "https://drafts.csswg.org/css-color-4/#predefined-a98-rgb",
         "title": "The Predefined A98 RGB Color Space: the a98-rgb keyword",
-        "number": "10.5"
+        "number": "10.6"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-prophoto-rgb",
@@ -5367,9 +5681,10 @@
         "id": "predefined-prophoto-rgb",
         "href": "https://drafts.csswg.org/css-color-4/#predefined-prophoto-rgb",
         "title": "The Predefined ProPhoto RGB Color Space: the prophoto-rgb keyword",
-        "number": "10.6"
+        "number": "10.7"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-rec2020",
@@ -5388,9 +5703,10 @@
         "id": "predefined-rec2020",
         "href": "https://drafts.csswg.org/css-color-4/#predefined-rec2020",
         "title": "The Predefined ITU-R BT.2020-2 Color Space: the rec2020 keyword",
-        "number": "10.7"
+        "number": "10.8"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-xyz-d50",
@@ -5409,9 +5725,10 @@
         "id": "predefined-xyz",
         "href": "https://drafts.csswg.org/css-color-4/#predefined-xyz",
         "title": "The Predefined CIE XYZ Color Spaces: the xyz-d50, xyz-d65, and xyz keywords",
-        "number": "10.8"
+        "number": "10.9"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-xyz-d65",
@@ -5430,9 +5747,10 @@
         "id": "predefined-xyz",
         "href": "https://drafts.csswg.org/css-color-4/#predefined-xyz",
         "title": "The Predefined CIE XYZ Color Spaces: the xyz-d50, xyz-d65, and xyz keywords",
-        "number": "10.8"
+        "number": "10.9"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-xyz",
@@ -5451,9 +5769,69 @@
         "id": "predefined-xyz",
         "href": "https://drafts.csswg.org/css-color-4/#predefined-xyz",
         "title": "The Predefined CIE XYZ Color Spaces: the xyz-d50, xyz-d65, and xyz keywords",
-        "number": "10.8"
+        "number": "10.9"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "prepare-a-color-col1-for-conversion",
+      "href": "https://drafts.csswg.org/css-color-4/#prepare-a-color-col1-for-conversion",
+      "linkingText": [
+        "prepare a color col1 for conversion"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "color-convert-algorithm",
+        "href": "https://drafts.csswg.org/css-color-4/#color-convert-algorithm",
+        "title": "Algorithm for Converting Colors",
+        "number": "11.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "convert-a-color",
+      "href": "https://drafts.csswg.org/css-color-4/#convert-a-color",
+      "linkingText": [
+        "convert a color"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "color-convert-algorithm",
+        "href": "https://drafts.csswg.org/css-color-4/#color-convert-algorithm",
+        "title": "Algorithm for Converting Colors",
+        "number": "11.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "equivalent-colors",
+      "href": "https://drafts.csswg.org/css-color-4/#equivalent-colors",
+      "linkingText": [
+        "equivalent colors"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "comparing-color-values",
+        "href": "https://drafts.csswg.org/css-color-4/#comparing-color-values",
+        "title": "12. Comparing <color> Values"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "carried-forward",
@@ -5469,9 +5847,10 @@
       "heading": {
         "id": "interpolation",
         "href": "https://drafts.csswg.org/css-color-4/#interpolation",
-        "title": "12. Color Interpolation"
+        "title": "13. Color Interpolation"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "interpolation-color-space",
@@ -5487,9 +5866,50 @@
       "heading": {
         "id": "interpolation",
         "href": "https://drafts.csswg.org/css-color-4/#interpolation",
-        "title": "12. Color Interpolation"
+        "title": "13. Color Interpolation"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "color-quantities",
+      "href": "https://drafts.csswg.org/css-color-4/#color-quantities",
+      "linkingText": [
+        "color quantities"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "component-wise-linear-interpolation",
+        "href": "https://drafts.csswg.org/css-color-4/#component-wise-linear-interpolation",
+        "title": "Component-wise Linear Interpolation",
+        "number": "13.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "color-progress",
+      "href": "https://drafts.csswg.org/css-color-4/#color-progress",
+      "linkingText": [
+        "color progress"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "component-wise-linear-interpolation",
+        "href": "https://drafts.csswg.org/css-color-4/#component-wise-linear-interpolation",
+        "title": "Component-wise Linear Interpolation",
+        "number": "13.1"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "host-syntax",
@@ -5506,9 +5926,10 @@
         "id": "interpolation-space",
         "href": "https://drafts.csswg.org/css-color-4/#interpolation-space",
         "title": "Color Space for Interpolation",
-        "number": "12.1"
+        "number": "13.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "typedef-color-space",
@@ -5525,9 +5946,10 @@
         "id": "interpolation-space",
         "href": "https://drafts.csswg.org/css-color-4/#interpolation-space",
         "title": "Color Space for Interpolation",
-        "number": "12.1"
+        "number": "13.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-rectangular-color-space",
@@ -5544,9 +5966,10 @@
         "id": "interpolation-space",
         "href": "https://drafts.csswg.org/css-color-4/#interpolation-space",
         "title": "Color Space for Interpolation",
-        "number": "12.1"
+        "number": "13.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-polar-color-space",
@@ -5563,9 +5986,10 @@
         "id": "interpolation-space",
         "href": "https://drafts.csswg.org/css-color-4/#interpolation-space",
         "title": "Color Space for Interpolation",
-        "number": "12.1"
+        "number": "13.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-hue-interpolation-method",
@@ -5582,9 +6006,10 @@
         "id": "interpolation-space",
         "href": "https://drafts.csswg.org/css-color-4/#interpolation-space",
         "title": "Color Space for Interpolation",
-        "number": "12.1"
+        "number": "13.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "color-interpolation-method",
@@ -5601,9 +6026,10 @@
         "id": "interpolation-space",
         "href": "https://drafts.csswg.org/css-color-4/#interpolation-space",
         "title": "Color Space for Interpolation",
-        "number": "12.1"
+        "number": "13.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "analogous-components",
@@ -5620,9 +6046,30 @@
         "id": "interpolation-missing",
         "href": "https://drafts.csswg.org/css-color-4/#interpolation-missing",
         "title": "Interpolating with Missing Components",
-        "number": "12.2"
+        "number": "13.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "analogous-set",
+      "href": "https://drafts.csswg.org/css-color-4/#analogous-set",
+      "linkingText": [
+        "analogous set"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interpolation-missing",
+        "href": "https://drafts.csswg.org/css-color-4/#interpolation-missing",
+        "title": "Interpolating with Missing Components",
+        "number": "13.3"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "premultiplied",
@@ -5639,9 +6086,10 @@
         "id": "interpolation-alpha",
         "href": "https://drafts.csswg.org/css-color-4/#interpolation-alpha",
         "title": "Interpolating with Alpha",
-        "number": "12.3"
+        "number": "13.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "shorter",
@@ -5658,9 +6106,10 @@
         "id": "hue-shorter",
         "href": "https://drafts.csswg.org/css-color-4/#hue-shorter",
         "title": "shorter",
-        "number": "12.4.1"
+        "number": "13.5.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "longer",
@@ -5677,9 +6126,10 @@
         "id": "hue-longer",
         "href": "https://drafts.csswg.org/css-color-4/#hue-longer",
         "title": "longer",
-        "number": "12.4.2"
+        "number": "13.5.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "increasing",
@@ -5696,9 +6146,10 @@
         "id": "hue-increasing",
         "href": "https://drafts.csswg.org/css-color-4/#hue-increasing",
         "title": "increasing",
-        "number": "12.4.3"
+        "number": "13.5.3"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "decreasing",
@@ -5715,9 +6166,10 @@
         "id": "hue-decreasing",
         "href": "https://drafts.csswg.org/css-color-4/#hue-decreasing",
         "title": "decreasing",
-        "number": "12.4.4"
+        "number": "13.5.4"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "minde",
@@ -5734,15 +6186,16 @@
         "id": "GM-closest",
         "href": "https://drafts.csswg.org/css-color-4/#GM-closest",
         "title": "Closest Color (MINDE)",
-        "number": "13.1.2"
+        "number": "14.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "css-gamut-mapping-algorithm",
-      "href": "https://drafts.csswg.org/css-color-4/#css-gamut-mapping-algorithm",
+      "id": "css-gamut-mapping-algorithms",
+      "href": "https://drafts.csswg.org/css-color-4/#css-gamut-mapping-algorithms",
       "linkingText": [
-        "CSS gamut mapping algorithm"
+        "CSS gamut mapping algorithms"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -5753,9 +6206,10 @@
         "id": "css-gamut-mapping",
         "href": "https://drafts.csswg.org/css-color-4/#css-gamut-mapping",
         "title": "CSS Gamut Mapping to an RGB Destination",
-        "number": "13.2"
+        "number": "14.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "css-gamut-mapped",
@@ -5772,15 +6226,16 @@
         "id": "css-gamut-mapping",
         "href": "https://drafts.csswg.org/css-color-4/#css-gamut-mapping",
         "title": "CSS Gamut Mapping to an RGB Destination",
-        "number": "13.2"
+        "number": "14.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "css-gamut-map",
-      "href": "https://drafts.csswg.org/css-color-4/#css-gamut-map",
+      "id": "binary-search-gamut-map-with-local-minde",
+      "href": "https://drafts.csswg.org/css-color-4/#binary-search-gamut-map-with-local-minde",
       "linkingText": [
-        "CSS gamut map"
+        "Binary Search Gamut Map with Local MINDE"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -5788,12 +6243,53 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "binsearch",
-        "href": "https://drafts.csswg.org/css-color-4/#binsearch",
-        "title": "Sample Pseudocode for the Binary Search Gamut Mapping Algorithm with Local MINDE",
-        "number": "13.2.1"
+        "id": "pseudo-binsearch",
+        "href": "https://drafts.csswg.org/css-color-4/#pseudo-binsearch",
+        "title": "Sample Pseudocode for the Binary Search Gamut Mapping with Local MINDE",
+        "number": "14.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "ray-trace-gamut-map",
+      "href": "https://drafts.csswg.org/css-color-4/#ray-trace-gamut-map",
+      "linkingText": [
+        "Ray Trace Gamut Map"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "pseudo-raytrace",
+        "href": "https://drafts.csswg.org/css-color-4/#pseudo-raytrace",
+        "title": "Sample Pseudocode for the Ray Trace Gamut Mapping",
+        "number": "14.2.6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "cast-a-ray",
+      "href": "https://drafts.csswg.org/css-color-4/#cast-a-ray",
+      "linkingText": [
+        "cast a ray"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "pseudo-raytrace",
+        "href": "https://drafts.csswg.org/css-color-4/#pseudo-raytrace",
+        "title": "Sample Pseudocode for the Ray Trace Gamut Mapping",
+        "number": "14.2.6"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "computed-color",
@@ -5809,9 +6305,10 @@
       "heading": {
         "id": "resolving-color-values",
         "href": "https://drafts.csswg.org/css-color-4/#resolving-color-values",
-        "title": "14. Resolving <color> Values"
+        "title": "15. Resolving <color> Values"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "used-color",
@@ -5827,9 +6324,10 @@
       "heading": {
         "id": "resolving-color-values",
         "href": "https://drafts.csswg.org/css-color-4/#resolving-color-values",
-        "title": "14. Resolving <color> Values"
+        "title": "15. Resolving <color> Values"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "color-serialization-html-compatible-serialization-is-requested",
@@ -5848,9 +6346,10 @@
         "id": "HTML-compatible-serialization-of-srgb",
         "href": "https://drafts.csswg.org/css-color-4/#HTML-compatible-serialization-of-srgb",
         "title": "HTML-compatible serialization of sRGB values",
-        "number": "15.2.1"
+        "number": "16.2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "typedef-deprecated-color",
@@ -5869,7 +6368,8 @@
         "title": "Deprecated CSS System Colors",
         "number": "A"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-color-activeborder",
@@ -5891,7 +6391,8 @@
         "title": "Deprecated CSS System Colors",
         "number": "A"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-activecaption",
@@ -5913,7 +6414,8 @@
         "title": "Deprecated CSS System Colors",
         "number": "A"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-appworkspace",
@@ -5935,7 +6437,8 @@
         "title": "Deprecated CSS System Colors",
         "number": "A"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-background",
@@ -5957,7 +6460,8 @@
         "title": "Deprecated CSS System Colors",
         "number": "A"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-buttonhighlight",
@@ -5979,7 +6483,8 @@
         "title": "Deprecated CSS System Colors",
         "number": "A"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-buttonshadow",
@@ -6001,7 +6506,8 @@
         "title": "Deprecated CSS System Colors",
         "number": "A"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-captiontext",
@@ -6023,7 +6529,8 @@
         "title": "Deprecated CSS System Colors",
         "number": "A"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-inactiveborder",
@@ -6045,7 +6552,8 @@
         "title": "Deprecated CSS System Colors",
         "number": "A"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-inactivecaption",
@@ -6067,7 +6575,8 @@
         "title": "Deprecated CSS System Colors",
         "number": "A"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-inactivecaptiontext",
@@ -6089,7 +6598,8 @@
         "title": "Deprecated CSS System Colors",
         "number": "A"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-infobackground",
@@ -6111,7 +6621,8 @@
         "title": "Deprecated CSS System Colors",
         "number": "A"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-infotext",
@@ -6133,7 +6644,8 @@
         "title": "Deprecated CSS System Colors",
         "number": "A"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-menu",
@@ -6155,7 +6667,8 @@
         "title": "Deprecated CSS System Colors",
         "number": "A"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-menutext",
@@ -6177,7 +6690,8 @@
         "title": "Deprecated CSS System Colors",
         "number": "A"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-scrollbar",
@@ -6199,7 +6713,8 @@
         "title": "Deprecated CSS System Colors",
         "number": "A"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-threeddarkshadow",
@@ -6221,7 +6736,8 @@
         "title": "Deprecated CSS System Colors",
         "number": "A"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-threedface",
@@ -6243,7 +6759,8 @@
         "title": "Deprecated CSS System Colors",
         "number": "A"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-threedhighlight",
@@ -6265,7 +6782,8 @@
         "title": "Deprecated CSS System Colors",
         "number": "A"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-threedlightshadow",
@@ -6287,7 +6805,8 @@
         "title": "Deprecated CSS System Colors",
         "number": "A"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-threedshadow",
@@ -6309,7 +6828,8 @@
         "title": "Deprecated CSS System Colors",
         "number": "A"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-window",
@@ -6331,7 +6851,8 @@
         "title": "Deprecated CSS System Colors",
         "number": "A"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-windowframe",
@@ -6353,7 +6874,8 @@
         "title": "Deprecated CSS System Colors",
         "number": "A"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-windowtext",
@@ -6375,7 +6897,8 @@
         "title": "Deprecated CSS System Colors",
         "number": "A"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "typedef-quirky-color",
@@ -6394,7 +6917,8 @@
         "title": "Deprecated Quirky Hex Colors",
         "number": "B"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

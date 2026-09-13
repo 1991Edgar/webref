@@ -5,9 +5,10 @@
   },
   "links": {
     "rawlinks": {
-      "https://datatracker.ietf.org/doc/html/bcp14": {},
       "https://dom.spec.whatwg.org/": {},
+      "https://fetch.spec.whatwg.org/": {},
       "https://fs.spec.whatwg.org/": {},
+      "https://github.com/WICG/isolated-web-apps": {},
       "https://github.com/WICG/manifest-incubations/issues/": {},
       "https://github.com/WICG/manifest-incubations/issues/97": {},
       "https://github.com/WICG/manifest-incubations/issues/98": {},
@@ -47,8 +48,9 @@
       "https://wicg.github.io/web-app-launch/": {},
       "https://wicg.github.io/window-controls-overlay/": {},
       "https://www.iana.org/assignments/media-types/": {},
-      "https://www.rfc-editor.org/rfc/rfc2119": {},
-      "https://www.rfc-editor.org/rfc/rfc8174": {},
+      "https://www.rfc-editor.org/info/bcp14": {},
+      "https://www.rfc-editor.org/info/rfc2119/": {},
+      "https://www.rfc-editor.org/info/rfc8174/": {},
       "https://www.w3.org/TR/appmanifest/": {
         "anchors": [
           "dfn-display-modes-list",
@@ -62,7 +64,13 @@
           "dfn-ignore",
           "dfn-manifest-url",
           "dfn-processed-manifest",
-          "dfn-process-image-resources"
+          "dfn-process-image-resources",
+          "dfn-id"
+        ]
+      },
+      "https://www.w3.org/TR/mediaqueries-5/": {
+        "anchors": [
+          "descdef-media-display-mode"
         ]
       },
       "https://www.w3.org/community/": {},
@@ -83,9 +91,21 @@
           "dom-event-istrusted"
         ]
       },
+      "https://fetch.spec.whatwg.org/": {
+        "anchors": [
+          "concept-fetch"
+        ]
+      },
       "https://fs.spec.whatwg.org/": {
         "anchors": [
           "filesystemhandle"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/browsers.html": {
+        "anchors": [
+          "concept-origin",
+          "same-site",
+          "same-origin"
         ]
       },
       "https://html.spec.whatwg.org/multipage/browsing-the-web.html": {
@@ -96,7 +116,8 @@
       "https://html.spec.whatwg.org/multipage/document-sequences.html": {
         "anchors": [
           "top-level-traversable",
-          "top-level-browsing-context"
+          "top-level-browsing-context",
+          "nav-document"
         ]
       },
       "https://html.spec.whatwg.org/multipage/iframe-embed-object.html": {
@@ -141,15 +162,17 @@
       },
       "https://infra.spec.whatwg.org/": {
         "anchors": [
-          "list-iterate",
-          "ordered-map",
           "list",
-          "string",
-          "map-exists",
+          "ordered-map",
+          "list-is-empty",
+          "list-iterate",
+          "iteration-break",
           "iteration-continue",
-          "list-contain",
-          "list-append",
           "user-agent",
+          "map-exists",
+          "string",
+          "list-append",
+          "list-contain",
           "map-is-empty",
           "map-iterate",
           "list-empty",
@@ -170,20 +193,22 @@
           "concept-url-fragment",
           "concept-url-query",
           "concept-url-parser",
-          "concept-url-path"
+          "concept-url-path",
+          "concept-url-scheme",
+          "concept-url-origin"
         ]
       },
       "https://urlpattern.spec.whatwg.org/": {
         "anchors": [
-          "typedefdef-urlpatterninput",
+          "url-pattern",
           "url-pattern-match",
-          "dictdef-urlpatternresult",
-          "build-a-url-pattern-from-an-infra-value"
+          "build-a-url-pattern-from-an-infra-value",
+          "typedefdef-urlpatterninput",
+          "dictdef-urlpatternresult"
         ]
       },
       "https://webidl.spec.whatwg.org/": {
         "anchors": [
-          "idl-sequence",
           "this",
           "dfn-dictionary",
           "idl-frozen-array",
@@ -198,6 +223,7 @@
         "anchors": [
           "dom-launchparams-files",
           "dom-launchparams",
+          "dom-launchparams-targeturl",
           "dfn-launching-a-web-application-with-handling"
         ]
       },
@@ -209,6 +235,7 @@
       "https://www.w3.org/TR/appmanifest/": {
         "anchors": [
           "dfn-manifest",
+          "dfn-display-mode",
           "dfn-display",
           "dfn-processing-extension-point",
           "dfn-application-context",
@@ -222,7 +249,9 @@
           "dfn-launching-a-web-application",
           "dfn-installed-web-application",
           "dfn-start_url",
-          "dfn-scope"
+          "dfn-scope",
+          "dfn-navigation-scope",
+          "dfn-id"
         ]
       }
     }

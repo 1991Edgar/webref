@@ -143,7 +143,6 @@
       "http://wpt.live/css/css-values/vh-support-transform-translate.html": {},
       "http://wpt.live/css/css-values/vh-support.html": {},
       "http://wpt.live/css/css-values/vh-zero-support.html": {},
-      "http://wpt.live/css/css-values/vh_not_refreshing_on_chrome.html": {},
       "http://wpt.live/css/css-values/viewport-relative-lengths-scaled-viewport.html": {},
       "http://wpt.live/css/css-values/viewport-unit-011.html": {},
       "http://wpt.live/css/css-values/viewport-units-css2-001.html": {},
@@ -176,23 +175,42 @@
         ]
       },
       "https://datatracker.ietf.org/doc/html/rfc2119": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/abs": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/acos": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/angle": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/angle-percentage": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/asin": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/atan": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/atan2": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/calc": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/calc()": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/calc-constant": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/clamp": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/cos": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/dimension": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/exp": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/frequency": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/frequency-percentage": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/hypot": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/integer": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/length": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/length-percentage": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/log": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/max": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/min": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/mod": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/number": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/percentage": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/position_value": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/pow": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/rem": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/resolution": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/round": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/sign()": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/sin": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/sqrt": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/string": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/tan": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/time": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/time-percentage": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/url": {},
@@ -204,6 +222,7 @@
       "https://drafts.csswg.org/css-break/": {},
       "https://drafts.csswg.org/css-cascade-3/": {},
       "https://drafts.csswg.org/css-cascade-5/": {},
+      "https://drafts.csswg.org/css-cascade-6/": {},
       "https://drafts.csswg.org/css-color-3/": {},
       "https://drafts.csswg.org/css-color-4/": {},
       "https://drafts.csswg.org/css-color-5/": {},
@@ -212,8 +231,8 @@
       "https://drafts.csswg.org/css-easing/": {},
       "https://drafts.csswg.org/css-fonts-3/": {},
       "https://drafts.csswg.org/css-fonts-4/": {},
+      "https://drafts.csswg.org/css-grid-1/": {},
       "https://drafts.csswg.org/css-grid-2/": {},
-      "https://drafts.csswg.org/css-grid/": {},
       "https://drafts.csswg.org/css-images-3/": {},
       "https://drafts.csswg.org/css-images-4/": {},
       "https://drafts.csswg.org/css-overflow-3/": {},
@@ -403,7 +422,6 @@
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-values/vh-support-transform-translate.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-values/vh-support.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-values/vh-zero-support.html": {},
-      "https://github.com/web-platform-tests/wpt/blob/master/css/css-values/vh_not_refreshing_on_chrome.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-values/viewport-relative-lengths-scaled-viewport.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-values/viewport-unit-011.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-values/viewport-units-css2-001.html": {},
@@ -561,7 +579,6 @@
       "https://wpt.fyi/results/css/css-values/vh-support-transform-translate.html": {},
       "https://wpt.fyi/results/css/css-values/vh-support.html": {},
       "https://wpt.fyi/results/css/css-values/vh-zero-support.html": {},
-      "https://wpt.fyi/results/css/css-values/vh_not_refreshing_on_chrome.html": {},
       "https://wpt.fyi/results/css/css-values/viewport-relative-lengths-scaled-viewport.html": {},
       "https://wpt.fyi/results/css/css-values/viewport-unit-011.html": {},
       "https://wpt.fyi/results/css/css-values/viewport-units-css2-001.html": {},
@@ -572,7 +589,7 @@
       "https://wpt.fyi/results/css/mediaqueries/mq-calc-004.html": {},
       "https://wpt.fyi/results/css/mediaqueries/mq-calc-005.html": {},
       "https://wpt.fyi/results/css/motion/offset-supports-calc.html": {},
-      "https://www.rfc-editor.org/rfc/rfc6694": {},
+      "https://www.rfc-editor.org/info/rfc6694/": {},
       "https://www.w3.org/TR/2012/CR-css3-values-20120828/": {},
       "https://www.w3.org/TR/2013/CR-css3-values-20130404/": {},
       "https://www.w3.org/TR/2013/CR-css3-values-20130730/": {},
@@ -633,7 +650,7 @@
           "resolved-values"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://drafts.csswg.org/css-2023/": {
@@ -673,11 +690,15 @@
           "valdef-all-inherit",
           "valdef-all-initial",
           "valdef-all-unset",
-          "at-ruledef-import",
           "specified-value",
           "computed-value",
           "used-value",
           "actual-value"
+        ]
+      },
+      "https://drafts.csswg.org/css-cascade-6/": {
+        "anchors": [
+          "at-ruledef-import"
         ]
       },
       "https://drafts.csswg.org/css-color-4/": {
@@ -796,8 +817,7 @@
       },
       "https://drafts.csswg.org/css-values-5/": {
         "anchors": [
-          "funcdef-attr",
-          "funcdef-toggle"
+          "funcdef-attr"
         ]
       },
       "https://drafts.csswg.org/css-writing-modes-4/": {
@@ -812,6 +832,7 @@
       "https://drafts.csswg.org/css2/": {
         "anchors": [
           "value-def-border-width",
+          "propdef-border-collapse",
           "propdef-line-height"
         ]
       },
@@ -846,6 +867,11 @@
         "anchors": [
           "ascii-case-insensitive",
           "string"
+        ]
+      },
+      "https://www.w3.org/TR/css-values-5/": {
+        "anchors": [
+          "funcdef-toggle"
         ]
       }
     }

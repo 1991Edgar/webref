@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Nesting Module",
+    "title": "CSS Nesting Module Level 1",
     "url": "https://drafts.csswg.org/css-nesting-1/"
   },
   "dfns": [
@@ -22,7 +22,8 @@
         "title": "Nesting Style Rules",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "contain-the-nesting-selector",
@@ -41,7 +42,8 @@
         "title": "Syntax",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "nested-group-rules",
@@ -60,7 +62,8 @@
         "title": "Nesting Other At-Rules",
         "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "nesting-selector",
@@ -79,7 +82,8 @@
         "title": "Nesting Selector: the & selector",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "selectordef-",
@@ -98,11 +102,12 @@
         "title": "Nesting Selector: the & selector",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "nested-declarations-rule①",
-      "href": "https://drafts.csswg.org/css-nesting-1/#nested-declarations-rule%E2%91%A0",
+      "id": "nested-declarations-rule",
+      "href": "https://drafts.csswg.org/css-nesting-1/#nested-declarations-rule",
       "linkingText": [
         "nested declarations rule"
       ],
@@ -112,12 +117,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "nested-declarations-rule",
-        "href": "https://drafts.csswg.org/css-nesting-1/#nested-declarations-rule",
+        "id": "nested-declarations",
+        "href": "https://drafts.csswg.org/css-nesting-1/#nested-declarations",
         "title": "The Nested Declarations Rule",
         "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "cssnesteddeclarations",
@@ -136,7 +142,8 @@
         "title": "The CSSNestedDeclarations Interface",
         "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssnesteddeclarations-style",
@@ -157,7 +164,8 @@
         "title": "The CSSNestedDeclarations Interface",
         "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

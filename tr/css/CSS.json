@@ -1,19 +1,19 @@
 {
   "spec": {
-    "title": "Cascading Style Sheets Level 2 Revision 2 (CSS 2.2) Specification",
-    "url": "https://www.w3.org/TR/CSS22/"
+    "title": "Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification",
+    "url": "https://www.w3.org/TR/CSS2/"
   },
   "properties": [
     {
       "name": "margin-top",
-      "href": "https://www.w3.org/TR/CSS22/box.html#propdef-margin-top",
+      "href": "https://www.w3.org/TR/CSS2/box.html#propdef-margin-top",
       "value": "<margin-width> | inherit",
       "initial": "0",
       "appliesTo": "all elements except elements with table display types other than table-caption, table and inline-table",
       "inherited": "no",
       "percentages": "refer to width of containing block",
       "media": "visual",
-      "computed value": "the percentage as specified or the absolute length",
+      "computedValue": "the percentage as specified or the absolute length",
       "styleDeclaration": [
         "margin-top",
         "marginTop"
@@ -21,14 +21,14 @@
     },
     {
       "name": "margin-bottom",
-      "href": "https://www.w3.org/TR/CSS22/box.html#propdef-margin-bottom",
+      "href": "https://www.w3.org/TR/CSS2/box.html#propdef-margin-bottom",
       "value": "<margin-width> | inherit",
       "initial": "0",
       "appliesTo": "all elements except elements with table display types other than table-caption, table and inline-table",
       "inherited": "no",
       "percentages": "refer to width of containing block",
       "media": "visual",
-      "computed value": "the percentage as specified or the absolute length",
+      "computedValue": "the percentage as specified or the absolute length",
       "styleDeclaration": [
         "margin-bottom",
         "marginBottom"
@@ -36,14 +36,14 @@
     },
     {
       "name": "margin-right",
-      "href": "https://www.w3.org/TR/CSS22/box.html#propdef-margin-right",
+      "href": "https://www.w3.org/TR/CSS2/box.html#propdef-margin-right",
       "value": "<margin-width> | inherit",
       "initial": "0",
       "appliesTo": "all elements except elements with table display types other than table-caption, table and inline-table",
       "inherited": "no",
       "percentages": "refer to width of containing block",
       "media": "visual",
-      "computed value": "the percentage as specified or the absolute length",
+      "computedValue": "the percentage as specified or the absolute length",
       "styleDeclaration": [
         "margin-right",
         "marginRight"
@@ -51,14 +51,14 @@
     },
     {
       "name": "margin-left",
-      "href": "https://www.w3.org/TR/CSS22/box.html#propdef-margin-left",
+      "href": "https://www.w3.org/TR/CSS2/box.html#propdef-margin-left",
       "value": "<margin-width> | inherit",
       "initial": "0",
       "appliesTo": "all elements except elements with table display types other than table-caption, table and inline-table",
       "inherited": "no",
       "percentages": "refer to width of containing block",
       "media": "visual",
-      "computed value": "the percentage as specified or the absolute length",
+      "computedValue": "the percentage as specified or the absolute length",
       "styleDeclaration": [
         "margin-left",
         "marginLeft"
@@ -66,28 +66,28 @@
     },
     {
       "name": "margin",
-      "href": "https://www.w3.org/TR/CSS22/box.html#propdef-margin",
+      "href": "https://www.w3.org/TR/CSS2/box.html#propdef-margin",
       "value": "<margin-width>{1,4} | inherit",
       "initial": "see individual properties",
       "appliesTo": "all elements except elements with table display types other than table-caption, table and inline-table",
       "inherited": "no",
       "percentages": "refer to width of containing block",
       "media": "visual",
-      "computed value": "see individual properties",
+      "computedValue": "see individual properties",
       "styleDeclaration": [
         "margin"
       ]
     },
     {
       "name": "padding-top",
-      "href": "https://www.w3.org/TR/CSS22/box.html#propdef-padding-top",
+      "href": "https://www.w3.org/TR/CSS2/box.html#propdef-padding-top",
       "value": "<padding-width> | inherit",
       "initial": "0",
       "appliesTo": "all elements except table-row-group, table-header-group, table-footer-group, table-row, table-column-group and table-column",
       "inherited": "no",
       "percentages": "refer to width of containing block",
       "media": "visual",
-      "computed value": "the percentage as specified or the absolute length",
+      "computedValue": "the percentage as specified or the absolute length",
       "styleDeclaration": [
         "padding-top",
         "paddingTop"
@@ -95,14 +95,14 @@
     },
     {
       "name": "padding-right",
-      "href": "https://www.w3.org/TR/CSS22/box.html#propdef-padding-right",
+      "href": "https://www.w3.org/TR/CSS2/box.html#propdef-padding-right",
       "value": "<padding-width> | inherit",
       "initial": "0",
       "appliesTo": "all elements except table-row-group, table-header-group, table-footer-group, table-row, table-column-group and table-column",
       "inherited": "no",
       "percentages": "refer to width of containing block",
       "media": "visual",
-      "computed value": "the percentage as specified or the absolute length",
+      "computedValue": "the percentage as specified or the absolute length",
       "styleDeclaration": [
         "padding-right",
         "paddingRight"
@@ -110,14 +110,14 @@
     },
     {
       "name": "padding-bottom",
-      "href": "https://www.w3.org/TR/CSS22/box.html#propdef-padding-bottom",
+      "href": "https://www.w3.org/TR/CSS2/box.html#propdef-padding-bottom",
       "value": "<padding-width> | inherit",
       "initial": "0",
       "appliesTo": "all elements except table-row-group, table-header-group, table-footer-group, table-row, table-column-group and table-column",
       "inherited": "no",
       "percentages": "refer to width of containing block",
       "media": "visual",
-      "computed value": "the percentage as specified or the absolute length",
+      "computedValue": "the percentage as specified or the absolute length",
       "styleDeclaration": [
         "padding-bottom",
         "paddingBottom"
@@ -125,14 +125,14 @@
     },
     {
       "name": "padding-left",
-      "href": "https://www.w3.org/TR/CSS22/box.html#propdef-padding-left",
+      "href": "https://www.w3.org/TR/CSS2/box.html#propdef-padding-left",
       "value": "<padding-width> | inherit",
       "initial": "0",
       "appliesTo": "all elements except table-row-group, table-header-group, table-footer-group, table-row, table-column-group and table-column",
       "inherited": "no",
       "percentages": "refer to width of containing block",
       "media": "visual",
-      "computed value": "the percentage as specified or the absolute length",
+      "computedValue": "the percentage as specified or the absolute length",
       "styleDeclaration": [
         "padding-left",
         "paddingLeft"
@@ -140,28 +140,28 @@
     },
     {
       "name": "padding",
-      "href": "https://www.w3.org/TR/CSS22/box.html#propdef-padding",
+      "href": "https://www.w3.org/TR/CSS2/box.html#propdef-padding",
       "value": "<padding-width>{1,4} | inherit",
       "initial": "see individual properties",
       "appliesTo": "all elements except table-row-group, table-header-group, table-footer-group, table-row, table-column-group and table-column",
       "inherited": "no",
       "percentages": "refer to width of containing block",
       "media": "visual",
-      "computed value": "see individual properties",
+      "computedValue": "see individual properties",
       "styleDeclaration": [
         "padding"
       ]
     },
     {
       "name": "border-top-width",
-      "href": "https://www.w3.org/TR/CSS22/box.html#propdef-border-top-width",
+      "href": "https://www.w3.org/TR/CSS2/box.html#propdef-border-top-width",
       "value": "<border-width> | inherit",
       "initial": "medium",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "absolute length; '0' if the border style is 'none' or 'hidden'",
+      "computedValue": "absolute length; '0' if the border style is 'none' or 'hidden'",
       "styleDeclaration": [
         "border-top-width",
         "borderTopWidth"
@@ -169,14 +169,14 @@
     },
     {
       "name": "border-right-width",
-      "href": "https://www.w3.org/TR/CSS22/box.html#propdef-border-right-width",
+      "href": "https://www.w3.org/TR/CSS2/box.html#propdef-border-right-width",
       "value": "<border-width> | inherit",
       "initial": "medium",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "absolute length; '0' if the border style is 'none' or 'hidden'",
+      "computedValue": "absolute length; '0' if the border style is 'none' or 'hidden'",
       "styleDeclaration": [
         "border-right-width",
         "borderRightWidth"
@@ -184,14 +184,14 @@
     },
     {
       "name": "border-bottom-width",
-      "href": "https://www.w3.org/TR/CSS22/box.html#propdef-border-bottom-width",
+      "href": "https://www.w3.org/TR/CSS2/box.html#propdef-border-bottom-width",
       "value": "<border-width> | inherit",
       "initial": "medium",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "absolute length; '0' if the border style is 'none' or 'hidden'",
+      "computedValue": "absolute length; '0' if the border style is 'none' or 'hidden'",
       "styleDeclaration": [
         "border-bottom-width",
         "borderBottomWidth"
@@ -199,14 +199,14 @@
     },
     {
       "name": "border-left-width",
-      "href": "https://www.w3.org/TR/CSS22/box.html#propdef-border-left-width",
+      "href": "https://www.w3.org/TR/CSS2/box.html#propdef-border-left-width",
       "value": "<border-width> | inherit",
       "initial": "medium",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "absolute length; '0' if the border style is 'none' or 'hidden'",
+      "computedValue": "absolute length; '0' if the border style is 'none' or 'hidden'",
       "styleDeclaration": [
         "border-left-width",
         "borderLeftWidth"
@@ -214,14 +214,14 @@
     },
     {
       "name": "border-width",
-      "href": "https://www.w3.org/TR/CSS22/box.html#propdef-border-width",
+      "href": "https://www.w3.org/TR/CSS2/box.html#propdef-border-width",
       "value": "<border-width>{1,4} | inherit",
       "initial": "see individual properties",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "see individual properties",
+      "computedValue": "see individual properties",
       "styleDeclaration": [
         "border-width",
         "borderWidth"
@@ -229,14 +229,14 @@
     },
     {
       "name": "border-top-color",
-      "href": "https://www.w3.org/TR/CSS22/box.html#propdef-border-top-color",
+      "href": "https://www.w3.org/TR/CSS2/box.html#propdef-border-top-color",
       "value": "<color> | transparent | inherit",
       "initial": "the value of the 'color' property",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "when taken from the 'color' property, the computed value of 'color'; otherwise, as specified",
+      "computedValue": "when taken from the 'color' property, the computed value of 'color'; otherwise, as specified",
       "styleDeclaration": [
         "border-top-color",
         "borderTopColor"
@@ -244,14 +244,14 @@
     },
     {
       "name": "border-right-color",
-      "href": "https://www.w3.org/TR/CSS22/box.html#propdef-border-right-color",
+      "href": "https://www.w3.org/TR/CSS2/box.html#propdef-border-right-color",
       "value": "<color> | transparent | inherit",
       "initial": "the value of the 'color' property",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "when taken from the 'color' property, the computed value of 'color'; otherwise, as specified",
+      "computedValue": "when taken from the 'color' property, the computed value of 'color'; otherwise, as specified",
       "styleDeclaration": [
         "border-right-color",
         "borderRightColor"
@@ -259,14 +259,14 @@
     },
     {
       "name": "border-bottom-color",
-      "href": "https://www.w3.org/TR/CSS22/box.html#propdef-border-bottom-color",
+      "href": "https://www.w3.org/TR/CSS2/box.html#propdef-border-bottom-color",
       "value": "<color> | transparent | inherit",
       "initial": "the value of the 'color' property",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "when taken from the 'color' property, the computed value of 'color'; otherwise, as specified",
+      "computedValue": "when taken from the 'color' property, the computed value of 'color'; otherwise, as specified",
       "styleDeclaration": [
         "border-bottom-color",
         "borderBottomColor"
@@ -274,14 +274,14 @@
     },
     {
       "name": "border-left-color",
-      "href": "https://www.w3.org/TR/CSS22/box.html#propdef-border-left-color",
+      "href": "https://www.w3.org/TR/CSS2/box.html#propdef-border-left-color",
       "value": "<color> | transparent | inherit",
       "initial": "the value of the 'color' property",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "when taken from the 'color' property, the computed value of 'color'; otherwise, as specified",
+      "computedValue": "when taken from the 'color' property, the computed value of 'color'; otherwise, as specified",
       "styleDeclaration": [
         "border-left-color",
         "borderLeftColor"
@@ -289,14 +289,14 @@
     },
     {
       "name": "border-color",
-      "href": "https://www.w3.org/TR/CSS22/box.html#propdef-border-color",
+      "href": "https://www.w3.org/TR/CSS2/box.html#propdef-border-color",
       "value": "[ <color> | transparent ]{1,4} | inherit",
       "initial": "see individual properties",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "see individual properties",
+      "computedValue": "see individual properties",
       "styleDeclaration": [
         "border-color",
         "borderColor"
@@ -304,14 +304,14 @@
     },
     {
       "name": "border-top-style",
-      "href": "https://www.w3.org/TR/CSS22/box.html#propdef-border-top-style",
+      "href": "https://www.w3.org/TR/CSS2/box.html#propdef-border-top-style",
       "value": "<border-style> | inherit",
       "initial": "none",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "border-top-style",
         "borderTopStyle"
@@ -319,14 +319,14 @@
     },
     {
       "name": "border-right-style",
-      "href": "https://www.w3.org/TR/CSS22/box.html#propdef-border-right-style",
+      "href": "https://www.w3.org/TR/CSS2/box.html#propdef-border-right-style",
       "value": "<border-style> | inherit",
       "initial": "none",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "border-right-style",
         "borderRightStyle"
@@ -334,14 +334,14 @@
     },
     {
       "name": "border-bottom-style",
-      "href": "https://www.w3.org/TR/CSS22/box.html#propdef-border-bottom-style",
+      "href": "https://www.w3.org/TR/CSS2/box.html#propdef-border-bottom-style",
       "value": "<border-style> | inherit",
       "initial": "none",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "border-bottom-style",
         "borderBottomStyle"
@@ -349,14 +349,14 @@
     },
     {
       "name": "border-left-style",
-      "href": "https://www.w3.org/TR/CSS22/box.html#propdef-border-left-style",
+      "href": "https://www.w3.org/TR/CSS2/box.html#propdef-border-left-style",
       "value": "<border-style> | inherit",
       "initial": "none",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "border-left-style",
         "borderLeftStyle"
@@ -364,14 +364,14 @@
     },
     {
       "name": "border-style",
-      "href": "https://www.w3.org/TR/CSS22/box.html#propdef-border-style",
+      "href": "https://www.w3.org/TR/CSS2/box.html#propdef-border-style",
       "value": "<border-style>{1,4} | inherit",
       "initial": "see individual properties",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "see individual properties",
+      "computedValue": "see individual properties",
       "styleDeclaration": [
         "border-style",
         "borderStyle"
@@ -379,14 +379,14 @@
     },
     {
       "name": "border-top",
-      "href": "https://www.w3.org/TR/CSS22/box.html#propdef-border-top",
+      "href": "https://www.w3.org/TR/CSS2/box.html#propdef-border-top",
       "value": "[ <border-width> || <border-style> || <'border-top-color'> ] | inherit",
       "initial": "see individual properties",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "see individual properties",
+      "computedValue": "see individual properties",
       "styleDeclaration": [
         "border-top",
         "borderTop"
@@ -394,14 +394,14 @@
     },
     {
       "name": "border-right",
-      "href": "https://www.w3.org/TR/CSS22/box.html#propdef-border-right",
+      "href": "https://www.w3.org/TR/CSS2/box.html#propdef-border-right",
       "value": "[ <border-width> || <border-style> || <'border-top-color'> ] | inherit",
       "initial": "see individual properties",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "see individual properties",
+      "computedValue": "see individual properties",
       "styleDeclaration": [
         "border-right",
         "borderRight"
@@ -409,14 +409,14 @@
     },
     {
       "name": "border-bottom",
-      "href": "https://www.w3.org/TR/CSS22/box.html#propdef-border-bottom",
+      "href": "https://www.w3.org/TR/CSS2/box.html#propdef-border-bottom",
       "value": "[ <border-width> || <border-style> || <'border-top-color'> ] | inherit",
       "initial": "see individual properties",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "see individual properties",
+      "computedValue": "see individual properties",
       "styleDeclaration": [
         "border-bottom",
         "borderBottom"
@@ -424,14 +424,14 @@
     },
     {
       "name": "border-left",
-      "href": "https://www.w3.org/TR/CSS22/box.html#propdef-border-left",
+      "href": "https://www.w3.org/TR/CSS2/box.html#propdef-border-left",
       "value": "[ <border-width> || <border-style> || <'border-top-color'> ] | inherit",
       "initial": "see individual properties",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "see individual properties",
+      "computedValue": "see individual properties",
       "styleDeclaration": [
         "border-left",
         "borderLeft"
@@ -439,140 +439,140 @@
     },
     {
       "name": "border",
-      "href": "https://www.w3.org/TR/CSS22/box.html#propdef-border",
+      "href": "https://www.w3.org/TR/CSS2/box.html#propdef-border",
       "value": "[ <border-width> || <border-style> || <'border-top-color'> ] | inherit",
       "initial": "see individual properties",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "see individual properties",
+      "computedValue": "see individual properties",
       "styleDeclaration": [
         "border"
       ]
     },
     {
       "name": "display",
-      "href": "https://www.w3.org/TR/CSS22/visuren.html#propdef-display",
+      "href": "https://www.w3.org/TR/CSS2/visuren.html#propdef-display",
       "value": "inline | block | list-item | inline-block | table | inline-table | table-row-group | table-header-group | table-footer-group | table-row | table-column-group | table-column | table-cell | table-caption | none | inherit",
       "initial": "inline",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "all",
-      "computed value": "see text",
+      "computedValue": "see text",
       "styleDeclaration": [
         "display"
       ]
     },
     {
       "name": "position",
-      "href": "https://www.w3.org/TR/CSS22/visuren.html#propdef-position",
+      "href": "https://www.w3.org/TR/CSS2/visuren.html#propdef-position",
       "value": "static | relative | absolute | fixed | inherit",
       "initial": "static",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "position"
       ]
     },
     {
       "name": "top",
-      "href": "https://www.w3.org/TR/CSS22/visuren.html#propdef-top",
+      "href": "https://www.w3.org/TR/CSS2/visuren.html#propdef-top",
       "value": "<length> | <percentage> | auto | inherit",
       "initial": "auto",
       "appliesTo": "positioned elements",
       "inherited": "no",
       "percentages": "refer to height of containing block",
       "media": "visual",
-      "computed value": "if specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, 'auto'.",
+      "computedValue": "if specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, 'auto'.",
       "styleDeclaration": [
         "top"
       ]
     },
     {
       "name": "right",
-      "href": "https://www.w3.org/TR/CSS22/visuren.html#propdef-right",
+      "href": "https://www.w3.org/TR/CSS2/visuren.html#propdef-right",
       "value": "<length> | <percentage> | auto | inherit",
       "initial": "auto",
       "appliesTo": "positioned elements",
       "inherited": "no",
       "percentages": "refer to width of containing block",
       "media": "visual",
-      "computed value": "if specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, 'auto'.",
+      "computedValue": "if specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, 'auto'.",
       "styleDeclaration": [
         "right"
       ]
     },
     {
       "name": "bottom",
-      "href": "https://www.w3.org/TR/CSS22/visuren.html#propdef-bottom",
+      "href": "https://www.w3.org/TR/CSS2/visuren.html#propdef-bottom",
       "value": "<length> | <percentage> | auto | inherit",
       "initial": "auto",
       "appliesTo": "positioned elements",
       "inherited": "no",
       "percentages": "refer to height of containing block",
       "media": "visual",
-      "computed value": "if specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, 'auto'.",
+      "computedValue": "if specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, 'auto'.",
       "styleDeclaration": [
         "bottom"
       ]
     },
     {
       "name": "left",
-      "href": "https://www.w3.org/TR/CSS22/visuren.html#propdef-left",
+      "href": "https://www.w3.org/TR/CSS2/visuren.html#propdef-left",
       "value": "<length> | <percentage> | auto | inherit",
       "initial": "auto",
       "appliesTo": "positioned elements",
       "inherited": "no",
       "percentages": "refer to width of containing block",
       "media": "visual",
-      "computed value": "if specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, 'auto'.",
+      "computedValue": "if specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, 'auto'.",
       "styleDeclaration": [
         "left"
       ]
     },
     {
       "name": "float",
-      "href": "https://www.w3.org/TR/CSS22/visuren.html#propdef-float",
+      "href": "https://www.w3.org/TR/CSS2/visuren.html#propdef-float",
       "value": "left | right | none | inherit",
       "initial": "none",
       "appliesTo": "all, but see 9.7",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "float"
       ]
     },
     {
       "name": "clear",
-      "href": "https://www.w3.org/TR/CSS22/visuren.html#propdef-clear",
+      "href": "https://www.w3.org/TR/CSS2/visuren.html#propdef-clear",
       "value": "none | left | right | both | inherit",
       "initial": "none",
       "appliesTo": "block-level elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "clear"
       ]
     },
     {
       "name": "z-index",
-      "href": "https://www.w3.org/TR/CSS22/visuren.html#propdef-z-index",
+      "href": "https://www.w3.org/TR/CSS2/visuren.html#propdef-z-index",
       "value": "auto | <integer> | inherit",
       "initial": "auto",
       "appliesTo": "positioned elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "z-index",
         "zIndex"
@@ -580,28 +580,28 @@
     },
     {
       "name": "direction",
-      "href": "https://www.w3.org/TR/CSS22/visuren.html#propdef-direction",
+      "href": "https://www.w3.org/TR/CSS2/visuren.html#propdef-direction",
       "value": "ltr | rtl | inherit",
       "initial": "ltr",
       "appliesTo": "all elements, but see prose",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "direction"
       ]
     },
     {
       "name": "unicode-bidi",
-      "href": "https://www.w3.org/TR/CSS22/visuren.html#propdef-unicode-bidi",
+      "href": "https://www.w3.org/TR/CSS2/visuren.html#propdef-unicode-bidi",
       "value": "normal | embed | bidi-override | inherit",
       "initial": "normal",
       "appliesTo": "all elements, but see prose",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "unicode-bidi",
         "unicodeBidi"
@@ -609,28 +609,28 @@
     },
     {
       "name": "width",
-      "href": "https://www.w3.org/TR/CSS22/visudet.html#propdef-width",
+      "href": "https://www.w3.org/TR/CSS2/visudet.html#propdef-width",
       "value": "<length> | <percentage> | auto | inherit",
       "initial": "auto",
       "appliesTo": "all elements but non-replaced inline elements, table rows, and row groups",
       "inherited": "no",
       "percentages": "refer to width of containing block",
       "media": "visual",
-      "computed value": "the percentage or 'auto' as specified or the absolute length",
+      "computedValue": "the percentage or 'auto' as specified or the absolute length",
       "styleDeclaration": [
         "width"
       ]
     },
     {
       "name": "min-width",
-      "href": "https://www.w3.org/TR/CSS22/visudet.html#propdef-min-width",
+      "href": "https://www.w3.org/TR/CSS2/visudet.html#propdef-min-width",
       "value": "<length> | <percentage> | inherit",
       "initial": "0",
       "appliesTo": "all elements but non-replaced inline elements, table rows, and row groups",
       "inherited": "no",
       "percentages": "refer to width of containing block",
       "media": "visual",
-      "computed value": "the percentage as specified or the absolute length",
+      "computedValue": "the percentage as specified or the absolute length",
       "styleDeclaration": [
         "min-width",
         "minWidth"
@@ -638,14 +638,14 @@
     },
     {
       "name": "max-width",
-      "href": "https://www.w3.org/TR/CSS22/visudet.html#propdef-max-width",
+      "href": "https://www.w3.org/TR/CSS2/visudet.html#propdef-max-width",
       "value": "<length> | <percentage> | none | inherit",
       "initial": "none",
       "appliesTo": "all elements but non-replaced inline elements, table rows, and row groups",
       "inherited": "no",
       "percentages": "refer to width of containing block",
       "media": "visual",
-      "computed value": "the percentage as specified or the absolute length or 'none'",
+      "computedValue": "the percentage as specified or the absolute length or 'none'",
       "styleDeclaration": [
         "max-width",
         "maxWidth"
@@ -653,28 +653,28 @@
     },
     {
       "name": "height",
-      "href": "https://www.w3.org/TR/CSS22/visudet.html#propdef-height",
+      "href": "https://www.w3.org/TR/CSS2/visudet.html#propdef-height",
       "value": "<length> | <percentage> | auto | inherit",
       "initial": "auto",
       "appliesTo": "all elements but non-replaced inline elements, table columns, and column groups",
       "inherited": "no",
       "percentages": "see prose",
       "media": "visual",
-      "computed value": "the percentage or 'auto' (as specified) or the absolute length",
+      "computedValue": "the percentage or 'auto' (see prose under <percentage>) or the absolute length",
       "styleDeclaration": [
         "height"
       ]
     },
     {
       "name": "min-height",
-      "href": "https://www.w3.org/TR/CSS22/visudet.html#propdef-min-height",
+      "href": "https://www.w3.org/TR/CSS2/visudet.html#propdef-min-height",
       "value": "<length> | <percentage> | inherit",
       "initial": "0",
       "appliesTo": "all elements but non-replaced inline elements, table columns, and column groups",
       "inherited": "no",
       "percentages": "see prose",
       "media": "visual",
-      "computed value": "the percentage as specified or the absolute length",
+      "computedValue": "the percentage as specified or the absolute length",
       "styleDeclaration": [
         "min-height",
         "minHeight"
@@ -682,14 +682,14 @@
     },
     {
       "name": "max-height",
-      "href": "https://www.w3.org/TR/CSS22/visudet.html#propdef-max-height",
+      "href": "https://www.w3.org/TR/CSS2/visudet.html#propdef-max-height",
       "value": "<length> | <percentage> | none | inherit",
       "initial": "none",
       "appliesTo": "all elements but non-replaced inline elements, table columns, and column groups",
       "inherited": "no",
       "percentages": "see prose",
       "media": "visual",
-      "computed value": "the percentage as specified or the absolute length or 'none'",
+      "computedValue": "the percentage as specified or the absolute length or 'none'",
       "styleDeclaration": [
         "max-height",
         "maxHeight"
@@ -697,14 +697,14 @@
     },
     {
       "name": "line-height",
-      "href": "https://www.w3.org/TR/CSS22/visudet.html#propdef-line-height",
+      "href": "https://www.w3.org/TR/CSS2/visudet.html#propdef-line-height",
       "value": "normal | <number> | <length> | <percentage> | inherit",
       "initial": "normal",
       "appliesTo": "all elements",
       "inherited": "yes",
       "percentages": "refer to the font size of the element itself",
       "media": "visual",
-      "computed value": "for <length> and <percentage> the absolute value; otherwise as specified",
+      "computedValue": "for <length> and <percentage> the absolute value; otherwise as specified",
       "styleDeclaration": [
         "line-height",
         "lineHeight"
@@ -712,14 +712,14 @@
     },
     {
       "name": "vertical-align",
-      "href": "https://www.w3.org/TR/CSS22/visudet.html#propdef-vertical-align",
+      "href": "https://www.w3.org/TR/CSS2/visudet.html#propdef-vertical-align",
       "value": "baseline | sub | super | top | text-top | middle | bottom | text-bottom | <percentage> | <length> | inherit",
       "initial": "baseline",
       "appliesTo": "inline-level and 'table-cell' elements",
       "inherited": "no",
       "percentages": "refer to the 'line-height' of the element itself",
       "media": "visual",
-      "computed value": "for <percentage> and <length> the absolute length, otherwise as specified",
+      "computedValue": "for <percentage> and <length> the absolute length, otherwise as specified",
       "styleDeclaration": [
         "vertical-align",
         "verticalAlign"
@@ -727,84 +727,84 @@
     },
     {
       "name": "overflow",
-      "href": "https://www.w3.org/TR/CSS22/visufx.html#propdef-overflow",
+      "href": "https://www.w3.org/TR/CSS2/visufx.html#propdef-overflow",
       "value": "visible | hidden | scroll | auto | inherit",
       "initial": "visible",
-      "appliesTo": "block containers and boxes that establish a formatting context",
+      "appliesTo": "block containers",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "overflow"
       ]
     },
     {
       "name": "clip",
-      "href": "https://www.w3.org/TR/CSS22/visufx.html#propdef-clip",
+      "href": "https://www.w3.org/TR/CSS2/visufx.html#propdef-clip",
       "value": "<shape> | auto | inherit",
       "initial": "auto",
       "appliesTo": "absolutely positioned elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "'auto' if specified as 'auto', otherwise a rectangle with four values, each of which is 'auto' if specified as 'auto' and the computed length otherwise",
+      "computedValue": "'auto' if specified as 'auto', otherwise a rectangle with four values, each of which is 'auto' if specified as 'auto' and the computed length otherwise",
       "styleDeclaration": [
         "clip"
       ]
     },
     {
       "name": "visibility",
-      "href": "https://www.w3.org/TR/CSS22/visufx.html#propdef-visibility",
+      "href": "https://www.w3.org/TR/CSS2/visufx.html#propdef-visibility",
       "value": "visible | hidden | collapse | inherit",
       "initial": "visible",
       "appliesTo": "all elements",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "visibility"
       ]
     },
     {
       "name": "content",
-      "href": "https://www.w3.org/TR/CSS22/generate.html#propdef-content",
+      "href": "https://www.w3.org/TR/CSS2/generate.html#propdef-content",
       "value": "normal | none | [ <string> | <uri> | <counter> | attr(<identifier>) | open-quote | close-quote | no-open-quote | no-close-quote ]+ | inherit",
       "initial": "normal",
       "appliesTo": ":before and :after pseudo-elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "all",
-      "computed value": "On elements, always computes to 'normal'. On :before and :after, if 'normal' is specified, computes to 'none'. Otherwise, for URI values, the absolute URI; for attr() values, the resulting string; for other keywords, as specified.",
+      "computedValue": "On elements, always computes to 'normal'. On :before and :after, if 'normal' is specified, computes to 'none'. Otherwise, for URI values, the absolute URI; for attr() values, the resulting string; for other keywords, as specified.",
       "styleDeclaration": [
         "content"
       ]
     },
     {
       "name": "quotes",
-      "href": "https://www.w3.org/TR/CSS22/generate.html#propdef-quotes",
+      "href": "https://www.w3.org/TR/CSS2/generate.html#propdef-quotes",
       "value": "[<string> <string>]+ | none | inherit",
       "initial": "depends on user agent",
       "appliesTo": "all elements",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "quotes"
       ]
     },
     {
       "name": "counter-reset",
-      "href": "https://www.w3.org/TR/CSS22/generate.html#propdef-counter-reset",
+      "href": "https://www.w3.org/TR/CSS2/generate.html#propdef-counter-reset",
       "value": "[ <identifier> <integer>? ]+ | none | inherit",
       "initial": "none",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "all",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "counter-reset",
         "counterReset"
@@ -812,14 +812,14 @@
     },
     {
       "name": "counter-increment",
-      "href": "https://www.w3.org/TR/CSS22/generate.html#propdef-counter-increment",
+      "href": "https://www.w3.org/TR/CSS2/generate.html#propdef-counter-increment",
       "value": "[ <identifier> <integer>? ]+ | none | inherit",
       "initial": "none",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "all",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "counter-increment",
         "counterIncrement"
@@ -827,14 +827,14 @@
     },
     {
       "name": "list-style-type",
-      "href": "https://www.w3.org/TR/CSS22/generate.html#propdef-list-style-type",
+      "href": "https://www.w3.org/TR/CSS2/generate.html#propdef-list-style-type",
       "value": "disc | circle | square | decimal | decimal-leading-zero | lower-roman | upper-roman | lower-greek | lower-latin | upper-latin | armenian | georgian | lower-alpha | upper-alpha | none | inherit",
       "initial": "disc",
       "appliesTo": "elements with 'display: list-item'",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "list-style-type",
         "listStyleType"
@@ -842,14 +842,14 @@
     },
     {
       "name": "list-style-image",
-      "href": "https://www.w3.org/TR/CSS22/generate.html#propdef-list-style-image",
+      "href": "https://www.w3.org/TR/CSS2/generate.html#propdef-list-style-image",
       "value": "<uri> | none | inherit",
       "initial": "none",
       "appliesTo": "elements with 'display: list-item'",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "absolute URI or 'none'",
+      "computedValue": "absolute URI or 'none'",
       "styleDeclaration": [
         "list-style-image",
         "listStyleImage"
@@ -857,14 +857,14 @@
     },
     {
       "name": "list-style-position",
-      "href": "https://www.w3.org/TR/CSS22/generate.html#propdef-list-style-position",
+      "href": "https://www.w3.org/TR/CSS2/generate.html#propdef-list-style-position",
       "value": "inside | outside | inherit",
       "initial": "outside",
       "appliesTo": "elements with 'display: list-item'",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "list-style-position",
         "listStylePosition"
@@ -872,14 +872,14 @@
     },
     {
       "name": "list-style",
-      "href": "https://www.w3.org/TR/CSS22/generate.html#propdef-list-style",
+      "href": "https://www.w3.org/TR/CSS2/generate.html#propdef-list-style",
       "value": "[ <'list-style-type'> || <'list-style-position'> || <'list-style-image'> ] | inherit",
       "initial": "see individual properties",
       "appliesTo": "elements with 'display: list-item'",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "see individual properties",
+      "computedValue": "see individual properties",
       "styleDeclaration": [
         "list-style",
         "listStyle"
@@ -887,14 +887,14 @@
     },
     {
       "name": "page-break-before",
-      "href": "https://www.w3.org/TR/CSS22/page.html#propdef-page-break-before",
+      "href": "https://www.w3.org/TR/CSS2/page.html#propdef-page-break-before",
       "value": "auto | always | avoid | left | right | inherit",
       "initial": "auto",
       "appliesTo": "block-level elements (but see text)",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual, paged",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "page-break-before",
         "pageBreakBefore"
@@ -902,14 +902,14 @@
     },
     {
       "name": "page-break-after",
-      "href": "https://www.w3.org/TR/CSS22/page.html#propdef-page-break-after",
+      "href": "https://www.w3.org/TR/CSS2/page.html#propdef-page-break-after",
       "value": "auto | always | avoid | left | right | inherit",
       "initial": "auto",
       "appliesTo": "block-level elements (but see text)",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual, paged",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "page-break-after",
         "pageBreakAfter"
@@ -917,14 +917,14 @@
     },
     {
       "name": "page-break-inside",
-      "href": "https://www.w3.org/TR/CSS22/page.html#propdef-page-break-inside",
+      "href": "https://www.w3.org/TR/CSS2/page.html#propdef-page-break-inside",
       "value": "avoid | auto | inherit",
       "initial": "auto",
       "appliesTo": "block-level elements (but see text)",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual, paged",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "page-break-inside",
         "pageBreakInside"
@@ -932,56 +932,56 @@
     },
     {
       "name": "orphans",
-      "href": "https://www.w3.org/TR/CSS22/page.html#propdef-orphans",
+      "href": "https://www.w3.org/TR/CSS2/page.html#propdef-orphans",
       "value": "<integer> | inherit",
       "initial": "2",
       "appliesTo": "block container elements",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "visual, paged",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "orphans"
       ]
     },
     {
       "name": "widows",
-      "href": "https://www.w3.org/TR/CSS22/page.html#propdef-widows",
+      "href": "https://www.w3.org/TR/CSS2/page.html#propdef-widows",
       "value": "<integer> | inherit",
       "initial": "2",
       "appliesTo": "block container elements",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "visual, paged",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "widows"
       ]
     },
     {
       "name": "color",
-      "href": "https://www.w3.org/TR/CSS22/colors.html#propdef-color",
+      "href": "https://www.w3.org/TR/CSS2/colors.html#propdef-color",
       "value": "<color> | inherit",
       "initial": "depends on user agent",
       "appliesTo": "all elements",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "color"
       ]
     },
     {
       "name": "background-color",
-      "href": "https://www.w3.org/TR/CSS22/colors.html#propdef-background-color",
+      "href": "https://www.w3.org/TR/CSS2/colors.html#propdef-background-color",
       "value": "<color> | transparent | inherit",
       "initial": "transparent",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "background-color",
         "backgroundColor"
@@ -989,14 +989,14 @@
     },
     {
       "name": "background-image",
-      "href": "https://www.w3.org/TR/CSS22/colors.html#propdef-background-image",
+      "href": "https://www.w3.org/TR/CSS2/colors.html#propdef-background-image",
       "value": "<uri> | none | inherit",
       "initial": "none",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "absolute URI or none",
+      "computedValue": "absolute URI or none",
       "styleDeclaration": [
         "background-image",
         "backgroundImage"
@@ -1004,14 +1004,14 @@
     },
     {
       "name": "background-repeat",
-      "href": "https://www.w3.org/TR/CSS22/colors.html#propdef-background-repeat",
+      "href": "https://www.w3.org/TR/CSS2/colors.html#propdef-background-repeat",
       "value": "repeat | repeat-x | repeat-y | no-repeat | inherit",
       "initial": "repeat",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "background-repeat",
         "backgroundRepeat"
@@ -1019,14 +1019,14 @@
     },
     {
       "name": "background-attachment",
-      "href": "https://www.w3.org/TR/CSS22/colors.html#propdef-background-attachment",
+      "href": "https://www.w3.org/TR/CSS2/colors.html#propdef-background-attachment",
       "value": "scroll | fixed | inherit",
       "initial": "scroll",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "background-attachment",
         "backgroundAttachment"
@@ -1034,14 +1034,14 @@
     },
     {
       "name": "background-position",
-      "href": "https://www.w3.org/TR/CSS22/colors.html#propdef-background-position",
+      "href": "https://www.w3.org/TR/CSS2/colors.html#propdef-background-position",
       "value": "[ [ <percentage> | <length> | left | center | right ] [ <percentage> | <length> | top | center | bottom ]? ] | [ [ left | center | right ] || [ top | center | bottom ] ] | inherit",
       "initial": "0% 0%",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "refer to the size of the box itself",
       "media": "visual",
-      "computed value": "for <length> the absolute value, otherwise a percentage",
+      "computedValue": "for <length> the absolute value, otherwise a percentage",
       "styleDeclaration": [
         "background-position",
         "backgroundPosition"
@@ -1049,28 +1049,28 @@
     },
     {
       "name": "background",
-      "href": "https://www.w3.org/TR/CSS22/colors.html#propdef-background",
+      "href": "https://www.w3.org/TR/CSS2/colors.html#propdef-background",
       "value": "[<'background-color'> || <'background-image'> || <'background-repeat'> || <'background-attachment'> || <'background-position'>] | inherit",
       "initial": "see individual properties",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "allowed on 'background-position'",
       "media": "visual",
-      "computed value": "see individual properties",
+      "computedValue": "see individual properties",
       "styleDeclaration": [
         "background"
       ]
     },
     {
       "name": "font-family",
-      "href": "https://www.w3.org/TR/CSS22/fonts.html#propdef-font-family",
-      "value": "[[ <family-name> | <generic-family> ] [, [ <family-name>| <generic-family>] ]* ] | inherit",
+      "href": "https://www.w3.org/TR/CSS2/fonts.html#propdef-font-family",
+      "value": "[[ <family-name> | <generic-family> ] [, <family-name>| <generic-family>]* ] | inherit",
       "initial": "depends on user agent",
       "appliesTo": "all elements",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "font-family",
         "fontFamily"
@@ -1078,14 +1078,14 @@
     },
     {
       "name": "font-style",
-      "href": "https://www.w3.org/TR/CSS22/fonts.html#propdef-font-style",
+      "href": "https://www.w3.org/TR/CSS2/fonts.html#propdef-font-style",
       "value": "normal | italic | oblique | inherit",
       "initial": "normal",
       "appliesTo": "all elements",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "font-style",
         "fontStyle"
@@ -1093,14 +1093,14 @@
     },
     {
       "name": "font-variant",
-      "href": "https://www.w3.org/TR/CSS22/fonts.html#propdef-font-variant",
+      "href": "https://www.w3.org/TR/CSS2/fonts.html#propdef-font-variant",
       "value": "normal | small-caps | inherit",
       "initial": "normal",
       "appliesTo": "all elements",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "font-variant",
         "fontVariant"
@@ -1108,14 +1108,14 @@
     },
     {
       "name": "font-weight",
-      "href": "https://www.w3.org/TR/CSS22/fonts.html#propdef-font-weight",
+      "href": "https://www.w3.org/TR/CSS2/fonts.html#propdef-font-weight",
       "value": "normal | bold | bolder | lighter | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 | inherit",
       "initial": "normal",
       "appliesTo": "all elements",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "see text",
+      "computedValue": "see text",
       "styleDeclaration": [
         "font-weight",
         "fontWeight"
@@ -1123,14 +1123,14 @@
     },
     {
       "name": "font-size",
-      "href": "https://www.w3.org/TR/CSS22/fonts.html#propdef-font-size",
+      "href": "https://www.w3.org/TR/CSS2/fonts.html#propdef-font-size",
       "value": "<absolute-size> | <relative-size> | <length> | <percentage> | inherit",
       "initial": "medium",
       "appliesTo": "all elements",
       "inherited": "yes",
       "percentages": "refer to inherited font size",
       "media": "visual",
-      "computed value": "absolute length",
+      "computedValue": "absolute length",
       "styleDeclaration": [
         "font-size",
         "fontSize"
@@ -1138,28 +1138,28 @@
     },
     {
       "name": "font",
-      "href": "https://www.w3.org/TR/CSS22/fonts.html#propdef-font",
+      "href": "https://www.w3.org/TR/CSS2/fonts.html#propdef-font",
       "value": "[ [ <'font-style'> || <'font-variant'> || <'font-weight'> ]? <'font-size'> [ / <'line-height'> ]? <'font-family'> ] | caption | icon | menu | message-box | small-caption | status-bar | inherit",
       "initial": "see individual properties",
       "appliesTo": "all elements",
       "inherited": "yes",
       "percentages": "see individual properties",
       "media": "visual",
-      "computed value": "see individual properties",
+      "computedValue": "see individual properties",
       "styleDeclaration": [
         "font"
       ]
     },
     {
       "name": "text-indent",
-      "href": "https://www.w3.org/TR/CSS22/text.html#propdef-text-indent",
+      "href": "https://www.w3.org/TR/CSS2/text.html#propdef-text-indent",
       "value": "<length> | <percentage> | inherit",
       "initial": "0",
       "appliesTo": "block containers",
       "inherited": "yes",
       "percentages": "refer to width of containing block",
       "media": "visual",
-      "computed value": "the percentage as specified or the absolute length",
+      "computedValue": "the percentage as specified or the absolute length",
       "styleDeclaration": [
         "text-indent",
         "textIndent"
@@ -1167,14 +1167,14 @@
     },
     {
       "name": "text-align",
-      "href": "https://www.w3.org/TR/CSS22/text.html#propdef-text-align",
+      "href": "https://www.w3.org/TR/CSS2/text.html#propdef-text-align",
       "value": "left | right | center | justify | inherit",
       "initial": "a nameless value that acts as 'left' if 'direction' is 'ltr', 'right' if 'direction' is 'rtl'",
       "appliesTo": "block containers",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "the initial value or as specified",
+      "computedValue": "the initial value or as specified",
       "styleDeclaration": [
         "text-align",
         "textAlign"
@@ -1182,14 +1182,14 @@
     },
     {
       "name": "text-decoration",
-      "href": "https://www.w3.org/TR/CSS22/text.html#propdef-text-decoration",
+      "href": "https://www.w3.org/TR/CSS2/text.html#propdef-text-decoration",
       "value": "none | [ underline || overline || line-through || blink ] | inherit",
       "initial": "none",
       "appliesTo": "all elements",
       "inherited": "no (see prose)",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "text-decoration",
         "textDecoration"
@@ -1197,14 +1197,14 @@
     },
     {
       "name": "letter-spacing",
-      "href": "https://www.w3.org/TR/CSS22/text.html#propdef-letter-spacing",
+      "href": "https://www.w3.org/TR/CSS2/text.html#propdef-letter-spacing",
       "value": "normal | <length> | inherit",
       "initial": "normal",
       "appliesTo": "all elements",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "'normal' or absolute length",
+      "computedValue": "'normal' or absolute length",
       "styleDeclaration": [
         "letter-spacing",
         "letterSpacing"
@@ -1212,14 +1212,14 @@
     },
     {
       "name": "word-spacing",
-      "href": "https://www.w3.org/TR/CSS22/text.html#propdef-word-spacing",
+      "href": "https://www.w3.org/TR/CSS2/text.html#propdef-word-spacing",
       "value": "normal | <length> | inherit",
       "initial": "normal",
       "appliesTo": "all elements",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "for 'normal' the value '0'; otherwise the absolute length",
+      "computedValue": "for 'normal' the value '0'; otherwise the absolute length",
       "styleDeclaration": [
         "word-spacing",
         "wordSpacing"
@@ -1227,14 +1227,14 @@
     },
     {
       "name": "text-transform",
-      "href": "https://www.w3.org/TR/CSS22/text.html#propdef-text-transform",
+      "href": "https://www.w3.org/TR/CSS2/text.html#propdef-text-transform",
       "value": "capitalize | uppercase | lowercase | none | inherit",
       "initial": "none",
       "appliesTo": "all elements",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "text-transform",
         "textTransform"
@@ -1242,14 +1242,14 @@
     },
     {
       "name": "white-space",
-      "href": "https://www.w3.org/TR/CSS22/text.html#propdef-white-space",
+      "href": "https://www.w3.org/TR/CSS2/text.html#propdef-white-space",
       "value": "normal | pre | nowrap | pre-wrap | pre-line | inherit",
       "initial": "normal",
       "appliesTo": "all elements",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "white-space",
         "whiteSpace"
@@ -1257,14 +1257,14 @@
     },
     {
       "name": "caption-side",
-      "href": "https://www.w3.org/TR/CSS22/tables.html#propdef-caption-side",
+      "href": "https://www.w3.org/TR/CSS2/tables.html#propdef-caption-side",
       "value": "top | bottom | inherit",
       "initial": "top",
       "appliesTo": "'table-caption' elements",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "caption-side",
         "captionSide"
@@ -1272,14 +1272,14 @@
     },
     {
       "name": "table-layout",
-      "href": "https://www.w3.org/TR/CSS22/tables.html#propdef-table-layout",
+      "href": "https://www.w3.org/TR/CSS2/tables.html#propdef-table-layout",
       "value": "auto | fixed | inherit",
       "initial": "auto",
       "appliesTo": "'table' and 'inline-table' elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "table-layout",
         "tableLayout"
@@ -1287,14 +1287,14 @@
     },
     {
       "name": "border-collapse",
-      "href": "https://www.w3.org/TR/CSS22/tables.html#propdef-border-collapse",
+      "href": "https://www.w3.org/TR/CSS2/tables.html#propdef-border-collapse",
       "value": "collapse | separate | inherit",
       "initial": "separate",
       "appliesTo": "'table' and 'inline-table' elements",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "border-collapse",
         "borderCollapse"
@@ -1302,14 +1302,14 @@
     },
     {
       "name": "border-spacing",
-      "href": "https://www.w3.org/TR/CSS22/tables.html#propdef-border-spacing",
+      "href": "https://www.w3.org/TR/CSS2/tables.html#propdef-border-spacing",
       "value": "<length> <length>? | inherit",
       "initial": "0",
       "appliesTo": "'table' and 'inline-table' elements*",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "two absolute lengths",
+      "computedValue": "two absolute lengths",
       "styleDeclaration": [
         "border-spacing",
         "borderSpacing"
@@ -1317,14 +1317,14 @@
     },
     {
       "name": "empty-cells",
-      "href": "https://www.w3.org/TR/CSS22/tables.html#propdef-empty-cells",
+      "href": "https://www.w3.org/TR/CSS2/tables.html#propdef-empty-cells",
       "value": "show | hide | inherit",
       "initial": "show",
       "appliesTo": "'table-cell' elements",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "visual",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "empty-cells",
         "emptyCells"
@@ -1332,42 +1332,42 @@
     },
     {
       "name": "cursor",
-      "href": "https://www.w3.org/TR/CSS22/ui.html#propdef-cursor",
+      "href": "https://www.w3.org/TR/CSS2/ui.html#propdef-cursor",
       "value": "[ [<uri> ,]* [ auto | crosshair | default | pointer | move | e-resize | ne-resize | nw-resize | n-resize | se-resize | sw-resize | s-resize | w-resize | text | wait | help | progress ] ] | inherit",
       "initial": "auto",
       "appliesTo": "all elements",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "visual, interactive",
-      "computed value": "as specified, except with any relative URLs converted to absolute",
+      "computedValue": "as specified, except with any relative URLs converted to absolute",
       "styleDeclaration": [
         "cursor"
       ]
     },
     {
       "name": "outline",
-      "href": "https://www.w3.org/TR/CSS22/ui.html#propdef-outline",
+      "href": "https://www.w3.org/TR/CSS2/ui.html#propdef-outline",
       "value": "[ <'outline-color'> || <'outline-style'> || <'outline-width'> ] | inherit",
       "initial": "see individual properties",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual, interactive",
-      "computed value": "see individual properties",
+      "computedValue": "see individual properties",
       "styleDeclaration": [
         "outline"
       ]
     },
     {
       "name": "outline-width",
-      "href": "https://www.w3.org/TR/CSS22/ui.html#propdef-outline-width",
+      "href": "https://www.w3.org/TR/CSS2/ui.html#propdef-outline-width",
       "value": "<border-width> | inherit",
       "initial": "medium",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual, interactive",
-      "computed value": "absolute length; '0' if the outline style is 'none'",
+      "computedValue": "absolute length; '0' if the outline style is 'none'",
       "styleDeclaration": [
         "outline-width",
         "outlineWidth"
@@ -1375,14 +1375,14 @@
     },
     {
       "name": "outline-style",
-      "href": "https://www.w3.org/TR/CSS22/ui.html#propdef-outline-style",
+      "href": "https://www.w3.org/TR/CSS2/ui.html#propdef-outline-style",
       "value": "<border-style> | inherit",
       "initial": "none",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual, interactive",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "outline-style",
         "outlineStyle"
@@ -1390,14 +1390,14 @@
     },
     {
       "name": "outline-color",
-      "href": "https://www.w3.org/TR/CSS22/ui.html#propdef-outline-color",
+      "href": "https://www.w3.org/TR/CSS2/ui.html#propdef-outline-color",
       "value": "<color> | invert | inherit",
       "initial": "invert",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "visual, interactive",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "outline-color",
         "outlineColor"
@@ -1405,42 +1405,42 @@
     },
     {
       "name": "volume",
-      "href": "https://www.w3.org/TR/CSS22/aural.html#propdef-volume",
+      "href": "https://www.w3.org/TR/CSS2/aural.html#propdef-volume",
       "value": "<number> | <percentage> | silent | x-soft | soft | medium | loud | x-loud | inherit",
       "initial": "medium",
       "appliesTo": "all elements",
       "inherited": "yes",
       "percentages": "refer to inherited value",
       "media": "aural",
-      "computed value": "number",
+      "computedValue": "number",
       "styleDeclaration": [
         "volume"
       ]
     },
     {
       "name": "speak",
-      "href": "https://www.w3.org/TR/CSS22/aural.html#propdef-speak",
+      "href": "https://www.w3.org/TR/CSS2/aural.html#propdef-speak",
       "value": "normal | none | spell-out | inherit",
       "initial": "normal",
       "appliesTo": "all elements",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "aural",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "speak"
       ]
     },
     {
       "name": "pause-before",
-      "href": "https://www.w3.org/TR/CSS22/aural.html#propdef-pause-before",
+      "href": "https://www.w3.org/TR/CSS2/aural.html#propdef-pause-before",
       "value": "<time> | <percentage> | inherit",
       "initial": "0",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "see prose",
       "media": "aural",
-      "computed value": "time",
+      "computedValue": "time",
       "styleDeclaration": [
         "pause-before",
         "pauseBefore"
@@ -1448,14 +1448,14 @@
     },
     {
       "name": "pause-after",
-      "href": "https://www.w3.org/TR/CSS22/aural.html#propdef-pause-after",
+      "href": "https://www.w3.org/TR/CSS2/aural.html#propdef-pause-after",
       "value": "<time> | <percentage> | inherit",
       "initial": "0",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "see prose",
       "media": "aural",
-      "computed value": "time;;",
+      "computedValue": "time;;",
       "styleDeclaration": [
         "pause-after",
         "pauseAfter"
@@ -1463,28 +1463,28 @@
     },
     {
       "name": "pause",
-      "href": "https://www.w3.org/TR/CSS22/aural.html#propdef-pause",
+      "href": "https://www.w3.org/TR/CSS2/aural.html#propdef-pause",
       "value": "[ [<time> | <percentage>]{1,2} ] | inherit",
       "initial": "see individual properties",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "see descriptions of 'pause-before' and 'pause-after'",
       "media": "aural",
-      "computed value": "see individual properties",
+      "computedValue": "see individual properties",
       "styleDeclaration": [
         "pause"
       ]
     },
     {
       "name": "cue-before",
-      "href": "https://www.w3.org/TR/CSS22/aural.html#propdef-cue-before",
+      "href": "https://www.w3.org/TR/CSS2/aural.html#propdef-cue-before",
       "value": "<uri> | none | inherit",
       "initial": "none",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "aural",
-      "computed value": "absolute URI or 'none'",
+      "computedValue": "absolute URI or 'none'",
       "styleDeclaration": [
         "cue-before",
         "cueBefore"
@@ -1492,14 +1492,14 @@
     },
     {
       "name": "cue-after",
-      "href": "https://www.w3.org/TR/CSS22/aural.html#propdef-cue-after",
+      "href": "https://www.w3.org/TR/CSS2/aural.html#propdef-cue-after",
       "value": "<uri> | none | inherit",
       "initial": "none",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "aural",
-      "computed value": "absolute URI or 'none'",
+      "computedValue": "absolute URI or 'none'",
       "styleDeclaration": [
         "cue-after",
         "cueAfter"
@@ -1507,28 +1507,28 @@
     },
     {
       "name": "cue",
-      "href": "https://www.w3.org/TR/CSS22/aural.html#propdef-cue",
+      "href": "https://www.w3.org/TR/CSS2/aural.html#propdef-cue",
       "value": "[ <'cue-before'> || <'cue-after'> ] | inherit",
       "initial": "see individual properties",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "aural",
-      "computed value": "see individual properties",
+      "computedValue": "see individual properties",
       "styleDeclaration": [
         "cue"
       ]
     },
     {
       "name": "play-during",
-      "href": "https://www.w3.org/TR/CSS22/aural.html#propdef-play-during",
+      "href": "https://www.w3.org/TR/CSS2/aural.html#propdef-play-during",
       "value": "<uri> [ mix || repeat ]? | auto | none | inherit",
       "initial": "auto",
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "N/A",
       "media": "aural",
-      "computed value": "absolute URI, rest as specified",
+      "computedValue": "absolute URI, rest as specified",
       "styleDeclaration": [
         "play-during",
         "playDuring"
@@ -1536,42 +1536,42 @@
     },
     {
       "name": "azimuth",
-      "href": "https://www.w3.org/TR/CSS22/aural.html#propdef-azimuth",
+      "href": "https://www.w3.org/TR/CSS2/aural.html#propdef-azimuth",
       "value": "<angle> | [[ left-side | far-left | left | center-left | center | center-right | right | far-right | right-side ] || behind ] | leftwards | rightwards | inherit",
       "initial": "center",
       "appliesTo": "all elements",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "aural",
-      "computed value": "normalized angle",
+      "computedValue": "normalized angle",
       "styleDeclaration": [
         "azimuth"
       ]
     },
     {
       "name": "elevation",
-      "href": "https://www.w3.org/TR/CSS22/aural.html#propdef-elevation",
+      "href": "https://www.w3.org/TR/CSS2/aural.html#propdef-elevation",
       "value": "<angle> | below | level | above | higher | lower | inherit",
       "initial": "level",
       "appliesTo": "all elements",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "aural",
-      "computed value": "normalized angle",
+      "computedValue": "normalized angle",
       "styleDeclaration": [
         "elevation"
       ]
     },
     {
       "name": "speech-rate",
-      "href": "https://www.w3.org/TR/CSS22/aural.html#propdef-speech-rate",
+      "href": "https://www.w3.org/TR/CSS2/aural.html#propdef-speech-rate",
       "value": "<number> | x-slow | slow | medium | fast | x-fast | faster | slower | inherit",
       "initial": "medium",
       "appliesTo": "all elements",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "aural",
-      "computed value": "number",
+      "computedValue": "number",
       "styleDeclaration": [
         "speech-rate",
         "speechRate"
@@ -1579,14 +1579,14 @@
     },
     {
       "name": "voice-family",
-      "href": "https://www.w3.org/TR/CSS22/aural.html#propdef-voice-family",
+      "href": "https://www.w3.org/TR/CSS2/aural.html#propdef-voice-family",
       "value": "[[<specific-voice> | <generic-voice> ],]* [<specific-voice> | <generic-voice> ] | inherit",
       "initial": "depends on user agent",
       "appliesTo": "all elements",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "aural",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "voice-family",
         "voiceFamily"
@@ -1594,28 +1594,28 @@
     },
     {
       "name": "pitch",
-      "href": "https://www.w3.org/TR/CSS22/aural.html#propdef-pitch",
+      "href": "https://www.w3.org/TR/CSS2/aural.html#propdef-pitch",
       "value": "<frequency> | x-low | low | medium | high | x-high | inherit",
       "initial": "medium",
       "appliesTo": "all elements",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "aural",
-      "computed value": "frequency",
+      "computedValue": "frequency",
       "styleDeclaration": [
         "pitch"
       ]
     },
     {
       "name": "pitch-range",
-      "href": "https://www.w3.org/TR/CSS22/aural.html#propdef-pitch-range",
+      "href": "https://www.w3.org/TR/CSS2/aural.html#propdef-pitch-range",
       "value": "<number> | inherit",
       "initial": "50",
       "appliesTo": "all elements",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "aural",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "pitch-range",
         "pitchRange"
@@ -1623,42 +1623,42 @@
     },
     {
       "name": "stress",
-      "href": "https://www.w3.org/TR/CSS22/aural.html#propdef-stress",
+      "href": "https://www.w3.org/TR/CSS2/aural.html#propdef-stress",
       "value": "<number> | inherit",
       "initial": "50",
       "appliesTo": "all elements",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "aural",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "stress"
       ]
     },
     {
       "name": "richness",
-      "href": "https://www.w3.org/TR/CSS22/aural.html#propdef-richness",
+      "href": "https://www.w3.org/TR/CSS2/aural.html#propdef-richness",
       "value": "<number> | inherit",
       "initial": "50",
       "appliesTo": "all elements",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "aural",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "richness"
       ]
     },
     {
       "name": "speak-punctuation",
-      "href": "https://www.w3.org/TR/CSS22/aural.html#propdef-speak-punctuation",
+      "href": "https://www.w3.org/TR/CSS2/aural.html#propdef-speak-punctuation",
       "value": "code | none | inherit",
       "initial": "none",
       "appliesTo": "all elements",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "aural",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "speak-punctuation",
         "speakPunctuation"
@@ -1666,14 +1666,14 @@
     },
     {
       "name": "speak-numeral",
-      "href": "https://www.w3.org/TR/CSS22/aural.html#propdef-speak-numeral",
+      "href": "https://www.w3.org/TR/CSS2/aural.html#propdef-speak-numeral",
       "value": "digits | continuous | inherit",
       "initial": "continuous",
       "appliesTo": "all elements",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "aural",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "speak-numeral",
         "speakNumeral"
@@ -1681,14 +1681,14 @@
     },
     {
       "name": "speak-header",
-      "href": "https://www.w3.org/TR/CSS22/aural.html#propdef-speak-header",
+      "href": "https://www.w3.org/TR/CSS2/aural.html#propdef-speak-header",
       "value": "once | always | inherit",
       "initial": "once",
       "appliesTo": "elements that have table header information",
       "inherited": "yes",
       "percentages": "N/A",
       "media": "aural",
-      "computed value": "as specified",
+      "computedValue": "as specified",
       "styleDeclaration": [
         "speak-header",
         "speakHeader"

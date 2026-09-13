@@ -5,22 +5,21 @@
   },
   "links": {
     "rawlinks": {
-      "https://datatracker.ietf.org/doc/html/bcp14": {},
       "https://dom.spec.whatwg.org/": {
         "anchors": [
           "dom-event-type"
         ]
       },
-      "https://html.spec.whatwg.org/multipage/": {},
-      "https://w3c.github.io/uievents/": {
+      "https://html.spec.whatwg.org/multipage/": {
         "anchors": [
-          "idl-wheelevent"
+          "concept-realm-global"
         ]
       },
       "https://webidl.spec.whatwg.org/": {},
       "https://wicg.github.io/document-picture-in-picture/": {},
-      "https://www.rfc-editor.org/rfc/rfc2119": {},
-      "https://www.rfc-editor.org/rfc/rfc8174": {},
+      "https://www.rfc-editor.org/info/bcp14": {},
+      "https://www.rfc-editor.org/info/rfc2119/": {},
+      "https://www.rfc-editor.org/info/rfc8174/": {},
       "https://www.w3.org/TR/": {},
       "https://www.w3.org/TR/cssom-view-1/": {},
       "https://www.w3.org/TR/geometry-1/": {},
@@ -31,18 +30,22 @@
       },
       "https://www.w3.org/TR/permissions-policy-1/": {},
       "https://www.w3.org/TR/permissions/": {},
+      "https://www.w3.org/TR/pointerevents4/": {
+        "anchors": [
+          "events-wheelevents"
+        ]
+      },
       "https://www.w3.org/TR/screen-capture/": {
         "anchors": [
-          "dfn-displaysurfacetype",
           "dfn-source",
-          "dom-capturecontroller-constructor"
+          "dom-capturecontroller-constructor",
+          "dom-mediadevices-getdisplaymedia",
+          "dfn-displaysurfacetype"
         ]
       },
       "https://www.w3.org/TR/uievents/": {
         "anchors": [
-          "event-type-click",
-          "event-type-input",
-          "mousemove"
+          "event-type-input"
         ]
       },
       "https://www.w3.org/groups/wg/webrtc": {},
@@ -53,21 +56,21 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://dom.spec.whatwg.org/": {
         "anchors": [
-          "dom-window-event",
-          "dom-event-istrusted",
-          "dom-event-type",
+          "concept-event-fire",
           "remove-an-event-listener",
           "concept-event-listener",
           "event-listener-callback",
           "callbackdef-eventlistener",
           "event",
           "add-an-event-listener",
-          "concept-event-fire",
+          "dom-window-event",
+          "dom-event-istrusted",
+          "dom-event-type",
           "element"
         ]
       },
@@ -88,14 +91,19 @@
       },
       "https://html.spec.whatwg.org/multipage/nav-history-apis.html": {
         "anchors": [
-          "window",
-          "concept-document-window"
+          "concept-document-window",
+          "window"
         ]
       },
       "https://html.spec.whatwg.org/multipage/webappapis.html": {
         "anchors": [
           "eventhandler",
-          "concept-relevant-global"
+          "event-handler-idl-attributes",
+          "event-handler-event-type",
+          "queue-a-global-task",
+          "user-interaction-task-source",
+          "concept-relevant-global",
+          "global-object"
         ]
       },
       "https://webidl.spec.whatwg.org/": {
@@ -113,6 +121,7 @@
           "dom-domexception-name",
           "notallowederror",
           "resolve",
+          "idl-DOMString",
           "idl-double"
         ]
       },
@@ -140,12 +149,22 @@
       },
       "https://www.w3.org/TR/permissions/": {
         "anchors": [
+          "dfn-getting-the-current-permission-state",
+          "dom-permissionstate-granted",
           "dfn-request-permission-to-use",
           "dom-permissiondescriptor",
           "dom-permissiondescriptor-name",
-          "dom-permissionstate-denied",
-          "dfn-getting-the-current-permission-state",
-          "dom-permissionstate-granted"
+          "dom-permissionstate-denied"
+        ]
+      },
+      "https://www.w3.org/TR/pointerevents4/": {
+        "anchors": [
+          "dfn-click",
+          "dom-wheelevent",
+          "dom-wheelevent-deltax",
+          "dom-wheelevent-deltay",
+          "dfn-topmost-event-target",
+          "dfn-mousemove"
         ]
       },
       "https://www.w3.org/TR/screen-capture/": {
@@ -155,14 +174,9 @@
           "dfn-browser",
           "dfn-window",
           "dfn-monitor",
-          "dom-capturecontroller"
-        ]
-      },
-      "https://www.w3.org/TR/uievents/": {
-        "anchors": [
-          "wheelevent",
-          "dom-wheelevent-deltax",
-          "dom-wheelevent-deltay"
+          "dom-capturecontroller",
+          "dfn-displaysurfacetype",
+          "dfn-source"
         ]
       }
     }

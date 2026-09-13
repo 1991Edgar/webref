@@ -21,7 +21,8 @@
         "title": "Model",
         "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "absolute-orientation-sensor-type",
@@ -32,7 +33,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "absoluteorientationsensor-model",
@@ -40,7 +41,8 @@
         "title": "The AbsoluteOrientationSensor Model",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "earths-reference-coordinate-system",
@@ -59,7 +61,8 @@
         "title": "The AbsoluteOrientationSensor Model",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "relative-orientation-sensor-type",
@@ -70,7 +73,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "relativeorientationsensor-model",
@@ -78,7 +81,8 @@
         "title": "The RelativeOrientationSensor Model",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "stationary-reference-coordinate-system",
@@ -97,7 +101,8 @@
         "title": "The RelativeOrientationSensor Model",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "typedefdef-rotationmatrixtype",
@@ -116,7 +121,8 @@
         "title": "The OrientationSensor Interface",
         "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "orientationsensor",
@@ -130,11 +136,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/orientation-sensor/#title",
-        "title": "Orientation Sensor"
+        "id": "orientationsensor-interface",
+        "href": "https://w3c.github.io/orientation-sensor/#orientationsensor-interface",
+        "title": "The OrientationSensor Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-orientationsensor-quaternion",
@@ -150,11 +158,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/orientation-sensor/#title",
-        "title": "Orientation Sensor"
+        "id": "orientationsensor-interface",
+        "href": "https://w3c.github.io/orientation-sensor/#orientationsensor-interface",
+        "title": "The OrientationSensor Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-orientationsensor-populatematrix",
@@ -170,11 +180,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/orientation-sensor/#title",
-        "title": "Orientation Sensor"
+        "id": "orientationsensor-interface",
+        "href": "https://w3c.github.io/orientation-sensor/#orientationsensor-interface",
+        "title": "The OrientationSensor Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-orientationsensor-populatematrix-targetmatrix-targetmatrix",
@@ -190,11 +202,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/orientation-sensor/#title",
-        "title": "Orientation Sensor"
+        "id": "orientationsensor-interface",
+        "href": "https://w3c.github.io/orientation-sensor/#orientationsensor-interface",
+        "title": "The OrientationSensor Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "enumdef-orientationsensorlocalcoordinatesystem",
@@ -208,11 +222,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/orientation-sensor/#title",
-        "title": "Orientation Sensor"
+        "id": "orientationsensor-interface",
+        "href": "https://w3c.github.io/orientation-sensor/#orientationsensor-interface",
+        "title": "The OrientationSensor Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-orientationsensorlocalcoordinatesystem-device",
@@ -228,11 +244,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/orientation-sensor/#title",
-        "title": "Orientation Sensor"
+        "id": "orientationsensor-interface",
+        "href": "https://w3c.github.io/orientation-sensor/#orientationsensor-interface",
+        "title": "The OrientationSensor Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-orientationsensorlocalcoordinatesystem-screen",
@@ -248,11 +266,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/orientation-sensor/#title",
-        "title": "Orientation Sensor"
+        "id": "orientationsensor-interface",
+        "href": "https://w3c.github.io/orientation-sensor/#orientationsensor-interface",
+        "title": "The OrientationSensor Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-orientationsensoroptions",
@@ -266,11 +286,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/orientation-sensor/#title",
-        "title": "Orientation Sensor"
+        "id": "orientationsensor-interface",
+        "href": "https://w3c.github.io/orientation-sensor/#orientationsensor-interface",
+        "title": "The OrientationSensor Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-orientationsensoroptions-referenceframe",
@@ -286,11 +308,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/orientation-sensor/#title",
-        "title": "Orientation Sensor"
+        "id": "orientationsensor-interface",
+        "href": "https://w3c.github.io/orientation-sensor/#orientationsensor-interface",
+        "title": "The OrientationSensor Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "absoluteorientationsensor",
@@ -309,7 +333,8 @@
         "title": "The AbsoluteOrientationSensor Interface",
         "number": "6.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-absoluteorientationsensor-absoluteorientationsensor",
@@ -328,11 +353,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/orientation-sensor/#title",
-        "title": "Orientation Sensor"
+        "id": "absoluteorientationsensor-interface",
+        "href": "https://w3c.github.io/orientation-sensor/#absoluteorientationsensor-interface",
+        "title": "The AbsoluteOrientationSensor Interface",
+        "number": "6.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-absoluteorientationsensor-absoluteorientationsensor-sensoroptions-sensoroptions",
@@ -351,11 +378,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/orientation-sensor/#title",
-        "title": "Orientation Sensor"
+        "id": "absoluteorientationsensor-interface",
+        "href": "https://w3c.github.io/orientation-sensor/#absoluteorientationsensor-interface",
+        "title": "The AbsoluteOrientationSensor Interface",
+        "number": "6.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "relativeorientationsensor",
@@ -374,7 +403,8 @@
         "title": "The RelativeOrientationSensor Interface",
         "number": "6.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-relativeorientationsensor-relativeorientationsensor",
@@ -393,11 +423,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/orientation-sensor/#title",
-        "title": "Orientation Sensor"
+        "id": "relativeorientationsensor-interface",
+        "href": "https://w3c.github.io/orientation-sensor/#relativeorientationsensor-interface",
+        "title": "The RelativeOrientationSensor Interface",
+        "number": "6.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-relativeorientationsensor-relativeorientationsensor-sensoroptions-sensoroptions",
@@ -416,11 +448,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/orientation-sensor/#title",
-        "title": "Orientation Sensor"
+        "id": "relativeorientationsensor-interface",
+        "href": "https://w3c.github.io/orientation-sensor/#relativeorientationsensor-interface",
+        "title": "The RelativeOrientationSensor Interface",
+        "number": "6.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "construct-an-orientation-sensor-object",
@@ -439,7 +473,8 @@
         "title": "Construct an Orientation Sensor object",
         "number": "7.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "converting-a-quaternion-to-rotation-matrix",
@@ -458,7 +493,8 @@
         "title": "Convert quaternion to rotation matrix",
         "number": "7.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "create-a-quaternion-from-euler-angles",
@@ -477,25 +513,8 @@
         "title": "Create a quaternion from Euler angles",
         "number": "7.3"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "conformant-user-agent",
-      "href": "https://w3c.github.io/orientation-sensor/#conformant-user-agent",
-      "linkingText": [
-        "conformant user agent"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "conformance",
-        "href": "https://w3c.github.io/orientation-sensor/#conformance",
-        "title": "10. Conformance"
-      },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

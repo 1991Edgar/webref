@@ -1,0 +1,23 @@
+{
+  "spec": {
+    "title": "Web of Things (WoT) Profiles",
+    "url": "https://www.w3.org/TR/wot-profile/"
+  },
+  "algorithms": [
+    {
+      "html": "If a <a href=\"https://www.w3.org/TR/wot-profile/#dfn-web-thing\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-web-thing-26\">Web\n            Thing</a> receives an HTTP request following the format\n            above then it <em class=\"rfc2119\">MUST</em> respond\n            with one of three response formats:",
+      "rationale": "error",
+      "steps": [
+        {
+          "html": "<a href=\"https://www.w3.org/TR/wot-profile/#sync-action-response\">Synchronous Action\n                Response</a>"
+        },
+        {
+          "html": "<a href=\"https://www.w3.org/TR/wot-profile/#async-action-response\">Asynchronous\n                Action Response</a>"
+        },
+        {
+          "html": "<a href=\"https://www.w3.org/TR/wot-profile/#error-responses\">Error Response</a>"
+        }
+      ]
+    }
+  ]
+}

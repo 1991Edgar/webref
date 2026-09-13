@@ -6,7 +6,6 @@
   "links": {
     "rawlinks": {
       "http://www.iso.org/iso/home/standards/currency_codes.htm": {},
-      "https://datatracker.ietf.org/doc/html/bcp14": {},
       "https://developer.mozilla.org/en-US/docs/Web/API/PaymentMethodChangeEvent": {},
       "https://developer.mozilla.org/en-US/docs/Web/API/PaymentMethodChangeEvent/PaymentMethodChangeEvent": {},
       "https://developer.mozilla.org/en-US/docs/Web/API/PaymentMethodChangeEvent/methodDetails": {},
@@ -33,6 +32,7 @@
       "https://fetch.spec.whatwg.org/": {},
       "https://github.com/w3c/payment-request/commit/0273c79": {},
       "https://github.com/w3c/payment-request/commit/0358fb3": {},
+      "https://github.com/w3c/payment-request/commit/046bcea": {},
       "https://github.com/w3c/payment-request/commit/08be866": {},
       "https://github.com/w3c/payment-request/commit/0bc0baa": {},
       "https://github.com/w3c/payment-request/commit/0d11184": {},
@@ -41,6 +41,8 @@
       "https://github.com/w3c/payment-request/commit/10dc96e": {},
       "https://github.com/w3c/payment-request/commit/1816526": {},
       "https://github.com/w3c/payment-request/commit/1d5bcd8": {},
+      "https://github.com/w3c/payment-request/commit/2025bbb": {},
+      "https://github.com/w3c/payment-request/commit/21370b1": {},
       "https://github.com/w3c/payment-request/commit/22195c7": {},
       "https://github.com/w3c/payment-request/commit/26fbcf9": {},
       "https://github.com/w3c/payment-request/commit/277a385": {},
@@ -78,6 +80,7 @@
       "https://github.com/w3c/payment-request/commit/a0c831d": {},
       "https://github.com/w3c/payment-request/commit/a0ff44f": {},
       "https://github.com/w3c/payment-request/commit/a1e773a": {},
+      "https://github.com/w3c/payment-request/commit/a473a75": {},
       "https://github.com/w3c/payment-request/commit/a4f35e3": {},
       "https://github.com/w3c/payment-request/commit/b336891": {},
       "https://github.com/w3c/payment-request/commit/b417638": {},
@@ -104,6 +107,9 @@
       "https://github.com/w3c/payment-request/pull/1009": {},
       "https://github.com/w3c/payment-request/pull/1026": {},
       "https://github.com/w3c/payment-request/pull/1029": {},
+      "https://github.com/w3c/payment-request/pull/1047": {},
+      "https://github.com/w3c/payment-request/pull/1054": {},
+      "https://github.com/w3c/payment-request/pull/1061": {},
       "https://github.com/w3c/payment-request/pull/654": {},
       "https://github.com/w3c/payment-request/pull/656": {},
       "https://github.com/w3c/payment-request/pull/666": {},
@@ -225,21 +231,22 @@
       "https://wpt.live/payment-request/user-abort-algorithm-manual.https.html": {},
       "https://wpt.live/payment-request/user-accepts-payment-request-algo-manual.https.html": {},
       "https://www.itu.int/rec/dologin_pub.asp?lang=e&id=T-REC-E.164-201011-I!!PDF-E&type=items": {},
-      "https://www.rfc-editor.org/rfc/rfc2119": {},
-      "https://www.rfc-editor.org/rfc/rfc4122": {},
-      "https://www.rfc-editor.org/rfc/rfc6454": {
+      "https://www.rfc-editor.org/info/bcp14": {},
+      "https://www.rfc-editor.org/info/rfc2119/": {},
+      "https://www.rfc-editor.org/info/rfc4122/": {},
+      "https://www.rfc-editor.org/info/rfc6454/": {
         "anchors": [
           "section-3.2"
         ]
       },
-      "https://www.rfc-editor.org/rfc/rfc8174": {},
+      "https://www.rfc-editor.org/info/rfc8174/": {},
       "https://www.w3.org/TR/": {},
       "https://www.w3.org/TR/2022/REC-payment-request-20220908/": {},
       "https://www.w3.org/TR/contact-picker/": {},
-      "https://www.w3.org/TR/payment-handler/": {},
       "https://www.w3.org/TR/payment-method-id/": {},
       "https://www.w3.org/TR/permissions-policy-1/": {},
       "https://www.w3.org/TR/secure-contexts/": {},
+      "https://www.w3.org/TR/web-based-payment-handler/": {},
       "https://www.w3.org/community/wicg/": {},
       "https://www.w3.org/groups/wg/payments": {},
       "https://www.w3.org/groups/wg/payments/ipr": {},
@@ -249,7 +256,7 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {
+      "https://www.w3.org/policies/process/20250818/": {
         "anchors": [
           "allow-new-features"
         ]
@@ -323,6 +330,7 @@
       },
       "https://html.spec.whatwg.org/multipage/nav-history-apis.html": {
         "anchors": [
+          "window-bc",
           "concept-document-window",
           "window"
         ]
@@ -390,15 +398,17 @@
           "exceptiondef-rangeerror",
           "dfn-convert-ecmascript-to-idl-value",
           "a-promise-rejected-with",
-          "aborterror",
           "invalidstateerror",
+          "aborterror",
           "a-new-promise",
           "dfn-exception",
           "notsupportederror",
           "upon-rejection",
           "upon-fulfillment",
+          "reject",
           "Default",
-          "notallowederror"
+          "notallowederror",
+          "operationerror"
         ]
       },
       "https://www.w3.org/TR/contact-picker/": {

@@ -71,6 +71,10 @@ dictionary UDPSocketOptions {
 
   SocketDnsQueryType dnsQueryType;
   boolean ipv6Only;
+
+  [EnforceRange] octet multicastTimeToLive;
+  boolean multicastLoopback;
+  boolean multicastAllowAddressSharing;
 };
 
 dictionary UDPMessage {
@@ -89,6 +93,28 @@ dictionary UDPSocketOpenInfo {
 
   DOMString localAddress;
   unsigned short localPort;
+
+  MulticastController multicastController;
+};
+
+dictionary MulticastGroupOptions {
+  DOMString sourceAddress;
+};
+
+dictionary MulticastMembership {
+  DOMString groupAddress;
+  DOMString sourceAddress;
+};
+
+[
+  Exposed=(Window, DedicatedWorker),
+  SecureContext,
+  IsolatedContext
+]
+interface MulticastController {
+  Promise<undefined> joinGroup(DOMString groupAddress, optional MulticastGroupOptions options = {});
+  Promise<undefined> leaveGroup(DOMString groupAddress, optional MulticastGroupOptions options = {});
+  readonly attribute FrozenArray<(DOMString or MulticastMembership)> joinedGroups;
 };
 
 [

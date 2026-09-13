@@ -26,7 +26,10 @@
       "id": "toc",
       "href": "https://www.w3.org/TR/webxrlayers-1/#toc",
       "level": 2,
-      "title": "Table of Contents"
+      "title": "Table of Contents",
+      "alternateIds": [
+        "contents"
+      ]
     },
     {
       "id": "intro",
@@ -349,6 +352,13 @@
       "number": "11.5"
     },
     {
+      "id": "xrsessionchanges",
+      "href": "https://www.w3.org/TR/webxrlayers-1/#xrsessionchanges",
+      "level": 3,
+      "title": "XRSession changes",
+      "number": "11.6"
+    },
+    {
       "id": "security",
       "href": "https://www.w3.org/TR/webxrlayers-1/#security",
       "level": 2,
@@ -432,7 +442,7 @@
       "id": "informative",
       "href": "https://www.w3.org/TR/webxrlayers-1/#informative",
       "level": 3,
-      "title": "Informative References"
+      "title": "Non-Normative References"
     },
     {
       "id": "idl-index",

@@ -21,7 +21,8 @@
         "title": "Endpoints",
         "number": "2.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-endpoint-name",
@@ -37,12 +38,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "generic-reporting",
-        "href": "https://www.w3.org/TR/reporting-1/#generic-reporting",
-        "title": "Generic Reporting Framework",
-        "number": "2"
+        "id": "concept-endpoints",
+        "href": "https://www.w3.org/TR/reporting-1/#concept-endpoints",
+        "title": "Endpoints",
+        "number": "2.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-endpoint-url",
@@ -58,12 +60,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "generic-reporting",
-        "href": "https://www.w3.org/TR/reporting-1/#generic-reporting",
-        "title": "Generic Reporting Framework",
-        "number": "2"
+        "id": "concept-endpoints",
+        "href": "https://www.w3.org/TR/reporting-1/#concept-endpoints",
+        "title": "Endpoints",
+        "number": "2.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-endpoint-failures",
@@ -79,12 +82,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "generic-reporting",
-        "href": "https://www.w3.org/TR/reporting-1/#generic-reporting",
-        "title": "Generic Reporting Framework",
-        "number": "2"
+        "id": "concept-endpoints",
+        "href": "https://www.w3.org/TR/reporting-1/#concept-endpoints",
+        "title": "Endpoints",
+        "number": "2.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "report-type",
@@ -103,7 +107,8 @@
         "title": "Report Type",
         "number": "2.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "visible-to-reportingobservers",
@@ -117,12 +122,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "generic-reporting",
-        "href": "https://www.w3.org/TR/reporting-1/#generic-reporting",
-        "title": "Generic Reporting Framework",
-        "number": "2"
+        "id": "concept-report-type",
+        "href": "https://www.w3.org/TR/reporting-1/#concept-report-type",
+        "title": "Report Type",
+        "number": "2.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "report",
@@ -141,7 +147,8 @@
         "title": "Reports",
         "number": "2.1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "report-body",
@@ -157,12 +164,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "generic-reporting",
-        "href": "https://www.w3.org/TR/reporting-1/#generic-reporting",
-        "title": "Generic Reporting Framework",
-        "number": "2"
+        "id": "concept-reports",
+        "href": "https://www.w3.org/TR/reporting-1/#concept-reports",
+        "title": "Reports",
+        "number": "2.1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "report-url",
@@ -178,12 +186,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "generic-reporting",
-        "href": "https://www.w3.org/TR/reporting-1/#generic-reporting",
-        "title": "Generic Reporting Framework",
-        "number": "2"
+        "id": "concept-reports",
+        "href": "https://www.w3.org/TR/reporting-1/#concept-reports",
+        "title": "Reports",
+        "number": "2.1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "report-user-agent",
@@ -199,12 +208,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "generic-reporting",
-        "href": "https://www.w3.org/TR/reporting-1/#generic-reporting",
-        "title": "Generic Reporting Framework",
-        "number": "2"
+        "id": "concept-reports",
+        "href": "https://www.w3.org/TR/reporting-1/#concept-reports",
+        "title": "Reports",
+        "number": "2.1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "report-destination",
@@ -220,12 +230,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "generic-reporting",
-        "href": "https://www.w3.org/TR/reporting-1/#generic-reporting",
-        "title": "Generic Reporting Framework",
-        "number": "2"
+        "id": "concept-reports",
+        "href": "https://www.w3.org/TR/reporting-1/#concept-reports",
+        "title": "Reports",
+        "number": "2.1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "report-reporttype",
@@ -241,12 +252,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "generic-reporting",
-        "href": "https://www.w3.org/TR/reporting-1/#generic-reporting",
-        "title": "Generic Reporting Framework",
-        "number": "2"
+        "id": "concept-reports",
+        "href": "https://www.w3.org/TR/reporting-1/#concept-reports",
+        "title": "Reports",
+        "number": "2.1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "report-timestamp",
@@ -262,12 +274,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "generic-reporting",
-        "href": "https://www.w3.org/TR/reporting-1/#generic-reporting",
-        "title": "Generic Reporting Framework",
-        "number": "2"
+        "id": "concept-reports",
+        "href": "https://www.w3.org/TR/reporting-1/#concept-reports",
+        "title": "Reports",
+        "number": "2.1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "report-attempts",
@@ -283,12 +296,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "generic-reporting",
-        "href": "https://www.w3.org/TR/reporting-1/#generic-reporting",
-        "title": "Generic Reporting Framework",
-        "number": "2"
+        "id": "concept-reports",
+        "href": "https://www.w3.org/TR/reporting-1/#concept-reports",
+        "title": "Reports",
+        "number": "2.1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "generate-a-report",
@@ -307,7 +321,8 @@
         "title": "Queue data as type for destination",
         "number": "2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "serialize-a-list-of-reports-to-json",
@@ -326,7 +341,8 @@
         "title": "Serialize Reports",
         "number": "2.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "windoworworkerglobalscope-endpoints",
@@ -347,7 +363,8 @@
         "title": "Document configuration",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "windoworworkerglobalscope-reports",
@@ -363,12 +380,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "document-reporting",
-        "href": "https://www.w3.org/TR/reporting-1/#document-reporting",
-        "title": "Document Centered Reporting",
-        "number": "3"
+        "id": "document-configuration",
+        "href": "https://www.w3.org/TR/reporting-1/#document-configuration",
+        "title": "Document configuration",
+        "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "initialize-a-globals-endpoint-list",
@@ -382,12 +400,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "document-reporting",
-        "href": "https://www.w3.org/TR/reporting-1/#document-reporting",
-        "title": "Document Centered Reporting",
-        "number": "3"
+        "id": "document-configuration",
+        "href": "https://www.w3.org/TR/reporting-1/#document-configuration",
+        "title": "Document configuration",
+        "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "reporting-endpoints",
@@ -406,13 +425,14 @@
         "title": "The Reporting-Endpoints HTTP Response Header Field",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "generate-report",
       "href": "https://www.w3.org/TR/reporting-1/#generate-report",
       "linkingText": [
-        "3.4.1. Generate report of type with data"
+        "Generate report of type with data"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -425,7 +445,8 @@
         "title": "Generate report of type with data",
         "number": "3.4.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "generate-and-queue-a-report",
@@ -444,7 +465,116 @@
         "title": "Generate report of type with data",
         "number": "3.4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "generate-and-queue-a-report-context",
+      "href": "https://www.w3.org/TR/reporting-1/#generate-and-queue-a-report-context",
+      "linkingText": [
+        "context"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "generate and queue a report"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "generate-report",
+        "href": "https://www.w3.org/TR/reporting-1/#generate-report",
+        "title": "Generate report of type with data",
+        "number": "3.4.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "generate-and-queue-a-report-type",
+      "href": "https://www.w3.org/TR/reporting-1/#generate-and-queue-a-report-type",
+      "linkingText": [
+        "type"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "generate and queue a report"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "generate-report",
+        "href": "https://www.w3.org/TR/reporting-1/#generate-report",
+        "title": "Generate report of type with data",
+        "number": "3.4.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "generate-and-queue-a-report-destination",
+      "href": "https://www.w3.org/TR/reporting-1/#generate-and-queue-a-report-destination",
+      "linkingText": [
+        "destination"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "generate and queue a report"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "generate-report",
+        "href": "https://www.w3.org/TR/reporting-1/#generate-report",
+        "title": "Generate report of type with data",
+        "number": "3.4.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "generate-and-queue-a-report-data",
+      "href": "https://www.w3.org/TR/reporting-1/#generate-and-queue-a-report-data",
+      "linkingText": [
+        "data"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "generate and queue a report"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "generate-report",
+        "href": "https://www.w3.org/TR/reporting-1/#generate-report",
+        "title": "Generate report of type with data",
+        "number": "3.4.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "strip-url-for-use-in-reports",
+      "href": "https://www.w3.org/TR/reporting-1/#strip-url-for-use-in-reports",
+      "linkingText": [
+        "strip URL for use in reports"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "strip-url-for-use-in-reports-heading",
+        "href": "https://www.w3.org/TR/reporting-1/#strip-url-for-use-in-reports-heading",
+        "title": "Strip URL for use in reports",
+        "number": "3.6"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "reporting-observer",
@@ -463,7 +593,8 @@
         "title": "Reporting Observers",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "windoworworkerglobalscope-registered-reporting-observer-list",
@@ -484,7 +615,8 @@
         "title": "Reporting Observers",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "registered",
@@ -503,7 +635,8 @@
         "title": "Reporting Observers",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "windoworworkerglobalscope-report-buffer",
@@ -524,17 +657,20 @@
         "title": "Reporting Observers",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "reportbody",
-      "href": "https://www.w3.org/TR/reporting-1/#reportbody",
+      "id": "dom-report-type",
+      "href": "https://www.w3.org/TR/reporting-1/#dom-report-type",
       "linkingText": [
-        "ReportBody"
+        "type"
       ],
       "localLinkingText": [],
-      "type": "interface",
-      "for": [],
+      "type": "dict-member",
+      "for": [
+        "Report"
+      ],
       "access": "public",
       "informative": false,
       "heading": {
@@ -543,49 +679,52 @@
         "title": "Interface ReportingObserver",
         "number": "4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
-      "id": "dom-reportbody-tojson",
-      "href": "https://www.w3.org/TR/reporting-1/#dom-reportbody-tojson",
+      "id": "dom-report-url",
+      "href": "https://www.w3.org/TR/reporting-1/#dom-report-url",
       "linkingText": [
-        "toJSON()"
+        "url"
       ],
       "localLinkingText": [],
-      "type": "method",
-      "for": [
-        "ReportBody"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "observers",
-        "href": "https://www.w3.org/TR/reporting-1/#observers",
-        "title": "Reporting Observers",
-        "number": "4"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-report-tojson",
-      "href": "https://www.w3.org/TR/reporting-1/#dom-report-tojson",
-      "linkingText": [
-        "toJSON()"
-      ],
-      "localLinkingText": [],
-      "type": "method",
+      "type": "dict-member",
       "for": [
         "Report"
       ],
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "observers",
-        "href": "https://www.w3.org/TR/reporting-1/#observers",
-        "title": "Reporting Observers",
-        "number": "4"
+        "id": "interface-reporting-observer",
+        "href": "https://www.w3.org/TR/reporting-1/#interface-reporting-observer",
+        "title": "Interface ReportingObserver",
+        "number": "4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-report-body",
+      "href": "https://www.w3.org/TR/reporting-1/#dom-report-body",
+      "linkingText": [
+        "body"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "Report"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interface-reporting-observer",
+        "href": "https://www.w3.org/TR/reporting-1/#interface-reporting-observer",
+        "title": "Interface ReportingObserver",
+        "number": "4.1"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "reportingobserver",
@@ -599,12 +738,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "observers",
-        "href": "https://www.w3.org/TR/reporting-1/#observers",
-        "title": "Reporting Observers",
-        "number": "4"
+        "id": "interface-reporting-observer",
+        "href": "https://www.w3.org/TR/reporting-1/#interface-reporting-observer",
+        "title": "Interface ReportingObserver",
+        "number": "4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-reportingobserver-reportingobserver-callback-options-callback",
@@ -623,12 +763,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "observers",
-        "href": "https://www.w3.org/TR/reporting-1/#observers",
-        "title": "Reporting Observers",
-        "number": "4"
+        "id": "interface-reporting-observer",
+        "href": "https://www.w3.org/TR/reporting-1/#interface-reporting-observer",
+        "title": "Interface ReportingObserver",
+        "number": "4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-reportingobserver-reportingobserver-callback-options-options",
@@ -647,12 +788,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "observers",
-        "href": "https://www.w3.org/TR/reporting-1/#observers",
-        "title": "Reporting Observers",
-        "number": "4"
+        "id": "interface-reporting-observer",
+        "href": "https://www.w3.org/TR/reporting-1/#interface-reporting-observer",
+        "title": "Interface ReportingObserver",
+        "number": "4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "callbackdef-reportingobservercallback",
@@ -666,12 +808,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "observers",
-        "href": "https://www.w3.org/TR/reporting-1/#observers",
-        "title": "Reporting Observers",
-        "number": "4"
+        "id": "interface-reporting-observer",
+        "href": "https://www.w3.org/TR/reporting-1/#interface-reporting-observer",
+        "title": "Interface ReportingObserver",
+        "number": "4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-reportingobservercallback-reports",
@@ -687,12 +830,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "observers",
-        "href": "https://www.w3.org/TR/reporting-1/#observers",
-        "title": "Reporting Observers",
-        "number": "4"
+        "id": "interface-reporting-observer",
+        "href": "https://www.w3.org/TR/reporting-1/#interface-reporting-observer",
+        "title": "Interface ReportingObserver",
+        "number": "4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-reportingobservercallback-observer",
@@ -708,12 +852,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "observers",
-        "href": "https://www.w3.org/TR/reporting-1/#observers",
-        "title": "Reporting Observers",
-        "number": "4"
+        "id": "interface-reporting-observer",
+        "href": "https://www.w3.org/TR/reporting-1/#interface-reporting-observer",
+        "title": "Interface ReportingObserver",
+        "number": "4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-reportingobserveroptions",
@@ -727,12 +872,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "observers",
-        "href": "https://www.w3.org/TR/reporting-1/#observers",
-        "title": "Reporting Observers",
-        "number": "4"
+        "id": "interface-reporting-observer",
+        "href": "https://www.w3.org/TR/reporting-1/#interface-reporting-observer",
+        "title": "Interface ReportingObserver",
+        "number": "4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-reportingobserveroptions-types",
@@ -748,12 +894,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "observers",
-        "href": "https://www.w3.org/TR/reporting-1/#observers",
-        "title": "Reporting Observers",
-        "number": "4"
+        "id": "interface-reporting-observer",
+        "href": "https://www.w3.org/TR/reporting-1/#interface-reporting-observer",
+        "title": "Interface ReportingObserver",
+        "number": "4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-reportingobserveroptions-buffered",
@@ -769,12 +916,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "observers",
-        "href": "https://www.w3.org/TR/reporting-1/#observers",
-        "title": "Reporting Observers",
-        "number": "4"
+        "id": "interface-reporting-observer",
+        "href": "https://www.w3.org/TR/reporting-1/#interface-reporting-observer",
+        "title": "Interface ReportingObserver",
+        "number": "4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedefdef-reportlist",
@@ -788,12 +936,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "observers",
-        "href": "https://www.w3.org/TR/reporting-1/#observers",
-        "title": "Reporting Observers",
-        "number": "4"
+        "id": "interface-reporting-observer",
+        "href": "https://www.w3.org/TR/reporting-1/#interface-reporting-observer",
+        "title": "Interface ReportingObserver",
+        "number": "4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-report",
@@ -802,80 +951,38 @@
         "Report"
       ],
       "localLinkingText": [],
-      "type": "interface",
+      "type": "dictionary",
       "for": [],
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "observers",
-        "href": "https://www.w3.org/TR/reporting-1/#observers",
-        "title": "Reporting Observers",
-        "number": "4"
+        "id": "interface-reporting-observer",
+        "href": "https://www.w3.org/TR/reporting-1/#interface-reporting-observer",
+        "title": "Interface ReportingObserver",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "dom-report-type",
-      "href": "https://www.w3.org/TR/reporting-1/#dom-report-type",
+      "id": "reportbody",
+      "href": "https://www.w3.org/TR/reporting-1/#reportbody",
       "linkingText": [
-        "type"
+        "ReportBody"
       ],
       "localLinkingText": [],
-      "type": "attribute",
-      "for": [
-        "Report"
-      ],
+      "type": "dictionary",
+      "for": [],
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "observers",
-        "href": "https://www.w3.org/TR/reporting-1/#observers",
-        "title": "Reporting Observers",
-        "number": "4"
+        "id": "interface-reporting-observer",
+        "href": "https://www.w3.org/TR/reporting-1/#interface-reporting-observer",
+        "title": "Interface ReportingObserver",
+        "number": "4.1"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dom-report-url",
-      "href": "https://www.w3.org/TR/reporting-1/#dom-report-url",
-      "linkingText": [
-        "url"
-      ],
-      "localLinkingText": [],
-      "type": "attribute",
-      "for": [
-        "Report"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "observers",
-        "href": "https://www.w3.org/TR/reporting-1/#observers",
-        "title": "Reporting Observers",
-        "number": "4"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dom-report-body",
-      "href": "https://www.w3.org/TR/reporting-1/#dom-report-body",
-      "linkingText": [
-        "body"
-      ],
-      "localLinkingText": [],
-      "type": "attribute",
-      "for": [
-        "Report"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "observers",
-        "href": "https://www.w3.org/TR/reporting-1/#observers",
-        "title": "Reporting Observers",
-        "number": "4"
-      },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "reportingobserver-callback",
@@ -891,12 +998,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "observers",
-        "href": "https://www.w3.org/TR/reporting-1/#observers",
-        "title": "Reporting Observers",
-        "number": "4"
+        "id": "interface-reporting-observer",
+        "href": "https://www.w3.org/TR/reporting-1/#interface-reporting-observer",
+        "title": "Interface ReportingObserver",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "reportingobserver-options",
@@ -912,12 +1020,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "observers",
-        "href": "https://www.w3.org/TR/reporting-1/#observers",
-        "title": "Reporting Observers",
-        "number": "4"
+        "id": "interface-reporting-observer",
+        "href": "https://www.w3.org/TR/reporting-1/#interface-reporting-observer",
+        "title": "Interface ReportingObserver",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "reportingobserver-report-queue",
@@ -933,12 +1042,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "observers",
-        "href": "https://www.w3.org/TR/reporting-1/#observers",
-        "title": "Reporting Observers",
-        "number": "4"
+        "id": "interface-reporting-observer",
+        "href": "https://www.w3.org/TR/reporting-1/#interface-reporting-observer",
+        "title": "Interface ReportingObserver",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-reportingobserver-reportingobserver",
@@ -957,12 +1067,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "observers",
-        "href": "https://www.w3.org/TR/reporting-1/#observers",
-        "title": "Reporting Observers",
-        "number": "4"
+        "id": "interface-reporting-observer",
+        "href": "https://www.w3.org/TR/reporting-1/#interface-reporting-observer",
+        "title": "Interface ReportingObserver",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-reportingobserver-observe",
@@ -978,12 +1089,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "observers",
-        "href": "https://www.w3.org/TR/reporting-1/#observers",
-        "title": "Reporting Observers",
-        "number": "4"
+        "id": "interface-reporting-observer",
+        "href": "https://www.w3.org/TR/reporting-1/#interface-reporting-observer",
+        "title": "Interface ReportingObserver",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-reportingobserver-disconnect",
@@ -999,12 +1111,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "observers",
-        "href": "https://www.w3.org/TR/reporting-1/#observers",
-        "title": "Reporting Observers",
-        "number": "4"
+        "id": "interface-reporting-observer",
+        "href": "https://www.w3.org/TR/reporting-1/#interface-reporting-observer",
+        "title": "Interface ReportingObserver",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-reportingobserver-takerecords",
@@ -1020,12 +1133,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "observers",
-        "href": "https://www.w3.org/TR/reporting-1/#observers",
-        "title": "Reporting Observers",
-        "number": "4"
+        "id": "interface-reporting-observer",
+        "href": "https://www.w3.org/TR/reporting-1/#interface-reporting-observer",
+        "title": "Interface ReportingObserver",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "generate-test-report",
@@ -1044,7 +1158,8 @@
         "title": "Generate Test Report",
         "number": "7.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dictdef-generatetestreportparameters",
@@ -1063,7 +1178,8 @@
         "title": "Generate Test Report",
         "number": "7.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-generatetestreportparameters-message",
@@ -1084,7 +1200,8 @@
         "title": "Generate Test Report",
         "number": "7.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-generatetestreportparameters-group",
@@ -1100,12 +1217,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "automation",
-        "href": "https://www.w3.org/TR/reporting-1/#automation",
-        "title": "Automation",
-        "number": "7"
+        "id": "generate-test-report-command",
+        "href": "https://www.w3.org/TR/reporting-1/#generate-test-report-command",
+        "title": "Generate Test Report",
+        "number": "7.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     }
   ]
 }

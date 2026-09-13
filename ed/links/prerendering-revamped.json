@@ -5,7 +5,8 @@
   },
   "links": {
     "rawlinks": {
-      "http://www.w3.org/community/": {},
+      "https://console.spec.whatwg.org/": {},
+      "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-no-vary-search": {},
       "https://dom.spec.whatwg.org/": {},
       "https://fetch.spec.whatwg.org/": {},
       "https://fullscreen.spec.whatwg.org/": {},
@@ -21,6 +22,13 @@
       "https://html.spec.whatwg.org/multipage/document-sequences.html": {
         "anchors": [
           "navigables"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/speculative-loading.html": {
+        "anchors": [
+          "speculation-rules",
+          "speculative-loading-security",
+          "speculative-loading-privacy"
         ]
       },
       "https://html.spec.whatwg.org/multipage/webappapis.html": {
@@ -62,30 +70,43 @@
       "https://w3c.github.io/web-locks/": {},
       "https://w3c.github.io/web-nfc/": {},
       "https://w3c.github.io/web-share/": {},
+      "https://w3c.github.io/webappsec-clear-site-data/": {
+        "anchors": [
+          "header"
+        ]
+      },
       "https://w3c.github.io/webappsec-credential-management/": {},
-      "https://w3c.github.io/webappsec-referrer-policy/": {},
+      "https://w3c.github.io/webappsec-secure-contexts/": {},
       "https://w3c.github.io/webcrypto/": {},
       "https://w3c.github.io/webdriver-bidi/": {},
       "https://webaudio.github.io/web-audio-api/": {},
       "https://webaudio.github.io/web-midi-api/": {},
+      "https://webaudio.github.io/web-speech-api/": {},
       "https://webbluetoothcg.github.io/web-bluetooth/": {},
       "https://webidl.spec.whatwg.org/": {},
       "https://wicg.github.io/background-fetch/": {},
+      "https://wicg.github.io/background-sync/spec/": {},
       "https://wicg.github.io/client-hints-infrastructure/": {},
       "https://wicg.github.io/file-system-access/": {},
       "https://wicg.github.io/idle-detection/": {},
       "https://wicg.github.io/keyboard-lock/": {},
-      "https://wicg.github.io/nav-speculation/no-vary-search.html": {},
+      "https://wicg.github.io/nav-speculation/prefetch.html": {},
       "https://wicg.github.io/serial/": {},
-      "https://wicg.github.io/speech-api/": {},
       "https://wicg.github.io/webhid/": {},
       "https://wicg.github.io/webusb/": {},
+      "https://www.w3.org/community/": {},
       "https://www.w3.org/community/about/agreements/cla/": {},
       "https://www.w3.org/community/wicg/": {}
     },
     "autolinks": {
+      "https://console.spec.whatwg.org/": {
+        "anchors": [
+          "report-a-warning-to-the-console"
+        ]
+      },
       "https://dom.spec.whatwg.org/": {
         "anchors": [
+          "concept-element-attributes-change-ext",
           "document",
           "concept-node",
           "concept-node-document",
@@ -100,8 +121,13 @@
           "http-scheme",
           "concept-request-current-url",
           "concept-response-status",
-          "credentials",
           "concept-response",
+          "concept-response-url",
+          "concept-http-network-or-cache-fetch",
+          "http-sec-purpose",
+          "concept-request-client",
+          "concept-header-list-set-structured-header",
+          "concept-request-header-list",
           "concept-network-error",
           "concept-header-list-get-structured-header",
           "concept-response-header-list"
@@ -139,6 +165,7 @@
           "create-navigation-params-by-fetching",
           "she-document-state",
           "document-state-initiator-origin",
+          "navigation-params-navigable",
           "attempt-to-populate-the-history-entry's-document",
           "navigation-params-request",
           "navigation-params-response",
@@ -148,21 +175,25 @@
       "https://html.spec.whatwg.org/multipage/document-lifecycle.html": {
         "anchors": [
           "abort-a-document",
+          "initialise-the-document-object",
           "destroy-a-document"
         ]
       },
       "https://html.spec.whatwg.org/multipage/document-sequences.html": {
         "anchors": [
+          "valid-navigable-target-name-or-keyword",
+          "node-navigable",
           "navigable",
           "top-level-traversable",
-          "node-navigable",
+          "nav-bc",
+          "auxiliary-browsing-context",
           "creating-a-new-top-level-traversable",
           "nav-document",
           "destroy-a-top-level-traversable",
           "child-navigable",
           "concept-document-bc",
-          "auxiliary-browsing-context",
           "opener-browsing-context",
+          "the-rules-for-choosing-a-navigable",
           "inclusive-descendant-navigables",
           "nav-window",
           "tn-current-session-history-step",
@@ -170,7 +201,8 @@
           "nav-parent",
           "create-a-new-child-navigable",
           "nav-top",
-          "fully-active"
+          "fully-active",
+          "top-level-traversable-set"
         ]
       },
       "https://html.spec.whatwg.org/multipage/dom.html": {
@@ -181,6 +213,11 @@
       "https://html.spec.whatwg.org/multipage/iframe-embed-object.html": {
         "anchors": [
           "allowed-to-use"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/image-maps.html": {
+        "anchors": [
+          "the-area-element"
         ]
       },
       "https://html.spec.whatwg.org/multipage/indices.html": {
@@ -203,6 +240,8 @@
       },
       "https://html.spec.whatwg.org/multipage/links.html": {
         "anchors": [
+          "concept-hyperlink-url",
+          "attr-hyperlink-target",
           "downloading-hyperlinks"
         ]
       },
@@ -225,11 +264,49 @@
           "dom-open"
         ]
       },
+      "https://html.spec.whatwg.org/multipage/semantics.html": {
+        "anchors": [
+          "get-an-element's-target"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/speculative-loading.html": {
+        "anchors": [
+          "speculation-rule-set",
+          "speculation-rule",
+          "sr-set-prefetch",
+          "sr-requirements",
+          "parse-a-speculation-rule",
+          "speculative-load-candidate",
+          "consider-speculative-loads",
+          "inner-consider-speculative-loads-steps",
+          "document-sr-sets",
+          "sr-urls",
+          "compute-a-speculative-load-referrer-policy",
+          "sl-candidate-url",
+          "sl-candidate-nvs-hint",
+          "sr-nvs-hint",
+          "sl-candidate-eagerness",
+          "sr-eagerness",
+          "sl-candidate-referrer-policy",
+          "sl-candidate-tags",
+          "sr-tags",
+          "sr-predicate",
+          "find-matching-links",
+          "collect-tags-from-speculative-load-candidates",
+          "prefetch-candidate",
+          "sl-candidate-anonymization-policy"
+        ]
+      },
       "https://html.spec.whatwg.org/multipage/system-state.html": {
         "anchors": [
           "dom-navigator-registerprotocolhandler",
           "normalize-protocol-handler-parameters",
           "dom-navigator-unregisterprotocolhandler"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/text-level-semantics.html": {
+        "anchors": [
+          "the-a-element"
         ]
       },
       "https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html": {
@@ -255,6 +332,7 @@
           "event-loop",
           "concept-settings-object-global",
           "concept-settings-object-origin",
+          "environment-settings-object",
           "concept-relevant-realm",
           "concept-realm-global",
           "current-global-object",
@@ -274,7 +352,6 @@
         "anchors": [
           "name-data-model",
           "iref-default-url-search-variance",
-          "name-comparing",
           "name-http-header-field-definitio",
           "name-obtain-a-url-search-varianc"
         ]
@@ -286,16 +363,19 @@
       },
       "https://infra.spec.whatwg.org/": {
         "anchors": [
-          "list",
           "struct",
           "struct-item",
+          "list",
+          "string",
+          "map-exists",
+          "boolean",
+          "list-iterate",
+          "list-append",
           "list-item",
           "user-agent",
           "assert",
-          "list-iterate",
-          "list-append",
-          "list-remove",
           "list-size",
+          "list-remove",
           "map-iterate",
           "map-set",
           "iteration-continue",
@@ -304,7 +384,6 @@
           "list-contain",
           "list-empty",
           "ordered-map",
-          "map-exists",
           "implementation-defined"
         ]
       },
@@ -331,6 +410,12 @@
           "concept-url",
           "concept-url-scheme",
           "concept-url-origin"
+        ]
+      },
+      "https://w3c-cg.github.io/web-nfc/": {
+        "anchors": [
+          "dom-ndefreader-write",
+          "dom-ndefreader-scan"
         ]
       },
       "https://w3c.github.io/ServiceWorker/": {
@@ -380,13 +465,12 @@
       },
       "https://w3c.github.io/hr-time/": {
         "anchors": [
-          "dom-domhighrestimestamp",
+          "typedefdef-domhighrestimestamp",
           "dfn-current-high-resolution-time"
         ]
       },
       "https://w3c.github.io/mediacapture-main/": {
         "anchors": [
-          "dom-navigator-getusermedia",
           "dom-mediadevices-getusermedia",
           "dom-mediadevices-enumeratedevices",
           "dom-mediadevices",
@@ -405,7 +489,7 @@
       },
       "https://w3c.github.io/navigation-timing/": {
         "anchors": [
-          "dom-performancenavigationtiming"
+          "performancenavigationtiming"
         ]
       },
       "https://w3c.github.io/payment-request/": {
@@ -461,15 +545,15 @@
           "dom-lockmanager-query"
         ]
       },
-      "https://w3c.github.io/web-nfc/": {
-        "anchors": [
-          "dom-ndefreader-write",
-          "dom-ndefreader-scan"
-        ]
-      },
       "https://w3c.github.io/web-share/": {
         "anchors": [
           "dom-navigator-share"
+        ]
+      },
+      "https://w3c.github.io/webappsec-clear-site-data/": {
+        "anchors": [
+          "abstract-opdef-parse-responses-clear-site-data-header",
+          "abstract-opdef-clear-site-data-for-response"
         ]
       },
       "https://w3c.github.io/webappsec-credential-management/": {
@@ -479,9 +563,9 @@
           "dom-credentialscontainer-create"
         ]
       },
-      "https://w3c.github.io/webappsec-referrer-policy/": {
+      "https://w3c.github.io/webappsec-secure-contexts/": {
         "anchors": [
-          "referrer-policy"
+          "potentially-trustworthy-url"
         ]
       },
       "https://w3c.github.io/webcrypto/": {
@@ -513,6 +597,17 @@
       "https://webaudio.github.io/web-midi-api/": {
         "anchors": [
           "dom-navigator-requestmidiaccess"
+        ]
+      },
+      "https://webaudio.github.io/web-speech-api/": {
+        "anchors": [
+          "dom-speechsynthesis-speak",
+          "dom-speechsynthesis-cancel",
+          "dom-speechsynthesis-pause",
+          "dom-speechsynthesis-resume",
+          "dom-speechrecognition-start",
+          "dom-speechrecognition-stop",
+          "dom-speechrecognition-abort"
         ]
       },
       "https://webbluetoothcg.github.io/web-bluetooth/": {
@@ -547,6 +642,11 @@
           "dom-backgroundfetchmanager-fetch"
         ]
       },
+      "https://wicg.github.io/background-sync/spec/": {
+        "anchors": [
+          "dom-syncmanager-register"
+        ]
+      },
       "https://wicg.github.io/client-hints-infrastructure": {
         "anchors": [
           "accept-ch-cache",
@@ -574,21 +674,25 @@
           "dom-keyboard-lock"
         ]
       },
+      "https://wicg.github.io/nav-speculation/prefetch.html": {
+        "anchors": [
+          "prefetch-record",
+          "prefetch-record-url",
+          "prefetch-record-no-vary-search-hint",
+          "prefetch-record-referrer-policy",
+          "prefetch-record-tags",
+          "prefetch-record-anonymization-policy",
+          "prefetch-record-matches-a-url",
+          "document-prefetch-records",
+          "prefetch-record-is-expected-to-match-a-url",
+          "prefetch-record-start-time",
+          "prefetch-record-cancel-and-discard"
+        ]
+      },
       "https://wicg.github.io/serial/": {
         "anchors": [
           "dom-serial-requestport",
           "dom-serial-getports"
-        ]
-      },
-      "https://wicg.github.io/speech-api/": {
-        "anchors": [
-          "dom-speechsynthesis-speak",
-          "dom-speechsynthesis-cancel",
-          "dom-speechsynthesis-pause",
-          "dom-speechsynthesis-resume",
-          "dom-speechrecognition-start",
-          "dom-speechrecognition-stop",
-          "dom-speechrecognition-abort"
         ]
       },
       "https://wicg.github.io/webhid/": {
@@ -605,9 +709,14 @@
       },
       "https://www.rfc-editor.org/rfc/rfc8941.html": {
         "anchors": [
-          "section-1",
+          "name-lists",
           "name-tokens",
-          "name-lists"
+          "section-1"
+        ]
+      },
+      "https://www.w3.org/TR/mediacapture-streams/": {
+        "anchors": [
+          "dom-navigator-getusermedia"
         ]
       }
     }

@@ -10,6 +10,10 @@
         "url": "https://w3c.github.io/webappsec-csp/"
       },
       {
+        "name": "CSS2",
+        "url": "https://drafts.csswg.org/css2/"
+      },
+      {
         "name": "DOM",
         "url": "https://dom.spec.whatwg.org/"
       },
@@ -38,16 +42,12 @@
         "url": "https://infra.spec.whatwg.org/"
       },
       {
-        "name": "PRIVACY-PRINCIPLES",
-        "url": "https://w3ctag.github.io/privacy-principles/"
-      },
-      {
         "name": "QUIC",
-        "url": "https://www.rfc-editor.org/rfc/rfc9000"
+        "url": "https://www.rfc-editor.org/info/rfc9000/"
       },
       {
         "name": "QUIC-DATAGRAM",
-        "url": "https://www.rfc-editor.org/rfc/rfc9221"
+        "url": "https://www.rfc-editor.org/info/rfc9221/"
       },
       {
         "name": "RFC2119",
@@ -55,27 +55,35 @@
       },
       {
         "name": "RFC3279",
-        "url": "https://www.rfc-editor.org/rfc/rfc3279"
+        "url": "https://www.rfc-editor.org/info/rfc3279/"
       },
       {
         "name": "RFC5280",
-        "url": "https://www.rfc-editor.org/rfc/rfc5280"
+        "url": "https://www.rfc-editor.org/info/rfc5280/"
       },
       {
         "name": "RFC8174",
-        "url": "https://www.rfc-editor.org/rfc/rfc8174"
+        "url": "https://www.rfc-editor.org/info/rfc8174/"
       },
       {
-        "name": "RFC8422",
-        "url": "https://www.rfc-editor.org/rfc/rfc8422"
+        "name": "RFC8441",
+        "url": "https://httpwg.org/specs/rfc8441.html"
       },
       {
         "name": "RFC9002",
-        "url": "https://www.rfc-editor.org/rfc/rfc9002"
+        "url": "https://www.rfc-editor.org/info/rfc9002/"
+      },
+      {
+        "name": "RFC9220",
+        "url": "https://httpwg.org/specs/rfc9220.html"
       },
       {
         "name": "RFC9525",
-        "url": "https://www.rfc-editor.org/rfc/rfc9525"
+        "url": "https://www.rfc-editor.org/info/rfc9525/"
+      },
+      {
+        "name": "RFC9846",
+        "url": "https://www.rfc-editor.org/info/rfc9846/"
       },
       {
         "name": "STREAMS",
@@ -87,11 +95,11 @@
       },
       {
         "name": "WEB-TRANSPORT-HTTP2",
-        "url": "https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-http2/"
+        "url": "https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-http2"
       },
       {
         "name": "WEB-TRANSPORT-HTTP3",
-        "url": "https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-http3/"
+        "url": "https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-http3"
       },
       {
         "name": "WEB-TRANSPORT-OVERVIEW",
@@ -100,28 +108,28 @@
       {
         "name": "WEBIDL",
         "url": "https://webidl.spec.whatwg.org/"
+      },
+      {
+        "name": "WEBSOCKETS",
+        "url": "https://websockets.spec.whatwg.org/"
       }
     ],
     "informative": [
       {
-        "name": "RFC7301",
-        "url": "https://www.rfc-editor.org/rfc/rfc7301"
+        "name": "RELIABLE-RESET",
+        "url": "https://datatracker.ietf.org/doc/html/draft-ietf-quic-reliable-stream-reset"
       },
       {
-        "name": "RFC8446",
-        "url": "https://www.rfc-editor.org/rfc/rfc8446"
+        "name": "RFC7301",
+        "url": "https://www.rfc-editor.org/info/rfc7301/"
       },
       {
         "name": "RFC9308",
-        "url": "https://www.rfc-editor.org/rfc/rfc9308"
+        "url": "https://www.rfc-editor.org/info/rfc9308/"
       },
       {
         "name": "UNSANCTIONED-TRACKING",
         "url": "http://www.w3.org/2001/tag/doc/unsanctioned-tracking/"
-      },
-      {
-        "name": "WEBRTC",
-        "url": "https://w3c.github.io/webrtc-pc/"
       }
     ]
   }

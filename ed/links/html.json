@@ -8,7 +8,6 @@
       "http://isotc.iso.org/livelink/livelink/4021199/ISO_8601_2004_E.zip?func=doc.Fetch&nodeid=4021199": {},
       "http://news.bbc.co.uk/2/hi/uk_news/scotland/north_east/7101506.stm": {},
       "http://stevenskelton.ca/": {},
-      "http://w3c.github.io/csswg-drafts/resize-observer-1/": {},
       "http://www.libpng.org/pub/mng/spec/": {},
       "http://www.turingarchive.org/browse.php/B/12": {},
       "https://annevankesteren.nl/": {},
@@ -33,11 +32,17 @@
           "report-a-warning-to-the-console"
         ]
       },
+      "https://cookiestore.spec.whatwg.org/": {
+        "anchors": [
+          "intro"
+        ]
+      },
       "https://creativecommons.org/licenses/by-sa/3.0/": {},
       "https://creativecommons.org/licenses/by/2.0/": {},
       "https://creativecommons.org/licenses/by/3.0/": {},
       "https://creativecommons.org/licenses/by/4.0/": {},
       "https://creativecommons.org/publicdomain/zero/1.0/": {},
+      "https://cure53.de/fp170.pdf": {},
       "https://dev.w3.org/html5/html-sourcing-inband-tracks/": {},
       "https://developer.mozilla.org/en-US/docs/Plugins/Guide": {},
       "https://developer.mozilla.org/en-US/docs/Web/API/AudioTrack": {},
@@ -1235,6 +1240,7 @@
           "concept-node-post-connection-ext",
           "concept-node-remove-ext",
           "concept-tree",
+          "concept-node-move-ext",
           "in-a-document-tree",
           "connected",
           "concept-shadow-including-root",
@@ -1254,6 +1260,8 @@
           "concept-attach-a-shadow-root",
           "retarget",
           "interface-nodelist",
+          "concept-pi-target",
+          "get-a-processing-instruction-attribute",
           "interface-shadowroot",
           "interface-range",
           "concept-document-type",
@@ -1261,8 +1269,10 @@
           "concept-shadow-root",
           "shadowroot-delegates-focus",
           "shadowroot-available-to-element-internals",
-          "shadowroot-clonable",
           "shadowroot-serializable",
+          "shadowroot-clonable",
+          "shadowroot-custom-element-registry",
+          "shadowroot-keep-custom-element-registry-null",
           "element-shadow-host",
           "interface-htmlcollection",
           "dom-htmlcollection-length",
@@ -1282,11 +1292,13 @@
           "dom-node-append",
           "dom-node-appendchild",
           "dom-node-clonenode",
+          "dom-parentnode-movebefore",
           "dom-document-importnode",
           "dom-event-preventdefault",
           "dom-element-id",
           "dom-element-setattribute",
           "dom-node-textcontent",
+          "dom-parentnode-children",
           "concept-shadow-tree",
           "concept-node-tree",
           "concept-tree-order",
@@ -1295,12 +1307,15 @@
           "concept-tree-child",
           "concept-tree-root",
           "concept-tree-inclusive-ancestor",
+          "concept-tree-ancestor",
           "concept-tree-descendant",
           "concept-shadow-including-ancestor",
           "concept-shadow-including-descendant",
           "concept-shadow-including-inclusive-descendant",
           "concept-shadow-including-inclusive-ancestor",
+          "concept-tree-host-including-inclusive-ancestor",
           "concept-tree-first-child",
+          "concept-tree-last-child",
           "concept-tree-next-sibling",
           "concept-tree-previous-sibling",
           "concept-tree-parent",
@@ -1310,7 +1325,7 @@
           "slot-name",
           "slot-assigned-nodes",
           "slotable-assigned-slot",
-          "dom-shadowroot-slot-assignment",
+          "shadowroot-slot-assignment",
           "concept-slotable",
           "assign-slotables-for-a-tree",
           "eventdef-htmlslotelement-slotchange",
@@ -1319,6 +1334,7 @@
           "slottable-manual-slot-assignment",
           "assign-a-slot",
           "concept-node-pre-insert",
+          "concept-node-ensure-pre-insertion-validity",
           "concept-node-insert",
           "concept-node-append",
           "concept-node-replace",
@@ -1338,6 +1354,7 @@
           "concept-element-attributes-change-ext",
           "concept-attribute-value",
           "concept-attribute-local-name",
+          "concept-attribute-namespace",
           "concept-element-attribute",
           "concept-cd-data",
           "concept-cd-replace",
@@ -1359,7 +1376,7 @@
           "concept-event-dispatch",
           "dictdef-eventinit",
           "dom-event-type",
-          "concept-event-target",
+          "event-target",
           "dom-event-currenttarget",
           "dom-event-bubbles",
           "dom-event-cancelable",
@@ -1377,10 +1394,15 @@
           "event-listener-callback",
           "concept-document-encoding",
           "concept-document-mode",
+          "document-custom-element-registry",
           "concept-document-allow-declarative-shadow-roots",
           "concept-document-content-type",
           "concept-document-limited-quirks",
           "concept-node-clone",
+          "clone-a-node-document",
+          "clone-a-node-subtree",
+          "clone-a-node-parent",
+          "clone-a-node-fallbackregistry",
           "concept-node-clone-ext",
           "concept-id",
           "concept-class",
@@ -1391,11 +1413,18 @@
           "concept-range-end",
           "concept-range-bp",
           "concept-create-element",
+          "create-a-document",
+          "create-a-text-node",
+          "create-a-doctype",
+          "create-a-comment-node",
+          "create-a-processing-instruction-node",
+          "create-a-document-fragment",
           "concept-element-interface",
           "concept-element-custom-element-state",
           "concept-element-defined",
           "concept-element-custom",
           "concept-element-namespace-prefix",
+          "element-custom-element-registry",
           "concept-element-custom-element-definition",
           "concept-element-is-value",
           "mutationobserver",
@@ -1406,7 +1435,9 @@
           "abortsignal-aborted",
           "abortcontroller-signal-abort",
           "abortsignal-add",
-          "concept-element-attributes-get-by-name",
+          "valid-attribute-local-name",
+          "valid-element-local-name",
+          "is-a-global-custom-element-registry",
           "concept-document-url",
           "concept-document-origin"
         ]
@@ -1414,14 +1445,22 @@
       "https://domenic.me/": {},
       "https://domfarolino.com/": {},
       "https://drafts.css-houdini.org/css-paint-api/": {},
+      "https://drafts.csswg.org/compositing/": {
+        "anchors": [
+          "ltblendmodegt",
+          "compositemode",
+          "porterduffcompositingoperators_srcover",
+          "porterduffcompositingoperators_src"
+        ]
+      },
       "https://drafts.csswg.org/css-align/": {
         "anchors": [
           "propdef-align-content",
           "propdef-align-items",
           "propdef-align-self",
           "propdef-justify-self",
-          "propdef-propdef-justify-content",
-          "propdef-propdef-justify-items"
+          "propdef-justify-content",
+          "propdef-justify-items"
         ]
       },
       "https://drafts.csswg.org/css-anchor-position/": {
@@ -1429,6 +1468,7 @@
           "implicit-anchor-element"
         ]
       },
+      "https://drafts.csswg.org/css-animations/": {},
       "https://drafts.csswg.org/css-backgrounds/": {
         "anchors": [
           "propdef-background-color",
@@ -1463,6 +1503,7 @@
           "propdef-border-right-color"
         ]
       },
+      "https://drafts.csswg.org/css-box-3/": {},
       "https://drafts.csswg.org/css-box/": {
         "anchors": [
           "content-area",
@@ -1496,6 +1537,12 @@
           "initial-value"
         ]
       },
+      "https://drafts.csswg.org/css-color-4/": {
+        "anchors": [
+          "propdef-color",
+          "propdef-opacity"
+        ]
+      },
       "https://drafts.csswg.org/css-color-5/": {
         "anchors": [
           "valdef-color-profile-rendering-intent-relative-colorimetric"
@@ -1516,7 +1563,9 @@
           "opaque-black",
           "transparent-black",
           "valdef-color-srgb",
+          "valdef-color-srgb-linear",
           "valdef-color-display-p3",
+          "display-p3-linear-space",
           "parse-a-css-color-value",
           "serializing-color-values",
           "color-serialization-html-compatible-serialization-is-requested",
@@ -1533,6 +1582,14 @@
           "containment-layout",
           "content-visibility",
           "propdef-content-visibility"
+        ]
+      },
+      "https://drafts.csswg.org/css-content/": {},
+      "https://drafts.csswg.org/css-device-adapt/": {},
+      "https://drafts.csswg.org/css-display-4/": {
+        "anchors": [
+          "propdef-display",
+          "propdef-visibility"
         ]
       },
       "https://drafts.csswg.org/css-display/": {
@@ -1557,6 +1614,21 @@
       "https://drafts.csswg.org/css-font-loading/": {
         "anchors": [
           "font-source"
+        ]
+      },
+      "https://drafts.csswg.org/css-fonts-4/": {
+        "anchors": [
+          "propdef-font-family",
+          "propdef-font-size",
+          "propdef-font-stretch",
+          "propdef-font-style",
+          "propdef-font-variant",
+          "propdef-font-weight"
+        ]
+      },
+      "https://drafts.csswg.org/css-fonts-5/": {
+        "anchors": [
+          "propdef-font-size-adjust"
         ]
       },
       "https://drafts.csswg.org/css-fonts/": {
@@ -1585,13 +1657,30 @@
           "valdef-font-stretch-ultra-expanded"
         ]
       },
+      "https://drafts.csswg.org/css-forms/": {
+        "anchors": [
+          "picker-pseudo",
+          "checkmark",
+          "selectordef-picker-icon",
+          "typedef-picker-form-control-identifier",
+          "element-with-default-preferred-size"
+        ]
+      },
+      "https://drafts.csswg.org/css-gaps/": {
+        "anchors": [
+          "propdef-gap",
+          "propdef-rule",
+          "propdef-rule-break",
+          "propdef-rule-inset",
+          "propdef-rule-overlap",
+          "propdef-rule-visibility-items"
+        ]
+      },
       "https://drafts.csswg.org/css-grid/": {
         "anchors": [
           "propdef-grid-auto-columns",
           "propdef-grid-auto-flow",
           "propdef-grid-auto-rows",
-          "propdef-grid-column-gap",
-          "propdef-grid-row-gap",
           "propdef-grid-template-areas",
           "propdef-grid-template-columns",
           "propdef-grid-template-rows"
@@ -1611,12 +1700,19 @@
       "https://drafts.csswg.org/css-images/": {
         "anchors": [
           "default-object-size",
+          "default-sizing",
           "concrete-object-size",
           "natural-dimensions",
           "natural-height",
           "natural-width",
-          "the-object-fit",
-          "default-sizing"
+          "the-object-fit"
+        ]
+      },
+      "https://drafts.csswg.org/css-inline-3/": {
+        "anchors": [
+          "propdef-alignment-baseline",
+          "propdef-baseline-shift",
+          "propdef-dominant-baseline"
         ]
       },
       "https://drafts.csswg.org/css-inline/": {
@@ -1682,11 +1778,10 @@
         "anchors": [
           "propdef-column-count",
           "propdef-column-fill",
-          "propdef-column-gap",
-          "propdef-column-rule",
           "propdef-column-width"
         ]
       },
+      "https://drafts.csswg.org/css-overflow-3/": {},
       "https://drafts.csswg.org/css-overflow/": {
         "anchors": [
           "propdef-overflow",
@@ -1747,7 +1842,7 @@
       "https://drafts.csswg.org/css-syntax/": {
         "anchors": [
           "parse-grammar",
-          "conform-classes",
+          "w3c-conformance-classes",
           "parse-a-list-of-component-values",
           "parse-a-comma-separated-list-of-component-values",
           "component-value",
@@ -1765,6 +1860,19 @@
           "table"
         ]
       },
+      "https://drafts.csswg.org/css-text-4/": {
+        "anchors": [
+          "content-language",
+          "propdef-letter-spacing",
+          "propdef-white-space",
+          "propdef-word-spacing"
+        ]
+      },
+      "https://drafts.csswg.org/css-text-decor-4/": {
+        "anchors": [
+          "propdef-text-decoration"
+        ]
+      },
       "https://drafts.csswg.org/css-text/": {
         "anchors": [
           "text-transform-property",
@@ -1774,11 +1882,23 @@
           "propdef-word-spacing"
         ]
       },
+      "https://drafts.csswg.org/css-transforms-1/": {
+        "anchors": [
+          "propdef-transform",
+          "propdef-transform-origin"
+        ]
+      },
       "https://drafts.csswg.org/css-transitions/": {},
+      "https://drafts.csswg.org/css-ui-3/": {
+        "anchors": [
+          "propdef-text-overflow"
+        ]
+      },
       "https://drafts.csswg.org/css-ui-4/": {
         "anchors": [
           "pointer-events-control",
-          "content-selection"
+          "content-selection",
+          "propdef-cursor"
         ]
       },
       "https://drafts.csswg.org/css-ui/": {
@@ -1794,7 +1914,7 @@
           "widget",
           "native-appearance",
           "primitive-appearance",
-          "element-with-default-preferred-size",
+          "base-appearance",
           "non-devolvable",
           "devolvable",
           "devolved"
@@ -1803,6 +1923,11 @@
       "https://drafts.csswg.org/css-values-4/": {
         "anchors": [
           "combine-integers"
+        ]
+      },
+      "https://drafts.csswg.org/css-values-5/": {
+        "anchors": [
+          "funcdef-attr"
         ]
       },
       "https://drafts.csswg.org/css-values/": {
@@ -1814,7 +1939,6 @@
           "in",
           "px",
           "pt",
-          "funcdef-attr",
           "math-function"
         ]
       },
@@ -1832,6 +1956,13 @@
           "activate-view-transition",
           "viewtransition",
           "view-transition-page-visibility-change-steps"
+        ]
+      },
+      "https://drafts.csswg.org/css-writing-modes-4/": {
+        "anchors": [
+          "propdef-direction",
+          "propdef-unicode-bidi",
+          "propdef-writing-mode"
         ]
       },
       "https://drafts.csswg.org/css-writing-modes/": {
@@ -1892,7 +2023,9 @@
           "eventdef-window-resize",
           "eventdef-document-scroll",
           "eventdef-document-scrollend",
-          "set-up-browsing-context-features"
+          "set-up-browsing-context-features",
+          "dom-mouseevent-clientx",
+          "dom-mouseevent-clienty"
         ]
       },
       "https://drafts.csswg.org/cssom/": {
@@ -1929,40 +2062,12 @@
           "fetching-css-style-sheets"
         ]
       },
-      "https://drafts.csswg.org/mediaqueries/": {
-        "anchors": [
-          "typedef-media-condition"
-        ]
-      },
-      "https://drafts.csswg.org/selectors/": {
-        "anchors": [
-          "type-selector",
-          "attribute-selector",
-          "pseudo-class",
-          "the-focus-visible-pseudo",
-          "indicate-focus",
-          "pseudo-element"
-        ]
-      },
-      "https://drafts.csswg.org/web-animations-1/": {
-        "anchors": [
-          "update-animations-and-send-events"
-        ]
-      },
-      "https://drafts.fxtf.org/compositing/": {
-        "anchors": [
-          "ltblendmodegt",
-          "compositemode",
-          "porterduffcompositingoperators_srcover",
-          "porterduffcompositingoperators_src"
-        ]
-      },
-      "https://drafts.fxtf.org/filter-effects/": {
+      "https://drafts.csswg.org/filter-effects/": {
         "anchors": [
           "typedef-filter-value-list"
         ]
       },
-      "https://drafts.fxtf.org/geometry/": {
+      "https://drafts.csswg.org/geometry/": {
         "anchors": [
           "dommatrix",
           "matrix-m11-element",
@@ -1976,7 +2081,49 @@
           "create-a-dommatrix-from-the-dictionary",
           "create-a-dommatrix-from-the-2d-dictionary",
           "dictdef-dompointinit",
+          "dom-dompointinit-x",
+          "dom-dompointinit-y",
           "matrix-multiply"
+        ]
+      },
+      "https://drafts.csswg.org/mediaqueries/": {
+        "anchors": [
+          "typedef-media-condition"
+        ]
+      },
+      "https://drafts.csswg.org/resize-observer-1/": {
+        "anchors": [
+          "gather-active-observations-h",
+          "has-active-observations-h",
+          "has-skipped-observations-h",
+          "broadcast-resize-notifications-h",
+          "deliver-resize-error"
+        ]
+      },
+      "https://drafts.csswg.org/selectors/": {
+        "anchors": [
+          "typedef-selector-list",
+          "parse-a-selector",
+          "selector",
+          "type-selector",
+          "attribute-selector",
+          "pseudo-class",
+          "the-focus-visible-pseudo",
+          "indicate-focus",
+          "pseudo-element",
+          "match-a-selector-against-an-element",
+          "scoping-root"
+        ]
+      },
+      "https://drafts.csswg.org/web-animations-1/": {
+        "anchors": [
+          "update-animations-and-send-events"
+        ]
+      },
+      "https://drafts.fxtf.org/css-masking-1/": {
+        "anchors": [
+          "propdef-clip-path",
+          "propdef-clip-rule"
         ]
       },
       "https://en.wikipedia.org/wiki/Multiple_buffering": {},
@@ -2022,12 +2169,13 @@
         "anchors": [
           "http-origin",
           "abnf",
+          "sec-purpose-header",
           "http-scheme",
           "is-local",
           "local-scheme",
           "fetch-scheme",
           "http-cors-protocol",
-          "default-user-agent-value",
+          "environment-default-user-agent-value",
           "concept-header-extract-mime-type",
           "legacy-extract-an-encoding",
           "concept-fetch",
@@ -2063,6 +2211,11 @@
           "byte-sequence-as-a-body",
           "response-body-info",
           "resolve-an-origin",
+          "credentials",
+          "reserve-deferred-fetch-quota",
+          "potentially-free-deferred-fetch-quota",
+          "is-offline",
+          "navigation-tao-check",
           "concept-response",
           "concept-response-type",
           "concept-response-url",
@@ -2075,7 +2228,7 @@
           "concept-response-location-url",
           "concept-response-timing-info",
           "response-service-worker-timing-info",
-          "response-has-cross-origin-redirects",
+          "response-redirect-taint",
           "concept-response-timing-allow-passed",
           "concept-request",
           "concept-request-url",
@@ -2095,7 +2248,6 @@
           "request-priority",
           "concept-request-origin",
           "concept-request-referrer",
-          "synchronous-flag",
           "concept-request-mode",
           "concept-request-credentials-mode",
           "concept-request-use-url-credentials-flag",
@@ -2113,7 +2265,11 @@
           "request-user-activation",
           "request-render-blocking",
           "request-initiator-type",
+          "request-service-workers-mode",
+          "concept-request-window",
+          "request-top-level-navigation-initiator-origin",
           "concept-request-add-range-header",
+          "destination-type",
           "fetch-timing-info",
           "fetch-timing-info-start-time",
           "fetch-timing-info-end-time"
@@ -2134,6 +2290,8 @@
       "https://github.com/WICG/close-watcher": {},
       "https://github.com/WICG/import-maps": {},
       "https://github.com/WICG/import-maps/issues/235": {},
+      "https://github.com/WICG/nav-speculation": {},
+      "https://github.com/WICG/nav-speculation/issues/348": {},
       "https://github.com/WICG/navigation-api": {},
       "https://github.com/annevk/orb": {},
       "https://github.com/dewitt/opensearch/blob/master/opensearch-1-1-draft-6.md": {
@@ -2141,6 +2299,7 @@
           "autodiscovery-in-htmlxhtml"
         ]
       },
+      "https://github.com/google/security-research-pocs/tree/master/script-gadgets": {},
       "https://github.com/rocallahan/innerText-spec": {},
       "https://github.com/stevenrskelton/flag-icon": {},
       "https://github.com/tc39/ecma262/issues/672": {},
@@ -2155,6 +2314,7 @@
       "https://github.com/w3c/webappsec-permissions-policy/issues/207": {},
       "https://github.com/w3c/webappsec-subresource-integrity/issues/116": {},
       "https://github.com/w3c/webcomponents": {},
+      "https://github.com/whatwg/dom/issues/1328": {},
       "https://github.com/whatwg/html": {},
       "https://github.com/whatwg/html/blob/main/FAQ.md": {
         "anchors": [
@@ -2162,16 +2322,18 @@
         ]
       },
       "https://github.com/whatwg/html/issues/1013": {},
+      "https://github.com/whatwg/html/issues/10276": {},
       "https://github.com/whatwg/html/issues/10516": {},
       "https://github.com/whatwg/html/issues/10526": {},
       "https://github.com/whatwg/html/issues/10842": {},
       "https://github.com/whatwg/html/issues/10848": {},
       "https://github.com/whatwg/html/issues/10849": {},
       "https://github.com/whatwg/html/issues/10850": {},
+      "https://github.com/whatwg/html/issues/11123": {},
       "https://github.com/whatwg/html/issues/1142": {},
+      "https://github.com/whatwg/html/issues/12318": {},
       "https://github.com/whatwg/html/issues/1430": {},
       "https://github.com/whatwg/html/issues/1431": {},
-      "https://github.com/whatwg/html/issues/1918": {},
       "https://github.com/whatwg/html/issues/2369": {},
       "https://github.com/whatwg/html/issues/2900": {},
       "https://github.com/whatwg/html/issues/2997": {},
@@ -2198,6 +2360,7 @@
       "https://github.com/whatwg/html/issues/968": {},
       "https://github.com/whatwg/html/issues/9715": {},
       "https://github.com/whatwg/html/labels/topic%3A%20javascript%3A%20URLs": {},
+      "https://github.com/whatwg/infra/issues/664": {},
       "https://github.com/whatwg/meta-theme-color": {},
       "https://github.com/whatwg/webidl/issues/135": {},
       "https://github.com/whatwg/webidl/issues/371": {},
@@ -2210,6 +2373,15 @@
         ]
       },
       "https://graphviz.org/doc/info/lang.html": {},
+      "https://httpwg.org/http-extensions/draft-ietf-httpbis-no-vary-search.html": {
+        "anchors": [
+          "name-http-header-field-definitio",
+          "parse-a-url-search-variance",
+          "name-data-model",
+          "name-comparing",
+          "section-6"
+        ]
+      },
       "https://httpwg.org/specs/rfc6265.html": {
         "anchors": [
           "sane-cookie-syntax",
@@ -2263,8 +2435,10 @@
       "https://httpwg.org/specs/rfc8941.html": {
         "anchors": [
           "boolean",
-          "token",
-          "param"
+          "list",
+          "param",
+          "string",
+          "token"
         ]
       },
       "https://immersive-web.github.io/webxr/": {
@@ -2290,6 +2464,7 @@
           "iteration-while",
           "iteration-continue",
           "iteration-break",
+          "willful-violation",
           "code-point",
           "surrogate",
           "scalar-value",
@@ -2337,6 +2512,7 @@
           "map-exists",
           "map-get",
           "map-set",
+          "map-with-default",
           "map-remove",
           "map-clear",
           "map-getting-the-keys",
@@ -2345,6 +2521,7 @@
           "map-size",
           "map-iterate",
           "list-extend",
+          "list-has-duplicates",
           "list-prepend",
           "list-replace",
           "list-remove",
@@ -2357,15 +2534,25 @@
           "list-clone",
           "list-sort-in-ascending-order",
           "list-sort-in-descending-order",
+          "list-slice",
+          "list-slice-from",
+          "list-slice-to",
+          "list-reverse",
           "stack",
           "stack-push",
           "stack-pop",
           "ordered-set",
           "set-append",
+          "set-create",
+          "set-difference",
+          "set-intersection",
+          "set-subset",
           "set-union",
           "struct",
           "struct-item",
           "byte-sequence",
+          "allowed",
+          "blocked",
           "forgiving-base64-encode",
           "forgiving-base64-decode",
           "the-exclusive-range",
@@ -2375,6 +2562,7 @@
           "xlink-namespace",
           "xml-namespace",
           "xmlns-namespace",
+          "success",
           "algorithm-limits"
         ]
       },
@@ -2419,6 +2607,7 @@
       "https://spec.whatwg.org/": {},
       "https://storage.spec.whatwg.org/": {
         "anchors": [
+          "storage-key",
           "obtain-a-local-storage-bottle-map",
           "obtain-a-session-storage-bottle-map",
           "obtain-a-storage-key-for-non-storage-purposes",
@@ -2428,36 +2617,58 @@
         ]
       },
       "https://svgwg.org/svg2-draft/": {},
+      "https://svgwg.org/svg2-draft/coords.html": {
+        "anchors": [
+          "VectorEffectProperty"
+        ]
+      },
       "https://svgwg.org/svg2-draft/embedded.html": {
         "anchors": [
-          "InterfaceSVGImageElement",
-          "ForeignObjectElement",
-          "ImageElement"
+          "InterfaceSVGImageElement"
         ]
       },
       "https://svgwg.org/svg2-draft/interact.html": {
         "anchors": [
           "InterfaceSVGScriptElement",
-          "ScriptElement"
-        ]
-      },
-      "https://svgwg.org/svg2-draft/linking.html": {
-        "anchors": [
-          "AElement"
+          "PointerEventsProperty"
         ]
       },
       "https://svgwg.org/svg2-draft/painting.html": {
         "anchors": [
-          "TextRendering"
+          "TextRendering",
+          "ColorInterpolationProperty",
+          "FillProperty",
+          "FillOpacityProperty",
+          "FillRuleProperty",
+          "MarkerEndProperty",
+          "MarkerMidProperty",
+          "MarkerStartProperty",
+          "PaintOrderProperty",
+          "ShapeRenderingProperty",
+          "StrokeProperty",
+          "StrokeDasharrayProperty",
+          "StrokeDashoffsetProperty",
+          "StrokeLinecapProperty",
+          "StrokeLinejoinProperty",
+          "StrokeMiterlimitProperty",
+          "StrokeOpacityProperty",
+          "StrokeWidthProperty"
+        ]
+      },
+      "https://svgwg.org/svg2-draft/pservers.html": {
+        "anchors": [
+          "StopColorProperty",
+          "StopOpacityProperty"
         ]
       },
       "https://svgwg.org/svg2-draft/struct.html": {
         "anchors": [
-          "InterfaceSVGSVGElement",
-          "DescElement",
-          "SVGElement",
-          "TitleElement",
-          "UseElement"
+          "InterfaceSVGSVGElement"
+        ]
+      },
+      "https://svgwg.org/svg2-draft/text.html": {
+        "anchors": [
+          "TextAnchorProperty"
         ]
       },
       "https://svgwg.org/svg2-draft/types.html": {
@@ -2494,7 +2705,6 @@
           "sec-properties-of-the-array-prototype-object",
           "sec-properties-of-the-error-prototype-object",
           "sec-properties-of-the-function-prototype-object",
-          "sec-json.parse",
           "sec-properties-of-the-object-prototype-object",
           "sec-object.prototype.valueof",
           "prod-FunctionBody",
@@ -2510,7 +2720,9 @@
           "sec-completion-record-specification-type",
           "sec-list-and-record-specification-type",
           "sec-property-descriptor-specification-type",
+          "modulerequest-record",
           "sec-script-records",
+          "sec-synthetic-module-records",
           "sec-cyclic-module-records",
           "sec-source-text-module-records",
           "sec-moduleevaluation",
@@ -2525,6 +2737,7 @@
           "sec-createbuiltinfunction",
           "sec-createbytedatablock",
           "sec-createdataproperty",
+          "sec-create-default-export-synthetic-module",
           "sec-definepropertyorthrow",
           "sec-detacharraybuffer",
           "sec-enumerableownproperties",
@@ -2540,9 +2753,12 @@
           "sec-hostenqueuepromisejob",
           "sec-hostenqueuetimeoutjob",
           "sec-hostensurecanaddprivateelement",
+          "sec-hostgetsupportedimportattributes",
+          "sec-HostLoadImportedModule",
           "sec-hostmakejobcallback",
           "sec-host-promise-rejection-tracker",
           "sec-initializehostdefinedrealm",
+          "sec-isarraybufferviewoutofbounds",
           "sec-isaccessordescriptor",
           "sec-iscallable",
           "sec-isconstructor",
@@ -2562,6 +2778,7 @@
           "sec-ordinarydelete",
           "sec-ordinaryownpropertykeys",
           "sec-objectcreate",
+          "sec-parse-json-module",
           "sec-parsemodule",
           "sec-parse-script",
           "sec-newpromisereactionjob",
@@ -2571,7 +2788,9 @@
           "sec-runjobs",
           "sec-samevalue",
           "sec-runtime-semantics-scriptevaluation",
+          "sec-setsyntheticmoduleexport",
           "sec-set-immutable-prototype",
+          "sec-throwcompletion",
           "sec-toboolean",
           "sec-tostring",
           "sec-touint32",
@@ -2603,25 +2822,11 @@
           "sec-hostgetcodeforeval"
         ]
       },
+      "https://tc39.es/proposal-error-stack-accessor/": {},
       "https://tc39.es/proposal-error-stacks/": {},
-      "https://tc39.es/proposal-import-attributes/": {
+      "https://tc39.es/proposal-import-text/": {
         "anchors": [
-          "sec-HostLoadImportedModule",
-          "sec-modulerequest-record",
-          "sec-hostgetsupportedimportattributes"
-        ]
-      },
-      "https://tc39.es/proposal-json-modules/": {
-        "anchors": [
-          "sec-create-default-export-synthetic-module",
-          "sec-setsyntheticmoduleexport",
-          "sec-synthetic-module-records",
-          "sec-parse-json-module"
-        ]
-      },
-      "https://tc39.es/proposal-resizablearraybuffer/": {
-        "anchors": [
-          "sec-isarraybufferviewoutofbounds"
+          "sec-create-text-module"
         ]
       },
       "https://tc39.es/proposal-temporal/": {
@@ -2686,6 +2891,15 @@
           "warning-avoid-psl"
         ]
       },
+      "https://urlpattern.spec.whatwg.org/": {
+        "anchors": [
+          "url-pattern",
+          "url-pattern-match",
+          "build-a-url-pattern-from-an-infra-value",
+          "parse-a-constructor-string",
+          "dictdef-urlpatterninit"
+        ]
+      },
       "https://w3c.github.io/DOM-Parsing/": {
         "anchors": [
           "dfn-xml-serialization"
@@ -2693,7 +2907,7 @@
       },
       "https://w3c.github.io/FileAPI/": {
         "anchors": [
-          "DefinitionOfScheme",
+          "blob-url",
           "dfn-Blob",
           "dfn-type",
           "dfn-file",
@@ -2732,11 +2946,17 @@
           "on-fetch-request-algorithm",
           "scope-match-algorithm",
           "dfn-service-worker",
+          "dfn-service-worker-client",
           "serviceworkercontainer-service-worker-client",
           "serviceworker",
           "serviceworkercontainer",
           "serviceworkerglobalscope",
           "cache"
+        ]
+      },
+      "https://w3c.github.io/accname/": {
+        "anchors": [
+          "dfn-accessible-name"
         ]
       },
       "https://w3c.github.io/aria/": {
@@ -2747,17 +2967,19 @@
           "aria-describedby",
           "aria-disabled",
           "aria-label",
+          "aria-level",
           "dfn-role",
-          "dfn-accessible-name",
           "ARIAMixin",
           "dfn-ariamixin-getter-steps",
           "dfn-ariamixin-setter-steps",
+          "idl-def-ariamixin-role",
+          "idl-def-ariamixin-ariaactivedescendantelement",
           "menu"
         ]
       },
       "https://w3c.github.io/battery/": {
         "anchors": [
-          "widl-Navigator-getBattery-Promise-BatteryManager"
+          "dom-navigator-getbattery"
         ]
       },
       "https://w3c.github.io/charmod-norm/": {},
@@ -2769,55 +2991,7 @@
         ]
       },
       "https://w3c.github.io/compute-pressure/": {},
-      "https://w3c.github.io/csswg-drafts/css-align/": {},
-      "https://w3c.github.io/csswg-drafts/css-animations/": {},
-      "https://w3c.github.io/csswg-drafts/css-backgrounds/": {},
-      "https://w3c.github.io/csswg-drafts/css-box-3/": {},
-      "https://w3c.github.io/csswg-drafts/css-cascade/": {},
-      "https://w3c.github.io/csswg-drafts/css-color-adjust/": {},
-      "https://w3c.github.io/csswg-drafts/css-color/": {},
-      "https://w3c.github.io/csswg-drafts/css-contain/": {},
-      "https://w3c.github.io/csswg-drafts/css-content/": {},
-      "https://w3c.github.io/csswg-drafts/css-device-adapt/": {},
-      "https://w3c.github.io/csswg-drafts/css-display/": {},
-      "https://w3c.github.io/csswg-drafts/css-flexbox/": {},
-      "https://w3c.github.io/csswg-drafts/css-font-loading/": {},
-      "https://w3c.github.io/csswg-drafts/css-fonts/": {},
-      "https://w3c.github.io/csswg-drafts/css-grid/": {},
-      "https://w3c.github.io/csswg-drafts/css-images-4/": {},
-      "https://w3c.github.io/csswg-drafts/css-images/": {},
-      "https://w3c.github.io/csswg-drafts/css-inline/": {},
-      "https://w3c.github.io/csswg-drafts/css-lists/": {},
-      "https://w3c.github.io/csswg-drafts/css-logical/": {},
-      "https://w3c.github.io/csswg-drafts/css-multicol/": {},
-      "https://w3c.github.io/csswg-drafts/css-overflow-3/": {},
-      "https://w3c.github.io/csswg-drafts/css-position/": {},
-      "https://w3c.github.io/csswg-drafts/css-pseudo/": {},
-      "https://w3c.github.io/csswg-drafts/css-ruby/": {},
-      "https://w3c.github.io/csswg-drafts/css-scoping/": {},
-      "https://w3c.github.io/csswg-drafts/css-sizing/": {},
-      "https://w3c.github.io/csswg-drafts/css-style-attr/": {},
-      "https://w3c.github.io/csswg-drafts/css-syntax/": {},
-      "https://w3c.github.io/csswg-drafts/css-tables/": {},
-      "https://w3c.github.io/csswg-drafts/css-text/": {},
-      "https://w3c.github.io/csswg-drafts/css-ui/": {},
-      "https://w3c.github.io/csswg-drafts/css-values/": {},
-      "https://w3c.github.io/csswg-drafts/css-writing-modes/": {},
-      "https://w3c.github.io/csswg-drafts/css2/": {},
-      "https://w3c.github.io/csswg-drafts/cssom-view/": {},
-      "https://w3c.github.io/csswg-drafts/cssom/": {},
-      "https://w3c.github.io/csswg-drafts/mediaqueries/": {},
-      "https://w3c.github.io/csswg-drafts/resize-observer-1/": {
-        "anchors": [
-          "gather-active-observations-h",
-          "has-active-observations-h",
-          "has-skipped-observations-h",
-          "broadcast-resize-notifications-h",
-          "deliver-resize-error"
-        ]
-      },
-      "https://w3c.github.io/csswg-drafts/selectors/": {},
-      "https://w3c.github.io/csswg-drafts/web-animations-1/": {},
+      "https://w3c.github.io/csswg-drafts/css-forms/": {},
       "https://w3c.github.io/device-posture/": {},
       "https://w3c.github.io/editing/docs/execCommand/": {
         "anchors": [
@@ -2975,6 +3149,7 @@
           "el-meter",
           "el-fieldset",
           "el-legend",
+          "el-selectedcontent",
           "el-details",
           "el-summary",
           "el-dialog",
@@ -3113,6 +3288,7 @@
           "el-meter",
           "el-fieldset",
           "el-legend",
+          "el-selectedcontent",
           "el-details",
           "el-summary",
           "el-dialog",
@@ -3152,14 +3328,59 @@
       },
       "https://w3c.github.io/mathml-core/": {
         "anchors": [
+          "dfn-a",
           "dfn-annotation-xml",
           "the-top-level-math-element",
           "error-message-merror",
+          "dfn-mfrac",
           "the-mi-element",
+          "dfn-mmultiscripts",
           "number-mn",
           "operator-fence-separator-or-accent-mo",
+          "dfn-mover",
+          "dfn-mpadded",
+          "dfn-mphantom",
+          "dfn-mprescripts",
+          "dfn-mroot",
+          "dfn-mrow",
           "string-literal-ms",
-          "text-mtext"
+          "dfn-mspace",
+          "dfn-msqrt",
+          "dfn-mstyle",
+          "dfn-msub",
+          "dfn-msubsup",
+          "dfn-msup",
+          "dfn-mtable",
+          "dfn-mtd",
+          "text-mtext",
+          "dfn-mtr",
+          "dfn-munder",
+          "dfn-munderover",
+          "dfn-semantics",
+          "dfn-accent",
+          "dfn-accentunder",
+          "dfn-columnspan",
+          "dfn-depth",
+          "dfn-fence",
+          "dfn-form",
+          "dfn-height",
+          "dfn-largeop",
+          "dfn-lspace",
+          "dfn-maxsize",
+          "dfn-minsize",
+          "dfn-movablelimits",
+          "dfn-rowspan",
+          "dfn-rspace",
+          "dfn-separator",
+          "dfn-stretchy",
+          "dfn-symmetric",
+          "dfn-voffset",
+          "dfn-width",
+          "dfn-displaystyle",
+          "dfn-mathbackground",
+          "dfn-mathcolor",
+          "dfn-mathsize",
+          "dfn-scriptlevel"
         ]
       },
       "https://w3c.github.io/media-source/": {
@@ -3213,12 +3434,27 @@
       },
       "https://w3c.github.io/pointerevents/": {
         "anchors": [
+          "dom-mouseevent",
+          "dom-mouseevent-relatedtarget",
+          "dom-mouseevent-button",
+          "dom-mouseeventinit",
           "pointerevent-interface",
           "dom-pointerevent-pointertype",
           "dfn-fire-a-pointer-event",
+          "auxclick",
+          "click",
+          "dblclick",
+          "mousedown",
+          "mouseenter",
+          "mouseleave",
+          "mousemove",
+          "mouseout",
+          "mouseover",
+          "mouseup",
           "the-pointerdown-event",
           "the-pointerup-event",
-          "the-pointercancel-event"
+          "the-pointercancel-event",
+          "wheel"
         ]
       },
       "https://w3c.github.io/pointerlock/": {},
@@ -3263,6 +3499,117 @@
           "navigator-service-worker-unregister"
         ]
       },
+      "https://w3c.github.io/svgwg/specs/animations/": {
+        "anchors": [
+          "AttributeNameAttribute"
+        ]
+      },
+      "https://w3c.github.io/svgwg/svg2-draft/animate.html": {
+        "anchors": [
+          "elementdef-animate",
+          "elementdef-animateTransform",
+          "elementdef-set"
+        ]
+      },
+      "https://w3c.github.io/svgwg/svg2-draft/coords.html": {
+        "anchors": [
+          "PreserveAspectRatioAttribute",
+          "ViewBoxAttribute"
+        ]
+      },
+      "https://w3c.github.io/svgwg/svg2-draft/embedded.html": {
+        "anchors": [
+          "elementdef-foreignObject",
+          "elementdef-image"
+        ]
+      },
+      "https://w3c.github.io/svgwg/svg2-draft/geometry.html": {
+        "anchors": [
+          "CxProperty",
+          "CyProperty",
+          "HeightProperty",
+          "RProperty",
+          "RxProperty",
+          "RyProperty",
+          "WidthProperty",
+          "XProperty",
+          "YProperty"
+        ]
+      },
+      "https://w3c.github.io/svgwg/svg2-draft/interact.html": {
+        "anchors": [
+          "elementdef-script"
+        ]
+      },
+      "https://w3c.github.io/svgwg/svg2-draft/linking.html": {
+        "anchors": [
+          "elementdef-a",
+          "AElementHrefAttribute",
+          "AElementHreflangAttribute",
+          "AElementTypeAttribute"
+        ]
+      },
+      "https://w3c.github.io/svgwg/svg2-draft/painting.html": {
+        "anchors": [
+          "elementdef-marker",
+          "MarkerHeightAttribute",
+          "MarkerUnitsAttribute",
+          "MarkerWidthAttribute",
+          "OrientAttribute",
+          "MarkerElementRefXAttribute",
+          "MarkerElementRefYAttribute"
+        ]
+      },
+      "https://w3c.github.io/svgwg/svg2-draft/paths.html": {
+        "anchors": [
+          "elementdef-path",
+          "DProperty",
+          "PathLengthAttribute"
+        ]
+      },
+      "https://w3c.github.io/svgwg/svg2-draft/shapes.html": {
+        "anchors": [
+          "elementdef-circle",
+          "elementdef-ellipse",
+          "elementdef-line",
+          "elementdef-polygon",
+          "elementdef-polyline",
+          "elementdef-rect",
+          "PointsAttribute",
+          "LineElementX1Attribute",
+          "LineElementX2Attribute",
+          "LineElementY1Attribute",
+          "LineElementY2Attribute"
+        ]
+      },
+      "https://w3c.github.io/svgwg/svg2-draft/struct.html": {
+        "anchors": [
+          "elementdef-defs",
+          "elementdef-desc",
+          "elementdef-g",
+          "elementdef-metadata",
+          "elementdef-svg",
+          "elementdef-title",
+          "elementdef-use"
+        ]
+      },
+      "https://w3c.github.io/svgwg/svg2-draft/text.html": {
+        "anchors": [
+          "elementdef-text",
+          "elementdef-textPath",
+          "elementdef-tspan",
+          "TextElementDXAttribute",
+          "TextElementDYAttribute",
+          "TextElementLengthAdjustAttribute",
+          "TextPathElementMethodAttribute",
+          "TextPathElementPathAttribute",
+          "TextElementRotateAttribute",
+          "TextPathElementSideAttribute",
+          "TextPathElementSpacingAttribute",
+          "TextPathElementStartOffsetAttribute",
+          "TextElementTextLengthAttribute"
+        ]
+      },
       "https://w3c.github.io/touch-events/": {
         "anchors": [
           "touch-interface",
@@ -3277,32 +3624,18 @@
           "trusted-script",
           "trustedscript-data",
           "trustedscripturl",
-          "get-trusted-type-compliant-string-algorithm"
+          "get-trusted-type-compliant-string"
         ]
       },
       "https://w3c.github.io/uievents/": {
         "anchors": [
-          "mouseevent",
-          "dom-mouseevent-relatedtarget",
-          "dictdef-mouseeventinit",
           "focusevent",
           "dom-focusevent-relatedtarget",
           "uievent",
           "dom-uievent-view",
-          "event-type-auxclick",
           "event-type-beforeinput",
-          "event-type-click",
           "event-type-contextmenu",
-          "event-type-dblclick",
           "event-type-input",
-          "event-type-mousedown",
-          "event-type-mouseenter",
-          "event-type-mouseleave",
-          "event-type-mousemove",
-          "event-type-mouseout",
-          "event-type-mouseover",
-          "event-type-mouseup",
-          "event-type-wheel",
           "event-type-keydown",
           "event-type-keypress",
           "event-type-keyup",
@@ -3365,13 +3698,14 @@
           "create-for-navigable",
           "create-from-response",
           "is-feature-enabled",
-          "process-permissions-policy-attributes"
+          "process-policy-attributes"
         ]
       },
       "https://w3c.github.io/webappsec-fetch-metadata/": {},
       "https://w3c.github.io/webappsec-mixed-content/": {
         "anchors": [
-          "a-priori-authenticated-url"
+          "a-priori-authenticated-url",
+          "mixed-content"
         ]
       },
       "https://w3c.github.io/webappsec-referrer-policy/": {
@@ -3395,7 +3729,9 @@
         "anchors": [
           "parse-metadata",
           "the-integrity-attribute",
-          "get-the-strongest-metadata"
+          "get-the-strongest-metadata",
+          "integrity-policy",
+          "parse-integrity-policy-headers"
         ]
       },
       "https://w3c.github.io/webauthn": {},
@@ -3423,13 +3759,20 @@
           "navigation-status-id",
           "navigation-status-status",
           "navigation-status-canceled",
+          "navigation-status-committed",
           "navigation-status-pending",
           "navigation-status-complete",
           "navigation-status-url",
-          "webdriver-bidi-navigation-started",
+          "navigation-status-suggested-filename",
+          "download-behavior-struct-allowed",
+          "download-behavior-struct-destination-folder",
+          "navigation-status-downloaded-filepath",
           "webdriver-bidi-navigation-aborted",
+          "webdriver-bidi-navigation-committed",
           "webdriver-bidi-navigation-failed",
-          "webdriver-bidi-download-started",
+          "webdriver-bidi-navigation-started",
+          "webdriver-bidi-download-end",
+          "webdriver-bidi-download-will-begin",
           "webdriver-bidi-fragment-navigated",
           "webdriver-bidi-dom-content-loaded",
           "webdriver-bidi-load-complete",
@@ -3437,7 +3780,12 @@
           "webdriver-bidi-navigable-created",
           "webdriver-bidi-navigable-destroyed",
           "webdriver-bidi-user-prompt-closed",
-          "webdriver-bidi-user-prompt-opened"
+          "webdriver-bidi-user-prompt-opened",
+          "webdriver-bidi-file-dialog-opened",
+          "webdriver-bidi-emulated-language",
+          "webdriver-bidi-scripting-is-enabled",
+          "command-script-evaluate",
+          "commands-scriptevaluate"
         ]
       },
       "https://w3c.github.io/webdriver/": {
@@ -3468,7 +3816,7 @@
       "https://w3c.github.io/webvtt/": {
         "anchors": [
           "webvtt-file",
-          "webvtt-file-using-cue-text",
+          "webvtt-file-using-caption-or-subtitle-cue-text",
           "webvtt-file-using-only-nested-cues",
           "webvtt-parser",
           "rules-for-updating-the-display-of-webvtt-text-tracks",
@@ -3503,6 +3851,7 @@
           "overridden-constructor-steps",
           "internally-create-a-new-object-implementing-the-interface",
           "dfn-array-index-property-name",
+          "buffersource-byte-length",
           "dfn-support-indexed-properties",
           "dfn-supported-property-indices",
           "dfn-determine-the-value-of-an-indexed-property",
@@ -3559,6 +3908,7 @@
           "idl-DOMString",
           "idl-double",
           "idl-enums",
+          "idl-Float16Array",
           "common-Function",
           "idl-long",
           "idl-object",
@@ -3568,6 +3918,7 @@
           "idl-unsigned-long",
           "idl-USVString",
           "VoidFunction",
+          "quotaexceedederror",
           "dfn-throw",
           "dfn-DOMException",
           "indexsizeerror",
@@ -3582,7 +3933,6 @@
           "securityerror",
           "networkerror",
           "aborterror",
-          "quotaexceedederror",
           "datacloneerror",
           "encodingerror",
           "notallowederror"
@@ -3620,6 +3970,23 @@
           "dom-keyboard-lock"
         ]
       },
+      "https://wicg.github.io/nav-speculation/prefetch.html": {
+        "anchors": [
+          "start-a-referrer-initiated-navigational-prefetch",
+          "document-prefetch-records",
+          "prefetch-record-source",
+          "prefetch-record-state",
+          "prefetch-record-still-being-speculated",
+          "prefetch-record-cancel-and-discard",
+          "prefetch-record",
+          "prefetch-record-url",
+          "prefetch-record-no-vary-search-hint",
+          "prefetch-record-referrer-policy",
+          "prefetch-record-anonymization-policy",
+          "prefetch-record-tags"
+        ]
+      },
+      "https://wicg.github.io/nav-speculation/prerendering.html": {},
       "https://wicg.github.io/periodic-background-sync/": {
         "anchors": [
           "periodicsyncmanager",
@@ -3647,6 +4014,7 @@
           "requestdevice-method"
         ]
       },
+      "https://wicg.io/": {},
       "https://wiki.mozilla.org/APNG_Specification": {},
       "https://wiki.whatwg.org/": {},
       "https://wiki.whatwg.org/wiki/DOM_XSLTProcessor": {},
@@ -3816,16 +4184,17 @@
       "https://www.w3.org/TR/xml/": {
         "anchors": [
           "sec-lang-tag",
-          "NT-Name",
           "sec-white-space",
+          "NT-Name",
           "AVNormalize",
-          "sec-notation",
+          "sec-pi",
           "dt-entref",
           "sec-entity-decl",
           "sec-well-formed",
           "wf-entities"
         ]
       },
+      "https://www.w3.org/WAI/ARIA/apg/patterns/combobox/examples/combobox-select-only/": {},
       "https://www.w3.org/WebPlatform/WG/": {},
       "https://www.w3.org/blog/news/archives/7753": {},
       "https://www.w3.org/community/respimg/": {},

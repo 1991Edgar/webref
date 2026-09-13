@@ -21,7 +21,8 @@
         "title": "Compliance with other specifications",
         "number": "2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "user-agent",
@@ -40,7 +41,8 @@
         "title": "Terminology",
         "number": "2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "implementation",
@@ -59,7 +61,8 @@
         "title": "Terminology",
         "number": "2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "implementation-defined",
@@ -78,7 +81,8 @@
         "title": "Terminology",
         "number": "2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "tracking-vector",
@@ -97,7 +101,8 @@
         "title": "Privacy concerns",
         "number": "2.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "example-navigate-algo-positional",
@@ -116,7 +121,8 @@
         "title": "Parameters",
         "number": "3.4"
       },
-      "definedIn": "example"
+      "definedIn": "example",
+      "links": []
     },
     {
       "id": "example-navigate-algo-named",
@@ -135,7 +141,8 @@
         "title": "Parameters",
         "number": "3.4"
       },
-      "definedIn": "example"
+      "definedIn": "example",
+      "links": []
     },
     {
       "id": "example-navigate-algo-navigationType",
@@ -154,7 +161,8 @@
         "title": "Parameters",
         "number": "3.4"
       },
-      "definedIn": "example"
+      "definedIn": "example",
+      "links": []
     },
     {
       "id": "example-navigate-algo-exceptionsEnabled",
@@ -173,7 +181,8 @@
         "title": "Parameters",
         "number": "3.4"
       },
-      "definedIn": "example"
+      "definedIn": "example",
+      "links": []
     },
     {
       "id": "abort-when",
@@ -192,7 +201,8 @@
         "title": "Conditional abort",
         "number": "3.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "if-aborted",
@@ -211,7 +221,8 @@
         "title": "Conditional abort",
         "number": "3.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "iteration-while",
@@ -232,7 +243,8 @@
         "title": "Iteration",
         "number": "3.9"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "iteration-continue",
@@ -253,7 +265,8 @@
         "title": "Iteration",
         "number": "3.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "iteration-break",
@@ -274,7 +287,8 @@
         "title": "Iteration",
         "number": "3.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "assert",
@@ -293,7 +307,8 @@
         "title": "Assertions",
         "number": "3.10"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "boolean",
@@ -312,7 +327,8 @@
         "title": "Booleans",
         "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "8-bit-unsigned-integer",
@@ -331,7 +347,8 @@
         "title": "Numbers",
         "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "16-bit-unsigned-integer",
@@ -350,7 +367,8 @@
         "title": "Numbers",
         "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "32-bit-unsigned-integer",
@@ -369,7 +387,8 @@
         "title": "Numbers",
         "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "64-bit-unsigned-integer",
@@ -388,7 +407,8 @@
         "title": "Numbers",
         "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "128-bit-unsigned-integer",
@@ -407,7 +427,8 @@
         "title": "Numbers",
         "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "8-bit-signed-integer",
@@ -426,7 +447,8 @@
         "title": "Numbers",
         "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "16-bit-signed-integer",
@@ -445,7 +467,8 @@
         "title": "Numbers",
         "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "32-bit-signed-integer",
@@ -464,7 +487,8 @@
         "title": "Numbers",
         "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "64-bit-signed-integer",
@@ -483,7 +507,8 @@
         "title": "Numbers",
         "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "byte",
@@ -502,7 +527,8 @@
         "title": "Bytes",
         "number": "4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "byte-value",
@@ -523,7 +549,8 @@
         "title": "Bytes",
         "number": "4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "ascii-byte",
@@ -542,7 +569,8 @@
         "title": "Bytes",
         "number": "4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "byte-sequence",
@@ -561,7 +589,8 @@
         "title": "Byte sequences",
         "number": "4.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "byte-sequence-length",
@@ -582,7 +611,8 @@
         "title": "Byte sequences",
         "number": "4.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "byte-lowercase",
@@ -601,7 +631,8 @@
         "title": "Byte sequences",
         "number": "4.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "byte-uppercase",
@@ -620,7 +651,8 @@
         "title": "Byte sequences",
         "number": "4.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "byte-case-insensitive",
@@ -639,7 +671,8 @@
         "title": "Byte sequences",
         "number": "4.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "byte-sequence-prefix",
@@ -660,7 +693,8 @@
         "title": "Byte sequences",
         "number": "4.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "byte-sequence-starts-with",
@@ -682,7 +716,8 @@
         "title": "Byte sequences",
         "number": "4.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "byte-less-than",
@@ -701,7 +736,8 @@
         "title": "Byte sequences",
         "number": "4.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "isomorphic-decode",
@@ -720,7 +756,8 @@
         "title": "Byte sequences",
         "number": "4.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "code-point",
@@ -740,7 +777,8 @@
         "title": "Code points",
         "number": "4.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "code-point-value",
@@ -761,7 +799,8 @@
         "title": "Code points",
         "number": "4.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "leading-surrogate",
@@ -780,7 +819,8 @@
         "title": "Code points",
         "number": "4.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "trailing-surrogate",
@@ -799,7 +839,8 @@
         "title": "Code points",
         "number": "4.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "surrogate",
@@ -818,7 +859,8 @@
         "title": "Code points",
         "number": "4.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "scalar-value",
@@ -837,7 +879,8 @@
         "title": "Code points",
         "number": "4.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "noncharacter",
@@ -856,7 +899,8 @@
         "title": "Code points",
         "number": "4.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "ascii-code-point",
@@ -875,7 +919,8 @@
         "title": "Code points",
         "number": "4.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "ascii-tab-or-newline",
@@ -895,7 +940,8 @@
         "title": "Code points",
         "number": "4.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "ascii-whitespace",
@@ -914,7 +960,8 @@
         "title": "Code points",
         "number": "4.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "c0-control",
@@ -933,7 +980,8 @@
         "title": "Code points",
         "number": "4.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "c0-control-or-space",
@@ -953,7 +1001,8 @@
         "title": "Code points",
         "number": "4.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "control",
@@ -972,7 +1021,8 @@
         "title": "Code points",
         "number": "4.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "ascii-digit",
@@ -991,7 +1041,8 @@
         "title": "Code points",
         "number": "4.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "ascii-upper-hex-digit",
@@ -1010,7 +1061,8 @@
         "title": "Code points",
         "number": "4.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "ascii-lower-hex-digit",
@@ -1029,7 +1081,8 @@
         "title": "Code points",
         "number": "4.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "ascii-hex-digit",
@@ -1048,7 +1101,8 @@
         "title": "Code points",
         "number": "4.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "ascii-upper-alpha",
@@ -1067,7 +1121,8 @@
         "title": "Code points",
         "number": "4.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "ascii-lower-alpha",
@@ -1086,7 +1141,8 @@
         "title": "Code points",
         "number": "4.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "ascii-alpha",
@@ -1105,7 +1161,8 @@
         "title": "Code points",
         "number": "4.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "ascii-alphanumeric",
@@ -1124,7 +1181,8 @@
         "title": "Code points",
         "number": "4.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "string",
@@ -1144,7 +1202,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "code-unit",
@@ -1163,7 +1222,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "string-length",
@@ -1188,7 +1248,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "string-code-point-length",
@@ -1213,7 +1274,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "ascii-string",
@@ -1232,7 +1294,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "isomorphic-string",
@@ -1251,7 +1314,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "scalar-value-string",
@@ -1270,7 +1334,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "javascript-string-convert",
@@ -1292,7 +1357,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "string-is",
@@ -1314,7 +1380,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "code-unit-prefix",
@@ -1333,7 +1400,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "string-starts-with",
@@ -1354,7 +1422,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "code-unit-suffix",
@@ -1373,7 +1442,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "string-ends-with",
@@ -1394,7 +1464,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "code-unit-less-than",
@@ -1413,7 +1484,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "code-unit-substring",
@@ -1432,7 +1504,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "code-unit-substring-by-positions",
@@ -1451,7 +1524,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "code-unit-substring-to-the-end-of-the-string",
@@ -1470,7 +1544,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "code-point-substring",
@@ -1489,7 +1564,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "code-point-substring-by-positions",
@@ -1508,7 +1584,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "code-point-substring-to-the-end-of-the-string",
@@ -1527,7 +1604,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "isomorphic-encode",
@@ -1546,7 +1624,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "ascii-lowercase",
@@ -1565,7 +1644,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "ascii-uppercase",
@@ -1584,7 +1664,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "ascii-case-insensitive",
@@ -1603,7 +1684,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "ascii-encode",
@@ -1622,7 +1704,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "ascii-decode",
@@ -1641,7 +1724,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "strip-newlines",
@@ -1660,7 +1744,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "normalize-newlines",
@@ -1679,7 +1764,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "strip-leading-and-trailing-ascii-whitespace",
@@ -1698,7 +1784,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "strip-and-collapse-ascii-whitespace",
@@ -1717,7 +1804,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "collect-a-sequence-of-code-points",
@@ -1737,7 +1825,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "string-position-variable",
@@ -1758,7 +1847,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "skip-ascii-whitespace",
@@ -1777,7 +1867,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "strictly-split",
@@ -1797,7 +1888,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "split-on-ascii-whitespace",
@@ -1817,7 +1909,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "split-on-commas",
@@ -1837,7 +1930,8 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "string-concatenate",
@@ -1859,7 +1953,88 @@
         "title": "Strings",
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "allowed",
+      "href": "https://infra.spec.whatwg.org/#allowed",
+      "linkingText": [
+        "allowed"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "singleton",
+        "href": "https://infra.spec.whatwg.org/#singleton",
+        "title": "Singletons",
+        "number": "4.9"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "blocked",
+      "href": "https://infra.spec.whatwg.org/#blocked",
+      "linkingText": [
+        "blocked"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "singleton",
+        "href": "https://infra.spec.whatwg.org/#singleton",
+        "title": "Singletons",
+        "number": "4.9"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "failure",
+      "href": "https://infra.spec.whatwg.org/#failure",
+      "linkingText": [
+        "failure"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "singleton",
+        "href": "https://infra.spec.whatwg.org/#singleton",
+        "title": "Singletons",
+        "number": "4.9"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "success",
+      "href": "https://infra.spec.whatwg.org/#success",
+      "linkingText": [
+        "success"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "singleton",
+        "href": "https://infra.spec.whatwg.org/#singleton",
+        "title": "Singletons",
+        "number": "4.9"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "list",
@@ -1878,7 +2053,8 @@
         "title": "Lists",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "list-item",
@@ -1902,7 +2078,8 @@
         "title": "Lists",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "list-append",
@@ -1923,7 +2100,8 @@
         "title": "Lists",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "list-extend",
@@ -1944,7 +2122,8 @@
         "title": "Lists",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "list-prepend",
@@ -1965,7 +2144,8 @@
         "title": "Lists",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "list-replace",
@@ -1986,7 +2166,8 @@
         "title": "Lists",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "list-insert",
@@ -2008,7 +2189,8 @@
         "title": "Lists",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "list-remove",
@@ -2030,7 +2212,8 @@
         "title": "Lists",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "list-empty",
@@ -2054,7 +2237,8 @@
         "title": "Lists",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "list-contain",
@@ -2079,7 +2263,8 @@
         "title": "Lists",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "list-size",
@@ -2103,7 +2288,8 @@
         "title": "Lists",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "list-is-empty",
@@ -2128,7 +2314,8 @@
         "title": "Lists",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "list-get-the-indices",
@@ -2153,7 +2340,8 @@
         "title": "Lists",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "list-iterate",
@@ -2176,7 +2364,99 @@
         "title": "Lists",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "list-slice",
+      "href": "https://infra.spec.whatwg.org/#list-slice",
+      "linkingText": [
+        "slice"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "list",
+        "stack",
+        "queue",
+        "set"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "lists",
+        "href": "https://infra.spec.whatwg.org/#lists",
+        "title": "Lists",
+        "number": "5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "list-slice-from",
+      "href": "https://infra.spec.whatwg.org/#list-slice-from",
+      "linkingText": [
+        "from"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "list/slice"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "lists",
+        "href": "https://infra.spec.whatwg.org/#lists",
+        "title": "Lists",
+        "number": "5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "list-slice-to",
+      "href": "https://infra.spec.whatwg.org/#list-slice-to",
+      "linkingText": [
+        "to"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "list/slice"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "lists",
+        "href": "https://infra.spec.whatwg.org/#lists",
+        "title": "Lists",
+        "number": "5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "list-has-duplicates",
+      "href": "https://infra.spec.whatwg.org/#list-has-duplicates",
+      "linkingText": [
+        "has duplicates"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "list"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "lists",
+        "href": "https://infra.spec.whatwg.org/#lists",
+        "title": "Lists",
+        "number": "5.1"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "list-clone",
@@ -2200,7 +2480,33 @@
         "title": "Lists",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "list-reverse",
+      "href": "https://infra.spec.whatwg.org/#list-reverse",
+      "linkingText": [
+        "reverse"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "list",
+        "stack",
+        "queue",
+        "set"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "lists",
+        "href": "https://infra.spec.whatwg.org/#lists",
+        "title": "Lists",
+        "number": "5.1"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "list-sort-in-ascending-order",
@@ -2227,7 +2533,8 @@
         "title": "Lists",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "list-sort-in-descending-order",
@@ -2252,7 +2559,8 @@
         "title": "Lists",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "stack",
@@ -2271,7 +2579,8 @@
         "title": "Stacks",
         "number": "5.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "stack-push",
@@ -2292,7 +2601,8 @@
         "title": "Stacks",
         "number": "5.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "stack-pop",
@@ -2313,7 +2623,8 @@
         "title": "Stacks",
         "number": "5.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "stack-peek",
@@ -2334,7 +2645,8 @@
         "title": "Stacks",
         "number": "5.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "queue",
@@ -2353,7 +2665,8 @@
         "title": "Queues",
         "number": "5.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "queue-enqueue",
@@ -2374,7 +2687,8 @@
         "title": "Queues",
         "number": "5.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "queue-dequeue",
@@ -2395,7 +2709,8 @@
         "title": "Queues",
         "number": "5.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "ordered-set",
@@ -2415,7 +2730,30 @@
         "title": "Sets",
         "number": "5.1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "set-create",
+      "href": "https://infra.spec.whatwg.org/#set-create",
+      "linkingText": [
+        "create"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "set"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sets",
+        "href": "https://infra.spec.whatwg.org/#sets",
+        "title": "Sets",
+        "number": "5.1.3"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "set-append",
@@ -2436,7 +2774,30 @@
         "title": "Sets",
         "number": "5.1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "set-extend",
+      "href": "https://infra.spec.whatwg.org/#set-extend",
+      "linkingText": [
+        "extend"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "set"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sets",
+        "href": "https://infra.spec.whatwg.org/#sets",
+        "title": "Sets",
+        "number": "5.1.3"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "set-prepend",
@@ -2457,7 +2818,8 @@
         "title": "Sets",
         "number": "5.1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "set-replace",
@@ -2479,7 +2841,8 @@
         "title": "Sets",
         "number": "5.1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "set-subset",
@@ -2500,7 +2863,8 @@
         "title": "Sets",
         "number": "5.1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "set-superset",
@@ -2521,7 +2885,30 @@
         "title": "Sets",
         "number": "5.1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "set-equal",
+      "href": "https://infra.spec.whatwg.org/#set-equal",
+      "linkingText": [
+        "equal"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "set"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sets",
+        "href": "https://infra.spec.whatwg.org/#sets",
+        "title": "Sets",
+        "number": "5.1.3"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "set-intersection",
@@ -2542,7 +2929,8 @@
         "title": "Sets",
         "number": "5.1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "set-union",
@@ -2563,7 +2951,8 @@
         "title": "Sets",
         "number": "5.1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "set-difference",
@@ -2584,7 +2973,8 @@
         "title": "Sets",
         "number": "5.1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "the-range",
@@ -2604,7 +2994,8 @@
         "title": "Sets",
         "number": "5.1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "the-exclusive-range",
@@ -2623,7 +3014,8 @@
         "title": "Sets",
         "number": "5.1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "ordered-map",
@@ -2643,7 +3035,8 @@
         "title": "Maps",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "map-key",
@@ -2664,7 +3057,8 @@
         "title": "Maps",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "map-value",
@@ -2685,7 +3079,8 @@
         "title": "Maps",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "map-entry",
@@ -2706,7 +3101,8 @@
         "title": "Maps",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "map-get",
@@ -2728,7 +3124,30 @@
         "title": "Maps",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "map-with-default",
+      "href": "https://infra.spec.whatwg.org/#map-with-default",
+      "linkingText": [
+        "with default"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "map"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "maps",
+        "href": "https://infra.spec.whatwg.org/#maps",
+        "title": "Maps",
+        "number": "5.2"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "map-set",
@@ -2750,7 +3169,8 @@
         "title": "Maps",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "map-remove",
@@ -2771,7 +3191,8 @@
         "title": "Maps",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "map-clear",
@@ -2792,7 +3213,8 @@
         "title": "Maps",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "map-exists",
@@ -2814,7 +3236,8 @@
         "title": "Maps",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "map-getting-the-keys",
@@ -2837,7 +3260,8 @@
         "title": "Maps",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "map-getting-the-values",
@@ -2860,7 +3284,8 @@
         "title": "Maps",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "map-size",
@@ -2881,7 +3306,8 @@
         "title": "Maps",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "map-is-empty",
@@ -2903,7 +3329,8 @@
         "title": "Maps",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "map-iterate",
@@ -2925,7 +3352,8 @@
         "title": "Maps",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "map-clone",
@@ -2946,7 +3374,8 @@
         "title": "Maps",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "map-sort-in-ascending-order",
@@ -2970,7 +3399,8 @@
         "title": "Maps",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "map-sort-in-descending-order",
@@ -2992,7 +3422,8 @@
         "title": "Maps",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "struct",
@@ -3011,7 +3442,8 @@
         "title": "Structs",
         "number": "5.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "struct-item",
@@ -3033,7 +3465,8 @@
         "title": "Structs",
         "number": "5.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "struct-name",
@@ -3055,7 +3488,8 @@
         "title": "Structs",
         "number": "5.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "tuple",
@@ -3074,7 +3508,8 @@
         "title": "Tuples",
         "number": "5.3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "parse-a-json-string-to-a-javascript-value",
@@ -3093,7 +3528,8 @@
         "title": "JSON",
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "parse-json-bytes-to-a-javascript-value",
@@ -3113,7 +3549,8 @@
         "title": "JSON",
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "serialize-a-javascript-value-to-a-json-string",
@@ -3132,7 +3569,8 @@
         "title": "JSON",
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "serialize-a-javascript-value-to-json-bytes",
@@ -3152,7 +3590,8 @@
         "title": "JSON",
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "parse-a-json-string-to-an-infra-value",
@@ -3172,7 +3611,8 @@
         "title": "JSON",
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "parse-json-bytes-to-an-infra-value",
@@ -3191,7 +3631,8 @@
         "title": "JSON",
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "convert-a-json-derived-javascript-value-to-an-infra-value",
@@ -3210,7 +3651,8 @@
         "title": "JSON",
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "serialize-an-infra-value-to-a-json-string",
@@ -3229,7 +3671,8 @@
         "title": "JSON",
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "serialize-an-infra-value-to-json-bytes",
@@ -3248,7 +3691,8 @@
         "title": "JSON",
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "convert-an-infra-value-to-a-json-compatible-javascript-value",
@@ -3267,7 +3711,8 @@
         "title": "JSON",
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "forgiving-base64-encode",
@@ -3286,7 +3731,8 @@
         "title": "Forgiving base64",
         "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "forgiving-base64-decode",
@@ -3305,7 +3751,8 @@
         "title": "Forgiving base64",
         "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "html-namespace",
@@ -3324,7 +3771,8 @@
         "title": "Namespaces",
         "number": "8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "mathml-namespace",
@@ -3343,7 +3791,8 @@
         "title": "Namespaces",
         "number": "8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "svg-namespace",
@@ -3362,7 +3811,8 @@
         "title": "Namespaces",
         "number": "8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xlink-namespace",
@@ -3381,7 +3831,8 @@
         "title": "Namespaces",
         "number": "8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xml-namespace",
@@ -3400,7 +3851,8 @@
         "title": "Namespaces",
         "number": "8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xmlns-namespace",
@@ -3419,7 +3871,8 @@
         "title": "Namespaces",
         "number": "8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

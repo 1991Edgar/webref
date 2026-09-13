@@ -6,6 +6,7 @@
   "links": {
     "rawlinks": {
       "http://lists.w3.org/Archives/Public/public-css-testsuite": {},
+      "http://whatwg.org/html": {},
       "http://www.w3.org/Style/CSS/Test/": {},
       "http://www.w3.org/TR/CSS/": {
         "anchors": [
@@ -31,6 +32,7 @@
         ]
       },
       "https://drafts.csswg.org/css-cascade-5/": {},
+      "https://drafts.csswg.org/css-cascade-6/": {},
       "https://drafts.csswg.org/css-color-4/": {},
       "https://drafts.csswg.org/css-color-5/": {},
       "https://drafts.csswg.org/css-conditional-3/": {},
@@ -77,11 +79,17 @@
           "issuecomment-1514955984"
         ]
       },
+      "https://github.com/w3c/csswg-drafts/issues/8738": {},
       "https://github.com/w3c/csswg-drafts/issues/8834": {},
       "https://github.com/w3c/csswg-drafts/issues/8835": {},
+      "https://github.com/w3c/csswg-drafts/issues/9317": {},
+      "https://github.com/w3c/csswg-drafts/issues/9336": {},
+      "https://github.com/w3c/csswg-drafts/issues/9473": {},
       "https://github.com/w3c/csswg-drafts/milestone/5?closed=1": {},
+      "https://github.com/w3c/csswg-drafts/pull/10386": {},
+      "https://github.com/w3c/csswg-drafts/pull/11129": {},
       "https://github.com/w3c/csswg-drafts/pull/6874": {},
-      "https://html.spec.whatwg.org/multipage/": {},
+      "https://github.com/w3c/csswg-drafts/pull/7997": {},
       "https://html.spec.whatwg.org/multipage/links.html": {
         "anchors": [
           "link-type-stylesheet"
@@ -115,7 +123,7 @@
           "id-selectors"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://drafts.css-houdini.org/css-typed-om-1/": {
@@ -132,8 +140,12 @@
       },
       "https://drafts.csswg.org/css-cascade-5/": {
         "anchors": [
-          "at-ruledef-import",
           "css-property"
+        ]
+      },
+      "https://drafts.csswg.org/css-cascade-6/": {
+        "anchors": [
+          "at-ruledef-import"
         ]
       },
       "https://drafts.csswg.org/css-color-4/": {
@@ -172,7 +184,7 @@
       },
       "https://drafts.csswg.org/css-nesting-1/": {
         "anchors": [
-          "nested-declarations-rule%E2%91%A0",
+          "nested-declarations-rule",
           "cssnesteddeclarations"
         ]
       },
@@ -201,7 +213,6 @@
         "anchors": [
           "funcdef-url",
           "string-value",
-          "mult-one-plus",
           "comb-one",
           "mult-opt"
         ]
@@ -228,6 +239,7 @@
       },
       "https://drafts.csswg.org/mediaqueries-5/": {
         "anchors": [
+          "media-type",
           "typedef-general-enclosed"
         ]
       },

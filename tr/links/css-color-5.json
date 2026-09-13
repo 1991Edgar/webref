@@ -5,6 +5,7 @@
   },
   "links": {
     "rawlinks": {
+      "http://wpt.live/css/css-color/animation/contrast-color-interpolation.html": {},
       "http://wpt.live/css/css-color/at-color-profile-001.html": {},
       "http://wpt.live/css/css-color/color-mix-basic-001.html": {},
       "http://wpt.live/css/css-color/color-mix-currentcolor-001.html": {},
@@ -13,22 +14,39 @@
       "http://wpt.live/css/css-color/color-mix-currentcolor-nested-for-color-property.html": {},
       "http://wpt.live/css/css-color/color-mix-currentcolor-visited-getcomputedstyle.html": {},
       "http://wpt.live/css/css-color/color-mix-currentcolor-visited.html": {},
+      "http://wpt.live/css/css-color/color-mix-missing-components.html": {},
       "http://wpt.live/css/css-color/color-mix-non-srgb-001.html": {},
       "http://wpt.live/css/css-color/color-mix-percents-01.html": {},
       "http://wpt.live/css/css-color/color-mix-percents-02.html": {},
+      "http://wpt.live/css/css-color/contrast-color-001.html": {},
+      "http://wpt.live/css/css-color/contrast-color-currentcolor-inherited.html": {},
+      "http://wpt.live/css/css-color/contrast-color-style-query.html": {},
       "http://wpt.live/css/css-color/light-dark-basic.html": {},
       "http://wpt.live/css/css-color/light-dark-currentcolor-in-color.html": {},
       "http://wpt.live/css/css-color/light-dark-currentcolor.html": {},
+      "http://wpt.live/css/css-color/light-dark-image-none-interpolation.html": {},
+      "http://wpt.live/css/css-color/light-dark-image-none.html": {},
+      "http://wpt.live/css/css-color/light-dark-image.html": {},
       "http://wpt.live/css/css-color/light-dark-inheritance.html": {},
       "http://wpt.live/css/css-color/nested-color-mix-with-currentcolor.html": {},
+      "http://wpt.live/css/css-color/none-components-treated-as-zero.html": {},
+      "http://wpt.live/css/css-color/parsing/alpha-color-computed.html": {},
+      "http://wpt.live/css/css-color/parsing/alpha-color-parsing-invalid.html": {},
+      "http://wpt.live/css/css-color/parsing/alpha-color-parsing-valid.html": {},
       "http://wpt.live/css/css-color/parsing/color-computed-color-mix-function.html": {},
+      "http://wpt.live/css/css-color/parsing/color-computed-contrast-color-function.html": {},
       "http://wpt.live/css/css-color/parsing/color-computed-relative-color.html": {},
       "http://wpt.live/css/css-color/parsing/color-invalid-color-mix-function.html": {},
+      "http://wpt.live/css/css-color/parsing/color-invalid-contrast-color-function.html": {},
       "http://wpt.live/css/css-color/parsing/color-invalid-relative-color.html": {},
       "http://wpt.live/css/css-color/parsing/color-mix-out-of-gamut.html": {},
       "http://wpt.live/css/css-color/parsing/color-valid-color-mix-function.html": {},
+      "http://wpt.live/css/css-color/parsing/color-valid-contrast-color-function.html": {},
       "http://wpt.live/css/css-color/parsing/color-valid-relative-color.html": {},
+      "http://wpt.live/css/css-color/parsing/contrast-color-function-calc-container.html": {},
       "http://wpt.live/css/css-color/parsing/relative-color-out-of-gamut.html": {},
+      "http://wpt.live/css/css-color/relative-color-with-system-color.html": {},
+      "http://wpt.live/css/css-color/relative-color-with-zoom.html": {},
       "http://wpt.live/css/css-color/relative-currentcolor-a98rgb-01.html": {},
       "http://wpt.live/css/css-color/relative-currentcolor-displayp3-01.html": {},
       "http://wpt.live/css/css-color/relative-currentcolor-hsl-01.html": {},
@@ -43,8 +61,13 @@
       "http://wpt.live/css/css-color/relative-currentcolor-rec2020-02.html": {},
       "http://wpt.live/css/css-color/relative-currentcolor-rgb-01.html": {},
       "http://wpt.live/css/css-color/relative-currentcolor-rgb-02.html": {},
+      "http://wpt.live/css/css-color/relative-currentcolor-visited-getcomputedstyle.html": {},
       "http://wpt.live/css/css-color/relative-currentcolor-xyzd50-01.html": {},
       "http://wpt.live/css/css-color/relative-currentcolor-xyzd65-01.html": {},
+      "http://wpt.live/css/css-pseudo/highlight-styling-004.html": {},
+      "http://wpt.live/html/canvas/element/fill-and-stroke-styles/2d.fillStyle.colormix.currentcolor.html": {},
+      "http://wpt.live/html/canvas/element/fill-and-stroke-styles/2d.fillStyle.colormix.html": {},
+      "http://wpt.live/html/canvas/element/fill-and-stroke-styles/2d.strokeStyle.colormix.html": {},
       "http://www.color.org/specification/ICC.1-2022-05.pdf": {},
       "https://datatracker.ietf.org/doc/html/rfc2119": {},
       "https://drafts.csswg.org/css-values-4/": {
@@ -52,9 +75,29 @@
           "combine-integers"
         ]
       },
-      "https://drafts.csswg.org/css-values-5/": {},
       "https://fetch.spec.whatwg.org/": {},
+      "https://fogra.org/en/research/prepress-technology/multiprimary-printing-13003": {},
       "https://github.com/w3c/csswg-drafts/issues": {},
+      "https://github.com/w3c/csswg-drafts/issues/10254": {},
+      "https://github.com/w3c/csswg-drafts/issues/10328": {},
+      "https://github.com/w3c/csswg-drafts/issues/10484": {},
+      "https://github.com/w3c/csswg-drafts/issues/12513": {},
+      "https://github.com/w3c/csswg-drafts/issues/12980": {},
+      "https://github.com/w3c/csswg-drafts/issues/13286": {},
+      "https://github.com/w3c/csswg-drafts/issues/13320": {},
+      "https://github.com/w3c/csswg-drafts/issues/13377": {},
+      "https://github.com/w3c/csswg-drafts/issues/13788": {},
+      "https://github.com/w3c/csswg-drafts/issues/13992": {},
+      "https://github.com/w3c/csswg-drafts/issues/13994": {},
+      "https://github.com/w3c/csswg-drafts/issues/13996": {},
+      "https://github.com/w3c/csswg-drafts/issues/14013": {},
+      "https://github.com/w3c/csswg-drafts/issues/14014": {},
+      "https://github.com/w3c/csswg-drafts/issues/14204": {},
+      "https://github.com/w3c/csswg-drafts/issues/7213": {},
+      "https://github.com/w3c/csswg-drafts/issues/7493": {},
+      "https://github.com/w3c/csswg-drafts/pull/13857": {},
+      "https://github.com/w3c/csswg-drafts/pull/13897": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/animation/contrast-color-interpolation.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/at-color-profile-001.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/color-mix-basic-001.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/color-mix-currentcolor-001.html": {},
@@ -63,22 +106,39 @@
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/color-mix-currentcolor-nested-for-color-property.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/color-mix-currentcolor-visited-getcomputedstyle.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/color-mix-currentcolor-visited.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/color-mix-missing-components.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/color-mix-non-srgb-001.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/color-mix-percents-01.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/color-mix-percents-02.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/contrast-color-001.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/contrast-color-currentcolor-inherited.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/contrast-color-style-query.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/light-dark-basic.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/light-dark-currentcolor-in-color.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/light-dark-currentcolor.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/light-dark-image-none-interpolation.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/light-dark-image-none.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/light-dark-image.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/light-dark-inheritance.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/nested-color-mix-with-currentcolor.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/none-components-treated-as-zero.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/parsing/alpha-color-computed.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/parsing/alpha-color-parsing-invalid.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/parsing/alpha-color-parsing-valid.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/parsing/color-computed-color-mix-function.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/parsing/color-computed-contrast-color-function.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/parsing/color-computed-relative-color.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/parsing/color-invalid-color-mix-function.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/parsing/color-invalid-contrast-color-function.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/parsing/color-invalid-relative-color.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/parsing/color-mix-out-of-gamut.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/parsing/color-valid-color-mix-function.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/parsing/color-valid-contrast-color-function.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/parsing/color-valid-relative-color.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/parsing/contrast-color-function-calc-container.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/parsing/relative-color-out-of-gamut.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/relative-color-with-system-color.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/relative-color-with-zoom.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/relative-currentcolor-a98rgb-01.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/relative-currentcolor-displayp3-01.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/relative-currentcolor-hsl-01.html": {},
@@ -93,12 +153,20 @@
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/relative-currentcolor-rec2020-02.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/relative-currentcolor-rgb-01.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/relative-currentcolor-rgb-02.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/relative-currentcolor-visited-getcomputedstyle.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/relative-currentcolor-xyzd50-01.html": {},
       "https://github.com/web-platform-tests/wpt/blob/master/css/css-color/relative-currentcolor-xyzd65-01.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-pseudo/highlight-styling-004.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/html/canvas/element/fill-and-stroke-styles/2d.fillStyle.colormix.currentcolor.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/html/canvas/element/fill-and-stroke-styles/2d.fillStyle.colormix.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/html/canvas/element/fill-and-stroke-styles/2d.strokeStyle.colormix.html": {},
+      "https://infra.spec.whatwg.org/": {},
       "https://lists.w3.org/Archives/Public/public-css-archive/": {},
       "https://lists.w3.org/Archives/Public/public-css-testsuite": {},
       "https://lists.w3.org/Archives/Public/www-style/": {},
+      "https://registry.color.org/cmyk-registry/fogra51": {},
       "https://webidl.spec.whatwg.org/": {},
+      "https://wpt.fyi/results/css/css-color/animation/contrast-color-interpolation.html": {},
       "https://wpt.fyi/results/css/css-color/at-color-profile-001.html": {},
       "https://wpt.fyi/results/css/css-color/color-mix-basic-001.html": {},
       "https://wpt.fyi/results/css/css-color/color-mix-currentcolor-001.html": {},
@@ -107,22 +175,39 @@
       "https://wpt.fyi/results/css/css-color/color-mix-currentcolor-nested-for-color-property.html": {},
       "https://wpt.fyi/results/css/css-color/color-mix-currentcolor-visited-getcomputedstyle.html": {},
       "https://wpt.fyi/results/css/css-color/color-mix-currentcolor-visited.html": {},
+      "https://wpt.fyi/results/css/css-color/color-mix-missing-components.html": {},
       "https://wpt.fyi/results/css/css-color/color-mix-non-srgb-001.html": {},
       "https://wpt.fyi/results/css/css-color/color-mix-percents-01.html": {},
       "https://wpt.fyi/results/css/css-color/color-mix-percents-02.html": {},
+      "https://wpt.fyi/results/css/css-color/contrast-color-001.html": {},
+      "https://wpt.fyi/results/css/css-color/contrast-color-currentcolor-inherited.html": {},
+      "https://wpt.fyi/results/css/css-color/contrast-color-style-query.html": {},
       "https://wpt.fyi/results/css/css-color/light-dark-basic.html": {},
       "https://wpt.fyi/results/css/css-color/light-dark-currentcolor-in-color.html": {},
       "https://wpt.fyi/results/css/css-color/light-dark-currentcolor.html": {},
+      "https://wpt.fyi/results/css/css-color/light-dark-image-none-interpolation.html": {},
+      "https://wpt.fyi/results/css/css-color/light-dark-image-none.html": {},
+      "https://wpt.fyi/results/css/css-color/light-dark-image.html": {},
       "https://wpt.fyi/results/css/css-color/light-dark-inheritance.html": {},
       "https://wpt.fyi/results/css/css-color/nested-color-mix-with-currentcolor.html": {},
+      "https://wpt.fyi/results/css/css-color/none-components-treated-as-zero.html": {},
+      "https://wpt.fyi/results/css/css-color/parsing/alpha-color-computed.html": {},
+      "https://wpt.fyi/results/css/css-color/parsing/alpha-color-parsing-invalid.html": {},
+      "https://wpt.fyi/results/css/css-color/parsing/alpha-color-parsing-valid.html": {},
       "https://wpt.fyi/results/css/css-color/parsing/color-computed-color-mix-function.html": {},
+      "https://wpt.fyi/results/css/css-color/parsing/color-computed-contrast-color-function.html": {},
       "https://wpt.fyi/results/css/css-color/parsing/color-computed-relative-color.html": {},
       "https://wpt.fyi/results/css/css-color/parsing/color-invalid-color-mix-function.html": {},
+      "https://wpt.fyi/results/css/css-color/parsing/color-invalid-contrast-color-function.html": {},
       "https://wpt.fyi/results/css/css-color/parsing/color-invalid-relative-color.html": {},
       "https://wpt.fyi/results/css/css-color/parsing/color-mix-out-of-gamut.html": {},
       "https://wpt.fyi/results/css/css-color/parsing/color-valid-color-mix-function.html": {},
+      "https://wpt.fyi/results/css/css-color/parsing/color-valid-contrast-color-function.html": {},
       "https://wpt.fyi/results/css/css-color/parsing/color-valid-relative-color.html": {},
+      "https://wpt.fyi/results/css/css-color/parsing/contrast-color-function-calc-container.html": {},
       "https://wpt.fyi/results/css/css-color/parsing/relative-color-out-of-gamut.html": {},
+      "https://wpt.fyi/results/css/css-color/relative-color-with-system-color.html": {},
+      "https://wpt.fyi/results/css/css-color/relative-color-with-zoom.html": {},
       "https://wpt.fyi/results/css/css-color/relative-currentcolor-a98rgb-01.html": {},
       "https://wpt.fyi/results/css/css-color/relative-currentcolor-displayp3-01.html": {},
       "https://wpt.fyi/results/css/css-color/relative-currentcolor-hsl-01.html": {},
@@ -137,21 +222,16 @@
       "https://wpt.fyi/results/css/css-color/relative-currentcolor-rec2020-02.html": {},
       "https://wpt.fyi/results/css/css-color/relative-currentcolor-rgb-01.html": {},
       "https://wpt.fyi/results/css/css-color/relative-currentcolor-rgb-02.html": {},
+      "https://wpt.fyi/results/css/css-color/relative-currentcolor-visited-getcomputedstyle.html": {},
       "https://wpt.fyi/results/css/css-color/relative-currentcolor-xyzd50-01.html": {},
       "https://wpt.fyi/results/css/css-color/relative-currentcolor-xyzd65-01.html": {},
+      "https://wpt.fyi/results/css/css-pseudo/highlight-styling-004.html": {},
+      "https://wpt.fyi/results/html/canvas/element/fill-and-stroke-styles/2d.fillStyle.colormix.currentcolor.html": {},
+      "https://wpt.fyi/results/html/canvas/element/fill-and-stroke-styles/2d.fillStyle.colormix.html": {},
+      "https://wpt.fyi/results/html/canvas/element/fill-and-stroke-styles/2d.strokeStyle.colormix.html": {},
       "https://www.cedc.tools/article.html": {},
+      "https://www.color.org/chardata/FOGRA39.xalter": {},
       "https://www.iana.org/assignments/media-types/application/vnd.iccprofile": {},
-      "https://www.w3.org/2023/Process-20231103/": {
-        "anchors": [
-          "recs-and-notes"
-        ]
-      },
-      "https://www.w3.org/Consortium/Patent-Policy-20200915/": {
-        "anchors": [
-          "def-essential",
-          "sec-Disclosure"
-        ]
-      },
       "https://www.w3.org/Style/CSS/Test/": {},
       "https://www.w3.org/TR/": {},
       "https://www.w3.org/TR/2011/WD-css3-gcpm-20111129/": {
@@ -164,6 +244,9 @@
       "https://www.w3.org/TR/2021/WD-css-color-5-20211215/": {},
       "https://www.w3.org/TR/2022/WD-css-color-5-20220428/": {},
       "https://www.w3.org/TR/2022/WD-css-color-5-20220628/": {},
+      "https://www.w3.org/TR/2024/WD-css-color-5-20240229/": {},
+      "https://www.w3.org/TR/2025/WD-css-color-5-20250318/": {},
+      "https://www.w3.org/TR/2026/WD-css-color-5-20260113/": {},
       "https://www.w3.org/TR/CSS/": {
         "anchors": [
           "future-proofing",
@@ -189,33 +272,68 @@
           "interpolation",
           "hue-interpolation",
           "interpolation-missing",
+          "numeric-srgb",
+          "the-hsl-notation",
+          "the-hwb-notation",
+          "cie-lab",
+          "ok-lab",
+          "alpha-syntax",
           "predefined",
+          "interpolation-space",
           "resolving-color-values",
           "serializing-color-values",
+          "css-serialization-of-srgb",
+          "serializing-modern-alpha-values",
           "serializing-color-function-values"
         ]
       },
-      "https://www.w3.org/TR/css-color-5/": {},
       "https://www.w3.org/TR/css-color-adjust-1/": {},
+      "https://www.w3.org/TR/css-images-3/": {},
       "https://www.w3.org/TR/css-syntax-3/": {},
       "https://www.w3.org/TR/css-values-4/": {
         "anchors": [
           "calc-constants"
         ]
       },
+      "https://www.w3.org/TR/css-values-5/": {},
       "https://www.w3.org/TR/cssom-1/": {},
       "https://www.w3.org/groups/wg/css": {},
-      "https://www.w3.org/groups/wg/css/ipr": {}
+      "https://www.w3.org/groups/wg/css/ipr": {},
+      "https://www.w3.org/policies/patent-policy/20200915/": {
+        "anchors": [
+          "def-essential",
+          "sec-Disclosure"
+        ]
+      },
+      "https://www.w3.org/policies/process/20250818/": {
+        "anchors": [
+          "recs-and-notes"
+        ]
+      }
     },
     "autolinks": {
+      "https://drafts.csswg.org/css-color-adjust-1/": {
+        "anchors": [
+          "element-color-scheme"
+        ]
+      },
       "https://drafts.csswg.org/css-values-5/": {
         "anchors": [
-          "valdef-attr-color"
+          "normalize-mix-percentages",
+          "mix-item"
         ]
       },
       "https://fetch.spec.whatwg.org/": {
         "anchors": [
           "concept-response"
+        ]
+      },
+      "https://infra.spec.whatwg.org/": {
+        "anchors": [
+          "stack",
+          "stack-pop",
+          "stack-push",
+          "ascii-case-insensitive"
         ]
       },
       "https://webidl.spec.whatwg.org/": {
@@ -234,52 +352,61 @@
           "typedef-system-color",
           "typedef-hex-color",
           "typedef-named-color",
+          "funcdef-rgb",
           "funcdef-rgba",
+          "funcdef-hsl",
           "funcdef-hsla",
           "valdef-color-currentcolor",
           "propdef-color",
-          "analogous-components",
+          "color-functions",
+          "cylindrical-polar-color",
+          "typedef-hue",
+          "rectangular-orthogonal-color",
           "valdef-lch-lch",
-          "valdef-color-xyz",
+          "valdef-color-xyz-d50",
           "valdef-hsl-hsl",
           "valdef-color-srgb",
+          "premultiplied",
           "modern-color-syntax",
+          "color-space",
+          "analogous-components",
+          "carried-forward",
           "legacy-color-syntax",
           "valdef-color-red",
           "valdef-color-lime",
           "valdef-color-blue",
           "valdef-color-darkolivegreen",
-          "valdef-color-none",
-          "typedef-hue",
-          "color-space",
+          "typedef-color-alpha-value",
+          "typedef-xyz-space",
           "valdef-color-display-p3",
           "color",
+          "css-system-colors",
           "valdef-color-white",
           "valdef-color-black",
           "valdef-color-srgb-linear",
+          "valdef-color-display-p3-linear",
           "valdef-color-a98-rgb",
           "valdef-color-prophoto-rgb",
           "valdef-color-rec2020",
           "valdef-lab-lab",
           "valdef-oklab-oklab",
-          "valdef-color-xyz-d50",
-          "valdef-color-xyz-d65",
           "valdef-hwb-hwb",
-          "valdef-oklch-oklch"
-        ]
-      },
-      "https://www.w3.org/TR/css-color-5/": {
-        "anchors": [
-          "funcdef-rgb",
-          "funcdef-hsl",
-          "typedef-alpha-value"
+          "valdef-oklch-oklch",
+          "valdef-color-xyz",
+          "valdef-color-xyz-d65",
+          "missing-color-component"
         ]
       },
       "https://www.w3.org/TR/css-color-adjust-1/": {
         "anchors": [
-          "used-color-scheme",
+          "color-scheme",
           "valdef-color-scheme-light",
           "valdef-color-scheme-dark"
+        ]
+      },
+      "https://www.w3.org/TR/css-images-3/": {
+        "anchors": [
+          "typedef-image"
         ]
       },
       "https://www.w3.org/TR/css-syntax-3/": {
@@ -290,10 +417,10 @@
       "https://www.w3.org/TR/css-values-4/": {
         "anchors": [
           "comb-one",
+          "mult-opt",
           "comb-comma",
           "comb-all",
           "percentage-value",
-          "mult-opt",
           "mult-comma",
           "math-function",
           "number-value",
@@ -311,7 +438,6 @@
       },
       "https://www.w3.org/TR/cssom-1/": {
         "anchors": [
-          "concept-css-rule-parent-css-style-sheet",
           "cssrule",
           "cssomstring"
         ]

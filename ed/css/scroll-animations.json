@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "Scroll-driven Animations",
+    "title": "Scroll-driven Animations Module Level 1",
     "url": "https://drafts.csswg.org/scroll-animations-1/"
   },
   "properties": [
@@ -12,7 +12,7 @@
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "n/a",
-      "computedValue": "the keyword none or a list of CSS identifiers",
+      "computedValue": "list, each item either a CSS identifier or the keyword none",
       "canonicalOrder": "per grammar",
       "animationType": "not animatable",
       "styleDeclaration": [
@@ -34,35 +34,35 @@
       "values": [
         {
           "name": "block",
-          "prose": "Specifies to use the measure of progress along the block axis of the scroll container. (Default.)",
+          "prose": "Specifies to use the measure of progress along the block axis of the block-axis scroll container. (Default.)",
           "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-scroll-block",
           "type": "value",
           "value": "block"
         },
         {
           "name": "inline",
-          "prose": "Specifies to use the measure of progress along the inline axis of the scroll container.",
+          "prose": "Specifies to use the measure of progress along the inline axis of the inline-axis scroll container.",
           "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-scroll-inline",
           "type": "value",
           "value": "inline"
         },
         {
           "name": "x",
-          "prose": "Specifies to use the measure of progress along the horizontal axis of the scroll container.",
+          "prose": "Specifies to use the measure of progress along the horizontal axis of the x-axis scroll container.",
           "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-scroll-x",
           "type": "value",
           "value": "x"
         },
         {
           "name": "y",
-          "prose": "Specifies to use the measure of progress along the vertical axis of the scroll container.",
+          "prose": "Specifies to use the measure of progress along the vertical axis of the y-axis scroll container.",
           "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-scroll-y",
           "type": "value",
           "value": "y"
         },
         {
           "name": "nearest",
-          "prose": "Specifies to use the nearest ancestor scroll container. (Default.)",
+          "prose": "Specifies to use the nearest ancestor scroll container with an appropriate scrollable axis (Default.)",
           "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-scroll-nearest",
           "type": "value",
           "value": "nearest"
@@ -76,7 +76,7 @@
         },
         {
           "name": "self",
-          "prose": "Specifies to use the element’s own principal box as the scroll container. If the principal box is not a scroll container, then the scroll progress timeline is inactive.",
+          "prose": "Specifies to use the element’s own principal box as the scroll container. If the principal box is not a scroll container in the appropriate axis, then the scroll progress timeline is inactive.",
           "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-scroll-self",
           "type": "value",
           "value": "self"
@@ -111,7 +111,7 @@
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "n/a",
-      "computedValue": "the keyword none or a list of CSS identifiers",
+      "computedValue": "list, each item either a CSS identifier or the keyword none",
       "canonicalOrder": "per grammar",
       "animationType": "not animatable",
       "styleDeclaration": [
@@ -133,35 +133,35 @@
       "values": [
         {
           "name": "block",
-          "prose": "Specifies to use the measure of progress along the block axis of the scroll container. (Default.)",
+          "prose": "Specifies to use the measure of progress along the block axis of the block-axis scroll container. (Default.)",
           "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-scroll-block",
           "type": "value",
           "value": "block"
         },
         {
           "name": "inline",
-          "prose": "Specifies to use the measure of progress along the inline axis of the scroll container.",
+          "prose": "Specifies to use the measure of progress along the inline axis of the inline-axis scroll container.",
           "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-scroll-inline",
           "type": "value",
           "value": "inline"
         },
         {
           "name": "x",
-          "prose": "Specifies to use the measure of progress along the horizontal axis of the scroll container.",
+          "prose": "Specifies to use the measure of progress along the horizontal axis of the x-axis scroll container.",
           "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-scroll-x",
           "type": "value",
           "value": "x"
         },
         {
           "name": "y",
-          "prose": "Specifies to use the measure of progress along the vertical axis of the scroll container.",
+          "prose": "Specifies to use the measure of progress along the vertical axis of the y-axis scroll container.",
           "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-scroll-y",
           "type": "value",
           "value": "y"
         },
         {
           "name": "nearest",
-          "prose": "Specifies to use the nearest ancestor scroll container. (Default.)",
+          "prose": "Specifies to use the nearest ancestor scroll container with an appropriate scrollable axis (Default.)",
           "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-scroll-nearest",
           "type": "value",
           "value": "nearest"
@@ -175,7 +175,7 @@
         },
         {
           "name": "self",
-          "prose": "Specifies to use the element’s own principal box as the scroll container. If the principal box is not a scroll container, then the scroll progress timeline is inactive.",
+          "prose": "Specifies to use the element’s own principal box as the scroll container. If the principal box is not a scroll container in the appropriate axis, then the scroll progress timeline is inactive.",
           "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-scroll-self",
           "type": "value",
           "value": "self"
@@ -336,7 +336,7 @@
       "appliesTo": "all elements",
       "inherited": "no",
       "percentages": "n/a",
-      "computedValue": "the keyword none or a list of CSS identifiers",
+      "computedValue": "the keyword none, the keyword all, or a list of CSS identifiers",
       "canonicalOrder": "per grammar",
       "animationType": "not animatable",
       "values": [
@@ -349,14 +349,14 @@
         },
         {
           "name": "all",
-          "prose": "Declares the names of all timelines defined by descendants—​whose scope is not already explicitly declared by a descendant using timeline-scope—​to be in scope for this element and its descendants.",
+          "prose": "Specifies that all timeline names defined by this element or its flat tree descendants—​whose scope is not already limited by a descendant using timeline-scope—​to be in scope only for this element’s flat tree descendants; and limits descendants to only match timeline names to elements within this subtree.",
           "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-timeline-scope-all",
           "type": "value",
           "value": "all"
         },
         {
           "name": "<dashed-ident>",
-          "prose": "Declares the name of a matching named timeline defined by a descendant—​whose scope is not already explicitly declared by a descendant using timeline-scope—​to be in scope for this element and its descendants. If no such timeline exists, or if more than one such timeline exists, instead declares an inactive timeline with the specified name.",
+          "prose": "Specifies that a matching timeline name defined by this element or its flat tree descendants—​whose scope is not already limited by a descendant using timeline-scope—​to be in scope only for this element’s flat tree descendants; and limits descendants to only match timeline names to elements within this subtree.",
           "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-timeline-scope-dashed-ident",
           "type": "value",
           "value": "<dashed-ident>"
@@ -380,35 +380,35 @@
       "values": [
         {
           "name": "block",
-          "prose": "Specifies to use the measure of progress along the block axis of the scroll container. (Default.)",
+          "prose": "Specifies to use the measure of progress along the block axis of the block-axis scroll container. (Default.)",
           "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-scroll-block",
           "type": "value",
           "value": "block"
         },
         {
           "name": "inline",
-          "prose": "Specifies to use the measure of progress along the inline axis of the scroll container.",
+          "prose": "Specifies to use the measure of progress along the inline axis of the inline-axis scroll container.",
           "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-scroll-inline",
           "type": "value",
           "value": "inline"
         },
         {
           "name": "x",
-          "prose": "Specifies to use the measure of progress along the horizontal axis of the scroll container.",
+          "prose": "Specifies to use the measure of progress along the horizontal axis of the x-axis scroll container.",
           "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-scroll-x",
           "type": "value",
           "value": "x"
         },
         {
           "name": "y",
-          "prose": "Specifies to use the measure of progress along the vertical axis of the scroll container.",
+          "prose": "Specifies to use the measure of progress along the vertical axis of the y-axis scroll container.",
           "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-scroll-y",
           "type": "value",
           "value": "y"
         },
         {
           "name": "nearest",
-          "prose": "Specifies to use the nearest ancestor scroll container. (Default.)",
+          "prose": "Specifies to use the nearest ancestor scroll container with an appropriate scrollable axis (Default.)",
           "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-scroll-nearest",
           "type": "value",
           "value": "nearest"
@@ -422,7 +422,7 @@
         },
         {
           "name": "self",
-          "prose": "Specifies to use the element’s own principal box as the scroll container. If the principal box is not a scroll container, then the scroll progress timeline is inactive.",
+          "prose": "Specifies to use the element’s own principal box as the scroll container. If the principal box is not a scroll container in the appropriate axis, then the scroll progress timeline is inactive.",
           "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-scroll-self",
           "type": "value",
           "value": "self"
@@ -443,7 +443,7 @@
     },
     {
       "name": "view()",
-      "prose": "The view() functional notation can be used as a <single-animation-timeline> value in animation-timeline and specifies a view progress timeline in reference to the nearest ancestor scroll container. Its syntax is",
+      "prose": "The view() functional notation can be used as a <single-animation-timeline> value in animation-timeline and specifies a view progress timeline in reference to the nearest ancestor scroll container that’s scrollable in the specified axis. Its syntax is",
       "href": "https://drafts.csswg.org/scroll-animations-1/#funcdef-view",
       "type": "function",
       "value": "view( [ <axis> || <'view-timeline-inset'> ]? )"
@@ -513,6 +513,15 @@
       "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-animation-timeline-range-exit-crossing",
       "type": "value",
       "value": "exit-crossing",
+      "for": "animation-timeline-range"
+    },
+    {
+      "msg": "Dangling value",
+      "name": "scroll",
+      "prose": "Represents the full range of the scroll container on which the view progress timeline is defined. 0% progress represents the startmost scroll position of the scroll container underlying the view progress timeline. 100% progress represents the endmost scroll position of the scroll container underlying the view progress timeline.",
+      "href": "https://drafts.csswg.org/scroll-animations-1/#valdef-animation-timeline-range-scroll",
+      "type": "value",
+      "value": "scroll",
       "for": "animation-timeline-range"
     }
   ]

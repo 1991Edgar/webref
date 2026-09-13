@@ -19,9 +19,13 @@
         "id": "tcpsocket-interface",
         "href": "https://wicg.github.io/direct-sockets/#tcpsocket-interface",
         "title": "TCPSocket interface",
+        "alternateIds": [
+          "x1-tcpsocket-interface"
+        ],
         "number": "1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dfn-tcpsocket-task-source",
@@ -38,9 +42,13 @@
         "id": "tcpsocket-interface",
         "href": "https://wicg.github.io/direct-sockets/#tcpsocket-interface",
         "title": "TCPSocket interface",
+        "alternateIds": [
+          "x1-tcpsocket-interface"
+        ],
         "number": "1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-readable",
@@ -59,9 +67,13 @@
         "id": "tcpsocket-interface",
         "href": "https://wicg.github.io/direct-sockets/#tcpsocket-interface",
         "title": "TCPSocket interface",
+        "alternateIds": [
+          "x1-tcpsocket-interface"
+        ],
         "number": "1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-writable",
@@ -80,9 +92,13 @@
         "id": "tcpsocket-interface",
         "href": "https://wicg.github.io/direct-sockets/#tcpsocket-interface",
         "title": "TCPSocket interface",
+        "alternateIds": [
+          "x1-tcpsocket-interface"
+        ],
         "number": "1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-openedpromise",
@@ -101,9 +117,13 @@
         "id": "tcpsocket-interface",
         "href": "https://wicg.github.io/direct-sockets/#tcpsocket-interface",
         "title": "TCPSocket interface",
+        "alternateIds": [
+          "x1-tcpsocket-interface"
+        ],
         "number": "1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-closedpromise",
@@ -122,9 +142,13 @@
         "id": "tcpsocket-interface",
         "href": "https://wicg.github.io/direct-sockets/#tcpsocket-interface",
         "title": "TCPSocket interface",
+        "alternateIds": [
+          "x1-tcpsocket-interface"
+        ],
         "number": "1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-tcpsocket-constructor",
@@ -149,9 +173,13 @@
         "id": "constructor-method",
         "href": "https://wicg.github.io/direct-sockets/#constructor-method",
         "title": "constructor() method",
+        "alternateIds": [
+          "x1-1-constructor-method"
+        ],
         "number": "1.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-tcpsocketoptions",
@@ -168,9 +196,13 @@
         "id": "tcpsocketoptions-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#tcpsocketoptions-dictionary",
         "title": "TCPSocketOptions dictionary",
+        "alternateIds": [
+          "x1-1-1-tcpsocketoptions-dictionary"
+        ],
         "number": "1.1.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-socketdnsquerytype",
@@ -187,9 +219,13 @@
         "id": "tcpsocketoptions-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#tcpsocketoptions-dictionary",
         "title": "TCPSocketOptions dictionary",
+        "alternateIds": [
+          "x1-1-1-tcpsocketoptions-dictionary"
+        ],
         "number": "1.1.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-socketdnsquerytype-ipv4",
@@ -208,9 +244,13 @@
         "id": "tcpsocketoptions-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#tcpsocketoptions-dictionary",
         "title": "TCPSocketOptions dictionary",
+        "alternateIds": [
+          "x1-1-1-tcpsocketoptions-dictionary"
+        ],
         "number": "1.1.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-socketdnsquerytype-ipv6",
@@ -229,9 +269,13 @@
         "id": "tcpsocketoptions-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#tcpsocketoptions-dictionary",
         "title": "TCPSocketOptions dictionary",
+        "alternateIds": [
+          "x1-1-1-tcpsocketoptions-dictionary"
+        ],
         "number": "1.1.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-tcpsocketoptions-sendbuffersize",
@@ -250,9 +294,13 @@
         "id": "tcpsocketoptions-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#tcpsocketoptions-dictionary",
         "title": "TCPSocketOptions dictionary",
+        "alternateIds": [
+          "x1-1-1-tcpsocketoptions-dictionary"
+        ],
         "number": "1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-tcpsocketoptions-receivebuffersize",
@@ -271,9 +319,13 @@
         "id": "tcpsocketoptions-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#tcpsocketoptions-dictionary",
         "title": "TCPSocketOptions dictionary",
+        "alternateIds": [
+          "x1-1-1-tcpsocketoptions-dictionary"
+        ],
         "number": "1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-tcpsocketoptions-nodelay",
@@ -292,9 +344,13 @@
         "id": "tcpsocketoptions-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#tcpsocketoptions-dictionary",
         "title": "TCPSocketOptions dictionary",
+        "alternateIds": [
+          "x1-1-1-tcpsocketoptions-dictionary"
+        ],
         "number": "1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-tcpsocketoptions-keepalivedelay",
@@ -313,9 +369,13 @@
         "id": "tcpsocketoptions-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#tcpsocketoptions-dictionary",
         "title": "TCPSocketOptions dictionary",
+        "alternateIds": [
+          "x1-1-1-tcpsocketoptions-dictionary"
+        ],
         "number": "1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-tcpsocketoptions-dnsquerytype",
@@ -334,9 +394,13 @@
         "id": "tcpsocketoptions-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#tcpsocketoptions-dictionary",
         "title": "TCPSocketOptions dictionary",
+        "alternateIds": [
+          "x1-1-1-tcpsocketoptions-dictionary"
+        ],
         "number": "1.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-initialize-tcpsocket-readable-stream",
@@ -354,9 +418,13 @@
         "id": "readable-attribute-internal",
         "href": "https://wicg.github.io/direct-sockets/#readable-attribute-internal",
         "title": "[[readable]] attribute (internal)",
+        "alternateIds": [
+          "x1-2-readable-attribute-internal"
+        ],
         "number": "1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-handle-closing-the-tcpsocket-readable-stream",
@@ -373,9 +441,13 @@
         "id": "readable-attribute-internal",
         "href": "https://wicg.github.io/direct-sockets/#readable-attribute-internal",
         "title": "[[readable]] attribute (internal)",
+        "alternateIds": [
+          "x1-2-readable-attribute-internal"
+        ],
         "number": "1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-initialize-tcpsocket-writable-stream",
@@ -393,9 +465,13 @@
         "id": "writable-attribute-internal",
         "href": "https://wicg.github.io/direct-sockets/#writable-attribute-internal",
         "title": "[[writable]] attribute (internal)",
+        "alternateIds": [
+          "x1-3-writable-attribute-internal"
+        ],
         "number": "1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-handle-closing-the-tcpsocket-writable-stream",
@@ -412,9 +488,13 @@
         "id": "writable-attribute-internal",
         "href": "https://wicg.github.io/direct-sockets/#writable-attribute-internal",
         "title": "[[writable]] attribute (internal)",
+        "alternateIds": [
+          "x1-3-writable-attribute-internal"
+        ],
         "number": "1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-tcpsocket-opened",
@@ -435,9 +515,13 @@
         "id": "opened-attribute",
         "href": "https://wicg.github.io/direct-sockets/#opened-attribute",
         "title": "opened attribute",
+        "alternateIds": [
+          "x1-4-opened-attribute"
+        ],
         "number": "1.4"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-tcpsocketopeninfo",
@@ -454,9 +538,13 @@
         "id": "tcpsocketopeninfo-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#tcpsocketopeninfo-dictionary",
         "title": "TCPSocketOpenInfo dictionary",
+        "alternateIds": [
+          "x1-4-1-tcpsocketopeninfo-dictionary"
+        ],
         "number": "1.4.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-tcpsocketopeninfo-readable",
@@ -475,9 +563,13 @@
         "id": "tcpsocketopeninfo-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#tcpsocketopeninfo-dictionary",
         "title": "TCPSocketOpenInfo dictionary",
+        "alternateIds": [
+          "x1-4-1-tcpsocketopeninfo-dictionary"
+        ],
         "number": "1.4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-tcpsocketopeninfo-writable",
@@ -496,9 +588,13 @@
         "id": "tcpsocketopeninfo-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#tcpsocketopeninfo-dictionary",
         "title": "TCPSocketOpenInfo dictionary",
+        "alternateIds": [
+          "x1-4-1-tcpsocketopeninfo-dictionary"
+        ],
         "number": "1.4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-tcpsocketopeninfo-remoteaddress",
@@ -517,9 +613,13 @@
         "id": "tcpsocketopeninfo-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#tcpsocketopeninfo-dictionary",
         "title": "TCPSocketOpenInfo dictionary",
+        "alternateIds": [
+          "x1-4-1-tcpsocketopeninfo-dictionary"
+        ],
         "number": "1.4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-tcpsocketopeninfo-remoteport",
@@ -538,9 +638,13 @@
         "id": "tcpsocketopeninfo-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#tcpsocketopeninfo-dictionary",
         "title": "TCPSocketOpenInfo dictionary",
+        "alternateIds": [
+          "x1-4-1-tcpsocketopeninfo-dictionary"
+        ],
         "number": "1.4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-tcpsocketopeninfo-localaddress",
@@ -559,9 +663,13 @@
         "id": "tcpsocketopeninfo-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#tcpsocketopeninfo-dictionary",
         "title": "TCPSocketOpenInfo dictionary",
+        "alternateIds": [
+          "x1-4-1-tcpsocketopeninfo-dictionary"
+        ],
         "number": "1.4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-tcpsocketopeninfo-localport",
@@ -580,9 +688,13 @@
         "id": "tcpsocketopeninfo-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#tcpsocketopeninfo-dictionary",
         "title": "TCPSocketOpenInfo dictionary",
+        "alternateIds": [
+          "x1-4-1-tcpsocketopeninfo-dictionary"
+        ],
         "number": "1.4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-tcpsocket-closed",
@@ -603,9 +715,13 @@
         "id": "closed-attribute",
         "href": "https://wicg.github.io/direct-sockets/#closed-attribute",
         "title": "closed attribute",
+        "alternateIds": [
+          "x1-5-closed-attribute"
+        ],
         "number": "1.5"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-tcpsocket-close",
@@ -628,9 +744,13 @@
         "id": "close-method",
         "href": "https://wicg.github.io/direct-sockets/#close-method",
         "title": "close() method",
+        "alternateIds": [
+          "x1-6-close-method"
+        ],
         "number": "1.6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-udpsocket",
@@ -647,9 +767,13 @@
         "id": "udpsocket-interface",
         "href": "https://wicg.github.io/direct-sockets/#udpsocket-interface",
         "title": "UDPSocket interface",
+        "alternateIds": [
+          "x2-udpsocket-interface"
+        ],
         "number": "2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dfn-udpsocket-task-source",
@@ -666,9 +790,13 @@
         "id": "udpsocket-interface",
         "href": "https://wicg.github.io/direct-sockets/#udpsocket-interface",
         "title": "UDPSocket interface",
+        "alternateIds": [
+          "x2-udpsocket-interface"
+        ],
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-readable-0",
@@ -687,9 +815,13 @@
         "id": "udpsocket-interface",
         "href": "https://wicg.github.io/direct-sockets/#udpsocket-interface",
         "title": "UDPSocket interface",
+        "alternateIds": [
+          "x2-udpsocket-interface"
+        ],
         "number": "2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-writable-0",
@@ -708,9 +840,13 @@
         "id": "udpsocket-interface",
         "href": "https://wicg.github.io/direct-sockets/#udpsocket-interface",
         "title": "UDPSocket interface",
+        "alternateIds": [
+          "x2-udpsocket-interface"
+        ],
         "number": "2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-openedpromise-0",
@@ -729,9 +865,13 @@
         "id": "udpsocket-interface",
         "href": "https://wicg.github.io/direct-sockets/#udpsocket-interface",
         "title": "UDPSocket interface",
+        "alternateIds": [
+          "x2-udpsocket-interface"
+        ],
         "number": "2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-closedpromise-0",
@@ -750,9 +890,13 @@
         "id": "udpsocket-interface",
         "href": "https://wicg.github.io/direct-sockets/#udpsocket-interface",
         "title": "UDPSocket interface",
+        "alternateIds": [
+          "x2-udpsocket-interface"
+        ],
         "number": "2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-udpsocket-constructor",
@@ -776,9 +920,13 @@
         "id": "constructor-method-0",
         "href": "https://wicg.github.io/direct-sockets/#constructor-method-0",
         "title": "constructor() method",
+        "alternateIds": [
+          "x2-1-constructor-method"
+        ],
         "number": "2.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dfn-mode",
@@ -795,9 +943,13 @@
         "id": "constructor-method-0",
         "href": "https://wicg.github.io/direct-sockets/#constructor-method-0",
         "title": "constructor() method",
+        "alternateIds": [
+          "x2-1-constructor-method"
+        ],
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-connected",
@@ -814,9 +966,13 @@
         "id": "constructor-method-0",
         "href": "https://wicg.github.io/direct-sockets/#constructor-method-0",
         "title": "constructor() method",
+        "alternateIds": [
+          "x2-1-constructor-method"
+        ],
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-bound",
@@ -833,9 +989,13 @@
         "id": "constructor-method-0",
         "href": "https://wicg.github.io/direct-sockets/#constructor-method-0",
         "title": "constructor() method",
+        "alternateIds": [
+          "x2-1-constructor-method"
+        ],
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-udpsocketoptions",
@@ -852,9 +1012,13 @@
         "id": "udpsocketoptions-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#udpsocketoptions-dictionary",
         "title": "UDPSocketOptions dictionary",
+        "alternateIds": [
+          "x2-1-1-udpsocketoptions-dictionary"
+        ],
         "number": "2.1.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-udpsocketoptions-remoteaddress",
@@ -873,9 +1037,13 @@
         "id": "udpsocketoptions-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#udpsocketoptions-dictionary",
         "title": "UDPSocketOptions dictionary",
+        "alternateIds": [
+          "x2-1-1-udpsocketoptions-dictionary"
+        ],
         "number": "2.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-udpsocketoptions-remoteport",
@@ -894,9 +1062,13 @@
         "id": "udpsocketoptions-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#udpsocketoptions-dictionary",
         "title": "UDPSocketOptions dictionary",
+        "alternateIds": [
+          "x2-1-1-udpsocketoptions-dictionary"
+        ],
         "number": "2.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-udpsocketoptions-localaddress",
@@ -915,9 +1087,13 @@
         "id": "udpsocketoptions-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#udpsocketoptions-dictionary",
         "title": "UDPSocketOptions dictionary",
+        "alternateIds": [
+          "x2-1-1-udpsocketoptions-dictionary"
+        ],
         "number": "2.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-udpsocketoptions-localport",
@@ -936,9 +1112,13 @@
         "id": "udpsocketoptions-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#udpsocketoptions-dictionary",
         "title": "UDPSocketOptions dictionary",
+        "alternateIds": [
+          "x2-1-1-udpsocketoptions-dictionary"
+        ],
         "number": "2.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-udpsocketoptions-sendbuffersize",
@@ -957,9 +1137,13 @@
         "id": "udpsocketoptions-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#udpsocketoptions-dictionary",
         "title": "UDPSocketOptions dictionary",
+        "alternateIds": [
+          "x2-1-1-udpsocketoptions-dictionary"
+        ],
         "number": "2.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-udpsocketoptions-receivebuffersize",
@@ -978,9 +1162,13 @@
         "id": "udpsocketoptions-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#udpsocketoptions-dictionary",
         "title": "UDPSocketOptions dictionary",
+        "alternateIds": [
+          "x2-1-1-udpsocketoptions-dictionary"
+        ],
         "number": "2.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-udpsocketoptions-dnsquerytype",
@@ -999,9 +1187,13 @@
         "id": "udpsocketoptions-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#udpsocketoptions-dictionary",
         "title": "UDPSocketOptions dictionary",
+        "alternateIds": [
+          "x2-1-1-udpsocketoptions-dictionary"
+        ],
         "number": "2.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-udpsocketoptions-ipv6only",
@@ -1020,9 +1212,88 @@
         "id": "udpsocketoptions-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#udpsocketoptions-dictionary",
         "title": "UDPSocketOptions dictionary",
+        "alternateIds": [
+          "x2-1-1-udpsocketoptions-dictionary"
+        ],
         "number": "2.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-udpsocketoptions-multicasttimetolive",
+      "href": "https://wicg.github.io/direct-sockets/#dom-udpsocketoptions-multicasttimetolive",
+      "linkingText": [
+        "multicastTimeToLive"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "UDPSocketOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "udpsocketoptions-dictionary",
+        "href": "https://wicg.github.io/direct-sockets/#udpsocketoptions-dictionary",
+        "title": "UDPSocketOptions dictionary",
+        "alternateIds": [
+          "x2-1-1-udpsocketoptions-dictionary"
+        ],
+        "number": "2.1.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-udpsocketoptions-multicastloopback",
+      "href": "https://wicg.github.io/direct-sockets/#dom-udpsocketoptions-multicastloopback",
+      "linkingText": [
+        "multicastLoopback"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "UDPSocketOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "udpsocketoptions-dictionary",
+        "href": "https://wicg.github.io/direct-sockets/#udpsocketoptions-dictionary",
+        "title": "UDPSocketOptions dictionary",
+        "alternateIds": [
+          "x2-1-1-udpsocketoptions-dictionary"
+        ],
+        "number": "2.1.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-udpsocketoptions-multicastallowaddresssharing",
+      "href": "https://wicg.github.io/direct-sockets/#dom-udpsocketoptions-multicastallowaddresssharing",
+      "linkingText": [
+        "multicastAllowAddressSharing"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "UDPSocketOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "udpsocketoptions-dictionary",
+        "href": "https://wicg.github.io/direct-sockets/#udpsocketoptions-dictionary",
+        "title": "UDPSocketOptions dictionary",
+        "alternateIds": [
+          "x2-1-1-udpsocketoptions-dictionary"
+        ],
+        "number": "2.1.1"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-udpmessage",
@@ -1039,9 +1310,13 @@
         "id": "udpmessage-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#udpmessage-dictionary",
         "title": "UDPMessage dictionary",
+        "alternateIds": [
+          "x2-1-2-udpmessage-dictionary"
+        ],
         "number": "2.1.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-udpmessage-data",
@@ -1060,9 +1335,13 @@
         "id": "udpmessage-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#udpmessage-dictionary",
         "title": "UDPMessage dictionary",
+        "alternateIds": [
+          "x2-1-2-udpmessage-dictionary"
+        ],
         "number": "2.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-udpmessage-remoteaddress",
@@ -1081,9 +1360,13 @@
         "id": "udpmessage-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#udpmessage-dictionary",
         "title": "UDPMessage dictionary",
+        "alternateIds": [
+          "x2-1-2-udpmessage-dictionary"
+        ],
         "number": "2.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-udpmessage-remoteport",
@@ -1102,9 +1385,13 @@
         "id": "udpmessage-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#udpmessage-dictionary",
         "title": "UDPMessage dictionary",
+        "alternateIds": [
+          "x2-1-2-udpmessage-dictionary"
+        ],
         "number": "2.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-udpmessage-dnsquerytype",
@@ -1123,9 +1410,13 @@
         "id": "udpmessage-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#udpmessage-dictionary",
         "title": "UDPMessage dictionary",
+        "alternateIds": [
+          "x2-1-2-udpmessage-dictionary"
+        ],
         "number": "2.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-initialize-udpsocket-readable-stream",
@@ -1143,9 +1434,13 @@
         "id": "readable-attribute-internal-0",
         "href": "https://wicg.github.io/direct-sockets/#readable-attribute-internal-0",
         "title": "[[readable]] attribute (internal)",
+        "alternateIds": [
+          "x2-2-readable-attribute-internal"
+        ],
         "number": "2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-handle-closing-the-udpsocket-readable-stream",
@@ -1162,9 +1457,13 @@
         "id": "readable-attribute-internal-0",
         "href": "https://wicg.github.io/direct-sockets/#readable-attribute-internal-0",
         "title": "[[readable]] attribute (internal)",
+        "alternateIds": [
+          "x2-2-readable-attribute-internal"
+        ],
         "number": "2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-initialize-udpsocket-writable-stream",
@@ -1182,9 +1481,13 @@
         "id": "writable-attribute-internal-0",
         "href": "https://wicg.github.io/direct-sockets/#writable-attribute-internal-0",
         "title": "[[writable]] attribute (internal)",
+        "alternateIds": [
+          "x2-3-writable-attribute-internal"
+        ],
         "number": "2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-handle-closing-the-udpsocket-writable-stream",
@@ -1201,9 +1504,13 @@
         "id": "writable-attribute-internal-0",
         "href": "https://wicg.github.io/direct-sockets/#writable-attribute-internal-0",
         "title": "[[writable]] attribute (internal)",
+        "alternateIds": [
+          "x2-3-writable-attribute-internal"
+        ],
         "number": "2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-udpsocket-opened",
@@ -1224,9 +1531,13 @@
         "id": "opened-attribute-0",
         "href": "https://wicg.github.io/direct-sockets/#opened-attribute-0",
         "title": "opened attribute",
+        "alternateIds": [
+          "x2-4-opened-attribute"
+        ],
         "number": "2.4"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-udpsocketopeninfo",
@@ -1243,9 +1554,13 @@
         "id": "udpsocketopeninfo-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#udpsocketopeninfo-dictionary",
         "title": "UDPSocketOpenInfo dictionary",
+        "alternateIds": [
+          "x2-4-1-udpsocketopeninfo-dictionary"
+        ],
         "number": "2.4.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-udpsocketopeninfo-readable",
@@ -1264,9 +1579,13 @@
         "id": "udpsocketopeninfo-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#udpsocketopeninfo-dictionary",
         "title": "UDPSocketOpenInfo dictionary",
+        "alternateIds": [
+          "x2-4-1-udpsocketopeninfo-dictionary"
+        ],
         "number": "2.4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-udpsocketopeninfo-writable",
@@ -1285,9 +1604,13 @@
         "id": "udpsocketopeninfo-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#udpsocketopeninfo-dictionary",
         "title": "UDPSocketOpenInfo dictionary",
+        "alternateIds": [
+          "x2-4-1-udpsocketopeninfo-dictionary"
+        ],
         "number": "2.4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-udpsocketopeninfo-remoteaddress",
@@ -1306,9 +1629,13 @@
         "id": "udpsocketopeninfo-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#udpsocketopeninfo-dictionary",
         "title": "UDPSocketOpenInfo dictionary",
+        "alternateIds": [
+          "x2-4-1-udpsocketopeninfo-dictionary"
+        ],
         "number": "2.4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-udpsocketopeninfo-remoteport",
@@ -1327,9 +1654,13 @@
         "id": "udpsocketopeninfo-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#udpsocketopeninfo-dictionary",
         "title": "UDPSocketOpenInfo dictionary",
+        "alternateIds": [
+          "x2-4-1-udpsocketopeninfo-dictionary"
+        ],
         "number": "2.4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-udpsocketopeninfo-localaddress",
@@ -1348,9 +1679,13 @@
         "id": "udpsocketopeninfo-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#udpsocketopeninfo-dictionary",
         "title": "UDPSocketOpenInfo dictionary",
+        "alternateIds": [
+          "x2-4-1-udpsocketopeninfo-dictionary"
+        ],
         "number": "2.4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-udpsocketopeninfo-localport",
@@ -1369,9 +1704,38 @@
         "id": "udpsocketopeninfo-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#udpsocketopeninfo-dictionary",
         "title": "UDPSocketOpenInfo dictionary",
+        "alternateIds": [
+          "x2-4-1-udpsocketopeninfo-dictionary"
+        ],
         "number": "2.4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-udpsocketopeninfo-multicastcontroller",
+      "href": "https://wicg.github.io/direct-sockets/#dom-udpsocketopeninfo-multicastcontroller",
+      "linkingText": [
+        "multicastController"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "UDPSocketOpenInfo"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "udpsocketopeninfo-dictionary",
+        "href": "https://wicg.github.io/direct-sockets/#udpsocketopeninfo-dictionary",
+        "title": "UDPSocketOpenInfo dictionary",
+        "alternateIds": [
+          "x2-4-1-udpsocketopeninfo-dictionary"
+        ],
+        "number": "2.4.1"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-udpsocket-closed",
@@ -1392,9 +1756,13 @@
         "id": "closed-attribute-0",
         "href": "https://wicg.github.io/direct-sockets/#closed-attribute-0",
         "title": "closed attribute",
+        "alternateIds": [
+          "x2-5-closed-attribute"
+        ],
         "number": "2.5"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-udpsocket-close",
@@ -1417,9 +1785,296 @@
         "id": "close-method-0",
         "href": "https://wicg.github.io/direct-sockets/#close-method-0",
         "title": "close() method",
+        "alternateIds": [
+          "x2-6-close-method"
+        ],
         "number": "2.6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
+    },
+    {
+      "id": "dom-multicastgroupoptions",
+      "href": "https://wicg.github.io/direct-sockets/#dom-multicastgroupoptions",
+      "linkingText": [
+        "MulticastGroupOptions"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "multicastcontroller-interface",
+        "href": "https://wicg.github.io/direct-sockets/#multicastcontroller-interface",
+        "title": "MulticastController interface",
+        "alternateIds": [
+          "x3-multicastcontroller-interface"
+        ],
+        "number": "3"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-multicastmembership",
+      "href": "https://wicg.github.io/direct-sockets/#dom-multicastmembership",
+      "linkingText": [
+        "MulticastMembership"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "multicastcontroller-interface",
+        "href": "https://wicg.github.io/direct-sockets/#multicastcontroller-interface",
+        "title": "MulticastController interface",
+        "alternateIds": [
+          "x3-multicastcontroller-interface"
+        ],
+        "number": "3"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-multicastcontroller",
+      "href": "https://wicg.github.io/direct-sockets/#dom-multicastcontroller",
+      "linkingText": [
+        "MulticastController"
+      ],
+      "localLinkingText": [],
+      "type": "interface",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "multicastcontroller-interface",
+        "href": "https://wicg.github.io/direct-sockets/#multicastcontroller-interface",
+        "title": "MulticastController interface",
+        "alternateIds": [
+          "x3-multicastcontroller-interface"
+        ],
+        "number": "3"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-multicastgroupoptions-sourceaddress",
+      "href": "https://wicg.github.io/direct-sockets/#dom-multicastgroupoptions-sourceaddress",
+      "linkingText": [
+        "sourceAddress"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "MulticastGroupOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "multicastgroupoptions-dictionary",
+        "href": "https://wicg.github.io/direct-sockets/#multicastgroupoptions-dictionary",
+        "title": "MulticastGroupOptions dictionary",
+        "alternateIds": [
+          "x3-1-multicastgroupoptions-dictionary"
+        ],
+        "number": "3.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-multicastmembership-groupaddress",
+      "href": "https://wicg.github.io/direct-sockets/#dom-multicastmembership-groupaddress",
+      "linkingText": [
+        "groupAddress"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "MulticastMembership"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "multicastmembership-dictionary",
+        "href": "https://wicg.github.io/direct-sockets/#multicastmembership-dictionary",
+        "title": "MulticastMembership dictionary",
+        "alternateIds": [
+          "x3-2-multicastmembership-dictionary"
+        ],
+        "number": "3.2"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-multicastmembership-sourceaddress",
+      "href": "https://wicg.github.io/direct-sockets/#dom-multicastmembership-sourceaddress",
+      "linkingText": [
+        "sourceAddress"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "MulticastMembership"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "multicastmembership-dictionary",
+        "href": "https://wicg.github.io/direct-sockets/#multicastmembership-dictionary",
+        "title": "MulticastMembership dictionary",
+        "alternateIds": [
+          "x3-2-multicastmembership-dictionary"
+        ],
+        "number": "3.2"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-socket",
+      "href": "https://wicg.github.io/direct-sockets/#dfn-socket",
+      "linkingText": [
+        "[[socket]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "MulticastController"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "multicastcontroller-interface",
+        "href": "https://wicg.github.io/direct-sockets/#multicastcontroller-interface",
+        "title": "MulticastController interface",
+        "alternateIds": [
+          "x3-multicastcontroller-interface"
+        ],
+        "number": "3"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dfn-joinedgroups",
+      "href": "https://wicg.github.io/direct-sockets/#dfn-joinedgroups",
+      "linkingText": [
+        "[[joinedGroups]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "MulticastController"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "multicastcontroller-interface",
+        "href": "https://wicg.github.io/direct-sockets/#multicastcontroller-interface",
+        "title": "MulticastController interface",
+        "alternateIds": [
+          "x3-multicastcontroller-interface"
+        ],
+        "number": "3"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dom-multicastcontroller-joingroup",
+      "href": "https://wicg.github.io/direct-sockets/#dom-multicastcontroller-joingroup",
+      "linkingText": [
+        "joinGroup()",
+        "joinGroup(groupAddress)",
+        "joinGroup(groupAddress, options)"
+      ],
+      "localLinkingText": [
+        "MulticastController.joinGroup",
+        "MulticastController.joinGroup()",
+        "joinGroup"
+      ],
+      "type": "method",
+      "for": [
+        "MulticastController"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "joingroup-method",
+        "href": "https://wicg.github.io/direct-sockets/#joingroup-method",
+        "title": "joinGroup() method",
+        "alternateIds": [
+          "x3-3-joingroup-method"
+        ],
+        "number": "3.3"
+      },
+      "definedIn": "heading",
+      "links": []
+    },
+    {
+      "id": "dom-multicastcontroller-leavegroup",
+      "href": "https://wicg.github.io/direct-sockets/#dom-multicastcontroller-leavegroup",
+      "linkingText": [
+        "leaveGroup()",
+        "leaveGroup(groupAddress)",
+        "leaveGroup(groupAddress, options)"
+      ],
+      "localLinkingText": [
+        "MulticastController.leaveGroup",
+        "MulticastController.leaveGroup()",
+        "leaveGroup"
+      ],
+      "type": "method",
+      "for": [
+        "MulticastController"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "leavegroup-method",
+        "href": "https://wicg.github.io/direct-sockets/#leavegroup-method",
+        "title": "leaveGroup() method",
+        "alternateIds": [
+          "x3-4-leavegroup-method"
+        ],
+        "number": "3.4"
+      },
+      "definedIn": "heading",
+      "links": []
+    },
+    {
+      "id": "dom-multicastcontroller-joinedgroups",
+      "href": "https://wicg.github.io/direct-sockets/#dom-multicastcontroller-joinedgroups",
+      "linkingText": [
+        "joinedGroups"
+      ],
+      "localLinkingText": [
+        "MulticastController.joinedGroups"
+      ],
+      "type": "attribute",
+      "for": [
+        "MulticastController"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "joinedgroups-attribute",
+        "href": "https://wicg.github.io/direct-sockets/#joinedgroups-attribute",
+        "title": "joinedGroups attribute",
+        "alternateIds": [
+          "x3-5-joinedgroups-attribute"
+        ],
+        "number": "3.5"
+      },
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-tcpserversocket",
@@ -1436,9 +2091,13 @@
         "id": "tcpserversocket-interface",
         "href": "https://wicg.github.io/direct-sockets/#tcpserversocket-interface",
         "title": "TCPServerSocket interface",
-        "number": "3"
+        "alternateIds": [
+          "x4-tcpserversocket-interface"
+        ],
+        "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dfn-tcpserversocket-task-source",
@@ -1455,9 +2114,13 @@
         "id": "tcpserversocket-interface",
         "href": "https://wicg.github.io/direct-sockets/#tcpserversocket-interface",
         "title": "TCPServerSocket interface",
-        "number": "3"
+        "alternateIds": [
+          "x4-tcpserversocket-interface"
+        ],
+        "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-readable-1",
@@ -1476,9 +2139,13 @@
         "id": "tcpserversocket-interface",
         "href": "https://wicg.github.io/direct-sockets/#tcpserversocket-interface",
         "title": "TCPServerSocket interface",
-        "number": "3"
+        "alternateIds": [
+          "x4-tcpserversocket-interface"
+        ],
+        "number": "4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-openedpromise-1",
@@ -1497,9 +2164,13 @@
         "id": "tcpserversocket-interface",
         "href": "https://wicg.github.io/direct-sockets/#tcpserversocket-interface",
         "title": "TCPServerSocket interface",
-        "number": "3"
+        "alternateIds": [
+          "x4-tcpserversocket-interface"
+        ],
+        "number": "4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-closedpromise-1",
@@ -1518,9 +2189,13 @@
         "id": "tcpserversocket-interface",
         "href": "https://wicg.github.io/direct-sockets/#tcpserversocket-interface",
         "title": "TCPServerSocket interface",
-        "number": "3"
+        "alternateIds": [
+          "x4-tcpserversocket-interface"
+        ],
+        "number": "4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-tcpserversocket-constructor",
@@ -1545,9 +2220,13 @@
         "id": "constructor-method-1",
         "href": "https://wicg.github.io/direct-sockets/#constructor-method-1",
         "title": "constructor() method",
-        "number": "3.1"
+        "alternateIds": [
+          "x4-1-constructor-method"
+        ],
+        "number": "4.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-tcpserversocketoptions",
@@ -1564,9 +2243,13 @@
         "id": "tcpserversocketoptions-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#tcpserversocketoptions-dictionary",
         "title": "TCPServerSocketOptions dictionary",
-        "number": "3.1.1"
+        "alternateIds": [
+          "x4-1-1-tcpserversocketoptions-dictionary"
+        ],
+        "number": "4.1.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-tcpserversocketoptions-localport",
@@ -1585,9 +2268,13 @@
         "id": "tcpserversocketoptions-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#tcpserversocketoptions-dictionary",
         "title": "TCPServerSocketOptions dictionary",
-        "number": "3.1.1"
+        "alternateIds": [
+          "x4-1-1-tcpserversocketoptions-dictionary"
+        ],
+        "number": "4.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-tcpserversocketoptions-backlog",
@@ -1606,9 +2293,13 @@
         "id": "tcpserversocketoptions-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#tcpserversocketoptions-dictionary",
         "title": "TCPServerSocketOptions dictionary",
-        "number": "3.1.1"
+        "alternateIds": [
+          "x4-1-1-tcpserversocketoptions-dictionary"
+        ],
+        "number": "4.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-tcpserversocketoptions-ipv6only",
@@ -1627,9 +2318,13 @@
         "id": "tcpserversocketoptions-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#tcpserversocketoptions-dictionary",
         "title": "TCPServerSocketOptions dictionary",
-        "number": "3.1.1"
+        "alternateIds": [
+          "x4-1-1-tcpserversocketoptions-dictionary"
+        ],
+        "number": "4.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-initialize-tcpserversocket-readable-stream",
@@ -1647,9 +2342,13 @@
         "id": "readable-attribute-internal-1",
         "href": "https://wicg.github.io/direct-sockets/#readable-attribute-internal-1",
         "title": "[[readable]] attribute (internal)",
-        "number": "3.2"
+        "alternateIds": [
+          "x4-2-readable-attribute-internal"
+        ],
+        "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-handle-closing-the-tcpserversocket-readable-stream",
@@ -1666,9 +2365,13 @@
         "id": "readable-attribute-internal-1",
         "href": "https://wicg.github.io/direct-sockets/#readable-attribute-internal-1",
         "title": "[[readable]] attribute (internal)",
-        "number": "3.2"
+        "alternateIds": [
+          "x4-2-readable-attribute-internal"
+        ],
+        "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-tcpserversocket-opened",
@@ -1689,9 +2392,13 @@
         "id": "opened-attribute-1",
         "href": "https://wicg.github.io/direct-sockets/#opened-attribute-1",
         "title": "opened attribute",
-        "number": "3.3"
+        "alternateIds": [
+          "x4-3-opened-attribute"
+        ],
+        "number": "4.3"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-tcpserversocketopeninfo",
@@ -1708,9 +2415,13 @@
         "id": "tcpserversocketopeninfo-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#tcpserversocketopeninfo-dictionary",
         "title": "TCPServerSocketOpenInfo dictionary",
-        "number": "3.3.1"
+        "alternateIds": [
+          "x4-3-1-tcpserversocketopeninfo-dictionary"
+        ],
+        "number": "4.3.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-tcpserversocketopeninfo-readable",
@@ -1729,9 +2440,13 @@
         "id": "tcpserversocketopeninfo-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#tcpserversocketopeninfo-dictionary",
         "title": "TCPServerSocketOpenInfo dictionary",
-        "number": "3.3.1"
+        "alternateIds": [
+          "x4-3-1-tcpserversocketopeninfo-dictionary"
+        ],
+        "number": "4.3.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-tcpserversocketopeninfo-localaddress",
@@ -1750,9 +2465,13 @@
         "id": "tcpserversocketopeninfo-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#tcpserversocketopeninfo-dictionary",
         "title": "TCPServerSocketOpenInfo dictionary",
-        "number": "3.3.1"
+        "alternateIds": [
+          "x4-3-1-tcpserversocketopeninfo-dictionary"
+        ],
+        "number": "4.3.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-tcpserversocketopeninfo-localport",
@@ -1771,9 +2490,13 @@
         "id": "tcpserversocketopeninfo-dictionary",
         "href": "https://wicg.github.io/direct-sockets/#tcpserversocketopeninfo-dictionary",
         "title": "TCPServerSocketOpenInfo dictionary",
-        "number": "3.3.1"
+        "alternateIds": [
+          "x4-3-1-tcpserversocketopeninfo-dictionary"
+        ],
+        "number": "4.3.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-tcpserversocket-closed",
@@ -1794,9 +2517,13 @@
         "id": "closed-attribute-1",
         "href": "https://wicg.github.io/direct-sockets/#closed-attribute-1",
         "title": "closed attribute",
-        "number": "3.4"
+        "alternateIds": [
+          "x4-4-closed-attribute"
+        ],
+        "number": "4.4"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-tcpserversocket-close",
@@ -1819,9 +2546,13 @@
         "id": "close-method-1",
         "href": "https://wicg.github.io/direct-sockets/#close-method-1",
         "title": "close() method",
-        "number": "3.5"
+        "alternateIds": [
+          "x4-5-close-method"
+        ],
+        "number": "4.5"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dfn-direct-sockets",
@@ -1840,15 +2571,19 @@
         "id": "permissions-policy",
         "href": "https://wicg.github.io/direct-sockets/#permissions-policy",
         "title": "Permissions Policy",
-        "number": "4.1"
+        "alternateIds": [
+          "x5-1-permissions-policy"
+        ],
+        "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "dfn-direct-sockets-private",
-      "href": "https://wicg.github.io/direct-sockets/#dfn-direct-sockets-private",
+      "id": "dfn-direct-sockets-multicast",
+      "href": "https://wicg.github.io/direct-sockets/#dfn-direct-sockets-multicast",
       "linkingText": [
-        "direct-sockets-private"
+        "direct-sockets-multicast"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1858,12 +2593,16 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "permissions-policy-pna",
-        "href": "https://wicg.github.io/direct-sockets/#permissions-policy-pna",
-        "title": "Permissions Policy (Private Network Access)",
-        "number": "4.2"
+        "id": "permissions-policy-multicast",
+        "href": "https://wicg.github.io/direct-sockets/#permissions-policy-multicast",
+        "title": "Permissions Policy (Multicast)",
+        "alternateIds": [
+          "x5-3-permissions-policy-multicast"
+        ],
+        "number": "5.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

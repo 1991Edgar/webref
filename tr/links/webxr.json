@@ -87,10 +87,8 @@
       "https://developer.mozilla.org/en-US/docs/Web/API/XRSystem/requestSession": {},
       "https://developer.mozilla.org/en-US/docs/Web/API/XRView": {},
       "https://developer.mozilla.org/en-US/docs/Web/API/XRView/eye": {},
-      "https://developer.mozilla.org/en-US/docs/Web/API/XRView/projectionMatrix": {},
       "https://developer.mozilla.org/en-US/docs/Web/API/XRView/recommendedViewportScale": {},
       "https://developer.mozilla.org/en-US/docs/Web/API/XRView/requestViewportScale": {},
-      "https://developer.mozilla.org/en-US/docs/Web/API/XRView/transform": {},
       "https://developer.mozilla.org/en-US/docs/Web/API/XRViewerPose": {},
       "https://developer.mozilla.org/en-US/docs/Web/API/XRViewerPose/views": {},
       "https://developer.mozilla.org/en-US/docs/Web/API/XRViewport": {},
@@ -319,8 +317,8 @@
       "https://www.w3.org/TR/orientation-event/": {},
       "https://www.w3.org/TR/permissions-policy-1/": {},
       "https://www.w3.org/TR/permissions/": {},
-      "https://www.w3.org/TR/pointerevents/": {},
-      "https://www.w3.org/TR/pointerlock/": {},
+      "https://www.w3.org/TR/pointerevents4/": {},
+      "https://www.w3.org/TR/pointerlock-2/": {},
       "https://www.w3.org/TR/requestidlecallback/": {},
       "https://www.w3.org/TR/webxr-ar-module-1/": {},
       "https://www.w3.org/TR/webxr-gamepads-module-1/": {},
@@ -333,7 +331,7 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {
+      "https://www.w3.org/policies/process/20250818/": {
         "anchors": [
           "recs-and-notes"
         ]
@@ -480,9 +478,11 @@
           "invoke-a-callback-function",
           "idl-long",
           "dfn-frozen-array-type",
+          "dfn-iterable",
           "dfn-indexed-property-getter",
           "operationerror",
-          "aborterror"
+          "aborterror",
+          "idl-Uint32Array"
         ]
       },
       "https://www.khronos.org/registry/webgl/specs/latest/1.0/": {

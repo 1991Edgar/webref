@@ -33,20 +33,19 @@
           "double"
         ]
       },
-      "https://datatracker.ietf.org/doc/html/bcp14": {},
       "https://dlmf.nist.gov/4": {},
       "https://github.com/w3c/mathml": {},
       "https://github.com/w3c/mathml-docs": {},
       "https://github.com/w3c/mathml/issues/178": {},
-      "https://github.com/w3c/mathml/issues/180": {},
       "https://github.com/w3c/mathml/issues/247": {},
-      "https://github.com/w3c/mathml/issues/284": {},
-      "https://github.com/w3c/mathml/issues/304": {},
-      "https://github.com/w3c/mathml/issues/361": {},
       "https://github.com/w3c/mathml/issues/?q=is%3Aissue+is%3Aopen+label%3A%22MathML+4%22": {},
-      "https://github.com/w3c/mathml/issues/?q=is%3Aissue+is%3Aopen+label%3A%22compatibility%22": {},
       "https://github.com/w3c/mathml/issues/?q=is%3Aissue+is%3Aopen+label%3A%22css+%2F+html5%22": {},
       "https://github.com/w3c/mathml/issues/?q=is%3Aissue+is%3Aopen+label%3A%22need+specification+update%22": {},
+      "https://html.spec.whatwg.org/": {
+        "anchors": [
+          "the-a-element"
+        ]
+      },
       "https://html.spec.whatwg.org/multipage/": {},
       "https://httpwg.org/specs/rfc9110.html": {},
       "https://infra.spec.whatwg.org/": {
@@ -354,6 +353,11 @@
         ]
       },
       "https://w3c.github.io/mathml-aam/": {},
+      "https://w3c.github.io/mathml-core/": {
+        "anchors": [
+          "the-displaystyle-and-scriptlevel-attributes"
+        ]
+      },
       "https://w3c.github.io/mathml-core/spec.html": {
         "anchors": [
           "dfn-id",
@@ -385,13 +389,12 @@
           "attribute-mspace-depth",
           "dfn-ms",
           "dfn-mrow",
+          "dfn-a",
           "dfn-mfrac",
           "dfn-linethickness",
           "dfn-msqrt",
           "dfn-mroot",
           "dfn-mstyle",
-          "dfn-scriptlevel",
-          "dfn-displaystyle",
           "dfn-merror",
           "dfn-mpadded",
           "attribute-mpadded-height",
@@ -420,10 +423,12 @@
       "https://w3c.github.io/mathml-docs/intent-core-concepts/": {},
       "https://w3c.github.io/mathml-docs/intent-core-properties": {},
       "https://w3c.github.io/mathml-docs/intent-open-concepts": {},
-      "https://w3c.github.io/mathml-docs/intent-open-properties": {},
+      "https://w3c.github.io/mathml-docs/literal-common-properties": {},
       "https://w3c.github.io/mathml-docs/mathml-media-types/": {},
       "https://w3c.github.io/mathml-docs/notes-on-mathml/": {},
+      "https://w3c.github.io/mathml-docs/unicode-speech": {},
       "https://w3c.github.io/mathml-polyfills/": {},
+      "https://www.rfc-editor.org/info/bcp14": {},
       "https://www.rfc-editor.org/rfc/rfc2045": {},
       "https://www.rfc-editor.org/rfc/rfc2046": {},
       "https://www.rfc-editor.org/rfc/rfc2119": {},
@@ -431,7 +436,7 @@
       "https://www.rfc-editor.org/rfc/rfc3987": {},
       "https://www.rfc-editor.org/rfc/rfc7303": {},
       "https://www.rfc-editor.org/rfc/rfc8174": {},
-      "https://www.unicode.org/reports/tr9/tr9-50.html": {},
+      "https://www.unicode.org/reports/tr9/tr9-51.html": {},
       "https://www.unicode.org/versions/latest/": {},
       "https://www.w3.org/Math/": {},
       "https://www.w3.org/Math/RelaxNG/mathml4/mathml4-content.rnc": {},
@@ -444,7 +449,7 @@
       "https://www.w3.org/TR/": {},
       "https://www.w3.org/TR/1998/REC-MathML-19980407/": {},
       "https://www.w3.org/TR/2008/REC-xhtml-modularization-20081008/": {},
-      "https://www.w3.org/TR/CSS21/": {},
+      "https://www.w3.org/TR/CSS2/": {},
       "https://www.w3.org/TR/MathML3/": {},
       "https://www.w3.org/TR/REC-xml-names/": {
         "anchors": [
@@ -472,10 +477,10 @@
         "anchors": [
           "global-attributes",
           "fractions-mfrac",
-          "privacy-considerations",
           "security-considerations"
         ]
       },
+      "https://www.w3.org/TR/mathml-core/privacy-considerations": {},
       "https://www.w3.org/TR/mathml-types/": {},
       "https://www.w3.org/TR/rdf-concepts/": {},
       "https://www.w3.org/TR/wai-aria-1.1/": {
@@ -489,8 +494,8 @@
         ]
       },
       "https://www.w3.org/TR/xhtml1/": {},
-      "https://www.w3.org/TR/xlink/": {},
       "https://www.w3.org/TR/xml-entity-names/": {},
+      "https://www.w3.org/TR/xml-entity-names/script.html": {},
       "https://www.w3.org/TR/xml-names/": {},
       "https://www.w3.org/TR/xml/": {},
       "https://www.w3.org/TR/xmlschema-1/": {},
@@ -503,7 +508,7 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {}
   }

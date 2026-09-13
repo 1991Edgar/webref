@@ -26,7 +26,10 @@
       "id": "toc",
       "href": "https://drafts.csswg.org/css-pseudo-4/#toc",
       "level": 2,
-      "title": "Table of Contents"
+      "title": "Table of Contents",
+      "alternateIds": [
+        "contents"
+      ]
     },
     {
       "id": "intro",
@@ -74,7 +77,7 @@
       "id": "first-letter-pseudo",
       "href": "https://drafts.csswg.org/css-pseudo-4/#first-letter-pseudo",
       "level": 3,
-      "title": "First-Letter Text: ::first-letter pseudo-element and its ::prefix and ::postfix children",
+      "title": "First-Letter Text: ::first-letter pseudo-element and its ::prefix and ::suffix children",
       "number": "2.2"
     },
     {
@@ -381,7 +384,7 @@
       "id": "informative",
       "href": "https://drafts.csswg.org/css-pseudo-4/#informative",
       "level": 3,
-      "title": "Informative References"
+      "title": "Non-Normative References"
     },
     {
       "id": "idl-index",

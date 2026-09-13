@@ -21,7 +21,8 @@
         "title": "The UserIdleState enum",
         "number": "2.1.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-useridlestate-active",
@@ -37,11 +38,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/idle-detection/#title",
-        "title": "Idle Detection API"
+        "id": "api-useridlestate",
+        "href": "https://wicg.github.io/idle-detection/#api-useridlestate",
+        "title": "The UserIdleState enum",
+        "number": "2.1.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-useridlestate-idle",
@@ -57,11 +60,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/idle-detection/#title",
-        "title": "Idle Detection API"
+        "id": "api-useridlestate",
+        "href": "https://wicg.github.io/idle-detection/#api-useridlestate",
+        "title": "The UserIdleState enum",
+        "number": "2.1.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "enumdef-screenidlestate",
@@ -80,7 +85,8 @@
         "title": "The ScreenIdleState enum",
         "number": "2.1.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-screenidlestate-locked",
@@ -96,11 +102,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/idle-detection/#title",
-        "title": "Idle Detection API"
+        "id": "api-screenidlestate",
+        "href": "https://wicg.github.io/idle-detection/#api-screenidlestate",
+        "title": "The ScreenIdleState enum",
+        "number": "2.1.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-screenidlestate-unlocked",
@@ -116,11 +124,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/idle-detection/#title",
-        "title": "Idle Detection API"
+        "id": "api-screenidlestate",
+        "href": "https://wicg.github.io/idle-detection/#api-screenidlestate",
+        "title": "The ScreenIdleState enum",
+        "number": "2.1.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "permissiondef-idle-detection",
@@ -139,7 +149,8 @@
         "title": "Permissions",
         "number": "2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dictdef-idleoptions",
@@ -158,7 +169,8 @@
         "title": "The IdleDetector interface",
         "number": "2.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-idleoptions-threshold",
@@ -174,11 +186,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/idle-detection/#title",
-        "title": "Idle Detection API"
+        "id": "api-idledetector",
+        "href": "https://wicg.github.io/idle-detection/#api-idledetector",
+        "title": "The IdleDetector interface",
+        "number": "2.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-idleoptions-signal",
@@ -194,11 +208,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/idle-detection/#title",
-        "title": "Idle Detection API"
+        "id": "api-idledetector",
+        "href": "https://wicg.github.io/idle-detection/#api-idledetector",
+        "title": "The IdleDetector interface",
+        "number": "2.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "idledetector",
@@ -212,11 +228,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/idle-detection/#title",
-        "title": "Idle Detection API"
+        "id": "api-idledetector",
+        "href": "https://wicg.github.io/idle-detection/#api-idledetector",
+        "title": "The IdleDetector interface",
+        "number": "2.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-idledetector-idledetector",
@@ -233,11 +251,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/idle-detection/#title",
-        "title": "Idle Detection API"
+        "id": "api-idledetector",
+        "href": "https://wicg.github.io/idle-detection/#api-idledetector",
+        "title": "The IdleDetector interface",
+        "number": "2.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-idledetector-start-options-options",
@@ -254,11 +274,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/idle-detection/#title",
-        "title": "Idle Detection API"
+        "id": "api-idledetector",
+        "href": "https://wicg.github.io/idle-detection/#api-idledetector",
+        "title": "The IdleDetector interface",
+        "number": "2.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-idledetector-state-slot",
@@ -274,11 +296,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/idle-detection/#title",
-        "title": "Idle Detection API"
+        "id": "api-idledetector",
+        "href": "https://wicg.github.io/idle-detection/#api-idledetector",
+        "title": "The IdleDetector interface",
+        "number": "2.4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-idledetector-threshold-slot",
@@ -294,11 +318,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/idle-detection/#title",
-        "title": "Idle Detection API"
+        "id": "api-idledetector",
+        "href": "https://wicg.github.io/idle-detection/#api-idledetector",
+        "title": "The IdleDetector interface",
+        "number": "2.4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-idledetector-userstate-slot",
@@ -314,11 +340,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/idle-detection/#title",
-        "title": "Idle Detection API"
+        "id": "api-idledetector",
+        "href": "https://wicg.github.io/idle-detection/#api-idledetector",
+        "title": "The IdleDetector interface",
+        "number": "2.4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-idledetector-screenstate-slot",
@@ -334,11 +362,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/idle-detection/#title",
-        "title": "Idle Detection API"
+        "id": "api-idledetector",
+        "href": "https://wicg.github.io/idle-detection/#api-idledetector",
+        "title": "The IdleDetector interface",
+        "number": "2.4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "idle-detection-task-source",
@@ -352,11 +382,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/idle-detection/#title",
-        "title": "Idle Detection API"
+        "id": "api-idledetector",
+        "href": "https://wicg.github.io/idle-detection/#api-idledetector",
+        "title": "The IdleDetector interface",
+        "number": "2.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-idledetector-userstate",
@@ -377,7 +409,8 @@
         "title": "userState attribute",
         "number": "2.4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-idledetector-screenstate",
@@ -398,7 +431,8 @@
         "title": "screenState attribute",
         "number": "2.4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-idledetector-onchange",
@@ -419,7 +453,8 @@
         "title": "onchange attribute",
         "number": "2.4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-idledetector-requestpermission",
@@ -440,7 +475,8 @@
         "title": "requestPermission() method",
         "number": "2.4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-idledetector-start",
@@ -462,7 +498,8 @@
         "title": "start() method",
         "number": "2.4.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

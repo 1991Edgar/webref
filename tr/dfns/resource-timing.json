@@ -5,8 +5,8 @@
   },
   "dfns": [
     {
-      "id": "dom-performanceresourcetiming",
-      "href": "https://www.w3.org/TR/resource-timing/#dom-performanceresourcetiming",
+      "id": "performanceresourcetiming",
+      "href": "https://www.w3.org/TR/resource-timing/#performanceresourcetiming",
       "linkingText": [
         "PerformanceResourceTiming"
       ],
@@ -19,161 +19,10 @@
         "id": "sec-performanceresourcetiming",
         "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
         "title": "The PerformanceResourceTiming Interface",
-        "number": "4.3"
+        "number": "3.3"
       },
-      "definedIn": "heading"
-    },
-    {
-      "id": "dfn-initiator-type",
-      "href": "https://www.w3.org/TR/resource-timing/#dfn-initiator-type",
-      "linkingText": [
-        "initiator type"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "sec-performanceresourcetiming",
-        "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
-        "title": "The PerformanceResourceTiming Interface",
-        "number": "4.3"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-delivery-type",
-      "href": "https://www.w3.org/TR/resource-timing/#dfn-delivery-type",
-      "linkingText": [
-        "delivery type"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "sec-performanceresourcetiming",
-        "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
-        "title": "The PerformanceResourceTiming Interface",
-        "number": "4.3"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-requested-url",
-      "href": "https://www.w3.org/TR/resource-timing/#dfn-requested-url",
-      "linkingText": [
-        "requested URL"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "sec-performanceresourcetiming",
-        "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
-        "title": "The PerformanceResourceTiming Interface",
-        "number": "4.3"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-cache-mode",
-      "href": "https://www.w3.org/TR/resource-timing/#dfn-cache-mode",
-      "linkingText": [
-        "cache mode"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "sec-performanceresourcetiming",
-        "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
-        "title": "The PerformanceResourceTiming Interface",
-        "number": "4.3"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-timing-info",
-      "href": "https://www.w3.org/TR/resource-timing/#dfn-timing-info",
-      "linkingText": [
-        "timing info"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "sec-performanceresourcetiming",
-        "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
-        "title": "The PerformanceResourceTiming Interface",
-        "number": "4.3"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-resource-info",
-      "href": "https://www.w3.org/TR/resource-timing/#dfn-resource-info",
-      "linkingText": [
-        "resource info"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "sec-performanceresourcetiming",
-        "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
-        "title": "The PerformanceResourceTiming Interface",
-        "number": "4.3"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-response-status",
-      "href": "https://www.w3.org/TR/resource-timing/#dfn-response-status",
-      "linkingText": [
-        "response status"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "sec-performanceresourcetiming",
-        "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
-        "title": "The PerformanceResourceTiming Interface",
-        "number": "4.3"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-render-blocking-status",
-      "href": "https://www.w3.org/TR/resource-timing/#dfn-render-blocking-status",
-      "linkingText": [
-        "render-blocking status"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "sec-performanceresourcetiming",
-        "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
-        "title": "The PerformanceResourceTiming Interface",
-        "number": "4.3"
-      },
-      "definedIn": "prose"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-performanceresourcetiming-tojson",
@@ -181,11 +30,7 @@
       "linkingText": [
         "toJSON()"
       ],
-      "localLinkingText": [
-        "PerformanceResourceTiming.toJSON",
-        "PerformanceResourceTiming.toJSON()",
-        "toJSON"
-      ],
+      "localLinkingText": [],
       "type": "method",
       "for": [
         "PerformanceResourceTiming"
@@ -196,9 +41,208 @@
         "id": "sec-performanceresourcetiming",
         "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
         "title": "The PerformanceResourceTiming Interface",
-        "number": "4.3"
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "performanceresourcetiming-initiator-type",
+      "href": "https://www.w3.org/TR/resource-timing/#performanceresourcetiming-initiator-type",
+      "linkingText": [
+        "initiator type"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "PerformanceResourceTiming"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-performanceresourcetiming",
+        "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
+        "title": "The PerformanceResourceTiming Interface",
+        "number": "3.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "performanceresourcetiming-delivery-type",
+      "href": "https://www.w3.org/TR/resource-timing/#performanceresourcetiming-delivery-type",
+      "linkingText": [
+        "delivery type"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "PerformanceResourceTiming"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-performanceresourcetiming",
+        "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
+        "title": "The PerformanceResourceTiming Interface",
+        "number": "3.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "performanceresourcetiming-requested-url",
+      "href": "https://www.w3.org/TR/resource-timing/#performanceresourcetiming-requested-url",
+      "linkingText": [
+        "requested URL"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "PerformanceResourceTiming"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-performanceresourcetiming",
+        "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
+        "title": "The PerformanceResourceTiming Interface",
+        "number": "3.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "performanceresourcetiming-cache-mode",
+      "href": "https://www.w3.org/TR/resource-timing/#performanceresourcetiming-cache-mode",
+      "linkingText": [
+        "cache mode"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "PerformanceResourceTiming"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-performanceresourcetiming",
+        "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
+        "title": "The PerformanceResourceTiming Interface",
+        "number": "3.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "performanceresourcetiming-timing-info",
+      "href": "https://www.w3.org/TR/resource-timing/#performanceresourcetiming-timing-info",
+      "linkingText": [
+        "timing info"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "PerformanceResourceTiming"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-performanceresourcetiming",
+        "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
+        "title": "The PerformanceResourceTiming Interface",
+        "number": "3.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "performanceresourcetiming-resource-info",
+      "href": "https://www.w3.org/TR/resource-timing/#performanceresourcetiming-resource-info",
+      "linkingText": [
+        "resource info"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "PerformanceResourceTiming"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-performanceresourcetiming",
+        "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
+        "title": "The PerformanceResourceTiming Interface",
+        "number": "3.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "performanceresourcetiming-response-status",
+      "href": "https://www.w3.org/TR/resource-timing/#performanceresourcetiming-response-status",
+      "linkingText": [
+        "response status"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "PerformanceResourceTiming"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-performanceresourcetiming",
+        "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
+        "title": "The PerformanceResourceTiming Interface",
+        "number": "3.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "performanceresourcetiming-render-blocking-status",
+      "href": "https://www.w3.org/TR/resource-timing/#performanceresourcetiming-render-blocking-status",
+      "linkingText": [
+        "render-blocking status"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "PerformanceResourceTiming"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-performanceresourcetiming",
+        "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
+        "title": "The PerformanceResourceTiming Interface",
+        "number": "3.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "performanceresourcetiming-tojson",
+      "href": "https://www.w3.org/TR/resource-timing/#performanceresourcetiming-tojson",
+      "linkingText": [
+        "toJSON"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "PerformanceResourceTiming"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-performanceresourcetiming",
+        "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
+        "title": "The PerformanceResourceTiming Interface",
+        "number": "3.3"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-performanceresourcetiming-initiatortype",
@@ -206,9 +250,7 @@
       "linkingText": [
         "initiatorType"
       ],
-      "localLinkingText": [
-        "PerformanceResourceTiming.initiatorType"
-      ],
+      "localLinkingText": [],
       "type": "attribute",
       "for": [
         "PerformanceResourceTiming"
@@ -219,9 +261,10 @@
         "id": "sec-performanceresourcetiming",
         "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
         "title": "The PerformanceResourceTiming Interface",
-        "number": "4.3"
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-performanceresourcetiming-deliverytype",
@@ -229,9 +272,7 @@
       "linkingText": [
         "deliveryType"
       ],
-      "localLinkingText": [
-        "PerformanceResourceTiming.deliveryType"
-      ],
+      "localLinkingText": [],
       "type": "attribute",
       "for": [
         "PerformanceResourceTiming"
@@ -242,9 +283,10 @@
         "id": "sec-performanceresourcetiming",
         "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
         "title": "The PerformanceResourceTiming Interface",
-        "number": "4.3"
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-performanceresourcetiming-workerstart",
@@ -252,9 +294,7 @@
       "linkingText": [
         "workerStart"
       ],
-      "localLinkingText": [
-        "PerformanceResourceTiming.workerStart"
-      ],
+      "localLinkingText": [],
       "type": "attribute",
       "for": [
         "PerformanceResourceTiming"
@@ -265,9 +305,10 @@
         "id": "sec-performanceresourcetiming",
         "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
         "title": "The PerformanceResourceTiming Interface",
-        "number": "4.3"
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-performanceresourcetiming-redirectstart",
@@ -275,9 +316,7 @@
       "linkingText": [
         "redirectStart"
       ],
-      "localLinkingText": [
-        "PerformanceResourceTiming.redirectStart"
-      ],
+      "localLinkingText": [],
       "type": "attribute",
       "for": [
         "PerformanceResourceTiming"
@@ -288,9 +327,10 @@
         "id": "sec-performanceresourcetiming",
         "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
         "title": "The PerformanceResourceTiming Interface",
-        "number": "4.3"
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-performanceresourcetiming-redirectend",
@@ -298,9 +338,7 @@
       "linkingText": [
         "redirectEnd"
       ],
-      "localLinkingText": [
-        "PerformanceResourceTiming.redirectEnd"
-      ],
+      "localLinkingText": [],
       "type": "attribute",
       "for": [
         "PerformanceResourceTiming"
@@ -311,9 +349,10 @@
         "id": "sec-performanceresourcetiming",
         "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
         "title": "The PerformanceResourceTiming Interface",
-        "number": "4.3"
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-performanceresourcetiming-fetchstart",
@@ -321,9 +360,7 @@
       "linkingText": [
         "fetchStart"
       ],
-      "localLinkingText": [
-        "PerformanceResourceTiming.fetchStart"
-      ],
+      "localLinkingText": [],
       "type": "attribute",
       "for": [
         "PerformanceResourceTiming"
@@ -334,9 +371,10 @@
         "id": "sec-performanceresourcetiming",
         "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
         "title": "The PerformanceResourceTiming Interface",
-        "number": "4.3"
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-performanceresourcetiming-domainlookupstart",
@@ -344,9 +382,7 @@
       "linkingText": [
         "domainLookupStart"
       ],
-      "localLinkingText": [
-        "PerformanceResourceTiming.domainLookupStart"
-      ],
+      "localLinkingText": [],
       "type": "attribute",
       "for": [
         "PerformanceResourceTiming"
@@ -357,9 +393,10 @@
         "id": "sec-performanceresourcetiming",
         "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
         "title": "The PerformanceResourceTiming Interface",
-        "number": "4.3"
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-performanceresourcetiming-domainlookupend",
@@ -367,9 +404,7 @@
       "linkingText": [
         "domainLookupEnd"
       ],
-      "localLinkingText": [
-        "PerformanceResourceTiming.domainLookupEnd"
-      ],
+      "localLinkingText": [],
       "type": "attribute",
       "for": [
         "PerformanceResourceTiming"
@@ -380,9 +415,10 @@
         "id": "sec-performanceresourcetiming",
         "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
         "title": "The PerformanceResourceTiming Interface",
-        "number": "4.3"
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-performanceresourcetiming-connectstart",
@@ -390,9 +426,7 @@
       "linkingText": [
         "connectStart"
       ],
-      "localLinkingText": [
-        "PerformanceResourceTiming.connectStart"
-      ],
+      "localLinkingText": [],
       "type": "attribute",
       "for": [
         "PerformanceResourceTiming"
@@ -403,9 +437,10 @@
         "id": "sec-performanceresourcetiming",
         "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
         "title": "The PerformanceResourceTiming Interface",
-        "number": "4.3"
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-performanceresourcetiming-connectend",
@@ -413,9 +448,7 @@
       "linkingText": [
         "connectEnd"
       ],
-      "localLinkingText": [
-        "PerformanceResourceTiming.connectEnd"
-      ],
+      "localLinkingText": [],
       "type": "attribute",
       "for": [
         "PerformanceResourceTiming"
@@ -426,9 +459,10 @@
         "id": "sec-performanceresourcetiming",
         "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
         "title": "The PerformanceResourceTiming Interface",
-        "number": "4.3"
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-performanceresourcetiming-secureconnectionstart",
@@ -436,9 +470,7 @@
       "linkingText": [
         "secureConnectionStart"
       ],
-      "localLinkingText": [
-        "PerformanceResourceTiming.secureConnectionStart"
-      ],
+      "localLinkingText": [],
       "type": "attribute",
       "for": [
         "PerformanceResourceTiming"
@@ -449,9 +481,10 @@
         "id": "sec-performanceresourcetiming",
         "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
         "title": "The PerformanceResourceTiming Interface",
-        "number": "4.3"
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-performanceresourcetiming-nexthopprotocol",
@@ -459,9 +492,7 @@
       "linkingText": [
         "nextHopProtocol"
       ],
-      "localLinkingText": [
-        "PerformanceResourceTiming.nextHopProtocol"
-      ],
+      "localLinkingText": [],
       "type": "attribute",
       "for": [
         "PerformanceResourceTiming"
@@ -472,9 +503,10 @@
         "id": "sec-performanceresourcetiming",
         "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
         "title": "The PerformanceResourceTiming Interface",
-        "number": "4.3"
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-performanceresourcetiming-requeststart",
@@ -482,9 +514,7 @@
       "linkingText": [
         "requestStart"
       ],
-      "localLinkingText": [
-        "PerformanceResourceTiming.requestStart"
-      ],
+      "localLinkingText": [],
       "type": "attribute",
       "for": [
         "PerformanceResourceTiming"
@@ -495,9 +525,10 @@
         "id": "sec-performanceresourcetiming",
         "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
         "title": "The PerformanceResourceTiming Interface",
-        "number": "4.3"
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-performanceresourcetiming-firstinterimresponsestart",
@@ -505,9 +536,7 @@
       "linkingText": [
         "firstInterimResponseStart"
       ],
-      "localLinkingText": [
-        "PerformanceResourceTiming.firstInterimResponseStart"
-      ],
+      "localLinkingText": [],
       "type": "attribute",
       "for": [
         "PerformanceResourceTiming"
@@ -518,9 +547,10 @@
         "id": "sec-performanceresourcetiming",
         "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
         "title": "The PerformanceResourceTiming Interface",
-        "number": "4.3"
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-performanceresourcetiming-finalresponseheadersstart",
@@ -528,9 +558,7 @@
       "linkingText": [
         "finalResponseHeadersStart"
       ],
-      "localLinkingText": [
-        "PerformanceResourceTiming.finalResponseHeadersStart"
-      ],
+      "localLinkingText": [],
       "type": "attribute",
       "for": [
         "PerformanceResourceTiming"
@@ -541,9 +569,10 @@
         "id": "sec-performanceresourcetiming",
         "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
         "title": "The PerformanceResourceTiming Interface",
-        "number": "4.3"
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-performanceresourcetiming-responsestart",
@@ -551,9 +580,7 @@
       "linkingText": [
         "responseStart"
       ],
-      "localLinkingText": [
-        "PerformanceResourceTiming.responseStart"
-      ],
+      "localLinkingText": [],
       "type": "attribute",
       "for": [
         "PerformanceResourceTiming"
@@ -564,9 +591,10 @@
         "id": "sec-performanceresourcetiming",
         "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
         "title": "The PerformanceResourceTiming Interface",
-        "number": "4.3"
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-performanceresourcetiming-responseend",
@@ -574,9 +602,7 @@
       "linkingText": [
         "responseEnd"
       ],
-      "localLinkingText": [
-        "PerformanceResourceTiming.responseEnd"
-      ],
+      "localLinkingText": [],
       "type": "attribute",
       "for": [
         "PerformanceResourceTiming"
@@ -587,9 +613,10 @@
         "id": "sec-performanceresourcetiming",
         "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
         "title": "The PerformanceResourceTiming Interface",
-        "number": "4.3"
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-performanceresourcetiming-encodedbodysize",
@@ -597,9 +624,7 @@
       "linkingText": [
         "encodedBodySize"
       ],
-      "localLinkingText": [
-        "PerformanceResourceTiming.encodedBodySize"
-      ],
+      "localLinkingText": [],
       "type": "attribute",
       "for": [
         "PerformanceResourceTiming"
@@ -610,9 +635,10 @@
         "id": "sec-performanceresourcetiming",
         "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
         "title": "The PerformanceResourceTiming Interface",
-        "number": "4.3"
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-performanceresourcetiming-decodedbodysize",
@@ -620,9 +646,7 @@
       "linkingText": [
         "decodedBodySize"
       ],
-      "localLinkingText": [
-        "PerformanceResourceTiming.decodedBodySize"
-      ],
+      "localLinkingText": [],
       "type": "attribute",
       "for": [
         "PerformanceResourceTiming"
@@ -633,9 +657,10 @@
         "id": "sec-performanceresourcetiming",
         "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
         "title": "The PerformanceResourceTiming Interface",
-        "number": "4.3"
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-performanceresourcetiming-transfersize",
@@ -643,9 +668,7 @@
       "linkingText": [
         "transferSize"
       ],
-      "localLinkingText": [
-        "PerformanceResourceTiming.transferSize"
-      ],
+      "localLinkingText": [],
       "type": "attribute",
       "for": [
         "PerformanceResourceTiming"
@@ -656,9 +679,10 @@
         "id": "sec-performanceresourcetiming",
         "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
         "title": "The PerformanceResourceTiming Interface",
-        "number": "4.3"
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-performanceresourcetiming-responsestatus",
@@ -666,9 +690,7 @@
       "linkingText": [
         "responseStatus"
       ],
-      "localLinkingText": [
-        "PerformanceResourceTiming.responseStatus"
-      ],
+      "localLinkingText": [],
       "type": "attribute",
       "for": [
         "PerformanceResourceTiming"
@@ -679,9 +701,10 @@
         "id": "sec-performanceresourcetiming",
         "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
         "title": "The PerformanceResourceTiming Interface",
-        "number": "4.3"
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-performanceresourcetiming-contenttype",
@@ -689,9 +712,7 @@
       "linkingText": [
         "contentType"
       ],
-      "localLinkingText": [
-        "PerformanceResourceTiming.contentType"
-      ],
+      "localLinkingText": [],
       "type": "attribute",
       "for": [
         "PerformanceResourceTiming"
@@ -702,9 +723,32 @@
         "id": "sec-performanceresourcetiming",
         "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
         "title": "The PerformanceResourceTiming Interface",
-        "number": "4.3"
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-performanceresourcetiming-contentencoding",
+      "href": "https://www.w3.org/TR/resource-timing/#dom-performanceresourcetiming-contentencoding",
+      "linkingText": [
+        "contentEncoding"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "PerformanceResourceTiming"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-performanceresourcetiming",
+        "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
+        "title": "The PerformanceResourceTiming Interface",
+        "number": "3.3"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-performanceresourcetiming-renderblockingstatus",
@@ -712,9 +756,7 @@
       "linkingText": [
         "renderBlockingStatus"
       ],
-      "localLinkingText": [
-        "PerformanceResourceTiming.renderBlockingStatus"
-      ],
+      "localLinkingText": [],
       "type": "attribute",
       "for": [
         "PerformanceResourceTiming"
@@ -725,13 +767,102 @@
         "id": "sec-performanceresourcetiming",
         "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
         "title": "The PerformanceResourceTiming Interface",
-        "number": "4.3"
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "dom-renderblockingstatustype",
-      "href": "https://www.w3.org/TR/resource-timing/#dom-renderblockingstatustype",
+      "id": "dom-performanceresourcetiming-workerrouterevaluationstart",
+      "href": "https://www.w3.org/TR/resource-timing/#dom-performanceresourcetiming-workerrouterevaluationstart",
+      "linkingText": [
+        "workerRouterEvaluationStart"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "PerformanceResourceTiming"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-performanceresourcetiming",
+        "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
+        "title": "The PerformanceResourceTiming Interface",
+        "number": "3.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-performanceresourcetiming-workercachelookupstart",
+      "href": "https://www.w3.org/TR/resource-timing/#dom-performanceresourcetiming-workercachelookupstart",
+      "linkingText": [
+        "workerCacheLookupStart"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "PerformanceResourceTiming"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-performanceresourcetiming",
+        "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
+        "title": "The PerformanceResourceTiming Interface",
+        "number": "3.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-performanceresourcetiming-workermatchedroutersource",
+      "href": "https://www.w3.org/TR/resource-timing/#dom-performanceresourcetiming-workermatchedroutersource",
+      "linkingText": [
+        "workerMatchedRouterSource"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "PerformanceResourceTiming"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-performanceresourcetiming",
+        "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
+        "title": "The PerformanceResourceTiming Interface",
+        "number": "3.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-performanceresourcetiming-workerfinalroutersource",
+      "href": "https://www.w3.org/TR/resource-timing/#dom-performanceresourcetiming-workerfinalroutersource",
+      "linkingText": [
+        "workerFinalRouterSource"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "PerformanceResourceTiming"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-performanceresourcetiming",
+        "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
+        "title": "The PerformanceResourceTiming Interface",
+        "number": "3.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "enumdef-renderblockingstatustype",
+      "href": "https://www.w3.org/TR/resource-timing/#enumdef-renderblockingstatustype",
       "linkingText": [
         "RenderBlockingStatusType"
       ],
@@ -744,15 +875,16 @@
         "id": "sec-render-blocking-status-types",
         "href": "https://www.w3.org/TR/resource-timing/#sec-render-blocking-status-types",
         "title": "RenderBlockingStatusType enum",
-        "number": "4.3.1"
+        "number": "3.3.1"
       },
-      "definedIn": "heading"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-renderblockingstatustype-blocking",
       "href": "https://www.w3.org/TR/resource-timing/#dom-renderblockingstatustype-blocking",
       "linkingText": [
-        "blocking"
+        "\"blocking\""
       ],
       "localLinkingText": [],
       "type": "enum-value",
@@ -765,15 +897,16 @@
         "id": "sec-render-blocking-status-types",
         "href": "https://www.w3.org/TR/resource-timing/#sec-render-blocking-status-types",
         "title": "RenderBlockingStatusType enum",
-        "number": "4.3.1"
+        "number": "3.3.1"
       },
-      "definedIn": "dt"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-renderblockingstatustype-non-blocking",
       "href": "https://www.w3.org/TR/resource-timing/#dom-renderblockingstatustype-non-blocking",
       "linkingText": [
-        "non-blocking"
+        "\"non-blocking\""
       ],
       "localLinkingText": [],
       "type": "enum-value",
@@ -786,123 +919,164 @@
         "id": "sec-render-blocking-status-types",
         "href": "https://www.w3.org/TR/resource-timing/#sec-render-blocking-status-types",
         "title": "RenderBlockingStatusType enum",
-        "number": "4.3.1"
+        "number": "3.3.1"
       },
-      "definedIn": "dt"
+      "definedIn": "pre",
+      "links": []
     },
     {
-      "id": "dfn-resource-timing-buffer-size-limit",
-      "href": "https://www.w3.org/TR/resource-timing/#dfn-resource-timing-buffer-size-limit",
+      "id": "renderblockingstatustype-blocking",
+      "href": "https://www.w3.org/TR/resource-timing/#renderblockingstatustype-blocking",
+      "linkingText": [
+        "blocking"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "RenderBlockingStatusType"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-render-blocking-status-types",
+        "href": "https://www.w3.org/TR/resource-timing/#sec-render-blocking-status-types",
+        "title": "RenderBlockingStatusType enum",
+        "number": "3.3.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "renderblockingstatustype-non-blocking",
+      "href": "https://www.w3.org/TR/resource-timing/#renderblockingstatustype-non-blocking",
+      "linkingText": [
+        "non-blocking"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "RenderBlockingStatusType"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-render-blocking-status-types",
+        "href": "https://www.w3.org/TR/resource-timing/#sec-render-blocking-status-types",
+        "title": "RenderBlockingStatusType enum",
+        "number": "3.3.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "performance-resource-timing-buffer-size-limit",
+      "href": "https://www.w3.org/TR/resource-timing/#performance-resource-timing-buffer-size-limit",
       "linkingText": [
         "resource timing buffer size limit"
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "Performance"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
         "id": "sec-extensions-performance-interface",
         "href": "https://www.w3.org/TR/resource-timing/#sec-extensions-performance-interface",
         "title": "Extensions to the Performance Interface",
-        "number": "4.4"
+        "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "dfn-resource-timing-buffer-current-size",
-      "href": "https://www.w3.org/TR/resource-timing/#dfn-resource-timing-buffer-current-size",
+      "id": "performance-resource-timing-buffer-current-size",
+      "href": "https://www.w3.org/TR/resource-timing/#performance-resource-timing-buffer-current-size",
       "linkingText": [
         "resource timing buffer current size"
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "Performance"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
         "id": "sec-extensions-performance-interface",
         "href": "https://www.w3.org/TR/resource-timing/#sec-extensions-performance-interface",
         "title": "Extensions to the Performance Interface",
-        "number": "4.4"
+        "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "dfn-resource-timing-buffer-full-event-pending-flag",
-      "href": "https://www.w3.org/TR/resource-timing/#dfn-resource-timing-buffer-full-event-pending-flag",
+      "id": "performance-resource-timing-buffer-full-event-pending-flag",
+      "href": "https://www.w3.org/TR/resource-timing/#performance-resource-timing-buffer-full-event-pending-flag",
       "linkingText": [
         "resource timing buffer full event pending flag"
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "Performance"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
         "id": "sec-extensions-performance-interface",
         "href": "https://www.w3.org/TR/resource-timing/#sec-extensions-performance-interface",
         "title": "Extensions to the Performance Interface",
-        "number": "4.4"
+        "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "dfn-resource-timing-secondary-buffer-current-size",
-      "href": "https://www.w3.org/TR/resource-timing/#dfn-resource-timing-secondary-buffer-current-size",
+      "id": "performance-resource-timing-secondary-buffer-current-size",
+      "href": "https://www.w3.org/TR/resource-timing/#performance-resource-timing-secondary-buffer-current-size",
       "linkingText": [
         "resource timing secondary buffer current size"
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "Performance"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
         "id": "sec-extensions-performance-interface",
         "href": "https://www.w3.org/TR/resource-timing/#sec-extensions-performance-interface",
         "title": "Extensions to the Performance Interface",
-        "number": "4.4"
+        "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "dfn-resource-timing-secondary-buffer",
-      "href": "https://www.w3.org/TR/resource-timing/#dfn-resource-timing-secondary-buffer",
+      "id": "performance-resource-timing-secondary-buffer",
+      "href": "https://www.w3.org/TR/resource-timing/#performance-resource-timing-secondary-buffer",
       "linkingText": [
         "resource timing secondary buffer"
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "sec-extensions-performance-interface",
-        "href": "https://www.w3.org/TR/resource-timing/#sec-extensions-performance-interface",
-        "title": "Extensions to the Performance Interface",
-        "number": "4.4"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dom-performance",
-      "href": "https://www.w3.org/TR/resource-timing/#dom-performance",
-      "linkingText": [
+      "for": [
         "Performance"
       ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
       "access": "private",
       "informative": false,
       "heading": {
         "id": "sec-extensions-performance-interface",
         "href": "https://www.w3.org/TR/resource-timing/#sec-extensions-performance-interface",
         "title": "Extensions to the Performance Interface",
-        "number": "4.4"
+        "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-performance-clearresourcetimings",
@@ -910,11 +1084,7 @@
       "linkingText": [
         "clearResourceTimings()"
       ],
-      "localLinkingText": [
-        "Performance.clearResourceTimings",
-        "Performance.clearResourceTimings()",
-        "clearResourceTimings"
-      ],
+      "localLinkingText": [],
       "type": "method",
       "for": [
         "Performance"
@@ -925,22 +1095,18 @@
         "id": "sec-extensions-performance-interface",
         "href": "https://www.w3.org/TR/resource-timing/#sec-extensions-performance-interface",
         "title": "Extensions to the Performance Interface",
-        "number": "4.4"
+        "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-performance-setresourcetimingbuffersize",
       "href": "https://www.w3.org/TR/resource-timing/#dom-performance-setresourcetimingbuffersize",
       "linkingText": [
-        "setResourceTimingBufferSize()",
         "setResourceTimingBufferSize(maxSize)"
       ],
-      "localLinkingText": [
-        "Performance.setResourceTimingBufferSize",
-        "Performance.setResourceTimingBufferSize()",
-        "setResourceTimingBufferSize"
-      ],
+      "localLinkingText": [],
       "type": "method",
       "for": [
         "Performance"
@@ -951,9 +1117,32 @@
         "id": "sec-extensions-performance-interface",
         "href": "https://www.w3.org/TR/resource-timing/#sec-extensions-performance-interface",
         "title": "Extensions to the Performance Interface",
-        "number": "4.4"
+        "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-performance-setresourcetimingbuffersize-maxsize-maxsize",
+      "href": "https://www.w3.org/TR/resource-timing/#dom-performance-setresourcetimingbuffersize-maxsize-maxsize",
+      "linkingText": [
+        "maxSize"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Performance/setResourceTimingBufferSize(maxSize)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-extensions-performance-interface",
+        "href": "https://www.w3.org/TR/resource-timing/#sec-extensions-performance-interface",
+        "title": "Extensions to the Performance Interface",
+        "number": "3.4"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-performance-onresourcetimingbufferfull",
@@ -961,9 +1150,7 @@
       "linkingText": [
         "onresourcetimingbufferfull"
       ],
-      "localLinkingText": [
-        "Performance.onresourcetimingbufferfull"
-      ],
+      "localLinkingText": [],
       "type": "attribute",
       "for": [
         "Performance"
@@ -974,9 +1161,98 @@
         "id": "sec-extensions-performance-interface",
         "href": "https://www.w3.org/TR/resource-timing/#sec-extensions-performance-interface",
         "title": "Extensions to the Performance Interface",
-        "number": "4.4"
+        "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "performance-performance",
+      "href": "https://www.w3.org/TR/resource-timing/#performance-performance",
+      "linkingText": [
+        "Performance"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Performance"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-extensions-performance-interface",
+        "href": "https://www.w3.org/TR/resource-timing/#sec-extensions-performance-interface",
+        "title": "Extensions to the Performance Interface",
+        "number": "3.4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "performance-clearresourcetimings",
+      "href": "https://www.w3.org/TR/resource-timing/#performance-clearresourcetimings",
+      "linkingText": [
+        "clearResourceTimings"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Performance"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-extensions-performance-interface",
+        "href": "https://www.w3.org/TR/resource-timing/#sec-extensions-performance-interface",
+        "title": "Extensions to the Performance Interface",
+        "number": "3.4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "performance-setresourcetimingbuffersize",
+      "href": "https://www.w3.org/TR/resource-timing/#performance-setresourcetimingbuffersize",
+      "linkingText": [
+        "setResourceTimingBufferSize"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Performance"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-extensions-performance-interface",
+        "href": "https://www.w3.org/TR/resource-timing/#sec-extensions-performance-interface",
+        "title": "Extensions to the Performance Interface",
+        "number": "3.4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "performance-onresourcetimingbufferfull",
+      "href": "https://www.w3.org/TR/resource-timing/#performance-onresourcetimingbufferfull",
+      "linkingText": [
+        "onresourcetimingbufferfull"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Performance"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-extensions-performance-interface",
+        "href": "https://www.w3.org/TR/resource-timing/#sec-extensions-performance-interface",
+        "title": "Extensions to the Performance Interface",
+        "number": "3.4"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-can-add-resource-timing-entry",
@@ -986,35 +1262,41 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "Performance"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
         "id": "sec-extensions-performance-interface",
         "href": "https://www.w3.org/TR/resource-timing/#sec-extensions-performance-interface",
         "title": "Extensions to the Performance Interface",
-        "number": "4.4"
+        "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "dfn-add-a-performanceresourcetiming-entry",
-      "href": "https://www.w3.org/TR/resource-timing/#dfn-add-a-performanceresourcetiming-entry",
+      "id": "dfn-add-a-PerformanceResourceTiming-entry",
+      "href": "https://www.w3.org/TR/resource-timing/#dfn-add-a-PerformanceResourceTiming-entry",
       "linkingText": [
         "add a PerformanceResourceTiming entry"
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "Performance"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
         "id": "sec-extensions-performance-interface",
         "href": "https://www.w3.org/TR/resource-timing/#sec-extensions-performance-interface",
         "title": "Extensions to the Performance Interface",
-        "number": "4.4"
+        "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-copy-secondary-buffer",
@@ -1024,16 +1306,19 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "Performance"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
         "id": "sec-extensions-performance-interface",
         "href": "https://www.w3.org/TR/resource-timing/#sec-extensions-performance-interface",
         "title": "Extensions to the Performance Interface",
-        "number": "4.4"
+        "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-fire-a-buffer-full-event",
@@ -1043,20 +1328,23 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "Performance"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
         "id": "sec-extensions-performance-interface",
         "href": "https://www.w3.org/TR/resource-timing/#sec-extensions-performance-interface",
         "title": "Extensions to the Performance Interface",
-        "number": "4.4"
+        "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "dfn-timing-allow-origin",
-      "href": "https://www.w3.org/TR/resource-timing/#dfn-timing-allow-origin",
+      "id": "timing-allow-origin",
+      "href": "https://www.w3.org/TR/resource-timing/#timing-allow-origin",
       "linkingText": [
         "Timing-Allow-Origin"
       ],
@@ -1069,13 +1357,14 @@
         "id": "sec-timing-allow-origin",
         "href": "https://www.w3.org/TR/resource-timing/#sec-timing-allow-origin",
         "title": "Timing-Allow-Origin Response Header",
-        "number": "4.5.1"
+        "number": "3.5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "dfn-mark-resource-timing",
-      "href": "https://www.w3.org/TR/resource-timing/#dfn-mark-resource-timing",
+      "id": "mark-resource-timing",
+      "href": "https://www.w3.org/TR/resource-timing/#mark-resource-timing",
       "linkingText": [
         "mark resource timing"
       ],
@@ -1088,13 +1377,14 @@
         "id": "marking-resource-timing",
         "href": "https://www.w3.org/TR/resource-timing/#marking-resource-timing",
         "title": "Creating a resource timing entry",
-        "number": "4.7"
+        "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "dfn-setup-the-resource-timing-entry",
-      "href": "https://www.w3.org/TR/resource-timing/#dfn-setup-the-resource-timing-entry",
+      "id": "setup-the-resource-timing-entry",
+      "href": "https://www.w3.org/TR/resource-timing/#setup-the-resource-timing-entry",
       "linkingText": [
         "setup the resource timing entry"
       ],
@@ -1107,9 +1397,10 @@
         "id": "marking-resource-timing",
         "href": "https://www.w3.org/TR/resource-timing/#marking-resource-timing",
         "title": "Creating a resource timing entry",
-        "number": "4.7"
+        "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-convert-fetch-timestamp",
@@ -1126,9 +1417,10 @@
         "id": "marking-resource-timing",
         "href": "https://www.w3.org/TR/resource-timing/#marking-resource-timing",
         "title": "Creating a resource timing entry",
-        "number": "4.7"
+        "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

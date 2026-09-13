@@ -21,7 +21,8 @@
         "title": "The Storage Access API",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "first-party-site-context",
@@ -40,7 +41,8 @@
         "title": "The Storage Access API",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "third-party-context",
@@ -59,7 +61,8 @@
         "title": "The Storage Access API",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "determine-whether-the-user-agent-explicitly-allows-unpartitioned-cookie-access",
@@ -78,7 +81,8 @@
         "title": "The Storage Access API",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "determine-the-fedcm-site-connection-status",
@@ -97,7 +101,8 @@
         "title": "The Storage Access API",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "determine-the-effective-fedcm-connection-status",
@@ -116,7 +121,8 @@
         "title": "The Storage Access API",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "environment-has-storage-access",
@@ -137,7 +143,8 @@
         "title": "Changes to user agent state related to storage access",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "source-snapshot-params-has-storage-access",
@@ -158,7 +165,8 @@
         "title": "Changes to user agent state related to storage access",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "source-snapshot-params-environment-id",
@@ -179,7 +187,136 @@
         "title": "Changes to user agent state related to storage access",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "storage-access-eligibility",
+      "href": "https://privacycg.github.io/storage-access/#storage-access-eligibility",
+      "linkingText": [
+        "storage access eligibility"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "ua-state",
+        "href": "https://privacycg.github.io/storage-access/#ua-state",
+        "title": "Changes to user agent state related to storage access",
+        "number": "3.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "storage-access-eligibility-unset",
+      "href": "https://privacycg.github.io/storage-access/#storage-access-eligibility-unset",
+      "linkingText": [
+        "unset"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "storage access eligibility"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "ua-state",
+        "href": "https://privacycg.github.io/storage-access/#ua-state",
+        "title": "Changes to user agent state related to storage access",
+        "number": "3.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "storage-access-eligibility-ineligible",
+      "href": "https://privacycg.github.io/storage-access/#storage-access-eligibility-ineligible",
+      "linkingText": [
+        "ineligible"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "storage access eligibility"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "ua-state",
+        "href": "https://privacycg.github.io/storage-access/#ua-state",
+        "title": "Changes to user agent state related to storage access",
+        "number": "3.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "storage-access-eligibility-eligible",
+      "href": "https://privacycg.github.io/storage-access/#storage-access-eligibility-eligible",
+      "linkingText": [
+        "eligible"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "storage access eligibility"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "ua-state",
+        "href": "https://privacycg.github.io/storage-access/#ua-state",
+        "title": "Changes to user agent state related to storage access",
+        "number": "3.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "request-eligible-for-storage-access",
+      "href": "https://privacycg.github.io/storage-access/#request-eligible-for-storage-access",
+      "linkingText": [
+        "eligible for storage-access"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "request"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "ua-state",
+        "href": "https://privacycg.github.io/storage-access/#ua-state",
+        "title": "Changes to user agent state related to storage access",
+        "number": "3.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "determine-the-initial-storage-access-eligibility",
+      "href": "https://privacycg.github.io/storage-access/#determine-the-initial-storage-access-eligibility",
+      "linkingText": [
+        "determine the initial storage-access eligibility"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "ua-state",
+        "href": "https://privacycg.github.io/storage-access/#ua-state",
+        "title": "Changes to user agent state related to storage access",
+        "number": "3.1"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-document-hasstorageaccess",
@@ -200,7 +337,8 @@
         "title": "Changes to Document",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-document-requeststorageaccess",
@@ -221,7 +359,8 @@
         "title": "Changes to Document",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "sandbox-storage-access-by-user-activation-flag",
@@ -238,9 +377,10 @@
         "id": "sandboxing-storage-access",
         "href": "https://privacycg.github.io/storage-access/#sandboxing-storage-access",
         "title": "Sandboxing storage access",
-        "number": "3.5"
+        "number": "3.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "attr-valuedef-iframe-sandbox-allow-storage-access-by-user-activation",
@@ -259,9 +399,10 @@
         "id": "sandboxing-storage-access",
         "href": "https://privacycg.github.io/storage-access/#sandboxing-storage-access",
         "title": "Sandboxing storage access",
-        "number": "3.5"
+        "number": "3.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "permissiondef-storage-access",
@@ -280,7 +421,8 @@
         "title": "Permissions Integration",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "permission-key-top-level",
@@ -301,7 +443,8 @@
         "title": "Permissions Integration",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "permission-key-requester",
@@ -322,7 +465,8 @@
         "title": "Permissions Integration",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "set-storage-access",
@@ -341,7 +485,8 @@
         "title": "Set Storage Access",
         "number": "8.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

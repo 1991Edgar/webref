@@ -1,0 +1,108 @@
+{
+  "spec": {
+    "title": "Web Platform Design Principles",
+    "url": "https://www.w3.org/TR/design-principles/"
+  },
+  "dfns": [
+    {
+      "id": "live-object",
+      "href": "https://www.w3.org/TR/design-principles/#live-object",
+      "linkingText": [
+        "live object"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "live-vs-static",
+        "href": "https://www.w3.org/TR/design-principles/#live-vs-static",
+        "title": "Consider whether objects should be live or static",
+        "number": "6.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "static-object",
+      "href": "https://www.w3.org/TR/design-principles/#static-object",
+      "linkingText": [
+        "static object"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "live-vs-static",
+        "href": "https://www.w3.org/TR/design-principles/#live-vs-static",
+        "title": "Consider whether objects should be live or static",
+        "number": "6.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "extension-point",
+      "href": "https://www.w3.org/TR/design-principles/#extension-point",
+      "linkingText": [
+        "extension point"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "registries",
+        "href": "https://www.w3.org/TR/design-principles/#registries",
+        "title": "Plan for future extensibility through main spec updates if possible; otherwise use a registry",
+        "number": "11.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "monkey-patch",
+      "href": "https://www.w3.org/TR/design-principles/#monkey-patch",
+      "linkingText": [
+        "monkey patch"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "monkey-patching",
+        "href": "https://www.w3.org/TR/design-principles/#monkey-patching",
+        "title": "Avoid monkey patching",
+        "number": "11.5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "propdef-font-size-adjust",
+      "href": "https://www.w3.org/TR/design-principles/#propdef-font-size-adjust",
+      "linkingText": [
+        "font-size-adjust"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": true,
+      "heading": {
+        "id": "cant-avoid-monkey-patching",
+        "href": "https://www.w3.org/TR/design-principles/#cant-avoid-monkey-patching",
+        "title": "If you need to monkey patch",
+        "number": "11.5.1"
+      },
+      "definedIn": "table",
+      "links": []
+    }
+  ]
+}

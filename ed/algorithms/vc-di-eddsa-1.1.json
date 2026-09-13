@@ -1,0 +1,125 @@
+{
+  "spec": {
+    "title": "Data Integrity EdDSA Cryptosuites v1.1",
+    "url": "https://w3c.github.io/vc-di-eddsa/"
+  },
+  "algorithms": [
+    {
+      "html": "This algorithm is used to configure a cryptographic suite to be used by the\n<a data-cite=\"VC-DATA-INTEGRITY#add-proof\" href=\"https://www.w3.org/TR/vc-data-integrity/#add-proof\">Add Proof</a> and\n<a data-cite=\"VC-DATA-INTEGRITY#verify-proof\" href=\"https://www.w3.org/TR/vc-data-integrity/#verify-proof\">Verify Proof</a>\nfunctions in <cite><a data-cite=\"VC-DATA-INTEGRITY\" data-matched-text=\"[[[VC-DATA-INTEGRITY]]]\" href=\"https://www.w3.org/TR/vc-data-integrity/\">Verifiable Credential Data Integrity 1.0</a></cite>. The algorithm takes an options object\n(<a data-link-type=\"dfn\" data-cite=\"infra\" data-cite-path=\"\" data-cite-frag=\"ordered-map\" href=\"https://infra.spec.whatwg.org/#ordered-map\">map</a> <var>options</var>) as input and returns a <a data-link-type=\"dfn\" data-lt=\"data integrity cryptographic suite instance\" data-cite=\"vc-data-integrity-1.1\" data-cite-path=\"\" data-cite-frag=\"dfn-data-integrity-cryptographic-suite-instance\" href=\"https://www.w3.org/TR/vc-data-integrity-1.1/#dfn-data-integrity-cryptographic-suite-instance\">cryptosuite instance</a> (<a data-link-type=\"dfn\" data-cite=\"infra\" data-cite-path=\"\" data-cite-frag=\"struct\" href=\"https://infra.spec.whatwg.org/#struct\">struct</a> <var>cryptosuite</var>).",
+      "rationale": ".algorithm",
+      "steps": [
+        {
+          "html": "Initialize <var>cryptosuite</var> to an empty <a data-link-type=\"dfn\" data-cite=\"infra\" data-cite-path=\"\" data-cite-frag=\"struct\" href=\"https://infra.spec.whatwg.org/#struct\">struct</a>."
+        },
+        {
+          "html": "If <var>options</var>.<var>type</var> does not equal <code>DataIntegrityProof</code>, return <var>cryptosuite</var>."
+        },
+        {
+          "html": "If <var>options</var>.<var>cryptosuite</var> is <code>eddsa-rdfc-2022</code> or <code>eddsa-jcs-2022</code> then:",
+          "rationale": ".algorithm",
+          "steps": [
+            {
+              "html": "Set the values of the parameters <code>canonScheme</code>, <code>hashName</code>, <code>sigFunc</code>, \n<code>verifyFunc</code>, and <code>proofEncoding</code> as indicated in <a href=\"https://w3c.github.io/vc-di-eddsa/#EdDSA-Cryptosuites\" data-matched-text=\"[[[#EdDSA-Cryptosuites]]]\" class=\"sec-ref\"><bdi class=\"secno\">3.1 </bdi>EdDSA Cryptosuites</a> and\n<a href=\"https://w3c.github.io/vc-di-eddsa/#EdDSASuiteTable\" data-matched-text=\"[[[#EdDSASuiteTable]]]\" class=\"table-ref\" title=\"Supported EdDSA Cryptosuites.\">Table <bdi class=\"\">1</bdi></a>."
+            },
+            {
+              "html": "Set <var>cryptosuite</var>.<var>createProof</var> to the algorithm in Section\n<a data-cite=\"VC-DATA-INTEGRITY-1.1\" data-cite-frag=\"create-proof\" data-matched-text=\"[[[VC-DATA-INTEGRITY-1.1#create-proof]]]\" href=\"https://www.w3.org/TR/vc-data-integrity-1.1/#create-proof\" class=\"sec-ref\">§&nbsp;<bdi class=\"secno\">4.2.2 </bdi>Create Proof</a> passing in the above parameters."
+            },
+            {
+              "html": "Set <var>cryptosuite</var>.<var>verifyProof</var> to the algorithm in Section\n<a data-cite=\"VC-DATA-INTEGRITY-1.1\" data-cite-frag=\"verify-proof-0\" data-matched-text=\"[[[VC-DATA-INTEGRITY-1.1#verify-proof-0]]]\" href=\"https://www.w3.org/TR/vc-data-integrity-1.1/#verify-proof-0\" class=\"sec-ref\">§&nbsp;<bdi class=\"secno\">4.2.3 </bdi>Verify Proof</a> passing in the above parameters."
+            }
+          ]
+        },
+        {
+          "html": "Return <var>cryptosuite</var>."
+        }
+      ]
+    },
+    {
+      "html": "Required inputs to this algorithm are an\n<a data-cite=\"vc-data-integrity#dfn-unsecured-data-document\" href=\"https://www.w3.org/TR/vc-data-integrity/#dfn-unsecured-data-document\">\nunsecured data document</a> (<code>unsecuredDocument</code>) and\ntransformation options (<code>options</code>). The\ntransformation options <em class=\"rfc2119\">MUST</em> contain a type identifier for the\n<a data-cite=\"vc-data-integrity#dfn-cryptosuite\" href=\"https://www.w3.org/TR/vc-data-integrity/#dfn-cryptosuite\">\ncryptographic suite</a> (<code>type</code>) and a cryptosuite\nidentifier (<code>cryptosuite</code>). A <em>transformed data document</em> is\nproduced as output. Whenever this algorithm encodes strings, it <em class=\"rfc2119\">MUST</em> use UTF-8\nencoding.",
+      "rationale": ".algorithm",
+      "steps": [
+        {
+          "html": "If <code>options</code>.<code>type</code> is not set to the string\n<code>Ed25519Signature2020</code>,\nan error <em class=\"rfc2119\">MUST</em> be raised that <em class=\"rfc2119\">SHOULD</em> convey an error type of\n<a data-cite=\"VC-DATA-INTEGRITY#PROOF_TRANSFORMATION_ERROR\" href=\"https://www.w3.org/TR/vc-data-integrity/#PROOF_TRANSFORMATION_ERROR\">PROOF_TRANSFORMATION_ERROR</a>."
+        },
+        {
+          "html": "Let <var>canonicalDocument</var> be the result of converting <var>unsecuredDocument</var> to\n<a data-cite=\"JSON-LD11-API#expansion-algorithm\" href=\"https://www.w3.org/TR/json-ld11-api/#expansion-algorithm\">JSON-LD expanded form</a>\nand then <a data-cite=\"JSON-LD11-API#deserialize-json-ld-to-rdf-algorithm\" href=\"https://www.w3.org/TR/json-ld11-api/#deserialize-json-ld-to-rdf-algorithm\">\nto RDF statements</a>, applying the <a data-cite=\"RDF-CANON#canon-algorithm\" href=\"https://www.w3.org/TR/rdf-canon/#canon-algorithm\">\nUniversal RDF Dataset Canonicalization Algorithm</a>, and then serializing the result to a\n<a data-cite=\"RDF-CANON#dfn-serialized-canonical-form\" href=\"https://www.w3.org/TR/rdf-canon/#dfn-serialized-canonical-form\">serialized canonical form</a>."
+        },
+        {
+          "html": "Return <code>canonicalDocument</code> as the <em>transformed data document</em>."
+        }
+      ]
+    },
+    {
+      "html": "The required inputs to this algorithm are a\n<em>transformed data document</em> (<code>transformedDocument</code>) and\n<em>proof configuration</em> (<code>proofConfig</code>). The\n<em>proof configuration</em> <em class=\"rfc2119\">MUST</em> contain a type identifier for the\n<a data-cite=\"vc-data-integrity#dfn-cryptosuite\" href=\"https://www.w3.org/TR/vc-data-integrity/#dfn-cryptosuite\">\ncryptographic suite</a> (<code>type</code>) and <em class=\"rfc2119\">MAY</em> contain a cryptosuite\nidentifier (<code>cryptosuite</code>). A single <em>hash data</em> value\nrepresented as series of bytes is produced as output.",
+      "rationale": ".algorithm",
+      "steps": [
+        {
+          "html": "Let <code>transformedDocumentHash</code> be the result of applying the\nSHA-256 (SHA-2 with 256-bit output) cryptographic hashing algorithm [<cite><a class=\"bibref\" data-link-type=\"biblio\" href=\"https://w3c.github.io/vc-di-eddsa/#bib-rfc6234\" title=\"US Secure Hash Algorithms (SHA and SHA-based HMAC and HKDF)\">RFC6234</a></cite>]\nto the <code>transformedDocument</code>. <code>transformedDocumentHash</code> will\nbe exactly 32 bytes in size."
+        },
+        {
+          "html": "Let <code>proofConfigHash</code> be the result of applying the\nSHA-256 (SHA-2 with 256-bit output) cryptographic hashing algorithm [<cite><a class=\"bibref\" data-link-type=\"biblio\" href=\"https://w3c.github.io/vc-di-eddsa/#bib-rfc6234\" title=\"US Secure Hash Algorithms (SHA and SHA-based HMAC and HKDF)\">RFC6234</a></cite>]\nto the <code>canonicalProofConfig</code>. <code>proofConfigHash</code> will be\nexactly 32 bytes in size."
+        },
+        {
+          "html": "Let <code>hashData</code> be the result of joining <code>proofConfigHash</code> (the\nfirst hash) with <code>transformedDocumentHash</code> (the second hash)."
+        },
+        {
+          "html": "Return <code>hashData</code> as the <em>hash data</em>."
+        }
+      ]
+    },
+    {
+      "html": "The required inputs to this algorithm are <em>proof options</em>\n(<code>options</code>). The <em>proof options</em> <em class=\"rfc2119\">MUST</em> contain a type identifier\nfor the\n<a data-cite=\"vc-data-integrity#dfn-cryptosuite\" href=\"https://www.w3.org/TR/vc-data-integrity/#dfn-cryptosuite\">\ncryptographic suite</a> (<code>type</code>) and <em class=\"rfc2119\">MAY</em> contain a cryptosuite\nidentifier (<code>cryptosuite</code>). A <em>proof configuration</em>\nobject is produced as output.",
+      "rationale": ".algorithm",
+      "steps": [
+        {
+          "html": "Let <var>proofConfig</var> be a clone of the <var>options</var> object."
+        },
+        {
+          "html": "If <code>proofConfig</code>.<code>type</code> is not set to <code>Ed25519Signature2020</code>,\nan error <em class=\"rfc2119\">MUST</em> be raised and <em class=\"rfc2119\">SHOULD</em> convey an error type of\n<a data-cite=\"VC-DATA-INTEGRITY#PROOF_GENERATION_ERROR\" href=\"https://www.w3.org/TR/vc-data-integrity/#PROOF_GENERATION_ERROR\">PROOF_GENERATION_ERROR</a>."
+        },
+        {
+          "html": "If <var>proofConfig</var>.<var>created</var> is present and set to a value that is not a\nvalid [<cite><a class=\"bibref\" data-link-type=\"biblio\" href=\"https://w3c.github.io/vc-di-eddsa/#bib-xmlschema11-2\" title=\"W3C XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes\">XMLSCHEMA11-2</a></cite>] datetime, an error <em class=\"rfc2119\">MUST</em> be\nraised and <em class=\"rfc2119\">SHOULD</em> convey an error type of\n<a data-cite=\"VC-DATA-INTEGRITY#PROOF_GENERATION_ERROR\" href=\"https://www.w3.org/TR/vc-data-integrity/#PROOF_GENERATION_ERROR\">PROOF_GENERATION_ERROR</a>."
+        },
+        {
+          "html": "Set <code>proofConfig</code>.<var>@context</var> to\n<code>unsecuredDocument</code>.<var>@context</var>"
+        },
+        {
+          "html": "Let <code>canonicalProofConfig</code> be the result of applying the\nRDF Dataset Canonicalization algorithm [<cite><a class=\"bibref\" data-link-type=\"biblio\" href=\"https://w3c.github.io/vc-di-eddsa/#bib-rdf-canon\" title=\"RDF Dataset Canonicalization\">RDF-CANON</a></cite>] to the <code>proofConfig</code>."
+        },
+        {
+          "html": "Return <code>canonicalProofConfig</code>."
+        }
+      ]
+    },
+    {
+      "html": "The following algorithm specifies how to serialize a digital signature from\na set of cryptographic hash data. This\nalgorithm is designed to be used in conjunction with the algorithms defined\nin the Data Integrity [<cite><a class=\"bibref\" data-link-type=\"biblio\" href=\"https://w3c.github.io/vc-di-eddsa/#bib-vc-data-integrity\" title=\"Verifiable Credential Data Integrity 1.0\">VC-DATA-INTEGRITY</a></cite>] specification,\n<a data-cite=\"vc-data-integrity#algorithms\" href=\"https://www.w3.org/TR/vc-data-integrity/#algorithms\">\nSection 4: Algorithms</a>. Required inputs are\ncryptographic hash data (<code>hashData</code>) and\n<em>proof options</em> (<code>options</code>). The\n<em>proof options</em> <em class=\"rfc2119\">MUST</em> contain a type identifier for the\n<a data-cite=\"vc-data-integrity#dfn-cryptosuite\" href=\"https://www.w3.org/TR/vc-data-integrity/#dfn-cryptosuite\">\ncryptographic suite</a> (<code>type</code>) and <em class=\"rfc2119\">MAY</em> contain a cryptosuite\nidentifier (<code>cryptosuite</code>). A single <em>digital proof</em> value\nrepresented as series of bytes is produced as output.",
+      "rationale": ".algorithm",
+      "steps": [
+        {
+          "html": "Let <var>privateKeyBytes</var> be the result of retrieving the\nprivate key bytes (or a signing interface enabling the use of the private key\nbytes) associated with the verification method identified by the\n<var>options</var>.<var>verificationMethod</var> value."
+        },
+        {
+          "html": "Let <code>proofBytes</code> be the result of applying the Edwards-Curve Digital\nSignature Algorithm (EdDSA) [<cite><a class=\"bibref\" data-link-type=\"biblio\" href=\"https://w3c.github.io/vc-di-eddsa/#bib-rfc8032\" title=\"Edwards-Curve Digital Signature Algorithm (EdDSA)\">RFC8032</a></cite>], using the <code>Ed25519</code> variant\n(Pure EdDSA), with <code>hashData</code> as the data to be signed using\nthe private key specified by <code>privateKeyBytes</code>.\n<code>proofBytes</code> will be exactly 64 bytes in size."
+        },
+        {
+          "html": "Return <code>proofBytes</code> as the <em>digital proof</em>."
+        }
+      ]
+    },
+    {
+      "html": "The following algorithm specifies how to verify a digital signature from\na set of cryptographic hash data. This\nalgorithm is designed to be used in conjunction with the algorithms defined\nin the Data Integrity [<cite><a class=\"bibref\" data-link-type=\"biblio\" href=\"https://w3c.github.io/vc-di-eddsa/#bib-vc-data-integrity\" title=\"Verifiable Credential Data Integrity 1.0\">VC-DATA-INTEGRITY</a></cite>] specification,\n<a data-cite=\"vc-data-integrity#algorithms\" href=\"https://www.w3.org/TR/vc-data-integrity/#algorithms\">\nSection 4: Algorithms</a>. Required inputs are\ncryptographic hash data (<code>hashData</code>),\na digital signature (<code>proofBytes</code>) and\nproof options (<code>options</code>). A <em>verification result</em>\nrepresented as a boolean value is produced as output.",
+      "rationale": ".algorithm",
+      "steps": [
+        {
+          "html": "Let <var>publicKeyBytes</var> be the result of retrieving the\npublic key bytes associated with the\n<var>options</var>.<var>verificationMethod</var> value as described in the\n<a data-cite=\"CID#retrieve-verification-method\" href=\"https://www.w3.org/TR/cid-1.0/#retrieve-verification-method\">Retrieve\nVerification Method</a> section of the <cite><a data-cite=\"CID\" data-matched-text=\"[[[CID]]]\" href=\"https://www.w3.org/TR/cid-1.0/\">Controlled Identifiers v1.0</a></cite> specification."
+        },
+        {
+          "html": "Let <code>verificationResult</code> be the result of applying the verification\nalgorithm for the Edwards-Curve Digital Signature Algorithm (EdDSA)\n[<cite><a class=\"bibref\" data-link-type=\"biblio\" href=\"https://w3c.github.io/vc-di-eddsa/#bib-rfc8032\" title=\"Edwards-Curve Digital Signature Algorithm (EdDSA)\">RFC8032</a></cite>], using the <code>Ed25519</code> variant (Pure EdDSA),\nwith <code>hashData</code> as the data to be verified against the\n<code>proofBytes</code> using the public key specified by\n<code>publicKeyBytes</code>."
+        },
+        {
+          "html": "Return <code>verificationResult</code> as the <em>verification result</em>."
+        }
+      ]
+    }
+  ]
+}

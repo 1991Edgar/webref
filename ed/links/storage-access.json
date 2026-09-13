@@ -18,6 +18,7 @@
       "https://github.com/privacycg/storage-access/issues": {},
       "https://github.com/privacycg/storage-access/issues/": {},
       "https://github.com/whatwg/html/issues/3338": {},
+      "https://github.com/whatwg/html/pull/11133": {},
       "https://github.com/whatwg/storage/issues/142": {
         "anchors": [
           "issuecomment-1122147159"
@@ -39,7 +40,6 @@
       "https://webkit.org/": {},
       "https://webkit.org/blog/8124/introducing-storage-access-api/": {},
       "https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/": {},
-      "https://www.w3.org/": {},
       "https://www.w3.org/community/about/agreements/cla/": {},
       "https://www.w3.org/policies/": {
         "anchors": [
@@ -56,20 +56,26 @@
       "https://dom.spec.whatwg.org/": {
         "anchors": [
           "document",
-          "concept-document-origin",
-          "concept-document"
+          "concept-document-origin"
         ]
       },
       "https://fetch.spec.whatwg.org/": {
         "anchors": [
+          "concept-request",
+          "concept-request-client",
+          "concept-request-url",
           "concept-request-reserved-client",
           "response-has-cross-origin-redirects",
+          "concept-fetch",
+          "concept-http-redirect-fetch",
+          "concept-request-current-url",
           "concept-http-network-or-cache-fetch"
         ]
       },
       "https://html.spec.whatwg.org/multipage/": {
         "anchors": [
-          "environment"
+          "environment",
+          "TODO"
         ]
       },
       "https://html.spec.whatwg.org/multipage/browsers.html": {
@@ -77,11 +83,11 @@
           "site",
           "same-site",
           "concept-origin",
+          "same-origin",
           "concept-origin-opaque",
           "obtain-a-site",
-          "active-sandboxing-flag-set",
           "concept-site-same-site",
-          "same-origin",
+          "active-sandboxing-flag-set",
           "sandboxing-flag-set",
           "parse-a-sandboxing-directive"
         ]
@@ -139,8 +145,7 @@
           "secure-context",
           "queue-a-global-task",
           "networking-task-source",
-          "concept-environment-id",
-          "environment-settings-object"
+          "concept-environment-id"
         ]
       },
       "https://infra.spec.whatwg.org/": {
@@ -198,6 +203,7 @@
       },
       "https://w3c.github.io/webappsec-permissions-policy/": {
         "anchors": [
+          "should-request-be-allowed-to-use-feature",
           "policy-controlled-feature",
           "policy-controlled-feature-default-allowlist"
         ]

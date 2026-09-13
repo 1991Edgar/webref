@@ -1,0 +1,2779 @@
+{
+  "spec": {
+    "title": "W3C Accessibility Guidelines (WCAG) 3.0",
+    "url": "https://www.w3.org/TR/wcag-3.0/"
+  },
+  "dfns": [
+    {
+      "id": "dfn-abbreviation",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-abbreviation",
+      "linkingText": [
+        "abbreviation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-accessibility-support-set",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-accessibility-support-set",
+      "linkingText": [
+        "accessibility support set"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-accessibility-supported",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-accessibility-supported",
+      "linkingText": [
+        "accessibility supported"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-actively-available",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-actively-available",
+      "linkingText": [
+        "actively available"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-ascii-art",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-ascii-art",
+      "linkingText": [
+        "ASCII art"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-assertion",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-assertion",
+      "linkingText": [
+        "assertion"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-assistive-technology",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-assistive-technology",
+      "linkingText": [
+        "assistive technology",
+        "assistive technologies"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-audio",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-audio",
+      "linkingText": [
+        "audio"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-audio-description",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-audio-description",
+      "linkingText": [
+        "audio description"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-automated-evaluation",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-automated-evaluation",
+      "linkingText": [
+        "automated evaluation",
+        "automated",
+        "automatically evaluated",
+        "automated testing",
+        "automatically tested"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-biometric",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-biometric",
+      "linkingText": [
+        "biometric"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-blinking",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-blinking",
+      "linkingText": [
+        "blinking"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-block-of-text",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-block-of-text",
+      "linkingText": [
+        "block of text",
+        "blocks of text"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-captions",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-captions",
+      "linkingText": [
+        "captions"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-clear-language",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-clear-language",
+      "linkingText": [
+        "clear language"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-cognitive-function-test",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-cognitive-function-test",
+      "linkingText": [
+        "cognitive function test"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-color-contrast",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-color-contrast",
+      "linkingText": [
+        "color contrast"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-common-keyboard-navigation-technique",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-common-keyboard-navigation-technique",
+      "linkingText": [
+        "common keyboard navigation technique"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-complex-numerical-information",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-complex-numerical-information",
+      "linkingText": [
+        "complex numerical information"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-complex-pointer-input",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-complex-pointer-input",
+      "linkingText": [
+        "complex pointer input",
+        "complex pointer inputs"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-component",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-component",
+      "linkingText": [
+        "component"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-conformance",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-conformance",
+      "linkingText": [
+        "conformance",
+        "conform"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-conformance-scope",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-conformance-scope",
+      "linkingText": [
+        "conformance scope"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-content",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-content",
+      "linkingText": [
+        "content"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-content-author",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-content-author",
+      "linkingText": [
+        "content author",
+        "content author(s)"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-context-sensitive-help",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-context-sensitive-help",
+      "linkingText": [
+        "context-sensitive help"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-contrast-ratio-test",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-contrast-ratio-test",
+      "linkingText": [
+        "contrast ratio test"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-conversational-support",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-conversational-support",
+      "linkingText": [
+        "conversational support"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-css-pixel",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-css-pixel",
+      "linkingText": [
+        "css pixel"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-custom-keyboard-command",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-custom-keyboard-command",
+      "linkingText": [
+        "custom keyboard command"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-decorative",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-decorative",
+      "linkingText": [
+        "decorative"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-default-orientation",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-default-orientation",
+      "linkingText": [
+        "default orientation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-default-visual-presentation",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-default-visual-presentation",
+      "linkingText": [
+        "default visual presentation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-deprecate",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-deprecate",
+      "linkingText": [
+        "deprecate",
+        "deprecated"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-descriptive-transcript",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-descriptive-transcript",
+      "linkingText": [
+        "descriptive transcript"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-dialogue-transcript",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-dialogue-transcript",
+      "linkingText": [
+        "dialogue transcript"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-down-event",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-down-event",
+      "linkingText": [
+        "down event",
+        "down"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-essential-to-outcome",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-essential-to-outcome",
+      "linkingText": [
+        "essential to outcome",
+        "essential"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-evaluation",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-evaluation",
+      "linkingText": [
+        "evaluation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-extended-audio-description",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-extended-audio-description",
+      "linkingText": [
+        "extended audio description"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-figure-caption",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-figure-caption",
+      "linkingText": [
+        "figure caption"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-flash",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-flash",
+      "linkingText": [
+        "flash",
+        "flashing"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-focus-indicator",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-focus-indicator",
+      "linkingText": [
+        "focus indicator"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-functional-need",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-functional-need",
+      "linkingText": [
+        "functional need"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-general-flash-and-red-flash-thresholds",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-general-flash-and-red-flash-thresholds",
+      "linkingText": [
+        "general flash and red flash thresholds"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-gesture",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-gesture",
+      "linkingText": [
+        "gesture"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-guideline",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-guideline",
+      "linkingText": [
+        "guideline"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-high-frequency-corpus",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-high-frequency-corpus",
+      "linkingText": [
+        "high-frequency corpus"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-human-evaluation",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-human-evaluation",
+      "linkingText": [
+        "human evaluation",
+        "human testing",
+        "human evaluated",
+        "human tested",
+        "manual",
+        "manual evaluation",
+        "manual testing",
+        "manually tested"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-human-language",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-human-language",
+      "linkingText": [
+        "human language"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-image",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-image",
+      "linkingText": [
+        "image"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-image-role",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-image-role",
+      "linkingText": [
+        "image role"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-image-type",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-image-type",
+      "linkingText": [
+        "image type"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-infinite-scrolling",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-infinite-scrolling",
+      "linkingText": [
+        "infinite scrolling"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-informative",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-informative",
+      "linkingText": [
+        "informative",
+        "non-normative"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-interactive-element",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-interactive-element",
+      "linkingText": [
+        "interactive element"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-interface-sound-effect",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-interface-sound-effect",
+      "linkingText": [
+        "interface sound effect"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-items",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-items",
+      "linkingText": [
+        "items"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-keyboard-focus",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-keyboard-focus",
+      "linkingText": [
+        "keyboard focus"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-keyboard-interface",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-keyboard-interface",
+      "linkingText": [
+        "keyboard interface"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-label",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-label",
+      "linkingText": [
+        "label"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-legal-information",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-legal-information",
+      "linkingText": [
+        "legal information"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-long-form-text-content",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-long-form-text-content",
+      "linkingText": [
+        "long-form text content"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-meaningful-blocks-of-content",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-meaningful-blocks-of-content",
+      "linkingText": [
+        "meaningful blocks of content"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-mechanism",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-mechanism",
+      "linkingText": [
+        "mechanism"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-media-alternative",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-media-alternative",
+      "linkingText": [
+        "media alternative"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-method",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-method",
+      "linkingText": [
+        "method"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-minimum-bounding-box",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-minimum-bounding-box",
+      "linkingText": [
+        "minimum bounding box"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-nested-clause",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-nested-clause",
+      "linkingText": [
+        "nested clause"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-non-interactive-element",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-non-interactive-element",
+      "linkingText": [
+        "non-interactive element"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-non-literal-language",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-non-literal-language",
+      "linkingText": [
+        "non-literal language"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-non-text-content",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-non-text-content",
+      "linkingText": [
+        "non-text content"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-normative",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-normative",
+      "linkingText": [
+        "normative"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-page",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-page",
+      "linkingText": [
+        "page",
+        "pages"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-path-based-gesture",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-path-based-gesture",
+      "linkingText": [
+        "Path-based gesture"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-platform",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-platform",
+      "linkingText": [
+        "platform"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-point-of-regard",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-point-of-regard",
+      "linkingText": [
+        "point of regard",
+        "points of regard"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-pointer",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-pointer",
+      "linkingText": [
+        "pointer",
+        "pointing device"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-presentation",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-presentation",
+      "linkingText": [
+        "presentation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-private-and-sensitive-information",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-private-and-sensitive-information",
+      "linkingText": [
+        "private and sensitive information"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-process",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-process",
+      "linkingText": [
+        "process",
+        "processes"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-programmatically-determinable",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-programmatically-determinable",
+      "linkingText": [
+        "programmatically determinable",
+        "programmatic",
+        "programmatically",
+        "programmatically indicated",
+        "programmatically detectable",
+        "programmatically determined",
+        "programmatically associated"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-pseudo-motion",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-pseudo-motion",
+      "linkingText": [
+        "pseudo-motion"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-purely-decorative",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-purely-decorative",
+      "linkingText": [
+        "purely decorative"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-relationship-of-meaning",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-relationship-of-meaning",
+      "linkingText": [
+        "relationship of meaning",
+        "relationships of meaning"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-relative-luminance",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-relative-luminance",
+      "linkingText": [
+        "relative luminance"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-rendered-content",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-rendered-content",
+      "linkingText": [
+        "rendered content"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-requirement",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-requirement",
+      "linkingText": [
+        "requirement"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-section",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-section",
+      "linkingText": [
+        "section"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-semi-automated-evaluation",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-semi-automated-evaluation",
+      "linkingText": [
+        "semi-automated evaluation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-sign-language-interpretation",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-sign-language-interpretation",
+      "linkingText": [
+        "sign language interpretation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-simple-pointer-input",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-simple-pointer-input",
+      "linkingText": [
+        "simple pointer input"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-single-pointer-input",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-single-pointer-input",
+      "linkingText": [
+        "single pointer input"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-spatial-audio",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-spatial-audio",
+      "linkingText": [
+        "spatial audio"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-standard-platform-keyboard-commands",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-standard-platform-keyboard-commands",
+      "linkingText": [
+        "standard platform keyboard commands"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-starting-point",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-starting-point",
+      "linkingText": [
+        "starting point"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-state",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-state",
+      "linkingText": [
+        "state"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-structural-component",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-structural-component",
+      "linkingText": [
+        "structural component"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-support",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-support",
+      "linkingText": [
+        "support"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-synchronized-media",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-synchronized-media",
+      "linkingText": [
+        "synchronized media"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-task-flow",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-task-flow",
+      "linkingText": [
+        "task flow"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-test",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-test",
+      "linkingText": [
+        "test"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-text",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-text",
+      "linkingText": [
+        "text"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-text-alternative",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-text-alternative",
+      "linkingText": [
+        "text alternative"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-text-content",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-text-content",
+      "linkingText": [
+        "text content"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-transcript",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-transcript",
+      "linkingText": [
+        "transcript"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-unnecessary-words",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-unnecessary-words",
+      "linkingText": [
+        "unnecessary words"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-up-event",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-up-event",
+      "linkingText": [
+        "up event",
+        "up"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-usability-testing",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-usability-testing",
+      "linkingText": [
+        "usability testing"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-user-agent",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-user-agent",
+      "linkingText": [
+        "user agent"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-user-interface-component",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-user-interface-component",
+      "linkingText": [
+        "user interface component"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-user-need",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-user-need",
+      "linkingText": [
+        "user need"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-user-manipulable-text",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-user-manipulable-text",
+      "linkingText": [
+        "user-manipulable text"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-variation-of-product-or-process",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-variation-of-product-or-process",
+      "linkingText": [
+        "variation of product or process"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-video",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-video",
+      "linkingText": [
+        "video"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-view",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-view",
+      "linkingText": [
+        "view",
+        "views"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-viewport",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-viewport",
+      "linkingText": [
+        "viewport"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-visual-aids",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-visual-aids",
+      "linkingText": [
+        "visual aids"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-visually-collocated-with",
+      "href": "https://www.w3.org/TR/wcag-3.0/#dfn-visually-collocated-with",
+      "linkingText": [
+        "visually collocated with"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glossary",
+        "href": "https://www.w3.org/TR/wcag-3.0/#glossary",
+        "title": "GlossaryDeveloping",
+        "alternateIds": [
+          "x5-glossary"
+        ],
+        "number": "5"
+      },
+      "definedIn": "dt",
+      "links": []
+    }
+  ]
+}

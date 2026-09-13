@@ -6,24 +6,38 @@
   "links": {
     "rawlinks": {
       "https://datatracker.ietf.org/doc/html/rfc2119": {},
-      "https://drafts.csswg.org/css-align": {},
-      "https://drafts.csswg.org/css-display-4/": {},
       "https://github.com/w3c/csswg-drafts/issues": {},
       "https://github.com/w3c/csswg-drafts/issues/10233": {
         "anchors": [
           "issuecomment-2071279204"
         ]
       },
+      "https://github.com/w3c/csswg-drafts/issues/10275": {},
       "https://github.com/w3c/csswg-drafts/issues/10854": {},
-      "https://github.com/w3c/csswg-drafts/issues/10869": {},
+      "https://github.com/w3c/csswg-drafts/issues/10884": {},
+      "https://github.com/w3c/csswg-drafts/issues/10915": {},
+      "https://github.com/w3c/csswg-drafts/issues/11480": {},
+      "https://github.com/w3c/csswg-drafts/issues/12022": {},
+      "https://github.com/w3c/csswg-drafts/issues/12803": {},
+      "https://github.com/w3c/csswg-drafts/issues/12899": {},
+      "https://github.com/w3c/csswg-drafts/issues/12918": {},
+      "https://github.com/w3c/csswg-drafts/issues/3071": {},
       "https://github.com/w3c/csswg-drafts/issues/4650": {},
-      "https://github.com/w3c/csswg-drafts/issues/9326": {},
+      "https://github.com/w3c/csswg-drafts/issues/9321": {},
+      "https://github.com/w3c/csswg-drafts/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22topic%3A%20masonry%22": {},
       "https://lists.w3.org/Archives/Public/public-css-archive/": {},
       "https://lists.w3.org/Archives/Public/public-css-testsuite": {},
       "https://lists.w3.org/Archives/Public/www-style/": {},
+      "https://martinfowler.com/bliki/TwoHardThings.html": {},
       "https://www.w3.org/Style/CSS/Test/": {},
       "https://www.w3.org/TR/": {},
-      "https://www.w3.org/TR/2024/WD-css-grid-3-20240919/": {},
+      "https://www.w3.org/TR/2025/WD-css-grid-3-20250917/": {
+        "anchors": [
+          "recent-changes"
+        ]
+      },
+      "https://www.w3.org/TR/2025/WD-css-grid-3-20251216/": {},
+      "https://www.w3.org/TR/2025/WD-css-grid-3-20251223/": {},
       "https://www.w3.org/TR/CSS/": {
         "anchors": [
           "future-proofing",
@@ -31,12 +45,12 @@
           "proprietary-extension"
         ]
       },
+      "https://www.w3.org/TR/CSS2/": {},
       "https://www.w3.org/TR/CSS2/about.html": {
         "anchors": [
           "property-defs"
         ]
       },
-      "https://www.w3.org/TR/CSS21/": {},
       "https://www.w3.org/TR/CSS21/conform.html": {
         "anchors": [
           "style-sheet",
@@ -60,12 +74,13 @@
           "computed"
         ]
       },
-      "https://www.w3.org/TR/css-display-3/": {},
-      "https://www.w3.org/TR/css-flexbox-1/": {
+      "https://www.w3.org/TR/css-display-4/": {
         "anchors": [
           "order-accessibility"
         ]
       },
+      "https://www.w3.org/TR/css-flexbox-1/": {},
+      "https://www.w3.org/TR/css-gaps-1/": {},
       "https://www.w3.org/TR/css-grid-1/": {
         "anchors": [
           "abspos-items"
@@ -74,18 +89,21 @@
       "https://www.w3.org/TR/css-grid-2/": {
         "anchors": [
           "order-accessibility",
-          "track-sizing",
-          "grid-auto-flow-property",
+          "algo-init",
+          "algo-content",
           "subgrids",
           "algo-track-sizing",
           "subgrid-item-contribution",
+          "auto-placement-algo",
           "intrinsic-sizes",
           "gutters",
           "alignment"
         ]
       },
       "https://www.w3.org/TR/css-multicol-1/": {},
+      "https://www.w3.org/TR/css-position-3/": {},
       "https://www.w3.org/TR/css-sizing-3/": {},
+      "https://www.w3.org/TR/css-text-4/": {},
       "https://www.w3.org/TR/css-values-3/": {
         "anchors": [
           "value-defs"
@@ -118,26 +136,29 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {
+      "https://www.w3.org/policies/process/20250818/": {
         "anchors": [
           "recs-and-notes"
         ]
       }
     },
     "autolinks": {
-      "https://drafts.csswg.org/css-display-4/": {
-        "anchors": [
-          "propdef-reading-flow"
-        ]
-      },
       "https://www.w3.org/TR/css-align-3/": {
         "anchors": [
           "baseline-sharing-group",
           "baseline-alignment",
           "propdef-grid-gap",
-          "alignment-subject",
+          "propdef-row-gap",
+          "propdef-column-gap",
+          "propdef-gap",
           "propdef-align-content",
           "propdef-justify-content",
+          "propdef-align-self",
+          "propdef-justify-self",
+          "propdef-align-items",
+          "propdef-justify-items",
+          "box-alignment-properties",
+          "alignment-subject",
           "valdef-self-position-start",
           "valdef-self-position-center",
           "valdef-self-position-end",
@@ -145,12 +166,15 @@
           "valdef-align-content-stretch",
           "distributed-alignment",
           "fallback-alignment",
+          "self-alignment-properties",
+          "alignment-container",
           "alignment-baseline"
         ]
       },
       "https://www.w3.org/TR/css-box-4/": {
         "anchors": [
           "content-box",
+          "outer-edge",
           "margin-box"
         ]
       },
@@ -162,66 +186,79 @@
       },
       "https://www.w3.org/TR/css-cascade-5/": {
         "anchors": [
+          "initial-value",
           "used-value",
           "shorthand-property",
-          "computed-value"
+          "longhand"
         ]
       },
-      "https://www.w3.org/TR/css-display-3/": {
+      "https://www.w3.org/TR/css-display-4/": {
         "anchors": [
           "propdef-display",
           "blockify",
+          "propdef-order",
+          "propdef-reading-flow",
           "block-level",
-          "flow-layout",
           "inline-level",
+          "independent-formatting-context",
+          "order-modified-document-order",
           "containing-block"
         ]
       },
       "https://www.w3.org/TR/css-flexbox-1/": {
         "anchors": [
           "flex-layout",
-          "propdef-order",
-          "order-modified-document-order"
+          "propdef-flex-flow",
+          "flex-container",
+          "single-line-flex-container",
+          "multi-line-flex-container",
+          "propdef-flex-wrap"
+        ]
+      },
+      "https://www.w3.org/TR/css-gaps-1/": {
+        "anchors": [
+          "funcdef-repeat-line-color-repeat"
         ]
       },
       "https://www.w3.org/TR/css-grid-2/": {
         "anchors": [
           "grid-layout",
+          "auto-placement",
+          "propdef-grid-template-columns",
           "grid-item",
           "grid-container",
           "grid-track",
           "definite-grid-position",
-          "propdef-grid-template-columns",
-          "propdef-grid-template-rows",
+          "subgrid",
           "valdef-grid-template-rows-none",
-          "grid-item-placement-algorithm",
+          "propdef-grid-template-rows",
+          "propdef-grid-auto-flow",
           "explicit-grid",
           "implicit-grid",
           "propdef-grid-auto-rows",
           "propdef-grid-auto-columns",
-          "computed-track-list",
-          "valdef-grid-template-columns-auto",
-          "propdef-grid-template-areas",
-          "subgrid",
-          "valdef-grid-template-none",
-          "funcdef-repeat",
-          "valdef-repeat-auto-fill",
-          "valdef-grid-template-areas-none",
-          "valdef-repeat-auto-fit",
-          "collapsed-track",
+          "min-track-sizing-function",
+          "max-track-sizing-function",
+          "typedef-line-names",
+          "typedef-track-size",
           "automatic-grid-position",
+          "collapsed-grid-track",
+          "valdef-repeat-auto-fit",
+          "valdef-repeat-auto-fill",
           "grid-placement-property",
-          "propdef-grid-column-start",
-          "propdef-grid-column-end",
-          "propdef-grid-column",
           "grid-area",
-          "propdef-grid",
-          "propdef-grid-template"
+          "implicit-grid-track"
+        ]
+      },
+      "https://www.w3.org/TR/css-position-3/": {
+        "anchors": [
+          "propdef-position"
         ]
       },
       "https://www.w3.org/TR/css-sizing-3/": {
         "anchors": [
           "available",
+          "definite",
           "outer-size",
           "max-content",
           "min-content",
@@ -229,14 +266,20 @@
           "min-content-constraint"
         ]
       },
+      "https://www.w3.org/TR/css-text-4/": {
+        "anchors": [
+          "propdef-text-wrap-style"
+        ]
+      },
       "https://www.w3.org/TR/css-values-4/": {
         "anchors": [
           "css-wide-keywords",
           "comb-one",
-          "comb-any",
-          "string-value",
+          "comb-comma",
+          "mult-opt",
+          "mult-one-plus",
           "typedef-length-percentage",
-          "length-value"
+          "comb-any"
         ]
       },
       "https://www.w3.org/TR/css-writing-modes-3/": {
@@ -248,10 +291,7 @@
         "anchors": [
           "block-axis",
           "inline-axis",
-          "block-start",
-          "block-end",
-          "inline-start",
-          "inline-end",
+          "start",
           "writing-mode"
         ]
       }

@@ -1,0 +1,1895 @@
+{
+  "spec": {
+    "title": "SHACL 1.2 Core",
+    "url": "https://w3c.github.io/data-shapes/shacl12-core/"
+  },
+  "dfns": [
+    {
+      "id": "dfn-language-tag",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-language-tag",
+      "linkingText": [
+        "language tag",
+        "Language tags"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#terminology",
+        "title": "Terminology",
+        "alternateIds": [
+          "x1-1-terminology"
+        ],
+        "number": "1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-properties",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-properties",
+      "linkingText": [
+        "properties",
+        "property"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#terminology",
+        "title": "Terminology",
+        "alternateIds": [
+          "x1-1-terminology"
+        ],
+        "number": "1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-value",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-value",
+      "linkingText": [
+        "value",
+        "values",
+        "property value",
+        "property values"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#terminology",
+        "title": "Terminology",
+        "alternateIds": [
+          "x1-1-terminology"
+        ],
+        "number": "1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-sparql-property-path",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-sparql-property-path",
+      "linkingText": [
+        "SPARQL property path",
+        "SPARQL property paths"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#terminology",
+        "title": "Terminology",
+        "alternateIds": [
+          "x1-1-terminology"
+        ],
+        "number": "1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-shacl-list",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-shacl-list",
+      "linkingText": [
+        "SHACL list"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#terminology",
+        "title": "Terminology",
+        "alternateIds": [
+          "x1-1-terminology"
+        ],
+        "number": "1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-members",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-members",
+      "linkingText": [
+        "members",
+        "member"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#terminology",
+        "title": "Terminology",
+        "alternateIds": [
+          "x1-1-terminology"
+        ],
+        "number": "1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-shacl-subclass",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-shacl-subclass",
+      "linkingText": [
+        "SHACL subclass",
+        "subclass",
+        "subclasses"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#terminology",
+        "title": "Terminology",
+        "alternateIds": [
+          "x1-1-terminology"
+        ],
+        "number": "1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-shacl-superclass",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-shacl-superclass",
+      "linkingText": [
+        "SHACL superclass",
+        "superclass",
+        "superclasses"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#terminology",
+        "title": "Terminology",
+        "alternateIds": [
+          "x1-1-terminology"
+        ],
+        "number": "1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-shacl-type",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-shacl-type",
+      "linkingText": [
+        "SHACL type",
+        "type",
+        "types",
+        "SHACL types"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#terminology",
+        "title": "Terminology",
+        "alternateIds": [
+          "x1-1-terminology"
+        ],
+        "number": "1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-class",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-class",
+      "linkingText": [
+        "class",
+        "classes",
+        "SHACL classes",
+        "SHACL class"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#terminology",
+        "title": "Terminology",
+        "alternateIds": [
+          "x1-1-terminology"
+        ],
+        "number": "1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-shacl-instance",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-shacl-instance",
+      "linkingText": [
+        "SHACL instance",
+        "SHACL instances"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#terminology",
+        "title": "Terminology",
+        "alternateIds": [
+          "x1-1-terminology"
+        ],
+        "number": "1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-deep-copy",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-deep-copy",
+      "linkingText": [
+        "deep copy"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#terminology",
+        "title": "Terminology",
+        "alternateIds": [
+          "x1-1-terminology"
+        ],
+        "number": "1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-ill-formed",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-ill-formed",
+      "linkingText": [
+        "ill-formed"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "conformance",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#conformance",
+        "title": "Conformance",
+        "alternateIds": [
+          "x1-3-conformance"
+        ],
+        "number": "1.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-well-formed",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-well-formed",
+      "linkingText": [
+        "well-formed"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "conformance",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#conformance",
+        "title": "Conformance",
+        "alternateIds": [
+          "x1-3-conformance"
+        ],
+        "number": "1.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-shape",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-shape",
+      "linkingText": [
+        "shape",
+        "shapes"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "shapes",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#shapes",
+        "title": "Shapes",
+        "alternateIds": [
+          "x3-1-shapes"
+        ],
+        "number": "3.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-constraint-component",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-constraint-component",
+      "linkingText": [
+        "constraint component",
+        "constraint components",
+        "components",
+        "component"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "constraints",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#constraints",
+        "title": "Constraints, Parameters and Constraint Components",
+        "alternateIds": [
+          "x3-1-1-constraints-parameters-and-constraint-components"
+        ],
+        "number": "3.1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-mandatory-parameter",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-mandatory-parameter",
+      "linkingText": [
+        "mandatory parameter",
+        "mandatory parameters"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "constraints",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#constraints",
+        "title": "Constraints, Parameters and Constraint Components",
+        "alternateIds": [
+          "x3-1-1-constraints-parameters-and-constraint-components"
+        ],
+        "number": "3.1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-optional-parameter",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-optional-parameter",
+      "linkingText": [
+        "optional parameter",
+        "optional parameters"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "constraints",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#constraints",
+        "title": "Constraints, Parameters and Constraint Components",
+        "alternateIds": [
+          "x3-1-1-constraints-parameters-and-constraint-components"
+        ],
+        "number": "3.1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-parameter",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-parameter",
+      "linkingText": [
+        "parameter",
+        "parameters"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "constraints",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#constraints",
+        "title": "Constraints, Parameters and Constraint Components",
+        "alternateIds": [
+          "x3-1-1-constraints-parameters-and-constraint-components"
+        ],
+        "number": "3.1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-constraint",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-constraint",
+      "linkingText": [
+        "constraint"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "constraints",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#constraints",
+        "title": "Constraints, Parameters and Constraint Components",
+        "alternateIds": [
+          "x3-1-1-constraints-parameters-and-constraint-components"
+        ],
+        "number": "3.1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-kind",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-kind",
+      "linkingText": [
+        "kind"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "constraints",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#constraints",
+        "title": "Constraints, Parameters and Constraint Components",
+        "alternateIds": [
+          "x3-1-1-constraints-parameters-and-constraint-components"
+        ],
+        "number": "3.1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-validators",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-validators",
+      "linkingText": [
+        "validators"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "constraints",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#constraints",
+        "title": "Constraints, Parameters and Constraint Components",
+        "alternateIds": [
+          "x3-1-1-constraints-parameters-and-constraint-components"
+        ],
+        "number": "3.1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-focus-node",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-focus-node",
+      "linkingText": [
+        "focus node"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "focusNodes",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#focusNodes",
+        "title": "Focus Nodes",
+        "alternateIds": [
+          "x3-1-2-focus-nodes"
+        ],
+        "number": "3.1.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-target-declaration",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-target-declaration",
+      "linkingText": [
+        "target declaration",
+        "Target declarations"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "targets",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#targets",
+        "title": "Targets",
+        "alternateIds": [
+          "x3-1-3-targets"
+        ],
+        "number": "3.1.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-target",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-target",
+      "linkingText": [
+        "target"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "targets",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#targets",
+        "title": "Targets",
+        "alternateIds": [
+          "x3-1-3-targets"
+        ],
+        "number": "3.1.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-target-of-the-shape",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-target-of-the-shape",
+      "linkingText": [
+        "target of the shape",
+        "target of a shape"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "targets",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#targets",
+        "title": "Targets",
+        "alternateIds": [
+          "x3-1-3-targets"
+        ],
+        "number": "3.1.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-node-target",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-node-target",
+      "linkingText": [
+        "node target"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "targetNode",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#targetNode",
+        "title": "Node targets (sh:targetNode)",
+        "alternateIds": [
+          "x3-1-3-1-node-targets-sh-targetnode"
+        ],
+        "number": "3.1.3.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-class-target",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-class-target",
+      "linkingText": [
+        "class target"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "targetClass",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#targetClass",
+        "title": "Class-based Targets (sh:targetClass)",
+        "alternateIds": [
+          "x3-1-3-2-class-based-targets-sh-targetclass"
+        ],
+        "number": "3.1.3.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-subjects-of-target",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-subjects-of-target",
+      "linkingText": [
+        "subjects-of target"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "targetSubjectsOf",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#targetSubjectsOf",
+        "title": "Subjects-of targets (sh:targetSubjectsOf)",
+        "alternateIds": [
+          "x3-1-3-4-subjects-of-targets-sh-targetsubjectsof"
+        ],
+        "number": "3.1.3.4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-objects-of-target",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-objects-of-target",
+      "linkingText": [
+        "objects-of target"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "targetObjectsOf",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#targetObjectsOf",
+        "title": "Objects-of targets (sh:targetObjectsOf)",
+        "alternateIds": [
+          "x3-1-3-5-objects-of-targets-sh-targetobjectsof"
+        ],
+        "number": "3.1.3.5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-where-target",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-where-target",
+      "linkingText": [
+        "where target"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "targetWhere",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#targetWhere",
+        "title": "Where Targets (sh:targetWhere)",
+        "alternateIds": [
+          "x3-1-3-6-where-targets-sh-targetwhere"
+        ],
+        "number": "3.1.3.6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-explicit-shape-target",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-explicit-shape-target",
+      "linkingText": [
+        "explicit shape target"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "explicit-shape-target",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#explicit-shape-target",
+        "title": "Explicit shape targets (sh:shape)",
+        "alternateIds": [
+          "x3-1-3-7-explicit-shape-targets-sh-shape"
+        ],
+        "number": "3.1.3.7"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-severity",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-severity",
+      "linkingText": [
+        "severity"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "severity",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#severity",
+        "title": "Declaring the Severity of a Shape or Constraint",
+        "alternateIds": [
+          "x3-1-4-declaring-the-severity-of-a-shape-or-constraint"
+        ],
+        "number": "3.1.4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-deactivate",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-deactivate",
+      "linkingText": [
+        "deactivate",
+        "deactivated"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "deactivated",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#deactivated",
+        "title": "Deactivating Shapes and Constraints",
+        "alternateIds": [
+          "x3-1-6-deactivating-shapes-and-constraints"
+        ],
+        "number": "3.1.6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-deactivated-constraint",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-deactivated-constraint",
+      "linkingText": [
+        "deactivated constraint",
+        "deactivated constraints"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "deactivated",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#deactivated",
+        "title": "Deactivating Shapes and Constraints",
+        "alternateIds": [
+          "x3-1-6-deactivating-shapes-and-constraints"
+        ],
+        "number": "3.1.6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-node-shape",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-node-shape",
+      "linkingText": [
+        "node shape"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "node-shapes",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#node-shapes",
+        "title": "Node Shapes",
+        "alternateIds": [
+          "x3-2-node-shapes"
+        ],
+        "number": "3.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-property-shape",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-property-shape",
+      "linkingText": [
+        "property shape"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "property-shapes",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#property-shapes",
+        "title": "Property Shapes",
+        "alternateIds": [
+          "x3-3-property-shapes"
+        ],
+        "number": "3.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-path-mapping",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-path-mapping",
+      "linkingText": [
+        "path mapping"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "property-paths",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#property-paths",
+        "title": "SHACL Property Paths",
+        "alternateIds": [
+          "x4-shacl-property-paths"
+        ],
+        "number": "4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-equivalent-paths",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-equivalent-paths",
+      "linkingText": [
+        "equivalent paths"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "property-paths",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#property-paths",
+        "title": "SHACL Property Paths",
+        "alternateIds": [
+          "x4-shacl-property-paths"
+        ],
+        "number": "4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-shacl-property-path",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-shacl-property-path",
+      "linkingText": [
+        "SHACL property path"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "property-paths",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#property-paths",
+        "title": "SHACL Property Paths",
+        "alternateIds": [
+          "x4-shacl-property-paths"
+        ],
+        "number": "4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-predicate-path",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-predicate-path",
+      "linkingText": [
+        "predicate path"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "property-path-predicate",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#property-path-predicate",
+        "title": "Predicate Paths",
+        "alternateIds": [
+          "x4-1-predicate-paths"
+        ],
+        "number": "4.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-sequence-path",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-sequence-path",
+      "linkingText": [
+        "sequence path"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "property-path-sequence",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#property-path-sequence",
+        "title": "Sequence Paths",
+        "alternateIds": [
+          "x4-2-sequence-paths"
+        ],
+        "number": "4.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-alternative-path",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-alternative-path",
+      "linkingText": [
+        "alternative path"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "property-path-alternative",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#property-path-alternative",
+        "title": "Alternative Paths",
+        "alternateIds": [
+          "x4-3-alternative-paths"
+        ],
+        "number": "4.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-inverse-path",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-inverse-path",
+      "linkingText": [
+        "inverse path"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "property-path-inverse",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#property-path-inverse",
+        "title": "Inverse Paths",
+        "alternateIds": [
+          "x4-4-inverse-paths"
+        ],
+        "number": "4.4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-zero-or-more-path",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-zero-or-more-path",
+      "linkingText": [
+        "zero-or-more path"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "property-path-zero-or-more",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#property-path-zero-or-more",
+        "title": "Zero-Or-More Paths",
+        "alternateIds": [
+          "x4-5-zero-or-more-paths"
+        ],
+        "number": "4.5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-one-or-more-path",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-one-or-more-path",
+      "linkingText": [
+        "one-or-more path"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "property-path-one-or-more",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#property-path-one-or-more",
+        "title": "One-Or-More Paths",
+        "alternateIds": [
+          "x4-6-one-or-more-paths"
+        ],
+        "number": "4.6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-zero-or-one-path",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-zero-or-one-path",
+      "linkingText": [
+        "zero-or-one path"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "property-path-zero-or-one",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#property-path-zero-or-one",
+        "title": "Zero-Or-One Paths",
+        "alternateIds": [
+          "x4-7-zero-or-one-paths"
+        ],
+        "number": "4.7"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-node-expression",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-node-expression",
+      "linkingText": [
+        "node expression"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "node-expressions",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#node-expressions",
+        "title": "Node Expressions",
+        "alternateIds": [
+          "x5-node-expressions"
+        ],
+        "number": "5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-node-expression-function",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-node-expression-function",
+      "linkingText": [
+        "node expression function"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "node-expressions",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#node-expressions",
+        "title": "Node Expressions",
+        "alternateIds": [
+          "x5-node-expressions"
+        ],
+        "number": "5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-function-name",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-function-name",
+      "linkingText": [
+        "function name"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "node-expressions",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#node-expressions",
+        "title": "Node Expressions",
+        "alternateIds": [
+          "x5-node-expressions"
+        ],
+        "number": "5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-evaluation",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-evaluation",
+      "linkingText": [
+        "evaluation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "node-expressions",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#node-expressions",
+        "title": "Node Expressions",
+        "alternateIds": [
+          "x5-node-expressions"
+        ],
+        "number": "5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-focus-graph",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-focus-graph",
+      "linkingText": [
+        "focus graph"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "node-expressions",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#node-expressions",
+        "title": "Node Expressions",
+        "alternateIds": [
+          "x5-node-expressions"
+        ],
+        "number": "5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-input-focus-node",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-input-focus-node",
+      "linkingText": [
+        "input focus node"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "node-expressions",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#node-expressions",
+        "title": "Node Expressions",
+        "alternateIds": [
+          "x5-node-expressions"
+        ],
+        "number": "5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-output-nodes",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-output-nodes",
+      "linkingText": [
+        "output nodes"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "node-expressions",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#node-expressions",
+        "title": "Node Expressions",
+        "alternateIds": [
+          "x5-node-expressions"
+        ],
+        "number": "5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-evaluation-failure",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-evaluation-failure",
+      "linkingText": [
+        "evaluation failure"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "node-expressions",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#node-expressions",
+        "title": "Node Expressions",
+        "alternateIds": [
+          "x5-node-expressions"
+        ],
+        "number": "5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-iri-expression",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-iri-expression",
+      "linkingText": [
+        "IRI expression"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "IRIExpression",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#IRIExpression",
+        "title": "IRI Expressions",
+        "alternateIds": [
+          "x5-1-iri-expressions"
+        ],
+        "number": "5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-literal-expression",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-literal-expression",
+      "linkingText": [
+        "literal expression"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "LiteralExpression",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#LiteralExpression",
+        "title": "Literal Expressions",
+        "alternateIds": [
+          "x5-2-literal-expressions"
+        ],
+        "number": "5.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-processor",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-processor",
+      "linkingText": [
+        "processor"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "validation",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#validation",
+        "title": "Validation and Graphs",
+        "alternateIds": [
+          "x6-validation-and-graphs"
+        ],
+        "number": "6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-processing",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-processing",
+      "linkingText": [
+        "processing"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "validation",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#validation",
+        "title": "Validation and Graphs",
+        "alternateIds": [
+          "x6-validation-and-graphs"
+        ],
+        "number": "6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-shapes-graph",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-shapes-graph",
+      "linkingText": [
+        "shapes graph"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "shapes-graph",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#shapes-graph",
+        "title": "Shapes Graph",
+        "alternateIds": [
+          "x6-1-shapes-graph"
+        ],
+        "number": "6.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-data-graph",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-data-graph",
+      "linkingText": [
+        "data graph"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "data-graph",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#data-graph",
+        "title": "Data Graph",
+        "alternateIds": [
+          "x6-2-data-graph"
+        ],
+        "number": "6.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-validation",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-validation",
+      "linkingText": [
+        "validation",
+        "validating",
+        "validates",
+        "validated",
+        "validate",
+        "Validation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "validation-definition",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#validation-definition",
+        "title": "Validation",
+        "alternateIds": [
+          "x6-5-validation"
+        ],
+        "number": "6.5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-validation-of-a-data-graph-against-a-shapes-graph",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-validation-of-a-data-graph-against-a-shapes-graph",
+      "linkingText": [
+        "Validation of a data graph against a shapes graph:"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "validation-definition",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#validation-definition",
+        "title": "Validation",
+        "alternateIds": [
+          "x6-5-validation"
+        ],
+        "number": "6.5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-validation-of-a-data-graph-against-a-shape",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-validation-of-a-data-graph-against-a-shape",
+      "linkingText": [
+        "Validation of a data graph against a shape:"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "validation-definition",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#validation-definition",
+        "title": "Validation",
+        "alternateIds": [
+          "x6-5-validation"
+        ],
+        "number": "6.5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-validation-of-a-focus-node-against-a-shape",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-validation-of-a-focus-node-against-a-shape",
+      "linkingText": [
+        "Validation of a focus node against a shape:"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "validation-definition",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#validation-definition",
+        "title": "Validation",
+        "alternateIds": [
+          "x6-5-validation"
+        ],
+        "number": "6.5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-validation-of-a-focus-node-against-a-constraint",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-validation-of-a-focus-node-against-a-constraint",
+      "linkingText": [
+        "Validation of a focus node against a constraint:"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "validation-definition",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#validation-definition",
+        "title": "Validation",
+        "alternateIds": [
+          "x6-5-validation"
+        ],
+        "number": "6.5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-failure",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-failure",
+      "linkingText": [
+        "failure"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "failures",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#failures",
+        "title": "Failures",
+        "alternateIds": [
+          "x6-5-1-failures"
+        ],
+        "number": "6.5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-shape-expecting",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-shape-expecting",
+      "linkingText": [
+        "shape-expecting",
+        "shape-expecting constraint parameters"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "shapes-recursion",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#shapes-recursion",
+        "title": "Handling of Recursive Shapes",
+        "alternateIds": [
+          "x6-5-3-handling-of-recursive-shapes"
+        ],
+        "number": "6.5.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-list-taking",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-list-taking",
+      "linkingText": [
+        "list-taking",
+        "list-taking constraint parameters"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "shapes-recursion",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#shapes-recursion",
+        "title": "Handling of Recursive Shapes",
+        "alternateIds": [
+          "x6-5-3-handling-of-recursive-shapes"
+        ],
+        "number": "6.5.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-refers",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-refers",
+      "linkingText": [
+        "refers"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "shapes-recursion",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#shapes-recursion",
+        "title": "Handling of Recursive Shapes",
+        "alternateIds": [
+          "x6-5-3-handling-of-recursive-shapes"
+        ],
+        "number": "6.5.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-recursive-shape",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-recursive-shape",
+      "linkingText": [
+        "recursive shape",
+        "recursive"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "shapes-recursion",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#shapes-recursion",
+        "title": "Handling of Recursive Shapes",
+        "alternateIds": [
+          "x6-5-3-handling-of-recursive-shapes"
+        ],
+        "number": "6.5.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-conform",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-conform",
+      "linkingText": [
+        "conform",
+        "conforms",
+        "conformance"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "conformance-definition",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#conformance-definition",
+        "title": "Conformance Checking",
+        "alternateIds": [
+          "x6-6-conformance-checking"
+        ],
+        "number": "6.6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-conformance-checking",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-conformance-checking",
+      "linkingText": [
+        "conformance checking",
+        "conformance check",
+        "Conformance checking"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "conformance-definition",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#conformance-definition",
+        "title": "Conformance Checking",
+        "alternateIds": [
+          "x6-6-conformance-checking"
+        ],
+        "number": "6.6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-validation-report",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-validation-report",
+      "linkingText": [
+        "validation report",
+        "report"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "validation-report",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#validation-report",
+        "title": "Validation Report",
+        "alternateIds": [
+          "x6-7-validation-report"
+        ],
+        "number": "6.7"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-validation-result",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-validation-result",
+      "linkingText": [
+        "validation result",
+        "result",
+        "validation results"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "validation-report",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#validation-report",
+        "title": "Validation Report",
+        "alternateIds": [
+          "x6-7-validation-report"
+        ],
+        "number": "6.7"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-validation-report-vocabulary",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-validation-report-vocabulary",
+      "linkingText": [
+        "Validation Report Vocabulary"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "validation-report",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#validation-report",
+        "title": "Validation Report",
+        "alternateIds": [
+          "x6-7-validation-report"
+        ],
+        "number": "6.7"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-value-node",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-value-node",
+      "linkingText": [
+        "value node",
+        "value nodes"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "value-nodes",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#value-nodes",
+        "title": "Value Nodes",
+        "alternateIds": [
+          "x6-8-value-nodes"
+        ],
+        "number": "6.8"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-parameter-value",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-parameter-value",
+      "linkingText": [
+        "parameter value",
+        "parameter values"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "core-components",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#core-components",
+        "title": "Core Constraint Components",
+        "alternateIds": [
+          "x7-core-constraint-components"
+        ],
+        "number": "7"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-sibling-shapes",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-sibling-shapes",
+      "linkingText": [
+        "sibling shapes"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "QualifiedValueShapeConstraintComponent",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#QualifiedValueShapeConstraintComponent",
+        "title": "sh:qualifiedValueShape, sh:qualifiedMinCount, sh:qualifiedMaxCount",
+        "alternateIds": [
+          "x7-8-4-sh-qualifiedvalueshape-sh-qualifiedmincount-sh-qualifiedmaxcount"
+        ],
+        "number": "7.8.4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-non-validating-property",
+      "href": "https://w3c.github.io/data-shapes/shacl12-core/#dfn-non-validating-property",
+      "linkingText": [
+        "non-validating property",
+        "non-validating properties"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "nonValidation",
+        "href": "https://w3c.github.io/data-shapes/shacl12-core/#nonValidation",
+        "title": "Non-Validating Shape Characteristics",
+        "alternateIds": [
+          "x8-non-validating-shape-characteristics"
+        ],
+        "number": "8"
+      },
+      "definedIn": "prose",
+      "links": []
+    }
+  ]
+}

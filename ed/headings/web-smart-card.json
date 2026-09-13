@@ -11,35 +11,50 @@
       "title": "Web Smart Card API"
     },
     {
+      "id": "abstract",
+      "href": "https://wicg.github.io/web-smart-card/#abstract",
+      "level": 2,
+      "title": "Abstract"
+    },
+    {
+      "id": "status",
+      "href": "https://wicg.github.io/web-smart-card/#status",
+      "level": 2,
+      "title": "Status of this document"
+    },
+    {
       "id": "toc",
       "href": "https://wicg.github.io/web-smart-card/#toc",
       "level": 2,
-      "title": "Table of Contents"
+      "title": "Table of Contents",
+      "alternateIds": [
+        "contents"
+      ]
     },
     {
-      "id": "extensions-to-the-navigator-interface",
-      "href": "https://wicg.github.io/web-smart-card/#extensions-to-the-navigator-interface",
+      "id": "navigator-extensions",
+      "href": "https://wicg.github.io/web-smart-card/#navigator-extensions",
       "level": 2,
       "title": "Extensions to the Navigator interface",
       "number": "1"
     },
     {
-      "id": "smartcard-attribute",
-      "href": "https://wicg.github.io/web-smart-card/#smartcard-attribute",
+      "id": "navigator-smartcard",
+      "href": "https://wicg.github.io/web-smart-card/#navigator-smartcard",
       "level": 3,
       "title": "smartCard attribute",
       "number": "1.1"
     },
     {
-      "id": "extensions-to-the-workernavigator-interface",
-      "href": "https://wicg.github.io/web-smart-card/#extensions-to-the-workernavigator-interface",
+      "id": "workernavigator-extensions",
+      "href": "https://wicg.github.io/web-smart-card/#workernavigator-extensions",
       "level": 2,
       "title": "Extensions to the WorkerNavigator interface",
       "number": "2"
     },
     {
-      "id": "smartcard-attribute-0",
-      "href": "https://wicg.github.io/web-smart-card/#smartcard-attribute-0",
+      "id": "workernavigator-smartcard",
+      "href": "https://wicg.github.io/web-smart-card/#workernavigator-smartcard",
       "level": 3,
       "title": "smartCard attribute",
       "number": "2.1"
@@ -52,8 +67,8 @@
       "number": "3"
     },
     {
-      "id": "establishcontext-method",
-      "href": "https://wicg.github.io/web-smart-card/#establishcontext-method",
+      "id": "smartcardresourcemanager-establishcontext",
+      "href": "https://wicg.github.io/web-smart-card/#smartcardresourcemanager-establishcontext",
       "level": 3,
       "title": "establishContext() method",
       "number": "3.1"
@@ -66,57 +81,57 @@
       "number": "4"
     },
     {
-      "id": "listreaders-method",
-      "href": "https://wicg.github.io/web-smart-card/#listreaders-method",
+      "id": "smartcardcontext-listreaders",
+      "href": "https://wicg.github.io/web-smart-card/#smartcardcontext-listreaders",
       "level": 3,
       "title": "listReaders() method",
       "number": "4.1"
     },
     {
-      "id": "getstatuschange-method",
-      "href": "https://wicg.github.io/web-smart-card/#getstatuschange-method",
+      "id": "smartcardcontext-getstatuschange",
+      "href": "https://wicg.github.io/web-smart-card/#smartcardcontext-getstatuschange",
       "level": 3,
       "title": "getStatusChange() method",
       "number": "4.2"
     },
     {
-      "id": "smartcardreaderstatein-dictionary",
-      "href": "https://wicg.github.io/web-smart-card/#smartcardreaderstatein-dictionary",
+      "id": "smartcardreaderstatein-dict",
+      "href": "https://wicg.github.io/web-smart-card/#smartcardreaderstatein-dict",
       "level": 4,
       "title": "SmartCardReaderStateIn dictionary",
       "number": "4.2.1"
     },
     {
-      "id": "smartcardreaderstateflagsin-dictionary",
-      "href": "https://wicg.github.io/web-smart-card/#smartcardreaderstateflagsin-dictionary",
+      "id": "smartcardreaderstateflagsin-dict",
+      "href": "https://wicg.github.io/web-smart-card/#smartcardreaderstateflagsin-dict",
       "level": 5,
       "title": "SmartCardReaderStateFlagsIn dictionary",
       "number": "4.2.1.1"
     },
     {
-      "id": "smartcardreaderstateout-dictionary",
-      "href": "https://wicg.github.io/web-smart-card/#smartcardreaderstateout-dictionary",
+      "id": "smartcardreaderstateout-dict",
+      "href": "https://wicg.github.io/web-smart-card/#smartcardreaderstateout-dict",
       "level": 4,
       "title": "SmartCardReaderStateOut dictionary",
       "number": "4.2.2"
     },
     {
-      "id": "smartcardreaderstateflagsout-dictionary",
-      "href": "https://wicg.github.io/web-smart-card/#smartcardreaderstateflagsout-dictionary",
+      "id": "smartcardreaderstateflagsout-dict",
+      "href": "https://wicg.github.io/web-smart-card/#smartcardreaderstateflagsout-dict",
       "level": 5,
       "title": "SmartCardReaderStateFlagsOut dictionary",
       "number": "4.2.2.1"
     },
     {
-      "id": "smartcardgetstatuschangeoptions-dictionary",
-      "href": "https://wicg.github.io/web-smart-card/#smartcardgetstatuschangeoptions-dictionary",
+      "id": "smartcardgetstatuschangeoptions-dict",
+      "href": "https://wicg.github.io/web-smart-card/#smartcardgetstatuschangeoptions-dict",
       "level": 4,
       "title": "SmartCardGetStatusChangeOptions dictionary",
       "number": "4.2.3"
     },
     {
-      "id": "connect-method",
-      "href": "https://wicg.github.io/web-smart-card/#connect-method",
+      "id": "smartcardcontext-connect",
+      "href": "https://wicg.github.io/web-smart-card/#smartcardcontext-connect",
       "level": 3,
       "title": "connect() method",
       "number": "4.3"
@@ -129,8 +144,8 @@
       "number": "4.3.1"
     },
     {
-      "id": "smartcardconnectresult-dictionary",
-      "href": "https://wicg.github.io/web-smart-card/#smartcardconnectresult-dictionary",
+      "id": "smartcardconnectresult-dict",
+      "href": "https://wicg.github.io/web-smart-card/#smartcardconnectresult-dict",
       "level": 4,
       "title": "SmartCardConnectResult dictionary",
       "number": "4.3.2"
@@ -143,15 +158,15 @@
       "number": "4.3.3"
     },
     {
-      "id": "smartcardconnectoptions-dictionary",
-      "href": "https://wicg.github.io/web-smart-card/#smartcardconnectoptions-dictionary",
+      "id": "smartcardconnectoptions-dict",
+      "href": "https://wicg.github.io/web-smart-card/#smartcardconnectoptions-dict",
       "level": 4,
       "title": "SmartCardConnectOptions dictionary",
       "number": "4.3.4"
     },
     {
-      "id": "auxiliary-algorithms-and-definitions",
-      "href": "https://wicg.github.io/web-smart-card/#auxiliary-algorithms-and-definitions",
+      "id": "smartcardcontext-auxiliary",
+      "href": "https://wicg.github.io/web-smart-card/#smartcardcontext-auxiliary",
       "level": 3,
       "title": "Auxiliary algorithms and definitions",
       "number": "4.4"
@@ -164,8 +179,8 @@
       "number": "5"
     },
     {
-      "id": "disconnect-method",
-      "href": "https://wicg.github.io/web-smart-card/#disconnect-method",
+      "id": "smartcardconnection-disconnect",
+      "href": "https://wicg.github.io/web-smart-card/#smartcardconnection-disconnect",
       "level": 3,
       "title": "disconnect() method",
       "number": "5.1"
@@ -178,50 +193,50 @@
       "number": "5.1.1"
     },
     {
-      "id": "transmit-method",
-      "href": "https://wicg.github.io/web-smart-card/#transmit-method",
+      "id": "smartcardconnection-transmit",
+      "href": "https://wicg.github.io/web-smart-card/#smartcardconnection-transmit",
       "level": 3,
       "title": "transmit() method",
       "number": "5.2"
     },
     {
-      "id": "smartcardtransmitoptions-dictionary",
-      "href": "https://wicg.github.io/web-smart-card/#smartcardtransmitoptions-dictionary",
+      "id": "smartcardtransmitoptions-dict",
+      "href": "https://wicg.github.io/web-smart-card/#smartcardtransmitoptions-dict",
       "level": 4,
       "title": "SmartCardTransmitOptions dictionary",
       "number": "5.2.1"
     },
     {
-      "id": "starttransaction-method",
-      "href": "https://wicg.github.io/web-smart-card/#starttransaction-method",
+      "id": "smartcardconnection-starttransaction",
+      "href": "https://wicg.github.io/web-smart-card/#smartcardconnection-starttransaction",
       "level": 3,
       "title": "startTransaction() method",
       "number": "5.3"
     },
     {
-      "id": "smartcardtransactionoptions-dictionary",
-      "href": "https://wicg.github.io/web-smart-card/#smartcardtransactionoptions-dictionary",
+      "id": "smartcardtransactionoptions-dict",
+      "href": "https://wicg.github.io/web-smart-card/#smartcardtransactionoptions-dict",
       "level": 4,
       "title": "SmartCardTransactionOptions dictionary",
       "number": "5.3.1"
     },
     {
-      "id": "auxiliary-algorithms-and-definitions-0",
-      "href": "https://wicg.github.io/web-smart-card/#auxiliary-algorithms-and-definitions-0",
+      "id": "smartcardconnection-auxiliary",
+      "href": "https://wicg.github.io/web-smart-card/#smartcardconnection-auxiliary",
       "level": 4,
       "title": "Auxiliary algorithms and definitions",
       "number": "5.3.2"
     },
     {
-      "id": "status-method",
-      "href": "https://wicg.github.io/web-smart-card/#status-method",
+      "id": "smartcardconnection-status",
+      "href": "https://wicg.github.io/web-smart-card/#smartcardconnection-status",
       "level": 3,
       "title": "status() method",
       "number": "5.4"
     },
     {
-      "id": "smartcardconnectionstatus-dictionary",
-      "href": "https://wicg.github.io/web-smart-card/#smartcardconnectionstatus-dictionary",
+      "id": "smartcardconnectionstatus-dict",
+      "href": "https://wicg.github.io/web-smart-card/#smartcardconnectionstatus-dict",
       "level": 4,
       "title": "SmartCardConnectionStatus dictionary",
       "number": "5.4.1"
@@ -234,22 +249,22 @@
       "number": "5.4.1.1"
     },
     {
-      "id": "control-method",
-      "href": "https://wicg.github.io/web-smart-card/#control-method",
+      "id": "smartcardconnection-control",
+      "href": "https://wicg.github.io/web-smart-card/#smartcardconnection-control",
       "level": 3,
       "title": "control() method",
       "number": "5.5"
     },
     {
-      "id": "getattribute-method",
-      "href": "https://wicg.github.io/web-smart-card/#getattribute-method",
+      "id": "smartcardconnection-getattribute",
+      "href": "https://wicg.github.io/web-smart-card/#smartcardconnection-getattribute",
       "level": 3,
       "title": "getAttribute() method",
       "number": "5.6"
     },
     {
-      "id": "setattribute-method",
-      "href": "https://wicg.github.io/web-smart-card/#setattribute-method",
+      "id": "smartcardconnection-setattribute",
+      "href": "https://wicg.github.io/web-smart-card/#smartcardconnection-setattribute",
       "level": 3,
       "title": "setAttribute() method",
       "number": "5.7"
@@ -262,8 +277,8 @@
       "number": "6"
     },
     {
-      "id": "smartcarderroroptions-dictionary",
-      "href": "https://wicg.github.io/web-smart-card/#smartcarderroroptions-dictionary",
+      "id": "smartcarderroroptions-dict",
+      "href": "https://wicg.github.io/web-smart-card/#smartcarderroroptions-dict",
       "level": 3,
       "title": "SmartCardErrorOptions dictionary",
       "number": "6.1"
@@ -276,39 +291,122 @@
       "number": "6.2"
     },
     {
+      "id": "security-privacy",
+      "href": "https://wicg.github.io/web-smart-card/#security-privacy",
+      "level": 2,
+      "title": "Security and Privacy Considerations",
+      "number": "7"
+    },
+    {
+      "id": "user-consent",
+      "href": "https://wicg.github.io/web-smart-card/#user-consent",
+      "level": 3,
+      "title": "User Consent",
+      "number": "7.1"
+    },
+    {
+      "id": "fingerprinting",
+      "href": "https://wicg.github.io/web-smart-card/#fingerprinting",
+      "level": 3,
+      "title": "Fingerprinting",
+      "number": "7.2"
+    },
+    {
+      "id": "device-integrity",
+      "href": "https://wicg.github.io/web-smart-card/#device-integrity",
+      "level": 3,
+      "title": "Device and Data Integrity",
+      "number": "7.3"
+    },
+    {
+      "id": "authentication-spoofing",
+      "href": "https://wicg.github.io/web-smart-card/#authentication-spoofing",
+      "level": 3,
+      "title": "Authentication and Spoofing",
+      "number": "7.4"
+    },
+    {
+      "id": "cross-origin-communication",
+      "href": "https://wicg.github.io/web-smart-card/#cross-origin-communication",
+      "level": 3,
+      "title": "Cross-Origin Communication",
+      "number": "7.5"
+    },
+    {
+      "id": "isolated-context",
+      "href": "https://wicg.github.io/web-smart-card/#isolated-context",
+      "level": 3,
+      "title": "Isolated Context",
+      "number": "7.6"
+    },
+    {
+      "id": "document-lifecycle",
+      "href": "https://wicg.github.io/web-smart-card/#document-lifecycle",
+      "level": 3,
+      "title": "Document Lifecycle",
+      "number": "7.7"
+    },
+    {
       "id": "integrations",
       "href": "https://wicg.github.io/web-smart-card/#integrations",
       "level": 2,
       "title": "Integrations",
-      "number": "7"
+      "number": "8"
     },
     {
       "id": "permissions-policy",
       "href": "https://wicg.github.io/web-smart-card/#permissions-policy",
       "level": 3,
       "title": "Permissions Policy",
-      "number": "7.1"
+      "number": "8.1"
     },
     {
-      "id": "conformance",
-      "href": "https://wicg.github.io/web-smart-card/#conformance",
+      "id": "w3c-conformance",
+      "href": "https://wicg.github.io/web-smart-card/#w3c-conformance",
       "level": 2,
-      "title": "Conformance",
-      "number": "8"
+      "title": "Conformance"
+    },
+    {
+      "id": "w3c-conventions",
+      "href": "https://wicg.github.io/web-smart-card/#w3c-conventions",
+      "level": 3,
+      "title": "Document conventions"
+    },
+    {
+      "id": "index",
+      "href": "https://wicg.github.io/web-smart-card/#index",
+      "level": 2,
+      "title": "Index"
+    },
+    {
+      "id": "index-defined-here",
+      "href": "https://wicg.github.io/web-smart-card/#index-defined-here",
+      "level": 3,
+      "title": "Terms defined by this specification"
+    },
+    {
+      "id": "index-defined-elsewhere",
+      "href": "https://wicg.github.io/web-smart-card/#index-defined-elsewhere",
+      "level": 3,
+      "title": "Terms defined by reference"
     },
     {
       "id": "references",
       "href": "https://wicg.github.io/web-smart-card/#references",
       "level": 2,
-      "title": "References",
-      "number": "A"
+      "title": "References"
     },
     {
-      "id": "normative-references",
-      "href": "https://wicg.github.io/web-smart-card/#normative-references",
+      "id": "normative",
+      "href": "https://wicg.github.io/web-smart-card/#normative",
       "level": 3,
-      "title": "Normative references",
-      "number": "A.1"
+      "title": "Normative References"
+    },
+    {
+      "id": "idl-index",
+      "href": "https://wicg.github.io/web-smart-card/#idl-index",
+      "level": 2,
+      "title": "IDL Index"
     }
   ]
 }

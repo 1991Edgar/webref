@@ -1,0 +1,1369 @@
+{
+  "spec": {
+    "title": "SPARQL 1.2 RL",
+    "url": "https://www.w3.org/TR/sparql12-rl/"
+  },
+  "dfns": [
+    {
+      "id": "dfn-expression",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-expression",
+      "linkingText": [
+        "Expression"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rules-defns",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rules-defns",
+        "title": "Elements of the Abstract Syntax",
+        "alternateIds": [
+          "x4-1-elements-of-the-abstract-syntax"
+        ],
+        "number": "4.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-data-block",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-data-block",
+      "linkingText": [
+        "data-block",
+        "Data block"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rules-defns",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rules-defns",
+        "title": "Elements of the Abstract Syntax",
+        "alternateIds": [
+          "x4-1-elements-of-the-abstract-syntax"
+        ],
+        "number": "4.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-triple-template",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-triple-template",
+      "linkingText": [
+        "Triple template"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rules-defns",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rules-defns",
+        "title": "Elements of the Abstract Syntax",
+        "alternateIds": [
+          "x4-1-elements-of-the-abstract-syntax"
+        ],
+        "number": "4.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-triple-pattern",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-triple-pattern",
+      "linkingText": [
+        "Triple pattern"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rules-defns",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rules-defns",
+        "title": "Elements of the Abstract Syntax",
+        "alternateIds": [
+          "x4-1-elements-of-the-abstract-syntax"
+        ],
+        "number": "4.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-filter-element",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-filter-element",
+      "linkingText": [
+        "Filter element"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rules-defns",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rules-defns",
+        "title": "Elements of the Abstract Syntax",
+        "alternateIds": [
+          "x4-1-elements-of-the-abstract-syntax"
+        ],
+        "number": "4.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-triple-pattern-element",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-triple-pattern-element",
+      "linkingText": [
+        "Triple pattern element"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rules-defns",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rules-defns",
+        "title": "Elements of the Abstract Syntax",
+        "alternateIds": [
+          "x4-1-elements-of-the-abstract-syntax"
+        ],
+        "number": "4.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-negation-element",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-negation-element",
+      "linkingText": [
+        "Negation element"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rules-defns",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rules-defns",
+        "title": "Elements of the Abstract Syntax",
+        "alternateIds": [
+          "x4-1-elements-of-the-abstract-syntax"
+        ],
+        "number": "4.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-negation-element-body",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-negation-element-body",
+      "linkingText": [
+        "negation element body"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rules-defns",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rules-defns",
+        "title": "Elements of the Abstract Syntax",
+        "alternateIds": [
+          "x4-1-elements-of-the-abstract-syntax"
+        ],
+        "number": "4.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-assignment-element",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-assignment-element",
+      "linkingText": [
+        "assignment element",
+        "assignment",
+        "Assignment element"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rules-defns",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rules-defns",
+        "title": "Elements of the Abstract Syntax",
+        "alternateIds": [
+          "x4-1-elements-of-the-abstract-syntax"
+        ],
+        "number": "4.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-assignment-variable",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-assignment-variable",
+      "linkingText": [
+        "assignment variable"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rules-defns",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rules-defns",
+        "title": "Elements of the Abstract Syntax",
+        "alternateIds": [
+          "x4-1-elements-of-the-abstract-syntax"
+        ],
+        "number": "4.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-assignment-expression",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-assignment-expression",
+      "linkingText": [
+        "assignment expression"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rules-defns",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rules-defns",
+        "title": "Elements of the Abstract Syntax",
+        "alternateIds": [
+          "x4-1-elements-of-the-abstract-syntax"
+        ],
+        "number": "4.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-rule-element",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-rule-element",
+      "linkingText": [
+        "Rule element"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rules-defns",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rules-defns",
+        "title": "Elements of the Abstract Syntax",
+        "alternateIds": [
+          "x4-1-elements-of-the-abstract-syntax"
+        ],
+        "number": "4.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-rule-head",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-rule-head",
+      "linkingText": [
+        "rule head",
+        "head",
+        "Rule head"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rules-defns",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rules-defns",
+        "title": "Elements of the Abstract Syntax",
+        "alternateIds": [
+          "x4-1-elements-of-the-abstract-syntax"
+        ],
+        "number": "4.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-rule-body",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-rule-body",
+      "linkingText": [
+        "rule body",
+        "body",
+        "Rule body"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rules-defns",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rules-defns",
+        "title": "Elements of the Abstract Syntax",
+        "alternateIds": [
+          "x4-1-elements-of-the-abstract-syntax"
+        ],
+        "number": "4.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-rule-imports",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-rule-imports",
+      "linkingText": [
+        "rule imports",
+        "imports",
+        "Rule set imports"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rules-defns",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rules-defns",
+        "title": "Elements of the Abstract Syntax",
+        "alternateIds": [
+          "x4-1-elements-of-the-abstract-syntax"
+        ],
+        "number": "4.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-rule",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-rule",
+      "linkingText": [
+        "Rule"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rules-defns",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rules-defns",
+        "title": "Elements of the Abstract Syntax",
+        "alternateIds": [
+          "x4-1-elements-of-the-abstract-syntax"
+        ],
+        "number": "4.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-run-once-rule",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-run-once-rule",
+      "linkingText": [
+        "Run-once rule"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rules-defns",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rules-defns",
+        "title": "Elements of the Abstract Syntax",
+        "alternateIds": [
+          "x4-1-elements-of-the-abstract-syntax"
+        ],
+        "number": "4.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-general-rule",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-general-rule",
+      "linkingText": [
+        "General rule"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rules-defns",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rules-defns",
+        "title": "Elements of the Abstract Syntax",
+        "alternateIds": [
+          "x4-1-elements-of-the-abstract-syntax"
+        ],
+        "number": "4.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-rule-set",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-rule-set",
+      "linkingText": [
+        "Rule set"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rules-defns",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rules-defns",
+        "title": "Elements of the Abstract Syntax",
+        "alternateIds": [
+          "x4-1-elements-of-the-abstract-syntax"
+        ],
+        "number": "4.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-resolved-rule-set",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-resolved-rule-set",
+      "linkingText": [
+        "resolved rule set"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rules-defns",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rules-defns",
+        "title": "Elements of the Abstract Syntax",
+        "alternateIds": [
+          "x4-1-elements-of-the-abstract-syntax"
+        ],
+        "number": "4.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-base-graph",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-base-graph",
+      "linkingText": [
+        "Base graph"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rules-defns",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rules-defns",
+        "title": "Elements of the Abstract Syntax",
+        "alternateIds": [
+          "x4-1-elements-of-the-abstract-syntax"
+        ],
+        "number": "4.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-inference-graph",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-inference-graph",
+      "linkingText": [
+        "Inference graph"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rules-defns",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rules-defns",
+        "title": "Elements of the Abstract Syntax",
+        "alternateIds": [
+          "x4-1-elements-of-the-abstract-syntax"
+        ],
+        "number": "4.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-rule-set-evaluation",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-rule-set-evaluation",
+      "linkingText": [
+        "Rule set evaluation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rules-defns",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rules-defns",
+        "title": "Elements of the Abstract Syntax",
+        "alternateIds": [
+          "x4-1-elements-of-the-abstract-syntax"
+        ],
+        "number": "4.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-rule-evaluation",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-rule-evaluation",
+      "linkingText": [
+        "rule evaluation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rules-defns",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rules-defns",
+        "title": "Elements of the Abstract Syntax",
+        "alternateIds": [
+          "x4-1-elements-of-the-abstract-syntax"
+        ],
+        "number": "4.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-infer",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-infer",
+      "linkingText": [
+        "Infer"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rules-defns",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rules-defns",
+        "title": "Elements of the Abstract Syntax",
+        "alternateIds": [
+          "x4-1-elements-of-the-abstract-syntax"
+        ],
+        "number": "4.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-query",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-query",
+      "linkingText": [
+        "Query"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rules-defns",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rules-defns",
+        "title": "Elements of the Abstract Syntax",
+        "alternateIds": [
+          "x4-1-elements-of-the-abstract-syntax"
+        ],
+        "number": "4.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-sparql-rl-processor",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-sparql-rl-processor",
+      "linkingText": [
+        "SPARQL-RL processor"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rules-defns",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rules-defns",
+        "title": "Elements of the Abstract Syntax",
+        "alternateIds": [
+          "x4-1-elements-of-the-abstract-syntax"
+        ],
+        "number": "4.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-well-formedness",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-well-formedness",
+      "linkingText": [
+        "Well-formedness"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "wellformed",
+        "href": "https://www.w3.org/TR/sparql12-rl/#wellformed",
+        "title": "Well-formedness Conditions",
+        "alternateIds": [
+          "x4-2-well-formedness-conditions"
+        ],
+        "number": "4.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-well-formed-sequence",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-well-formed-sequence",
+      "linkingText": [
+        "well-formed sequence"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "wellformed",
+        "href": "https://www.w3.org/TR/sparql12-rl/#wellformed",
+        "title": "Well-formedness Conditions",
+        "alternateIds": [
+          "x4-2-well-formedness-conditions"
+        ],
+        "number": "4.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-well-formed-rule",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-well-formed-rule",
+      "linkingText": [
+        "well-formed rule"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "wellformed",
+        "href": "https://www.w3.org/TR/sparql12-rl/#wellformed",
+        "title": "Well-formedness Conditions",
+        "alternateIds": [
+          "x4-2-well-formedness-conditions"
+        ],
+        "number": "4.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-well-formed-rule-set",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-well-formed-rule-set",
+      "linkingText": [
+        "well-formed rule set"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "wellformed",
+        "href": "https://www.w3.org/TR/sparql12-rl/#wellformed",
+        "title": "Well-formedness Conditions",
+        "alternateIds": [
+          "x4-2-well-formedness-conditions"
+        ],
+        "number": "4.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-triple-pattern-matching",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-triple-pattern-matching",
+      "linkingText": [
+        "Triple pattern matching"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rule-dependency",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rule-dependency",
+        "title": "Rule Dependency",
+        "alternateIds": [
+          "x4-3-rule-dependency"
+        ],
+        "number": "4.3"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-triple-pattern-dependency",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-triple-pattern-dependency",
+      "linkingText": [
+        "triple-pattern-dependency",
+        "Triple pattern dependency"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rule-dependency",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rule-dependency",
+        "title": "Rule Dependency",
+        "alternateIds": [
+          "x4-3-rule-dependency"
+        ],
+        "number": "4.3"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-depends-on-a-triple-template",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-depends-on-a-triple-template",
+      "linkingText": [
+        "depends on a triple template"
+      ],
+      "localLinkingText": [
+        "depends-pattern-template"
+      ],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rule-dependency",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rule-dependency",
+        "title": "Rule Dependency",
+        "alternateIds": [
+          "x4-3-rule-dependency"
+        ],
+        "number": "4.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-depends-on-a-rule",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-depends-on-a-rule",
+      "linkingText": [
+        "depends on a rule"
+      ],
+      "localLinkingText": [
+        "depends-pattern-rule"
+      ],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rule-dependency",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rule-dependency",
+        "title": "Rule Dependency",
+        "alternateIds": [
+          "x4-3-rule-dependency"
+        ],
+        "number": "4.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-rule-dependency",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-rule-dependency",
+      "linkingText": [
+        "rule dependency",
+        "depends on",
+        "Rule dependency"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rule-dependency",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rule-dependency",
+        "title": "Rule Dependency",
+        "alternateIds": [
+          "x4-3-rule-dependency"
+        ],
+        "number": "4.3"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-closed-dependency",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-closed-dependency",
+      "linkingText": [
+        "Closed dependency"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rule-dependency",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rule-dependency",
+        "title": "Rule Dependency",
+        "alternateIds": [
+          "x4-3-rule-dependency"
+        ],
+        "number": "4.3"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-open-dependency",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-open-dependency",
+      "linkingText": [
+        "Open dependency"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rule-dependency",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rule-dependency",
+        "title": "Rule Dependency",
+        "alternateIds": [
+          "x4-3-rule-dependency"
+        ],
+        "number": "4.3"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-generate",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-generate",
+      "linkingText": [
+        "generate"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rule-dependency",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rule-dependency",
+        "title": "Rule Dependency",
+        "alternateIds": [
+          "x4-3-rule-dependency"
+        ],
+        "number": "4.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-matches",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-matches",
+      "linkingText": [
+        "matches"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rule-dependency",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rule-dependency",
+        "title": "Rule Dependency",
+        "alternateIds": [
+          "x4-3-rule-dependency"
+        ],
+        "number": "4.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-dependency-graph",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-dependency-graph",
+      "linkingText": [
+        "Dependency graph"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "dependency-graph",
+        "href": "https://www.w3.org/TR/sparql12-rl/#dependency-graph",
+        "title": "Dependency Graph",
+        "alternateIds": [
+          "x4-3-1-dependency-graph"
+        ],
+        "number": "4.3.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-transitive-rule-dependency",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-transitive-rule-dependency",
+      "linkingText": [
+        "transitive rule dependency",
+        "transitive dependency",
+        "Transitive rule dependency"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "dependency-graph",
+        "href": "https://www.w3.org/TR/sparql12-rl/#dependency-graph",
+        "title": "Dependency Graph",
+        "alternateIds": [
+          "x4-3-1-dependency-graph"
+        ],
+        "number": "4.3.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-recursive-rule-dependency",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-recursive-rule-dependency",
+      "linkingText": [
+        "recursive rule dependency",
+        "recursive dependency",
+        "Recursive rule dependency"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "dependency-graph",
+        "href": "https://www.w3.org/TR/sparql12-rl/#dependency-graph",
+        "title": "Dependency Graph",
+        "alternateIds": [
+          "x4-3-1-dependency-graph"
+        ],
+        "number": "4.3.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-stratification-layer",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-stratification-layer",
+      "linkingText": [
+        "stratification layer",
+        "layer",
+        "stratum",
+        "Stratification layer"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "stratification",
+        "href": "https://www.w3.org/TR/sparql12-rl/#stratification",
+        "title": "Stratification",
+        "alternateIds": [
+          "x4-4-stratification"
+        ],
+        "number": "4.4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-stratification",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-stratification",
+      "linkingText": [
+        "Stratification"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "stratification",
+        "href": "https://www.w3.org/TR/sparql12-rl/#stratification",
+        "title": "Stratification",
+        "alternateIds": [
+          "x4-4-stratification"
+        ],
+        "number": "4.4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-stratification-condition",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-stratification-condition",
+      "linkingText": [
+        "Stratification Condition"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "stratification-condition",
+        "href": "https://www.w3.org/TR/sparql12-rl/#stratification-condition",
+        "title": "Stratification Condition",
+        "alternateIds": [
+          "x4-4-1-stratification-condition"
+        ],
+        "number": "4.4.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-substitution",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-substitution",
+      "linkingText": [
+        "substitution",
+        "Substitution function"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rule-eval-definitions",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rule-eval-definitions",
+        "title": "Evaluation Definitions",
+        "alternateIds": [
+          "x6-1-evaluation-definitions"
+        ],
+        "number": "6.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-evaluation-graph",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-evaluation-graph",
+      "linkingText": [
+        "Evaluation graph"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rule-eval-definitions",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rule-eval-definitions",
+        "title": "Evaluation Definitions",
+        "alternateIds": [
+          "x6-1-evaluation-definitions"
+        ],
+        "number": "6.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-graph-match",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-graph-match",
+      "linkingText": [
+        "Graph match"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rule-eval-definitions",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rule-eval-definitions",
+        "title": "Evaluation Definitions",
+        "alternateIds": [
+          "x6-1-evaluation-definitions"
+        ],
+        "number": "6.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-compatible",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-compatible",
+      "linkingText": [
+        "compatible",
+        "Solution compatible"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rule-eval-definitions",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rule-eval-definitions",
+        "title": "Evaluation Definitions",
+        "alternateIds": [
+          "x6-1-evaluation-definitions"
+        ],
+        "number": "6.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-solution-sequence",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-solution-sequence",
+      "linkingText": [
+        "Solution sequence"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rule-eval-definitions",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rule-eval-definitions",
+        "title": "Evaluation Definitions",
+        "alternateIds": [
+          "x6-1-evaluation-definitions"
+        ],
+        "number": "6.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-merge",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-merge",
+      "linkingText": [
+        "merge",
+        "Solution merge"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rule-eval-definitions",
+        "href": "https://www.w3.org/TR/sparql12-rl/#rule-eval-definitions",
+        "title": "Evaluation Definitions",
+        "alternateIds": [
+          "x6-1-evaluation-definitions"
+        ],
+        "number": "6.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-srl-document",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-srl-document",
+      "linkingText": [
+        "SRL document",
+        "SPARQL-RL Document"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sparql-rl-grammar",
+        "href": "https://www.w3.org/TR/sparql12-rl/#sparql-rl-grammar",
+        "title": "SPARQL-RL Grammar",
+        "alternateIds": [
+          "x7-sparql-rl-grammar"
+        ],
+        "number": "7"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-version-label",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-version-label",
+      "linkingText": [
+        "version label"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "version-announcement",
+        "href": "https://www.w3.org/TR/sparql12-rl/#version-announcement",
+        "title": "Version Announcement",
+        "alternateIds": [
+          "x7-1-version-announcement"
+        ],
+        "number": "7.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-numeric-escape-sequence",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-numeric-escape-sequence",
+      "linkingText": [
+        "numeric escape sequence"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "escapes",
+        "href": "https://www.w3.org/TR/sparql12-rl/#escapes",
+        "title": "Escape Sequences",
+        "alternateIds": [
+          "x7-5-escape-sequences"
+        ],
+        "number": "7.5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-string-escape-sequence",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-string-escape-sequence",
+      "linkingText": [
+        "string escape sequence"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "escapes",
+        "href": "https://www.w3.org/TR/sparql12-rl/#escapes",
+        "title": "Escape Sequences",
+        "alternateIds": [
+          "x7-5-escape-sequences"
+        ],
+        "number": "7.5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-reserved-character-escape-sequence",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-reserved-character-escape-sequence",
+      "linkingText": [
+        "reserved character escape sequence"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "escapes",
+        "href": "https://www.w3.org/TR/sparql12-rl/#escapes",
+        "title": "Escape Sequences",
+        "alternateIds": [
+          "x7-5-escape-sequences"
+        ],
+        "number": "7.5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-rule-set-merge",
+      "href": "https://www.w3.org/TR/sparql12-rl/#dfn-rule-set-merge",
+      "linkingText": [
+        "rule set merge"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "alg-imports",
+        "href": "https://www.w3.org/TR/sparql12-rl/#alg-imports",
+        "title": "Example Imports Algorithm",
+        "alternateIds": [
+          "a-example-imports-algorithm"
+        ],
+        "number": "A"
+      },
+      "definedIn": "prose",
+      "links": []
+    }
+  ]
+}

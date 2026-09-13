@@ -26,50 +26,49 @@
       "https://dom.spec.whatwg.org/": {},
       "https://encoding.spec.whatwg.org/": {},
       "https://github.com/w3c/clipboard-apis": {},
-      "https://github.com/w3c/clipboard-apis/issues": {},
       "https://html.spec.whatwg.org/multipage/": {},
+      "https://html.spec.whatwg.org/multipage/interaction.html": {
+        "anchors": [
+          "sticky-activation"
+        ]
+      },
       "https://infra.spec.whatwg.org/": {},
-      "https://lists.w3.org/Archives/Public/public-editing-tf/": {},
       "https://mimesniff.spec.whatwg.org/": {},
       "https://msdn.microsoft.com/en-us/ie/ms537658(v=vs.94)": {},
-      "https://tc39.es/ecma262/multipage/": {},
+      "https://storage.spec.whatwg.org/": {
+        "anchors": [
+          "obtain-a-storage-key-for-non-storage-purposes"
+        ]
+      },
       "https://webidl.spec.whatwg.org/": {},
       "https://www.rfc-editor.org/rfc/rfc2392": {},
-      "https://www.w3.org/2021/Process-20211102/": {
-        "anchors": [
-          "recs-and-notes"
-        ]
-      },
-      "https://www.w3.org/Consortium/Patent-Policy-20200915/": {
-        "anchors": [
-          "def-essential",
-          "sec-Disclosure"
-        ]
-      },
       "https://www.w3.org/TR/": {},
       "https://www.w3.org/TR/FileAPI/": {},
       "https://www.w3.org/TR/SVG11/": {},
       "https://www.w3.org/TR/html5/": {},
       "https://www.w3.org/TR/permissions/": {},
       "https://www.w3.org/groups/wg/webediting": {},
-      "https://www.w3.org/groups/wg/webediting/ipr": {}
+      "https://www.w3.org/groups/wg/webediting/ipr": {},
+      "https://www.w3.org/policies/patent-policy/": {
+        "anchors": [
+          "def-essential",
+          "sec-Disclosure"
+        ]
+      },
+      "https://www.w3.org/policies/process/20250818/": {
+        "anchors": [
+          "recs-and-notes"
+        ]
+      }
     },
     "autolinks": {
-      "http://tc39.github.io/ecma262/": {
-        "anchors": [
-          "sec-promise-objects"
-        ]
-      },
-      "http://w3c.github.io/editing/contentEditable.html": {
-        "anchors": [
-          "dfn-editing-host"
-        ]
-      },
       "https://dom.spec.whatwg.org/": {
         "anchors": [
           "event",
           "dictdef-eventinit",
           "constructing-events",
+          "document",
+          "concept-event-fire",
           "dom-event-preventdefault",
           "eventtarget",
           "dom-event-istrusted",
@@ -108,6 +107,9 @@
       },
       "https://html.spec.whatwg.org/multipage/interaction.html": {
         "anchors": [
+          "editing-host",
+          "sticky-activation",
+          "system-focus",
           "focusable-area",
           "drag-data-store-mode",
           "concept-dnd-ro",
@@ -126,53 +128,66 @@
       },
       "https://html.spec.whatwg.org/multipage/webappapis.html": {
         "anchors": [
+          "concept-relevant-global",
+          "relevant-settings-object",
           "concept-relevant-realm",
           "queue-a-global-task",
-          "concept-relevant-global"
+          "concept-realm-global"
         ]
       },
       "https://infra.spec.whatwg.org/": {
         "anchors": [
+          "list-clone",
+          "string-starts-with",
+          "ordered-map",
           "list-contain",
+          "map-exists",
+          "map-set",
           "list-size"
         ]
       },
       "https://mimesniff.spec.whatwg.org/": {
         "anchors": [
-          "mime-type",
           "parse-a-mime-type",
+          "mime-type",
           "serialize-a-mime-type",
           "mime-type-essence"
         ]
       },
+      "https://storage.spec.whatwg.org/": {
+        "anchors": [
+          "storage-key"
+        ]
+      },
       "https://w3c.github.io/permissions/": {
         "anchors": [
-          "dom-permissionstate-denied",
-          "dom-permissionstate-granted"
+          "permissions-task-source"
         ]
       },
       "https://webidl.spec.whatwg.org/": {
         "anchors": [
           "Exposed",
           "idl-DOMString",
+          "idl-sequence",
+          "idl-bigint",
+          "idl-frozen-array",
+          "this",
           "SecureContext",
           "SameObject",
-          "this",
           "idl-promise",
           "idl-record",
-          "idl-frozen-array",
+          "idl-boolean",
           "new",
           "exceptiondef-typeerror",
           "dfn-create-frozen-array",
           "a-new-promise",
-          "dfn-perform-steps-once-promise-is-settled",
           "reject",
-          "notfounderror",
+          "invalidstateerror",
           "idl-DOMException",
-          "idl-sequence",
+          "notfounderror",
+          "dfn-perform-steps-once-promise-is-settled",
           "idl-undefined",
-          "notallowederror",
-          "idl-boolean"
+          "notallowederror"
         ]
       },
       "https://www.w3.org/TR/FileAPI/": {
@@ -194,7 +209,9 @@
           "dfn-powerful-feature",
           "dfn-permission-descriptor-type",
           "dom-permissiondescriptor",
+          "dom-permissionstate-denied",
           "dfn-permission-state",
+          "dom-permissionstate-granted",
           "dfn-request-permission-to-use"
         ]
       }

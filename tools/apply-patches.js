@@ -19,13 +19,21 @@ import path from 'node:path';
 import util from 'node:util';
 import { fileURLToPath } from 'node:url';
 import { execFile as execCb } from 'node:child_process';
-import { createFolderIfNeeded } from './utils.js';
+import { createFolderIfNeeded, loadJSON, getTargetedExtracts } from './utils.js';
 const execFile = util.promisify(execCb);
 
 async function applyPatches(rawFolder, outputFolder, type) {
   type = (type === 'all') ? ['css', 'elements', 'idl'] : [type];
 
   const packages = [
+    {
+      name: 'cddl',
+      srcDir: path.join(rawFolder, 'cddl'),
+      dstDir: path.join(outputFolder, 'cddl'),
+      dstDirForCli: [outputFolder, 'cddl'].join('/'),
+      patchDir: path.join(rawFolder, 'cddlpatches'),
+      fileExt: 'cddl'
+    },
     {
       name: 'css',
       srcDir: path.join(rawFolder, 'css'),
@@ -89,6 +97,88 @@ async function applyPatches(rawFolder, outputFolder, type) {
       }
     }
   }
+
+  await applyFreezePatches(rawFolder, outputFolder);
+}
+
+
+/**
+ * Apply "freeze" patches, which freeze curation data for a spec to the results
+ * of a previous crawl result, identified by a commit ID.
+ *
+ * Freeze patches are meant to be used for specs that are (hopefully
+ * temporarily) severely broken.
+ */
+async function applyFreezePatches(rawFolder, outputFolder) {
+  const patchDir = path.join(rawFolder, 'freezepatches');
+  const patchFiles = await fs.readdir(patchDir);
+
+  const outputIndex = await loadJSON(path.join(outputFolder, 'index.json'));
+  let patchApplied = false;
+
+  const startingRef = await getCurrentRef();
+
+  for (const file of patchFiles) {
+    if (!file.endsWith('.json')) {
+      continue;
+    }
+
+    const shortname = file.replace(/\.json$/, '');
+    const patch = path.join(patchDir, file);
+    const json = await loadJSON(patch);
+
+    console.log(`Applying ${path.relative(rawFolder, patch)}`);
+    const outputSpecPos = outputIndex.results.findIndex(spec => spec.shortname === shortname);
+
+    // Get back to the patch commit
+    // (note this does not touch the `curated` folder because it is in
+    // the `.gitignore` file)
+    await execFile('git', ['checkout', json.commit]);
+
+    const crawlIndex = await loadJSON(path.join(rawFolder, 'index.json'));
+    const crawlSpec = crawlIndex.results.find(spec => spec.shortname === shortname);
+
+    for (const propValue of Object.values(crawlSpec)) {
+      const extractFiles = getTargetedExtracts(propValue);
+      for (const extractFile of extractFiles) {
+        await fs.copyFile(
+          path.join(rawFolder, extractFile),
+          path.join(outputFolder, extractFile)
+        );
+      }
+      outputIndex.results.splice(outputSpecPos, 1, crawlSpec);
+    }
+
+    await execFile('git', ['checkout', startingRef]);
+    patchApplied = true;
+  }
+
+  // Update curated version of the index.json file
+  if (patchApplied) {
+    await fs.writeFile(
+      path.join(outputFolder, 'index.json'),
+      JSON.stringify(outputIndex, null, 2),
+      'utf8'
+    );
+  }
+}
+
+
+/**
+ * Retrieve a meaningful name for the current position in Git,
+ * either a branch name if possible (that is typically possible when curation
+ * runs locally from a branch), or a commit ID (which is typically what happens
+ * when curation runs in "detached HEAD" mode as in GitHub jobs).
+ */
+async function getCurrentRef() {
+  const { stdout } = await execFile('git', ['branch', '--show-current']);
+  let currentRef = stdout.trim();
+  if (!currentRef) {
+    // The code runs in detached HEAD mode
+    const { stdout: commitOut } = await execFile('git', ['rev-parse', 'HEAD']);
+    currentRef = commitOut.trim();
+  }
+  return currentRef;
 }
 
 

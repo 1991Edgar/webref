@@ -1,0 +1,216 @@
+{
+  "spec": {
+    "title": "SHACL 1.2 User Interfaces",
+    "url": "https://w3c.github.io/data-shapes/shacl12-ui/"
+  },
+  "dfns": [
+    {
+      "id": "dfn-shacl-global-configuration",
+      "href": "https://w3c.github.io/data-shapes/shacl12-ui/#dfn-shacl-global-configuration",
+      "linkingText": [
+        "SHACL Global Configuration"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://w3c.github.io/data-shapes/shacl12-ui/#terminology",
+        "title": "Terminology",
+        "alternateIds": [
+          "x1-2-terminology"
+        ],
+        "number": "1.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-language-resolution",
+      "href": "https://w3c.github.io/data-shapes/shacl12-ui/#dfn-language-resolution",
+      "linkingText": [
+        "Language Resolution"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://w3c.github.io/data-shapes/shacl12-ui/#terminology",
+        "title": "Terminology",
+        "alternateIds": [
+          "x1-2-terminology"
+        ],
+        "number": "1.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-label-property-resolution",
+      "href": "https://w3c.github.io/data-shapes/shacl12-ui/#dfn-label-property-resolution",
+      "linkingText": [
+        "label property resolution",
+        "Label Property Resolution"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://w3c.github.io/data-shapes/shacl12-ui/#terminology",
+        "title": "Terminology",
+        "alternateIds": [
+          "x1-2-terminology"
+        ],
+        "number": "1.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-label-resolution",
+      "href": "https://w3c.github.io/data-shapes/shacl12-ui/#dfn-label-resolution",
+      "linkingText": [
+        "Label Resolution"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://w3c.github.io/data-shapes/shacl12-ui/#terminology",
+        "title": "Terminology",
+        "alternateIds": [
+          "x1-2-terminology"
+        ],
+        "number": "1.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-shacl-renderer",
+      "href": "https://w3c.github.io/data-shapes/shacl12-ui/#dfn-shacl-renderer",
+      "linkingText": [
+        "SHACL Renderer"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "renderer",
+        "href": "https://w3c.github.io/data-shapes/shacl12-ui/#renderer",
+        "title": "SHACL Renderer",
+        "alternateIds": [
+          "x3-1-shacl-renderer"
+        ],
+        "number": "3.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-node-ui-component",
+      "href": "https://w3c.github.io/data-shapes/shacl12-ui/#dfn-node-ui-component",
+      "linkingText": [
+        "Node UI Component"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "node-ui-component",
+        "href": "https://w3c.github.io/data-shapes/shacl12-ui/#node-ui-component",
+        "title": "Node UI Component",
+        "alternateIds": [
+          "x3-2-node-ui-component"
+        ],
+        "number": "3.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-property-ui-component",
+      "href": "https://w3c.github.io/data-shapes/shacl12-ui/#dfn-property-ui-component",
+      "linkingText": [
+        "Property UI Component"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "property-ui-component",
+        "href": "https://w3c.github.io/data-shapes/shacl12-ui/#property-ui-component",
+        "title": "Property UI Component",
+        "alternateIds": [
+          "x3-3-property-ui-component"
+        ],
+        "number": "3.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-local-name-resolution",
+      "href": "https://w3c.github.io/data-shapes/shacl12-ui/#dfn-local-name-resolution",
+      "linkingText": [
+        "local name resolution"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "label-resolution-local-name",
+        "href": "https://w3c.github.io/data-shapes/shacl12-ui/#label-resolution-local-name",
+        "title": "Local Name Resolution",
+        "alternateIds": [
+          "x8-2-4-local-name-resolution"
+        ],
+        "number": "8.2.4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-effective-order",
+      "href": "https://w3c.github.io/data-shapes/shacl12-ui/#dfn-effective-order",
+      "linkingText": [
+        "effective order"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "grouping-ordering-and-layout-hints",
+        "href": "https://w3c.github.io/data-shapes/shacl12-ui/#grouping-ordering-and-layout-hints",
+        "title": "Grouping, Ordering, and Layout Hints",
+        "alternateIds": [
+          "grouping-and-ordering"
+        ],
+        "number": "9.4"
+      },
+      "definedIn": "prose",
+      "links": []
+    }
+  ]
+}

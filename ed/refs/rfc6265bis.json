@@ -10,14 +10,6 @@
         "url": "https://html.spec.whatwg.org/#dom-document-cookie"
       },
       {
-        "name": "FETCH",
-        "url": "https://fetch.spec.whatwg.org/"
-      },
-      {
-        "name": "HTML",
-        "url": "https://html.spec.whatwg.org/"
-      },
-      {
         "name": "HTTP",
         "url": "https://www.rfc-editor.org/rfc/rfc9110"
       },
@@ -32,10 +24,6 @@
       {
         "name": "RFC2119",
         "url": "https://www.rfc-editor.org/rfc/rfc2119"
-      },
-      {
-        "name": "RFC3490",
-        "url": "https://www.rfc-editor.org/rfc/rfc3490"
       },
       {
         "name": "RFC4790",
@@ -56,6 +44,10 @@
       {
         "name": "RFC8126",
         "url": "https://www.rfc-editor.org/rfc/rfc8126"
+      },
+      {
+        "name": "RFC8174",
+        "url": "https://www.rfc-editor.org/rfc/rfc8174"
       },
       {
         "name": "SAMESITE",
@@ -79,20 +71,16 @@
         "url": "http://portal.acm.org/citation.cfm?id=1455770.1455782"
       },
       {
+        "name": "FETCH",
+        "url": "https://fetch.spec.whatwg.org/"
+      },
+      {
+        "name": "HTML",
+        "url": "https://html.spec.whatwg.org/"
+      },
+      {
         "name": "HttpFieldNameRegistry",
         "url": "https://www.iana.org/assignments/http-fields/"
-      },
-      {
-        "name": "I-D.ietf-httpbis-cookie-alone",
-        "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-cookie-alone-01"
-      },
-      {
-        "name": "I-D.ietf-httpbis-cookie-prefixes",
-        "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-cookie-prefixes-00"
-      },
-      {
-        "name": "I-D.ietf-httpbis-cookie-same-site",
-        "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-cookie-same-site-00"
       },
       {
         "name": "prerendering",
@@ -107,20 +95,12 @@
         "url": "https://www.rfc-editor.org/rfc/rfc2109"
       },
       {
-        "name": "RFC2818",
-        "url": "https://www.rfc-editor.org/rfc/rfc2818"
-      },
-      {
         "name": "RFC3986",
         "url": "https://www.rfc-editor.org/rfc/rfc3986"
       },
       {
         "name": "RFC4648",
         "url": "https://www.rfc-editor.org/rfc/rfc4648"
-      },
-      {
-        "name": "RFC5895",
-        "url": "https://www.rfc-editor.org/rfc/rfc5895"
       },
       {
         "name": "RFC6265",
@@ -143,8 +123,8 @@
         "url": "https://www.w3.org/TR/service-workers/"
       },
       {
-        "name": "UTS46",
-        "url": "http://unicode.org/reports/tr46/"
+        "name": "TLS13",
+        "url": "https://www.rfc-editor.org/rfc/rfc8446"
       }
     ]
   }

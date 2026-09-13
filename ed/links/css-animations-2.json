@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Animations Level 2",
+    "title": "CSS Animations Module Level 2",
     "url": "https://drafts.csswg.org/css-animations-2/"
   },
   "links": {
@@ -71,15 +71,32 @@
         ]
       },
       "https://drafts.csswg.org/web-animations-2/": {},
-      "https://drafts.fxtf.org/css-masking-1/": {},
       "https://github.com/w3c/csswg-drafts/issues": {},
+      "https://github.com/w3c/csswg-drafts/issues/11064": {},
+      "https://github.com/w3c/csswg-drafts/issues/12611": {},
       "https://github.com/w3c/csswg-drafts/issues/6429": {},
       "https://github.com/w3c/csswg-drafts/issues/6530": {},
+      "https://github.com/w3c/csswg-drafts/issues/8746": {},
+      "https://github.com/w3c/csswg-drafts/issues/8942": {
+        "anchors": [
+          "issuecomment-1854342340"
+        ]
+      },
+      "https://github.com/w3c/csswg-drafts/pull/11653": {
+        "anchors": [
+          "issue-2831268235"
+        ]
+      },
+      "https://github.com/w3c/csswg-drafts/pull/11812": {},
+      "https://github.com/w3c/csswg-drafts/pull/12223": {},
+      "https://github.com/w3c/csswg-drafts/pull/13009": {},
+      "https://github.com/w3c/csswg-drafts/pull/13241": {},
+      "https://github.com/w3c/csswg-drafts/pull/13571": {},
       "https://lists.w3.org/Archives/Public/public-css-archive/": {},
       "https://lists.w3.org/Archives/Public/www-style/": {},
       "https://webidl.spec.whatwg.org/": {},
-      "https://wicg.github.io/scroll-animations/": {},
       "https://www.w3.org/TR/2023/WD-css-animations-2-20230302/": {},
+      "https://www.w3.org/TR/2023/WD-css-animations-2-20230602/": {},
       "https://www.w3.org/TR/CSS/": {},
       "https://www.w3.org/TR/css-cascade/": {
         "anchors": [
@@ -110,7 +127,7 @@
           "animation-type"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://dom.spec.whatwg.org/": {
@@ -123,20 +140,18 @@
         "anchors": [
           "at-ruledef-keyframes",
           "propdef-animation-timing-function",
-          "propdef-animation-delay",
           "propdef-animation-play-state",
           "propdef-animation-name",
           "eventdef-globaleventhandlers-animationcancel",
           "typedef-keyframes-name",
           "valdef-animation-name-none",
+          "typedef-keyframe-block",
           "typedef-keyframe-selector",
+          "dom-csskeyframesrule-cssrules",
           "propdef-animation",
           "propdef-animation-iteration-count",
           "propdef-animation-fill-mode",
-          "valdef-animation-fill-mode-backwards",
-          "valdef-animation-fill-mode-both",
           "propdef-animation-direction",
-          "valdef-animation-fill-mode-forwards",
           "valdef-animation-fill-mode-none",
           "valdef-animation-play-state-running",
           "valdef-animation-play-state-paused",
@@ -148,7 +163,8 @@
           "eventdef-globaleventhandlers-animationstart",
           "eventdef-globaleventhandlers-animationend",
           "eventdef-globaleventhandlers-animationiteration",
-          "animationevent"
+          "animationevent",
+          "dictdef-animationeventinit"
         ]
       },
       "https://drafts.csswg.org/css-cascade-5/": {
@@ -199,9 +215,11 @@
           "comb-one",
           "time-value",
           "mult-comma",
+          "mult-opt",
           "css-css-identifier",
           "typedef-dashed-ident",
-          "comb-any"
+          "comb-any",
+          "identifier-value"
         ]
       },
       "https://drafts.csswg.org/css-writing-modes-4/": {
@@ -211,6 +229,7 @@
       },
       "https://drafts.csswg.org/cssom-1/": {
         "anchors": [
+          "css-declaration-property-name",
           "resolved-value",
           "cssomstring"
         ]
@@ -236,6 +255,7 @@
           "dom-animation-pause",
           "dom-animation-reverse",
           "animation-play-state",
+          "play-state-paused",
           "dom-animation-effect",
           "animationeffect",
           "effect-target-target-element",
@@ -243,6 +263,7 @@
           "concept-animation",
           "animation-class",
           "global-animation-list",
+          "play-state-idle",
           "keyframe",
           "dom-keyframeeffect-getkeyframes",
           "iteration-count",
@@ -252,6 +273,8 @@
           "play-an-animation",
           "pause-an-animation",
           "start-delay",
+          "active-duration",
+          "end-delay",
           "fill-mode",
           "composite-operation",
           "timeline",
@@ -263,7 +286,6 @@
           "animation-current-time",
           "unresolved",
           "animation-effect-after-phase",
-          "active-duration",
           "iteration-start",
           "associated-effect-end",
           "animation-frame",
@@ -272,18 +294,13 @@
           "animation-effect-active-phase",
           "active-time",
           "animation",
+          "dom-animatable-getanimations",
           "dom-animation-playstate"
         ]
       },
       "https://drafts.csswg.org/web-animations-2/": {
         "anchors": [
-          "dom-animation-starttime",
-          "dom-animatable-getanimations"
-        ]
-      },
-      "https://drafts.fxtf.org/css-masking-1/": {
-        "anchors": [
-          "valdef-mask-composite-add"
+          "dom-animation-starttime"
         ]
       },
       "https://webidl.spec.whatwg.org/": {
@@ -291,7 +308,7 @@
           "Exposed"
         ]
       },
-      "https://www.w3.org/TR/CSS21/syndata.html": {
+      "https://www.w3.org/TR/CSS2/syndata.html": {
         "anchors": [
           "x14"
         ]

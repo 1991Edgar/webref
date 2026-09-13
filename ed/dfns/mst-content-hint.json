@@ -20,7 +20,8 @@
         "href": "https://w3c.github.io/mst-content-hint/#abstract",
         "title": "Abstract"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-mediarecorder",
@@ -38,7 +39,8 @@
         "href": "https://w3c.github.io/mst-content-hint/#abstract",
         "title": "Abstract"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-application-set-content-hint",
@@ -55,9 +57,13 @@
         "id": "mediastreamtrack-extension",
         "href": "https://w3c.github.io/mst-content-hint/#mediastreamtrack-extension",
         "title": "Extension to MediaStreamTrack",
-        "number": "4"
+        "alternateIds": [
+          "x3-extension-to-mediastreamtrack"
+        ],
+        "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mediastreamtrack-contenthint",
@@ -78,9 +84,13 @@
         "id": "mediastreamtrack-extension",
         "href": "https://w3c.github.io/mst-content-hint/#mediastreamtrack-extension",
         "title": "Extension to MediaStreamTrack",
-        "number": "4"
+        "alternateIds": [
+          "x3-extension-to-mediastreamtrack"
+        ],
+        "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "idl-def-AudioContentHint.speech",
@@ -97,9 +107,13 @@
         "id": "audio-content-hints",
         "href": "https://w3c.github.io/mst-content-hint/#audio-content-hints",
         "title": "Audio Content Hints",
-        "number": "4.1"
+        "alternateIds": [
+          "x3-1-audio-content-hints"
+        ],
+        "number": "3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "idl-def-AudioContentHint.speech-recognition",
@@ -116,9 +130,13 @@
         "id": "audio-content-hints",
         "href": "https://w3c.github.io/mst-content-hint/#audio-content-hints",
         "title": "Audio Content Hints",
-        "number": "4.1"
+        "alternateIds": [
+          "x3-1-audio-content-hints"
+        ],
+        "number": "3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "idl-def-AudioContentHint.music",
@@ -135,9 +153,13 @@
         "id": "audio-content-hints",
         "href": "https://w3c.github.io/mst-content-hint/#audio-content-hints",
         "title": "Audio Content Hints",
-        "number": "4.1"
+        "alternateIds": [
+          "x3-1-audio-content-hints"
+        ],
+        "number": "3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "idl-def-VideoContentHint.motion",
@@ -154,9 +176,13 @@
         "id": "video-content-hints",
         "href": "https://w3c.github.io/mst-content-hint/#video-content-hints",
         "title": "Video Content Hints",
-        "number": "4.2"
+        "alternateIds": [
+          "x3-2-video-content-hints"
+        ],
+        "number": "3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "idl-def-VideoContentHint.detail",
@@ -173,9 +199,13 @@
         "id": "video-content-hints",
         "href": "https://w3c.github.io/mst-content-hint/#video-content-hints",
         "title": "Video Content Hints",
-        "number": "4.2"
+        "alternateIds": [
+          "x3-2-video-content-hints"
+        ],
+        "number": "3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "idl-def-VideoContentHint.text",
@@ -192,9 +222,13 @@
         "id": "video-content-hints",
         "href": "https://w3c.github.io/mst-content-hint/#video-content-hints",
         "title": "Video Content Hints",
-        "number": "4.2"
+        "alternateIds": [
+          "x3-2-video-content-hints"
+        ],
+        "number": "3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-apply-a-default",
@@ -211,9 +245,13 @@
         "id": "behavior-of-a-mediastreamtrack",
         "href": "https://w3c.github.io/mst-content-hint/#behavior-of-a-mediastreamtrack",
         "title": "Behavior of a MediaStreamTrack",
-        "number": "5.1"
+        "alternateIds": [
+          "x4-1-behavior-of-a-mediastreamtrack"
+        ],
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-rtcdegradationpreference",
@@ -230,9 +268,13 @@
         "id": "degradation-preference-when-encoding",
         "href": "https://w3c.github.io/mst-content-hint/#degradation-preference-when-encoding",
         "title": "Degradation preference when encoding",
-        "number": "5.2"
+        "alternateIds": [
+          "x4-2-degradation-preference-when-encoding"
+        ],
+        "number": "4.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-rtcdegradationpreference-maintain-framerate",
@@ -251,9 +293,13 @@
         "id": "degradation-preference-when-encoding",
         "href": "https://w3c.github.io/mst-content-hint/#degradation-preference-when-encoding",
         "title": "Degradation preference when encoding",
-        "number": "5.2"
+        "alternateIds": [
+          "x4-2-degradation-preference-when-encoding"
+        ],
+        "number": "4.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-rtcdegradationpreference-maintain-resolution",
@@ -272,9 +318,13 @@
         "id": "degradation-preference-when-encoding",
         "href": "https://w3c.github.io/mst-content-hint/#degradation-preference-when-encoding",
         "title": "Degradation preference when encoding",
-        "number": "5.2"
+        "alternateIds": [
+          "x4-2-degradation-preference-when-encoding"
+        ],
+        "number": "4.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-rtcdegradationpreference-balanced",
@@ -293,9 +343,38 @@
         "id": "degradation-preference-when-encoding",
         "href": "https://w3c.github.io/mst-content-hint/#degradation-preference-when-encoding",
         "title": "Degradation preference when encoding",
-        "number": "5.2"
+        "alternateIds": [
+          "x4-2-degradation-preference-when-encoding"
+        ],
+        "number": "4.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dom-rtcdegradationpreference-maintain-framerate-and-resolution",
+      "href": "https://w3c.github.io/mst-content-hint/#dom-rtcdegradationpreference-maintain-framerate-and-resolution",
+      "linkingText": [
+        "maintain-framerate-and-resolution"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "RTCDegradationPreference"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "degradation-preference-when-encoding",
+        "href": "https://w3c.github.io/mst-content-hint/#degradation-preference-when-encoding",
+        "title": "Degradation preference when encoding",
+        "alternateIds": [
+          "x4-2-degradation-preference-when-encoding"
+        ],
+        "number": "4.2"
+      },
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-rtcrtpsendparameters-degradationpreference",
@@ -314,9 +393,13 @@
         "id": "degradation-preference-when-encoding",
         "href": "https://w3c.github.io/mst-content-hint/#degradation-preference-when-encoding",
         "title": "Degradation preference when encoding",
-        "number": "5.2"
+        "alternateIds": [
+          "x4-2-degradation-preference-when-encoding"
+        ],
+        "number": "4.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dfn-degradationpreference",
@@ -333,9 +416,13 @@
         "id": "dictionary-rtcrtpsendparameters-new-members",
         "href": "https://w3c.github.io/mst-content-hint/#dictionary-rtcrtpsendparameters-new-members",
         "title": "Dictionary RTCRtpSendParameters New Members",
-        "number": "5.2.1"
+        "alternateIds": [
+          "x4-2-1-dictionary-rtcrtpsendparameters-new-members"
+        ],
+        "number": "4.2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     }
   ]
 }

@@ -1,12 +1,11 @@
 {
   "spec": {
-    "title": "JSON-LD 1.1 Processing Algorithms and API",
+    "title": "JSON-LD 1.2 Processing Algorithms and API",
     "url": "https://w3c.github.io/json-ld-api/"
   },
   "links": {
     "rawlinks": {
       "http://standards.ieee.org/findstds/standard/754-2008.html": {},
-      "https://datatracker.ietf.org/doc/html/bcp14": {},
       "https://dom.spec.whatwg.org/": {
         "anchors": [
           "dom-node-textcontent"
@@ -23,14 +22,20 @@
       "https://github.com/w3c/json-ld-api/issues/391": {},
       "https://github.com/w3c/json-ld-api/issues/435": {},
       "https://github.com/w3c/json-ld-api/issues/514": {},
+      "https://github.com/w3c/json-ld-api/issues/555": {},
       "https://github.com/w3c/json-ld-api/issues/565": {},
       "https://github.com/w3c/json-ld-api/issues/603": {},
+      "https://github.com/w3c/json-ld-api/issues/605": {},
+      "https://github.com/w3c/json-ld-api/issues/622": {},
+      "https://github.com/w3c/json-ld-api/issues/630": {},
+      "https://github.com/w3c/json-ld-api/issues/633": {},
+      "https://github.com/w3c/json-ld-api/issues/670": {},
       "https://github.com/w3c/json-ld-api/issues/76": {},
       "https://github.com/w3c/json-ld-api/issues/94": {},
       "https://github.com/w3c/json-ld-api/issues/?q=is%3Aissue+is%3Aopen+label%3A%22Editorial%22": {},
       "https://github.com/w3c/json-ld-api/issues/?q=is%3Aissue+is%3Aopen+label%3A%22ErratumRaised%22": {},
-      "https://github.com/w3c/json-ld-api/issues/?q=is%3Aissue+is%3Aopen+label%3A%22class-2%22": {},
       "https://github.com/w3c/json-ld-api/issues/?q=is%3Aissue+is%3Aopen+label%3A%22defer-future-version%22": {},
+      "https://github.com/w3c/json-ld-api/issues/?q=is%3Aissue+is%3Aopen+label%3A%22editorial%3Aclass+2%22": {},
       "https://github.com/w3c/json-ld-api/issues/?q=is%3Aissue+is%3Aopen+label%3A%22spec%3Aeditorial%22": {},
       "https://github.com/w3c/json-ld-api/issues/?q=is%3Aissue+is%3Aopen+label%3A%22test%3Aneeds+tests%22": {},
       "https://github.com/w3c/json-ld-api/issues/?q=is%3Aissue+is%3Aopen+label%3A%22wr%3Apending%22": {},
@@ -65,7 +70,8 @@
           "nulls",
           "primitive-data-types",
           "javascript-string",
-          "code-point"
+          "code-point",
+          "string"
         ]
       },
       "https://irc.w3.org/": {},
@@ -100,18 +106,22 @@
           "idl-record",
           "idl-long",
           "idl-double",
+          "idl-USVString",
+          "idl-sequence",
+          "idl-boolean",
           "dfn-value-pairs-to-iterate-over",
           "dfn-value-iterator",
           "dfn-dictionary"
         ]
       },
-      "https://www.rfc-editor.org/rfc/rfc2045": {
+      "https://www.rfc-editor.org/info/bcp14": {},
+      "https://www.rfc-editor.org/info/rfc2045/": {
         "anchors": [
           "section-5"
         ]
       },
-      "https://www.rfc-editor.org/rfc/rfc2119": {},
-      "https://www.rfc-editor.org/rfc/rfc3986": {
+      "https://www.rfc-editor.org/info/rfc2119/": {},
+      "https://www.rfc-editor.org/info/rfc3986/": {
         "anchors": [
           "section-2.2",
           "section-5.2",
@@ -123,7 +133,7 @@
           "section-2.1"
         ]
       },
-      "https://www.rfc-editor.org/rfc/rfc3987": {
+      "https://www.rfc-editor.org/info/rfc3987/": {
         "anchors": [
           "section-2",
           "section-1.3",
@@ -131,21 +141,25 @@
           "section-2.2"
         ]
       },
-      "https://www.rfc-editor.org/rfc/rfc5234": {},
-      "https://www.rfc-editor.org/rfc/rfc5646": {
+      "https://www.rfc-editor.org/info/rfc5234/": {},
+      "https://www.rfc-editor.org/info/rfc5646/": {
         "anchors": [
           "section-2.2.9"
         ]
       },
-      "https://www.rfc-editor.org/rfc/rfc6839": {},
-      "https://www.rfc-editor.org/rfc/rfc8174": {},
-      "https://www.rfc-editor.org/rfc/rfc8259": {
+      "https://www.rfc-editor.org/info/rfc6839/": {},
+      "https://www.rfc-editor.org/info/rfc8174/": {},
+      "https://www.rfc-editor.org/info/rfc8259/": {
         "anchors": [
           "section-4",
           "section-2"
         ]
       },
-      "https://www.rfc-editor.org/rfc/rfc8785": {},
+      "https://www.rfc-editor.org/rfc/rfc8785": {
+        "anchors": [
+          "name-serialization-of-numbers"
+        ]
+      },
       "https://www.w3.org/2001/tag/doc/promises-guide": {},
       "https://www.w3.org/2018/json-ld-wg/": {},
       "https://www.w3.org/2018/jsonld-cg-reports/json-ld-api/": {},
@@ -163,6 +177,28 @@
       "https://www.w3.org/TR/2020/PR-json-ld11-api-20200507/": {},
       "https://www.w3.org/TR/2020/REC-json-ld11-api-20200716/": {},
       "https://www.w3.org/TR/cooluris/": {},
+      "https://www.w3.org/TR/json-ld11-api/": {
+        "anchors": [
+          "the-application-programming-interface",
+          "dfn-internal-representation",
+          "dfn-json-ld-processor",
+          "conformance",
+          "context-processing-algorithms",
+          "dfn-active-graph",
+          "dfn-active-object",
+          "dfn-active-property",
+          "dfn-active-subject",
+          "dfn-add-value",
+          "dfn-iri-compacting",
+          "iri-compaction",
+          "dfn-iri-expanding",
+          "iri-expansion",
+          "dfn-json-ld-input",
+          "dfn-json-ld-output",
+          "node-map-generation",
+          "dfn-processor-state"
+        ]
+      },
       "https://www.w3.org/TR/json-ld11-framing/": {
         "anchors": [
           "dfn-frame",
@@ -242,11 +278,11 @@
           "dfn-vocabulary-mapping",
           "data-model",
           "flattened-document-form",
-          "embedding-json-ld-in-html-documents",
           "iana-considerations",
           "security",
           "privacy",
-          "internationalization"
+          "internationalization",
+          "embedding-json-ld-in-html-documents"
         ]
       },
       "https://www.w3.org/TR/rdf-schema/": {
@@ -254,7 +290,7 @@
           "ch_collectionvocab"
         ]
       },
-      "https://www.w3.org/TR/rdf11-concepts/": {
+      "https://www.w3.org/TR/rdf12-concepts/": {
         "anchors": [
           "dfn-base-iri",
           "dfn-blank-node",
@@ -264,9 +300,10 @@
           "dfn-datatype-iri",
           "dfn-literal-value",
           "dfn-default-graph",
+          "dfn-dir-lang-string",
+          "dfn-language-tag",
           "dfn-graph-name",
           "dfn-language-tagged-string",
-          "dfn-language-tag",
           "dfn-literal",
           "dfn-named-graph",
           "dfn-node",
@@ -280,7 +317,7 @@
           "dfn-generalized-rdf-dataset"
         ]
       },
-      "https://www.w3.org/TR/rdf11-mt/": {},
+      "https://www.w3.org/TR/rdf12-schema/": {},
       "https://www.w3.org/TR/turtle/": {
         "anchors": [
           "sec-grammar-grammar"
@@ -306,7 +343,7 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {
+      "https://www.w3.org/policies/process/20250818/": {
         "anchors": [
           "allow-new-features"
         ]
@@ -329,6 +366,11 @@
           "sec-terms-and-definitions-number-value"
         ]
       },
+      "https://tc39.es/ecma262/multipage/abstract-operations.html": {
+        "anchors": [
+          "sec-tostring"
+        ]
+      },
       "https://webidl.spec.whatwg.org/": {
         "anchors": [
           "dfn-iterable",
@@ -342,21 +384,35 @@
           "idl-undefined"
         ]
       },
-      "https://www.rfc-editor.org/rfc/rfc2045": {
+      "https://www.rfc-editor.org/info/rfc2045/": {
         "anchors": [
           "section-5"
         ]
       },
-      "https://www.rfc-editor.org/rfc/rfc3987": {
+      "https://www.rfc-editor.org/info/rfc3987/": {
         "anchors": [
           "section-2",
           "section-1.3",
           "section-6.5"
         ]
       },
-      "https://www.rfc-editor.org/rfc/rfc8259": {
+      "https://www.rfc-editor.org/info/rfc8259/": {
         "anchors": [
           "section-4"
+        ]
+      },
+      "https://www.w3.org/TR/json-ld11-api/": {
+        "anchors": [
+          "dfn-json-ld-processor",
+          "dfn-internal-representation",
+          "dfn-active-property",
+          "dfn-add-value",
+          "dfn-json-ld-input",
+          "dfn-processor-state",
+          "dfn-active-subject",
+          "dfn-iri-expanding",
+          "dfn-iri-compacting",
+          "dfn-active-graph"
         ]
       },
       "https://www.w3.org/TR/json-ld11-framing/": {
@@ -412,7 +468,7 @@
           "ch_collectionvocab"
         ]
       },
-      "https://www.w3.org/TR/rdf11-concepts/": {
+      "https://www.w3.org/TR/rdf12-concepts/": {
         "anchors": [
           "dfn-object",
           "dfn-base-iri",
@@ -427,8 +483,9 @@
           "dfn-named-graph",
           "dfn-datatype-iri",
           "dfn-graph-name",
-          "dfn-language-tagged-string",
+          "dfn-dir-lang-string",
           "dfn-language-tag",
+          "dfn-language-tagged-string",
           "dfn-subject",
           "dfn-rdf-triple",
           "dfn-resource",

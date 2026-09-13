@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "Scroll-driven Animations",
+    "title": "Scroll-driven Animations Module Level 1",
     "url": "https://drafts.csswg.org/scroll-animations-1/"
   },
   "links": {
@@ -66,9 +66,9 @@
       "https://drafts.csswg.org/css-display-4/": {},
       "https://drafts.csswg.org/css-overflow-3/": {},
       "https://drafts.csswg.org/css-position-3/": {},
-      "https://drafts.csswg.org/css-scoping/": {},
       "https://drafts.csswg.org/css-scroll-snap-1/": {},
-      "https://drafts.csswg.org/css-shapes-2/": {},
+      "https://drafts.csswg.org/css-shadow-1/": {},
+      "https://drafts.csswg.org/css-shapes/": {},
       "https://drafts.csswg.org/css-transforms/": {},
       "https://drafts.csswg.org/css-values-3/": {},
       "https://drafts.csswg.org/css-values-4/": {
@@ -95,13 +95,14 @@
         ]
       },
       "https://github.com/w3c/csswg-drafts/issues": {},
+      "https://github.com/w3c/csswg-drafts/issues/12581": {},
+      "https://github.com/w3c/csswg-drafts/issues/13364": {},
       "https://github.com/w3c/csswg-drafts/issues/7759": {},
       "https://github.com/w3c/csswg-drafts/issues/8438": {},
       "https://github.com/w3c/csswg-drafts/issues/8746": {},
       "https://github.com/w3c/csswg-drafts/issues/8765": {},
       "https://github.com/w3c/csswg-drafts/issues/8799": {},
       "https://github.com/w3c/csswg-drafts/issues/8843": {},
-      "https://github.com/w3c/csswg-drafts/issues/8915": {},
       "https://github.com/w3c/csswg-drafts/issues/9158": {},
       "https://html.spec.whatwg.org/multipage/": {},
       "https://html.spec.whatwg.org/multipage/webappapis.html": {
@@ -159,13 +160,14 @@
           "animation-type"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://dom.spec.whatwg.org/": {
         "anchors": [
           "element",
-          "document"
+          "document",
+          "document-element"
         ]
       },
       "https://drafts.css-houdini.org/css-typed-om-1/": {
@@ -183,18 +185,19 @@
       },
       "https://drafts.csswg.org/css-animations-1/": {
         "anchors": [
-          "propdef-animation-delay",
           "propdef-animation-iteration-count",
           "at-ruledef-keyframes",
           "typedef-keyframe-selector",
           "valdef-animation-iteration-count-infinite",
-          "propdef-animation"
+          "propdef-animation",
+          "propdef-animation-name"
         ]
       },
       "https://drafts.csswg.org/css-animations-2/": {
         "anchors": [
           "propdef-animation-timeline",
           "typedef-single-animation-timeline",
+          "propdef-animation-delay",
           "valdef-animation-duration-auto"
         ]
       },
@@ -223,8 +226,13 @@
         "anchors": [
           "scroll-container",
           "scrollport",
+          "scrollable-axis",
           "scroll-offset",
           "scrollable-overflow",
+          "block-axis-scroll-container",
+          "inline-axis-scroll-container",
+          "x-axis-scroll-container",
+          "y-axis-scroll-container",
           "scroll-origin",
           "scrollable-overflow-rectangle"
         ]
@@ -235,17 +243,17 @@
           "sticky-position"
         ]
       },
-      "https://drafts.csswg.org/css-scoping-1/": {
-        "anchors": [
-          "flat-tree"
-        ]
-      },
       "https://drafts.csswg.org/css-scroll-snap-1/": {
         "anchors": [
           "propdef-scroll-padding"
         ]
       },
-      "https://drafts.csswg.org/css-shapes-2/": {
+      "https://drafts.csswg.org/css-shadow-1/": {
+        "anchors": [
+          "flat-tree"
+        ]
+      },
+      "https://drafts.csswg.org/css-shapes-1/": {
         "anchors": [
           "valdef-shape-to"
         ]
@@ -267,6 +275,7 @@
           "typedef-length-percentage",
           "mult-num-range",
           "percentage-value",
+          "funcdef-calc",
           "identifier-value"
         ]
       },
@@ -364,7 +373,7 @@
           "idl-sequence"
         ]
       },
-      "https://www.w3.org/TR/CSS21/visuren.html": {
+      "https://www.w3.org/TR/CSS2/visuren.html": {
         "anchors": [
           "x34"
         ]

@@ -26,7 +26,10 @@
       "id": "toc",
       "href": "https://w3c.github.io/event-timing/#toc",
       "level": 2,
-      "title": "Table of Contents"
+      "title": "Table of Contents",
+      "alternateIds": [
+        "contents"
+      ]
     },
     {
       "id": "sec-intro",
@@ -36,18 +39,46 @@
       "number": "1"
     },
     {
+      "id": "sec-event-timing-intro",
+      "href": "https://w3c.github.io/event-timing/#sec-event-timing-intro",
+      "level": 3,
+      "title": "Overview",
+      "number": "1.1"
+    },
+    {
+      "id": "sec-event-timing-interactions",
+      "href": "https://w3c.github.io/event-timing/#sec-event-timing-interactions",
+      "level": 3,
+      "title": "Interactions",
+      "number": "1.2"
+    },
+    {
+      "id": "sec-event-timing-first-input",
+      "href": "https://w3c.github.io/event-timing/#sec-event-timing-first-input",
+      "level": 3,
+      "title": "First Input",
+      "number": "1.3"
+    },
+    {
       "id": "sec-events-exposed",
       "href": "https://w3c.github.io/event-timing/#sec-events-exposed",
       "level": 3,
       "title": "Events exposed",
-      "number": "1.1"
+      "number": "1.4"
+    },
+    {
+      "id": "sec-event-timing-when-measured",
+      "href": "https://w3c.github.io/event-timing/#sec-event-timing-when-measured",
+      "level": 3,
+      "title": "When events are measured",
+      "number": "1.5"
     },
     {
       "id": "sec-example",
       "href": "https://w3c.github.io/event-timing/#sec-example",
       "level": 3,
       "title": "Usage example",
-      "number": "1.2"
+      "number": "1.6"
     },
     {
       "id": "sec-event-timing",
@@ -148,6 +179,13 @@
       "number": "3.9"
     },
     {
+      "id": "sec-target-selectors",
+      "href": "https://w3c.github.io/event-timing/#sec-target-selectors",
+      "level": 3,
+      "title": "Target Selectors",
+      "number": "3.10"
+    },
+    {
       "id": "priv-sec",
       "href": "https://w3c.github.io/event-timing/#priv-sec",
       "level": 2,
@@ -207,12 +245,6 @@
       "href": "https://w3c.github.io/event-timing/#idl-index",
       "level": 2,
       "title": "IDL Index"
-    },
-    {
-      "id": "issues-index",
-      "href": "https://w3c.github.io/event-timing/#issues-index",
-      "level": 2,
-      "title": "Issues Index"
     }
   ]
 }

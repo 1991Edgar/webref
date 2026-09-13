@@ -21,7 +21,8 @@
         "title": "Scroll chaining and boundary default actions",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "scroll-chain",
@@ -40,7 +41,8 @@
         "title": "Scroll chaining and boundary default actions",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "scroll-boundary",
@@ -59,7 +61,8 @@
         "title": "Scroll chaining and boundary default actions",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "boundary-default-action",
@@ -78,7 +81,8 @@
         "title": "Scroll chaining and boundary default actions",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "local-boundary-default-action",
@@ -97,7 +101,8 @@
         "title": "Scroll chaining and boundary default actions",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "non-local-boundary-default-action",
@@ -116,7 +121,8 @@
         "title": "Scroll chaining and boundary default actions",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "overscroll-behavior",
@@ -135,7 +141,8 @@
         "title": "Overscroll Behavior Properties",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-overscroll-behavior",
@@ -149,12 +156,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "overscroll-behavior-properties",
-        "href": "https://drafts.csswg.org/css-overscroll-1/#overscroll-behavior-properties",
-        "title": "Overscroll Behavior Properties",
-        "number": "4"
+        "id": "overscroll-shorthand",
+        "href": "https://drafts.csswg.org/css-overscroll-1/#overscroll-shorthand",
+        "title": "The overscroll-behavior Shorthand",
+        "number": "4.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-overscroll-behavior-contain",
@@ -174,12 +182,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "overscroll-behavior-properties",
-        "href": "https://drafts.csswg.org/css-overscroll-1/#overscroll-behavior-properties",
-        "title": "Overscroll Behavior Properties",
-        "number": "4"
+        "id": "overscroll-shorthand",
+        "href": "https://drafts.csswg.org/css-overscroll-1/#overscroll-shorthand",
+        "title": "The overscroll-behavior Shorthand",
+        "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-overscroll-behavior-none",
@@ -199,12 +208,39 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "overscroll-behavior-properties",
-        "href": "https://drafts.csswg.org/css-overscroll-1/#overscroll-behavior-properties",
-        "title": "Overscroll Behavior Properties",
-        "number": "4"
+        "id": "overscroll-shorthand",
+        "href": "https://drafts.csswg.org/css-overscroll-1/#overscroll-shorthand",
+        "title": "The overscroll-behavior Shorthand",
+        "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-overscroll-behavior-chain",
+      "href": "https://drafts.csswg.org/css-overscroll-1/#valdef-overscroll-behavior-chain",
+      "linkingText": [
+        "chain"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "overscroll-behavior",
+        "overscroll-behavior-x",
+        "overscroll-behavior-y",
+        "overscroll-behavior-inline",
+        "overscroll-behavior-block"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "overscroll-shorthand",
+        "href": "https://drafts.csswg.org/css-overscroll-1/#overscroll-shorthand",
+        "title": "The overscroll-behavior Shorthand",
+        "number": "4.1"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-overscroll-behavior-auto",
@@ -224,12 +260,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "overscroll-behavior-properties",
-        "href": "https://drafts.csswg.org/css-overscroll-1/#overscroll-behavior-properties",
-        "title": "Overscroll Behavior Properties",
-        "number": "4"
+        "id": "overscroll-shorthand",
+        "href": "https://drafts.csswg.org/css-overscroll-1/#overscroll-shorthand",
+        "title": "The overscroll-behavior Shorthand",
+        "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-overscroll-behavior-x",
@@ -246,9 +283,10 @@
         "id": "overscroll-behavior-longhands-physical",
         "href": "https://drafts.csswg.org/css-overscroll-1/#overscroll-behavior-longhands-physical",
         "title": "Physical Longhands for overscroll-behavior",
-        "number": "4.2"
+        "number": "4.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "propdef-overscroll-behavior-y",
@@ -265,9 +303,10 @@
         "id": "overscroll-behavior-longhands-physical",
         "href": "https://drafts.csswg.org/css-overscroll-1/#overscroll-behavior-longhands-physical",
         "title": "Physical Longhands for overscroll-behavior",
-        "number": "4.2"
+        "number": "4.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "propdef-overscroll-behavior-inline",
@@ -284,9 +323,10 @@
         "id": "overscroll-behavior-longhands-logical",
         "href": "https://drafts.csswg.org/css-overscroll-1/#overscroll-behavior-longhands-logical",
         "title": "Flow-relative Longhands for overscroll-behavior",
-        "number": "4.3"
+        "number": "4.4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "propdef-overscroll-behavior-block",
@@ -303,9 +343,10 @@
         "id": "overscroll-behavior-longhands-logical",
         "href": "https://drafts.csswg.org/css-overscroll-1/#overscroll-behavior-longhands-logical",
         "title": "Flow-relative Longhands for overscroll-behavior",
-        "number": "4.3"
+        "number": "4.4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "No-Vary-Search",
+    "title": "The No-Vary-Search HTTP Caching Extension",
     "url": "https://httpwg.org/http-extensions/draft-ietf-httpbis-no-vary-search.html"
   },
   "links": {
@@ -12,19 +12,8 @@
           "utf-8-decode-without-bom"
         ]
       },
-      "https://fetch.spec.whatwg.org/": {
-        "anchors": [
-          "concept-response",
-          "concept-header-list-get-structured-header"
-        ]
-      },
       "https://github.com/httpwg/http-extensions/labels/no-vary-search": {},
       "https://html.spec.whatwg.org/": {},
-      "https://html.spec.whatwg.org/multipage/browsers.html": {
-        "anchors": [
-          "concept-origin"
-        ]
-      },
       "https://html.spec.whatwg.org/multipage/nav-history-apis.html": {
         "anchors": [
           "dom-history-replacestate"
@@ -35,7 +24,8 @@
       "https://infra.spec.whatwg.org/": {
         "anchors": [
           "isomorphic-encode",
-          "code-unit-less-than"
+          "code-unit-less-than",
+          "list-sort-in-ascending-order"
         ]
       },
       "https://lists.w3.org/Archives/Public/ietf-http-wg/": {},
@@ -45,7 +35,21 @@
           "deployed-mitigations"
         ]
       },
-      "https://rfc-editor.org/rfc/rfc8941": {
+      "https://rfc-editor.org/rfc/rfc9110": {
+        "anchors": [
+          "section-7.1",
+          "section-3.4"
+        ]
+      },
+      "https://rfc-editor.org/rfc/rfc9111": {
+        "anchors": [
+          "section-4",
+          "section-5.2.3",
+          "section-4.1",
+          "section-4.4"
+        ]
+      },
+      "https://rfc-editor.org/rfc/rfc9651": {
         "anchors": [
           "section-3.2",
           "section-3.3.6",
@@ -53,32 +57,28 @@
           "section-4.2"
         ]
       },
-      "https://rfc-editor.org/rfc/rfc9110": {
-        "anchors": [
-          "section-7.1"
-        ]
-      },
-      "https://rfc-editor.org/rfc/rfc9111": {
-        "anchors": [
-          "section-4"
-        ]
-      },
       "https://trustee.ietf.org/license-info": {},
       "https://url.spec.whatwg.org/": {
         "anchors": [
-          "percent-decode",
           "concept-urlencoded",
+          "percent-decode",
           "concept-urlencoded-parser",
           "concept-url",
           "concept-url-host",
           "url-rendering-simplification"
         ]
       },
+      "https://www.iana.org/assignments/http-fields/": {},
+      "https://www.iana.org/assignments/http-fields/http-fields.xhtml": {},
       "https://www.rfc-editor.org/rfc/rfc2119": {},
+      "https://www.rfc-editor.org/rfc/rfc3986": {},
+      "https://www.rfc-editor.org/rfc/rfc6454": {},
+      "https://www.rfc-editor.org/rfc/rfc6943": {},
+      "https://www.rfc-editor.org/rfc/rfc8126": {},
       "https://www.rfc-editor.org/rfc/rfc8174": {},
-      "https://www.rfc-editor.org/rfc/rfc8941": {},
       "https://www.rfc-editor.org/rfc/rfc9110": {},
-      "https://www.rfc-editor.org/rfc/rfc9111": {}
+      "https://www.rfc-editor.org/rfc/rfc9111": {},
+      "https://www.rfc-editor.org/rfc/rfc9651": {}
     },
     "autolinks": {}
   }

@@ -26,7 +26,10 @@
       "id": "toc",
       "href": "https://drafts.csswg.org/css-values-4/#toc",
       "level": 2,
-      "title": "Table of Contents"
+      "title": "Table of Contents",
+      "alternateIds": [
+        "contents"
+      ]
     },
     {
       "id": "intro",
@@ -463,6 +466,20 @@
       "number": "9"
     },
     {
+      "id": "functional-numeric",
+      "href": "https://drafts.csswg.org/css-values-4/#functional-numeric",
+      "level": 3,
+      "title": "Numeric Functions",
+      "number": "9.1"
+    },
+    {
+      "id": "functional-serialization",
+      "href": "https://drafts.csswg.org/css-values-4/#functional-serialization",
+      "level": 3,
+      "title": "Serialization of Functional Notations",
+      "number": "9.2"
+    },
+    {
       "id": "math",
       "href": "https://drafts.csswg.org/css-values-4/#math",
       "level": 2,
@@ -574,11 +591,18 @@
       "number": "10.9"
     },
     {
+      "id": "calc-context",
+      "href": "https://drafts.csswg.org/css-values-4/#calc-context",
+      "level": 4,
+      "title": "Calculation Contexts",
+      "number": "10.9.1"
+    },
+    {
       "id": "calc-ieee",
       "href": "https://drafts.csswg.org/css-values-4/#calc-ieee",
       "level": 4,
       "title": "Infinities, NaN, and Signed Zero",
-      "number": "10.9.1"
+      "number": "10.9.2"
     },
     {
       "id": "calc-internal",
@@ -755,7 +779,7 @@
       "id": "informative",
       "href": "https://drafts.csswg.org/css-values-4/#informative",
       "level": 3,
-      "title": "Informative References"
+      "title": "Non-Normative References"
     },
     {
       "id": "issues-index",

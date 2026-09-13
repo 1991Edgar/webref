@@ -21,7 +21,8 @@
         "title": "Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "paintable-pseudo-element",
@@ -40,7 +41,8 @@
         "title": "Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "contentful-image",
@@ -59,7 +61,8 @@
         "title": "Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "non-empty",
@@ -78,7 +81,8 @@
         "title": "Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "contentful",
@@ -97,7 +101,8 @@
         "title": "Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "timing-eligible",
@@ -116,7 +121,8 @@
         "title": "Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "paintable-bounding-rect",
@@ -135,7 +141,8 @@
         "title": "Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "paintable",
@@ -154,7 +161,8 @@
         "title": "Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "first-paint",
@@ -173,7 +181,8 @@
         "title": "Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "paint-timing-eligible",
@@ -192,7 +201,8 @@
         "title": "Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "painttimingmixin",
@@ -206,12 +216,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "sec-terminology",
-        "href": "https://www.w3.org/TR/paint-timing/#sec-terminology",
-        "title": "Terminology",
-        "number": "2"
+        "id": "sec-PaintTimingMixin",
+        "href": "https://www.w3.org/TR/paint-timing/#sec-PaintTimingMixin",
+        "title": "The PaintTimingMixin interface",
+        "number": "3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-painttimingmixin-painttime",
@@ -227,12 +238,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "sec-terminology",
-        "href": "https://www.w3.org/TR/paint-timing/#sec-terminology",
-        "title": "Terminology",
-        "number": "2"
+        "id": "sec-PaintTimingMixin",
+        "href": "https://www.w3.org/TR/paint-timing/#sec-PaintTimingMixin",
+        "title": "The PaintTimingMixin interface",
+        "number": "3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-painttimingmixin-presentationtime",
@@ -248,12 +260,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "sec-terminology",
-        "href": "https://www.w3.org/TR/paint-timing/#sec-terminology",
-        "title": "Terminology",
-        "number": "2"
+        "id": "sec-PaintTimingMixin",
+        "href": "https://www.w3.org/TR/paint-timing/#sec-PaintTimingMixin",
+        "title": "The PaintTimingMixin interface",
+        "number": "3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "painttimingmixin-paint-timing-info",
@@ -269,12 +282,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "sec-terminology",
-        "href": "https://www.w3.org/TR/paint-timing/#sec-terminology",
-        "title": "Terminology",
-        "number": "2"
+        "id": "sec-PaintTimingMixin",
+        "href": "https://www.w3.org/TR/paint-timing/#sec-PaintTimingMixin",
+        "title": "The PaintTimingMixin interface",
+        "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "paint-timing-info",
@@ -288,12 +302,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "sec-terminology",
-        "href": "https://www.w3.org/TR/paint-timing/#sec-terminology",
-        "title": "Terminology",
-        "number": "2"
+        "id": "sec-PaintTimingMixin",
+        "href": "https://www.w3.org/TR/paint-timing/#sec-PaintTimingMixin",
+        "title": "The PaintTimingMixin interface",
+        "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "paint-timing-info-rendering-update-end-time",
@@ -309,12 +324,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "sec-terminology",
-        "href": "https://www.w3.org/TR/paint-timing/#sec-terminology",
-        "title": "Terminology",
-        "number": "2"
+        "id": "sec-PaintTimingMixin",
+        "href": "https://www.w3.org/TR/paint-timing/#sec-PaintTimingMixin",
+        "title": "The PaintTimingMixin interface",
+        "number": "3.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "paint-timing-info-implementation-defined-presentation-time",
@@ -330,12 +346,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "sec-terminology",
-        "href": "https://www.w3.org/TR/paint-timing/#sec-terminology",
-        "title": "Terminology",
-        "number": "2"
+        "id": "sec-PaintTimingMixin",
+        "href": "https://www.w3.org/TR/paint-timing/#sec-PaintTimingMixin",
+        "title": "The PaintTimingMixin interface",
+        "number": "3.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "default-paint-timestamp",
@@ -349,12 +366,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "sec-terminology",
-        "href": "https://www.w3.org/TR/paint-timing/#sec-terminology",
-        "title": "Terminology",
-        "number": "2"
+        "id": "sec-PaintTimingMixin",
+        "href": "https://www.w3.org/TR/paint-timing/#sec-PaintTimingMixin",
+        "title": "The PaintTimingMixin interface",
+        "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "performancepainttiming",
@@ -371,9 +389,54 @@
         "id": "sec-PerformancePaintTiming",
         "href": "https://www.w3.org/TR/paint-timing/#sec-PerformancePaintTiming",
         "title": "The PerformancePaintTiming interface",
-        "number": "3"
+        "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-performancepainttiming-tojson",
+      "href": "https://www.w3.org/TR/paint-timing/#dom-performancepainttiming-tojson",
+      "linkingText": [
+        "toJSON()"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "PerformancePaintTiming"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-PerformancePaintTiming",
+        "href": "https://www.w3.org/TR/paint-timing/#sec-PerformancePaintTiming",
+        "title": "The PerformancePaintTiming interface",
+        "number": "4"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "performancepainttiming-tojson",
+      "href": "https://www.w3.org/TR/paint-timing/#performancepainttiming-tojson",
+      "linkingText": [
+        "toJSON"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "PerformancePaintTiming"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-PerformancePaintTiming",
+        "href": "https://www.w3.org/TR/paint-timing/#sec-PerformancePaintTiming",
+        "title": "The PerformancePaintTiming interface",
+        "number": "4"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "associated-image-request",
@@ -390,9 +453,10 @@
         "id": "sec-associated-image-requests",
         "href": "https://www.w3.org/TR/paint-timing/#sec-associated-image-requests",
         "title": "Associated Image Requests",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "associated-background-image-requests",
@@ -409,9 +473,10 @@
         "id": "sec-associated-image-requests",
         "href": "https://www.w3.org/TR/paint-timing/#sec-associated-image-requests",
         "title": "Associated Image Requests",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "pending-image-record",
@@ -428,9 +493,10 @@
         "id": "sec-recording-paint-timing",
         "href": "https://www.w3.org/TR/paint-timing/#sec-recording-paint-timing",
         "title": "Recording paint timing",
-        "number": "4.2"
+        "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "pending-image-record-element",
@@ -449,9 +515,10 @@
         "id": "sec-recording-paint-timing",
         "href": "https://www.w3.org/TR/paint-timing/#sec-recording-paint-timing",
         "title": "Recording paint timing",
-        "number": "4.2"
+        "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "pending-image-record-request",
@@ -470,9 +537,10 @@
         "id": "sec-recording-paint-timing",
         "href": "https://www.w3.org/TR/paint-timing/#sec-recording-paint-timing",
         "title": "Recording paint timing",
-        "number": "4.2"
+        "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "pending-image-record-loadtime",
@@ -491,9 +559,10 @@
         "id": "sec-recording-paint-timing",
         "href": "https://www.w3.org/TR/paint-timing/#sec-recording-paint-timing",
         "title": "Recording paint timing",
-        "number": "4.2"
+        "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "set-of-owned-text-nodes",
@@ -510,9 +579,10 @@
         "id": "sec-recording-paint-timing",
         "href": "https://www.w3.org/TR/paint-timing/#sec-recording-paint-timing",
         "title": "Recording paint timing",
-        "number": "4.2"
+        "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "set-of-previously-reported-paints",
@@ -529,9 +599,10 @@
         "id": "sec-recording-paint-timing",
         "href": "https://www.w3.org/TR/paint-timing/#sec-recording-paint-timing",
         "title": "Recording paint timing",
-        "number": "4.2"
+        "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "images-pending-rendering",
@@ -548,9 +619,10 @@
         "id": "sec-recording-paint-timing",
         "href": "https://www.w3.org/TR/paint-timing/#sec-recording-paint-timing",
         "title": "Recording paint timing",
-        "number": "4.2"
+        "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "set-of-elements-with-rendered-text",
@@ -567,9 +639,10 @@
         "id": "sec-recording-paint-timing",
         "href": "https://www.w3.org/TR/paint-timing/#sec-recording-paint-timing",
         "title": "Recording paint timing",
-        "number": "4.2"
+        "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "process-image-that-finished-loading",
@@ -586,9 +659,10 @@
         "id": "process-image-that-finished-loading",
         "href": "https://www.w3.org/TR/paint-timing/#process-image-that-finished-loading",
         "title": "Process image that finished loading",
-        "number": "4.2.3"
+        "number": "5.2.3"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "process-an-image-that-finished-loading",
@@ -605,9 +679,10 @@
         "id": "process-image-that-finished-loading",
         "href": "https://www.w3.org/TR/paint-timing/#process-image-that-finished-loading",
         "title": "Process image that finished loading",
-        "number": "4.2.3"
+        "number": "5.2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "first-contentful-paint",
@@ -624,9 +699,10 @@
         "id": "first-contentful-paint",
         "href": "https://www.w3.org/TR/paint-timing/#first-contentful-paint",
         "title": "First Contentful Paint",
-        "number": "4.3.1"
+        "number": "5.3.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "should-report-first-contentful-paint",
@@ -643,9 +719,10 @@
         "id": "first-contentful-paint",
         "href": "https://www.w3.org/TR/paint-timing/#first-contentful-paint",
         "title": "First Contentful Paint",
-        "number": "4.3.1"
+        "number": "5.3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "mark-paint-timing",
@@ -662,9 +739,10 @@
         "id": "mark-paint-timing",
         "href": "https://www.w3.org/TR/paint-timing/#mark-paint-timing",
         "title": "Mark paint timing",
-        "number": "4.3.2"
+        "number": "5.3.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "report-paint-timing",
@@ -681,9 +759,10 @@
         "id": "report-paint-timing",
         "href": "https://www.w3.org/TR/paint-timing/#report-paint-timing",
         "title": "Report paint timing",
-        "number": "4.3.3"
+        "number": "5.3.3"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "exposed-for-paint-timing",
@@ -700,9 +779,10 @@
         "id": "exposed-for-paint-timing",
         "href": "https://www.w3.org/TR/paint-timing/#exposed-for-paint-timing",
         "title": "Exposed for paint timing",
-        "number": "4.4.1"
+        "number": "5.4.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     }
   ]
 }

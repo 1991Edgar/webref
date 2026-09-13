@@ -6,7 +6,6 @@
   "links": {
     "rawlinks": {
       "http://www.iso.org/iso/catalogue_detail?csnumber=40874": {},
-      "https://datatracker.ietf.org/doc/html/bcp14": {},
       "https://fetch.spec.whatwg.org/": {
         "anchors": [
           "fetching",
@@ -103,14 +102,15 @@
           "discovery-of-media-feeds"
         ]
       },
-      "https://www.rfc-editor.org/rfc/rfc2119": {},
-      "https://www.rfc-editor.org/rfc/rfc5322": {
+      "https://www.rfc-editor.org/info/bcp14": {},
+      "https://www.rfc-editor.org/info/rfc2119/": {},
+      "https://www.rfc-editor.org/info/rfc5322/": {
         "anchors": [
           "section-3.4"
         ]
       },
-      "https://www.rfc-editor.org/rfc/rfc8174": {},
-      "https://www.rfc-editor.org/rfc/rfc8259": {},
+      "https://www.rfc-editor.org/info/rfc8174/": {},
+      "https://www.rfc-editor.org/info/rfc8259/": {},
       "https://www.w3.org/TR/xmlschema-2/": {
         "anchors": [
           "time"

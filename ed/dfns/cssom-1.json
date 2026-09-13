@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Object Model (CSSOM)",
+    "title": "CSS Object Model (CSSOM) Module Level 1",
     "url": "https://drafts.csswg.org/cssom-1/"
   },
   "dfns": [
@@ -21,7 +21,8 @@
         "title": "Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "unset",
@@ -40,7 +41,8 @@
         "title": "Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "supported-styling-language",
@@ -59,7 +61,8 @@
         "title": "Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "supported-css-property",
@@ -78,7 +81,8 @@
         "title": "Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "escape-a-character",
@@ -97,7 +101,8 @@
         "title": "Common Serializing Idioms",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "escape-a-character-as-code-point",
@@ -117,7 +122,8 @@
         "title": "Common Serializing Idioms",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "serialize-an-identifier",
@@ -136,13 +142,37 @@
         "title": "Common Serializing Idioms",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "css-serialize-a-function",
+      "href": "https://drafts.csswg.org/cssom-1/#css-serialize-a-function",
+      "linkingText": [
+        "serialize a function"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "CSS"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "common-serializing-idioms",
+        "href": "https://drafts.csswg.org/cssom-1/#common-serializing-idioms",
+        "title": "Common Serializing Idioms",
+        "number": "2.1"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "serialize-a-string",
       "href": "https://drafts.csswg.org/cssom-1/#serialize-a-string",
       "linkingText": [
-        "serialize a string"
+        "serialize a string",
+        "serialize as a string"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -155,7 +185,8 @@
         "title": "Common Serializing Idioms",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "serialize-a-url",
@@ -174,7 +205,8 @@
         "title": "Common Serializing Idioms",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "serialize-a-local",
@@ -193,7 +225,8 @@
         "title": "Common Serializing Idioms",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "serialize-a-comma-separated-list",
@@ -212,7 +245,8 @@
         "title": "Common Serializing Idioms",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "serialize-a-whitespace-separated-list",
@@ -231,7 +265,8 @@
         "title": "Common Serializing Idioms",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "cssomstring",
@@ -250,7 +285,8 @@
         "title": "CSSOMString",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "parse-a-media-query-list",
@@ -269,7 +305,8 @@
         "title": "Parsing Media Queries",
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "parse-a-media-query",
@@ -288,7 +325,8 @@
         "title": "Parsing Media Queries",
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "serialize-a-media-query-list",
@@ -307,7 +345,8 @@
         "title": "Serializing Media Queries",
         "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "serialize-a-media-query",
@@ -326,7 +365,8 @@
         "title": "Serializing Media Queries",
         "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "serialize-a-media-feature-value",
@@ -345,7 +385,8 @@
         "title": "Serializing Media Feature Values",
         "number": "4.2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "compare-media-queries",
@@ -364,7 +405,8 @@
         "title": "Comparing Media Queries",
         "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "medialist-collection-of-media-queries",
@@ -385,7 +427,8 @@
         "title": "The MediaList Interface",
         "number": "4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "medialist",
@@ -404,7 +447,8 @@
         "title": "The MediaList Interface",
         "number": "4.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "MediaList-stringification-behavior",
@@ -425,7 +469,8 @@
         "title": "The MediaList Interface",
         "number": "4.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-medialist-item-index-index",
@@ -446,7 +491,8 @@
         "title": "The MediaList Interface",
         "number": "4.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-medialist-appendmedium-medium-medium",
@@ -467,7 +513,8 @@
         "title": "The MediaList Interface",
         "number": "4.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-medialist-deletemedium-medium-medium",
@@ -488,7 +535,8 @@
         "title": "The MediaList Interface",
         "number": "4.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "create-a-medialist-object",
@@ -507,7 +555,8 @@
         "title": "The MediaList Interface",
         "number": "4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-medialist-mediatext",
@@ -528,7 +577,8 @@
         "title": "The MediaList Interface",
         "number": "4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-medialist-item",
@@ -549,7 +599,8 @@
         "title": "The MediaList Interface",
         "number": "4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-medialist-length",
@@ -570,7 +621,8 @@
         "title": "The MediaList Interface",
         "number": "4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-medialist-appendmedium",
@@ -591,7 +643,8 @@
         "title": "The MediaList Interface",
         "number": "4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-medialist-deletemedium",
@@ -612,7 +665,8 @@
         "title": "The MediaList Interface",
         "number": "4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "parse-a-group-of-selectors",
@@ -631,7 +685,8 @@
         "title": "Parsing Selectors",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "serialize-a-group-of-selectors",
@@ -650,7 +705,8 @@
         "title": "Serializing Selectors",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "serialize-a-selector",
@@ -669,7 +725,8 @@
         "title": "Serializing Selectors",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "serialize-a-simple-selector",
@@ -688,7 +745,8 @@
         "title": "Serializing Selectors",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "css-style-sheet",
@@ -707,7 +765,8 @@
         "title": "CSS Style Sheets",
         "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-cssstylesheet-cssstylesheet",
@@ -731,7 +790,8 @@
         "title": "CSS Style Sheets",
         "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "create-a-constructed-cssstylesheet",
@@ -750,7 +810,8 @@
         "title": "CSS Style Sheets",
         "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "concept-css-style-sheet-type",
@@ -771,7 +832,8 @@
         "title": "CSS Style Sheets",
         "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "concept-css-style-sheet-location",
@@ -792,7 +854,8 @@
         "title": "CSS Style Sheets",
         "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "concept-css-style-sheet-parent-css-style-sheet",
@@ -813,7 +876,8 @@
         "title": "CSS Style Sheets",
         "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "concept-css-style-sheet-owner-node",
@@ -834,7 +898,8 @@
         "title": "CSS Style Sheets",
         "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "concept-css-style-sheet-owner-css-rule",
@@ -855,7 +920,8 @@
         "title": "CSS Style Sheets",
         "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "concept-css-style-sheet-media",
@@ -876,7 +942,8 @@
         "title": "CSS Style Sheets",
         "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "concept-css-style-sheet-title",
@@ -897,7 +964,8 @@
         "title": "CSS Style Sheets",
         "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "concept-css-style-sheet-alternate-flag",
@@ -918,7 +986,8 @@
         "title": "CSS Style Sheets",
         "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "concept-css-style-sheet-disabled-flag",
@@ -939,7 +1008,8 @@
         "title": "CSS Style Sheets",
         "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "concept-css-style-sheet-css-rules",
@@ -960,7 +1030,8 @@
         "title": "CSS Style Sheets",
         "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "concept-css-style-sheet-origin-clean-flag",
@@ -981,7 +1052,8 @@
         "title": "CSS Style Sheets",
         "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "concept-css-style-sheet-constructed-flag",
@@ -1002,7 +1074,8 @@
         "title": "CSS Style Sheets",
         "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "concept-css-style-sheet-disallow-modification-flag",
@@ -1023,7 +1096,8 @@
         "title": "CSS Style Sheets",
         "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "concept-css-style-sheet-constructor-document",
@@ -1044,7 +1118,8 @@
         "title": "CSS Style Sheets",
         "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "concept-css-style-sheet-stylesheet-base-url",
@@ -1065,7 +1140,8 @@
         "title": "CSS Style Sheets",
         "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "stylesheet",
@@ -1084,7 +1160,8 @@
         "title": "The StyleSheet Interface",
         "number": "6.1.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-stylesheet-type",
@@ -1105,7 +1182,8 @@
         "title": "The StyleSheet Interface",
         "number": "6.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-stylesheet-href",
@@ -1126,7 +1204,8 @@
         "title": "The StyleSheet Interface",
         "number": "6.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-stylesheet-ownernode",
@@ -1147,7 +1226,8 @@
         "title": "The StyleSheet Interface",
         "number": "6.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-stylesheet-parentstylesheet",
@@ -1168,7 +1248,8 @@
         "title": "The StyleSheet Interface",
         "number": "6.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-stylesheet-title",
@@ -1189,7 +1270,8 @@
         "title": "The StyleSheet Interface",
         "number": "6.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-stylesheet-media",
@@ -1210,7 +1292,8 @@
         "title": "The StyleSheet Interface",
         "number": "6.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-stylesheet-disabled",
@@ -1231,7 +1314,8 @@
         "title": "The StyleSheet Interface",
         "number": "6.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "cssstylesheet",
@@ -1250,7 +1334,8 @@
         "title": "The CSSStyleSheet Interface",
         "number": "6.1.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssstylesheet-cssstylesheet-options-options",
@@ -1274,7 +1359,8 @@
         "title": "The CSSStyleSheet Interface",
         "number": "6.1.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssstylesheet-insertrule-rule-index-rule",
@@ -1296,7 +1382,8 @@
         "title": "The CSSStyleSheet Interface",
         "number": "6.1.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssstylesheet-insertrule-rule-index-index",
@@ -1318,7 +1405,8 @@
         "title": "The CSSStyleSheet Interface",
         "number": "6.1.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssstylesheet-deleterule-index-index",
@@ -1339,7 +1427,8 @@
         "title": "The CSSStyleSheet Interface",
         "number": "6.1.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssstylesheet-replace-text-text",
@@ -1360,7 +1449,8 @@
         "title": "The CSSStyleSheet Interface",
         "number": "6.1.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssstylesheet-replacesync-text-text",
@@ -1381,7 +1471,8 @@
         "title": "The CSSStyleSheet Interface",
         "number": "6.1.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-cssstylesheetinit",
@@ -1400,7 +1491,8 @@
         "title": "The CSSStyleSheet Interface",
         "number": "6.1.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssstylesheetinit-baseurl",
@@ -1421,7 +1513,8 @@
         "title": "The CSSStyleSheet Interface",
         "number": "6.1.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssstylesheetinit-media",
@@ -1442,7 +1535,8 @@
         "title": "The CSSStyleSheet Interface",
         "number": "6.1.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssstylesheetinit-disabled",
@@ -1463,7 +1557,8 @@
         "title": "The CSSStyleSheet Interface",
         "number": "6.1.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssstylesheet-ownerrule",
@@ -1484,7 +1579,8 @@
         "title": "The CSSStyleSheet Interface",
         "number": "6.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-cssstylesheet-cssrules",
@@ -1505,7 +1601,8 @@
         "title": "The CSSStyleSheet Interface",
         "number": "6.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-cssstylesheet-insertrule",
@@ -1527,7 +1624,8 @@
         "title": "The CSSStyleSheet Interface",
         "number": "6.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-cssstylesheet-deleterule",
@@ -1548,7 +1646,8 @@
         "title": "The CSSStyleSheet Interface",
         "number": "6.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-cssstylesheet-replace",
@@ -1569,7 +1668,8 @@
         "title": "The CSSStyleSheet Interface",
         "number": "6.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-cssstylesheet-replacesync",
@@ -1590,7 +1690,8 @@
         "title": "The CSSStyleSheet Interface",
         "number": "6.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "synchronously-replace-the-rules-of-a-cssstylesheet",
@@ -1609,7 +1710,8 @@
         "title": "The CSSStyleSheet Interface",
         "number": "6.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-cssstylesheet-addrule-selector-style-index-selector",
@@ -1633,7 +1735,8 @@
         "title": "Deprecated CSSStyleSheet members",
         "number": "6.1.2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssstylesheet-addrule-selector-style-index-style",
@@ -1657,7 +1760,8 @@
         "title": "Deprecated CSSStyleSheet members",
         "number": "6.1.2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssstylesheet-addrule-selector-style-index-index",
@@ -1681,7 +1785,8 @@
         "title": "Deprecated CSSStyleSheet members",
         "number": "6.1.2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssstylesheet-removerule-index-index",
@@ -1703,7 +1808,8 @@
         "title": "Deprecated CSSStyleSheet members",
         "number": "6.1.2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssstylesheet-rules",
@@ -1724,7 +1830,8 @@
         "title": "Deprecated CSSStyleSheet members",
         "number": "6.1.2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-cssstylesheet-removerule",
@@ -1746,7 +1853,8 @@
         "title": "Deprecated CSSStyleSheet members",
         "number": "6.1.2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-cssstylesheet-addrule",
@@ -1771,7 +1879,8 @@
         "title": "Deprecated CSSStyleSheet members",
         "number": "6.1.2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "documentorshadowroot-document-or-shadow-root-css-style-sheets",
@@ -1792,7 +1901,8 @@
         "title": "CSS Style Sheet Collections",
         "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "documentorshadowroot-final-css-style-sheets",
@@ -1813,7 +1923,8 @@
         "title": "CSS Style Sheet Collections",
         "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "create-a-css-style-sheet",
@@ -1832,7 +1943,8 @@
         "title": "CSS Style Sheet Collections",
         "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "add-a-css-style-sheet",
@@ -1851,7 +1963,8 @@
         "title": "CSS Style Sheet Collections",
         "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "remove-a-css-style-sheet",
@@ -1870,7 +1983,8 @@
         "title": "CSS Style Sheet Collections",
         "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "persistent-css-style-sheet",
@@ -1889,7 +2003,8 @@
         "title": "CSS Style Sheet Collections",
         "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "css-style-sheet-set",
@@ -1908,7 +2023,8 @@
         "title": "CSS Style Sheet Collections",
         "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "css-style-sheet-set-name",
@@ -1927,7 +2043,8 @@
         "title": "CSS Style Sheet Collections",
         "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "enabled-css-style-sheet-set",
@@ -1946,7 +2063,8 @@
         "title": "CSS Style Sheet Collections",
         "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "enable-a-css-style-sheet-set",
@@ -1965,7 +2083,8 @@
         "title": "CSS Style Sheet Collections",
         "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "select-a-css-style-sheet-set",
@@ -1984,7 +2103,8 @@
         "title": "CSS Style Sheet Collections",
         "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "last-css-style-sheet-set-name",
@@ -2003,7 +2123,8 @@
         "title": "CSS Style Sheet Collections",
         "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "preferred-css-style-sheet-set-name",
@@ -2022,7 +2143,8 @@
         "title": "CSS Style Sheet Collections",
         "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "change-the-preferred-css-style-sheet-set-name",
@@ -2041,7 +2163,8 @@
         "title": "CSS Style Sheet Collections",
         "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "stylesheetlist",
@@ -2060,7 +2183,8 @@
         "title": "The StyleSheetList Interface",
         "number": "6.2.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-stylesheetlist-item-index-index",
@@ -2081,7 +2205,8 @@
         "title": "The StyleSheetList Interface",
         "number": "6.2.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-stylesheetlist-item",
@@ -2102,7 +2227,8 @@
         "title": "The StyleSheetList Interface",
         "number": "6.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-stylesheetlist-length",
@@ -2123,7 +2249,8 @@
         "title": "The StyleSheetList Interface",
         "number": "6.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-documentorshadowroot-stylesheets",
@@ -2144,7 +2271,8 @@
         "title": "Extensions to the DocumentOrShadowRoot Interface Mixin",
         "number": "6.2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-documentorshadowroot-adoptedstylesheets",
@@ -2165,7 +2293,8 @@
         "title": "Extensions to the DocumentOrShadowRoot Interface Mixin",
         "number": "6.2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "fetch-a-css-style-sheet",
@@ -2184,7 +2313,8 @@
         "title": "Fetching CSS style sheets",
         "number": "6.3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "associated-css-style-sheet",
@@ -2203,7 +2333,8 @@
         "title": "The LinkStyle Interface",
         "number": "6.3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "linkstyle",
@@ -2222,7 +2353,8 @@
         "title": "The LinkStyle Interface",
         "number": "6.3.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-linkstyle-sheet",
@@ -2243,7 +2375,8 @@
         "title": "The LinkStyle Interface",
         "number": "6.3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "prolog",
@@ -2262,7 +2395,8 @@
         "title": "Requirements on user agents Implementing the xml-stylesheet processing instruction",
         "number": "6.3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "css-rule",
@@ -2281,7 +2415,8 @@
         "title": "CSS Rules",
         "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "concept-css-rule-type",
@@ -2302,7 +2437,8 @@
         "title": "CSS Rules",
         "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "concept-css-rule-text",
@@ -2323,7 +2459,8 @@
         "title": "CSS Rules",
         "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "concept-css-rule-parent-css-rule",
@@ -2344,7 +2481,8 @@
         "title": "CSS Rules",
         "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "concept-css-rule-parent-css-style-sheet",
@@ -2365,7 +2503,8 @@
         "title": "CSS Rules",
         "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "concept-css-rule-child-css-rules",
@@ -2378,7 +2517,7 @@
       "for": [
         "CSSRule"
       ],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "css-rules",
@@ -2386,7 +2525,8 @@
         "title": "CSS Rules",
         "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "parse-a-css-rule",
@@ -2405,7 +2545,8 @@
         "title": "CSS Rules",
         "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "serialize-a-css-rule",
@@ -2424,7 +2565,8 @@
         "title": "CSS Rules",
         "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "insert-a-css-rule",
@@ -2443,7 +2585,8 @@
         "title": "CSS Rules",
         "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "remove-a-css-rule",
@@ -2462,7 +2605,8 @@
         "title": "CSS Rules",
         "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "cssrulelist",
@@ -2481,7 +2625,8 @@
         "title": "The CSSRuleList Interface",
         "number": "6.4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssrulelist-item-index-index",
@@ -2502,7 +2647,8 @@
         "title": "The CSSRuleList Interface",
         "number": "6.4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssrulelist-item",
@@ -2523,7 +2669,8 @@
         "title": "The CSSRuleList Interface",
         "number": "6.4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-cssrulelist-length",
@@ -2544,7 +2691,8 @@
         "title": "The CSSRuleList Interface",
         "number": "6.4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "cssrule",
@@ -2563,7 +2711,8 @@
         "title": "The CSSRule Interface",
         "number": "6.4.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssrule-style_rule",
@@ -2584,7 +2733,8 @@
         "title": "The CSSRule Interface",
         "number": "6.4.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssrule-charset_rule",
@@ -2605,7 +2755,8 @@
         "title": "The CSSRule Interface",
         "number": "6.4.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssrule-import_rule",
@@ -2626,7 +2777,8 @@
         "title": "The CSSRule Interface",
         "number": "6.4.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssrule-media_rule",
@@ -2647,7 +2799,8 @@
         "title": "The CSSRule Interface",
         "number": "6.4.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssrule-font_face_rule",
@@ -2668,7 +2821,8 @@
         "title": "The CSSRule Interface",
         "number": "6.4.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssrule-page_rule",
@@ -2689,7 +2843,8 @@
         "title": "The CSSRule Interface",
         "number": "6.4.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssrule-margin_rule",
@@ -2710,7 +2865,8 @@
         "title": "The CSSRule Interface",
         "number": "6.4.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssrule-namespace_rule",
@@ -2731,7 +2887,8 @@
         "title": "The CSSRule Interface",
         "number": "6.4.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssrule-csstext",
@@ -2752,7 +2909,8 @@
         "title": "The CSSRule Interface",
         "number": "6.4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-cssrule-parentrule",
@@ -2773,7 +2931,8 @@
         "title": "The CSSRule Interface",
         "number": "6.4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-cssrule-parentstylesheet",
@@ -2794,7 +2953,8 @@
         "title": "The CSSRule Interface",
         "number": "6.4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-cssrule-type",
@@ -2815,7 +2975,8 @@
         "title": "The CSSRule Interface",
         "number": "6.4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "cssstylerule",
@@ -2834,7 +2995,8 @@
         "title": "The CSSStyleRule Interface",
         "number": "6.4.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssstylerule-selectortext",
@@ -2855,7 +3017,8 @@
         "title": "The CSSStyleRule Interface",
         "number": "6.4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-cssstylerule-style",
@@ -2876,7 +3039,8 @@
         "title": "The CSSStyleRule Interface",
         "number": "6.4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "concept-declarations-specified-order",
@@ -2895,7 +3059,8 @@
         "title": "The CSSStyleRule Interface",
         "number": "6.4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "cssimportrule",
@@ -2914,7 +3079,8 @@
         "title": "The CSSImportRule Interface",
         "number": "6.4.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssimportrule-href",
@@ -2935,7 +3101,8 @@
         "title": "The CSSImportRule Interface",
         "number": "6.4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-cssimportrule-media",
@@ -2956,7 +3123,8 @@
         "title": "The CSSImportRule Interface",
         "number": "6.4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-cssimportrule-stylesheet",
@@ -2977,7 +3145,8 @@
         "title": "The CSSImportRule Interface",
         "number": "6.4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-cssimportrule-layername",
@@ -2998,7 +3167,8 @@
         "title": "The CSSImportRule Interface",
         "number": "6.4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-cssimportrule-supportstext",
@@ -3019,7 +3189,8 @@
         "title": "The CSSImportRule Interface",
         "number": "6.4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "cssgroupingrule",
@@ -3038,7 +3209,8 @@
         "title": "The CSSGroupingRule Interface",
         "number": "6.4.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssgroupingrule-insertrule-rule-index-rule",
@@ -3060,7 +3232,8 @@
         "title": "The CSSGroupingRule Interface",
         "number": "6.4.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssgroupingrule-insertrule-rule-index-index",
@@ -3082,7 +3255,8 @@
         "title": "The CSSGroupingRule Interface",
         "number": "6.4.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssgroupingrule-deleterule-index-index",
@@ -3103,7 +3277,8 @@
         "title": "The CSSGroupingRule Interface",
         "number": "6.4.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssgroupingrule-cssrules",
@@ -3124,7 +3299,8 @@
         "title": "The CSSGroupingRule Interface",
         "number": "6.4.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-cssgroupingrule-insertrule",
@@ -3146,7 +3322,8 @@
         "title": "The CSSGroupingRule Interface",
         "number": "6.4.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-cssgroupingrule-deleterule",
@@ -3167,7 +3344,8 @@
         "title": "The CSSGroupingRule Interface",
         "number": "6.4.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "parse-a-list-of-css-page-selectors",
@@ -3186,7 +3364,8 @@
         "title": "The CSSPageRule Interface",
         "number": "6.4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "serialize-a-list-of-css-page-selectors",
@@ -3205,7 +3384,8 @@
         "title": "The CSSPageRule Interface",
         "number": "6.4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "csspagedescriptors",
@@ -3224,7 +3404,8 @@
         "title": "The CSSPageRule Interface",
         "number": "6.4.7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspagedescriptors-margin",
@@ -3245,7 +3426,8 @@
         "title": "The CSSPageRule Interface",
         "number": "6.4.7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspagedescriptors-margintop",
@@ -3266,7 +3448,8 @@
         "title": "The CSSPageRule Interface",
         "number": "6.4.7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspagedescriptors-marginright",
@@ -3287,7 +3470,8 @@
         "title": "The CSSPageRule Interface",
         "number": "6.4.7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspagedescriptors-marginbottom",
@@ -3308,7 +3492,8 @@
         "title": "The CSSPageRule Interface",
         "number": "6.4.7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspagedescriptors-marginleft",
@@ -3329,7 +3514,8 @@
         "title": "The CSSPageRule Interface",
         "number": "6.4.7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspagedescriptors-margin-top",
@@ -3350,7 +3536,8 @@
         "title": "The CSSPageRule Interface",
         "number": "6.4.7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspagedescriptors-margin-right",
@@ -3371,7 +3558,8 @@
         "title": "The CSSPageRule Interface",
         "number": "6.4.7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspagedescriptors-margin-bottom",
@@ -3392,7 +3580,8 @@
         "title": "The CSSPageRule Interface",
         "number": "6.4.7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspagedescriptors-margin-left",
@@ -3413,7 +3602,8 @@
         "title": "The CSSPageRule Interface",
         "number": "6.4.7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspagedescriptors-size",
@@ -3434,7 +3624,8 @@
         "title": "The CSSPageRule Interface",
         "number": "6.4.7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspagedescriptors-pageorientation",
@@ -3455,7 +3646,8 @@
         "title": "The CSSPageRule Interface",
         "number": "6.4.7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspagedescriptors-page-orientation",
@@ -3476,7 +3668,8 @@
         "title": "The CSSPageRule Interface",
         "number": "6.4.7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspagedescriptors-marks",
@@ -3497,7 +3690,8 @@
         "title": "The CSSPageRule Interface",
         "number": "6.4.7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspagedescriptors-bleed",
@@ -3518,7 +3712,8 @@
         "title": "The CSSPageRule Interface",
         "number": "6.4.7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "csspagerule",
@@ -3537,7 +3732,8 @@
         "title": "The CSSPageRule Interface",
         "number": "6.4.7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspagerule-selectortext",
@@ -3558,7 +3754,8 @@
         "title": "The CSSPageRule Interface",
         "number": "6.4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-csspagerule-style",
@@ -3579,7 +3776,8 @@
         "title": "The CSSPageRule Interface",
         "number": "6.4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "cssmarginrule",
@@ -3598,7 +3796,8 @@
         "title": "The CSSMarginRule Interface",
         "number": "6.4.8"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssmarginrule-name",
@@ -3619,7 +3818,8 @@
         "title": "The CSSMarginRule Interface",
         "number": "6.4.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-cssmarginrule-style",
@@ -3640,7 +3840,8 @@
         "title": "The CSSMarginRule Interface",
         "number": "6.4.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "cssnamespacerule",
@@ -3659,7 +3860,8 @@
         "title": "The CSSNamespaceRule Interface",
         "number": "6.4.9"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssnamespacerule-namespaceuri",
@@ -3680,7 +3882,8 @@
         "title": "The CSSNamespaceRule Interface",
         "number": "6.4.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-cssnamespacerule-prefix",
@@ -3701,7 +3904,8 @@
         "title": "The CSSNamespaceRule Interface",
         "number": "6.4.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "css-declaration",
@@ -3720,7 +3924,8 @@
         "title": "CSS Declarations",
         "number": "6.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "css-declaration-property-name",
@@ -3733,7 +3938,7 @@
       "for": [
         "CSS declaration"
       ],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "css-declarations",
@@ -3741,7 +3946,8 @@
         "title": "CSS Declarations",
         "number": "6.5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "css-declaration-value",
@@ -3754,7 +3960,7 @@
       "for": [
         "CSS declaration"
       ],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "css-declarations",
@@ -3762,7 +3968,8 @@
         "title": "CSS Declarations",
         "number": "6.5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "css-declaration-important-flag",
@@ -3775,7 +3982,7 @@
       "for": [
         "CSS declaration"
       ],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "css-declarations",
@@ -3783,7 +3990,8 @@
         "title": "CSS Declarations",
         "number": "6.5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "css-declaration-case-sensitive-flag",
@@ -3796,7 +4004,7 @@
       "for": [
         "CSS declaration"
       ],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "css-declarations",
@@ -3804,7 +4012,8 @@
         "title": "CSS Declarations",
         "number": "6.5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "css-declaration-block",
@@ -3823,7 +4032,8 @@
         "title": "CSS Declaration Blocks",
         "number": "6.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "cssstyledeclaration-computed-flag",
@@ -3844,7 +4054,8 @@
         "title": "CSS Declaration Blocks",
         "number": "6.6"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "cssstyledeclaration-readonly-flag",
@@ -3865,7 +4076,8 @@
         "title": "CSS Declaration Blocks",
         "number": "6.6"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "cssstyledeclaration-declarations",
@@ -3886,7 +4098,8 @@
         "title": "CSS Declaration Blocks",
         "number": "6.6"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "cssstyledeclaration-parent-css-rule",
@@ -3907,7 +4120,8 @@
         "title": "CSS Declaration Blocks",
         "number": "6.6"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "cssstyledeclaration-owner-node",
@@ -3928,7 +4142,8 @@
         "title": "CSS Declaration Blocks",
         "number": "6.6"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "cssstyledeclaration-updating-flag",
@@ -3949,7 +4164,8 @@
         "title": "CSS Declaration Blocks",
         "number": "6.6"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "parse-a-css-declaration-block",
@@ -3968,7 +4184,8 @@
         "title": "CSS Declaration Blocks",
         "number": "6.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "serialize-a-css-declaration",
@@ -3987,7 +4204,8 @@
         "title": "CSS Declaration Blocks",
         "number": "6.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "serialize-a-css-declaration-block",
@@ -4006,7 +4224,48 @@
         "title": "CSS Declaration Blocks",
         "number": "6.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "serialize-into-a-shorthand-form",
+      "href": "https://drafts.csswg.org/cssom-1/#serialize-into-a-shorthand-form",
+      "linkingText": [
+        "serialize into a shorthand form"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "css-declaration-blocks",
+        "href": "https://drafts.csswg.org/cssom-1/#css-declaration-blocks",
+        "title": "CSS Declaration Blocks",
+        "number": "6.6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "intermixed-properties",
+      "href": "https://drafts.csswg.org/cssom-1/#intermixed-properties",
+      "linkingText": [
+        "intermixed properties"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "css-declaration-blocks",
+        "href": "https://drafts.csswg.org/cssom-1/#css-declaration-blocks",
+        "title": "CSS Declaration Blocks",
+        "number": "6.6"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "update-style-attribute-for",
@@ -4025,13 +4284,14 @@
         "title": "CSS Declaration Blocks",
         "number": "6.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "concept-shorthands-preferred-order",
       "href": "https://drafts.csswg.org/cssom-1/#concept-shorthands-preferred-order",
       "linkingText": [
-        "preferred order"
+        "preferred shorthand order"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -4044,7 +4304,8 @@
         "title": "CSS Declaration Blocks",
         "number": "6.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "cssstyledeclaration",
@@ -4063,7 +4324,8 @@
         "title": "The CSSStyleDeclaration Interface",
         "number": "6.6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssstyledeclaration-item-index-index",
@@ -4084,7 +4346,8 @@
         "title": "The CSSStyleDeclaration Interface",
         "number": "6.6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssstyledeclaration-getpropertyvalue-property-property",
@@ -4105,7 +4368,8 @@
         "title": "The CSSStyleDeclaration Interface",
         "number": "6.6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssstyledeclaration-getpropertypriority-property-property",
@@ -4126,7 +4390,8 @@
         "title": "The CSSStyleDeclaration Interface",
         "number": "6.6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssstyledeclaration-setproperty-property-value-priority-property",
@@ -4148,7 +4413,8 @@
         "title": "The CSSStyleDeclaration Interface",
         "number": "6.6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssstyledeclaration-setproperty-property-value-priority-value",
@@ -4170,7 +4436,8 @@
         "title": "The CSSStyleDeclaration Interface",
         "number": "6.6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssstyledeclaration-setproperty-property-value-priority-priority",
@@ -4192,7 +4459,8 @@
         "title": "The CSSStyleDeclaration Interface",
         "number": "6.6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssstyledeclaration-removeproperty-property-property",
@@ -4213,7 +4481,8 @@
         "title": "The CSSStyleDeclaration Interface",
         "number": "6.6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "cssstyleproperties",
@@ -4232,7 +4501,8 @@
         "title": "The CSSStyleDeclaration Interface",
         "number": "6.6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssstyledeclaration-csstext",
@@ -4253,7 +4523,8 @@
         "title": "The CSSStyleDeclaration Interface",
         "number": "6.6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-cssstyledeclaration-length",
@@ -4274,7 +4545,8 @@
         "title": "The CSSStyleDeclaration Interface",
         "number": "6.6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-cssstyledeclaration-item",
@@ -4295,7 +4567,8 @@
         "title": "The CSSStyleDeclaration Interface",
         "number": "6.6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-cssstyledeclaration-getpropertyvalue",
@@ -4316,7 +4589,8 @@
         "title": "The CSSStyleDeclaration Interface",
         "number": "6.6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-cssstyledeclaration-getpropertypriority",
@@ -4337,7 +4611,8 @@
         "title": "The CSSStyleDeclaration Interface",
         "number": "6.6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-cssstyledeclaration-setproperty",
@@ -4359,7 +4634,8 @@
         "title": "The CSSStyleDeclaration Interface",
         "number": "6.6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "set-a-css-declaration",
@@ -4378,7 +4654,8 @@
         "title": "The CSSStyleDeclaration Interface",
         "number": "6.6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-cssstyledeclaration-removeproperty",
@@ -4399,7 +4676,8 @@
         "title": "The CSSStyleDeclaration Interface",
         "number": "6.6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-cssstyledeclaration-parentrule",
@@ -4420,7 +4698,8 @@
         "title": "The CSSStyleDeclaration Interface",
         "number": "6.6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-cssstyleproperties-cssfloat",
@@ -4441,18 +4720,19 @@
         "title": "The CSSStyleDeclaration Interface",
         "number": "6.6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "dom-cssstyledeclaration-camel-cased-attribute",
-      "href": "https://drafts.csswg.org/cssom-1/#dom-cssstyledeclaration-camel-cased-attribute",
+      "id": "dom-cssstyleproperties-camel-cased-attribute",
+      "href": "https://drafts.csswg.org/cssom-1/#dom-cssstyleproperties-camel-cased-attribute",
       "linkingText": [
         "camel-cased attribute"
       ],
       "localLinkingText": [],
       "type": "attribute",
       "for": [
-        "CSSStyleDeclaration"
+        "CSSStyleProperties"
       ],
       "access": "public",
       "informative": false,
@@ -4462,7 +4742,8 @@
         "title": "The CSSStyleDeclaration Interface",
         "number": "6.6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-cssstyleproperties-camel_cased_attribute",
@@ -4483,7 +4764,8 @@
         "title": "The CSSStyleDeclaration Interface",
         "number": "6.6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssstyleproperties-webkit_cased_attribute",
@@ -4504,7 +4786,8 @@
         "title": "The CSSStyleDeclaration Interface",
         "number": "6.6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssstyleproperties-webkit-cased-attribute",
@@ -4525,7 +4808,8 @@
         "title": "The CSSStyleDeclaration Interface",
         "number": "6.6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-cssstyleproperties-dashed_attribute",
@@ -4546,7 +4830,8 @@
         "title": "The CSSStyleDeclaration Interface",
         "number": "6.6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssstyleproperties-dashed-attribute",
@@ -4567,7 +4852,8 @@
         "title": "The CSSStyleDeclaration Interface",
         "number": "6.6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "css-property-to-idl-attribute",
@@ -4586,7 +4872,8 @@
         "title": "The CSSStyleDeclaration Interface",
         "number": "6.6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "idl-attribute-to-css-property",
@@ -4605,7 +4892,8 @@
         "title": "The CSSStyleDeclaration Interface",
         "number": "6.6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "parse-a-css-value",
@@ -4624,7 +4912,8 @@
         "title": "Parsing CSS Values",
         "number": "6.7.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "serialize-a-css-value",
@@ -4643,7 +4932,8 @@
         "title": "Serializing CSS Values",
         "number": "6.7.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "serialize-a-css-component-value",
@@ -4662,7 +4952,8 @@
         "title": "Serializing CSS Values",
         "number": "6.7.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "elementcssinlinestyle",
@@ -4681,7 +4972,8 @@
         "title": "The ElementCSSInlineStyle Mixin",
         "number": "7.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-elementcssinlinestyle-style",
@@ -4702,7 +4994,8 @@
         "title": "The ElementCSSInlineStyle Mixin",
         "number": "7.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-window-getcomputedstyle-elt-pseudoelt-elt",
@@ -4724,7 +5017,8 @@
         "title": "Extensions to the Window Interface",
         "number": "7.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-window-getcomputedstyle-elt-pseudoelt-pseudoelt",
@@ -4746,7 +5040,8 @@
         "title": "Extensions to the Window Interface",
         "number": "7.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-window-getcomputedstyle",
@@ -4768,7 +5063,8 @@
         "title": "Extensions to the Window Interface",
         "number": "7.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "namespacedef-css",
@@ -4787,7 +5083,8 @@
         "title": "The CSS.escape() Method",
         "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-css-escape-ident-ident",
@@ -4808,7 +5105,8 @@
         "title": "The CSS.escape() Method",
         "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-css-escape",
@@ -4829,7 +5127,8 @@
         "title": "The CSS.escape() Method",
         "number": "8.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "resolved-value",
@@ -4848,7 +5147,8 @@
         "title": "Resolved Values",
         "number": "9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "resolved-value-special-case-property-like-color",
@@ -4867,7 +5167,8 @@
         "title": "Resolved Values",
         "number": "9"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "resolved-value-special-case-property-like-height",
@@ -4886,7 +5187,8 @@
         "title": "Resolved Values",
         "number": "9"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "resolved-value-special-case-property-like-top",
@@ -4905,7 +5207,8 @@
         "title": "Resolved Values",
         "number": "9"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "resolved-value-special-case-property",
@@ -4924,7 +5227,8 @@
         "title": "Resolved Values",
         "number": "9"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "http-default-style",
@@ -4943,7 +5247,8 @@
         "title": "Default-Style",
         "number": "10.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

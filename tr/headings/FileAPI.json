@@ -26,7 +26,10 @@
       "id": "toc",
       "href": "https://www.w3.org/TR/FileAPI/#toc",
       "level": 2,
-      "title": "Table of Contents"
+      "title": "Table of Contents",
+      "alternateIds": [
+        "contents"
+      ]
     },
     {
       "id": "intro",
@@ -111,6 +114,13 @@
       "level": 4,
       "title": "The bytes() method",
       "number": "3.3.5"
+    },
+    {
+      "id": "text-stream-method-algo",
+      "href": "https://www.w3.org/TR/FileAPI/#text-stream-method-algo",
+      "level": 4,
+      "title": "The textStream() method",
+      "number": "3.3.6"
     },
     {
       "id": "file-section",
@@ -463,7 +473,7 @@
       "id": "informative",
       "href": "https://www.w3.org/TR/FileAPI/#informative",
       "level": 3,
-      "title": "Informative References"
+      "title": "Non-Normative References"
     },
     {
       "id": "idl-index",

@@ -12,8 +12,8 @@
       "https://html.spec.whatwg.org/multipage/": {},
       "https://infra.spec.whatwg.org/": {},
       "https://streams.spec.whatwg.org/": {},
+      "https://w3c.github.io/element-timing/": {},
       "https://webidl.spec.whatwg.org/": {},
-      "https://wicg.github.io/element-timing/": {},
       "https://www.w3.org/TR/": {},
       "https://www.w3.org/TR/css-backgrounds-3/": {},
       "https://www.w3.org/TR/css-box-4/": {},
@@ -21,12 +21,13 @@
       "https://www.w3.org/TR/css-color-4/": {},
       "https://www.w3.org/TR/css-images-3/": {},
       "https://www.w3.org/TR/css-text-decor-4/": {},
+      "https://www.w3.org/TR/css-values-4/": {},
+      "https://www.w3.org/TR/css-viewport-1/": {},
       "https://www.w3.org/TR/cssom-view-1/": {},
       "https://www.w3.org/TR/event-timing/": {},
       "https://www.w3.org/TR/fill-stroke-3/": {},
       "https://www.w3.org/TR/geometry-1/": {},
       "https://www.w3.org/TR/hr-time-3/": {},
-      "https://www.w3.org/TR/largest-contentful-paint/": {},
       "https://www.w3.org/TR/paint-timing/": {},
       "https://www.w3.org/TR/performance-timeline/": {},
       "https://www.w3.org/groups/wg/webperf": {},
@@ -37,7 +38,7 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {
+      "https://www.w3.org/policies/process/20250818/": {
         "anchors": [
           "recs-and-notes"
         ]
@@ -54,7 +55,7 @@
           "dom-event-type",
           "dom-event-istrusted",
           "text",
-          "boundary-point-node",
+          "concept-node",
           "concept-document",
           "dom-element-id"
         ]
@@ -64,7 +65,7 @@
           "transparent"
         ]
       },
-      "https://drafts.csswg.org/cssom-view/": {
+      "https://drafts.csswg.org/css-viewport/": {
         "anchors": [
           "visual-viewport"
         ]
@@ -72,8 +73,8 @@
       "https://fetch.spec.whatwg.org/": {
         "anchors": [
           "concept-request",
-          "concept-response",
           "request",
+          "concept-response",
           "dom-request-url"
         ]
       },
@@ -99,11 +100,7 @@
         "anchors": [
           "struct",
           "ordered-set",
-          "tuple",
-          "list-iterate",
-          "list-contain",
-          "set-append",
-          "ordered-map"
+          "list-iterate"
         ]
       },
       "https://streams.spec.whatwg.org/": {
@@ -132,12 +129,12 @@
       },
       "https://w3c.github.io/performance-timeline/": {
         "anchors": [
+          "supportedentrytypes-attribute",
           "the-performanceentry-interface",
           "dom-performanceentry-entrytype",
           "dom-performanceentry-name",
           "dom-performanceentry-starttime",
           "dom-performanceentry-duration",
-          "supportedentrytypes-attribute",
           "dfn-queue-a-performanceentry"
         ]
       },
@@ -189,6 +186,11 @@
           "propdef-text-shadow"
         ]
       },
+      "https://www.w3.org/TR/css-values-4/": {
+        "anchors": [
+          "number"
+        ]
+      },
       "https://www.w3.org/TR/cssom-view-1/": {
         "anchors": [
           "eventdef-document-scroll"
@@ -207,9 +209,9 @@
           "dom-domrectreadonly-height"
         ]
       },
-      "https://www.w3.org/TR/largest-contentful-paint/": {
+      "https://www.w3.org/TR/paint-timing/": {
         "anchors": [
-          "dom-largestcontentfulpaint-rendertime"
+          "mark-paint-timing"
         ]
       }
     }

@@ -1,14 +1,10 @@
 {
   "spec": {
-    "title": "No-Vary-Search",
+    "title": "The No-Vary-Search HTTP Caching Extension",
     "url": "https://httpwg.org/http-extensions/draft-ietf-httpbis-no-vary-search.html"
   },
   "refs": {
     "normative": [
-      {
-        "name": "FETCH",
-        "url": "https://fetch.spec.whatwg.org/"
-      },
       {
         "name": "HTTP",
         "url": "https://www.rfc-editor.org/rfc/rfc9110"
@@ -27,7 +23,11 @@
       },
       {
         "name": "STRUCTURED-FIELDS",
-        "url": "https://www.rfc-editor.org/rfc/rfc8941"
+        "url": "https://www.rfc-editor.org/rfc/rfc9651"
+      },
+      {
+        "name": "URI",
+        "url": "https://www.rfc-editor.org/rfc/rfc3986"
       },
       {
         "name": "WHATWG-ENCODING",
@@ -50,6 +50,18 @@
       {
         "name": "NAV-TRACKING-MITIGATIONS",
         "url": "https://privacycg.github.io/nav-tracking-mitigations/"
+      },
+      {
+        "name": "ORIGIN",
+        "url": "https://www.rfc-editor.org/rfc/rfc6454"
+      },
+      {
+        "name": "RFC6943",
+        "url": "https://www.rfc-editor.org/rfc/rfc6943"
+      },
+      {
+        "name": "RFC8126",
+        "url": "https://www.rfc-editor.org/rfc/rfc8126"
       }
     ]
   }

@@ -6,6 +6,10 @@
   "refs": {
     "normative": [
       {
+        "name": "CSS-BORDERS-4",
+        "url": "https://drafts.csswg.org/css-borders-4/"
+      },
+      {
         "name": "CSS-BOX-4",
         "url": "https://drafts.csswg.org/css-box-4/"
       },
@@ -19,7 +23,7 @@
       },
       {
         "name": "CSS-MASKING-1",
-        "url": "https://drafts.fxtf.org/css-masking-1/"
+        "url": "https://drafts.csswg.org/css-masking-1/"
       },
       {
         "name": "CSS-OVERFLOW-3",
@@ -43,10 +47,6 @@
       },
       {
         "name": "CSS2",
-        "url": "https://drafts.csswg.org/css2/"
-      },
-      {
-        "name": "CSS22",
         "url": "https://drafts.csswg.org/css2/"
       },
       {
@@ -89,11 +89,11 @@
     "informative": [
       {
         "name": "CSS-FLEXBOX-1",
-        "url": "https://drafts.csswg.org/css-flexbox-1/"
+        "url": "https://drafts.csswg.org/css-flexbox/"
       },
       {
         "name": "CSS-GRID-1",
-        "url": "https://drafts.csswg.org/css-grid/"
+        "url": "https://drafts.csswg.org/css-grid-1/"
       },
       {
         "name": "CSS-POSITION-3",

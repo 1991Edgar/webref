@@ -26,7 +26,10 @@
       "id": "toc",
       "href": "https://webbluetoothcg.github.io/web-bluetooth/#toc",
       "level": 2,
-      "title": "Table of Contents"
+      "title": "Table of Contents",
+      "alternateIds": [
+        "contents"
+      ]
     },
     {
       "id": "introduction",
@@ -453,18 +456,74 @@
       "number": "12.2.3.2"
     },
     {
+      "id": "bluetooth-disableSimulation-command",
+      "href": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-disableSimulation-command",
+      "level": 5,
+      "title": "The bluetooth.disableSimulation Command",
+      "number": "12.2.3.3"
+    },
+    {
       "id": "bluetooth-simulateconnectedperipheral-command",
       "href": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulateconnectedperipheral-command",
       "level": 5,
       "title": "The bluetooth.simulatePreconnectedPeripheral Command",
-      "number": "12.2.3.3"
+      "number": "12.2.3.4"
     },
     {
       "id": "bluetooth-simulateadvertisement-command",
       "href": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulateadvertisement-command",
       "level": 5,
       "title": "The bluetooth.simulateAdvertisement Command",
-      "number": "12.2.3.4"
+      "number": "12.2.3.5"
+    },
+    {
+      "id": "bluetooth-simulategattconnectionresponse-command",
+      "href": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulategattconnectionresponse-command",
+      "level": 5,
+      "title": "The bluetooth.simulateGattConnectionResponse Command",
+      "number": "12.2.3.6"
+    },
+    {
+      "id": "bluetooth-simulategattdisconnection-command",
+      "href": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulategattdisconnection-command",
+      "level": 5,
+      "title": "The bluetooth.simulateGattDisconnection Command",
+      "number": "12.2.3.7"
+    },
+    {
+      "id": "bluetooth-simulateservice-command",
+      "href": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulateservice-command",
+      "level": 5,
+      "title": "The bluetooth.simulateService Command",
+      "number": "12.2.3.8"
+    },
+    {
+      "id": "bluetooth-simulatecharacteristic-command",
+      "href": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatecharacteristic-command",
+      "level": 5,
+      "title": "The bluetooth.simulateCharacteristic Command",
+      "number": "12.2.3.9"
+    },
+    {
+      "id": "bluetooth-simulatecharacteristicresponse-command",
+      "href": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatecharacteristicresponse-command",
+      "level": 5,
+      "title": "The bluetooth.simulateCharacteristicResponse Command",
+      "number": "12.2.3.10"
+    },
+    {
+      "id": "bluetooth-simulatedescriptor-command",
+      "href": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatedescriptor-command",
+      "level": 5,
+      "title": "The bluetooth.simulateDescriptor Command",
+      "number": "12.2.3.11"
+    },
+    {
+      "id": "bluetooth-simulatedescriptorresponse-command",
+      "href": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-simulatedescriptorresponse-command",
+      "level": 5,
+      "title": "The bluetooth.simulateDescriptorResponse Command",
+      "number": "12.2.3.12"
     },
     {
       "id": "bidi-events",
@@ -479,6 +538,27 @@
       "level": 5,
       "title": "The bluetooth.requestDevicePromptUpdated Event",
       "number": "12.2.4.1"
+    },
+    {
+      "id": "bluetooth-gattConnectionAttempted-event",
+      "href": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-gattConnectionAttempted-event",
+      "level": 5,
+      "title": "The bluetooth.gattConnectionAttempted Event",
+      "number": "12.2.4.2"
+    },
+    {
+      "id": "bluetooth-characteristiceventgenerated-event",
+      "href": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-characteristiceventgenerated-event",
+      "level": 5,
+      "title": "The bluetooth.characteristicEventGenerated Event",
+      "number": "12.2.4.3"
+    },
+    {
+      "id": "bluetooth-descriptoreventgenerated-event",
+      "href": "https://webbluetoothcg.github.io/web-bluetooth/#bluetooth-descriptoreventgenerated-event",
+      "level": 5,
+      "title": "The bluetooth.descriptorEventGenerated Event",
+      "number": "12.2.4.4"
     },
     {
       "id": "terminology",
@@ -532,13 +612,19 @@
       "id": "informative",
       "href": "https://webbluetoothcg.github.io/web-bluetooth/#informative",
       "level": 3,
-      "title": "Informative References"
+      "title": "Non-Normative References"
     },
     {
       "id": "idl-index",
       "href": "https://webbluetoothcg.github.io/web-bluetooth/#idl-index",
       "level": 2,
       "title": "IDL Index"
+    },
+    {
+      "id": "cddl-index",
+      "href": "https://webbluetoothcg.github.io/web-bluetooth/#cddl-index",
+      "level": 2,
+      "title": "CDDL Index"
     },
     {
       "id": "issues-index",

@@ -5,6 +5,49 @@
   },
   "dfns": [
     {
+      "id": "mediastreamtrackhandle",
+      "href": "https://w3c.github.io/mediacapture-transform/#mediastreamtrackhandle",
+      "linkingText": [
+        "MediaStreamTrackHandle"
+      ],
+      "localLinkingText": [],
+      "type": "interface",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "track-processor-interface",
+        "href": "https://w3c.github.io/mediacapture-transform/#track-processor-interface",
+        "title": "Interface definition",
+        "number": "2.1.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-mediastreamtrackhandle-mediastreamtrackhandle-track-track",
+      "href": "https://w3c.github.io/mediacapture-transform/#dom-mediastreamtrackhandle-mediastreamtrackhandle-track-track",
+      "linkingText": [
+        "track"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "MediaStreamTrackHandle/MediaStreamTrackHandle(track)",
+        "MediaStreamTrackHandle/constructor(track)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "track-processor-interface",
+        "href": "https://w3c.github.io/mediacapture-transform/#track-processor-interface",
+        "title": "Interface definition",
+        "number": "2.1.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
       "id": "mediastreamtrackprocessor",
       "href": "https://w3c.github.io/mediacapture-transform/#mediastreamtrackprocessor",
       "linkingText": [
@@ -21,7 +64,8 @@
         "title": "Interface definition",
         "number": "2.1.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mediastreamtrackprocessor-mediastreamtrackprocessor-init-init",
@@ -38,11 +82,33 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-transform/#title",
-        "title": "MediaStreamTrack Insertable Media Processing using Streams"
+        "id": "track-processor-interface",
+        "href": "https://w3c.github.io/mediacapture-transform/#track-processor-interface",
+        "title": "Interface definition",
+        "number": "2.1.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "typedefdef-mediastreamtrackorhandle",
+      "href": "https://w3c.github.io/mediacapture-transform/#typedefdef-mediastreamtrackorhandle",
+      "linkingText": [
+        "MediaStreamTrackOrHandle"
+      ],
+      "localLinkingText": [],
+      "type": "typedef",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "track-processor-interface",
+        "href": "https://w3c.github.io/mediacapture-transform/#track-processor-interface",
+        "title": "Interface definition",
+        "number": "2.1.1"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-mediastreamtrackprocessorinit",
@@ -56,11 +122,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-transform/#title",
-        "title": "MediaStreamTrack Insertable Media Processing using Streams"
+        "id": "track-processor-interface",
+        "href": "https://w3c.github.io/mediacapture-transform/#track-processor-interface",
+        "title": "Interface definition",
+        "number": "2.1.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mediastreamtrackprocessorinit-track",
@@ -76,11 +144,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-transform/#title",
-        "title": "MediaStreamTrack Insertable Media Processing using Streams"
+        "id": "track-processor-interface",
+        "href": "https://w3c.github.io/mediacapture-transform/#track-processor-interface",
+        "title": "Interface definition",
+        "number": "2.1.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mediastreamtrackprocessorinit-maxbuffersize",
@@ -96,11 +166,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-transform/#title",
-        "title": "MediaStreamTrack Insertable Media Processing using Streams"
+        "id": "track-processor-interface",
+        "href": "https://w3c.github.io/mediacapture-transform/#track-processor-interface",
+        "title": "Interface definition",
+        "number": "2.1.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mediastreamtrackprocessor-track-slot",
@@ -121,7 +193,8 @@
         "title": "Internal slots",
         "number": "2.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-mediastreamtrackprocessor-maxbuffersize-slot",
@@ -142,7 +215,8 @@
         "title": "Internal slots",
         "number": "2.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-mediastreamtrackprocessor-queue-slot",
@@ -163,7 +237,8 @@
         "title": "Internal slots",
         "number": "2.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-mediastreamtrackprocessor-numpendingreads-slot",
@@ -184,7 +259,8 @@
         "title": "Internal slots",
         "number": "2.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-mediastreamtrackprocessor-isclosed-slot",
@@ -205,7 +281,52 @@
         "title": "Internal slots",
         "number": "2.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-mediastreamtrackprocessor-numdiscardedframes-slot",
+      "href": "https://w3c.github.io/mediacapture-transform/#dom-mediastreamtrackprocessor-numdiscardedframes-slot",
+      "linkingText": [
+        "[[numDiscardedFrames]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "MediaStreamTrackProcessor"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "internal-slots-processor",
+        "href": "https://w3c.github.io/mediacapture-transform/#internal-slots-processor",
+        "title": "Internal slots",
+        "number": "2.1.2"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-mediastreamtrackprocessor-numtotalframes-slot",
+      "href": "https://w3c.github.io/mediacapture-transform/#dom-mediastreamtrackprocessor-numtotalframes-slot",
+      "linkingText": [
+        "[[numTotalFrames]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "MediaStreamTrackProcessor"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "internal-slots-processor",
+        "href": "https://w3c.github.io/mediacapture-transform/#internal-slots-processor",
+        "title": "Internal slots",
+        "number": "2.1.2"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-mediastreamtrackprocessor-mediastreamtrackprocessor",
@@ -227,7 +348,8 @@
         "title": "Constructor",
         "number": "2.1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mediastreamtrackprocessor-readable",
@@ -248,7 +370,8 @@
         "title": "Attributes",
         "number": "2.1.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "processorpull",
@@ -262,11 +385,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-transform/#title",
-        "title": "MediaStreamTrack Insertable Media Processing using Streams"
+        "id": "attributes-processor",
+        "href": "https://w3c.github.io/mediacapture-transform/#attributes-processor",
+        "title": "Attributes",
+        "number": "2.1.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "maybereadframe",
@@ -280,11 +405,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-transform/#title",
-        "title": "MediaStreamTrack Insertable Media Processing using Streams"
+        "id": "attributes-processor",
+        "href": "https://w3c.github.io/mediacapture-transform/#attributes-processor",
+        "title": "Attributes",
+        "number": "2.1.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "processorcancel",
@@ -298,11 +425,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-transform/#title",
-        "title": "MediaStreamTrack Insertable Media Processing using Streams"
+        "id": "attributes-processor",
+        "href": "https://w3c.github.io/mediacapture-transform/#attributes-processor",
+        "title": "Attributes",
+        "number": "2.1.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "processorclose",
@@ -316,11 +445,57 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-transform/#title",
-        "title": "MediaStreamTrack Insertable Media Processing using Streams"
+        "id": "attributes-processor",
+        "href": "https://w3c.github.io/mediacapture-transform/#attributes-processor",
+        "title": "Attributes",
+        "number": "2.1.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-mediastreamtrackprocessor-discardedframes",
+      "href": "https://w3c.github.io/mediacapture-transform/#dom-mediastreamtrackprocessor-discardedframes",
+      "linkingText": [
+        "discardedFrames"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "MediaStreamTrackProcessor"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "attributes-processor",
+        "href": "https://w3c.github.io/mediacapture-transform/#attributes-processor",
+        "title": "Attributes",
+        "number": "2.1.4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-mediastreamtrackprocessor-totalframes",
+      "href": "https://w3c.github.io/mediacapture-transform/#dom-mediastreamtrackprocessor-totalframes",
+      "linkingText": [
+        "totalFrames"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "MediaStreamTrackProcessor"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "attributes-processor",
+        "href": "https://w3c.github.io/mediacapture-transform/#attributes-processor",
+        "title": "Attributes",
+        "number": "2.1.4"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "handlenewframe",
@@ -339,7 +514,31 @@
         "title": "Handling interaction with the track",
         "number": "2.1.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-mediastreamtrackhandle-mediastreamtrackhandle",
+      "href": "https://w3c.github.io/mediacapture-transform/#dom-mediastreamtrackhandle-mediastreamtrackhandle",
+      "linkingText": [
+        "MediaStreamTrackHandle(track)",
+        "constructor(track)"
+      ],
+      "localLinkingText": [],
+      "type": "constructor",
+      "for": [
+        "MediaStreamTrackHandle"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "mediastreamtrackhandle-constructor",
+        "href": "https://w3c.github.io/mediacapture-transform/#mediastreamtrackhandle-constructor",
+        "title": "Constructor",
+        "number": "2.1.7"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "videotrackgenerator",
@@ -358,7 +557,8 @@
         "title": "Interface definition",
         "number": "2.2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-videotrackgenerator-track-slot",
@@ -379,7 +579,8 @@
         "title": "Internal slots",
         "number": "2.2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-videotrackgenerator-ismuted-slot",
@@ -400,7 +601,8 @@
         "title": "Internal slots",
         "number": "2.2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-videotrackgenerator-videotrackgenerator",
@@ -422,7 +624,8 @@
         "title": "Constructor",
         "number": "2.2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-videotrackgenerator-writable",
@@ -443,7 +646,8 @@
         "title": "Attributes",
         "number": "2.2.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "writeframe",
@@ -457,11 +661,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-transform/#title",
-        "title": "MediaStreamTrack Insertable Media Processing using Streams"
+        "id": "video-generator-attributes",
+        "href": "https://w3c.github.io/mediacapture-transform/#video-generator-attributes",
+        "title": "Attributes",
+        "number": "2.2.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "closewritable",
@@ -475,11 +681,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-transform/#title",
-        "title": "MediaStreamTrack Insertable Media Processing using Streams"
+        "id": "video-generator-attributes",
+        "href": "https://w3c.github.io/mediacapture-transform/#video-generator-attributes",
+        "title": "Attributes",
+        "number": "2.2.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-videotrackgenerator-muted",
@@ -495,11 +703,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-transform/#title",
-        "title": "MediaStreamTrack Insertable Media Processing using Streams"
+        "id": "video-generator-attributes",
+        "href": "https://w3c.github.io/mediacapture-transform/#video-generator-attributes",
+        "title": "Attributes",
+        "number": "2.2.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-videotrackgenerator-track",
@@ -515,11 +725,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/mediacapture-transform/#title",
-        "title": "MediaStreamTrack Insertable Media Processing using Streams"
+        "id": "video-generator-attributes",
+        "href": "https://w3c.github.io/mediacapture-transform/#video-generator-attributes",
+        "title": "Attributes",
+        "number": "2.2.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     }
   ]
 }

@@ -26,7 +26,10 @@
       "id": "toc",
       "href": "https://drafts.csswg.org/css-ui-4/#toc",
       "level": 2,
-      "title": "Table of Contents"
+      "title": "Table of Contents",
+      "alternateIds": [
+        "contents"
+      ]
     },
     {
       "id": "intro",
@@ -134,15 +137,22 @@
       "number": "5.1.1"
     },
     {
+      "id": "predefined-cursors",
+      "href": "https://drafts.csswg.org/css-ui-4/#predefined-cursors",
+      "level": 5,
+      "title": "Predefined Cursors",
+      "number": "5.1.1.1"
+    },
+    {
       "id": "canvas_cursor",
       "href": "https://drafts.csswg.org/css-ui-4/#canvas_cursor",
       "level": 5,
       "title": "Cursor of the canvas",
-      "number": "5.1.1.1"
+      "number": "5.1.1.2"
     },
     {
-      "id": "insertion-caret",
-      "href": "https://drafts.csswg.org/css-ui-4/#insertion-caret",
+      "id": "the-insertion-caret",
+      "href": "https://drafts.csswg.org/css-ui-4/#the-insertion-caret",
       "level": 3,
       "title": "Insertion caret",
       "number": "5.2"
@@ -232,6 +242,20 @@
       "number": "6.2"
     },
     {
+      "id": "inertness",
+      "href": "https://drafts.csswg.org/css-ui-4/#inertness",
+      "level": 3,
+      "title": "Preventing All Interaction: the interactivity property",
+      "number": "6.3"
+    },
+    {
+      "id": "interest",
+      "href": "https://drafts.csswg.org/css-ui-4/#interest",
+      "level": 3,
+      "title": "User Interest Delay: the interest-delay-* properties",
+      "number": "6.4"
+    },
+    {
       "id": "styling-widgets",
       "href": "https://drafts.csswg.org/css-ui-4/#styling-widgets",
       "level": 2,
@@ -274,32 +298,32 @@
       "number": "7.2.3"
     },
     {
-      "id": "field-sizing",
-      "href": "https://drafts.csswg.org/css-ui-4/#field-sizing",
-      "level": 3,
-      "title": "Switching form control sizing: the field-sizing property",
-      "number": "7.3"
-    },
-    {
-      "id": "input-security",
-      "href": "https://drafts.csswg.org/css-ui-4/#input-security",
-      "level": 3,
-      "title": "Obscuring sensitive input: the input-security property",
-      "number": "7.4"
-    },
-    {
       "id": "control-specific-rules",
       "href": "https://drafts.csswg.org/css-ui-4/#control-specific-rules",
       "level": 3,
-      "title": "Control Specific Rules",
-      "number": "7.5"
+      "title": "Control-Specific Rules",
+      "number": "7.3"
     },
     {
       "id": "input-rules",
       "href": "https://drafts.csswg.org/css-ui-4/#input-rules",
       "level": 4,
       "title": "Single-Line Text Input Controls",
-      "number": "7.5.1"
+      "number": "7.3.1"
+    },
+    {
+      "id": "window-interaction",
+      "href": "https://drafts.csswg.org/css-ui-4/#window-interaction",
+      "level": 2,
+      "title": "Window Interaction",
+      "number": "8"
+    },
+    {
+      "id": "window-drag",
+      "href": "https://drafts.csswg.org/css-ui-4/#window-drag",
+      "level": 3,
+      "title": "Moving the window: the window-drag property",
+      "number": "8.1"
     },
     {
       "id": "acknowledgments",
@@ -346,18 +370,31 @@
       "title": "Changes from the 22 Sep 2015 First Public Working Draft"
     },
     {
-      "id": "security-privacy-considerations",
-      "href": "https://drafts.csswg.org/css-ui-4/#security-privacy-considerations",
+      "id": "changes-L3",
+      "href": "https://drafts.csswg.org/css-ui-4/#changes-L3",
+      "level": 3,
+      "title": "Changes from CSS UI Level 3"
+    },
+    {
+      "id": "privacy",
+      "href": "https://drafts.csswg.org/css-ui-4/#privacy",
       "level": 2,
-      "title": "Considerations for Security and Privacy",
+      "title": "Privacy Considerations",
       "number": "C"
+    },
+    {
+      "id": "security",
+      "href": "https://drafts.csswg.org/css-ui-4/#security",
+      "level": 2,
+      "title": "Security Considerations",
+      "number": "D"
     },
     {
       "id": "default-style-sheet",
       "href": "https://drafts.csswg.org/css-ui-4/#default-style-sheet",
       "level": 2,
       "title": "Default style sheet additions for HTML",
-      "number": "D"
+      "number": "E"
     },
     {
       "id": "w3c-conformance",
@@ -429,7 +466,7 @@
       "id": "informative",
       "href": "https://drafts.csswg.org/css-ui-4/#informative",
       "level": 3,
-      "title": "Informative References"
+      "title": "Non-Normative References"
     },
     {
       "id": "property-index",

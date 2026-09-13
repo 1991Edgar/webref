@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Writing Modes Level 3",
+    "title": "CSS Writing Modes Module Level 3",
     "url": "https://drafts.csswg.org/css-writing-modes-3/"
   },
   "links": {
@@ -57,7 +57,7 @@
       "https://drafts.csswg.org/css-contain-2/": {},
       "https://drafts.csswg.org/css-display-4/": {},
       "https://drafts.csswg.org/css-display/": {},
-      "https://drafts.csswg.org/css-flexbox-1/": {},
+      "https://drafts.csswg.org/css-flexbox/": {},
       "https://drafts.csswg.org/css-fonts-3/": {},
       "https://drafts.csswg.org/css-fonts-4/": {},
       "https://drafts.csswg.org/css-images-3/": {},
@@ -73,7 +73,6 @@
       "https://drafts.csswg.org/css-page-3/": {},
       "https://drafts.csswg.org/css-shapes/": {},
       "https://drafts.csswg.org/css-sizing-3/": {},
-      "https://drafts.csswg.org/css-tables-3/": {},
       "https://drafts.csswg.org/css-text-3/": {
         "anchors": [
           "order"
@@ -103,11 +102,11 @@
       "https://lists.w3.org/Archives/Public/public-css-archive/": {},
       "https://lists.w3.org/Archives/Public/www-style/": {},
       "https://unicode.org/notes/tn22/": {},
-      "https://www.rfc-editor.org/rfc/rfc6919": {},
-      "https://www.unicode.org/reports/tr11/tr11-43.html": {},
-      "https://www.unicode.org/reports/tr24/tr24-38.html": {},
-      "https://www.unicode.org/reports/tr50/tr50-31.html": {},
-      "https://www.unicode.org/reports/tr9/tr9-50.html": {},
+      "https://www.rfc-editor.org/info/rfc6919/": {},
+      "https://www.unicode.org/reports/tr11/tr11-44.html": {},
+      "https://www.unicode.org/reports/tr24/tr24-39.html": {},
+      "https://www.unicode.org/reports/tr50/tr50-33.html": {},
+      "https://www.unicode.org/reports/tr9/tr9-51.html": {},
       "https://www.unicode.org/versions/latest/": {},
       "https://www.w3.org/Consortium/Process/": {
         "anchors": [
@@ -195,7 +194,7 @@
           "animation-type"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://drafts.csswg.org/css-backgrounds-3/": {
@@ -231,6 +230,7 @@
       },
       "https://drafts.csswg.org/css-display-4/": {
         "anchors": [
+          "propdef-display",
           "block-container",
           "valdef-display-inline",
           "replaced-element",
@@ -263,9 +263,9 @@
         "anchors": [
           "root-inline-box",
           "propdef-vertical-align",
-          "valdef-alignment-baseline-baseline",
           "valdef-baseline-shift-sub",
-          "valdef-baseline-shift-super"
+          "valdef-baseline-shift-super",
+          "central-baseline"
         ]
       },
       "https://drafts.csswg.org/css-multicol-2/": {
@@ -306,12 +306,6 @@
           "min-content-inline-size",
           "stretch-fit-inline-size",
           "definite"
-        ]
-      },
-      "https://drafts.csswg.org/css-tables-3/": {
-        "anchors": [
-          "propdef-border-spacing",
-          "propdef-caption-side"
         ]
       },
       "https://drafts.csswg.org/css-text-3/": {
@@ -355,9 +349,23 @@
       },
       "https://drafts.csswg.org/css2/": {
         "anchors": [
+          "valdef-vertical-align-baseline",
+          "propdef-border-spacing",
           "propdef-line-height",
+          "propdef-min-height",
+          "propdef-max-height",
+          "propdef-min-width",
+          "propdef-max-width",
+          "propdef-float",
+          "propdef-clear",
+          "propdef-top",
+          "propdef-bottom",
+          "propdef-left",
+          "propdef-right",
+          "propdef-caption-side",
           "valdef-caption-side-top",
-          "valdef-caption-side-bottom"
+          "valdef-caption-side-bottom",
+          "propdef-clip"
         ]
       },
       "https://drafts.csswg.org/mediaqueries-5/": {

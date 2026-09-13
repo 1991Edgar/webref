@@ -19,9 +19,10 @@
         "id": "sec-events-exposed",
         "href": "https://w3c.github.io/event-timing/#sec-events-exposed",
         "title": "Events exposed",
-        "number": "1.1"
+        "number": "1.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "performanceeventtiming",
@@ -40,7 +41,8 @@
         "title": "PerformanceEventTiming interface",
         "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-performanceeventtiming-target",
@@ -61,7 +63,8 @@
         "title": "PerformanceEventTiming interface",
         "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-performanceeventtiming-tojson",
@@ -82,47 +85,8 @@
         "title": "PerformanceEventTiming interface",
         "number": "2.1"
       },
-      "definedIn": "pre"
-    },
-    {
-      "id": "performanceeventtiming-eventtarget",
-      "href": "https://w3c.github.io/event-timing/#performanceeventtiming-eventtarget",
-      "linkingText": [
-        "eventTarget"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "PerformanceEventTiming"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "sec-performance-event-timing",
-        "href": "https://w3c.github.io/event-timing/#sec-performance-event-timing",
-        "title": "PerformanceEventTiming interface",
-        "number": "2.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "target",
-      "href": "https://w3c.github.io/event-timing/#target",
-      "linkingText": [
-        "target"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "sec-performance-event-timing",
-        "href": "https://w3c.github.io/event-timing/#sec-performance-event-timing",
-        "title": "PerformanceEventTiming interface",
-        "number": "2.1"
-      },
-      "definedIn": "prose"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "performanceeventtiming-associated-event",
@@ -136,14 +100,35 @@
         "PerformanceEventTiming"
       ],
       "access": "private",
-      "informative": true,
+      "informative": false,
       "heading": {
         "id": "sec-performance-event-timing",
         "href": "https://w3c.github.io/event-timing/#sec-performance-event-timing",
         "title": "PerformanceEventTiming interface",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "eventtarget",
+      "href": "https://w3c.github.io/event-timing/#eventtarget",
+      "linkingText": [
+        "eventTarget"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-performance-event-timing",
+        "href": "https://w3c.github.io/event-timing/#sec-performance-event-timing",
+        "title": "PerformanceEventTiming interface",
+        "number": "2.1"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-performanceeventtiming-processingstart",
@@ -164,7 +149,8 @@
         "title": "PerformanceEventTiming interface",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-performanceeventtiming-processingend",
@@ -185,7 +171,8 @@
         "title": "PerformanceEventTiming interface",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-performanceeventtiming-cancelable",
@@ -206,7 +193,30 @@
         "title": "PerformanceEventTiming interface",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-performanceeventtiming-targetselector",
+      "href": "https://w3c.github.io/event-timing/#dom-performanceeventtiming-targetselector",
+      "linkingText": [
+        "targetSelector"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "PerformanceEventTiming"
+      ],
+      "access": "public",
+      "informative": true,
+      "heading": {
+        "id": "sec-performance-event-timing",
+        "href": "https://w3c.github.io/event-timing/#sec-performance-event-timing",
+        "title": "PerformanceEventTiming interface",
+        "number": "2.1"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-performanceeventtiming-interactionid",
@@ -227,7 +237,30 @@
         "title": "PerformanceEventTiming interface",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-performanceeventtiming-interaction",
+      "href": "https://w3c.github.io/event-timing/#dom-performanceeventtiming-interaction",
+      "linkingText": [
+        "Interaction"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "PerformanceEventTiming"
+      ],
+      "access": "public",
+      "informative": true,
+      "heading": {
+        "id": "sec-performance-event-timing",
+        "href": "https://w3c.github.io/event-timing/#sec-performance-event-timing",
+        "title": "PerformanceEventTiming interface",
+        "number": "2.1"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "eventcounts",
@@ -246,7 +279,8 @@
         "title": "EventCounts interface",
         "number": "2.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-performance-eventcounts",
@@ -267,7 +301,8 @@
         "title": "Extensions to the Performance interface",
         "number": "2.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-performance-interactioncount",
@@ -288,7 +323,8 @@
         "title": "Extensions to the Performance interface",
         "number": "2.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "entries-to-be-queued",
@@ -307,26 +343,8 @@
         "title": "Modifications to the HTML specification",
         "number": "3.2"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "pending-first-pointer-down",
-      "href": "https://w3c.github.io/event-timing/#pending-first-pointer-down",
-      "linkingText": [
-        "pending first pointer down"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "sec-modifications-HTML",
-        "href": "https://w3c.github.io/event-timing/#sec-modifications-HTML",
-        "title": "Modifications to the HTML specification",
-        "number": "3.2"
-      },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "has-dispatched-input-event",
@@ -345,7 +363,8 @@
         "title": "Modifications to the HTML specification",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "user-interaction-value",
@@ -364,7 +383,8 @@
         "title": "Modifications to the HTML specification",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "pending-key-downs",
@@ -383,7 +403,8 @@
         "title": "Modifications to the HTML specification",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "pointer-interaction-value-map",
@@ -402,26 +423,8 @@
         "title": "Modifications to the HTML specification",
         "number": "3.2"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "pointer-is-drag-set",
-      "href": "https://w3c.github.io/event-timing/#pointer-is-drag-set",
-      "linkingText": [
-        "pointer is drag set"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "sec-modifications-HTML",
-        "href": "https://w3c.github.io/event-timing/#sec-modifications-HTML",
-        "title": "Modifications to the HTML specification",
-        "number": "3.2"
-      },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "pending-pointer-downs",
@@ -440,7 +443,28 @@
         "title": "Modifications to the HTML specification",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "is-contextmenu-triggered",
+      "href": "https://w3c.github.io/event-timing/#is-contextmenu-triggered",
+      "linkingText": [
+        "is contextmenu triggered"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-modifications-HTML",
+        "href": "https://w3c.github.io/event-timing/#sec-modifications-HTML",
+        "title": "Modifications to the HTML specification",
+        "number": "3.2"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "window-eventcounts",
@@ -461,7 +485,8 @@
         "title": "Modifications to the HTML specification",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "window-interactioncount",
@@ -482,7 +507,8 @@
         "title": "Modifications to the HTML specification",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-performanceobserverinit-durationthreshold",
@@ -503,7 +529,8 @@
         "title": "Modifications to the Performance Timeline specification",
         "number": "3.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "should-add-performanceeventtiming",
@@ -522,7 +549,8 @@
         "title": "Should add PerformanceEventTiming",
         "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "increase-interaction-count",
@@ -541,7 +569,8 @@
         "title": "Increasing interaction count",
         "number": "3.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "compute-interactionid",
@@ -560,7 +589,8 @@
         "title": "Computing interactionId",
         "number": "3.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "initialize-event-timing",
@@ -579,7 +609,8 @@
         "title": "Initialize event timing",
         "number": "3.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "finalize-event-timing",
@@ -598,7 +629,8 @@
         "title": "Finalize event timing",
         "number": "3.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dispatch-pending-event-timing-entries",
@@ -617,7 +649,8 @@
         "title": "Dispatch pending Event Timing entries",
         "number": "3.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "set-event-timing-entry-duration",
@@ -636,7 +669,28 @@
         "title": "Dispatch pending Event Timing entries",
         "number": "3.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "generate-a-css-selector",
+      "href": "https://w3c.github.io/event-timing/#generate-a-css-selector",
+      "linkingText": [
+        "generate a CSS selector"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-target-selectors",
+        "href": "https://w3c.github.io/event-timing/#sec-target-selectors",
+        "title": "Target Selectors",
+        "number": "3.10"
+      },
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

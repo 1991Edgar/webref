@@ -19,9 +19,10 @@
         "id": "store",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#store",
         "title": "Interaction of the WebAssembly Store with JavaScript",
-        "number": "3.1"
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "identified-with",
@@ -38,9 +39,10 @@
         "id": "store",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#store",
         "title": "Interaction of the WebAssembly Store with JavaScript",
-        "number": "3.1"
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "memory-object-cache",
@@ -57,9 +59,10 @@
         "id": "object-caches",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#object-caches",
         "title": "WebAssembly JS Object Caches",
-        "number": "3.2"
+        "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "table-object-cache",
@@ -76,9 +79,10 @@
         "id": "object-caches",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#object-caches",
         "title": "WebAssembly JS Object Caches",
-        "number": "3.2"
+        "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "exported-function-cache",
@@ -95,9 +99,30 @@
         "id": "object-caches",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#object-caches",
         "title": "WebAssembly JS Object Caches",
-        "number": "3.2"
+        "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "exported-gc-object-cache",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#exported-gc-object-cache",
+      "linkingText": [
+        "Exported GC Object cache"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "object-caches",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#object-caches",
+        "title": "WebAssembly JS Object Caches",
+        "number": "4.2"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "global-object-cache",
@@ -114,15 +139,16 @@
         "id": "object-caches",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#object-caches",
         "title": "WebAssembly JS Object Caches",
-        "number": "3.2"
+        "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "extern-value-cache",
-      "href": "https://webassembly.github.io/content-security-policy/js-api/#extern-value-cache",
+      "id": "tag-object-cache",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#tag-object-cache",
       "linkingText": [
-        "Extern value cache"
+        "Tag object cache"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -133,9 +159,50 @@
         "id": "object-caches",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#object-caches",
         "title": "WebAssembly JS Object Caches",
-        "number": "3.2"
+        "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "exception-object-cache",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#exception-object-cache",
+      "linkingText": [
+        "Exception object cache"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "object-caches",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#object-caches",
+        "title": "WebAssembly JS Object Caches",
+        "number": "4.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "host-value-cache",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#host-value-cache",
+      "linkingText": [
+        "Host value cache"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "object-caches",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#object-caches",
+        "title": "WebAssembly JS Object Caches",
+        "number": "4.2"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dictdef-webassemblyinstantiatedsource",
@@ -152,9 +219,10 @@
         "id": "webassembly-namespace",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#webassembly-namespace",
         "title": "The WebAssembly Namespace",
-        "number": "4"
+        "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webassemblyinstantiatedsource-module",
@@ -173,9 +241,10 @@
         "id": "webassembly-namespace",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#webassembly-namespace",
         "title": "The WebAssembly Namespace",
-        "number": "4"
+        "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webassemblyinstantiatedsource-instance",
@@ -194,9 +263,10 @@
         "id": "webassembly-namespace",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#webassembly-namespace",
         "title": "The WebAssembly Namespace",
-        "number": "4"
+        "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "namespacedef-webassembly",
@@ -213,9 +283,10 @@
         "id": "webassembly-namespace",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#webassembly-namespace",
         "title": "The WebAssembly Namespace",
-        "number": "4"
+        "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webassembly-validate-bytes-bytes",
@@ -234,9 +305,10 @@
         "id": "webassembly-namespace",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#webassembly-namespace",
         "title": "The WebAssembly Namespace",
-        "number": "4"
+        "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webassembly-compile-bytes-bytes",
@@ -255,9 +327,10 @@
         "id": "webassembly-namespace",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#webassembly-namespace",
         "title": "The WebAssembly Namespace",
-        "number": "4"
+        "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webassembly-instantiate-bytes-importobject-bytes",
@@ -277,9 +350,10 @@
         "id": "webassembly-namespace",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#webassembly-namespace",
         "title": "The WebAssembly Namespace",
-        "number": "4"
+        "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webassembly-instantiate-bytes-importobject-importobject",
@@ -299,9 +373,10 @@
         "id": "webassembly-namespace",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#webassembly-namespace",
         "title": "The WebAssembly Namespace",
-        "number": "4"
+        "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webassembly-instantiate-moduleobject-importobject-moduleobject",
@@ -321,9 +396,10 @@
         "id": "webassembly-namespace",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#webassembly-namespace",
         "title": "The WebAssembly Namespace",
-        "number": "4"
+        "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webassembly-instantiate-moduleobject-importobject-importobject",
@@ -343,9 +419,10 @@
         "id": "webassembly-namespace",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#webassembly-namespace",
         "title": "The WebAssembly Namespace",
-        "number": "4"
+        "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "compile-a-webassembly-module",
@@ -362,9 +439,10 @@
         "id": "webassembly-namespace",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#webassembly-namespace",
         "title": "The WebAssembly Namespace",
-        "number": "4"
+        "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-webassembly-validate",
@@ -383,9 +461,10 @@
         "id": "webassembly-namespace",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#webassembly-namespace",
         "title": "The WebAssembly Namespace",
-        "number": "4"
+        "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "construct-a-webassembly-module-object",
@@ -402,9 +481,10 @@
         "id": "webassembly-namespace",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#webassembly-namespace",
         "title": "The WebAssembly Namespace",
-        "number": "4"
+        "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "asynchronously-compile-a-webassembly-module",
@@ -421,9 +501,10 @@
         "id": "webassembly-namespace",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#webassembly-namespace",
         "title": "The WebAssembly Namespace",
-        "number": "4"
+        "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-webassembly-compile",
@@ -442,9 +523,10 @@
         "id": "webassembly-namespace",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#webassembly-namespace",
         "title": "The WebAssembly Namespace",
-        "number": "4"
+        "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "read-the-imports",
@@ -461,9 +543,10 @@
         "id": "webassembly-namespace",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#webassembly-namespace",
         "title": "The WebAssembly Namespace",
-        "number": "4"
+        "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "index-of-the-host-function",
@@ -480,9 +563,10 @@
         "id": "webassembly-namespace",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#webassembly-namespace",
         "title": "The WebAssembly Namespace",
-        "number": "4"
+        "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "create-an-exports-object",
@@ -499,9 +583,10 @@
         "id": "webassembly-namespace",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#webassembly-namespace",
         "title": "The WebAssembly Namespace",
-        "number": "4"
+        "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "initialize-an-instance-object",
@@ -518,9 +603,10 @@
         "id": "webassembly-namespace",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#webassembly-namespace",
         "title": "The WebAssembly Namespace",
-        "number": "4"
+        "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "instantiate-the-core-of-a-webassembly-module",
@@ -537,9 +623,10 @@
         "id": "webassembly-namespace",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#webassembly-namespace",
         "title": "The WebAssembly Namespace",
-        "number": "4"
+        "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "asynchronously-instantiate-a-webassembly-module",
@@ -556,28 +643,10 @@
         "id": "webassembly-namespace",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#webassembly-namespace",
         "title": "The WebAssembly Namespace",
-        "number": "4"
+        "number": "5"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "instantiate-a-webassembly-module",
-      "href": "https://webassembly.github.io/content-security-policy/js-api/#instantiate-a-webassembly-module",
-      "linkingText": [
-        "instantiate a WebAssembly module"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "webassembly-namespace",
-        "href": "https://webassembly.github.io/content-security-policy/js-api/#webassembly-namespace",
-        "title": "The WebAssembly Namespace",
-        "number": "4"
-      },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "instantiate-a-promise-of-a-module",
@@ -594,9 +663,10 @@
         "id": "webassembly-namespace",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#webassembly-namespace",
         "title": "The WebAssembly Namespace",
-        "number": "4"
+        "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-webassembly-instantiate",
@@ -616,9 +686,10 @@
         "id": "webassembly-namespace",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#webassembly-namespace",
         "title": "The WebAssembly Namespace",
-        "number": "4"
+        "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-webassembly-instantiate-moduleobject-importobject",
@@ -638,9 +709,32 @@
         "id": "webassembly-namespace",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#webassembly-namespace",
         "title": "The WebAssembly Namespace",
-        "number": "4"
+        "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-webassembly-jstag",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#dom-webassembly-jstag",
+      "linkingText": [
+        "JSTag"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "WebAssembly"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "webassembly-namespace",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#webassembly-namespace",
+        "title": "The WebAssembly Namespace",
+        "number": "5"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "enumdef-importexportkind",
@@ -657,9 +751,10 @@
         "id": "modules",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#modules",
         "title": "Modules",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-importexportkind-function",
@@ -678,9 +773,10 @@
         "id": "modules",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#modules",
         "title": "Modules",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-importexportkind-table",
@@ -699,9 +795,10 @@
         "id": "modules",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#modules",
         "title": "Modules",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-importexportkind-memory",
@@ -720,9 +817,10 @@
         "id": "modules",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#modules",
         "title": "Modules",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-importexportkind-global",
@@ -741,9 +839,116 @@
         "id": "modules",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#modules",
         "title": "Modules",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-importexportkind-tag",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#dom-importexportkind-tag",
+      "linkingText": [
+        "\"tag\""
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "ImportExportKind"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "modules",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#modules",
+        "title": "Modules",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "enumdef-addresstype",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#enumdef-addresstype",
+      "linkingText": [
+        "AddressType"
+      ],
+      "localLinkingText": [],
+      "type": "enum",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "modules",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#modules",
+        "title": "Modules",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-addresstype-i32",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#dom-addresstype-i32",
+      "linkingText": [
+        "\"i32\""
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "AddressType"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "modules",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#modules",
+        "title": "Modules",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-addresstype-i64",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#dom-addresstype-i64",
+      "linkingText": [
+        "\"i64\""
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "AddressType"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "modules",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#modules",
+        "title": "Modules",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "typedefdef-addressvalue",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#typedefdef-addressvalue",
+      "linkingText": [
+        "AddressValue"
+      ],
+      "localLinkingText": [],
+      "type": "typedef",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "modules",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#modules",
+        "title": "Modules",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-moduleexportdescriptor",
@@ -760,9 +965,10 @@
         "id": "modules",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#modules",
         "title": "Modules",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-moduleexportdescriptor-name",
@@ -781,9 +987,10 @@
         "id": "modules",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#modules",
         "title": "Modules",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-moduleexportdescriptor-kind",
@@ -802,9 +1009,10 @@
         "id": "modules",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#modules",
         "title": "Modules",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-moduleimportdescriptor",
@@ -821,9 +1029,10 @@
         "id": "modules",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#modules",
         "title": "Modules",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-moduleimportdescriptor-module",
@@ -842,9 +1051,10 @@
         "id": "modules",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#modules",
         "title": "Modules",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-moduleimportdescriptor-name",
@@ -863,9 +1073,10 @@
         "id": "modules",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#modules",
         "title": "Modules",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-moduleimportdescriptor-kind",
@@ -884,9 +1095,10 @@
         "id": "modules",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#modules",
         "title": "Modules",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "module",
@@ -903,9 +1115,10 @@
         "id": "modules",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#modules",
         "title": "Modules",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-module-module-bytes-bytes",
@@ -925,9 +1138,10 @@
         "id": "modules",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#modules",
         "title": "Modules",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-module-exports-moduleobject-moduleobject",
@@ -946,9 +1160,10 @@
         "id": "modules",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#modules",
         "title": "Modules",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-module-imports-moduleobject-moduleobject",
@@ -967,9 +1182,10 @@
         "id": "modules",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#modules",
         "title": "Modules",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-module-customsections-moduleobject-sectionname-moduleobject",
@@ -988,9 +1204,10 @@
         "id": "modules",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#modules",
         "title": "Modules",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-module-customsections-moduleobject-sectionname-sectionname",
@@ -1009,9 +1226,10 @@
         "id": "modules",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#modules",
         "title": "Modules",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "string-value-of-the-extern-type",
@@ -1028,9 +1246,10 @@
         "id": "modules",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#modules",
         "title": "Modules",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-module-exports",
@@ -1049,9 +1268,10 @@
         "id": "modules",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#modules",
         "title": "Modules",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-module-imports",
@@ -1070,9 +1290,10 @@
         "id": "modules",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#modules",
         "title": "Modules",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-module-customsections",
@@ -1091,9 +1312,10 @@
         "id": "modules",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#modules",
         "title": "Modules",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-module-module",
@@ -1113,9 +1335,10 @@
         "id": "modules",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#modules",
         "title": "Modules",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "instance",
@@ -1132,9 +1355,10 @@
         "id": "instances",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#instances",
         "title": "Instances",
-        "number": "4.2"
+        "number": "5.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-instance-instance-module-importobject-module",
@@ -1156,9 +1380,10 @@
         "id": "instances",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#instances",
         "title": "Instances",
-        "number": "4.2"
+        "number": "5.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-instance-instance-module-importobject-importobject",
@@ -1180,9 +1405,10 @@
         "id": "instances",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#instances",
         "title": "Instances",
-        "number": "4.2"
+        "number": "5.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-instance-instance",
@@ -1204,9 +1430,10 @@
         "id": "instances",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#instances",
         "title": "Instances",
-        "number": "4.2"
+        "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-instance-exports",
@@ -1225,9 +1452,10 @@
         "id": "instances",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#instances",
         "title": "Instances",
-        "number": "4.2"
+        "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dictdef-memorydescriptor",
@@ -1244,9 +1472,10 @@
         "id": "memories",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#memories",
         "title": "Memories",
-        "number": "4.3"
+        "number": "5.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-memorydescriptor-initial",
@@ -1265,9 +1494,10 @@
         "id": "memories",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#memories",
         "title": "Memories",
-        "number": "4.3"
+        "number": "5.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-memorydescriptor-maximum",
@@ -1286,9 +1516,32 @@
         "id": "memories",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#memories",
         "title": "Memories",
-        "number": "4.3"
+        "number": "5.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-memorydescriptor-address",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#dom-memorydescriptor-address",
+      "linkingText": [
+        "address"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "MemoryDescriptor"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "memories",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#memories",
+        "title": "Memories",
+        "number": "5.3"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "memory",
@@ -1305,9 +1558,10 @@
         "id": "memories",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#memories",
         "title": "Memories",
-        "number": "4.3"
+        "number": "5.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-memory-memory-descriptor-descriptor",
@@ -1327,9 +1581,10 @@
         "id": "memories",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#memories",
         "title": "Memories",
-        "number": "4.3"
+        "number": "5.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-memory-grow-delta-delta",
@@ -1348,15 +1603,16 @@
         "id": "memories",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#memories",
         "title": "Memories",
-        "number": "4.3"
+        "number": "5.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
-      "id": "create-a-memory-buffer",
-      "href": "https://webassembly.github.io/content-security-policy/js-api/#create-a-memory-buffer",
+      "id": "create-a-fixed-length-memory-buffer",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#create-a-fixed-length-memory-buffer",
       "linkingText": [
-        "create a memory buffer"
+        "create a fixed length memory buffer"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1367,9 +1623,30 @@
         "id": "memories",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#memories",
         "title": "Memories",
-        "number": "4.3"
+        "number": "5.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "create-a-resizable-memory-buffer",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#create-a-resizable-memory-buffer",
+      "linkingText": [
+        "create a resizable memory buffer"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "memories",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#memories",
+        "title": "Memories",
+        "number": "5.3"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "initialize-a-memory-object",
@@ -1386,9 +1663,10 @@
         "id": "memories",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#memories",
         "title": "Memories",
-        "number": "4.3"
+        "number": "5.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "create-a-memory-object",
@@ -1405,9 +1683,10 @@
         "id": "memories",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#memories",
         "title": "Memories",
-        "number": "4.3"
+        "number": "5.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-memory-memory",
@@ -1427,15 +1706,16 @@
         "id": "memories",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#memories",
         "title": "Memories",
-        "number": "4.3"
+        "number": "5.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "reset-the-memory-buffer",
-      "href": "https://webassembly.github.io/content-security-policy/js-api/#reset-the-memory-buffer",
+      "id": "refresh-the-memory-buffer",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#refresh-the-memory-buffer",
       "linkingText": [
-        "reset the Memory buffer"
+        "refresh the Memory buffer"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1446,9 +1726,30 @@
         "id": "memories",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#memories",
         "title": "Memories",
-        "number": "4.3"
+        "number": "5.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "grow-the-memory-buffer",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#grow-the-memory-buffer",
+      "linkingText": [
+        "grow the memory buffer"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "memories",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#memories",
+        "title": "Memories",
+        "number": "5.3"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-memory-grow",
@@ -1467,9 +1768,74 @@
         "id": "memories",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#memories",
         "title": "Memories",
-        "number": "4.3"
+        "number": "5.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-memory-tofixedlengthbuffer",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#dom-memory-tofixedlengthbuffer",
+      "linkingText": [
+        "toFixedLengthBuffer()"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "Memory"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "memories",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#memories",
+        "title": "Memories",
+        "number": "5.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-memory-toresizablebuffer",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#dom-memory-toresizablebuffer",
+      "linkingText": [
+        "toResizableBuffer()"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "Memory"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "memories",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#memories",
+        "title": "Memories",
+        "number": "5.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "HostResizeArrayBuffer",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#HostResizeArrayBuffer",
+      "linkingText": [
+        "abstract operation HostResizeArrayBuffer"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "memories",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#memories",
+        "title": "Memories",
+        "number": "5.3"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-memory-buffer",
@@ -1488,9 +1854,10 @@
         "id": "memories",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#memories",
         "title": "Memories",
-        "number": "4.3"
+        "number": "5.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "enumdef-tablekind",
@@ -1507,9 +1874,10 @@
         "id": "tables",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#tables",
         "title": "Tables",
-        "number": "4.4"
+        "number": "5.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-tablekind-externref",
@@ -1528,9 +1896,10 @@
         "id": "tables",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#tables",
         "title": "Tables",
-        "number": "4.4"
+        "number": "5.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-tablekind-anyfunc",
@@ -1549,9 +1918,10 @@
         "id": "tables",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#tables",
         "title": "Tables",
-        "number": "4.4"
+        "number": "5.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-tabledescriptor",
@@ -1568,9 +1938,10 @@
         "id": "tables",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#tables",
         "title": "Tables",
-        "number": "4.4"
+        "number": "5.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-tabledescriptor-element",
@@ -1589,9 +1960,10 @@
         "id": "tables",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#tables",
         "title": "Tables",
-        "number": "4.4"
+        "number": "5.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-tabledescriptor-initial",
@@ -1610,9 +1982,10 @@
         "id": "tables",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#tables",
         "title": "Tables",
-        "number": "4.4"
+        "number": "5.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-tabledescriptor-maximum",
@@ -1631,9 +2004,32 @@
         "id": "tables",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#tables",
         "title": "Tables",
-        "number": "4.4"
+        "number": "5.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-tabledescriptor-address",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#dom-tabledescriptor-address",
+      "linkingText": [
+        "address"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "TableDescriptor"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "tables",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#tables",
+        "title": "Tables",
+        "number": "5.4"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "table",
@@ -1650,9 +2046,10 @@
         "id": "tables",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#tables",
         "title": "Tables",
-        "number": "4.4"
+        "number": "5.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-table-table-descriptor-value-descriptor",
@@ -1674,9 +2071,10 @@
         "id": "tables",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#tables",
         "title": "Tables",
-        "number": "4.4"
+        "number": "5.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-table-table-descriptor-value-value",
@@ -1698,9 +2096,10 @@
         "id": "tables",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#tables",
         "title": "Tables",
-        "number": "4.4"
+        "number": "5.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-table-grow-delta-value-delta",
@@ -1720,9 +2119,10 @@
         "id": "tables",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#tables",
         "title": "Tables",
-        "number": "4.4"
+        "number": "5.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-table-grow-delta-value-value",
@@ -1742,9 +2142,10 @@
         "id": "tables",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#tables",
         "title": "Tables",
-        "number": "4.4"
+        "number": "5.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-table-get-index-index",
@@ -1763,9 +2164,10 @@
         "id": "tables",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#tables",
         "title": "Tables",
-        "number": "4.4"
+        "number": "5.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-table-set-index-value-index",
@@ -1785,9 +2187,10 @@
         "id": "tables",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#tables",
         "title": "Tables",
-        "number": "4.4"
+        "number": "5.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-table-set-index-value-value",
@@ -1807,9 +2210,10 @@
         "id": "tables",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#tables",
         "title": "Tables",
-        "number": "4.4"
+        "number": "5.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "initialize-a-table-object",
@@ -1826,9 +2230,10 @@
         "id": "tables",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#tables",
         "title": "Tables",
-        "number": "4.4"
+        "number": "5.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "create-a-table-object",
@@ -1845,9 +2250,10 @@
         "id": "tables",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#tables",
         "title": "Tables",
-        "number": "4.4"
+        "number": "5.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-table-table",
@@ -1869,9 +2275,10 @@
         "id": "tables",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#tables",
         "title": "Tables",
-        "number": "4.4"
+        "number": "5.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-table-grow",
@@ -1891,9 +2298,10 @@
         "id": "tables",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#tables",
         "title": "Tables",
-        "number": "4.4"
+        "number": "5.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-table-length",
@@ -1912,9 +2320,10 @@
         "id": "tables",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#tables",
         "title": "Tables",
-        "number": "4.4"
+        "number": "5.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-table-get",
@@ -1933,9 +2342,10 @@
         "id": "tables",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#tables",
         "title": "Tables",
-        "number": "4.4"
+        "number": "5.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-table-set",
@@ -1955,9 +2365,10 @@
         "id": "tables",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#tables",
         "title": "Tables",
-        "number": "4.4"
+        "number": "5.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "enumdef-valuetype",
@@ -1974,9 +2385,10 @@
         "id": "globals",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#globals",
         "title": "Globals",
-        "number": "4.5"
+        "number": "5.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-valuetype-i32",
@@ -1995,9 +2407,10 @@
         "id": "globals",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#globals",
         "title": "Globals",
-        "number": "4.5"
+        "number": "5.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-valuetype-i64",
@@ -2016,9 +2429,10 @@
         "id": "globals",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#globals",
         "title": "Globals",
-        "number": "4.5"
+        "number": "5.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-valuetype-f32",
@@ -2037,9 +2451,10 @@
         "id": "globals",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#globals",
         "title": "Globals",
-        "number": "4.5"
+        "number": "5.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-valuetype-f64",
@@ -2058,9 +2473,10 @@
         "id": "globals",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#globals",
         "title": "Globals",
-        "number": "4.5"
+        "number": "5.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-valuetype-v128",
@@ -2079,9 +2495,10 @@
         "id": "globals",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#globals",
         "title": "Globals",
-        "number": "4.5"
+        "number": "5.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-valuetype-externref",
@@ -2100,9 +2517,10 @@
         "id": "globals",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#globals",
         "title": "Globals",
-        "number": "4.5"
+        "number": "5.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-valuetype-anyfunc",
@@ -2121,9 +2539,10 @@
         "id": "globals",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#globals",
         "title": "Globals",
-        "number": "4.5"
+        "number": "5.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-globaldescriptor",
@@ -2140,9 +2559,10 @@
         "id": "globals",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#globals",
         "title": "Globals",
-        "number": "4.5"
+        "number": "5.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-globaldescriptor-value",
@@ -2161,9 +2581,10 @@
         "id": "globals",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#globals",
         "title": "Globals",
-        "number": "4.5"
+        "number": "5.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-globaldescriptor-mutable",
@@ -2182,9 +2603,10 @@
         "id": "globals",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#globals",
         "title": "Globals",
-        "number": "4.5"
+        "number": "5.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "global",
@@ -2201,9 +2623,10 @@
         "id": "globals",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#globals",
         "title": "Globals",
-        "number": "4.5"
+        "number": "5.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-global-global-descriptor-v-descriptor",
@@ -2225,9 +2648,10 @@
         "id": "globals",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#globals",
         "title": "Globals",
-        "number": "4.5"
+        "number": "5.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-global-global-descriptor-v-v",
@@ -2249,9 +2673,10 @@
         "id": "globals",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#globals",
         "title": "Globals",
-        "number": "4.5"
+        "number": "5.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "initialize-a-global-object",
@@ -2268,9 +2693,10 @@
         "id": "globals",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#globals",
         "title": "Globals",
-        "number": "4.5"
+        "number": "5.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "create-a-global-object",
@@ -2287,9 +2713,10 @@
         "id": "globals",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#globals",
         "title": "Globals",
-        "number": "4.5"
+        "number": "5.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "tovaluetype",
@@ -2306,9 +2733,10 @@
         "id": "globals",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#globals",
         "title": "Globals",
-        "number": "4.5"
+        "number": "5.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "defaultvalue",
@@ -2325,9 +2753,10 @@
         "id": "globals",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#globals",
         "title": "Globals",
-        "number": "4.5"
+        "number": "5.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-global-global",
@@ -2349,9 +2778,10 @@
         "id": "globals",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#globals",
         "title": "Globals",
-        "number": "4.5"
+        "number": "5.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "getglobalvalue",
@@ -2368,9 +2798,10 @@
         "id": "globals",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#globals",
         "title": "Globals",
-        "number": "4.5"
+        "number": "5.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-global-value",
@@ -2389,9 +2820,10 @@
         "id": "globals",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#globals",
         "title": "Globals",
-        "number": "4.5"
+        "number": "5.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-global-valueof",
@@ -2410,9 +2842,10 @@
         "id": "globals",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#globals",
         "title": "Globals",
-        "number": "4.5"
+        "number": "5.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "exported-function",
@@ -2429,9 +2862,10 @@
         "id": "exported-function-exotic-objects",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#exported-function-exotic-objects",
         "title": "Exported Functions",
-        "number": "4.6"
+        "number": "5.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "name-of-the-webassembly-function",
@@ -2448,9 +2882,10 @@
         "id": "exported-function-exotic-objects",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#exported-function-exotic-objects",
         "title": "Exported Functions",
-        "number": "4.6"
+        "number": "5.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "a-new-exported-function",
@@ -2467,9 +2902,10 @@
         "id": "exported-function-exotic-objects",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#exported-function-exotic-objects",
         "title": "Exported Functions",
-        "number": "4.6"
+        "number": "5.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "call-an-exported-function",
@@ -2486,9 +2922,10 @@
         "id": "exported-function-exotic-objects",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#exported-function-exotic-objects",
         "title": "Exported Functions",
-        "number": "4.6"
+        "number": "5.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "run-a-host-function",
@@ -2505,9 +2942,10 @@
         "id": "exported-function-exotic-objects",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#exported-function-exotic-objects",
         "title": "Exported Functions",
-        "number": "4.6"
+        "number": "5.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "create-a-host-function",
@@ -2524,9 +2962,10 @@
         "id": "exported-function-exotic-objects",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#exported-function-exotic-objects",
         "title": "Exported Functions",
-        "number": "4.6"
+        "number": "5.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "tojsvalue",
@@ -2543,15 +2982,16 @@
         "id": "exported-function-exotic-objects",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#exported-function-exotic-objects",
         "title": "Exported Functions",
-        "number": "4.6"
+        "number": "5.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "retrieving-an-extern-value",
-      "href": "https://webassembly.github.io/content-security-policy/js-api/#retrieving-an-extern-value",
+      "id": "retrieving-a-host-value",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#retrieving-a-host-value",
       "linkingText": [
-        "retrieving an extern value"
+        "retrieving a host value"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -2562,9 +3002,10 @@
         "id": "exported-function-exotic-objects",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#exported-function-exotic-objects",
         "title": "Exported Functions",
-        "number": "4.6"
+        "number": "5.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "towebassemblyvalue",
@@ -2581,9 +3022,830 @@
         "id": "exported-function-exotic-objects",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#exported-function-exotic-objects",
         "title": "Exported Functions",
-        "number": "4.6"
+        "number": "5.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "addressvaluetou64",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#addressvaluetou64",
+      "linkingText": [
+        "AddressValueToU64"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "exported-function-exotic-objects",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#exported-function-exotic-objects",
+        "title": "Exported Functions",
+        "number": "5.6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "u64toaddressvalue",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#u64toaddressvalue",
+      "linkingText": [
+        "U64ToAddressValue"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "exported-function-exotic-objects",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#exported-function-exotic-objects",
+        "title": "Exported Functions",
+        "number": "5.6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "tag_alloc",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#tag_alloc",
+      "linkingText": [
+        "tag_alloc"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "tags",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#tags",
+        "title": "Tags",
+        "number": "5.7"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dictdef-tagtype",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#dictdef-tagtype",
+      "linkingText": [
+        "TagType"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "tag-types",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#tag-types",
+        "title": "Tag types",
+        "number": "5.7.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-tagtype-parameters",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#dom-tagtype-parameters",
+      "linkingText": [
+        "parameters"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "TagType"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "tag-types",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#tag-types",
+        "title": "Tag types",
+        "number": "5.7.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "tag",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#tag",
+      "linkingText": [
+        "Tag"
+      ],
+      "localLinkingText": [],
+      "type": "interface",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "tag-types",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#tag-types",
+        "title": "Tag types",
+        "number": "5.7.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-tag-tag-type-type",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#dom-tag-tag-type-type",
+      "linkingText": [
+        "type"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Tag/Tag(type)",
+        "Tag/constructor(type)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "tag-types",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#tag-types",
+        "title": "Tag types",
+        "number": "5.7.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "initialize-a-tag-object",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#initialize-a-tag-object",
+      "linkingText": [
+        "initialize a Tag object"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "tag-types",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#tag-types",
+        "title": "Tag types",
+        "number": "5.7.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "create-a-tag-object",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#create-a-tag-object",
+      "linkingText": [
+        "create a Tag object"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "tag-types",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#tag-types",
+        "title": "Tag types",
+        "number": "5.7.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-tag-tag",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#dom-tag-tag",
+      "linkingText": [
+        "Tag(type)",
+        "constructor(type)"
+      ],
+      "localLinkingText": [],
+      "type": "constructor",
+      "for": [
+        "Tag"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "tag-types",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#tag-types",
+        "title": "Tag types",
+        "number": "5.7.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "exported-gc-object",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#exported-gc-object",
+      "linkingText": [
+        "Exported GC Object"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "gc-exotic-objects",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#gc-exotic-objects",
+        "title": "Garbage Collected Objects",
+        "number": "5.8"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "getprototypeof-internal-method-of-an-exported-gc-object",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#getprototypeof-internal-method-of-an-exported-gc-object",
+      "linkingText": [
+        "[[GetPrototypeOf]] internal method of an Exported GC Object"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "gc-exotic-objects",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#gc-exotic-objects",
+        "title": "Garbage Collected Objects",
+        "number": "5.8"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "setprototypeof-internal-method-of-an-exported-gc-object",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#setprototypeof-internal-method-of-an-exported-gc-object",
+      "linkingText": [
+        "[[SetPrototypeOf]] internal method of an Exported GC Object"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "gc-exotic-objects",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#gc-exotic-objects",
+        "title": "Garbage Collected Objects",
+        "number": "5.8"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "isextensible-internal-method-of-an-exported-gc-object",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#isextensible-internal-method-of-an-exported-gc-object",
+      "linkingText": [
+        "[[IsExtensible]] internal method of an Exported GC Object"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "gc-exotic-objects",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#gc-exotic-objects",
+        "title": "Garbage Collected Objects",
+        "number": "5.8"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "preventextensions-internal-method-of-an-exported-gc-object",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#preventextensions-internal-method-of-an-exported-gc-object",
+      "linkingText": [
+        "[[PreventExtensions]] internal method of an Exported GC Object"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "gc-exotic-objects",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#gc-exotic-objects",
+        "title": "Garbage Collected Objects",
+        "number": "5.8"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "getownproperty-internal-method-of-an-exported-gc-object",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#getownproperty-internal-method-of-an-exported-gc-object",
+      "linkingText": [
+        "[[GetOwnProperty]] internal method of an Exported GC Object"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "gc-exotic-objects",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#gc-exotic-objects",
+        "title": "Garbage Collected Objects",
+        "number": "5.8"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "defineownproperty-internal-method-of-an-exported-gc-object",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#defineownproperty-internal-method-of-an-exported-gc-object",
+      "linkingText": [
+        "[[DefineOwnProperty]] internal method of an Exported GC Object"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "gc-exotic-objects",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#gc-exotic-objects",
+        "title": "Garbage Collected Objects",
+        "number": "5.8"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "hasproperty-internal-method-of-an-exported-gc-object",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#hasproperty-internal-method-of-an-exported-gc-object",
+      "linkingText": [
+        "[[HasProperty]] internal method of an Exported GC Object"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "gc-exotic-objects",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#gc-exotic-objects",
+        "title": "Garbage Collected Objects",
+        "number": "5.8"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "get-internal-method-of-an-exported-gc-object",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#get-internal-method-of-an-exported-gc-object",
+      "linkingText": [
+        "[[Get]] internal method of an Exported GC Object"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "gc-exotic-objects",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#gc-exotic-objects",
+        "title": "Garbage Collected Objects",
+        "number": "5.8"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "set-internal-method-of-an-exported-gc-object",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#set-internal-method-of-an-exported-gc-object",
+      "linkingText": [
+        "[[Set]] internal method of an Exported GC Object"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "gc-exotic-objects",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#gc-exotic-objects",
+        "title": "Garbage Collected Objects",
+        "number": "5.8"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "delete-internal-method-of-an-exported-gc-object",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#delete-internal-method-of-an-exported-gc-object",
+      "linkingText": [
+        "[[Delete]] internal method of an Exported GC Object"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "gc-exotic-objects",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#gc-exotic-objects",
+        "title": "Garbage Collected Objects",
+        "number": "5.8"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "ownpropertykeys-internal-method-of-an-exported-gc-object",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#ownpropertykeys-internal-method-of-an-exported-gc-object",
+      "linkingText": [
+        "[[OwnPropertyKeys]] internal method of an Exported GC Object"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "gc-exotic-objects",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#gc-exotic-objects",
+        "title": "Garbage Collected Objects",
+        "number": "5.8"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "a-new-exported-gc-object",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#a-new-exported-gc-object",
+      "linkingText": [
+        "a new Exported GC Object"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "gc-exotic-objects",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#gc-exotic-objects",
+        "title": "Garbage Collected Objects",
+        "number": "5.8"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dictdef-exceptionoptions",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#dictdef-exceptionoptions",
+      "linkingText": [
+        "ExceptionOptions"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "exceptions",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#exceptions",
+        "title": "Exceptions",
+        "number": "5.9"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-exceptionoptions-tracestack",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#dom-exceptionoptions-tracestack",
+      "linkingText": [
+        "traceStack"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "ExceptionOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "exceptions",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#exceptions",
+        "title": "Exceptions",
+        "number": "5.9"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "exception",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#exception",
+      "linkingText": [
+        "Exception"
+      ],
+      "localLinkingText": [],
+      "type": "interface",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "exceptions",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#exceptions",
+        "title": "Exceptions",
+        "number": "5.9"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-exception-exception-exceptiontag-payload-options-exceptiontag",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#dom-exception-exception-exceptiontag-payload-options-exceptiontag",
+      "linkingText": [
+        "exceptionTag"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Exception/Exception(exceptionTag, payload, options)",
+        "Exception/constructor(exceptionTag, payload, options)",
+        "Exception/Exception(exceptionTag, payload)",
+        "Exception/constructor(exceptionTag, payload)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "exceptions",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#exceptions",
+        "title": "Exceptions",
+        "number": "5.9"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-exception-exception-exceptiontag-payload-options-payload",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#dom-exception-exception-exceptiontag-payload-options-payload",
+      "linkingText": [
+        "payload"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Exception/Exception(exceptionTag, payload, options)",
+        "Exception/constructor(exceptionTag, payload, options)",
+        "Exception/Exception(exceptionTag, payload)",
+        "Exception/constructor(exceptionTag, payload)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "exceptions",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#exceptions",
+        "title": "Exceptions",
+        "number": "5.9"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-exception-exception-exceptiontag-payload-options-options",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#dom-exception-exception-exceptiontag-payload-options-options",
+      "linkingText": [
+        "options"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Exception/Exception(exceptionTag, payload, options)",
+        "Exception/constructor(exceptionTag, payload, options)",
+        "Exception/Exception(exceptionTag, payload)",
+        "Exception/constructor(exceptionTag, payload)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "exceptions",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#exceptions",
+        "title": "Exceptions",
+        "number": "5.9"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-exception-getarg-index-index",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#dom-exception-getarg-index-index",
+      "linkingText": [
+        "index"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Exception/getArg(index)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "exceptions",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#exceptions",
+        "title": "Exceptions",
+        "number": "5.9"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-exception-is-exceptiontag-exceptiontag",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#dom-exception-is-exceptiontag-exceptiontag",
+      "linkingText": [
+        "exceptionTag"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "Exception/is(exceptionTag)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "exceptions",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#exceptions",
+        "title": "Exceptions",
+        "number": "5.9"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "initialize-an-exception-object",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#initialize-an-exception-object",
+      "linkingText": [
+        "initialize an Exception object"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "exceptions",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#exceptions",
+        "title": "Exceptions",
+        "number": "5.9"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "create-an-exception-object",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#create-an-exception-object",
+      "linkingText": [
+        "create an Exception object"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "exceptions",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#exceptions",
+        "title": "Exceptions",
+        "number": "5.9"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-exception-exception",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#dom-exception-exception",
+      "linkingText": [
+        "Exception(exceptionTag, payload, options)",
+        "constructor(exceptionTag, payload, options)",
+        "Exception(exceptionTag, payload)",
+        "constructor(exceptionTag, payload)"
+      ],
+      "localLinkingText": [],
+      "type": "constructor",
+      "for": [
+        "Exception"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "exceptions",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#exceptions",
+        "title": "Exceptions",
+        "number": "5.9"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-exception-getarg",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#dom-exception-getarg",
+      "linkingText": [
+        "getArg(index)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "Exception"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "exceptions",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#exceptions",
+        "title": "Exceptions",
+        "number": "5.9"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-exception-is",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#dom-exception-is",
+      "linkingText": [
+        "is(exceptionTag)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "Exception"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "exceptions",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#exceptions",
+        "title": "Exceptions",
+        "number": "5.9"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-exception-stack",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#dom-exception-stack",
+      "linkingText": [
+        "stack"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "Exception"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "exceptions",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#exceptions",
+        "title": "Exceptions",
+        "number": "5.9"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "javascript-exception-tag",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#javascript-exception-tag",
+      "linkingText": [
+        "JavaScript exception tag"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "js-exceptions",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#js-exceptions",
+        "title": "JavaScript exceptions",
+        "number": "5.9.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "get-the-javascript-exception-tag",
+      "href": "https://webassembly.github.io/content-security-policy/js-api/#get-the-javascript-exception-tag",
+      "linkingText": [
+        "get the JavaScript exception tag"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "js-exceptions",
+        "href": "https://webassembly.github.io/content-security-policy/js-api/#js-exceptions",
+        "title": "JavaScript exceptions",
+        "number": "5.9.1"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "exceptiondef-compileerror",
@@ -2600,9 +3862,10 @@
         "id": "error-objects",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#error-objects",
         "title": "Error Objects",
-        "number": "4.7"
+        "number": "5.10"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "exceptiondef-linkerror",
@@ -2619,9 +3882,10 @@
         "id": "error-objects",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#error-objects",
         "title": "Error Objects",
-        "number": "4.7"
+        "number": "5.10"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "exceptiondef-runtimeerror",
@@ -2638,9 +3902,10 @@
         "id": "error-objects",
         "href": "https://webassembly.github.io/content-security-policy/js-api/#error-objects",
         "title": "Error Objects",
-        "number": "4.7"
+        "number": "5.10"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "abstract-opdef-hostensurecancompilewasmbytes",
@@ -2659,7 +3924,8 @@
         "title": "HostEnsureCanCompileWasmBytes()",
         "number": "7.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

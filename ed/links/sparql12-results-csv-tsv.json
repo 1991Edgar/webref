@@ -5,23 +5,24 @@
   },
   "links": {
     "rawlinks": {
-      "https://datatracker.ietf.org/doc/html/bcp14": {},
       "https://w3c.github.io/sparql-concepts/spec/": {},
       "https://w3c.github.io/sparql-new/spec/": {},
       "https://www.iana.org/assignments/media-types/text/tab-separated-values": {},
-      "https://www.rfc-editor.org/rfc/rfc2119": {},
-      "https://www.rfc-editor.org/rfc/rfc3986": {
+      "https://www.rfc-editor.org/info/bcp14": {},
+      "https://www.rfc-editor.org/info/rfc2119/": {},
+      "https://www.rfc-editor.org/info/rfc3986/": {
         "anchors": [
           "section-4.2"
         ]
       },
+      "https://www.rfc-editor.org/info/rfc3987/": {},
+      "https://www.rfc-editor.org/info/rfc4180/": {},
+      "https://www.rfc-editor.org/info/rfc8174/": {},
       "https://www.rfc-editor.org/rfc/rfc3987": {
         "anchors": [
           "section-2.2"
         ]
       },
-      "https://www.rfc-editor.org/rfc/rfc4180": {},
-      "https://www.rfc-editor.org/rfc/rfc8174": {},
       "https://www.unicode.org/versions/latest/": {},
       "https://www.w3.org/TR/": {},
       "https://www.w3.org/TR/rdf12-turtle/": {},
@@ -42,7 +43,7 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {
+      "https://www.w3.org/policies/process/20250818/": {
         "anchors": [
           "allow-new-features"
         ]

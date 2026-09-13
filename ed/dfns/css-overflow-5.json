@@ -21,7 +21,8 @@
         "title": "Scrolling overflow",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "scroll-marker",
@@ -40,7 +41,8 @@
         "title": "Scroll markers",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "scroll-target",
@@ -59,7 +61,8 @@
         "title": "Scroll markers",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "scroll-marker-group-container",
@@ -78,26 +81,72 @@
         "title": "Scroll marker grouping",
         "number": "3.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "scroll-marker-group",
-      "href": "https://drafts.csswg.org/css-overflow-5/#scroll-marker-group",
+      "id": "propdef-scroll-target-group",
+      "href": "https://drafts.csswg.org/css-overflow-5/#propdef-scroll-target-group",
       "linkingText": [
-        "scroll marker group"
+        "scroll-target-group"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "property",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
-        "id": "scroll-marker-grouping",
-        "href": "https://drafts.csswg.org/css-overflow-5/#scroll-marker-grouping",
-        "title": "Scroll marker grouping",
-        "number": "3.1.1"
+        "id": "scroll-target-group",
+        "href": "https://drafts.csswg.org/css-overflow-5/#scroll-target-group",
+        "title": "The 'scroll target group' property",
+        "number": "3.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "valdef-scroll-target-group-none",
+      "href": "https://drafts.csswg.org/css-overflow-5/#valdef-scroll-target-group-none",
+      "linkingText": [
+        "none"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "scroll-target-group"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scroll-target-group",
+        "href": "https://drafts.csswg.org/css-overflow-5/#scroll-target-group",
+        "title": "The 'scroll target group' property",
+        "number": "3.1.2"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-scroll-target-group-auto",
+      "href": "https://drafts.csswg.org/css-overflow-5/#valdef-scroll-target-group-auto",
+      "linkingText": [
+        "auto"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "scroll-target-group"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scroll-target-group",
+        "href": "https://drafts.csswg.org/css-overflow-5/#scroll-target-group",
+        "title": "The 'scroll target group' property",
+        "number": "3.1.2"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-scroll-marker-group",
@@ -114,9 +163,10 @@
         "id": "scroll-marker-group-property",
         "href": "https://drafts.csswg.org/css-overflow-5/#scroll-marker-group-property",
         "title": "The scroll-marker-group property",
-        "number": "3.1.2"
+        "number": "3.1.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-scroll-marker-group-none",
@@ -135,9 +185,10 @@
         "id": "scroll-marker-group-property",
         "href": "https://drafts.csswg.org/css-overflow-5/#scroll-marker-group-property",
         "title": "The scroll-marker-group property",
-        "number": "3.1.2"
+        "number": "3.1.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-scroll-marker-group-before",
@@ -156,9 +207,10 @@
         "id": "scroll-marker-group-property",
         "href": "https://drafts.csswg.org/css-overflow-5/#scroll-marker-group-property",
         "title": "The scroll-marker-group property",
-        "number": "3.1.2"
+        "number": "3.1.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-scroll-marker-group-after",
@@ -177,9 +229,54 @@
         "id": "scroll-marker-group-property",
         "href": "https://drafts.csswg.org/css-overflow-5/#scroll-marker-group-property",
         "title": "The scroll-marker-group property",
-        "number": "3.1.2"
+        "number": "3.1.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-scroll-marker-group-links",
+      "href": "https://drafts.csswg.org/css-overflow-5/#valdef-scroll-marker-group-links",
+      "linkingText": [
+        "links"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "scroll-marker-group"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scroll-marker-group-property",
+        "href": "https://drafts.csswg.org/css-overflow-5/#scroll-marker-group-property",
+        "title": "The scroll-marker-group property",
+        "number": "3.1.3"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-scroll-marker-group-tabs",
+      "href": "https://drafts.csswg.org/css-overflow-5/#valdef-scroll-marker-group-tabs",
+      "linkingText": [
+        "tabs"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "scroll-marker-group"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scroll-marker-group-property",
+        "href": "https://drafts.csswg.org/css-overflow-5/#scroll-marker-group-property",
+        "title": "The scroll-marker-group property",
+        "number": "3.1.3"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "selectordef-scroll-marker-group",
@@ -196,9 +293,10 @@
         "id": "scroll-marker-group-pseudo",
         "href": "https://drafts.csswg.org/css-overflow-5/#scroll-marker-group-pseudo",
         "title": "The ::scroll-marker-group pseudo-element",
-        "number": "3.1.3"
+        "number": "3.1.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "selectordef-scroll-marker",
@@ -215,9 +313,50 @@
         "id": "scroll-marker-pseudo",
         "href": "https://drafts.csswg.org/css-overflow-5/#scroll-marker-pseudo",
         "title": "The ::scroll-marker pseudo-element",
-        "number": "3.1.4"
+        "number": "3.1.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "links",
+      "href": "https://drafts.csswg.org/css-overflow-5/#links",
+      "linkingText": [
+        "links"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "scroll-marker-modes",
+        "href": "https://drafts.csswg.org/css-overflow-5/#scroll-marker-modes",
+        "title": "Scroll Marker Modes",
+        "number": "3.1.6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "tabs",
+      "href": "https://drafts.csswg.org/css-overflow-5/#tabs",
+      "linkingText": [
+        "tabs"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "scroll-marker-modes",
+        "href": "https://drafts.csswg.org/css-overflow-5/#scroll-marker-modes",
+        "title": "Scroll Marker Modes",
+        "number": "3.1.6"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "selectordef-target-current",
@@ -231,18 +370,59 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "active-scroll-marker",
-        "href": "https://drafts.csswg.org/css-overflow-5/#active-scroll-marker",
-        "title": "Selecting The Active Scroll Marker: the :target-current pseudo-class",
-        "number": "3.1.5"
+        "id": "active-before-after-scroll-markers",
+        "href": "https://drafts.csswg.org/css-overflow-5/#active-before-after-scroll-markers",
+        "title": "Selecting Scroll Markers: :target-current, :target-before and :target-after pseudo-classes",
+        "number": "3.1.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "selectordef-scroll-button-scroll-button-direction",
-      "href": "https://drafts.csswg.org/css-overflow-5/#selectordef-scroll-button-scroll-button-direction",
+      "id": "selectordef-target-before",
+      "href": "https://drafts.csswg.org/css-overflow-5/#selectordef-target-before",
       "linkingText": [
-        "::scroll-button( <scroll-button-direction> )"
+        ":target-before"
+      ],
+      "localLinkingText": [],
+      "type": "selector",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "active-before-after-scroll-markers",
+        "href": "https://drafts.csswg.org/css-overflow-5/#active-before-after-scroll-markers",
+        "title": "Selecting Scroll Markers: :target-current, :target-before and :target-after pseudo-classes",
+        "number": "3.1.7"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "selectordef-target-after",
+      "href": "https://drafts.csswg.org/css-overflow-5/#selectordef-target-after",
+      "linkingText": [
+        ":target-after"
+      ],
+      "localLinkingText": [],
+      "type": "selector",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "active-before-after-scroll-markers",
+        "href": "https://drafts.csswg.org/css-overflow-5/#active-before-after-scroll-markers",
+        "title": "Selecting Scroll Markers: :target-current, :target-before and :target-after pseudo-classes",
+        "number": "3.1.7"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "selectordef-scroll-button---scroll-button-direction",
+      "href": "https://drafts.csswg.org/css-overflow-5/#selectordef-scroll-button---scroll-button-direction",
+      "linkingText": [
+        "::scroll-button( '*' | <scroll-button-direction> )"
       ],
       "localLinkingText": [],
       "type": "selector",
@@ -255,7 +435,8 @@
         "title": "Scroll Buttons",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "typedef-scroll-button-direction",
@@ -274,7 +455,8 @@
         "title": "Scroll Buttons",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-scroll-button-direction-up",
@@ -296,7 +478,8 @@
         "title": "Scroll Buttons",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-scroll-button-direction-down",
@@ -318,7 +501,8 @@
         "title": "Scroll Buttons",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-scroll-button-direction-left",
@@ -340,7 +524,8 @@
         "title": "Scroll Buttons",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-scroll-button-direction-right",
@@ -362,7 +547,8 @@
         "title": "Scroll Buttons",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-scroll-button-direction-block-start",
@@ -384,7 +570,8 @@
         "title": "Scroll Buttons",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-scroll-button-direction-block-end",
@@ -406,7 +593,8 @@
         "title": "Scroll Buttons",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-scroll-button-direction-inline-start",
@@ -428,7 +616,8 @@
         "title": "Scroll Buttons",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-scroll-button-direction-inline-end",
@@ -450,7 +639,8 @@
         "title": "Scroll Buttons",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-scroll-button-direction-prev",
@@ -472,7 +662,8 @@
         "title": "Scroll Buttons",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-scroll-button-direction-next",
@@ -494,7 +685,72 @@
         "title": "Scroll Buttons",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "propdef-scroll-axis-lock",
+      "href": "https://drafts.csswg.org/css-overflow-5/#propdef-scroll-axis-lock",
+      "linkingText": [
+        "scroll-axis-lock"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scroll-axis-lock",
+        "href": "https://drafts.csswg.org/css-overflow-5/#scroll-axis-lock",
+        "title": "The scroll-axis-lock property",
+        "number": "4.1"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "valdef-scroll-axis-lock-none",
+      "href": "https://drafts.csswg.org/css-overflow-5/#valdef-scroll-axis-lock-none",
+      "linkingText": [
+        "none"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "scroll-axis-lock"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scroll-axis-lock",
+        "href": "https://drafts.csswg.org/css-overflow-5/#scroll-axis-lock",
+        "title": "The scroll-axis-lock property",
+        "number": "4.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-scroll-axis-lock-auto",
+      "href": "https://drafts.csswg.org/css-overflow-5/#valdef-scroll-axis-lock-auto",
+      "linkingText": [
+        "auto"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "scroll-axis-lock"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scroll-axis-lock",
+        "href": "https://drafts.csswg.org/css-overflow-5/#scroll-axis-lock",
+        "title": "The scroll-axis-lock property",
+        "number": "4.1"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-continue-overflow",
@@ -514,7 +770,8 @@
         "href": "https://drafts.csswg.org/css-overflow-5/#channelling-overflow",
         "title": "Channeling Overflow: the continue property"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-continue-paginate",
@@ -534,7 +791,8 @@
         "href": "https://drafts.csswg.org/css-overflow-5/#channelling-overflow",
         "title": "Channeling Overflow: the continue property"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-continue-fragments",
@@ -554,7 +812,8 @@
         "href": "https://drafts.csswg.org/css-overflow-5/#channelling-overflow",
         "title": "Channeling Overflow: the continue property"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "fragment-box",
@@ -572,7 +831,8 @@
         "href": "https://drafts.csswg.org/css-overflow-5/#fragment-overflow",
         "title": "Fragmented Overflow"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "selectordef-nth-fragment",
@@ -590,7 +850,8 @@
         "href": "https://drafts.csswg.org/css-overflow-5/#fragment-pseudo-element",
         "title": "The ::nth-fragment() pseudo-element"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSSOM View Module",
+    "title": "CSSOM View Module Level 1",
     "url": "https://drafts.csswg.org/cssom-view-1/"
   },
   "refs": {
@@ -12,6 +12,10 @@
       {
         "name": "CSS-BACKGROUNDS-3",
         "url": "https://drafts.csswg.org/css-backgrounds/"
+      },
+      {
+        "name": "CSS-BORDERS-4",
+        "url": "https://drafts.csswg.org/css-borders-4/"
       },
       {
         "name": "CSS-BOX-4",
@@ -50,16 +54,16 @@
         "url": "https://drafts.csswg.org/css-pseudo-4/"
       },
       {
-        "name": "CSS-SCOPING-1",
-        "url": "https://drafts.csswg.org/css-scoping/"
-      },
-      {
         "name": "CSS-SCROLL-SNAP-1",
         "url": "https://drafts.csswg.org/css-scroll-snap-1/"
       },
       {
         "name": "CSS-SCROLL-SNAP-2",
         "url": "https://drafts.csswg.org/css-scroll-snap-2/"
+      },
+      {
+        "name": "CSS-SHADOW-1",
+        "url": "https://drafts.csswg.org/css-shadow-1/"
       },
       {
         "name": "CSS-TEXT-3",
@@ -75,15 +79,15 @@
       },
       {
         "name": "CSS-VALUES",
-        "url": "https://drafts.csswg.org/css-values-3/"
-      },
-      {
-        "name": "CSS-VALUES-4",
         "url": "https://drafts.csswg.org/css-values-4/"
       },
       {
         "name": "CSS-WRITING-MODES-4",
         "url": "https://drafts.csswg.org/css-writing-modes-4/"
+      },
+      {
+        "name": "CSS2",
+        "url": "https://drafts.csswg.org/css2/"
       },
       {
         "name": "CSSOM",
@@ -94,8 +98,12 @@
         "url": "https://dom.spec.whatwg.org/"
       },
       {
+        "name": "ECMASCRIPT",
+        "url": "https://tc39.es/ecma262/multipage/"
+      },
+      {
         "name": "GEOMETRY-1",
-        "url": "https://drafts.fxtf.org/geometry/"
+        "url": "https://drafts.csswg.org/geometry/"
       },
       {
         "name": "HTML",
@@ -108,6 +116,10 @@
       {
         "name": "MEDIAQUERIES-5",
         "url": "https://drafts.csswg.org/mediaqueries-5/"
+      },
+      {
+        "name": "POINTEREVENTS3",
+        "url": "https://w3c.github.io/pointerevents/"
       },
       {
         "name": "RFC2119",
@@ -123,11 +135,11 @@
       },
       {
         "name": "SVG2",
-        "url": "https://svgwg.org/svg2-draft/"
+        "url": "https://w3c.github.io/svgwg/svg2-draft/"
       },
       {
-        "name": "UIEVENTS",
-        "url": "https://w3c.github.io/uievents/"
+        "name": "WEBDRIVER-BIDI",
+        "url": "https://w3c.github.io/webdriver-bidi/"
       },
       {
         "name": "WEBIDL",
@@ -138,6 +150,10 @@
       {
         "name": "CSS-UI-4",
         "url": "https://drafts.csswg.org/css-ui-4/"
+      },
+      {
+        "name": "CSS-WRITING-MODES-3",
+        "url": "https://drafts.csswg.org/css-writing-modes-3/"
       },
       {
         "name": "CSSOM-VIEW-1",

@@ -21,7 +21,8 @@
         "title": "Inline Layout Model",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "inline-formatting-context",
@@ -40,7 +41,8 @@
         "title": "Inline Layout Model",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "root-inline-box",
@@ -59,7 +61,8 @@
         "title": "Inline Layout Model",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "line-box",
@@ -78,7 +81,8 @@
         "title": "Inline Layout Model",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "phantom-line-box",
@@ -97,7 +101,8 @@
         "title": "Phantom Line Boxes",
         "number": "2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "baseline",
@@ -116,7 +121,8 @@
         "title": "Introduction to Baselines",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "baseline-table",
@@ -135,7 +141,8 @@
         "title": "Introduction to Baselines",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "alphabetic-baseline",
@@ -156,7 +163,8 @@
         "title": "Baselines and Metrics",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "cap-height-baseline",
@@ -177,7 +185,8 @@
         "title": "Baselines and Metrics",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "x-height-baseline",
@@ -198,7 +207,8 @@
         "title": "Baselines and Metrics",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "x-middle-baseline",
@@ -219,7 +229,8 @@
         "title": "Baselines and Metrics",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "ideographic-over-baseline",
@@ -240,7 +251,8 @@
         "title": "Baselines and Metrics",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "ideographic-under-baseline",
@@ -261,13 +273,15 @@
         "title": "Baselines and Metrics",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "central-baseline",
       "href": "https://drafts.csswg.org/css-inline-3/#central-baseline",
       "linkingText": [
-        "central baseline"
+        "central baseline",
+        "ideographic central baseline"
       ],
       "localLinkingText": [
         "central"
@@ -282,7 +296,8 @@
         "title": "Baselines and Metrics",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "ideographic-ink-over-baseline",
@@ -303,7 +318,8 @@
         "title": "Baselines and Metrics",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "ideographic-ink-under-baseline",
@@ -324,7 +340,8 @@
         "title": "Baselines and Metrics",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "hanging-baseline",
@@ -345,7 +362,8 @@
         "title": "Baselines and Metrics",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "math-baseline",
@@ -366,7 +384,8 @@
         "title": "Baselines and Metrics",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "text-over-baseline",
@@ -387,7 +406,8 @@
         "title": "Baselines and Metrics",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "text-under-baseline",
@@ -408,7 +428,8 @@
         "title": "Baselines and Metrics",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "em-over-baseline",
@@ -429,7 +450,8 @@
         "title": "Baselines and Metrics",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "em-under-baseline",
@@ -450,7 +472,8 @@
         "title": "Baselines and Metrics",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "ascent-metric",
@@ -471,7 +494,8 @@
         "title": "Ascent and Descent Metrics",
         "number": "3.2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "descent-metric",
@@ -492,7 +516,8 @@
         "title": "Ascent and Descent Metrics",
         "number": "3.2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "line-gap-metric",
@@ -511,7 +536,8 @@
         "title": "Line Gap Metrics",
         "number": "3.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "baseline-set",
@@ -530,7 +556,8 @@
         "title": "Baselines of Glyphs and Boxes",
         "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-dominant-baseline",
@@ -549,7 +576,8 @@
         "title": "Dominant Baselines: the dominant-baseline property",
         "number": "4.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dominant-baseline",
@@ -568,7 +596,28 @@
         "title": "Dominant Baselines: the dominant-baseline property",
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "typedef-baseline-metric",
+      "href": "https://drafts.csswg.org/css-inline-3/#typedef-baseline-metric",
+      "linkingText": [
+        "<baseline-metric>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dominant-baseline-property",
+        "href": "https://drafts.csswg.org/css-inline-3/#dominant-baseline-property",
+        "title": "Dominant Baselines: the dominant-baseline property",
+        "number": "4.1"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-dominant-baseline-auto",
@@ -579,7 +628,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "dominant-baseline"
+        "dominant-baseline",
+        "<<baseline-metric>>"
       ],
       "access": "public",
       "informative": false,
@@ -589,7 +639,8 @@
         "title": "Dominant Baselines: the dominant-baseline property",
         "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-dominant-baseline-text-bottom",
@@ -600,7 +651,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "dominant-baseline"
+        "dominant-baseline",
+        "<<baseline-metric>>"
       ],
       "access": "public",
       "informative": false,
@@ -610,7 +662,8 @@
         "title": "Dominant Baselines: the dominant-baseline property",
         "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-dominant-baseline-alphabetic",
@@ -621,7 +674,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "dominant-baseline"
+        "dominant-baseline",
+        "<<baseline-metric>>"
       ],
       "access": "public",
       "informative": false,
@@ -631,7 +685,8 @@
         "title": "Dominant Baselines: the dominant-baseline property",
         "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-dominant-baseline-ideographic",
@@ -642,7 +697,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "dominant-baseline"
+        "dominant-baseline",
+        "<<baseline-metric>>"
       ],
       "access": "public",
       "informative": false,
@@ -652,7 +708,8 @@
         "title": "Dominant Baselines: the dominant-baseline property",
         "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-dominant-baseline-middle",
@@ -663,7 +720,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "dominant-baseline"
+        "dominant-baseline",
+        "<<baseline-metric>>"
       ],
       "access": "public",
       "informative": false,
@@ -673,7 +731,8 @@
         "title": "Dominant Baselines: the dominant-baseline property",
         "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-dominant-baseline-central",
@@ -684,7 +743,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "dominant-baseline"
+        "dominant-baseline",
+        "<<baseline-metric>>"
       ],
       "access": "public",
       "informative": false,
@@ -694,7 +754,8 @@
         "title": "Dominant Baselines: the dominant-baseline property",
         "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-dominant-baseline-mathematical",
@@ -705,7 +766,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "dominant-baseline"
+        "dominant-baseline",
+        "<<baseline-metric>>"
       ],
       "access": "public",
       "informative": false,
@@ -715,7 +777,8 @@
         "title": "Dominant Baselines: the dominant-baseline property",
         "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-dominant-baseline-hanging",
@@ -726,7 +789,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "dominant-baseline"
+        "dominant-baseline",
+        "<<baseline-metric>>"
       ],
       "access": "public",
       "informative": false,
@@ -736,7 +800,8 @@
         "title": "Dominant Baselines: the dominant-baseline property",
         "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-dominant-baseline-text-top",
@@ -747,7 +812,8 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "dominant-baseline"
+        "dominant-baseline",
+        "<<baseline-metric>>"
       ],
       "access": "public",
       "informative": false,
@@ -757,7 +823,8 @@
         "title": "Dominant Baselines: the dominant-baseline property",
         "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-vertical-align",
@@ -776,7 +843,8 @@
         "title": "Transverse Box Alignment: the vertical-align property",
         "number": "4.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "propdef-baseline-source",
@@ -795,7 +863,8 @@
         "title": "Alignment Baseline Source: the baseline-source longhand",
         "number": "4.2.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "baseline-alignment-preference",
@@ -814,7 +883,8 @@
         "title": "Alignment Baseline Source: the baseline-source longhand",
         "number": "4.2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-baseline-source-auto",
@@ -836,7 +906,8 @@
         "title": "Alignment Baseline Source: the baseline-source longhand",
         "number": "4.2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-baseline-source-first",
@@ -858,7 +929,8 @@
         "title": "Alignment Baseline Source: the baseline-source longhand",
         "number": "4.2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-baseline-source-last",
@@ -880,7 +952,8 @@
         "title": "Alignment Baseline Source: the baseline-source longhand",
         "number": "4.2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-alignment-baseline",
@@ -899,7 +972,8 @@
         "title": "Alignment Baseline Type: the alignment-baseline longhand",
         "number": "4.2.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "alignment-baseline",
@@ -918,7 +992,8 @@
         "title": "Alignment Baseline Type: the alignment-baseline longhand",
         "number": "4.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-alignment-baseline-baseline",
@@ -929,8 +1004,7 @@
       "localLinkingText": [],
       "type": "value",
       "for": [
-        "alignment-baseline",
-        "vertical-align"
+        "alignment-baseline"
       ],
       "access": "public",
       "informative": false,
@@ -940,161 +1014,8 @@
         "title": "Alignment Baseline Type: the alignment-baseline longhand",
         "number": "4.2.2"
       },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-alignment-baseline-text-bottom",
-      "href": "https://drafts.csswg.org/css-inline-3/#valdef-alignment-baseline-text-bottom",
-      "linkingText": [
-        "text-bottom"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "alignment-baseline",
-        "vertical-align"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "alignment-baseline-property",
-        "href": "https://drafts.csswg.org/css-inline-3/#alignment-baseline-property",
-        "title": "Alignment Baseline Type: the alignment-baseline longhand",
-        "number": "4.2.2"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-alignment-baseline-alphabetic",
-      "href": "https://drafts.csswg.org/css-inline-3/#valdef-alignment-baseline-alphabetic",
-      "linkingText": [
-        "alphabetic"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "alignment-baseline",
-        "vertical-align"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "alignment-baseline-property",
-        "href": "https://drafts.csswg.org/css-inline-3/#alignment-baseline-property",
-        "title": "Alignment Baseline Type: the alignment-baseline longhand",
-        "number": "4.2.2"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-alignment-baseline-ideographic",
-      "href": "https://drafts.csswg.org/css-inline-3/#valdef-alignment-baseline-ideographic",
-      "linkingText": [
-        "ideographic"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "alignment-baseline",
-        "vertical-align"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "alignment-baseline-property",
-        "href": "https://drafts.csswg.org/css-inline-3/#alignment-baseline-property",
-        "title": "Alignment Baseline Type: the alignment-baseline longhand",
-        "number": "4.2.2"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-alignment-baseline-middle",
-      "href": "https://drafts.csswg.org/css-inline-3/#valdef-alignment-baseline-middle",
-      "linkingText": [
-        "middle"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "alignment-baseline",
-        "vertical-align"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "alignment-baseline-property",
-        "href": "https://drafts.csswg.org/css-inline-3/#alignment-baseline-property",
-        "title": "Alignment Baseline Type: the alignment-baseline longhand",
-        "number": "4.2.2"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-alignment-baseline-central",
-      "href": "https://drafts.csswg.org/css-inline-3/#valdef-alignment-baseline-central",
-      "linkingText": [
-        "central"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "alignment-baseline",
-        "vertical-align"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "alignment-baseline-property",
-        "href": "https://drafts.csswg.org/css-inline-3/#alignment-baseline-property",
-        "title": "Alignment Baseline Type: the alignment-baseline longhand",
-        "number": "4.2.2"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-alignment-baseline-mathematical",
-      "href": "https://drafts.csswg.org/css-inline-3/#valdef-alignment-baseline-mathematical",
-      "linkingText": [
-        "mathematical"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "alignment-baseline",
-        "vertical-align"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "alignment-baseline-property",
-        "href": "https://drafts.csswg.org/css-inline-3/#alignment-baseline-property",
-        "title": "Alignment Baseline Type: the alignment-baseline longhand",
-        "number": "4.2.2"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-alignment-baseline-text-top",
-      "href": "https://drafts.csswg.org/css-inline-3/#valdef-alignment-baseline-text-top",
-      "linkingText": [
-        "text-top"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "alignment-baseline",
-        "vertical-align"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "alignment-baseline-property",
-        "href": "https://drafts.csswg.org/css-inline-3/#alignment-baseline-property",
-        "title": "Alignment Baseline Type: the alignment-baseline longhand",
-        "number": "4.2.2"
-      },
-      "definedIn": "dt"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-alignment-baseline-text-before-edge",
@@ -1115,7 +1036,8 @@
         "title": "Legacy Values for SVG",
         "number": "4.2.2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-alignment-baseline-text-after-edge",
@@ -1136,7 +1058,8 @@
         "title": "Legacy Values for SVG",
         "number": "4.2.2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-baseline-shift",
@@ -1155,7 +1078,8 @@
         "title": "Post-Alignment Shift: the baseline-shift longhand",
         "number": "4.2.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "post-alignment-shift",
@@ -1174,7 +1098,8 @@
         "title": "Post-Alignment Shift: the baseline-shift longhand",
         "number": "4.2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "baseline-relative-shift-values",
@@ -1195,7 +1120,8 @@
         "title": "Post-Alignment Shift: the baseline-shift longhand",
         "number": "4.2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "line-relative-shift-values",
@@ -1216,7 +1142,8 @@
         "title": "Post-Alignment Shift: the baseline-shift longhand",
         "number": "4.2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-baseline-shift-sub",
@@ -1238,7 +1165,8 @@
         "title": "Post-Alignment Shift: the baseline-shift longhand",
         "number": "4.2.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-baseline-shift-super",
@@ -1260,7 +1188,8 @@
         "title": "Post-Alignment Shift: the baseline-shift longhand",
         "number": "4.2.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-baseline-shift-top",
@@ -1282,7 +1211,8 @@
         "title": "Post-Alignment Shift: the baseline-shift longhand",
         "number": "4.2.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-baseline-shift-center",
@@ -1304,7 +1234,8 @@
         "title": "Post-Alignment Shift: the baseline-shift longhand",
         "number": "4.2.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-baseline-shift-bottom",
@@ -1326,7 +1257,8 @@
         "title": "Post-Alignment Shift: the baseline-shift longhand",
         "number": "4.2.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "aligned-subtree",
@@ -1345,7 +1277,8 @@
         "title": "Post-Alignment Shift: the baseline-shift longhand",
         "number": "4.2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-baseline-shift-baseline",
@@ -1366,7 +1299,8 @@
         "title": "Legacy Values for SVG",
         "number": "4.2.3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-line-height",
@@ -1385,7 +1319,8 @@
         "title": "Line Spacing: the line-height property",
         "number": "5.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "preferred-line-height",
@@ -1404,7 +1339,8 @@
         "title": "Line Spacing: the line-height property",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-line-height-normal",
@@ -1425,7 +1361,8 @@
         "title": "Line Spacing: the line-height property",
         "number": "5.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-line-fit-edge",
@@ -1444,7 +1381,8 @@
         "title": "Text Edge Metrics: the line-fit-edge property",
         "number": "5.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "typedef-text-edge",
@@ -1463,7 +1401,8 @@
         "title": "Text Edge Metrics: the line-fit-edge property",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-line-fit-edge-leading",
@@ -1485,7 +1424,8 @@
         "title": "Text Edge Metrics: the line-fit-edge property",
         "number": "5.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-line-fit-edge-text",
@@ -1507,7 +1447,8 @@
         "title": "Text Edge Metrics: the line-fit-edge property",
         "number": "5.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-line-fit-edge-cap",
@@ -1529,7 +1470,8 @@
         "title": "Text Edge Metrics: the line-fit-edge property",
         "number": "5.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-line-fit-edge-ex",
@@ -1551,7 +1493,8 @@
         "title": "Text Edge Metrics: the line-fit-edge property",
         "number": "5.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-line-fit-edge-ideographic",
@@ -1573,7 +1516,8 @@
         "title": "Text Edge Metrics: the line-fit-edge property",
         "number": "5.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-line-fit-edge-ideographic-ink",
@@ -1595,7 +1539,8 @@
         "title": "Text Edge Metrics: the line-fit-edge property",
         "number": "5.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-line-fit-edge-alphabetic",
@@ -1617,7 +1562,8 @@
         "title": "Text Edge Metrics: the line-fit-edge property",
         "number": "5.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "layout-bounds",
@@ -1636,7 +1582,8 @@
         "title": "Calculating the Logical Height Contributions (“Layout Bounds”) of Inline Boxes",
         "number": "5.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "leading",
@@ -1655,7 +1602,8 @@
         "title": "Calculating the Logical Height Contributions (“Layout Bounds”) of Inline Boxes",
         "number": "5.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "half-leading",
@@ -1674,7 +1622,8 @@
         "title": "Calculating the Logical Height Contributions (“Layout Bounds”) of Inline Boxes",
         "number": "5.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-text-box",
@@ -1693,7 +1642,8 @@
         "title": "Shorthand for Text Box Trimming: the text-box property",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-text-box-normal",
@@ -1714,7 +1664,8 @@
         "title": "Shorthand for Text Box Trimming: the text-box property",
         "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-text-box-trim",
@@ -1733,7 +1684,8 @@
         "title": "Trimming Over/Under Text: the text-box-trim property",
         "number": "6.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-text-box-trim-none",
@@ -1754,7 +1706,8 @@
         "title": "Trimming Over/Under Text: the text-box-trim property",
         "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-text-box-trim-trim-start",
@@ -1775,7 +1728,8 @@
         "title": "Trimming Over/Under Text: the text-box-trim property",
         "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-text-box-trim-trim-end",
@@ -1796,7 +1750,8 @@
         "title": "Trimming Over/Under Text: the text-box-trim property",
         "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-text-box-trim-trim-both",
@@ -1817,7 +1772,8 @@
         "title": "Trimming Over/Under Text: the text-box-trim property",
         "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-text-box-edge",
@@ -1836,7 +1792,8 @@
         "title": "Text Trimming Metrics: the text-box-edge property",
         "number": "6.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-text-box-edge-auto",
@@ -1857,7 +1814,8 @@
         "title": "Text Trimming Metrics: the text-box-edge property",
         "number": "6.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-inline-sizing",
@@ -1876,7 +1834,8 @@
         "title": "Inline Box Drawing Height: the inline-sizing property",
         "number": "6.4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-inline-sizing-normal",
@@ -1897,7 +1856,8 @@
         "title": "Inline Box Drawing Height: the inline-sizing property",
         "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-inline-sizing-stretch",
@@ -1918,7 +1878,8 @@
         "title": "Inline Box Drawing Height: the inline-sizing property",
         "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dropped-initial",
@@ -1937,7 +1898,8 @@
         "title": "Drop Initial",
         "number": "7.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "sunken-initial",
@@ -1956,7 +1918,8 @@
         "title": "Sunken Initial Letters",
         "number": "7.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "raised-initial",
@@ -1975,7 +1938,8 @@
         "title": "Raised Initial Letters",
         "number": "7.1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-initial-letter",
@@ -1994,7 +1958,8 @@
         "title": "Creating Initial Letters: the initial-letter property",
         "number": "7.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-initial-letter-normal",
@@ -2015,7 +1980,8 @@
         "title": "Creating Initial Letters: the initial-letter property",
         "number": "7.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "initial-letter-initial-letter-size",
@@ -2036,7 +2002,8 @@
         "title": "Creating Initial Letters: the initial-letter property",
         "number": "7.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "initial-letter-initial-letter-sink",
@@ -2059,7 +2026,8 @@
         "title": "Creating Initial Letters: the initial-letter property",
         "number": "7.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-initial-letter-raise",
@@ -2080,7 +2048,8 @@
         "title": "Creating Initial Letters: the initial-letter property",
         "number": "7.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-initial-letter-drop",
@@ -2101,7 +2070,8 @@
         "title": "Creating Initial Letters: the initial-letter property",
         "number": "7.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "initial-letter",
@@ -2121,7 +2091,8 @@
         "title": "Creating Initial Letters: the initial-letter property",
         "number": "7.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-initial-letter-align",
@@ -2140,7 +2111,8 @@
         "title": "Alignment of Initial Letters: the initial-letter-align property",
         "number": "7.4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-initial-letter-align-alphabetic",
@@ -2161,7 +2133,8 @@
         "title": "Alignment of Initial Letters: the initial-letter-align property",
         "number": "7.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-initial-letter-align-ideographic",
@@ -2182,7 +2155,8 @@
         "title": "Alignment of Initial Letters: the initial-letter-align property",
         "number": "7.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-initial-letter-align-hanging",
@@ -2203,7 +2177,8 @@
         "title": "Alignment of Initial Letters: the initial-letter-align property",
         "number": "7.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-initial-letter-align-leading",
@@ -2224,7 +2199,8 @@
         "title": "Alignment of Initial Letters: the initial-letter-align property",
         "number": "7.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-initial-letter-align-border-box",
@@ -2245,7 +2221,8 @@
         "title": "Alignment of Initial Letters: the initial-letter-align property",
         "number": "7.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "inline-initial-letter",
@@ -2265,7 +2242,8 @@
         "title": "Initial Letter Layout",
         "number": "7.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "atomic-initial-letter",
@@ -2285,7 +2263,8 @@
         "title": "Initial Letter Layout",
         "number": "7.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-initial-letter-wrap",
@@ -2304,7 +2283,8 @@
         "title": "Initial Letter Wrapping: the initial-letter-wrap property",
         "number": "7.7"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-initial-letter-wrap-none",
@@ -2325,7 +2305,8 @@
         "title": "Initial Letter Wrapping: the initial-letter-wrap property",
         "number": "7.7"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-initial-letter-wrap-first",
@@ -2346,7 +2327,8 @@
         "title": "Initial Letter Wrapping: the initial-letter-wrap property",
         "number": "7.7"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-initial-letter-wrap-all",
@@ -2367,7 +2349,8 @@
         "title": "Initial Letter Wrapping: the initial-letter-wrap property",
         "number": "7.7"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-initial-letter-wrap-grid",
@@ -2388,7 +2371,8 @@
         "title": "Initial Letter Wrapping: the initial-letter-wrap property",
         "number": "7.7"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "originating-line",
@@ -2410,7 +2394,8 @@
         "title": "Line Layout",
         "number": "7.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

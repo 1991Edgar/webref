@@ -368,6 +368,7 @@
       "https://github.com/w3c/webcomponents": {},
       "https://github.com/whatwg/dom/issues": {},
       "https://github.com/whatwg/dom/issues/181": {},
+      "https://github.com/whatwg/dom/issues/583": {},
       "https://github.com/whatwg/dom/issues/600": {},
       "https://github.com/whatwg/dom/issues/67": {},
       "https://github.com/whatwg/webidl/issues/135": {},
@@ -383,7 +384,9 @@
       "https://w3c.github.io/deviceorientation/": {},
       "https://w3c.github.io/hr-time/": {},
       "https://w3c.github.io/long-animation-frames/": {},
+      "https://w3c.github.io/pointerevents/": {},
       "https://w3c.github.io/touch-events/": {},
+      "https://w3c.github.io/trusted-types/dist/spec/": {},
       "https://w3c.github.io/uievents/": {},
       "https://webidl.spec.whatwg.org/": {},
       "https://whatwg.org/": {},
@@ -392,6 +395,7 @@
       "https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document": {},
       "https://www.w3.org/TR/DOM-Level-3-XPath/": {},
       "https://www.w3.org/TR/xml-names/": {},
+      "https://www.w3.org/TR/xml-stylesheet/": {},
       "https://www.w3.org/TR/xml/": {},
       "https://www.w3.org/TR/xpath-10/": {},
       "https://www.w3.org/TR/xslt-10/": {}
@@ -437,18 +441,24 @@
       },
       "https://html.spec.whatwg.org/multipage/custom-elements.html": {
         "anchors": [
+          "is-scoped",
+          "scoped-document-set",
           "enqueue-a-custom-element-callback-reaction",
           "concept-try-upgrade",
           "concept-upgrade-an-element",
+          "customelementregistry",
           "cereactions",
           "customized-built-in-element",
+          "look-up-a-custom-element-registry",
+          "custom-element-definition",
+          "valid-custom-element-name",
           "custom-element-constructor",
           "look-up-a-custom-element-definition",
           "concept-custom-element-definition-name",
           "concept-custom-element-definition-local-name",
           "concept-custom-element-definition-constructor",
           "enqueue-a-custom-element-upgrade-reaction",
-          "valid-custom-element-name",
+          "active-custom-element-constructor-map",
           "concept-custom-element-definition-disable-shadow"
         ]
       },
@@ -567,7 +577,13 @@
           "list-iterate",
           "set-append",
           "string-concatenate",
-          "strictly-split",
+          "string",
+          "string-length",
+          "ascii-whitespace",
+          "code-point",
+          "ascii-alpha",
+          "ascii-digit",
+          "assert",
           "xml-namespace",
           "xmlns-namespace",
           "list",
@@ -584,22 +600,24 @@
           "iteration-continue",
           "list-clone",
           "list-empty",
-          "ascii-whitespace",
-          "string-length",
           "list-insert",
           "html-namespace",
           "queue",
           "ordered-map",
           "map-set",
           "queue-enqueue",
-          "assert",
           "ascii-lowercase",
           "ascii-case-insensitive",
           "string-is",
           "svg-namespace",
           "ascii-uppercase",
+          "map-with-default",
+          "map-remove",
           "list-replace",
           "code-unit",
+          "map-clear",
+          "map-is-empty",
+          "map-getting-the-keys",
           "tuple",
           "set-replace"
         ]
@@ -649,14 +667,24 @@
           "record-timing-info-for-event-listener"
         ]
       },
+      "https://w3c.github.io/pointerevents/": {
+        "anchors": [
+          "dom-mouseevent"
+        ]
+      },
       "https://w3c.github.io/touch-events/": {
         "anchors": [
           "idl-def-touchevent"
         ]
       },
+      "https://w3c.github.io/trusted-types/dist/spec/": {
+        "anchors": [
+          "typedefdef-trustedtype",
+          "get-trusted-type-compliant-attribute-value"
+        ]
+      },
       "https://w3c.github.io/uievents/": {
         "anchors": [
-          "mouseevent",
           "dom-uievent-detail",
           "compositionevent",
           "focusevent",
@@ -704,6 +732,7 @@
           "notfounderror",
           "idl-unsigned-long",
           "Unscopable",
+          "dfn-iterable",
           "dfn-supported-property-indices",
           "LegacyUnenumerableNamedProperties",
           "dfn-supported-property-names",
@@ -722,16 +751,18 @@
           "idl-unrestricted-double"
         ]
       },
-      "https://www.w3.org/TR/xml-names/": {
+      "https://www.w3.org/TR/xml-stylesheet/": {
         "anchors": [
-          "NT-QName"
+          "dt-parsing-result",
+          "dt-parsing",
+          "dt-pseudo-attribute",
+          "dt-name",
+          "dt-value"
         ]
       },
       "https://www.w3.org/TR/xml/": {
         "anchors": [
-          "NT-Name",
-          "NT-Char",
-          "NT-PubidChar"
+          "NT-Name"
         ]
       }
     }

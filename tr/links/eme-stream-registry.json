@@ -5,19 +5,27 @@
   },
   "links": {
     "rawlinks": {
-      "https://github.com/w3c/encrypted-media/issues/": {},
+      "https://github.com/w3c/encrypted-media/issues": {},
+      "https://mimesniff.spec.whatwg.org/": {},
       "https://www.w3.org/TR/": {},
       "https://www.w3.org/TR/eme-stream-mp4/": {},
       "https://www.w3.org/TR/eme-stream-webm/": {},
-      "https://www.w3.org/TR/encrypted-media/": {},
+      "https://www.w3.org/TR/encrypted-media-2/": {},
       "https://www.w3.org/groups/wg/media": {},
       "https://www.w3.org/policies/patent-policy/": {},
-      "https://www.w3.org/policies/process/20231103/": {
+      "https://www.w3.org/policies/process/20250818/": {
         "anchors": [
           "recs-and-notes"
         ]
       }
     },
-    "autolinks": {}
+    "autolinks": {
+      "https://mimesniff.spec.whatwg.org/": {
+        "anchors": [
+          "mime-type",
+          "subtype"
+        ]
+      }
+    }
   }
 }

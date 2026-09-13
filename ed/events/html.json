@@ -529,7 +529,8 @@
       "targets": [
         "HTMLElement"
       ],
-      "interface": "Event"
+      "interface": "Event",
+      "bubbles": true
     },
     {
       "href": "https://html.spec.whatwg.org/multipage/indices.html#event-beforetoggle",
@@ -598,7 +599,7 @@
       "bubbles": true
     },
     {
-      "href": "https://w3c.github.io/uievents/#event-type-click",
+      "href": "https://w3c.github.io/pointerevents/#click",
       "src": {
         "format": "summary table",
         "href": "https://html.spec.whatwg.org/multipage/indices.html#events-2%3Aevent-click"
@@ -623,6 +624,19 @@
         "MessagePort"
       ],
       "interface": "Event"
+    },
+    {
+      "href": "https://html.spec.whatwg.org/multipage/indices.html#event-command",
+      "src": {
+        "format": "summary table",
+        "href": "https://html.spec.whatwg.org/multipage/indices.html#event-command"
+      },
+      "type": "command",
+      "targets": [
+        "HTMLElement"
+      ],
+      "interface": "CommandEvent",
+      "cancelable": true
     },
     {
       "href": "https://html.spec.whatwg.org/multipage/indices.html#event-workerglobalscope-connect",
@@ -1105,7 +1119,8 @@
       "targets": [
         "Document"
       ],
-      "interface": "Event"
+      "interface": "Event",
+      "bubbles": true
     }
   ]
 }

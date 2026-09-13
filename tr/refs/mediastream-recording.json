@@ -30,12 +30,16 @@
         "url": "https://html.spec.whatwg.org/multipage/"
       },
       {
+        "name": "INFRA",
+        "url": "https://infra.spec.whatwg.org/"
+      },
+      {
         "name": "RFC2046",
         "url": "https://www.rfc-editor.org/rfc/rfc2046"
       },
       {
         "name": "WEBDRIVER-BIDI",
-        "url": "https://w3c.github.io/webdriver-bidi/"
+        "url": "https://www.w3.org/TR/webdriver-bidi/"
       },
       {
         "name": "WEBIDL",
@@ -43,6 +47,10 @@
       }
     ],
     "informative": [
+      {
+        "name": "MEDIA-CAPABILITIES",
+        "url": "https://www.w3.org/TR/media-capabilities/"
+      },
       {
         "name": "RFC6381",
         "url": "https://www.rfc-editor.org/rfc/rfc6381"

@@ -21,7 +21,8 @@
         "title": "Regions",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "region-chain",
@@ -40,7 +41,8 @@
         "title": "Region chain",
         "number": "2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "last-usable-region",
@@ -60,7 +62,8 @@
         "title": "Last region",
         "number": "2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "named-flow",
@@ -79,7 +82,8 @@
         "title": "Named flows",
         "number": "2.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-flow-into",
@@ -98,18 +102,43 @@
         "title": "The flow-into property",
         "number": "3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
-      "id": "element",
-      "href": "https://drafts.csswg.org/css-regions-1/#element",
+      "id": "valdef-flow-into-none",
+      "href": "https://drafts.csswg.org/css-regions-1/#valdef-flow-into-none",
+      "linkingText": [
+        "none"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "flow-into"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-flow-into-property",
+        "href": "https://drafts.csswg.org/css-regions-1/#the-flow-into-property",
+        "title": "The flow-into property",
+        "number": "3.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-flow-into-element",
+      "href": "https://drafts.csswg.org/css-regions-1/#valdef-flow-into-element",
       "linkingText": [
         "element"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "value",
+      "for": [
+        "flow-into"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "the-flow-into-property",
@@ -117,18 +146,21 @@
         "title": "The flow-into property",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "content",
-      "href": "https://drafts.csswg.org/css-regions-1/#content",
+      "id": "valdef-flow-into-content",
+      "href": "https://drafts.csswg.org/css-regions-1/#valdef-flow-into-content",
       "linkingText": [
         "content"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "value",
+      "for": [
+        "flow-into"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "the-flow-into-property",
@@ -136,7 +168,8 @@
         "title": "The flow-into property",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "specified-flow",
@@ -145,9 +178,11 @@
         "specified flow"
       ],
       "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
+      "type": "value",
+      "for": [
+        "flow-into"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "the-flow-into-property",
@@ -155,7 +190,8 @@
         "title": "The flow-into property",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-flow-from",
@@ -174,7 +210,30 @@
         "title": "The flow-from property",
         "number": "3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "valdef-flow-from-none",
+      "href": "https://drafts.csswg.org/css-regions-1/#valdef-flow-from-none",
+      "linkingText": [
+        "none"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "flow-from"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "flow-from",
+        "href": "https://drafts.csswg.org/css-regions-1/#flow-from",
+        "title": "The flow-from property",
+        "number": "3.2"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "nested-region-context",
@@ -193,7 +252,8 @@
         "title": "Nested fragmentation contexts",
         "number": "3.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-region-fragment",
@@ -212,7 +272,8 @@
         "title": "The region-fragment property",
         "number": "3.4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "document-namedflows",
@@ -231,7 +292,8 @@
         "title": "The NamedFlow interface",
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-document-namedflows",
@@ -252,7 +314,8 @@
         "title": "The NamedFlow interface",
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "namedflowmap",
@@ -271,7 +334,8 @@
         "title": "The NamedFlow interface",
         "number": "4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-namedflowmap-get",
@@ -292,7 +356,8 @@
         "title": "The NamedFlow interface",
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-namedflowmap-has",
@@ -313,7 +378,8 @@
         "title": "The NamedFlow interface",
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-namedflowmap-set",
@@ -334,7 +400,8 @@
         "title": "The NamedFlow interface",
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-namedflowmap-delete",
@@ -355,7 +422,8 @@
         "title": "The NamedFlow interface",
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "namedflow",
@@ -374,7 +442,8 @@
         "title": "The NamedFlow interface",
         "number": "4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-namedflow-getregionsbycontent",
@@ -395,7 +464,8 @@
         "title": "The NamedFlow interface",
         "number": "4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-namedflow-getregionsbycontent-node-node",
@@ -416,7 +486,8 @@
         "title": "The NamedFlow interface",
         "number": "4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-namedflow-name",
@@ -437,7 +508,8 @@
         "title": "The NamedFlow interface",
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-namedflow-overset",
@@ -458,7 +530,8 @@
         "title": "The NamedFlow interface",
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-namedflow-getregions",
@@ -479,7 +552,8 @@
         "title": "The NamedFlow interface",
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-namedflow-firstemptyregionindex",
@@ -500,7 +574,8 @@
         "title": "The NamedFlow interface",
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-namedflow-getcontent",
@@ -521,7 +596,8 @@
         "title": "The NamedFlow interface",
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-namedflow-getregionsbycontent①",
@@ -542,7 +618,8 @@
         "title": "The NamedFlow interface",
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "region",
@@ -561,7 +638,8 @@
         "title": "The Region mixin",
         "number": "4.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-region-regionoverset",
@@ -582,7 +660,8 @@
         "title": "The Region mixin",
         "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-region-getregionflowranges",
@@ -603,7 +682,8 @@
         "title": "The Region mixin",
         "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "region-flow-content-box",
@@ -622,7 +702,8 @@
         "title": "The Region Flow Content Box (RFCB)",
         "number": "7.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "rfcb",
@@ -641,7 +722,8 @@
         "title": "The Region Flow Content Box (RFCB)",
         "number": "7.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "flow-fragment-height",
@@ -660,7 +742,8 @@
         "title": "Regions visual formatting steps",
         "number": "7.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

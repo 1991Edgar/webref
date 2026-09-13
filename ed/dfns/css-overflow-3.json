@@ -21,7 +21,8 @@
         "title": "Overflow Concepts and Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "ink-overflow",
@@ -40,7 +41,8 @@
         "title": "Ink Overflow",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "ink-overflow-region",
@@ -60,7 +62,8 @@
         "title": "Ink Overflow",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "ink-overflow-rectangle",
@@ -79,7 +82,8 @@
         "title": "Ink Overflow",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "scrollable-overflow",
@@ -98,7 +102,8 @@
         "title": "Scrollable Overflow",
         "number": "2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "scrollable-overflow-region",
@@ -118,7 +123,8 @@
         "title": "Scrollable Overflow",
         "number": "2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "scrollable-overflow-rectangle",
@@ -137,7 +143,8 @@
         "title": "Scrollable Overflow",
         "number": "2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "scroll-container",
@@ -156,7 +163,8 @@
         "title": "Scrolling Overflow",
         "number": "2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "scrollport",
@@ -175,13 +183,14 @@
         "title": "Scrolling Overflow",
         "number": "2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "nearest-scrollport",
-      "href": "https://drafts.csswg.org/css-overflow-3/#nearest-scrollport",
+      "id": "nearest-scroll-container",
+      "href": "https://drafts.csswg.org/css-overflow-3/#nearest-scroll-container",
       "linkingText": [
-        "nearest scrollport"
+        "nearest scroll container"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -194,7 +203,8 @@
         "title": "Scrolling Overflow",
         "number": "2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "initial-scroll-position",
@@ -213,7 +223,8 @@
         "title": "Scrolling Overflow",
         "number": "2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "scroll-position",
@@ -232,7 +243,8 @@
         "title": "Scrolling Overflow",
         "number": "2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "scroll-offset",
@@ -251,7 +263,8 @@
         "title": "Scrolling Overflow",
         "number": "2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "scroll-origin",
@@ -270,26 +283,8 @@
         "title": "Scrolling Overflow",
         "number": "2.3"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "negative-scrollable-overflow-region",
-      "href": "https://drafts.csswg.org/css-overflow-3/#negative-scrollable-overflow-region",
-      "linkingText": [
-        "negative scrollable overflow region"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "scrolling",
-        "href": "https://drafts.csswg.org/css-overflow-3/#scrolling",
-        "title": "Scrolling Overflow",
-        "number": "2.3"
-      },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "scroll-origin-position",
@@ -308,7 +303,168 @@
         "title": "Scrolling Overflow",
         "number": "2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "unreachable-scrollable-overflow-region",
+      "href": "https://drafts.csswg.org/css-overflow-3/#unreachable-scrollable-overflow-region",
+      "linkingText": [
+        "unreachable scrollable overflow region"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scrolling",
+        "href": "https://drafts.csswg.org/css-overflow-3/#scrolling",
+        "title": "Scrolling Overflow",
+        "number": "2.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "scrollable-axis",
+      "href": "https://drafts.csswg.org/css-overflow-3/#scrollable-axis",
+      "linkingText": [
+        "scrollable axis"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "overflow-properties",
+        "href": "https://drafts.csswg.org/css-overflow-3/#overflow-properties",
+        "title": "Clipping and Scrolling Overflow",
+        "number": "3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "single-axis-scroll-container",
+      "href": "https://drafts.csswg.org/css-overflow-3/#single-axis-scroll-container",
+      "linkingText": [
+        "single-axis scroll container"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "overflow-properties",
+        "href": "https://drafts.csswg.org/css-overflow-3/#overflow-properties",
+        "title": "Clipping and Scrolling Overflow",
+        "number": "3"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dual-axis-scroll-container",
+      "href": "https://drafts.csswg.org/css-overflow-3/#dual-axis-scroll-container",
+      "linkingText": [
+        "dual-axis scroll container"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "overflow-properties",
+        "href": "https://drafts.csswg.org/css-overflow-3/#overflow-properties",
+        "title": "Clipping and Scrolling Overflow",
+        "number": "3"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "block-axis-scroll-container",
+      "href": "https://drafts.csswg.org/css-overflow-3/#block-axis-scroll-container",
+      "linkingText": [
+        "block-axis scroll container"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "overflow-properties",
+        "href": "https://drafts.csswg.org/css-overflow-3/#overflow-properties",
+        "title": "Clipping and Scrolling Overflow",
+        "number": "3"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "inline-axis-scroll-container",
+      "href": "https://drafts.csswg.org/css-overflow-3/#inline-axis-scroll-container",
+      "linkingText": [
+        "inline-axis scroll container"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "overflow-properties",
+        "href": "https://drafts.csswg.org/css-overflow-3/#overflow-properties",
+        "title": "Clipping and Scrolling Overflow",
+        "number": "3"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "x-axis-scroll-container",
+      "href": "https://drafts.csswg.org/css-overflow-3/#x-axis-scroll-container",
+      "linkingText": [
+        "x-axis scroll container"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "overflow-properties",
+        "href": "https://drafts.csswg.org/css-overflow-3/#overflow-properties",
+        "title": "Clipping and Scrolling Overflow",
+        "number": "3"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "y-axis-scroll-container",
+      "href": "https://drafts.csswg.org/css-overflow-3/#y-axis-scroll-container",
+      "linkingText": [
+        "y-axis scroll container"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "overflow-properties",
+        "href": "https://drafts.csswg.org/css-overflow-3/#overflow-properties",
+        "title": "Clipping and Scrolling Overflow",
+        "number": "3"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-overflow-x",
@@ -327,7 +483,8 @@
         "title": "Managing Overflow: the overflow-x, overflow-y, and overflow properties",
         "number": "3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "propdef-overflow-y",
@@ -346,7 +503,8 @@
         "title": "Managing Overflow: the overflow-x, overflow-y, and overflow properties",
         "number": "3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "propdef-overflow-block",
@@ -365,7 +523,8 @@
         "title": "Managing Overflow: the overflow-x, overflow-y, and overflow properties",
         "number": "3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "propdef-overflow-inline",
@@ -384,7 +543,8 @@
         "title": "Managing Overflow: the overflow-x, overflow-y, and overflow properties",
         "number": "3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "propdef-overflow",
@@ -403,7 +563,8 @@
         "title": "Managing Overflow: the overflow-x, overflow-y, and overflow properties",
         "number": "3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-overflow-visible",
@@ -426,7 +587,8 @@
         "title": "Managing Overflow: the overflow-x, overflow-y, and overflow properties",
         "number": "3.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-overflow-hidden",
@@ -449,7 +611,8 @@
         "title": "Managing Overflow: the overflow-x, overflow-y, and overflow properties",
         "number": "3.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-overflow-clip",
@@ -472,7 +635,8 @@
         "title": "Managing Overflow: the overflow-x, overflow-y, and overflow properties",
         "number": "3.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-overflow-scroll",
@@ -495,7 +659,8 @@
         "title": "Managing Overflow: the overflow-x, overflow-y, and overflow properties",
         "number": "3.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-overflow-auto",
@@ -518,7 +683,50 @@
         "title": "Managing Overflow: the overflow-x, overflow-y, and overflow properties",
         "number": "3.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "scrollable-overflow-value",
+      "href": "https://drafts.csswg.org/css-overflow-3/#scrollable-overflow-value",
+      "linkingText": [
+        "scrollable overflow value"
+      ],
+      "localLinkingText": [
+        "scrollable value"
+      ],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "overflow-control",
+        "href": "https://drafts.csswg.org/css-overflow-3/#overflow-control",
+        "title": "Managing Overflow: the overflow-x, overflow-y, and overflow properties",
+        "number": "3.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "non-scrollable-overflow-value",
+      "href": "https://drafts.csswg.org/css-overflow-3/#non-scrollable-overflow-value",
+      "linkingText": [
+        "non-scrollable overflow value"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "overflow-control",
+        "href": "https://drafts.csswg.org/css-overflow-3/#overflow-control",
+        "title": "Managing Overflow: the overflow-x, overflow-y, and overflow properties",
+        "number": "3.1"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-overflow-overlay",
@@ -543,7 +751,8 @@
         "title": "Managing Overflow: the overflow-x, overflow-y, and overflow properties",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-overflow-clip-margin",
@@ -562,7 +771,8 @@
         "title": "Expanding Clipping Bounds: the overflow-clip-margin property",
         "number": "3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "overflow-clip-edge",
@@ -581,7 +791,8 @@
         "title": "Expanding Clipping Bounds: the overflow-clip-margin property",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-scroll-behavior",
@@ -598,9 +809,10 @@
         "id": "smooth-scrolling",
         "href": "https://drafts.csswg.org/css-overflow-3/#smooth-scrolling",
         "title": "Smooth Scrolling: the scroll-behavior Property",
-        "number": "3.4"
+        "number": "4.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-scroll-behavior-auto",
@@ -619,9 +831,10 @@
         "id": "smooth-scrolling",
         "href": "https://drafts.csswg.org/css-overflow-3/#smooth-scrolling",
         "title": "Smooth Scrolling: the scroll-behavior Property",
-        "number": "3.4"
+        "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-scroll-behavior-smooth",
@@ -640,9 +853,10 @@
         "id": "smooth-scrolling",
         "href": "https://drafts.csswg.org/css-overflow-3/#smooth-scrolling",
         "title": "Smooth Scrolling: the scroll-behavior Property",
-        "number": "3.4"
+        "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "scrollbar-gutter",
@@ -659,9 +873,10 @@
         "id": "scrollbar-gutter-property",
         "href": "https://drafts.csswg.org/css-overflow-3/#scrollbar-gutter-property",
         "title": "Reserving space for the scrollbar: the scrollbar-gutter property",
-        "number": "4.2"
+        "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-scrollbar-gutter",
@@ -678,9 +893,10 @@
         "id": "scrollbar-gutter-property",
         "href": "https://drafts.csswg.org/css-overflow-3/#scrollbar-gutter-property",
         "title": "Reserving space for the scrollbar: the scrollbar-gutter property",
-        "number": "4.2"
+        "number": "5.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "overlay-scrollbars",
@@ -697,9 +913,10 @@
         "id": "scrollbar-gutter-property",
         "href": "https://drafts.csswg.org/css-overflow-3/#scrollbar-gutter-property",
         "title": "Reserving space for the scrollbar: the scrollbar-gutter property",
-        "number": "4.2"
+        "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "classic-scrollbars",
@@ -716,9 +933,10 @@
         "id": "scrollbar-gutter-property",
         "href": "https://drafts.csswg.org/css-overflow-3/#scrollbar-gutter-property",
         "title": "Reserving space for the scrollbar: the scrollbar-gutter property",
-        "number": "4.2"
+        "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-scrollbar-gutter-auto",
@@ -737,9 +955,10 @@
         "id": "scrollbar-gutter-property",
         "href": "https://drafts.csswg.org/css-overflow-3/#scrollbar-gutter-property",
         "title": "Reserving space for the scrollbar: the scrollbar-gutter property",
-        "number": "4.2"
+        "number": "5.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-scrollbar-gutter-stable",
@@ -758,9 +977,10 @@
         "id": "scrollbar-gutter-property",
         "href": "https://drafts.csswg.org/css-overflow-3/#scrollbar-gutter-property",
         "title": "Reserving space for the scrollbar: the scrollbar-gutter property",
-        "number": "4.2"
+        "number": "5.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-scrollbar-gutter-both-edges",
@@ -779,9 +999,10 @@
         "id": "scrollbar-gutter-property",
         "href": "https://drafts.csswg.org/css-overflow-3/#scrollbar-gutter-property",
         "title": "Reserving space for the scrollbar: the scrollbar-gutter property",
-        "number": "4.2"
+        "number": "5.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-text-overflow",
@@ -798,9 +1019,10 @@
         "id": "text-overflow",
         "href": "https://drafts.csswg.org/css-overflow-3/#text-overflow",
         "title": "Overflow Ellipsis: the text-overflow property",
-        "number": "5.1"
+        "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "overflow-clip",
@@ -819,9 +1041,10 @@
         "id": "text-overflow",
         "href": "https://drafts.csswg.org/css-overflow-3/#text-overflow",
         "title": "Overflow Ellipsis: the text-overflow property",
-        "number": "5.1"
+        "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "overflow-ellipsis",
@@ -840,9 +1063,10 @@
         "id": "text-overflow",
         "href": "https://drafts.csswg.org/css-overflow-3/#text-overflow",
         "title": "Overflow Ellipsis: the text-overflow property",
-        "number": "5.1"
+        "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     }
   ]
 }

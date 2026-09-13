@@ -1,12 +1,12 @@
 {
   "spec": {
     "title": "CSS Masking Module Level 1",
-    "url": "https://drafts.fxtf.org/css-masking-1/"
+    "url": "https://drafts.csswg.org/css-masking-1/"
   },
   "dfns": [
     {
       "id": "clipping-path",
-      "href": "https://drafts.fxtf.org/css-masking-1/#clipping-path",
+      "href": "https://drafts.csswg.org/css-masking-1/#clipping-path",
       "linkingText": [
         "clipping path"
       ],
@@ -17,15 +17,16 @@
       "informative": false,
       "heading": {
         "id": "clipping",
-        "href": "https://drafts.fxtf.org/css-masking-1/#clipping",
+        "href": "https://drafts.csswg.org/css-masking-1/#clipping",
         "title": "Clipping",
         "number": "1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "mask-size",
-      "href": "https://drafts.fxtf.org/css-masking-1/#mask-size",
+      "href": "https://drafts.csswg.org/css-masking-1/#mask-size",
       "linkingText": [
         "mask-size"
       ],
@@ -36,15 +37,16 @@
       "informative": false,
       "heading": {
         "id": "terminology",
-        "href": "https://drafts.fxtf.org/css-masking-1/#terminology",
+        "href": "https://drafts.csswg.org/css-masking-1/#terminology",
         "title": "Terminology",
         "number": "4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "mask-position",
-      "href": "https://drafts.fxtf.org/css-masking-1/#mask-position",
+      "href": "https://drafts.csswg.org/css-masking-1/#mask-position",
       "linkingText": [
         "mask-position"
       ],
@@ -55,15 +57,16 @@
       "informative": false,
       "heading": {
         "id": "terminology",
-        "href": "https://drafts.fxtf.org/css-masking-1/#terminology",
+        "href": "https://drafts.csswg.org/css-masking-1/#terminology",
         "title": "Terminology",
         "number": "4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "clipping-region",
-      "href": "https://drafts.fxtf.org/css-masking-1/#clipping-region",
+      "href": "https://drafts.csswg.org/css-masking-1/#clipping-region",
       "linkingText": [
         "clipping region"
       ],
@@ -74,15 +77,16 @@
       "informative": false,
       "heading": {
         "id": "clipping-paths",
-        "href": "https://drafts.fxtf.org/css-masking-1/#clipping-paths",
+        "href": "https://drafts.csswg.org/css-masking-1/#clipping-paths",
         "title": "Clipping Paths",
         "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-clip-path",
-      "href": "https://drafts.fxtf.org/css-masking-1/#propdef-clip-path",
+      "href": "https://drafts.csswg.org/css-masking-1/#propdef-clip-path",
       "linkingText": [
         "clip-path"
       ],
@@ -93,15 +97,16 @@
       "informative": false,
       "heading": {
         "id": "the-clip-path",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-clip-path",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-clip-path",
         "title": "Clipping Shape: the clip-path property",
         "number": "5.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "typedef-clip-source",
-      "href": "https://drafts.fxtf.org/css-masking-1/#typedef-clip-source",
+      "href": "https://drafts.csswg.org/css-masking-1/#typedef-clip-source",
       "linkingText": [
         "<clip-source>"
       ],
@@ -112,15 +117,16 @@
       "informative": false,
       "heading": {
         "id": "the-clip-path",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-clip-path",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-clip-path",
         "title": "Clipping Shape: the clip-path property",
         "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-geometry-box",
-      "href": "https://drafts.fxtf.org/css-masking-1/#typedef-geometry-box",
+      "href": "https://drafts.csswg.org/css-masking-1/#typedef-geometry-box",
       "linkingText": [
         "<geometry-box>"
       ],
@@ -131,15 +137,16 @@
       "informative": false,
       "heading": {
         "id": "the-clip-path",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-clip-path",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-clip-path",
         "title": "Clipping Shape: the clip-path property",
         "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "valdef-clip-path-fill-box",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-clip-path-fill-box",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-clip-path-fill-box",
       "linkingText": [
         "fill-box"
       ],
@@ -152,15 +159,16 @@
       "informative": false,
       "heading": {
         "id": "the-clip-path",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-clip-path",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-clip-path",
         "title": "Clipping Shape: the clip-path property",
         "number": "5.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-clip-path-stroke-box",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-clip-path-stroke-box",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-clip-path-stroke-box",
       "linkingText": [
         "stroke-box"
       ],
@@ -173,15 +181,16 @@
       "informative": false,
       "heading": {
         "id": "the-clip-path",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-clip-path",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-clip-path",
         "title": "Clipping Shape: the clip-path property",
         "number": "5.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-clip-path-view-box",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-clip-path-view-box",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-clip-path-view-box",
       "linkingText": [
         "view-box"
       ],
@@ -194,15 +203,16 @@
       "informative": false,
       "heading": {
         "id": "the-clip-path",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-clip-path",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-clip-path",
         "title": "Clipping Shape: the clip-path property",
         "number": "5.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "elementdef-clippath",
-      "href": "https://drafts.fxtf.org/css-masking-1/#elementdef-clippath",
+      "href": "https://drafts.csswg.org/css-masking-1/#elementdef-clippath",
       "linkingText": [
         "clipPath"
       ],
@@ -213,15 +223,16 @@
       "informative": false,
       "heading": {
         "id": "ClipPathElement",
-        "href": "https://drafts.fxtf.org/css-masking-1/#ClipPathElement",
+        "href": "https://drafts.csswg.org/css-masking-1/#ClipPathElement",
         "title": "The clipPath element",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "element-attrdef-clippath-clippathunits",
-      "href": "https://drafts.fxtf.org/css-masking-1/#element-attrdef-clippath-clippathunits",
+      "href": "https://drafts.csswg.org/css-masking-1/#element-attrdef-clippath-clippathunits",
       "linkingText": [
         "clipPathUnits"
       ],
@@ -234,15 +245,16 @@
       "informative": false,
       "heading": {
         "id": "ClipPathElement",
-        "href": "https://drafts.fxtf.org/css-masking-1/#ClipPathElement",
+        "href": "https://drafts.csswg.org/css-masking-1/#ClipPathElement",
         "title": "The clipPath element",
         "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-clippathunits-userspaceonuse",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-clippathunits-userspaceonuse",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-clippathunits-userspaceonuse",
       "linkingText": [
         "userSpaceOnUse"
       ],
@@ -255,15 +267,16 @@
       "informative": false,
       "heading": {
         "id": "ClipPathElement",
-        "href": "https://drafts.fxtf.org/css-masking-1/#ClipPathElement",
+        "href": "https://drafts.csswg.org/css-masking-1/#ClipPathElement",
         "title": "The clipPath element",
         "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-clippathunits-objectboundingbox",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-clippathunits-objectboundingbox",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-clippathunits-objectboundingbox",
       "linkingText": [
         "objectBoundingBox"
       ],
@@ -276,15 +289,16 @@
       "informative": false,
       "heading": {
         "id": "ClipPathElement",
-        "href": "https://drafts.fxtf.org/css-masking-1/#ClipPathElement",
+        "href": "https://drafts.csswg.org/css-masking-1/#ClipPathElement",
         "title": "The clipPath element",
         "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-clip-rule",
-      "href": "https://drafts.fxtf.org/css-masking-1/#propdef-clip-rule",
+      "href": "https://drafts.csswg.org/css-masking-1/#propdef-clip-rule",
       "linkingText": [
         "clip-rule"
       ],
@@ -295,15 +309,16 @@
       "informative": false,
       "heading": {
         "id": "the-clip-rule",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-clip-rule",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-clip-rule",
         "title": "Winding Rules: the clip-rule property",
         "number": "6.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-clip-rule-nonzero",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-clip-rule-nonzero",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-clip-rule-nonzero",
       "linkingText": [
         "nonzero"
       ],
@@ -316,15 +331,16 @@
       "informative": false,
       "heading": {
         "id": "the-clip-rule",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-clip-rule",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-clip-rule",
         "title": "Winding Rules: the clip-rule property",
         "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-clip-rule-evenodd",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-clip-rule-evenodd",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-clip-rule-evenodd",
       "linkingText": [
         "evenodd"
       ],
@@ -337,15 +353,16 @@
       "informative": false,
       "heading": {
         "id": "the-clip-rule",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-clip-rule",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-clip-rule",
         "title": "Winding Rules: the clip-rule property",
         "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-mask-image",
-      "href": "https://drafts.fxtf.org/css-masking-1/#propdef-mask-image",
+      "href": "https://drafts.csswg.org/css-masking-1/#propdef-mask-image",
       "linkingText": [
         "mask-image"
       ],
@@ -356,15 +373,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-image",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-image",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-image",
         "title": "Mask Image Source: the mask-image property",
         "number": "7.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "mask-layer-image",
-      "href": "https://drafts.fxtf.org/css-masking-1/#mask-layer-image",
+      "href": "https://drafts.csswg.org/css-masking-1/#mask-layer-image",
       "linkingText": [
         "mask layer image"
       ],
@@ -375,15 +393,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-image",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-image",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-image",
         "title": "Mask Image Source: the mask-image property",
         "number": "7.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "typedef-mask-reference",
-      "href": "https://drafts.fxtf.org/css-masking-1/#typedef-mask-reference",
+      "href": "https://drafts.csswg.org/css-masking-1/#typedef-mask-reference",
       "linkingText": [
         "<mask-reference>"
       ],
@@ -394,15 +413,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-image",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-image",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-image",
         "title": "Mask Image Source: the mask-image property",
         "number": "7.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-mask-source",
-      "href": "https://drafts.fxtf.org/css-masking-1/#typedef-mask-source",
+      "href": "https://drafts.csswg.org/css-masking-1/#typedef-mask-source",
       "linkingText": [
         "<mask-source>"
       ],
@@ -413,15 +433,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-image",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-image",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-image",
         "title": "Mask Image Source: the mask-image property",
         "number": "7.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "valdef-mask-image-url",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-mask-image-url",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-mask-image-url",
       "linkingText": [
         "<url>"
       ],
@@ -434,15 +455,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-image",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-image",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-image",
         "title": "Mask Image Source: the mask-image property",
         "number": "7.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-mask-mode",
-      "href": "https://drafts.fxtf.org/css-masking-1/#propdef-mask-mode",
+      "href": "https://drafts.csswg.org/css-masking-1/#propdef-mask-mode",
       "linkingText": [
         "mask-mode"
       ],
@@ -453,15 +475,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-mode",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-mode",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-mode",
         "title": "Mask Image Interpretation: the mask-mode property",
         "number": "7.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "typedef-masking-mode",
-      "href": "https://drafts.fxtf.org/css-masking-1/#typedef-masking-mode",
+      "href": "https://drafts.csswg.org/css-masking-1/#typedef-masking-mode",
       "linkingText": [
         "<masking-mode>"
       ],
@@ -472,15 +495,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-mode",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-mode",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-mode",
         "title": "Mask Image Interpretation: the mask-mode property",
         "number": "7.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "valdef-mask-mode-alpha",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-mask-mode-alpha",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-mask-mode-alpha",
       "linkingText": [
         "alpha"
       ],
@@ -493,15 +517,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-mode",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-mode",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-mode",
         "title": "Mask Image Interpretation: the mask-mode property",
         "number": "7.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-mask-mode-luminance",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-mask-mode-luminance",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-mask-mode-luminance",
       "linkingText": [
         "luminance"
       ],
@@ -514,15 +539,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-mode",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-mode",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-mode",
         "title": "Mask Image Interpretation: the mask-mode property",
         "number": "7.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-mask-mode-match-source",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-mask-mode-match-source",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-mask-mode-match-source",
       "linkingText": [
         "match-source"
       ],
@@ -535,15 +561,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-mode",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-mode",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-mode",
         "title": "Mask Image Interpretation: the mask-mode property",
         "number": "7.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-mask-repeat",
-      "href": "https://drafts.fxtf.org/css-masking-1/#propdef-mask-repeat",
+      "href": "https://drafts.csswg.org/css-masking-1/#propdef-mask-repeat",
       "linkingText": [
         "mask-repeat"
       ],
@@ -554,15 +581,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-repeat",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-repeat",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-repeat",
         "title": "Tiling Mask Images: the mask-repeat property",
         "number": "7.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "propdef-mask-position",
-      "href": "https://drafts.fxtf.org/css-masking-1/#propdef-mask-position",
+      "href": "https://drafts.csswg.org/css-masking-1/#propdef-mask-position",
       "linkingText": [
         "mask-position"
       ],
@@ -573,15 +601,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-position",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-position",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-position",
         "title": "Positioning Mask Images: the mask-position property",
         "number": "7.4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "propdef-mask-clip",
-      "href": "https://drafts.fxtf.org/css-masking-1/#propdef-mask-clip",
+      "href": "https://drafts.csswg.org/css-masking-1/#propdef-mask-clip",
       "linkingText": [
         "mask-clip"
       ],
@@ -592,15 +621,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-clip",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-clip",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-clip",
         "title": "Masking Area: the mask-clip property",
         "number": "7.5"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "mask-painting-area",
-      "href": "https://drafts.fxtf.org/css-masking-1/#mask-painting-area",
+      "href": "https://drafts.csswg.org/css-masking-1/#mask-painting-area",
       "linkingText": [
         "mask painting area"
       ],
@@ -611,15 +641,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-clip",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-clip",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-clip",
         "title": "Masking Area: the mask-clip property",
         "number": "7.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-mask-clip-content-box",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-mask-clip-content-box",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-mask-clip-content-box",
       "linkingText": [
         "content-box"
       ],
@@ -632,15 +663,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-clip",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-clip",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-clip",
         "title": "Masking Area: the mask-clip property",
         "number": "7.5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-mask-clip-padding-box",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-mask-clip-padding-box",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-mask-clip-padding-box",
       "linkingText": [
         "padding-box"
       ],
@@ -653,15 +685,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-clip",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-clip",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-clip",
         "title": "Masking Area: the mask-clip property",
         "number": "7.5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-mask-clip-border-box",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-mask-clip-border-box",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-mask-clip-border-box",
       "linkingText": [
         "border-box"
       ],
@@ -674,15 +707,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-clip",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-clip",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-clip",
         "title": "Masking Area: the mask-clip property",
         "number": "7.5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-mask-clip-fill-box",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-mask-clip-fill-box",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-mask-clip-fill-box",
       "linkingText": [
         "fill-box"
       ],
@@ -695,15 +729,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-clip",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-clip",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-clip",
         "title": "Masking Area: the mask-clip property",
         "number": "7.5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-mask-clip-stroke-box",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-mask-clip-stroke-box",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-mask-clip-stroke-box",
       "linkingText": [
         "stroke-box"
       ],
@@ -716,15 +751,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-clip",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-clip",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-clip",
         "title": "Masking Area: the mask-clip property",
         "number": "7.5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-mask-clip-view-box",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-mask-clip-view-box",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-mask-clip-view-box",
       "linkingText": [
         "view-box"
       ],
@@ -737,15 +773,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-clip",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-clip",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-clip",
         "title": "Masking Area: the mask-clip property",
         "number": "7.5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-mask-clip-no-clip",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-mask-clip-no-clip",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-mask-clip-no-clip",
       "linkingText": [
         "no-clip"
       ],
@@ -758,15 +795,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-clip",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-clip",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-clip",
         "title": "Masking Area: the mask-clip property",
         "number": "7.5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-mask-origin",
-      "href": "https://drafts.fxtf.org/css-masking-1/#propdef-mask-origin",
+      "href": "https://drafts.csswg.org/css-masking-1/#propdef-mask-origin",
       "linkingText": [
         "mask-origin"
       ],
@@ -777,15 +815,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-origin",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-origin",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-origin",
         "title": "Positioning Area: the mask-origin property",
         "number": "7.6"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "mask-positioning-area",
-      "href": "https://drafts.fxtf.org/css-masking-1/#mask-positioning-area",
+      "href": "https://drafts.csswg.org/css-masking-1/#mask-positioning-area",
       "linkingText": [
         "mask positioning area"
       ],
@@ -796,15 +835,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-origin",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-origin",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-origin",
         "title": "Positioning Area: the mask-origin property",
         "number": "7.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-mask-origin-content-box",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-mask-origin-content-box",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-mask-origin-content-box",
       "linkingText": [
         "content-box"
       ],
@@ -817,15 +857,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-origin",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-origin",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-origin",
         "title": "Positioning Area: the mask-origin property",
         "number": "7.6"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-mask-origin-padding-box",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-mask-origin-padding-box",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-mask-origin-padding-box",
       "linkingText": [
         "padding-box"
       ],
@@ -838,15 +879,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-origin",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-origin",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-origin",
         "title": "Positioning Area: the mask-origin property",
         "number": "7.6"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-mask-origin-border-box",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-mask-origin-border-box",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-mask-origin-border-box",
       "linkingText": [
         "border-box"
       ],
@@ -859,15 +901,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-origin",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-origin",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-origin",
         "title": "Positioning Area: the mask-origin property",
         "number": "7.6"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-mask-origin-fill-box",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-mask-origin-fill-box",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-mask-origin-fill-box",
       "linkingText": [
         "fill-box"
       ],
@@ -880,15 +923,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-origin",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-origin",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-origin",
         "title": "Positioning Area: the mask-origin property",
         "number": "7.6"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-mask-origin-stroke-box",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-mask-origin-stroke-box",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-mask-origin-stroke-box",
       "linkingText": [
         "stroke-box"
       ],
@@ -901,15 +945,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-origin",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-origin",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-origin",
         "title": "Positioning Area: the mask-origin property",
         "number": "7.6"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-mask-origin-view-box",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-mask-origin-view-box",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-mask-origin-view-box",
       "linkingText": [
         "view-box"
       ],
@@ -922,15 +967,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-origin",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-origin",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-origin",
         "title": "Positioning Area: the mask-origin property",
         "number": "7.6"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-mask-size",
-      "href": "https://drafts.fxtf.org/css-masking-1/#propdef-mask-size",
+      "href": "https://drafts.csswg.org/css-masking-1/#propdef-mask-size",
       "linkingText": [
         "mask-size"
       ],
@@ -941,15 +987,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-size",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-size",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-size",
         "title": "Sizing Mask Images: the mask-size property",
         "number": "7.7"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "propdef-mask-composite",
-      "href": "https://drafts.fxtf.org/css-masking-1/#propdef-mask-composite",
+      "href": "https://drafts.csswg.org/css-masking-1/#propdef-mask-composite",
       "linkingText": [
         "mask-composite"
       ],
@@ -960,15 +1007,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-composite",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-composite",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-composite",
         "title": "Compositing mask layers: the mask-composite property",
         "number": "7.8"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "typedef-compositing-operator",
-      "href": "https://drafts.fxtf.org/css-masking-1/#typedef-compositing-operator",
+      "href": "https://drafts.csswg.org/css-masking-1/#typedef-compositing-operator",
       "linkingText": [
         "<compositing-operator>"
       ],
@@ -979,15 +1027,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-composite",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-composite",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-composite",
         "title": "Compositing mask layers: the mask-composite property",
         "number": "7.8"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "source",
-      "href": "https://drafts.fxtf.org/css-masking-1/#source",
+      "href": "https://drafts.csswg.org/css-masking-1/#source",
       "linkingText": [
         "source"
       ],
@@ -998,15 +1047,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-composite",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-composite",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-composite",
         "title": "Compositing mask layers: the mask-composite property",
         "number": "7.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "destination",
-      "href": "https://drafts.fxtf.org/css-masking-1/#destination",
+      "href": "https://drafts.csswg.org/css-masking-1/#destination",
       "linkingText": [
         "destination"
       ],
@@ -1017,15 +1067,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-composite",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-composite",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-composite",
         "title": "Compositing mask layers: the mask-composite property",
         "number": "7.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-mask-composite-add",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-mask-composite-add",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-mask-composite-add",
       "linkingText": [
         "add"
       ],
@@ -1038,15 +1089,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-composite",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-composite",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-composite",
         "title": "Compositing mask layers: the mask-composite property",
         "number": "7.8"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-mask-composite-subtract",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-mask-composite-subtract",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-mask-composite-subtract",
       "linkingText": [
         "subtract"
       ],
@@ -1059,15 +1111,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-composite",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-composite",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-composite",
         "title": "Compositing mask layers: the mask-composite property",
         "number": "7.8"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-mask-composite-intersect",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-mask-composite-intersect",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-mask-composite-intersect",
       "linkingText": [
         "intersect"
       ],
@@ -1080,15 +1133,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-composite",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-composite",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-composite",
         "title": "Compositing mask layers: the mask-composite property",
         "number": "7.8"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-mask-composite-exclude",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-mask-composite-exclude",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-mask-composite-exclude",
       "linkingText": [
         "exclude"
       ],
@@ -1101,15 +1155,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-composite",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-composite",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-composite",
         "title": "Compositing mask layers: the mask-composite property",
         "number": "7.8"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-mask",
-      "href": "https://drafts.fxtf.org/css-masking-1/#propdef-mask",
+      "href": "https://drafts.csswg.org/css-masking-1/#propdef-mask",
       "linkingText": [
         "mask"
       ],
@@ -1120,15 +1175,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask",
         "title": "Mask Shorthand: the mask property",
         "number": "7.9"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "typedef-mask-layer",
-      "href": "https://drafts.fxtf.org/css-masking-1/#typedef-mask-layer",
+      "href": "https://drafts.csswg.org/css-masking-1/#typedef-mask-layer",
       "linkingText": [
         "<mask-layer>"
       ],
@@ -1139,15 +1195,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask",
         "title": "Mask Shorthand: the mask property",
         "number": "7.9"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "mask-image",
-      "href": "https://drafts.fxtf.org/css-masking-1/#mask-image",
+      "href": "https://drafts.csswg.org/css-masking-1/#mask-image",
       "linkingText": [
         "mask image"
       ],
@@ -1158,15 +1215,16 @@
       "informative": false,
       "heading": {
         "id": "MaskValues",
-        "href": "https://drafts.fxtf.org/css-masking-1/#MaskValues",
+        "href": "https://drafts.csswg.org/css-masking-1/#MaskValues",
         "title": "Mask processing",
         "number": "7.10.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-mask-border-source",
-      "href": "https://drafts.fxtf.org/css-masking-1/#propdef-mask-border-source",
+      "href": "https://drafts.csswg.org/css-masking-1/#propdef-mask-border-source",
       "linkingText": [
         "mask-border-source"
       ],
@@ -1177,15 +1235,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-border-source",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-border-source",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-border-source",
         "title": "Mask Border Image Source: the mask-border-source property",
         "number": "8.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "mask-border-image",
-      "href": "https://drafts.fxtf.org/css-masking-1/#mask-border-image",
+      "href": "https://drafts.csswg.org/css-masking-1/#mask-border-image",
       "linkingText": [
         "mask border image"
       ],
@@ -1196,15 +1255,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-border-source",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-border-source",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-border-source",
         "title": "Mask Border Image Source: the mask-border-source property",
         "number": "8.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-mask-border-mode",
-      "href": "https://drafts.fxtf.org/css-masking-1/#propdef-mask-border-mode",
+      "href": "https://drafts.csswg.org/css-masking-1/#propdef-mask-border-mode",
       "linkingText": [
         "mask-border-mode"
       ],
@@ -1215,15 +1275,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-border-mode",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-border-mode",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-border-mode",
         "title": "Mask Border Image Interpretation: the mask-border-mode property",
         "number": "8.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-mask-border-mode-alpha",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-mask-border-mode-alpha",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-mask-border-mode-alpha",
       "linkingText": [
         "alpha"
       ],
@@ -1236,15 +1297,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-border-mode",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-border-mode",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-border-mode",
         "title": "Mask Border Image Interpretation: the mask-border-mode property",
         "number": "8.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-mask-border-mode-luminance",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-mask-border-mode-luminance",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-mask-border-mode-luminance",
       "linkingText": [
         "luminance"
       ],
@@ -1257,15 +1319,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-border-mode",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-border-mode",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-border-mode",
         "title": "Mask Border Image Interpretation: the mask-border-mode property",
         "number": "8.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-mask-border-slice",
-      "href": "https://drafts.fxtf.org/css-masking-1/#propdef-mask-border-slice",
+      "href": "https://drafts.csswg.org/css-masking-1/#propdef-mask-border-slice",
       "linkingText": [
         "mask-border-slice"
       ],
@@ -1276,15 +1339,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-border-slice",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-border-slice",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-border-slice",
         "title": "Mask Border Image Slicing: the mask-border-slice property",
         "number": "8.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-mask-border-slice-fill",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-mask-border-slice-fill",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-mask-border-slice-fill",
       "linkingText": [
         "fill"
       ],
@@ -1297,15 +1361,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-border-slice",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-border-slice",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-border-slice",
         "title": "Mask Border Image Slicing: the mask-border-slice property",
         "number": "8.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-mask-border-width",
-      "href": "https://drafts.fxtf.org/css-masking-1/#propdef-mask-border-width",
+      "href": "https://drafts.csswg.org/css-masking-1/#propdef-mask-border-width",
       "linkingText": [
         "mask-border-width"
       ],
@@ -1316,15 +1381,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-border-width",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-border-width",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-border-width",
         "title": "Masking Areas: the mask-border-width property",
         "number": "8.4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "mask-border-image-area",
-      "href": "https://drafts.fxtf.org/css-masking-1/#mask-border-image-area",
+      "href": "https://drafts.csswg.org/css-masking-1/#mask-border-image-area",
       "linkingText": [
         "mask border image area"
       ],
@@ -1335,15 +1401,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-border-width",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-border-width",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-border-width",
         "title": "Masking Areas: the mask-border-width property",
         "number": "8.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-mask-border-outset",
-      "href": "https://drafts.fxtf.org/css-masking-1/#propdef-mask-border-outset",
+      "href": "https://drafts.csswg.org/css-masking-1/#propdef-mask-border-outset",
       "linkingText": [
         "mask-border-outset"
       ],
@@ -1354,15 +1421,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-border-outset",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-border-outset",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-border-outset",
         "title": "Edge Overhang: the mask-border-outset property",
         "number": "8.5"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "propdef-mask-border-repeat",
-      "href": "https://drafts.fxtf.org/css-masking-1/#propdef-mask-border-repeat",
+      "href": "https://drafts.csswg.org/css-masking-1/#propdef-mask-border-repeat",
       "linkingText": [
         "mask-border-repeat"
       ],
@@ -1373,15 +1441,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-border-repeat",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-border-repeat",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-border-repeat",
         "title": "Mask Border Image Tiling: the mask-border-repeat property",
         "number": "8.6"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "propdef-mask-border",
-      "href": "https://drafts.fxtf.org/css-masking-1/#propdef-mask-border",
+      "href": "https://drafts.csswg.org/css-masking-1/#propdef-mask-border",
       "linkingText": [
         "mask-border"
       ],
@@ -1392,15 +1461,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-border",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-border",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-border",
         "title": "Mask Border Image Shorthand: the mask-border property",
         "number": "8.7"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "elementdef-mask",
-      "href": "https://drafts.fxtf.org/css-masking-1/#elementdef-mask",
+      "href": "https://drafts.csswg.org/css-masking-1/#elementdef-mask",
       "linkingText": [
         "mask"
       ],
@@ -1411,15 +1481,16 @@
       "informative": false,
       "heading": {
         "id": "MaskElement",
-        "href": "https://drafts.fxtf.org/css-masking-1/#MaskElement",
+        "href": "https://drafts.csswg.org/css-masking-1/#MaskElement",
         "title": "The mask element",
         "number": "9.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "element-attrdef-mask-maskunits",
-      "href": "https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-maskunits",
+      "href": "https://drafts.csswg.org/css-masking-1/#element-attrdef-mask-maskunits",
       "linkingText": [
         "maskUnits"
       ],
@@ -1432,15 +1503,16 @@
       "informative": false,
       "heading": {
         "id": "MaskElement",
-        "href": "https://drafts.fxtf.org/css-masking-1/#MaskElement",
+        "href": "https://drafts.csswg.org/css-masking-1/#MaskElement",
         "title": "The mask element",
         "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-maskunits-userspaceonuse",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-maskunits-userspaceonuse",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-maskunits-userspaceonuse",
       "linkingText": [
         "userSpaceOnUse"
       ],
@@ -1453,15 +1525,16 @@
       "informative": false,
       "heading": {
         "id": "MaskElement",
-        "href": "https://drafts.fxtf.org/css-masking-1/#MaskElement",
+        "href": "https://drafts.csswg.org/css-masking-1/#MaskElement",
         "title": "The mask element",
         "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-maskunits-objectboundingbox",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-maskunits-objectboundingbox",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-maskunits-objectboundingbox",
       "linkingText": [
         "objectBoundingBox"
       ],
@@ -1474,15 +1547,16 @@
       "informative": false,
       "heading": {
         "id": "MaskElement",
-        "href": "https://drafts.fxtf.org/css-masking-1/#MaskElement",
+        "href": "https://drafts.csswg.org/css-masking-1/#MaskElement",
         "title": "The mask element",
         "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "element-attrdef-mask-maskcontentunits",
-      "href": "https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-maskcontentunits",
+      "href": "https://drafts.csswg.org/css-masking-1/#element-attrdef-mask-maskcontentunits",
       "linkingText": [
         "maskContentUnits"
       ],
@@ -1495,15 +1569,16 @@
       "informative": false,
       "heading": {
         "id": "MaskElement",
-        "href": "https://drafts.fxtf.org/css-masking-1/#MaskElement",
+        "href": "https://drafts.csswg.org/css-masking-1/#MaskElement",
         "title": "The mask element",
         "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-maskcontentunits-userspaceonuse",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-maskcontentunits-userspaceonuse",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-maskcontentunits-userspaceonuse",
       "linkingText": [
         "userSpaceOnUse"
       ],
@@ -1516,15 +1591,16 @@
       "informative": false,
       "heading": {
         "id": "MaskElement",
-        "href": "https://drafts.fxtf.org/css-masking-1/#MaskElement",
+        "href": "https://drafts.csswg.org/css-masking-1/#MaskElement",
         "title": "The mask element",
         "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-maskcontentunits-objectboundingbox",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-maskcontentunits-objectboundingbox",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-maskcontentunits-objectboundingbox",
       "linkingText": [
         "objectBoundingBox"
       ],
@@ -1537,15 +1613,16 @@
       "informative": false,
       "heading": {
         "id": "MaskElement",
-        "href": "https://drafts.fxtf.org/css-masking-1/#MaskElement",
+        "href": "https://drafts.csswg.org/css-masking-1/#MaskElement",
         "title": "The mask element",
         "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "element-attrdef-mask-x",
-      "href": "https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-x",
+      "href": "https://drafts.csswg.org/css-masking-1/#element-attrdef-mask-x",
       "linkingText": [
         "x"
       ],
@@ -1558,15 +1635,16 @@
       "informative": false,
       "heading": {
         "id": "MaskElement",
-        "href": "https://drafts.fxtf.org/css-masking-1/#MaskElement",
+        "href": "https://drafts.csswg.org/css-masking-1/#MaskElement",
         "title": "The mask element",
         "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "element-attrdef-mask-y",
-      "href": "https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-y",
+      "href": "https://drafts.csswg.org/css-masking-1/#element-attrdef-mask-y",
       "linkingText": [
         "y"
       ],
@@ -1579,15 +1657,16 @@
       "informative": false,
       "heading": {
         "id": "MaskElement",
-        "href": "https://drafts.fxtf.org/css-masking-1/#MaskElement",
+        "href": "https://drafts.csswg.org/css-masking-1/#MaskElement",
         "title": "The mask element",
         "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "element-attrdef-mask-width",
-      "href": "https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-width",
+      "href": "https://drafts.csswg.org/css-masking-1/#element-attrdef-mask-width",
       "linkingText": [
         "width"
       ],
@@ -1600,15 +1679,16 @@
       "informative": false,
       "heading": {
         "id": "MaskElement",
-        "href": "https://drafts.fxtf.org/css-masking-1/#MaskElement",
+        "href": "https://drafts.csswg.org/css-masking-1/#MaskElement",
         "title": "The mask element",
         "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "element-attrdef-mask-height",
-      "href": "https://drafts.fxtf.org/css-masking-1/#element-attrdef-mask-height",
+      "href": "https://drafts.csswg.org/css-masking-1/#element-attrdef-mask-height",
       "linkingText": [
         "height"
       ],
@@ -1621,15 +1701,16 @@
       "informative": false,
       "heading": {
         "id": "MaskElement",
-        "href": "https://drafts.fxtf.org/css-masking-1/#MaskElement",
+        "href": "https://drafts.csswg.org/css-masking-1/#MaskElement",
         "title": "The mask element",
         "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-mask-type",
-      "href": "https://drafts.fxtf.org/css-masking-1/#propdef-mask-type",
+      "href": "https://drafts.csswg.org/css-masking-1/#propdef-mask-type",
       "linkingText": [
         "mask-type"
       ],
@@ -1640,15 +1721,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-type",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-type",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-type",
         "title": "Mask Source Interpretation: the mask-type property",
         "number": "9.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-mask-type-luminance",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-mask-type-luminance",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-mask-type-luminance",
       "linkingText": [
         "luminance"
       ],
@@ -1661,15 +1743,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-type",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-type",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-type",
         "title": "Mask Source Interpretation: the mask-type property",
         "number": "9.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-mask-type-alpha",
-      "href": "https://drafts.fxtf.org/css-masking-1/#valdef-mask-type-alpha",
+      "href": "https://drafts.csswg.org/css-masking-1/#valdef-mask-type-alpha",
       "linkingText": [
         "alpha"
       ],
@@ -1682,15 +1765,16 @@
       "informative": false,
       "heading": {
         "id": "the-mask-type",
-        "href": "https://drafts.fxtf.org/css-masking-1/#the-mask-type",
+        "href": "https://drafts.csswg.org/css-masking-1/#the-mask-type",
         "title": "Mask Source Interpretation: the mask-type property",
         "number": "9.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-clip",
-      "href": "https://drafts.fxtf.org/css-masking-1/#propdef-clip",
+      "href": "https://drafts.csswg.org/css-masking-1/#propdef-clip",
       "linkingText": [
         "clip"
       ],
@@ -1701,15 +1785,16 @@
       "informative": false,
       "heading": {
         "id": "clip-property",
-        "href": "https://drafts.fxtf.org/css-masking-1/#clip-property",
+        "href": "https://drafts.csswg.org/css-masking-1/#clip-property",
         "title": "The deprecated clip property",
         "number": "A"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "funcdef-clip-rect",
-      "href": "https://drafts.fxtf.org/css-masking-1/#funcdef-clip-rect",
+      "href": "https://drafts.csswg.org/css-masking-1/#funcdef-clip-rect",
       "linkingText": [
         "rect()"
       ],
@@ -1722,15 +1807,16 @@
       "informative": false,
       "heading": {
         "id": "clip-property",
-        "href": "https://drafts.fxtf.org/css-masking-1/#clip-property",
+        "href": "https://drafts.csswg.org/css-masking-1/#clip-property",
         "title": "The deprecated clip property",
         "number": "A"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "typedef-clip-top",
-      "href": "https://drafts.fxtf.org/css-masking-1/#typedef-clip-top",
+      "href": "https://drafts.csswg.org/css-masking-1/#typedef-clip-top",
       "linkingText": [
         "<top>"
       ],
@@ -1743,15 +1829,16 @@
       "informative": false,
       "heading": {
         "id": "clip-property",
-        "href": "https://drafts.fxtf.org/css-masking-1/#clip-property",
+        "href": "https://drafts.csswg.org/css-masking-1/#clip-property",
         "title": "The deprecated clip property",
         "number": "A"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "typedef-clip-right",
-      "href": "https://drafts.fxtf.org/css-masking-1/#typedef-clip-right",
+      "href": "https://drafts.csswg.org/css-masking-1/#typedef-clip-right",
       "linkingText": [
         "<right>"
       ],
@@ -1764,15 +1851,16 @@
       "informative": false,
       "heading": {
         "id": "clip-property",
-        "href": "https://drafts.fxtf.org/css-masking-1/#clip-property",
+        "href": "https://drafts.csswg.org/css-masking-1/#clip-property",
         "title": "The deprecated clip property",
         "number": "A"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "typedef-clip-bottom",
-      "href": "https://drafts.fxtf.org/css-masking-1/#typedef-clip-bottom",
+      "href": "https://drafts.csswg.org/css-masking-1/#typedef-clip-bottom",
       "linkingText": [
         "<bottom>"
       ],
@@ -1785,15 +1873,16 @@
       "informative": false,
       "heading": {
         "id": "clip-property",
-        "href": "https://drafts.fxtf.org/css-masking-1/#clip-property",
+        "href": "https://drafts.csswg.org/css-masking-1/#clip-property",
         "title": "The deprecated clip property",
         "number": "A"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "typedef-clip-left",
-      "href": "https://drafts.fxtf.org/css-masking-1/#typedef-clip-left",
+      "href": "https://drafts.csswg.org/css-masking-1/#typedef-clip-left",
       "linkingText": [
         "<left>"
       ],
@@ -1806,15 +1895,16 @@
       "informative": false,
       "heading": {
         "id": "clip-property",
-        "href": "https://drafts.fxtf.org/css-masking-1/#clip-property",
+        "href": "https://drafts.csswg.org/css-masking-1/#clip-property",
         "title": "The deprecated clip property",
         "number": "A"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "stroke-bounding-box",
-      "href": "https://drafts.fxtf.org/css-masking-1/#stroke-bounding-box",
+      "href": "https://drafts.csswg.org/css-masking-1/#stroke-bounding-box",
       "linkingText": [
         "stroke bounding box"
       ],
@@ -1825,15 +1915,16 @@
       "informative": false,
       "heading": {
         "id": "compute-stroke-bounding-box",
-        "href": "https://drafts.fxtf.org/css-masking-1/#compute-stroke-bounding-box",
+        "href": "https://drafts.csswg.org/css-masking-1/#compute-stroke-bounding-box",
         "title": "Compute stroke bounding box",
         "number": "B"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "svgclippathelement",
-      "href": "https://drafts.fxtf.org/css-masking-1/#svgclippathelement",
+      "href": "https://drafts.csswg.org/css-masking-1/#svgclippathelement",
       "linkingText": [
         "SVGClipPathElement"
       ],
@@ -1844,14 +1935,15 @@
       "informative": false,
       "heading": {
         "id": "InterfaceSVGClipPathElement",
-        "href": "https://drafts.fxtf.org/css-masking-1/#InterfaceSVGClipPathElement",
+        "href": "https://drafts.csswg.org/css-masking-1/#InterfaceSVGClipPathElement",
         "title": "Interface SVGClipPathElement"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-svgclippathelement-clippathunits",
-      "href": "https://drafts.fxtf.org/css-masking-1/#dom-svgclippathelement-clippathunits",
+      "href": "https://drafts.csswg.org/css-masking-1/#dom-svgclippathelement-clippathunits",
       "linkingText": [
         "clipPathUnits"
       ],
@@ -1864,14 +1956,15 @@
       "informative": false,
       "heading": {
         "id": "InterfaceSVGClipPathElement",
-        "href": "https://drafts.fxtf.org/css-masking-1/#InterfaceSVGClipPathElement",
+        "href": "https://drafts.csswg.org/css-masking-1/#InterfaceSVGClipPathElement",
         "title": "Interface SVGClipPathElement"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-svgclippathelement-transform",
-      "href": "https://drafts.fxtf.org/css-masking-1/#dom-svgclippathelement-transform",
+      "href": "https://drafts.csswg.org/css-masking-1/#dom-svgclippathelement-transform",
       "linkingText": [
         "transform"
       ],
@@ -1884,14 +1977,15 @@
       "informative": false,
       "heading": {
         "id": "InterfaceSVGClipPathElement",
-        "href": "https://drafts.fxtf.org/css-masking-1/#InterfaceSVGClipPathElement",
+        "href": "https://drafts.csswg.org/css-masking-1/#InterfaceSVGClipPathElement",
         "title": "Interface SVGClipPathElement"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "svgmaskelement",
-      "href": "https://drafts.fxtf.org/css-masking-1/#svgmaskelement",
+      "href": "https://drafts.csswg.org/css-masking-1/#svgmaskelement",
       "linkingText": [
         "SVGMaskElement"
       ],
@@ -1902,14 +1996,15 @@
       "informative": false,
       "heading": {
         "id": "InterfaceSVGMaskElement",
-        "href": "https://drafts.fxtf.org/css-masking-1/#InterfaceSVGMaskElement",
+        "href": "https://drafts.csswg.org/css-masking-1/#InterfaceSVGMaskElement",
         "title": "Interface SVGMaskElement"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-svgmaskelement-maskunits",
-      "href": "https://drafts.fxtf.org/css-masking-1/#dom-svgmaskelement-maskunits",
+      "href": "https://drafts.csswg.org/css-masking-1/#dom-svgmaskelement-maskunits",
       "linkingText": [
         "maskUnits"
       ],
@@ -1922,14 +2017,15 @@
       "informative": false,
       "heading": {
         "id": "InterfaceSVGMaskElement",
-        "href": "https://drafts.fxtf.org/css-masking-1/#InterfaceSVGMaskElement",
+        "href": "https://drafts.csswg.org/css-masking-1/#InterfaceSVGMaskElement",
         "title": "Interface SVGMaskElement"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-svgmaskelement-maskcontentunits",
-      "href": "https://drafts.fxtf.org/css-masking-1/#dom-svgmaskelement-maskcontentunits",
+      "href": "https://drafts.csswg.org/css-masking-1/#dom-svgmaskelement-maskcontentunits",
       "linkingText": [
         "maskContentUnits"
       ],
@@ -1942,14 +2038,15 @@
       "informative": false,
       "heading": {
         "id": "InterfaceSVGMaskElement",
-        "href": "https://drafts.fxtf.org/css-masking-1/#InterfaceSVGMaskElement",
+        "href": "https://drafts.csswg.org/css-masking-1/#InterfaceSVGMaskElement",
         "title": "Interface SVGMaskElement"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-svgmaskelement-x",
-      "href": "https://drafts.fxtf.org/css-masking-1/#dom-svgmaskelement-x",
+      "href": "https://drafts.csswg.org/css-masking-1/#dom-svgmaskelement-x",
       "linkingText": [
         "x"
       ],
@@ -1962,14 +2059,15 @@
       "informative": false,
       "heading": {
         "id": "InterfaceSVGMaskElement",
-        "href": "https://drafts.fxtf.org/css-masking-1/#InterfaceSVGMaskElement",
+        "href": "https://drafts.csswg.org/css-masking-1/#InterfaceSVGMaskElement",
         "title": "Interface SVGMaskElement"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-svgmaskelement-y",
-      "href": "https://drafts.fxtf.org/css-masking-1/#dom-svgmaskelement-y",
+      "href": "https://drafts.csswg.org/css-masking-1/#dom-svgmaskelement-y",
       "linkingText": [
         "y"
       ],
@@ -1982,14 +2080,15 @@
       "informative": false,
       "heading": {
         "id": "InterfaceSVGMaskElement",
-        "href": "https://drafts.fxtf.org/css-masking-1/#InterfaceSVGMaskElement",
+        "href": "https://drafts.csswg.org/css-masking-1/#InterfaceSVGMaskElement",
         "title": "Interface SVGMaskElement"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-svgmaskelement-width",
-      "href": "https://drafts.fxtf.org/css-masking-1/#dom-svgmaskelement-width",
+      "href": "https://drafts.csswg.org/css-masking-1/#dom-svgmaskelement-width",
       "linkingText": [
         "width"
       ],
@@ -2002,14 +2101,15 @@
       "informative": false,
       "heading": {
         "id": "InterfaceSVGMaskElement",
-        "href": "https://drafts.fxtf.org/css-masking-1/#InterfaceSVGMaskElement",
+        "href": "https://drafts.csswg.org/css-masking-1/#InterfaceSVGMaskElement",
         "title": "Interface SVGMaskElement"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-svgmaskelement-height",
-      "href": "https://drafts.fxtf.org/css-masking-1/#dom-svgmaskelement-height",
+      "href": "https://drafts.csswg.org/css-masking-1/#dom-svgmaskelement-height",
       "linkingText": [
         "height"
       ],
@@ -2022,10 +2122,11 @@
       "informative": false,
       "heading": {
         "id": "InterfaceSVGMaskElement",
-        "href": "https://drafts.fxtf.org/css-masking-1/#InterfaceSVGMaskElement",
+        "href": "https://drafts.csswg.org/css-masking-1/#InterfaceSVGMaskElement",
         "title": "Interface SVGMaskElement"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     }
   ]
 }

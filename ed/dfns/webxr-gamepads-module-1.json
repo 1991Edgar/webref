@@ -21,7 +21,8 @@
         "title": "WebXR Device API Integration",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrinputsource-gamepad",
@@ -42,7 +43,8 @@
         "title": "XRInputSource",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrframe-apply-gamepad-frame-updates",
@@ -63,7 +65,8 @@
         "title": "XRSession",
         "number": "2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xr-standard-gamepad-mapping",
@@ -82,7 +85,8 @@
         "title": "\"xr-standard\" Gamepad Mapping",
         "number": "3.3"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "primary-trigger",
@@ -101,7 +105,8 @@
         "title": "\"xr-standard\" Gamepad Mapping",
         "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "primary-squeeze-button",
@@ -115,11 +120,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/webxr-gamepads-module/#title",
-        "title": "WebXR Gamepads Module - Level 1"
+        "id": "xr-standard-heading",
+        "href": "https://immersive-web.github.io/webxr-gamepads-module/#xr-standard-heading",
+        "title": "\"xr-standard\" Gamepad Mapping",
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "placeholder-button",
@@ -133,11 +140,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/webxr-gamepads-module/#title",
-        "title": "WebXR Gamepads Module - Level 1"
+        "id": "xr-standard-heading",
+        "href": "https://immersive-web.github.io/webxr-gamepads-module/#xr-standard-heading",
+        "title": "\"xr-standard\" Gamepad Mapping",
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "placeholder-axis",
@@ -151,11 +160,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/webxr-gamepads-module/#title",
-        "title": "WebXR Gamepads Module - Level 1"
+        "id": "xr-standard-heading",
+        "href": "https://immersive-web.github.io/webxr-gamepads-module/#xr-standard-heading",
+        "title": "\"xr-standard\" Gamepad Mapping",
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

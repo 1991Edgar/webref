@@ -1,0 +1,88 @@
+{
+  "spec": {
+    "title": "Recognized Entities v1.0",
+    "url": "https://www.w3.org/TR/vc-recognized-entities-1.0/"
+  },
+  "links": {
+    "rawlinks": {
+      "https://infra.spec.whatwg.org/": {},
+      "https://untp.unece.org/docs/specification/DigitalIdentityAnchor/": {},
+      "https://url.spec.whatwg.org/": {},
+      "https://www.etsi.org/deliver/etsi_ts/119600_119699/119612/02.01.01_60/ts_119612v020101p.pdf": {},
+      "https://www.rfc-editor.org/info/bcp14": {},
+      "https://www.rfc-editor.org/info/rfc2119/": {},
+      "https://www.rfc-editor.org/info/rfc2397/": {},
+      "https://www.rfc-editor.org/info/rfc5280/": {},
+      "https://www.rfc-editor.org/info/rfc8174/": {},
+      "https://www.w3.org/TR/": {},
+      "https://www.w3.org/TR/vc-data-model-2.0/": {
+        "anchors": [
+          "identifiers",
+          "types",
+          "names-and-descriptions",
+          "integrity-of-related-resources",
+          "issuer",
+          "validity-period",
+          "security-considerations",
+          "privacy-considerations"
+        ]
+      },
+      "https://www.w3.org/TR/vc-recognized-entities-1.0/": {},
+      "https://www.w3.org/TR/vc-use-cases/": {
+        "anchors": [
+          "chain-of-gs1-credentials-to-identify-a-trade-item"
+        ]
+      },
+      "https://www.w3.org/TR/xmlschema11-2/": {
+        "anchors": [
+          "dateTime"
+        ]
+      },
+      "https://www.w3.org/groups/wg/vc": {},
+      "https://www.w3.org/groups/wg/vc/ipr": {},
+      "https://www.w3.org/policies/patent-policy/": {
+        "anchors": [
+          "def-essential",
+          "sec-Disclosure"
+        ]
+      },
+      "https://www.w3.org/policies/process/20250818/": {
+        "anchors": [
+          "recs-and-notes"
+        ]
+      }
+    },
+    "autolinks": {
+      "https://infra.spec.whatwg.org/": {
+        "anchors": [
+          "string"
+        ]
+      },
+      "https://url.spec.whatwg.org/": {
+        "anchors": [
+          "concept-url"
+        ]
+      },
+      "https://www.w3.org/TR/cid-1.0/": {
+        "anchors": [
+          "dfn-controlled-identifier-document"
+        ]
+      },
+      "https://www.w3.org/TR/did-core/": {
+        "anchors": [
+          "dfn-did-documents"
+        ]
+      },
+      "https://www.w3.org/TR/vc-data-model-2.0/": {
+        "anchors": [
+          "dfn-verifiable-credential",
+          "dfn-holders",
+          "dfn-verifier",
+          "dfn-issuers",
+          "dfn-credential",
+          "dfn-verifiable-presentation"
+        ]
+      }
+    }
+  }
+}

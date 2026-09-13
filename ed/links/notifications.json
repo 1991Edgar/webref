@@ -60,12 +60,13 @@
       "https://w3c.github.io/ServiceWorker/": {},
       "https://w3c.github.io/hr-time/": {},
       "https://w3c.github.io/permissions/": {},
+      "https://w3c.github.io/push-api/": {},
       "https://w3c.github.io/vibration/": {},
       "https://webidl.spec.whatwg.org/": {},
       "https://www.apple.com/": {},
       "https://www.google.com/": {},
       "https://www.rfc-editor.org/rfc/rfc5646": {},
-      "https://www.unicode.org/reports/tr9/tr9-50.html": {},
+      "https://www.unicode.org/reports/tr9/tr9-51.html": {},
       "https://www.w3.org/Bugs/Public/show_bug.cgi?id=24055": {}
     },
     "autolinks": {
@@ -91,8 +92,16 @@
           "same-origin"
         ]
       },
+      "https://html.spec.whatwg.org/multipage/browsing-the-web.html": {
+        "anchors": [
+          "navigate"
+        ]
+      },
       "https://html.spec.whatwg.org/multipage/document-sequences.html": {
         "anchors": [
+          "top-level-traversable",
+          "top-level-traversable-set",
+          "create-a-fresh-top-level-traversable",
           "browsing-context"
         ]
       },
@@ -139,7 +148,8 @@
           "list-append",
           "list-contain",
           "list-empty",
-          "list-iterate"
+          "list-iterate",
+          "boolean"
         ]
       },
       "https://tc39.github.io/ecma262/": {
@@ -168,7 +178,7 @@
       },
       "https://w3c.github.io/hr-time/": {
         "anchors": [
-          "dom-epochtimestamp",
+          "typedefdef-epochtimestamp",
           "dfn-unix-epoch",
           "dfn-eso-current-wall-time"
         ]

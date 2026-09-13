@@ -5,15 +5,17 @@
   },
   "links": {
     "rawlinks": {
-      "https://datatracker.ietf.org/doc/html/bcp14": {},
       "https://doi.org/10.1007/978-3-540-30475-3_7": {},
       "https://dx.doi.org/10.2139/ssrn.3199251": {},
       "https://en.wikipedia.org/wiki/Herbrand_interpretation": {},
+      "https://w3c.github.io/rdf-interop/spec/": {},
       "https://w3c.github.io/rdf-new/spec/": {},
-      "https://w3c.github.io/rdf-primer/spec/": {},
+      "https://w3c.github.io/rdf-tests/rdf/rdf12/rdf-semantics/": {},
+      "https://w3c.github.io/rdf-tests/rdf/rdf12/reports/": {},
       "https://w3c.github.io/sparql-concepts/spec/": {},
       "https://w3c.github.io/sparql-new/spec/": {},
       "https://www.iso.org/standard/66249.html": {},
+      "https://www.rfc-editor.org/info/bcp14": {},
       "https://www.rfc-editor.org/rfc/rfc2119": {},
       "https://www.rfc-editor.org/rfc/rfc8174": {},
       "https://www.w3.org/TR/": {},
@@ -23,11 +25,16 @@
       "https://www.w3.org/TR/rdf-mt/": {},
       "https://www.w3.org/TR/rdf-plain-literal/": {},
       "https://www.w3.org/TR/rdf-testcases/": {},
-      "https://www.w3.org/TR/rdf11-mt/": {},
+      "https://www.w3.org/TR/rdf11-mt/": {
+        "anchors": [
+          "finite-interpretations-informative"
+        ]
+      },
       "https://www.w3.org/TR/rdf12-concepts/": {
         "anchors": [
           "dfn-iri",
           "dfn-rdf-triple",
+          "dfn-triple-term",
           "dfn-rdf-graph",
           "dfn-subject",
           "dfn-predicate",
@@ -36,7 +43,9 @@
           "dfn-node",
           "dfn-blank-node",
           "dfn-literal",
+          "dfn-rdf-term",
           "dfn-graph-isomorphism",
+          "dfn-appear",
           "dfn-rdf-dataset",
           "dfn-generalized-rdf-triple",
           "dfn-generalized-rdf-graph",
@@ -45,21 +54,37 @@
           "dfn-referent",
           "dfn-rdf-vocabulary",
           "dfn-blank-node-identifier",
-          "dfn-language-tagged-string",
           "dfn-entailment",
           "dfn-equivalence",
           "dfn-inconsistent",
           "section-skolemization",
           "section-Datatypes",
+          "dfn-language-tagged-string",
+          "dfn-dir-lang-string",
           "dfn-lexical-to-value-mapping",
+          "dfn-rdf-string",
+          "dfn-lexical-form",
+          "dfn-value-space",
+          "dfn-ill-typed",
           "section-XMLLiteral",
           "section-html",
-          "section-generalized-rdf"
+          "section-json",
+          "dfn-reifying-triple",
+          "dfn-proposition",
+          "section-generalized-rdf",
+          "privacy",
+          "security"
         ]
       },
       "https://www.w3.org/TR/rdf12-n-quads/": {},
       "https://www.w3.org/TR/rdf12-n-triples/": {},
-      "https://www.w3.org/TR/rdf12-schema/": {},
+      "https://www.w3.org/TR/rdf12-primer/": {},
+      "https://www.w3.org/TR/rdf12-schema/": {
+        "anchors": [
+          "ch_legacyvocab",
+          "ch_collectionvocab"
+        ]
+      },
       "https://www.w3.org/TR/rdf12-trig/": {},
       "https://www.w3.org/TR/rdf12-turtle/": {},
       "https://www.w3.org/TR/rdf12-xml/": {},
@@ -79,7 +104,6 @@
           "sec-values"
         ]
       },
-      "https://www.w3.org/TR/turtle/": {},
       "https://www.w3.org/TR/xml11/": {
         "anchors": [
           "NT-Char"
@@ -94,13 +118,15 @@
       "https://www.w3.org/groups/wg/rdf-star/ipr": {},
       "https://www.w3.org/policies/patent-policy/": {
         "anchors": [
+          "sec-Requirements",
           "def-essential",
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {
+      "https://www.w3.org/policies/process/20250818/": {
         "anchors": [
           "recs-and-notes",
+          "dfn-wide-review",
           "allow-new-features"
         ]
       }
@@ -109,16 +135,18 @@
       "https://www.w3.org/TR/rdf12-concepts/": {
         "anchors": [
           "dfn-entailment",
-          "dfn-iri",
-          "dfn-literal",
           "dfn-rdf-dataset",
           "dfn-rdf-graph",
           "dfn-rdf-triple",
+          "dfn-appear",
           "dfn-blank-node",
           "dfn-rdf-source",
+          "dfn-ill-typed",
           "dfn-equivalence",
           "dfn-denote",
-          "dfn-lexical-to-value-mapping"
+          "dfn-lexical-to-value-mapping",
+          "dfn-value-space",
+          "dfn-symmetric-rdf-triple"
         ]
       }
     }

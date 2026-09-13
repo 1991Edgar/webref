@@ -5,7 +5,6 @@
   },
   "links": {
     "rawlinks": {
-      "https://datatracker.ietf.org/doc/html/bcp14": {},
       "https://dev.w3.org/html5/html-sourcing-inband-tracks/": {},
       "https://dom.spec.whatwg.org/": {},
       "https://github.com/w3c/media-source": {},
@@ -13,8 +12,8 @@
       "https://github.com/w3c/media-source/issues": {},
       "https://github.com/w3c/media-source/issues/276": {},
       "https://github.com/w3c/media-source/issues/277": {},
-      "https://github.com/w3c/media-source/issues/280": {},
       "https://github.com/w3c/media-source/issues/289": {},
+      "https://github.com/w3c/media-source/issues/?q=is%3Aissue+is%3Aopen+label%3A%22mse-in-workers%22": {},
       "https://html.spec.whatwg.org/multipage/": {},
       "https://html.spec.whatwg.org/multipage/canvas.html": {
         "anchors": [
@@ -26,8 +25,6 @@
           "dom-texttrack-showing",
           "dom-texttrack-hidden",
           "media-timeline",
-          "current-playback-position",
-          "earliest-possible-position",
           "normalised-timeranges-object",
           "media-data-processing-steps-list",
           "delaying-the-load-event-flag",
@@ -36,12 +33,8 @@
           "dom-texttrack-disabled",
           "durationChange",
           "fatal-decode-error",
+          "current-playback-position",
           "concept-video-intrinsic-width"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/structured-data.html": {
-        "anchors": [
-          "transferable"
         ]
       },
       "https://infra.spec.whatwg.org/": {},
@@ -53,14 +46,10 @@
           "pipelinedesc"
         ]
       },
-      "https://webidl.spec.whatwg.org/": {
-        "anchors": [
-          "Exposed",
-          "SameObject"
-        ]
-      },
-      "https://www.rfc-editor.org/rfc/rfc2119": {},
-      "https://www.rfc-editor.org/rfc/rfc8174": {},
+      "https://webidl.spec.whatwg.org/": {},
+      "https://www.rfc-editor.org/info/bcp14": {},
+      "https://www.rfc-editor.org/info/rfc2119/": {},
+      "https://www.rfc-editor.org/info/rfc8174/": {},
       "https://www.w3.org/TR/": {},
       "https://www.w3.org/TR/2016/CR-media-source-20160705/": {},
       "https://www.w3.org/TR/2016/REC-media-source-20161117/": {},
@@ -79,7 +68,7 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {
+      "https://www.w3.org/policies/process/20250818/": {
         "anchors": [
           "recs-and-notes"
         ]
@@ -120,15 +109,12 @@
           "dom-media-srcobject",
           "dom-media-have_metadata",
           "audiotracklist",
-          "audiotrack",
           "event-media-removetrack",
           "trackevent",
           "dom-trackevent-track",
           "event-media-change",
           "videotracklist",
-          "videotrack",
           "texttracklist",
-          "texttrack",
           "dom-texttrack-mode",
           "dom-navigator-canplaytype",
           "dom-media-src",
@@ -138,18 +124,19 @@
           "dom-media-have_future_data",
           "dom-media-have_nothing",
           "dom-media-have_current_data",
+          "audiotrack",
+          "videotrack",
+          "texttrack",
           "dom-media-duration",
           "dom-audiotrack-id",
           "dom-audiotrack-language",
           "dom-audiotrack-label",
           "dom-audiotrack-kind",
-          "dom-audiotracklist-length",
           "event-media-addtrack",
           "dom-videotrack-id",
           "dom-videotrack-language",
           "dom-videotrack-label",
           "dom-videotrack-kind",
-          "dom-videotracklist-length",
           "dom-texttrack-id",
           "dom-texttrack-language",
           "dom-texttrack-label",
@@ -229,6 +216,8 @@
         "anchors": [
           "this",
           "idl-boolean",
+          "Exposed",
+          "SameObject",
           "idl-unrestricted-double",
           "idl-DOMString",
           "idl-undefined",

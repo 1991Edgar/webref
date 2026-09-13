@@ -21,7 +21,8 @@
         "title": "Feature descriptor",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "enumdef-xrhittesttrackabletype",
@@ -39,7 +40,8 @@
         "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
         "title": "WebXR Hit Test Module"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrhittesttrackabletype-point",
@@ -59,7 +61,8 @@
         "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
         "title": "WebXR Hit Test Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrhittesttrackabletype-plane",
@@ -79,7 +82,8 @@
         "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
         "title": "WebXR Hit Test Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrhittesttrackabletype-mesh",
@@ -99,7 +103,8 @@
         "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
         "title": "WebXR Hit Test Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dictdef-xrhittestoptionsinit",
@@ -118,7 +123,8 @@
         "title": "XRHitTestOptionsInit",
         "number": "3.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrhittestoptionsinit-space",
@@ -134,11 +140,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "hit-test-options-dictionary",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#hit-test-options-dictionary",
+        "title": "XRHitTestOptionsInit",
+        "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrhittestoptionsinit-entitytypes",
@@ -158,7 +166,8 @@
         "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
         "title": "WebXR Hit Test Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrhittestoptionsinit-offsetray",
@@ -178,7 +187,8 @@
         "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
         "title": "WebXR Hit Test Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrhittestoptionsinit-effective-entitytypes",
@@ -198,7 +208,8 @@
         "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
         "title": "WebXR Hit Test Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrhittestoptionsinit-effective-offsetray",
@@ -218,7 +229,8 @@
         "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
         "title": "WebXR Hit Test Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dictdef-xrtransientinputhittestoptionsinit",
@@ -237,7 +249,8 @@
         "title": "XRTransientInputHitTestOptionsInit",
         "number": "3.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrtransientinputhittestoptionsinit-profile",
@@ -253,11 +266,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "transient-input-hit-test-options-dictionary",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#transient-input-hit-test-options-dictionary",
+        "title": "XRTransientInputHitTestOptionsInit",
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrtransientinputhittestoptionsinit-entitytypes",
@@ -277,7 +292,8 @@
         "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
         "title": "WebXR Hit Test Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrtransientinputhittestoptionsinit-offsetray",
@@ -297,7 +313,8 @@
         "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
         "title": "WebXR Hit Test Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrtransientinputhittestoptionsinit-effective-entitytypes",
@@ -317,7 +334,8 @@
         "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
         "title": "WebXR Hit Test Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrtransientinputhittestoptionsinit-effective-offsetray",
@@ -337,7 +355,8 @@
         "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
         "title": "WebXR Hit Test Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrhittestsource",
@@ -356,7 +375,8 @@
         "title": "XRHitTestSource",
         "number": "4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "xrhittestsource-session",
@@ -372,11 +392,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "hit-test-source-interface",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#hit-test-source-interface",
+        "title": "XRHitTestSource",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrhittestsource-native-origin",
@@ -392,11 +414,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "hit-test-source-interface",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#hit-test-source-interface",
+        "title": "XRHitTestSource",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrhittestsource-entity-types",
@@ -416,7 +440,8 @@
         "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
         "title": "WebXR Hit Test Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrhittestsource-offset-ray",
@@ -436,7 +461,8 @@
         "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
         "title": "WebXR Hit Test Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrhittestsource-active",
@@ -456,7 +482,8 @@
         "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
         "title": "WebXR Hit Test Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "create-a-hit-test-source",
@@ -474,7 +501,8 @@
         "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
         "title": "WebXR Hit Test Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrhittestsource-cancel",
@@ -494,7 +522,8 @@
         "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
         "title": "WebXR Hit Test Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "cancel-a-hit-test-source",
@@ -512,7 +541,8 @@
         "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
         "title": "WebXR Hit Test Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrtransientinputhittestsource",
@@ -531,7 +561,8 @@
         "title": "XRTransientInputHitTestSource",
         "number": "4.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "xrtransientinputhittestsource-session",
@@ -547,11 +578,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "transient-input-hit-test-source-interface",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#transient-input-hit-test-source-interface",
+        "title": "XRTransientInputHitTestSource",
+        "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrtransientinputhittestsource-profile",
@@ -567,11 +600,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "transient-input-hit-test-source-interface",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#transient-input-hit-test-source-interface",
+        "title": "XRTransientInputHitTestSource",
+        "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrtransientinputhittestsource-entity-types",
@@ -591,7 +626,8 @@
         "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
         "title": "WebXR Hit Test Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrtransientinputhittestsource-offset-ray",
@@ -611,7 +647,8 @@
         "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
         "title": "WebXR Hit Test Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrtransientinputhittestsource-active",
@@ -631,7 +668,8 @@
         "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
         "title": "WebXR Hit Test Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "create-a-hit-test-source-for-transient-input",
@@ -649,7 +687,8 @@
         "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
         "title": "WebXR Hit Test Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrtransientinputhittestsource-cancel",
@@ -669,7 +708,8 @@
         "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
         "title": "WebXR Hit Test Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "cancel-a-hit-test-source-for-transient-input",
@@ -687,7 +727,8 @@
         "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
         "title": "WebXR Hit Test Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrhittestresult",
@@ -706,7 +747,8 @@
         "title": "XRHitTestResult",
         "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrhittestresult-getpose-basespace-basespace",
@@ -722,11 +764,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "xr-hit-test-result-interface",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#xr-hit-test-result-interface",
+        "title": "XRHitTestResult",
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "xrhittestresult-frame",
@@ -742,11 +786,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "xr-hit-test-result-interface",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#xr-hit-test-result-interface",
+        "title": "XRHitTestResult",
+        "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrhittestresult-native-origin",
@@ -762,11 +808,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "xr-hit-test-result-interface",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#xr-hit-test-result-interface",
+        "title": "XRHitTestResult",
+        "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "create-a-hit-test-result",
@@ -780,11 +828,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "xr-hit-test-result-interface",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#xr-hit-test-result-interface",
+        "title": "XRHitTestResult",
+        "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrhittestresult-getpose",
@@ -800,11 +850,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "xr-hit-test-result-interface",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#xr-hit-test-result-interface",
+        "title": "XRHitTestResult",
+        "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrtransientinputhittestresult",
@@ -823,7 +875,8 @@
         "title": "XRTransientInputHitTestResult",
         "number": "5.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrtransientinputhittestresult-inputsource",
@@ -839,11 +892,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "xr-transient-input-hit-test-result-interface",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#xr-transient-input-hit-test-result-interface",
+        "title": "XRTransientInputHitTestResult",
+        "number": "5.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrtransientinputhittestresult-results",
@@ -859,11 +914,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "xr-transient-input-hit-test-result-interface",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#xr-transient-input-hit-test-result-interface",
+        "title": "XRTransientInputHitTestResult",
+        "number": "5.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "xrtransientinputhittestresult-frame",
@@ -879,11 +936,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "xr-transient-input-hit-test-result-interface",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#xr-transient-input-hit-test-result-interface",
+        "title": "XRTransientInputHitTestResult",
+        "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "create-a-hit-test-result-for-transient-input",
@@ -897,11 +956,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "xr-transient-input-hit-test-result-interface",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#xr-transient-input-hit-test-result-interface",
+        "title": "XRTransientInputHitTestResult",
+        "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrsession-requesthittestsource-options-options",
@@ -922,7 +983,8 @@
         "title": "Requesting hit test",
         "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrsession-requesthittestsourcefortransientinput-options-options",
@@ -943,7 +1005,8 @@
         "title": "Requesting hit test",
         "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "xrsession-set-of-active-hit-test-sources",
@@ -964,7 +1027,8 @@
         "title": "Requesting hit test",
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrsession-set-of-active-hit-test-sources-for-transient-input",
@@ -980,11 +1044,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "requesting-hit-test",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#requesting-hit-test",
+        "title": "Requesting hit test",
+        "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "unreasonable-number-of-requests",
@@ -998,11 +1064,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "requesting-hit-test",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#requesting-hit-test",
+        "title": "Requesting hit test",
+        "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "request-hit-test",
@@ -1016,11 +1084,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "requesting-hit-test",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#requesting-hit-test",
+        "title": "Requesting hit test",
+        "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrsession-requesthittestsource",
@@ -1036,11 +1106,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "requesting-hit-test",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#requesting-hit-test",
+        "title": "Requesting hit test",
+        "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrsession-requesthittestsourcefortransientinput",
@@ -1056,11 +1128,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "requesting-hit-test",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#requesting-hit-test",
+        "title": "Requesting hit test",
+        "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "compute-all-hit-test-results",
@@ -1079,7 +1153,8 @@
         "title": "Computing hit test results",
         "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "compute-hit-test-results",
@@ -1093,11 +1168,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "computing-hit-test-results",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#computing-hit-test-results",
+        "title": "Computing hit test results",
+        "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "compute-hit-test-results-for-transient-input",
@@ -1111,11 +1188,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "computing-hit-test-results",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#computing-hit-test-results",
+        "title": "Computing hit test results",
+        "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrframe-gethittestresults-hittestsource-hittestsource",
@@ -1136,7 +1215,8 @@
         "title": "Obtaining hit test results",
         "number": "8"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrframe-gethittestresultsfortransientinput-hittestsource-hittestsource",
@@ -1157,7 +1237,8 @@
         "title": "Obtaining hit test results",
         "number": "8"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "xrframe-map-of-hit-test-sources-to-hit-test-results",
@@ -1178,7 +1259,8 @@
         "title": "Obtaining hit test results",
         "number": "8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrframe-map-of-hit-test-sources-to-hit-test-results-for-transient-input",
@@ -1194,29 +1276,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "obtaining-hit-test-results",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#obtaining-hit-test-results",
+        "title": "Obtaining hit test results",
+        "number": "8"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "obtain-hit-test-results",
-      "href": "https://www.w3.org/TR/webxr-hit-test-1/#obtain-hit-test-results",
-      "linkingText": [
-        "obtain hit test results"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
-      },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrframe-gethittestresults",
@@ -1232,29 +1298,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "obtaining-hit-test-results",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#obtaining-hit-test-results",
+        "title": "Obtaining hit test results",
+        "number": "8"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "obtain-hit-test-results-for-transient-input",
-      "href": "https://www.w3.org/TR/webxr-hit-test-1/#obtain-hit-test-results-for-transient-input",
-      "linkingText": [
-        "obtain hit test results for transient input"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
-      },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrframe-gethittestresultsfortransientinput",
@@ -1270,11 +1320,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "obtaining-hit-test-results",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#obtaining-hit-test-results",
+        "title": "Obtaining hit test results",
+        "number": "8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dictdef-xrraydirectioninit",
@@ -1293,7 +1345,8 @@
         "title": "XRRayDirectionInit",
         "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrraydirectioninit-x",
@@ -1309,11 +1362,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "xr-ray-direction-init-dictionary",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#xr-ray-direction-init-dictionary",
+        "title": "XRRayDirectionInit",
+        "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrraydirectioninit-y",
@@ -1329,11 +1384,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "xr-ray-direction-init-dictionary",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#xr-ray-direction-init-dictionary",
+        "title": "XRRayDirectionInit",
+        "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrraydirectioninit-z",
@@ -1349,11 +1406,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "xr-ray-direction-init-dictionary",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#xr-ray-direction-init-dictionary",
+        "title": "XRRayDirectionInit",
+        "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrraydirectioninit-w",
@@ -1369,11 +1428,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "xr-ray-direction-init-dictionary",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#xr-ray-direction-init-dictionary",
+        "title": "XRRayDirectionInit",
+        "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "xrray-matrix",
@@ -1394,7 +1455,8 @@
         "title": "XRRay",
         "number": "9.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrray",
@@ -1408,11 +1470,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "xrray-interface",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#xrray-interface",
+        "title": "XRRay",
+        "number": "9.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrray-xrray-origin-direction-origin",
@@ -1433,11 +1497,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "xrray-interface",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#xrray-interface",
+        "title": "XRRay",
+        "number": "9.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrray-xrray-origin-direction-direction",
@@ -1458,11 +1524,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "xrray-interface",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#xrray-interface",
+        "title": "XRRay",
+        "number": "9.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrray-xrray-transform-transform",
@@ -1479,11 +1547,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "xrray-interface",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#xrray-interface",
+        "title": "XRRay",
+        "number": "9.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrray-xrray",
@@ -1504,11 +1574,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "xrray-interface",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#xrray-interface",
+        "title": "XRRay",
+        "number": "9.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrray-xrray-transform",
@@ -1525,11 +1597,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "xrray-interface",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#xrray-interface",
+        "title": "XRRay",
+        "number": "9.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrray-origin",
@@ -1545,11 +1619,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "xrray-interface",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#xrray-interface",
+        "title": "XRRay",
+        "number": "9.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrray-direction",
@@ -1565,11 +1641,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "xrray-interface",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#xrray-interface",
+        "title": "XRRay",
+        "number": "9.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrray-matrix",
@@ -1585,11 +1663,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "xrray-interface",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#xrray-interface",
+        "title": "XRRay",
+        "number": "9.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrray-obtain-the-matrix",
@@ -1605,11 +1685,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "xrray-interface",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#xrray-interface",
+        "title": "XRRay",
+        "number": "9.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "distance-along-the-ray",
@@ -1623,11 +1705,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
-        "title": "WebXR Hit Test Module"
+        "id": "xrray-interface",
+        "href": "https://www.w3.org/TR/webxr-hit-test-1/#xrray-interface",
+        "title": "XRRay",
+        "number": "9.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "native-hit-test",
@@ -1646,7 +1730,8 @@
         "title": "Native hit test",
         "number": "10.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "native-entity-type",
@@ -1664,7 +1749,8 @@
         "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
         "title": "WebXR Hit Test Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "convert-from-native-entity-type",
@@ -1682,7 +1768,8 @@
         "href": "https://www.w3.org/TR/webxr-hit-test-1/#title",
         "title": "WebXR Hit Test Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "native-hit-test-result",
@@ -1702,7 +1789,8 @@
         "title": "Native hit test result",
         "number": "10.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

@@ -19,9 +19,13 @@
         "id": "processing-units",
         "href": "https://www.w3.org/TR/compute-pressure/#processing-units",
         "title": "Processing Units",
+        "alternateIds": [
+          "x3-1-processing-units"
+        ],
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-valid-source-types",
@@ -38,9 +42,13 @@
         "id": "pressure-sources",
         "href": "https://www.w3.org/TR/compute-pressure/#pressure-sources",
         "title": "Pressure sources",
+        "alternateIds": [
+          "x3-2-pressure-sources"
+        ],
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-pressuresource-cpu",
@@ -59,9 +67,13 @@
         "id": "pressure-sources",
         "href": "https://www.w3.org/TR/compute-pressure/#pressure-sources",
         "title": "Pressure sources",
+        "alternateIds": [
+          "x3-2-pressure-sources"
+        ],
         "number": "3.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-pressuresource",
@@ -78,9 +90,13 @@
         "id": "pressure-sources",
         "href": "https://www.w3.org/TR/compute-pressure/#pressure-sources",
         "title": "Pressure sources",
+        "alternateIds": [
+          "x3-2-pressure-sources"
+        ],
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-requested-sampling-interval",
@@ -97,9 +113,13 @@
         "id": "sampling-and-reporting-rate",
         "href": "https://www.w3.org/TR/compute-pressure/#sampling-and-reporting-rate",
         "title": "Sampling and Reporting Rate",
+        "alternateIds": [
+          "x3-3-sampling-and-reporting-rate"
+        ],
         "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-requested-sampling-rate",
@@ -116,9 +136,13 @@
         "id": "sampling-and-reporting-rate",
         "href": "https://www.w3.org/TR/compute-pressure/#sampling-and-reporting-rate",
         "title": "Sampling and Reporting Rate",
+        "alternateIds": [
+          "x3-3-sampling-and-reporting-rate"
+        ],
         "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-sampling-rate",
@@ -135,9 +159,13 @@
         "id": "sampling-and-reporting-rate",
         "href": "https://www.w3.org/TR/compute-pressure/#sampling-and-reporting-rate",
         "title": "Sampling and Reporting Rate",
+        "alternateIds": [
+          "x3-3-sampling-and-reporting-rate"
+        ],
         "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-reporting-rate",
@@ -154,9 +182,13 @@
         "id": "sampling-and-reporting-rate",
         "href": "https://www.w3.org/TR/compute-pressure/#sampling-and-reporting-rate",
         "title": "Sampling and Reporting Rate",
+        "alternateIds": [
+          "x3-3-sampling-and-reporting-rate"
+        ],
         "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-pressure-source",
@@ -173,9 +205,13 @@
         "id": "platform-primitives",
         "href": "https://www.w3.org/TR/compute-pressure/#platform-primitives",
         "title": "Platform primitives",
+        "alternateIds": [
+          "x4-platform-primitives"
+        ],
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-source-type",
@@ -192,9 +228,13 @@
         "id": "platform-primitives",
         "href": "https://www.w3.org/TR/compute-pressure/#platform-primitives",
         "title": "Platform primitives",
+        "alternateIds": [
+          "x4-platform-primitives"
+        ],
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-pressure-source-sample",
@@ -211,9 +251,13 @@
         "id": "platform-primitives",
         "href": "https://www.w3.org/TR/compute-pressure/#platform-primitives",
         "title": "Platform primitives",
+        "alternateIds": [
+          "x4-platform-primitives"
+        ],
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-data",
@@ -232,9 +276,13 @@
         "id": "platform-primitives",
         "href": "https://www.w3.org/TR/compute-pressure/#platform-primitives",
         "title": "Platform primitives",
+        "alternateIds": [
+          "x4-platform-primitives"
+        ],
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-timestamp",
@@ -253,9 +301,13 @@
         "id": "platform-primitives",
         "href": "https://www.w3.org/TR/compute-pressure/#platform-primitives",
         "title": "Platform primitives",
+        "alternateIds": [
+          "x4-platform-primitives"
+        ],
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-latest-sample",
@@ -274,9 +326,13 @@
         "id": "platform-primitives",
         "href": "https://www.w3.org/TR/compute-pressure/#platform-primitives",
         "title": "Platform primitives",
+        "alternateIds": [
+          "x4-platform-primitives"
+        ],
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-platform-collector",
@@ -293,9 +349,13 @@
         "id": "platform-primitives",
         "href": "https://www.w3.org/TR/compute-pressure/#platform-primitives",
         "title": "Platform primitives",
+        "alternateIds": [
+          "x4-platform-primitives"
+        ],
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-associated-pressure-source",
@@ -314,9 +374,13 @@
         "id": "platform-primitives",
         "href": "https://www.w3.org/TR/compute-pressure/#platform-primitives",
         "title": "Platform primitives",
+        "alternateIds": [
+          "x4-platform-primitives"
+        ],
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-activated",
@@ -335,9 +399,13 @@
         "id": "platform-primitives",
         "href": "https://www.w3.org/TR/compute-pressure/#platform-primitives",
         "title": "Platform primitives",
+        "alternateIds": [
+          "x4-platform-primitives"
+        ],
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-pressure-observer-task-queued",
@@ -354,9 +422,13 @@
         "id": "internal-slot-definitions",
         "href": "https://www.w3.org/TR/compute-pressure/#internal-slot-definitions",
         "title": "Internal Slot Definitions",
+        "alternateIds": [
+          "x7-internal-slot-definitions"
+        ],
         "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-registered-observer-list",
@@ -373,9 +445,13 @@
         "id": "internal-slot-definitions",
         "href": "https://www.w3.org/TR/compute-pressure/#internal-slot-definitions",
         "title": "Internal Slot Definitions",
+        "alternateIds": [
+          "x7-internal-slot-definitions"
+        ],
         "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-platform-collector-mapping",
@@ -392,9 +468,13 @@
         "id": "internal-slot-definitions",
         "href": "https://www.w3.org/TR/compute-pressure/#internal-slot-definitions",
         "title": "Internal Slot Definitions",
+        "alternateIds": [
+          "x7-internal-slot-definitions"
+        ],
         "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-registered-observer",
@@ -411,9 +491,13 @@
         "id": "internal-slot-definitions",
         "href": "https://www.w3.org/TR/compute-pressure/#internal-slot-definitions",
         "title": "Internal Slot Definitions",
+        "alternateIds": [
+          "x7-internal-slot-definitions"
+        ],
         "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-observer",
@@ -430,9 +514,13 @@
         "id": "internal-slot-definitions",
         "href": "https://www.w3.org/TR/compute-pressure/#internal-slot-definitions",
         "title": "Internal Slot Definitions",
+        "alternateIds": [
+          "x7-internal-slot-definitions"
+        ],
         "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-max-queued-records",
@@ -449,9 +537,13 @@
         "id": "internal-slot-definitions",
         "href": "https://www.w3.org/TR/compute-pressure/#internal-slot-definitions",
         "title": "Internal Slot Definitions",
+        "alternateIds": [
+          "x7-internal-slot-definitions"
+        ],
         "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-supported-source-types",
@@ -468,9 +560,13 @@
         "id": "internal-slot-definitions",
         "href": "https://www.w3.org/TR/compute-pressure/#internal-slot-definitions",
         "title": "Internal Slot Definitions",
+        "alternateIds": [
+          "x7-internal-slot-definitions"
+        ],
         "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-callback",
@@ -489,9 +585,13 @@
         "id": "internal-slot-definitions",
         "href": "https://www.w3.org/TR/compute-pressure/#internal-slot-definitions",
         "title": "Internal Slot Definitions",
+        "alternateIds": [
+          "x7-internal-slot-definitions"
+        ],
         "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-pendingobservepromises",
@@ -510,9 +610,13 @@
         "id": "internal-slot-definitions",
         "href": "https://www.w3.org/TR/compute-pressure/#internal-slot-definitions",
         "title": "Internal Slot Definitions",
+        "alternateIds": [
+          "x7-internal-slot-definitions"
+        ],
         "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-queuedrecords",
@@ -531,9 +635,13 @@
         "id": "internal-slot-definitions",
         "href": "https://www.w3.org/TR/compute-pressure/#internal-slot-definitions",
         "title": "Internal Slot Definitions",
+        "alternateIds": [
+          "x7-internal-slot-definitions"
+        ],
         "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-lastrecordmap",
@@ -552,9 +660,13 @@
         "id": "internal-slot-definitions",
         "href": "https://www.w3.org/TR/compute-pressure/#internal-slot-definitions",
         "title": "Internal Slot Definitions",
+        "alternateIds": [
+          "x7-internal-slot-definitions"
+        ],
         "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-sampleintervalmap",
@@ -573,9 +685,13 @@
         "id": "internal-slot-definitions",
         "href": "https://www.w3.org/TR/compute-pressure/#internal-slot-definitions",
         "title": "Internal Slot Definitions",
+        "alternateIds": [
+          "x7-internal-slot-definitions"
+        ],
         "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-observationwindow",
@@ -594,9 +710,13 @@
         "id": "internal-slot-definitions",
         "href": "https://www.w3.org/TR/compute-pressure/#internal-slot-definitions",
         "title": "Internal Slot Definitions",
+        "alternateIds": [
+          "x7-internal-slot-definitions"
+        ],
         "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-maxchangesthreshold",
@@ -615,9 +735,13 @@
         "id": "internal-slot-definitions",
         "href": "https://www.w3.org/TR/compute-pressure/#internal-slot-definitions",
         "title": "Internal Slot Definitions",
+        "alternateIds": [
+          "x7-internal-slot-definitions"
+        ],
         "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-penaltyduration",
@@ -636,9 +760,13 @@
         "id": "internal-slot-definitions",
         "href": "https://www.w3.org/TR/compute-pressure/#internal-slot-definitions",
         "title": "Internal Slot Definitions",
+        "alternateIds": [
+          "x7-internal-slot-definitions"
+        ],
         "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-changescountmap",
@@ -657,9 +785,13 @@
         "id": "internal-slot-definitions",
         "href": "https://www.w3.org/TR/compute-pressure/#internal-slot-definitions",
         "title": "Internal Slot Definitions",
+        "alternateIds": [
+          "x7-internal-slot-definitions"
+        ],
         "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-afterpenaltyrecordmap",
@@ -678,9 +810,13 @@
         "id": "internal-slot-definitions",
         "href": "https://www.w3.org/TR/compute-pressure/#internal-slot-definitions",
         "title": "Internal Slot Definitions",
+        "alternateIds": [
+          "x7-internal-slot-definitions"
+        ],
         "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-pressure-states",
@@ -697,9 +833,13 @@
         "id": "pressure-states",
         "href": "https://www.w3.org/TR/compute-pressure/#pressure-states",
         "title": "Pressure States",
+        "alternateIds": [
+          "x8-pressure-states"
+        ],
         "number": "8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-pressurestate-nominal",
@@ -718,9 +858,13 @@
         "id": "pressure-states",
         "href": "https://www.w3.org/TR/compute-pressure/#pressure-states",
         "title": "Pressure States",
+        "alternateIds": [
+          "x8-pressure-states"
+        ],
         "number": "8"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-pressurestate-fair",
@@ -739,9 +883,13 @@
         "id": "pressure-states",
         "href": "https://www.w3.org/TR/compute-pressure/#pressure-states",
         "title": "Pressure States",
+        "alternateIds": [
+          "x8-pressure-states"
+        ],
         "number": "8"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-pressurestate-serious",
@@ -760,9 +908,13 @@
         "id": "pressure-states",
         "href": "https://www.w3.org/TR/compute-pressure/#pressure-states",
         "title": "Pressure States",
+        "alternateIds": [
+          "x8-pressure-states"
+        ],
         "number": "8"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-pressurestate-critical",
@@ -781,9 +933,13 @@
         "id": "pressure-states",
         "href": "https://www.w3.org/TR/compute-pressure/#pressure-states",
         "title": "Pressure States",
+        "alternateIds": [
+          "x8-pressure-states"
+        ],
         "number": "8"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-pressurestate",
@@ -800,9 +956,13 @@
         "id": "pressure-states",
         "href": "https://www.w3.org/TR/compute-pressure/#pressure-states",
         "title": "Pressure States",
+        "alternateIds": [
+          "x8-pressure-states"
+        ],
         "number": "8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-contributing-factors",
@@ -819,9 +979,13 @@
         "id": "contributing-factors",
         "href": "https://www.w3.org/TR/compute-pressure/#contributing-factors",
         "title": "Contributing Factors",
+        "alternateIds": [
+          "x9-contributing-factors"
+        ],
         "number": "9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-adjusted-pressure-state",
@@ -838,9 +1002,13 @@
         "id": "contributing-factors",
         "href": "https://www.w3.org/TR/compute-pressure/#contributing-factors",
         "title": "Contributing Factors",
+        "alternateIds": [
+          "x9-contributing-factors"
+        ],
         "number": "9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-change-in-contributing-factors-is-substantial",
@@ -857,9 +1025,13 @@
         "id": "contributing-factors",
         "href": "https://www.w3.org/TR/compute-pressure/#contributing-factors",
         "title": "Contributing Factors",
+        "alternateIds": [
+          "x9-contributing-factors"
+        ],
         "number": "9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-pressureupdatecallback",
@@ -876,9 +1048,13 @@
         "id": "the-pressureupdatecallback-callback",
         "href": "https://www.w3.org/TR/compute-pressure/#the-pressureupdatecallback-callback",
         "title": "The PressureUpdateCallback callback",
+        "alternateIds": [
+          "x10-1-the-pressureupdatecallback-callback"
+        ],
         "number": "10.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-pressureobserver",
@@ -895,9 +1071,13 @@
         "id": "the-pressureobserver-object",
         "href": "https://www.w3.org/TR/compute-pressure/#the-pressureobserver-object",
         "title": "The PressureObserver object",
+        "alternateIds": [
+          "x10-2-the-pressureobserver-object"
+        ],
         "number": "10.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-pressureobserver-constructor",
@@ -921,9 +1101,13 @@
         "id": "the-constructor-method",
         "href": "https://www.w3.org/TR/compute-pressure/#the-constructor-method",
         "title": "The constructor() method",
+        "alternateIds": [
+          "x10-2-1-the-constructor-method"
+        ],
         "number": "10.2.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-pressureobserver-observe",
@@ -948,9 +1132,13 @@
         "id": "the-observe-method",
         "href": "https://www.w3.org/TR/compute-pressure/#the-observe-method",
         "title": "The observe() method",
+        "alternateIds": [
+          "x10-2-2-the-observe-method"
+        ],
         "number": "10.2.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-pressureobserver-unobserve",
@@ -974,9 +1162,13 @@
         "id": "the-unobserve-method",
         "href": "https://www.w3.org/TR/compute-pressure/#the-unobserve-method",
         "title": "The unobserve() method",
+        "alternateIds": [
+          "x10-2-3-the-unobserve-method"
+        ],
         "number": "10.2.3"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-pressureobserver-disconnect",
@@ -999,9 +1191,13 @@
         "id": "the-disconnect-method",
         "href": "https://www.w3.org/TR/compute-pressure/#the-disconnect-method",
         "title": "The disconnect() method",
+        "alternateIds": [
+          "x10-2-4-the-disconnect-method"
+        ],
         "number": "10.2.4"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-pressureobserver-takerecords",
@@ -1024,9 +1220,13 @@
         "id": "the-takerecords-method",
         "href": "https://www.w3.org/TR/compute-pressure/#the-takerecords-method",
         "title": "The takeRecords() method",
+        "alternateIds": [
+          "x10-2-5-the-takerecords-method"
+        ],
         "number": "10.2.5"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-pressureobserver-knownsources",
@@ -1047,9 +1247,13 @@
         "id": "the-knownsources-attribute",
         "href": "https://www.w3.org/TR/compute-pressure/#the-knownsources-attribute",
         "title": "The knownSources attribute",
+        "alternateIds": [
+          "x10-2-6-the-knownsources-attribute"
+        ],
         "number": "10.2.6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-pressurerecord",
@@ -1066,9 +1270,13 @@
         "id": "the-pressurerecord-interface",
         "href": "https://www.w3.org/TR/compute-pressure/#the-pressurerecord-interface",
         "title": "The PressureRecord interface",
+        "alternateIds": [
+          "x10-3-the-pressurerecord-interface"
+        ],
         "number": "10.3"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dfn-source",
@@ -1087,9 +1295,13 @@
         "id": "the-pressurerecord-interface",
         "href": "https://www.w3.org/TR/compute-pressure/#the-pressurerecord-interface",
         "title": "The PressureRecord interface",
+        "alternateIds": [
+          "x10-3-the-pressurerecord-interface"
+        ],
         "number": "10.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-state",
@@ -1108,9 +1320,13 @@
         "id": "the-pressurerecord-interface",
         "href": "https://www.w3.org/TR/compute-pressure/#the-pressurerecord-interface",
         "title": "The PressureRecord interface",
+        "alternateIds": [
+          "x10-3-the-pressurerecord-interface"
+        ],
         "number": "10.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-time",
@@ -1129,9 +1345,13 @@
         "id": "the-pressurerecord-interface",
         "href": "https://www.w3.org/TR/compute-pressure/#the-pressurerecord-interface",
         "title": "The PressureRecord interface",
+        "alternateIds": [
+          "x10-3-the-pressurerecord-interface"
+        ],
         "number": "10.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-pressurerecord-source",
@@ -1152,9 +1372,13 @@
         "id": "the-source-attribute",
         "href": "https://www.w3.org/TR/compute-pressure/#the-source-attribute",
         "title": "The source attribute",
+        "alternateIds": [
+          "x10-3-1-the-source-attribute"
+        ],
         "number": "10.3.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-pressurerecord-state",
@@ -1175,9 +1399,13 @@
         "id": "the-state-attribute",
         "href": "https://www.w3.org/TR/compute-pressure/#the-state-attribute",
         "title": "The state attribute",
+        "alternateIds": [
+          "x10-3-2-the-state-attribute"
+        ],
         "number": "10.3.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-pressurerecord-time",
@@ -1198,9 +1426,13 @@
         "id": "the-time-attribute",
         "href": "https://www.w3.org/TR/compute-pressure/#the-time-attribute",
         "title": "The time attribute",
+        "alternateIds": [
+          "x10-3-3-the-time-attribute"
+        ],
         "number": "10.3.3"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-pressurerecord-tojson",
@@ -1223,9 +1455,13 @@
         "id": "the-tojson-member",
         "href": "https://www.w3.org/TR/compute-pressure/#the-tojson-member",
         "title": "The toJSON member",
+        "alternateIds": [
+          "x10-3-4-the-tojson-member"
+        ],
         "number": "10.3.4"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-pressureobserveroptions",
@@ -1242,9 +1478,13 @@
         "id": "the-pressureobserveroptions-dictionary",
         "href": "https://www.w3.org/TR/compute-pressure/#the-pressureobserveroptions-dictionary",
         "title": "The PressureObserverOptions dictionary",
+        "alternateIds": [
+          "x10-4-the-pressureobserveroptions-dictionary"
+        ],
         "number": "10.4"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-pressureobserveroptions-sampleinterval",
@@ -1263,9 +1503,13 @@
         "id": "the-sampleinterval-member",
         "href": "https://www.w3.org/TR/compute-pressure/#the-sampleinterval-member",
         "title": "The sampleInterval member",
+        "alternateIds": [
+          "x10-4-1-the-sampleinterval-member"
+        ],
         "number": "10.4.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dfn-reset-observation-window",
@@ -1282,9 +1526,13 @@
         "id": "supporting-algorithms",
         "href": "https://www.w3.org/TR/compute-pressure/#supporting-algorithms",
         "title": "Supporting algorithms",
+        "alternateIds": [
+          "x10-6-1-supporting-algorithms"
+        ],
         "number": "10.6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-owning-document-set",
@@ -1301,9 +1549,13 @@
         "id": "supporting-algorithms",
         "href": "https://www.w3.org/TR/compute-pressure/#supporting-algorithms",
         "title": "Supporting algorithms",
+        "alternateIds": [
+          "x10-6-1-supporting-algorithms"
+        ],
         "number": "10.6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-document-has-implicit-focus",
@@ -1320,9 +1572,13 @@
         "id": "supporting-algorithms",
         "href": "https://www.w3.org/TR/compute-pressure/#supporting-algorithms",
         "title": "Supporting algorithms",
+        "alternateIds": [
+          "x10-6-1-supporting-algorithms"
+        ],
         "number": "10.6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-may-receive-data",
@@ -1339,9 +1595,13 @@
         "id": "supporting-algorithms",
         "href": "https://www.w3.org/TR/compute-pressure/#supporting-algorithms",
         "title": "Supporting algorithms",
+        "alternateIds": [
+          "x10-6-1-supporting-algorithms"
+        ],
         "number": "10.6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-passes-rate-test",
@@ -1358,15 +1618,19 @@
         "id": "supporting-algorithms",
         "href": "https://www.w3.org/TR/compute-pressure/#supporting-algorithms",
         "title": "Supporting algorithms",
+        "alternateIds": [
+          "x10-6-1-supporting-algorithms"
+        ],
         "number": "10.6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "dfn-has-change-in-data",
-      "href": "https://www.w3.org/TR/compute-pressure/#dfn-has-change-in-data",
+      "id": "dfn-should-dispatch",
+      "href": "https://www.w3.org/TR/compute-pressure/#dfn-should-dispatch",
       "linkingText": [
-        "has change in data"
+        "should dispatch"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1377,9 +1641,13 @@
         "id": "supporting-algorithms",
         "href": "https://www.w3.org/TR/compute-pressure/#supporting-algorithms",
         "title": "Supporting algorithms",
+        "alternateIds": [
+          "x10-6-1-supporting-algorithms"
+        ],
         "number": "10.6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-passes-rate-obfuscation-test",
@@ -1396,9 +1664,13 @@
         "id": "supporting-algorithms",
         "href": "https://www.w3.org/TR/compute-pressure/#supporting-algorithms",
         "title": "Supporting algorithms",
+        "alternateIds": [
+          "x10-6-1-supporting-algorithms"
+        ],
         "number": "10.6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-get-a-virtual-pressure-source",
@@ -1415,9 +1687,13 @@
         "id": "supporting-algorithms",
         "href": "https://www.w3.org/TR/compute-pressure/#supporting-algorithms",
         "title": "Supporting algorithms",
+        "alternateIds": [
+          "x10-6-1-supporting-algorithms"
+        ],
         "number": "10.6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-activate-data-collection",
@@ -1434,9 +1710,13 @@
         "id": "data-collection-and-delivery",
         "href": "https://www.w3.org/TR/compute-pressure/#data-collection-and-delivery",
         "title": "Data Collection and Delivery",
+        "alternateIds": [
+          "x10-6-2-data-collection-and-delivery"
+        ],
         "number": "10.6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-deactivate-data-collection",
@@ -1453,9 +1733,13 @@
         "id": "data-collection-and-delivery",
         "href": "https://www.w3.org/TR/compute-pressure/#data-collection-and-delivery",
         "title": "Data Collection and Delivery",
+        "alternateIds": [
+          "x10-6-2-data-collection-and-delivery"
+        ],
         "number": "10.6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-data-collection",
@@ -1472,9 +1756,13 @@
         "id": "data-collection-and-delivery",
         "href": "https://www.w3.org/TR/compute-pressure/#data-collection-and-delivery",
         "title": "Data Collection and Delivery",
+        "alternateIds": [
+          "x10-6-2-data-collection-and-delivery"
+        ],
         "number": "10.6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-queue-a-record",
@@ -1491,9 +1779,13 @@
         "id": "queue-a-pressurerecord",
         "href": "https://www.w3.org/TR/compute-pressure/#queue-a-pressurerecord",
         "title": "Queue a PressureRecord",
+        "alternateIds": [
+          "x10-6-3-queue-a-pressurerecord"
+        ],
         "number": "10.6.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-pressureobserver-task-source",
@@ -1510,9 +1802,13 @@
         "id": "queue-a-pressure-observer-task",
         "href": "https://www.w3.org/TR/compute-pressure/#queue-a-pressure-observer-task",
         "title": "Queue a Pressure Observer Task",
+        "alternateIds": [
+          "x10-6-4-queue-a-pressure-observer-task"
+        ],
         "number": "10.6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-queue-a-pressure-observer-task",
@@ -1529,9 +1825,13 @@
         "id": "queue-a-pressure-observer-task",
         "href": "https://www.w3.org/TR/compute-pressure/#queue-a-pressure-observer-task",
         "title": "Queue a Pressure Observer Task",
+        "alternateIds": [
+          "x10-6-4-queue-a-pressure-observer-task"
+        ],
         "number": "10.6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-notify-pressure-observers",
@@ -1548,9 +1848,13 @@
         "id": "notify-observers",
         "href": "https://www.w3.org/TR/compute-pressure/#notify-observers",
         "title": "Notify Pressure Observers",
+        "alternateIds": [
+          "x10-6-5-notify-pressure-observers"
+        ],
         "number": "10.6.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rate-obfuscation",
@@ -1567,9 +1871,13 @@
         "id": "rate-obfuscation",
         "href": "https://www.w3.org/TR/compute-pressure/#rate-obfuscation",
         "title": "Rate obfuscation",
+        "alternateIds": [
+          "x11-2-2-rate-obfuscation"
+        ],
         "number": "11.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-break-calibration",
@@ -1586,9 +1894,13 @@
         "id": "break-calibration",
         "href": "https://www.w3.org/TR/compute-pressure/#break-calibration",
         "title": "Break calibration",
+        "alternateIds": [
+          "x11-2-5-break-calibration"
+        ],
         "number": "11.2.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-virtual-pressure-source",
@@ -1605,9 +1917,13 @@
         "id": "virtual-pressure-source",
         "href": "https://www.w3.org/TR/compute-pressure/#virtual-pressure-source",
         "title": "Virtual Pressure Source",
+        "alternateIds": [
+          "x13-1-virtual-pressure-source"
+        ],
         "number": "13.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-can-provide-samples",
@@ -1626,9 +1942,13 @@
         "id": "virtual-pressure-source",
         "href": "https://www.w3.org/TR/compute-pressure/#virtual-pressure-source",
         "title": "Virtual Pressure Source",
+        "alternateIds": [
+          "x13-1-virtual-pressure-source"
+        ],
         "number": "13.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-connected-platform-collectors",
@@ -1647,9 +1967,13 @@
         "id": "virtual-pressure-source",
         "href": "https://www.w3.org/TR/compute-pressure/#virtual-pressure-source",
         "title": "Virtual Pressure Source",
+        "alternateIds": [
+          "x13-1-virtual-pressure-source"
+        ],
         "number": "13.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-virtual-pressure-source-mapping",
@@ -1666,9 +1990,13 @@
         "id": "virtual-pressure-source",
         "href": "https://www.w3.org/TR/compute-pressure/#virtual-pressure-source",
         "title": "Virtual Pressure Source",
+        "alternateIds": [
+          "x13-1-virtual-pressure-source"
+        ],
         "number": "13.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-user-agent",
@@ -1684,9 +2012,13 @@
       "heading": {
         "id": "conformance",
         "href": "https://www.w3.org/TR/compute-pressure/#conformance",
-        "title": "15. Conformance"
+        "title": "15. Conformance",
+        "alternateIds": [
+          "x15-conformance"
+        ]
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

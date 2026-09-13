@@ -19,9 +19,13 @@
         "id": "conformance",
         "href": "https://w3c.github.io/webrtc-ice/#conformance",
         "title": "Conformance",
+        "alternateIds": [
+          "x2-conformance"
+        ],
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-rtciceparameters-icelite",
@@ -41,7 +45,8 @@
         "href": "https://w3c.github.io/webrtc-ice/#dictionary-rtciceparameters-members",
         "title": "Dictionary RTCIceParameters Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicegatheroptions",
@@ -58,9 +63,13 @@
         "id": "rtcicegatheroptions*",
         "href": "https://w3c.github.io/webrtc-ice/#rtcicegatheroptions*",
         "title": "RTCIceGatherOptions Dictionary",
+        "alternateIds": [
+          "x3-2-rtcicegatheroptions-dictionary"
+        ],
         "number": "3.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-rtcicegatheroptions-gatherpolicy",
@@ -80,7 +89,8 @@
         "href": "https://w3c.github.io/webrtc-ice/#dictionary-rtcicegatheroptions-members",
         "title": "Dictionary RTCIceGatherOptions Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicegatheroptions-iceservers",
@@ -100,7 +110,8 @@
         "href": "https://w3c.github.io/webrtc-ice/#dictionary-rtcicegatheroptions-members",
         "title": "Dictionary RTCIceGatherOptions Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicetransport-constructor",
@@ -124,7 +135,8 @@
         "href": "https://w3c.github.io/webrtc-ice/#constructors",
         "title": "Constructors"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicetransport-onerror",
@@ -146,7 +158,8 @@
         "href": "https://w3c.github.io/webrtc-ice/#attributes",
         "title": "Attributes"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicetransport-onicecandidate",
@@ -168,7 +181,8 @@
         "href": "https://w3c.github.io/webrtc-ice/#attributes",
         "title": "Attributes"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicetransport-gather",
@@ -193,7 +207,8 @@
         "href": "https://w3c.github.io/webrtc-ice/#methods",
         "title": "Methods"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "ice-servers-list",
@@ -211,7 +226,8 @@
         "href": "https://w3c.github.io/webrtc-ice/#methods",
         "title": "Methods"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-rtcicetransport-start",
@@ -237,7 +253,8 @@
         "href": "https://w3c.github.io/webrtc-ice/#methods",
         "title": "Methods"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicetransport-stop",
@@ -261,7 +278,8 @@
         "href": "https://w3c.github.io/webrtc-ice/#methods",
         "title": "Methods"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicetransport-addremotecandidate",
@@ -286,7 +304,8 @@
         "href": "https://w3c.github.io/webrtc-ice/#methods",
         "title": "Methods"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-icecandidateerror",
@@ -299,15 +318,19 @@
       "for": [
         "RTCIceTransport"
       ],
-      "access": "public",
+      "access": "private",
       "informative": true,
       "heading": {
         "id": "event-summary",
         "href": "https://w3c.github.io/webrtc-ice/#event-summary",
         "title": "Event summary",
+        "alternateIds": [
+          "x5-event-summary"
+        ],
         "number": "5"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-icecandidate",
@@ -320,15 +343,19 @@
       "for": [
         "RTCIceTransport"
       ],
-      "access": "public",
+      "access": "private",
       "informative": true,
       "heading": {
         "id": "event-summary",
         "href": "https://w3c.github.io/webrtc-ice/#event-summary",
         "title": "Event summary",
+        "alternateIds": [
+          "x5-event-summary"
+        ],
         "number": "5"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     }
   ]
 }

@@ -21,7 +21,8 @@
         "title": "Limit maximum sampling frequency",
         "number": "4.3.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "stop-sensor",
@@ -40,7 +41,8 @@
         "title": "Stop the sensor altogether",
         "number": "4.3.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "limit-number-of-delivered-readings",
@@ -59,7 +61,8 @@
         "title": "Limit number of delivered readings",
         "number": "4.3.3"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "reduce-accuracy",
@@ -78,7 +81,8 @@
         "title": "Reduce accuracy",
         "number": "4.3.4"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "concept-device-sensor",
@@ -97,7 +101,8 @@
         "title": "Sensors",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "sensor-reading",
@@ -111,11 +116,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "concepts-sensors",
+        "href": "https://www.w3.org/TR/generic-sensor/#concepts-sensors",
+        "title": "Sensors",
+        "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "reading-timestamp",
@@ -129,11 +136,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "concepts-sensors",
+        "href": "https://www.w3.org/TR/generic-sensor/#concepts-sensors",
+        "title": "Sensors",
+        "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "local-coordinate-system",
@@ -147,11 +156,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "concepts-sensors",
+        "href": "https://www.w3.org/TR/generic-sensor/#concepts-sensors",
+        "title": "Sensors",
+        "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "spatial-sensor",
@@ -165,11 +176,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "concepts-sensors",
+        "href": "https://www.w3.org/TR/generic-sensor/#concepts-sensors",
+        "title": "Sensors",
+        "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "concept-platform-sensor",
@@ -183,11 +196,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "concepts-sensors",
+        "href": "https://www.w3.org/TR/generic-sensor/#concepts-sensors",
+        "title": "Sensors",
+        "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "calibration",
@@ -201,11 +216,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "concepts-sensors",
+        "href": "https://www.w3.org/TR/generic-sensor/#concepts-sensors",
+        "title": "Sensors",
+        "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "low-level",
@@ -224,7 +241,8 @@
         "title": "Sensor Types",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "high-level",
@@ -238,11 +256,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "concepts-sensor-types",
+        "href": "https://www.w3.org/TR/generic-sensor/#concepts-sensor-types",
+        "title": "Sensor Types",
+        "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "sensor-fusion",
@@ -256,11 +276,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "concepts-sensor-types",
+        "href": "https://www.w3.org/TR/generic-sensor/#concepts-sensor-types",
+        "title": "Sensor Types",
+        "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "default-sensor",
@@ -279,7 +301,8 @@
         "title": "Default sensor",
         "number": "5.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "sampling-frequency",
@@ -298,7 +321,8 @@
         "title": "Sampling Frequency and Reporting Frequency",
         "number": "5.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "device-sensor-minimum-sampling-frequency",
@@ -314,11 +338,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "concepts-sampling-and-reporting-frequencies",
+        "href": "https://www.w3.org/TR/generic-sensor/#concepts-sampling-and-reporting-frequencies",
+        "title": "Sampling Frequency and Reporting Frequency",
+        "number": "5.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "device-sensor-maximum-sampling-frequency",
@@ -334,11 +360,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "concepts-sampling-and-reporting-frequencies",
+        "href": "https://www.w3.org/TR/generic-sensor/#concepts-sampling-and-reporting-frequencies",
+        "title": "Sampling Frequency and Reporting Frequency",
+        "number": "5.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "reporting-frequency",
@@ -352,11 +380,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "concepts-sampling-and-reporting-frequencies",
+        "href": "https://www.w3.org/TR/generic-sensor/#concepts-sampling-and-reporting-frequencies",
+        "title": "Sampling Frequency and Reporting Frequency",
+        "number": "5.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "can-expose-sensor-readings",
@@ -375,7 +405,8 @@
         "title": "Conditions to expose sensor readings",
         "number": "5.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "specific-conditions",
@@ -389,11 +420,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "concepts-can-expose-sensor-readings",
+        "href": "https://www.w3.org/TR/generic-sensor/#concepts-can-expose-sensor-readings",
+        "title": "Conditions to expose sensor readings",
+        "number": "5.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "sensor-type",
@@ -412,7 +445,8 @@
         "title": "Sensor Type",
         "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "sensor-permission-names",
@@ -426,11 +460,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "model-sensor-type",
+        "href": "https://www.w3.org/TR/generic-sensor/#model-sensor-type",
+        "title": "Sensor Type",
+        "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "sensor-feature-names",
@@ -444,11 +480,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "model-sensor-type",
+        "href": "https://www.w3.org/TR/generic-sensor/#model-sensor-type",
+        "title": "Sensor Type",
+        "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "sensor-type-minimum-sampling-frequency",
@@ -464,11 +502,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "model-sensor-type",
+        "href": "https://www.w3.org/TR/generic-sensor/#model-sensor-type",
+        "title": "Sensor Type",
+        "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "sensor-type-maximum-sampling-frequency",
@@ -484,11 +524,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "model-sensor-type",
+        "href": "https://www.w3.org/TR/generic-sensor/#model-sensor-type",
+        "title": "Sensor Type",
+        "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "threshold-check-algorithm",
@@ -502,11 +544,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "model-sensor-type",
+        "href": "https://www.w3.org/TR/generic-sensor/#model-sensor-type",
+        "title": "Sensor Type",
+        "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "reading-quantization-algorithm",
@@ -520,11 +564,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "model-sensor-type",
+        "href": "https://www.w3.org/TR/generic-sensor/#model-sensor-type",
+        "title": "Sensor Type",
+        "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "activated-sensor-objects",
@@ -543,7 +589,8 @@
         "title": "Sensor",
         "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "latest-reading",
@@ -557,11 +604,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "model-sensor",
+        "href": "https://www.w3.org/TR/generic-sensor/#model-sensor",
+        "title": "Sensor",
+        "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "get-a-platform-sensors-sampling-bounds",
@@ -575,11 +624,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "model-sensor",
+        "href": "https://www.w3.org/TR/generic-sensor/#model-sensor",
+        "title": "Sensor",
+        "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "sensor",
@@ -598,7 +649,8 @@
         "title": "The Sensor Interface",
         "number": "7.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-sensor-activated",
@@ -614,11 +666,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "the-sensor-interface",
+        "href": "https://www.w3.org/TR/generic-sensor/#the-sensor-interface",
+        "title": "The Sensor Interface",
+        "number": "7.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-sensor-hasreading",
@@ -634,11 +688,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "the-sensor-interface",
+        "href": "https://www.w3.org/TR/generic-sensor/#the-sensor-interface",
+        "title": "The Sensor Interface",
+        "number": "7.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-sensor-timestamp",
@@ -654,11 +710,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "the-sensor-interface",
+        "href": "https://www.w3.org/TR/generic-sensor/#the-sensor-interface",
+        "title": "The Sensor Interface",
+        "number": "7.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-sensor-start",
@@ -674,11 +732,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "the-sensor-interface",
+        "href": "https://www.w3.org/TR/generic-sensor/#the-sensor-interface",
+        "title": "The Sensor Interface",
+        "number": "7.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-sensor-stop",
@@ -694,11 +754,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "the-sensor-interface",
+        "href": "https://www.w3.org/TR/generic-sensor/#the-sensor-interface",
+        "title": "The Sensor Interface",
+        "number": "7.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-sensor-onreading",
@@ -714,11 +776,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "the-sensor-interface",
+        "href": "https://www.w3.org/TR/generic-sensor/#the-sensor-interface",
+        "title": "The Sensor Interface",
+        "number": "7.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-sensor-onactivate",
@@ -734,11 +798,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "the-sensor-interface",
+        "href": "https://www.w3.org/TR/generic-sensor/#the-sensor-interface",
+        "title": "The Sensor Interface",
+        "number": "7.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-sensor-onerror",
@@ -754,11 +820,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "the-sensor-interface",
+        "href": "https://www.w3.org/TR/generic-sensor/#the-sensor-interface",
+        "title": "The Sensor Interface",
+        "number": "7.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-sensoroptions",
@@ -772,11 +840,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "the-sensor-interface",
+        "href": "https://www.w3.org/TR/generic-sensor/#the-sensor-interface",
+        "title": "The Sensor Interface",
+        "number": "7.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-sensoroptions-frequency",
@@ -792,11 +862,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "the-sensor-interface",
+        "href": "https://www.w3.org/TR/generic-sensor/#the-sensor-interface",
+        "title": "The Sensor Interface",
+        "number": "7.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "sensor-task-source",
@@ -810,11 +882,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "the-sensor-interface",
+        "href": "https://www.w3.org/TR/generic-sensor/#the-sensor-interface",
+        "title": "The Sensor Interface",
+        "number": "7.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-sensor-state-slot",
@@ -835,7 +909,8 @@
         "title": "Sensor internal slots",
         "number": "7.1.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-sensor-frequency-slot",
@@ -856,7 +931,8 @@
         "title": "Sensor internal slots",
         "number": "7.1.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-sensor-lasteventfiredat-slot",
@@ -877,7 +953,8 @@
         "title": "Sensor internal slots",
         "number": "7.1.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-sensor-pendingreadingnotification-slot",
@@ -898,7 +975,8 @@
         "title": "Sensor internal slots",
         "number": "7.1.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "sensorerrorevent",
@@ -917,7 +995,8 @@
         "title": "The SensorErrorEvent Interface",
         "number": "7.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-sensorerrorevent-sensorerrorevent",
@@ -934,11 +1013,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "the-sensor-error-event-interface",
+        "href": "https://www.w3.org/TR/generic-sensor/#the-sensor-error-event-interface",
+        "title": "The SensorErrorEvent Interface",
+        "number": "7.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-sensorerrorevent-sensorerrorevent-type-erroreventinitdict-type",
@@ -955,11 +1036,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "the-sensor-error-event-interface",
+        "href": "https://www.w3.org/TR/generic-sensor/#the-sensor-error-event-interface",
+        "title": "The SensorErrorEvent Interface",
+        "number": "7.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-sensorerrorevent-sensorerrorevent-type-erroreventinitdict-erroreventinitdict",
@@ -976,11 +1059,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "the-sensor-error-event-interface",
+        "href": "https://www.w3.org/TR/generic-sensor/#the-sensor-error-event-interface",
+        "title": "The SensorErrorEvent Interface",
+        "number": "7.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-sensorerroreventinit",
@@ -994,11 +1079,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "the-sensor-error-event-interface",
+        "href": "https://www.w3.org/TR/generic-sensor/#the-sensor-error-event-interface",
+        "title": "The SensorErrorEvent Interface",
+        "number": "7.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-sensorerroreventinit-error",
@@ -1014,11 +1101,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "the-sensor-error-event-interface",
+        "href": "https://www.w3.org/TR/generic-sensor/#the-sensor-error-event-interface",
+        "title": "The SensorErrorEvent Interface",
+        "number": "7.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-sensorerrorevent-error",
@@ -1034,11 +1123,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "the-sensor-error-event-interface",
+        "href": "https://www.w3.org/TR/generic-sensor/#the-sensor-error-event-interface",
+        "title": "The SensorErrorEvent Interface",
+        "number": "7.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "initialize-a-sensor-object",
@@ -1057,7 +1148,8 @@
         "title": "Initialize a sensor object",
         "number": "8.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "check-sensor-policy-controlled-features",
@@ -1076,7 +1168,8 @@
         "title": "Check sensor policy-controlled features",
         "number": "8.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "connect-to-sensor",
@@ -1095,7 +1188,8 @@
         "title": "Connect to sensor",
         "number": "8.3"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "activate-a-sensor-object",
@@ -1114,7 +1208,8 @@
         "title": "Activate a sensor object",
         "number": "8.4"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "deactivate-a-sensor-object",
@@ -1133,7 +1228,8 @@
         "title": "Deactivate a sensor object",
         "number": "8.5"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "generic-sensor-permission-revocation-algorithm",
@@ -1152,7 +1248,8 @@
         "title": "Generic Sensor permission revocation algorithm",
         "number": "8.6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "set-sensor-settings",
@@ -1171,7 +1268,8 @@
         "title": "Set sensor settings",
         "number": "8.7"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "update-latest-reading",
@@ -1190,7 +1288,8 @@
         "title": "Update latest reading",
         "number": "8.8"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "report-latest-reading-updated",
@@ -1209,7 +1308,8 @@
         "title": "Report latest reading updated",
         "number": "8.9"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "notify-new-reading",
@@ -1228,7 +1328,8 @@
         "title": "Notify new reading",
         "number": "8.10"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "notify-activated-state",
@@ -1247,7 +1348,8 @@
         "title": "Notify activated state",
         "number": "8.11"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "notify-error",
@@ -1266,7 +1368,8 @@
         "title": "Notify error",
         "number": "8.12"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "get-value-from-latest-reading",
@@ -1285,7 +1388,8 @@
         "title": "Get value from latest reading",
         "number": "8.13"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "request-sensor-access",
@@ -1304,7 +1408,8 @@
         "title": "Request sensor access",
         "number": "8.14"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "focus-and-origin-check",
@@ -1323,7 +1428,8 @@
         "title": "Focus and origin check",
         "number": "8.15"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "virtual-sensor",
@@ -1342,7 +1448,8 @@
         "title": "Virtual Sensors",
         "number": "9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "virtual-sensor-can-provide-readings-flag",
@@ -1358,11 +1465,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "virtual-sensors",
+        "href": "https://www.w3.org/TR/generic-sensor/#virtual-sensors",
+        "title": "Virtual Sensors",
+        "number": "9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "virtual-sensor-requested-sampling-frequency",
@@ -1378,11 +1487,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "virtual-sensors",
+        "href": "https://www.w3.org/TR/generic-sensor/#virtual-sensors",
+        "title": "Virtual Sensors",
+        "number": "9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "virtual-sensor-minimum-sampling-frequency",
@@ -1398,11 +1509,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "virtual-sensors",
+        "href": "https://www.w3.org/TR/generic-sensor/#virtual-sensors",
+        "title": "Virtual Sensors",
+        "number": "9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "virtual-sensor-maximum-sampling-frequency",
@@ -1418,11 +1531,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "virtual-sensors",
+        "href": "https://www.w3.org/TR/generic-sensor/#virtual-sensors",
+        "title": "Virtual Sensors",
+        "number": "9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "virtual-sensor-type",
@@ -1436,11 +1551,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "virtual-sensors",
+        "href": "https://www.w3.org/TR/generic-sensor/#virtual-sensors",
+        "title": "Virtual Sensors",
+        "number": "9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "per-type-virtual-sensor-metadata",
@@ -1454,11 +1571,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "virtual-sensors",
+        "href": "https://www.w3.org/TR/generic-sensor/#virtual-sensors",
+        "title": "Virtual Sensors",
+        "number": "9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "virtual-sensor-metadata",
@@ -1472,11 +1591,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "virtual-sensors",
+        "href": "https://www.w3.org/TR/generic-sensor/#virtual-sensors",
+        "title": "Virtual Sensors",
+        "number": "9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "virtual-sensor-metadata-reading-parsing-algorithm",
@@ -1492,11 +1613,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "virtual-sensors",
+        "href": "https://www.w3.org/TR/generic-sensor/#virtual-sensors",
+        "title": "Virtual Sensors",
+        "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "virtual-sensor-mapping",
@@ -1510,11 +1633,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "virtual-sensors",
+        "href": "https://www.w3.org/TR/generic-sensor/#virtual-sensors",
+        "title": "Virtual Sensors",
+        "number": "9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "parse-single-value-number-reading",
@@ -1533,7 +1658,8 @@
         "title": "Parse single-value number reading",
         "number": "9.2.3.1.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "parse-xyz-reading",
@@ -1552,7 +1678,8 @@
         "title": "Parse XYZ reading",
         "number": "9.2.3.1.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "extension-specification",
@@ -1570,7 +1697,8 @@
         "href": "https://www.w3.org/TR/generic-sensor/#extensibility",
         "title": "10. Extensibility"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "extension-sensor-interface",
@@ -1589,7 +1717,8 @@
         "title": "Definition Requirements",
         "number": "10.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "supported-sensor-options",
@@ -1603,11 +1732,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/generic-sensor/#title",
-        "title": "Generic Sensor API"
+        "id": "definition-reqs",
+        "href": "https://www.w3.org/TR/generic-sensor/#definition-reqs",
+        "title": "Definition Requirements",
+        "number": "10.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

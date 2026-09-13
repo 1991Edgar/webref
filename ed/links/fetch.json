@@ -92,14 +92,8 @@
       "https://github.com/whatwg/html/issues/6424": {},
       "https://github.com/whatwg/infra/issues/201": {},
       "https://html.spec.whatwg.org/multipage/": {},
+      "https://httpwg.org/http-extensions/draft-ietf-httpbis-layered-cookies.html": {},
       "https://httpwg.org/specs/rfc5861.html": {},
-      "https://httpwg.org/specs/rfc6265.html": {
-        "anchors": [
-          "privacy-considerations",
-          "cookie",
-          "set-cookie"
-        ]
-      },
       "https://httpwg.org/specs/rfc8470.html": {},
       "https://httpwg.org/specs/rfc9110.html": {},
       "https://httpwg.org/specs/rfc9111.html": {},
@@ -116,7 +110,11 @@
       "https://opensource.org/licenses/BSD-3-Clause": {},
       "https://streams.spec.whatwg.org/": {},
       "https://tc39.es/ecma262/multipage/": {},
-      "https://url.spec.whatwg.org/": {},
+      "https://url.spec.whatwg.org/": {
+        "anchors": [
+          "host-serializing"
+        ]
+      },
       "https://w3c.github.io/FileAPI/": {},
       "https://w3c.github.io/ServiceWorker/": {},
       "https://w3c.github.io/beacon/": {},
@@ -130,12 +128,18 @@
       },
       "https://w3c.github.io/webappsec-fetch-metadata/": {},
       "https://w3c.github.io/webappsec-mixed-content/": {},
+      "https://w3c.github.io/webappsec-permissions-policy/": {},
       "https://w3c.github.io/webappsec-referrer-policy/": {},
+      "https://w3c.github.io/webappsec-secure-contexts/": {},
       "https://w3c.github.io/webappsec-subresource-integrity/": {},
       "https://w3c.github.io/webappsec-upgrade-insecure-requests/": {},
+      "https://w3c.github.io/webcrypto/": {},
+      "https://w3c.github.io/webdriver-bidi/": {},
+      "https://w3c.github.io/webtransport/": {},
       "https://webidl.spec.whatwg.org/": {},
       "https://websockets.spec.whatwg.org/": {},
       "https://www.apple.com/": {},
+      "https://www.iana.org/assignments/http-parameters/http-parameters.xhtml": {},
       "https://www.iana.org/assignments/tls-extensiontype-values/tls-extensiontype-values.xhtml": {
         "anchors": [
           "alpn-protocol-ids"
@@ -144,39 +148,53 @@
       "https://www.kb.cert.org/vuls/id/150227": {},
       "https://www.kb.cert.org/vuls/id/288308": {},
       "https://www.kb.cert.org/vuls/id/867593": {},
-      "https://www.rfc-editor.org/rfc/rfc1035": {},
-      "https://www.rfc-editor.org/rfc/rfc2397": {},
-      "https://www.rfc-editor.org/rfc/rfc5234": {},
-      "https://www.rfc-editor.org/rfc/rfc6454": {},
-      "https://www.rfc-editor.org/rfc/rfc6797": {},
+      "https://www.rfc-editor.org/info/rfc1035/": {},
+      "https://www.rfc-editor.org/info/rfc2397/": {},
+      "https://www.rfc-editor.org/info/rfc3986/": {},
+      "https://www.rfc-editor.org/info/rfc5234/": {},
+      "https://www.rfc-editor.org/info/rfc5952/": {},
+      "https://www.rfc-editor.org/info/rfc6454/": {},
+      "https://www.rfc-editor.org/info/rfc6797/": {},
+      "https://www.rfc-editor.org/info/rfc6960/": {},
+      "https://www.rfc-editor.org/info/rfc7301/": {},
+      "https://www.rfc-editor.org/info/rfc7405/": {},
+      "https://www.rfc-editor.org/info/rfc7578/": {},
+      "https://www.rfc-editor.org/info/rfc7918/": {},
+      "https://www.rfc-editor.org/info/rfc9163/": {},
+      "https://www.rfc-editor.org/info/rfc9297/": {},
+      "https://www.rfc-editor.org/info/rfc9460/": {},
+      "https://www.rfc-editor.org/info/rfc9651/": {},
+      "https://www.rfc-editor.org/info/rfc9846/": {},
       "https://www.rfc-editor.org/rfc/rfc6797.html": {
         "anchors": [
           "section-8.2"
         ]
       },
-      "https://www.rfc-editor.org/rfc/rfc6960": {},
-      "https://www.rfc-editor.org/rfc/rfc7301": {},
-      "https://www.rfc-editor.org/rfc/rfc7405": {},
-      "https://www.rfc-editor.org/rfc/rfc7578": {},
-      "https://www.rfc-editor.org/rfc/rfc7918": {},
-      "https://www.rfc-editor.org/rfc/rfc8446": {},
-      "https://www.rfc-editor.org/rfc/rfc9163": {},
-      "https://www.rfc-editor.org/rfc/rfc9297": {},
-      "https://www.rfc-editor.org/rfc/rfc9651": {},
       "https://www.w3.org/TR/navigation-timing/": {},
       "https://xhr.spec.whatwg.org/": {}
     },
     "autolinks": {
+      "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-layered-cookies": {
+        "anchors": [
+          "name-retrieve-cookies",
+          "name-serialize-cookies",
+          "name-parse-and-store-a-cookie",
+          "name-garbage-collect-cookies",
+          "name-cookie-default-path"
+        ]
+      },
       "https://dom.spec.whatwg.org/": {
         "anchors": [
           "concept-document-origin",
+          "concept-document",
+          "concept-shadow-including-inclusive-descendant",
+          "concept-node-document",
           "abortsignal",
           "create-a-dependent-abort-signal",
           "abortsignal-aborted",
           "abortsignal-abort-reason",
           "abortsignal-add",
           "concept-element",
-          "concept-node-document",
           "document"
         ]
       },
@@ -192,13 +210,16 @@
           "utf-8",
           "utf-8-encode",
           "utf-8-decode-without-bom",
-          "utf-8-decode"
+          "utf-8-decode",
+          "textdecoderstream",
+          "set-up-a-text-decoder-stream"
         ]
       },
       "https://html.spec.whatwg.org/multipage/browsers.html": {
         "anchors": [
           "concept-origin",
           "policy-container",
+          "same-site",
           "same-origin",
           "ascii-serialisation-of-an-origin",
           "policy-container-embedder-policy",
@@ -230,7 +251,18 @@
       "https://html.spec.whatwg.org/multipage/document-sequences.html": {
         "anchors": [
           "nav-document",
-          "ancestor-navigables"
+          "traversable-navigable",
+          "ancestor-navigables",
+          "fully-active",
+          "nav-traversable",
+          "nav-parent",
+          "top-level-traversable",
+          "navigable-container",
+          "node-navigable",
+          "inclusive-descendant-navigables",
+          "navigable",
+          "descendant-navigables",
+          "nav-container-document"
         ]
       },
       "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html": {
@@ -245,12 +277,22 @@
           "the-form-element"
         ]
       },
+      "https://html.spec.whatwg.org/multipage/iframe-embed-object.html": {
+        "anchors": [
+          "allowed-to-use"
+        ]
+      },
       "https://html.spec.whatwg.org/multipage/infrastructure.html": {
         "anchors": [
           "parallel-queue",
           "enqueue-the-following-steps",
           "starting-a-new-parallel-queue",
           "in-parallel"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/interaction.html": {
+        "anchors": [
+          "visibility-state"
         ]
       },
       "https://html.spec.whatwg.org/multipage/links.html": {
@@ -266,9 +308,10 @@
       },
       "https://html.spec.whatwg.org/multipage/nav-history-apis.html": {
         "anchors": [
-          "window",
           "concept-document-window",
-          "blocking-navigating"
+          "blocking-navigating",
+          "window",
+          "window-navigable"
         ]
       },
       "https://html.spec.whatwg.org/multipage/server-sent-events.html": {
@@ -295,12 +338,16 @@
           "concept-settings-object-policy-container",
           "concept-environment-top-level-origin",
           "concept-environment-top-level-creation-url",
+          "concept-settings-object-has-cross-site-ancestor",
           "concept-settings-object-cross-origin-isolated-capability",
           "concept-settings-object-origin",
           "secure-context",
+          "concept-environment-creation-url",
+          "task-source",
+          "dom-manipulation-task-source",
+          "relevant-settings-object",
           "concept-relevant-global",
           "concept-relevant-realm",
-          "relevant-settings-object",
           "api-base-url",
           "current-settings-object",
           "windoworworkerglobalscope",
@@ -393,6 +440,9 @@
           "abort-when",
           "if-aborted",
           "list-size",
+          "failure",
+          "success",
+          "string-length",
           "map-iterate",
           "scalar-value-string",
           "parse-json-bytes-to-a-javascript-value",
@@ -445,6 +495,7 @@
           "readablestream-error",
           "is-readable-stream-disturbed",
           "readablestream-locked",
+          "readablestream-set-up",
           "readablestream-create-a-proxy",
           "rs-get-reader"
         ]
@@ -475,10 +526,13 @@
           "concept-host",
           "concept-ipv6",
           "concept-url-port",
-          "concept-url-path",
           "concept-url-host",
+          "concept-url-path",
+          "url-path-serializer",
           "concept-domain",
+          "host-registrable-domain",
           "concept-url-blob-entry",
+          "concept-url-equals",
           "include-credentials",
           "urlsearchparams",
           "concept-urlencoded-serializer",
@@ -501,15 +555,10 @@
       },
       "https://w3c.github.io/ServiceWorker/": {
         "anchors": [
+          "service-worker-timing-info",
           "service-worker-global-scope-fetch-event",
           "handle-fetch",
-          "service-worker-timing-info",
           "serviceworkerglobalscope"
-        ]
-      },
-      "https://w3c.github.io/beacon/": {
-        "anchors": [
-          "dom-navigator-sendbeacon"
         ]
       },
       "https://w3c.github.io/hr-time/": {
@@ -551,6 +600,13 @@
           "should-block-response"
         ]
       },
+      "https://w3c.github.io/webappsec-permissions-policy/": {
+        "anchors": [
+          "policy-controlled-feature",
+          "policy-controlled-feature-default-allowlist",
+          "algo-define-inherited-policy-in-container"
+        ]
+      },
       "https://w3c.github.io/webappsec-referrer-policy/": {
         "anchors": [
           "referrer-policy",
@@ -559,14 +615,48 @@
           "enumdef-referrerpolicy"
         ]
       },
+      "https://w3c.github.io/webappsec-secure-contexts/": {
+        "anchors": [
+          "potentially-trustworthy-url"
+        ]
+      },
       "https://w3c.github.io/webappsec-subresource-integrity/": {
         "anchors": [
+          "should-request-be-blocked-by-integrity-policy",
           "does-response-match-metadatalist"
         ]
       },
       "https://w3c.github.io/webappsec-upgrade-insecure-requests/": {
         "anchors": [
           "upgrade-request"
+        ]
+      },
+      "https://w3c.github.io/webcrypto/": {
+        "anchors": [
+          "dfn-generate-a-random-uuid"
+        ]
+      },
+      "https://w3c.github.io/webdriver-bidi/": {
+        "anchors": [
+          "webdriver-bidi-network-is-offline",
+          "webdriver-bidi-emulated-user-agent",
+          "webdriver-bidi-clone-network-request-body",
+          "webdriver-bidi-emulated-language",
+          "webdriver-bidi-fetch-error",
+          "webdriver-bidi-response-completed",
+          "webdriver-bidi-response-started",
+          "webdriver-bidi-before-request-sent",
+          "webdriver-bidi-clone-network-response-body"
+        ]
+      },
+      "https://w3c.github.io/webtransport/": {
+        "anchors": [
+          "webtransport",
+          "dom-webtransport-webtransport",
+          "dom-webtransportoptions-servercertificatehashes",
+          "custom-certificate-requirements",
+          "verify-a-certificate-hash",
+          "obtain-a-webtransport-connection"
         ]
       },
       "https://webidl.spec.whatwg.org/": {
@@ -577,15 +667,16 @@
           "exceptiondef-typeerror",
           "dfn-get-buffer-source-copy",
           "dfn-exception",
+          "new",
           "a-new-promise",
           "resolve",
-          "new",
           "idl-sequence",
           "idl-ByteString",
           "idl-record",
           "Exposed",
           "idl-undefined",
           "idl-boolean",
+          "dfn-iterable",
           "dfn-throw",
           "this",
           "dfn-value-pairs-to-iterate-over",
@@ -604,6 +695,10 @@
           "SameObject",
           "idl-DOMString",
           "idl-unsigned-short",
+          "SecureContext",
+          "quotaexceedederror",
+          "quotaexceedederror-quota",
+          "quotaexceedederror-requested",
           "dfn-interface"
         ]
       },
@@ -612,6 +707,11 @@
           "concept-websocket-establish",
           "websocket",
           "concept-websocket-connection-obtain"
+        ]
+      },
+      "https://www.w3.org/TR/beacon/": {
+        "anchors": [
+          "dom-navigator-sendbeacon"
         ]
       },
       "https://xhr.spec.whatwg.org/": {

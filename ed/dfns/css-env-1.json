@@ -23,7 +23,28 @@
         "title": "Environment Variables",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "custom-environment-variable",
+      "href": "https://drafts.csswg.org/css-env-1/#custom-environment-variable",
+      "linkingText": [
+        "custom environment variable"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "environment",
+        "href": "https://drafts.csswg.org/css-env-1/#environment",
+        "title": "Environment Variables",
+        "number": "2"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-env-safe-area-inset-top",
@@ -44,7 +65,8 @@
         "title": "Safe area inset variables",
         "number": "2.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-env-safe-area-inset-right",
@@ -65,7 +87,8 @@
         "title": "Safe area inset variables",
         "number": "2.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-env-safe-area-inset-bottom",
@@ -86,7 +109,8 @@
         "title": "Safe area inset variables",
         "number": "2.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-env-safe-area-inset-left",
@@ -107,7 +131,96 @@
         "title": "Safe area inset variables",
         "number": "2.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "valdef-env-safe-area-max-inset-top",
+      "href": "https://drafts.csswg.org/css-env-1/#valdef-env-safe-area-max-inset-top",
+      "linkingText": [
+        "safe-area-max-inset-top"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "env()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "safe-area-max-insets",
+        "href": "https://drafts.csswg.org/css-env-1/#safe-area-max-insets",
+        "title": "Safe area maximum inset variables",
+        "number": "2.2"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "valdef-env-safe-area-max-inset-right",
+      "href": "https://drafts.csswg.org/css-env-1/#valdef-env-safe-area-max-inset-right",
+      "linkingText": [
+        "safe-area-max-inset-right"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "env()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "safe-area-max-insets",
+        "href": "https://drafts.csswg.org/css-env-1/#safe-area-max-insets",
+        "title": "Safe area maximum inset variables",
+        "number": "2.2"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "valdef-env-safe-area-max-inset-bottom",
+      "href": "https://drafts.csswg.org/css-env-1/#valdef-env-safe-area-max-inset-bottom",
+      "linkingText": [
+        "safe-area-max-inset-bottom"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "env()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "safe-area-max-insets",
+        "href": "https://drafts.csswg.org/css-env-1/#safe-area-max-insets",
+        "title": "Safe area maximum inset variables",
+        "number": "2.2"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "valdef-env-safe-area-max-inset-left",
+      "href": "https://drafts.csswg.org/css-env-1/#valdef-env-safe-area-max-inset-left",
+      "linkingText": [
+        "safe-area-max-inset-left"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "env()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "safe-area-max-insets",
+        "href": "https://drafts.csswg.org/css-env-1/#safe-area-max-insets",
+        "title": "Safe area maximum inset variables",
+        "number": "2.2"
+      },
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-env-viewport-segment-width",
@@ -126,9 +239,10 @@
         "id": "viewport-segments",
         "href": "https://drafts.csswg.org/css-env-1/#viewport-segments",
         "title": "Viewport segment variables",
-        "number": "2.2"
+        "number": "2.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-env-viewport-segment-height",
@@ -147,9 +261,10 @@
         "id": "viewport-segments",
         "href": "https://drafts.csswg.org/css-env-1/#viewport-segments",
         "title": "Viewport segment variables",
-        "number": "2.2"
+        "number": "2.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-env-viewport-segment-top",
@@ -168,9 +283,10 @@
         "id": "viewport-segments",
         "href": "https://drafts.csswg.org/css-env-1/#viewport-segments",
         "title": "Viewport segment variables",
-        "number": "2.2"
+        "number": "2.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-env-viewport-segment-left",
@@ -189,9 +305,10 @@
         "id": "viewport-segments",
         "href": "https://drafts.csswg.org/css-env-1/#viewport-segments",
         "title": "Viewport segment variables",
-        "number": "2.2"
+        "number": "2.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-env-viewport-segment-bottom",
@@ -210,9 +327,10 @@
         "id": "viewport-segments",
         "href": "https://drafts.csswg.org/css-env-1/#viewport-segments",
         "title": "Viewport segment variables",
-        "number": "2.2"
+        "number": "2.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-env-viewport-segment-right",
@@ -231,9 +349,32 @@
         "id": "viewport-segments",
         "href": "https://drafts.csswg.org/css-env-1/#viewport-segments",
         "title": "Viewport segment variables",
-        "number": "2.2"
+        "number": "2.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "valdef-env-preferred-text-scale",
+      "href": "https://drafts.csswg.org/css-env-1/#valdef-env-preferred-text-scale",
+      "linkingText": [
+        "preferred-text-scale"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "env()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "text-zoom",
+        "href": "https://drafts.csswg.org/css-env-1/#text-zoom",
+        "title": "Preferred Text Zoom",
+        "number": "2.4"
+      },
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "funcdef-env",
@@ -252,7 +393,28 @@
         "title": "Using Environment Variables: the env() notation",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "typedef-env-args",
+      "href": "https://drafts.csswg.org/css-env-1/#typedef-env-args",
+      "linkingText": [
+        "<env-args>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "env-function",
+        "href": "https://drafts.csswg.org/css-env-1/#env-function",
+        "title": "Using Environment Variables: the env() notation",
+        "number": "3"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "substitute-an-env",
@@ -273,7 +435,8 @@
         "title": "Using Environment Variables: the env() notation",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

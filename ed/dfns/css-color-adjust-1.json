@@ -21,7 +21,8 @@
         "title": "Preferred Color Schemes",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "color-scheme",
@@ -40,7 +41,8 @@
         "title": "Preferred Color Schemes",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "light-color-scheme",
@@ -61,7 +63,8 @@
         "title": "Preferred Color Schemes",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dark-color-scheme",
@@ -82,7 +85,90 @@
         "title": "Preferred Color Schemes",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "page-color-scheme",
+      "href": "https://drafts.csswg.org/css-color-adjust-1/#page-color-scheme",
+      "linkingText": [
+        "page color scheme"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "preferred",
+        "href": "https://drafts.csswg.org/css-color-adjust-1/#preferred",
+        "title": "Preferred Color Schemes",
+        "number": "2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "color-scheme-default",
+      "href": "https://drafts.csswg.org/css-color-adjust-1/#color-scheme-default",
+      "linkingText": [
+        "default"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "color scheme"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "preferred",
+        "href": "https://drafts.csswg.org/css-color-adjust-1/#preferred",
+        "title": "Preferred Color Schemes",
+        "number": "2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "element-color-scheme",
+      "href": "https://drafts.csswg.org/css-color-adjust-1/#element-color-scheme",
+      "linkingText": [
+        "element color scheme"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "preferred",
+        "href": "https://drafts.csswg.org/css-color-adjust-1/#preferred",
+        "title": "Preferred Color Schemes",
+        "number": "2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "pages-supported-color-scheme",
+      "href": "https://drafts.csswg.org/css-color-adjust-1/#pages-supported-color-scheme",
+      "linkingText": [
+        "page's supported color scheme"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "color-scheme-page",
+        "href": "https://drafts.csswg.org/css-color-adjust-1/#color-scheme-page",
+        "title": "Opting Into a Preferred Color Scheme",
+        "number": "2.1"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-color-scheme",
@@ -98,48 +184,11 @@
       "heading": {
         "id": "color-scheme-prop",
         "href": "https://drafts.csswg.org/css-color-adjust-1/#color-scheme-prop",
-        "title": "Opting Into a Preferred Color Scheme: the color-scheme property",
-        "number": "2.1"
+        "title": "Overriding the Page Color Scheme: the color-scheme property",
+        "number": "2.2"
       },
-      "definedIn": "table"
-    },
-    {
-      "id": "used-color-scheme",
-      "href": "https://drafts.csswg.org/css-color-adjust-1/#used-color-scheme",
-      "linkingText": [
-        "used color scheme"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "color-scheme-prop",
-        "href": "https://drafts.csswg.org/css-color-adjust-1/#color-scheme-prop",
-        "title": "Opting Into a Preferred Color Scheme: the color-scheme property",
-        "number": "2.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "pages-supported-color-schemes",
-      "href": "https://drafts.csswg.org/css-color-adjust-1/#pages-supported-color-schemes",
-      "linkingText": [
-        "page’s supported color schemes"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "color-scheme-prop",
-        "href": "https://drafts.csswg.org/css-color-adjust-1/#color-scheme-prop",
-        "title": "Opting Into a Preferred Color Scheme: the color-scheme property",
-        "number": "2.1"
-      },
-      "definedIn": "prose"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-color-scheme-normal",
@@ -157,10 +206,11 @@
       "heading": {
         "id": "color-scheme-prop",
         "href": "https://drafts.csswg.org/css-color-adjust-1/#color-scheme-prop",
-        "title": "Opting Into a Preferred Color Scheme: the color-scheme property",
-        "number": "2.1"
+        "title": "Overriding the Page Color Scheme: the color-scheme property",
+        "number": "2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-scheme-light",
@@ -178,10 +228,11 @@
       "heading": {
         "id": "color-scheme-prop",
         "href": "https://drafts.csswg.org/css-color-adjust-1/#color-scheme-prop",
-        "title": "Opting Into a Preferred Color Scheme: the color-scheme property",
-        "number": "2.1"
+        "title": "Overriding the Page Color Scheme: the color-scheme property",
+        "number": "2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-scheme-dark",
@@ -199,10 +250,11 @@
       "heading": {
         "id": "color-scheme-prop",
         "href": "https://drafts.csswg.org/css-color-adjust-1/#color-scheme-prop",
-        "title": "Opting Into a Preferred Color Scheme: the color-scheme property",
-        "number": "2.1"
+        "title": "Overriding the Page Color Scheme: the color-scheme property",
+        "number": "2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-color-scheme-only",
@@ -220,16 +272,79 @@
       "heading": {
         "id": "color-scheme-prop",
         "href": "https://drafts.csswg.org/css-color-adjust-1/#color-scheme-prop",
-        "title": "Opting Into a Preferred Color Scheme: the color-scheme property",
-        "number": "2.1"
+        "title": "Overriding the Page Color Scheme: the color-scheme property",
+        "number": "2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
-      "id": "determine-the-used-color-scheme",
-      "href": "https://drafts.csswg.org/css-color-adjust-1/#determine-the-used-color-scheme",
+      "id": "color-scheme-preference",
+      "href": "https://drafts.csswg.org/css-color-adjust-1/#color-scheme-preference",
       "linkingText": [
-        "determine the used color scheme"
+        "color scheme preference"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "color-scheme-resolution",
+        "href": "https://drafts.csswg.org/css-color-adjust-1/#color-scheme-resolution",
+        "title": "Resolving Color Schemes",
+        "number": "2.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "color-scheme-overriding-preference",
+      "href": "https://drafts.csswg.org/css-color-adjust-1/#color-scheme-overriding-preference",
+      "linkingText": [
+        "overriding preference"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "color scheme"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "color-scheme-resolution",
+        "href": "https://drafts.csswg.org/css-color-adjust-1/#color-scheme-resolution",
+        "title": "Resolving Color Schemes",
+        "number": "2.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "color-scheme-support",
+      "href": "https://drafts.csswg.org/css-color-adjust-1/#color-scheme-support",
+      "linkingText": [
+        "color scheme support"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "color-scheme-resolution",
+        "href": "https://drafts.csswg.org/css-color-adjust-1/#color-scheme-resolution",
+        "title": "Resolving Color Schemes",
+        "number": "2.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "used-color-scheme",
+      "href": "https://drafts.csswg.org/css-color-adjust-1/#used-color-scheme",
+      "linkingText": [
+        "used color scheme"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -237,12 +352,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "color-scheme-prop",
-        "href": "https://drafts.csswg.org/css-color-adjust-1/#color-scheme-prop",
-        "title": "Opting Into a Preferred Color Scheme: the color-scheme property",
-        "number": "2.1"
+        "id": "color-scheme-resolution",
+        "href": "https://drafts.csswg.org/css-color-adjust-1/#color-scheme-resolution",
+        "title": "Resolving Color Schemes",
+        "number": "2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "override-the-color-scheme",
@@ -259,9 +375,10 @@
         "id": "color-scheme-override",
         "href": "https://drafts.csswg.org/css-color-adjust-1/#color-scheme-override",
         "title": "Overriding the Color Scheme",
-        "number": "2.3"
+        "number": "2.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "forced-colors-mode",
@@ -280,7 +397,8 @@
         "title": "Forced Color Palettes",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-forced-color-adjust",
@@ -299,7 +417,8 @@
         "title": "Opting Out of a Forced Color Palette: the forced-color-adjust property",
         "number": "3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-forced-color-adjust-auto",
@@ -320,7 +439,8 @@
         "title": "Opting Out of a Forced Color Palette: the forced-color-adjust property",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-forced-color-adjust-none",
@@ -341,7 +461,8 @@
         "title": "Opting Out of a Forced Color Palette: the forced-color-adjust property",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-forced-color-adjust-preserve-parent-color",
@@ -362,7 +483,8 @@
         "title": "Opting Out of a Forced Color Palette: the forced-color-adjust property",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-print-color-adjust",
@@ -381,7 +503,8 @@
         "title": "Ink Economy: the print-color-adjust property",
         "number": "4.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-print-color-adjust-economy",
@@ -402,7 +525,8 @@
         "title": "Ink Economy: the print-color-adjust property",
         "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-print-color-adjust-exact",
@@ -423,7 +547,8 @@
         "title": "Ink Economy: the print-color-adjust property",
         "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-color-adjust",
@@ -442,7 +567,174 @@
         "title": "The color-adjust Shorthand",
         "number": "4.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "emulated-forced-colors-theme-data",
+      "href": "https://drafts.csswg.org/css-color-adjust-1/#emulated-forced-colors-theme-data",
+      "linkingText": [
+        "emulated forced colors theme data"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "emulate-forced-colors-mode",
+        "href": "https://drafts.csswg.org/css-color-adjust-1/#emulate-forced-colors-mode",
+        "title": "Emulate Forced Colors Mode",
+        "number": "5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "enumdef-forcedcolorsmodeautomationtheme",
+      "href": "https://drafts.csswg.org/css-color-adjust-1/#enumdef-forcedcolorsmodeautomationtheme",
+      "linkingText": [
+        "ForcedColorsModeAutomationTheme"
+      ],
+      "localLinkingText": [],
+      "type": "enum",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "emulate-forced-colors-mode",
+        "href": "https://drafts.csswg.org/css-color-adjust-1/#emulate-forced-colors-mode",
+        "title": "Emulate Forced Colors Mode",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-forcedcolorsmodeautomationtheme-none",
+      "href": "https://drafts.csswg.org/css-color-adjust-1/#dom-forcedcolorsmodeautomationtheme-none",
+      "linkingText": [
+        "\"none\""
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "ForcedColorsModeAutomationTheme"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "emulate-forced-colors-mode",
+        "href": "https://drafts.csswg.org/css-color-adjust-1/#emulate-forced-colors-mode",
+        "title": "Emulate Forced Colors Mode",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-forcedcolorsmodeautomationtheme-light",
+      "href": "https://drafts.csswg.org/css-color-adjust-1/#dom-forcedcolorsmodeautomationtheme-light",
+      "linkingText": [
+        "\"light\""
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "ForcedColorsModeAutomationTheme"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "emulate-forced-colors-mode",
+        "href": "https://drafts.csswg.org/css-color-adjust-1/#emulate-forced-colors-mode",
+        "title": "Emulate Forced Colors Mode",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-forcedcolorsmodeautomationtheme-dark",
+      "href": "https://drafts.csswg.org/css-color-adjust-1/#dom-forcedcolorsmodeautomationtheme-dark",
+      "linkingText": [
+        "\"dark\""
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "ForcedColorsModeAutomationTheme"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "emulate-forced-colors-mode",
+        "href": "https://drafts.csswg.org/css-color-adjust-1/#emulate-forced-colors-mode",
+        "title": "Emulate Forced Colors Mode",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "set-emulated-forced-colors-theme-data",
+      "href": "https://drafts.csswg.org/css-color-adjust-1/#set-emulated-forced-colors-theme-data",
+      "linkingText": [
+        "set emulated forced colors theme data"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "emulate-forced-colors-mode",
+        "href": "https://drafts.csswg.org/css-color-adjust-1/#emulate-forced-colors-mode",
+        "title": "Emulate Forced Colors Mode",
+        "number": "5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "get-emulated-forced-colors-theme-data",
+      "href": "https://drafts.csswg.org/css-color-adjust-1/#get-emulated-forced-colors-theme-data",
+      "linkingText": [
+        "get emulated forced colors theme data"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "emulate-forced-colors-mode",
+        "href": "https://drafts.csswg.org/css-color-adjust-1/#emulate-forced-colors-mode",
+        "title": "Emulate Forced Colors Mode",
+        "number": "5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "forced-colors-mode-emulation-color-palettes",
+      "href": "https://drafts.csswg.org/css-color-adjust-1/#forced-colors-mode-emulation-color-palettes",
+      "linkingText": [
+        "forced colors mode emulation color palettes"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "forced-color-palettes",
+        "href": "https://drafts.csswg.org/css-color-adjust-1/#forced-color-palettes",
+        "title": "Forced Colors Mode Color Palettes",
+        "number": "5.2"
+      },
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

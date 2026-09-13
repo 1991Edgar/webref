@@ -26,7 +26,10 @@
       "id": "toc",
       "href": "https://drafts.csswg.org/css-env-1/#toc",
       "level": 2,
-      "title": "Table of Contents"
+      "title": "Table of Contents",
+      "alternateIds": [
+        "contents"
+      ]
     },
     {
       "id": "intro",
@@ -50,11 +53,25 @@
       "number": "2.1"
     },
     {
+      "id": "safe-area-max-insets",
+      "href": "https://drafts.csswg.org/css-env-1/#safe-area-max-insets",
+      "level": 3,
+      "title": "Safe area maximum inset variables",
+      "number": "2.2"
+    },
+    {
       "id": "viewport-segments",
       "href": "https://drafts.csswg.org/css-env-1/#viewport-segments",
       "level": 3,
       "title": "Viewport segment variables",
-      "number": "2.2"
+      "number": "2.3"
+    },
+    {
+      "id": "text-zoom",
+      "href": "https://drafts.csswg.org/css-env-1/#text-zoom",
+      "level": 3,
+      "title": "Preferred Text Zoom",
+      "number": "2.4"
     },
     {
       "id": "env-function",
@@ -69,6 +86,20 @@
       "level": 3,
       "title": "Environment Variables in Shorthand Properties",
       "number": "3.1"
+    },
+    {
+      "id": "priv",
+      "href": "https://drafts.csswg.org/css-env-1/#priv",
+      "level": 2,
+      "title": "Privacy Considerations",
+      "number": "4"
+    },
+    {
+      "id": "sec",
+      "href": "https://drafts.csswg.org/css-env-1/#sec",
+      "level": 2,
+      "title": "Security Considerations",
+      "number": "5"
     },
     {
       "id": "w3c-conformance",

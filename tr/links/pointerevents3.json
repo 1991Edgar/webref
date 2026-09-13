@@ -10,7 +10,6 @@
           "touch-action"
         ]
       },
-      "https://datatracker.ietf.org/doc/html/bcp14": {},
       "https://developer.mozilla.org/en-US/docs/Web/API/Document/lostpointercapture_event": {},
       "https://developer.mozilla.org/en-US/docs/Web/API/Element": {},
       "https://developer.mozilla.org/en-US/docs/Web/API/Element/gotpointercapture_event": {},
@@ -85,12 +84,19 @@
       "https://github.com/w3c/pointerevents/pull/490": {},
       "https://github.com/w3c/pointerevents/pull/491": {},
       "https://github.com/w3c/pointerevents/pull/494": {},
+      "https://github.com/w3c/pointerevents/pull/524": {},
       "https://github.com/w3c/pointerevents/pull/527": {},
+      "https://github.com/w3c/pointerevents/pull/531": {},
+      "https://github.com/w3c/pointerevents/pull/532": {},
+      "https://github.com/w3c/pointerevents/pull/533": {},
+      "https://github.com/w3c/pointerevents/pull/537": {},
+      "https://github.com/w3c/pointerevents/pull/558": {},
       "https://html.spec.whatwg.org/multipage/": {
         "anchors": [
           "drag-and-drop-processing-model"
         ]
       },
+      "https://infra.spec.whatwg.org/": {},
       "https://tc39.es/ecma262/multipage/": {
         "anchors": [
           "sec-math.round",
@@ -99,44 +105,47 @@
       },
       "https://w3c.github.io/touch-events/": {},
       "https://webidl.spec.whatwg.org/": {},
-      "https://www.rfc-editor.org/rfc/rfc2119": {},
-      "https://www.rfc-editor.org/rfc/rfc8174": {},
+      "https://www.rfc-editor.org/info/bcp14": {},
+      "https://www.rfc-editor.org/info/rfc2119/": {},
+      "https://www.rfc-editor.org/info/rfc8174/": {},
       "https://www.w3.org/TR/": {},
-      "https://www.w3.org/TR/CSS21/": {},
-      "https://www.w3.org/TR/WCAG/": {
+      "https://www.w3.org/TR/CSS2/": {},
+      "https://www.w3.org/TR/WCAG22/": {
         "anchors": [
           "keyboard-accessible"
         ]
       },
-      "https://www.w3.org/TR/WCAG22/": {},
       "https://www.w3.org/TR/css-overflow-3/": {},
       "https://www.w3.org/TR/cssom-view-1/": {},
-      "https://www.w3.org/TR/pointerevents/": {},
       "https://www.w3.org/TR/pointerevents2/": {},
-      "https://www.w3.org/TR/pointerlock/": {},
+      "https://www.w3.org/TR/pointerevents4/": {
+        "anchors": [
+          "mouse-event-order",
+          "dom-mouseevent-relatedtarget",
+          "click",
+          "auxclick",
+          "contextmenu",
+          "interface-mouseevent"
+        ]
+      },
+      "https://www.w3.org/TR/pointerlock-2/": {},
       "https://www.w3.org/TR/touch-events/": {
         "anchors": [
           "mouse-events"
         ]
       },
-      "https://www.w3.org/TR/uievents/": {
-        "anchors": [
-          "events-mouseevent-event-order",
-          "event-type-click",
-          "event-type-auxclick",
-          "event-type-contextmenu"
-        ]
-      },
+      "https://www.w3.org/TR/uievents/": {},
       "https://www.w3.org/community/touchevents/": {},
       "https://www.w3.org/groups/wg/pointer-events": {},
       "https://www.w3.org/groups/wg/pointer-events/ipr": {},
       "https://www.w3.org/policies/patent-policy/": {
         "anchors": [
+          "sec-Requirements",
           "def-essential",
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {
+      "https://www.w3.org/policies/process/20250818/": {
         "anchors": [
           "recs-and-notes"
         ]
@@ -152,8 +161,8 @@
           "connected",
           "dom-eventinit-composed",
           "dom-event-cancelable",
-          "dom-event-timestamp",
           "dom-event-istrusted",
+          "dom-event-timestamp",
           "dom-event-bubbles",
           "dom-event-target",
           "callbackdef-eventlistener",
@@ -163,6 +172,12 @@
       "https://html.spec.whatwg.org/multipage/document-sequences.html": {
         "anchors": [
           "top-level-browsing-context"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/indices.html": {
+        "anchors": [
+          "event-focus",
+          "event-blur"
         ]
       },
       "https://html.spec.whatwg.org/multipage/system-state.html": {
@@ -178,6 +193,11 @@
           "globaleventhandlers",
           "eventhandler",
           "event-handler-idl-attributes"
+        ]
+      },
+      "https://infra.spec.whatwg.org/": {
+        "anchors": [
+          "user-agent"
         ]
       },
       "https://webidl.spec.whatwg.org/": {
@@ -202,17 +222,20 @@
           "scroll-container"
         ]
       },
-      "https://www.w3.org/TR/pointerlock/": {
+      "https://www.w3.org/TR/pointerevents4/": {
+        "anchors": [
+          "dom-mouseeventinit",
+          "dom-mouseevent"
+        ]
+      },
+      "https://www.w3.org/TR/pointerlock-2/": {
         "anchors": [
           "dom-documentorshadowroot-pointerlockelement"
         ]
       },
       "https://www.w3.org/TR/uievents/": {
         "anchors": [
-          "dictdef-mouseeventinit",
-          "mouseevent",
-          "dom-uievent-detail",
-          "dom-mouseeventinit-relatedtarget"
+          "dom-uievent-detail"
         ]
       }
     }

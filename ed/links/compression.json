@@ -19,9 +19,15 @@
       "https://www.rfc-editor.org/rfc/rfc1950": {},
       "https://www.rfc-editor.org/rfc/rfc1951": {},
       "https://www.rfc-editor.org/rfc/rfc1952": {},
+      "https://www.rfc-editor.org/rfc/rfc7932": {},
       "https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document": {}
     },
     "autolinks": {
+      "https://infra.spec.whatwg.org/": {
+        "anchors": [
+          "list-iterate"
+        ]
+      },
       "https://streams.spec.whatwg.org/": {
         "anchors": [
           "readablestream",

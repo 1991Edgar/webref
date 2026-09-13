@@ -21,7 +21,8 @@
         "title": "MediaConfiguration",
         "number": "2.1.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mediaconfiguration-video",
@@ -42,7 +43,8 @@
         "title": "MediaConfiguration",
         "number": "2.1.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mediaconfiguration-audio",
@@ -63,7 +65,8 @@
         "title": "MediaConfiguration",
         "number": "2.1.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-mediadecodingconfiguration",
@@ -82,7 +85,8 @@
         "title": "MediaConfiguration",
         "number": "2.1.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mediadecodingconfiguration-type",
@@ -103,7 +107,8 @@
         "title": "MediaConfiguration",
         "number": "2.1.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mediadecodingconfiguration-keysystemconfiguration",
@@ -124,7 +129,8 @@
         "title": "MediaConfiguration",
         "number": "2.1.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-mediaencodingconfiguration",
@@ -143,7 +149,8 @@
         "title": "MediaConfiguration",
         "number": "2.1.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mediaencodingconfiguration-type",
@@ -164,7 +171,8 @@
         "title": "MediaConfiguration",
         "number": "2.1.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "valid-mediaconfiguration",
@@ -183,7 +191,8 @@
         "title": "MediaConfiguration",
         "number": "2.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valid-mediadecodingconfiguration",
@@ -202,7 +211,8 @@
         "title": "MediaConfiguration",
         "number": "2.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "enumdef-mediadecodingtype",
@@ -221,7 +231,8 @@
         "title": "MediaDecodingType",
         "number": "2.1.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mediadecodingtype-file",
@@ -243,7 +254,8 @@
         "title": "MediaDecodingType",
         "number": "2.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mediadecodingtype-media-source",
@@ -265,7 +277,8 @@
         "title": "MediaDecodingType",
         "number": "2.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mediadecodingtype-webrtc",
@@ -287,7 +300,8 @@
         "title": "MediaDecodingType",
         "number": "2.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "enumdef-mediaencodingtype",
@@ -306,7 +320,8 @@
         "title": "MediaEncodingType",
         "number": "2.1.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mediaencodingtype-record",
@@ -328,7 +343,8 @@
         "title": "MediaEncodingType",
         "number": "2.1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mediaencodingtype-webrtc",
@@ -350,64 +366,8 @@
         "title": "MediaEncodingType",
         "number": "2.1.3"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "valid-media-mime-type",
-      "href": "https://www.w3.org/TR/media-capabilities/#valid-media-mime-type",
-      "linkingText": [
-        "valid media MIME type"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "mime-type",
-        "href": "https://www.w3.org/TR/media-capabilities/#mime-type",
-        "title": "MIME types",
-        "number": "2.1.4"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "valid-audio-mime-type",
-      "href": "https://www.w3.org/TR/media-capabilities/#valid-audio-mime-type",
-      "linkingText": [
-        "valid audio MIME type"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "mime-type",
-        "href": "https://www.w3.org/TR/media-capabilities/#mime-type",
-        "title": "MIME types",
-        "number": "2.1.4"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "valid-video-mime-type",
-      "href": "https://www.w3.org/TR/media-capabilities/#valid-video-mime-type",
-      "linkingText": [
-        "valid video MIME type"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "mime-type",
-        "href": "https://www.w3.org/TR/media-capabilities/#mime-type",
-        "title": "MIME types",
-        "number": "2.1.4"
-      },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dictdef-videoconfiguration",
@@ -424,9 +384,10 @@
         "id": "videoconfiguration",
         "href": "https://www.w3.org/TR/media-capabilities/#videoconfiguration",
         "title": "VideoConfiguration",
-        "number": "2.1.5"
+        "number": "2.1.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-videoconfiguration-contenttype",
@@ -445,9 +406,10 @@
         "id": "videoconfiguration",
         "href": "https://www.w3.org/TR/media-capabilities/#videoconfiguration",
         "title": "VideoConfiguration",
-        "number": "2.1.5"
+        "number": "2.1.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valid-video-configuration",
@@ -464,9 +426,10 @@
         "id": "videoconfiguration",
         "href": "https://www.w3.org/TR/media-capabilities/#videoconfiguration",
         "title": "VideoConfiguration",
-        "number": "2.1.5"
+        "number": "2.1.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-videoconfiguration-width",
@@ -485,9 +448,10 @@
         "id": "videoconfiguration",
         "href": "https://www.w3.org/TR/media-capabilities/#videoconfiguration",
         "title": "VideoConfiguration",
-        "number": "2.1.5"
+        "number": "2.1.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-videoconfiguration-height",
@@ -506,9 +470,10 @@
         "id": "videoconfiguration",
         "href": "https://www.w3.org/TR/media-capabilities/#videoconfiguration",
         "title": "VideoConfiguration",
-        "number": "2.1.5"
+        "number": "2.1.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-videoconfiguration-bitrate",
@@ -527,9 +492,10 @@
         "id": "videoconfiguration",
         "href": "https://www.w3.org/TR/media-capabilities/#videoconfiguration",
         "title": "VideoConfiguration",
-        "number": "2.1.5"
+        "number": "2.1.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-videoconfiguration-framerate",
@@ -548,9 +514,10 @@
         "id": "videoconfiguration",
         "href": "https://www.w3.org/TR/media-capabilities/#videoconfiguration",
         "title": "VideoConfiguration",
-        "number": "2.1.5"
+        "number": "2.1.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-videoconfiguration-hasalphachannel",
@@ -569,9 +536,10 @@
         "id": "videoconfiguration",
         "href": "https://www.w3.org/TR/media-capabilities/#videoconfiguration",
         "title": "VideoConfiguration",
-        "number": "2.1.5"
+        "number": "2.1.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-videoconfiguration-hdrmetadatatype",
@@ -590,9 +558,10 @@
         "id": "videoconfiguration",
         "href": "https://www.w3.org/TR/media-capabilities/#videoconfiguration",
         "title": "VideoConfiguration",
-        "number": "2.1.5"
+        "number": "2.1.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-videoconfiguration-colorgamut",
@@ -611,9 +580,10 @@
         "id": "videoconfiguration",
         "href": "https://www.w3.org/TR/media-capabilities/#videoconfiguration",
         "title": "VideoConfiguration",
-        "number": "2.1.5"
+        "number": "2.1.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-videoconfiguration-transferfunction",
@@ -632,9 +602,10 @@
         "id": "videoconfiguration",
         "href": "https://www.w3.org/TR/media-capabilities/#videoconfiguration",
         "title": "VideoConfiguration",
-        "number": "2.1.5"
+        "number": "2.1.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-videoconfiguration-scalabilitymode",
@@ -653,9 +624,10 @@
         "id": "videoconfiguration",
         "href": "https://www.w3.org/TR/media-capabilities/#videoconfiguration",
         "title": "VideoConfiguration",
-        "number": "2.1.5"
+        "number": "2.1.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-videoconfiguration-spatialscalability",
@@ -674,9 +646,10 @@
         "id": "videoconfiguration",
         "href": "https://www.w3.org/TR/media-capabilities/#videoconfiguration",
         "title": "VideoConfiguration",
-        "number": "2.1.5"
+        "number": "2.1.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "enumdef-hdrmetadatatype",
@@ -693,9 +666,10 @@
         "id": "hdrmetadatatype",
         "href": "https://www.w3.org/TR/media-capabilities/#hdrmetadatatype",
         "title": "HdrMetadataType",
-        "number": "2.1.6"
+        "number": "2.1.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-hdrmetadatatype-smptest2086",
@@ -715,9 +689,10 @@
         "id": "hdrmetadatatype",
         "href": "https://www.w3.org/TR/media-capabilities/#hdrmetadatatype",
         "title": "HdrMetadataType",
-        "number": "2.1.6"
+        "number": "2.1.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-hdrmetadatatype-smptest2094-10",
@@ -737,9 +712,10 @@
         "id": "hdrmetadatatype",
         "href": "https://www.w3.org/TR/media-capabilities/#hdrmetadatatype",
         "title": "HdrMetadataType",
-        "number": "2.1.6"
+        "number": "2.1.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-hdrmetadatatype-smptest2094-40",
@@ -759,9 +735,10 @@
         "id": "hdrmetadatatype",
         "href": "https://www.w3.org/TR/media-capabilities/#hdrmetadatatype",
         "title": "HdrMetadataType",
-        "number": "2.1.6"
+        "number": "2.1.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "enumdef-colorgamut",
@@ -778,9 +755,10 @@
         "id": "colorgamut",
         "href": "https://www.w3.org/TR/media-capabilities/#colorgamut",
         "title": "ColorGamut",
-        "number": "2.1.7"
+        "number": "2.1.6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-colorgamut-srgb",
@@ -800,9 +778,10 @@
         "id": "colorgamut",
         "href": "https://www.w3.org/TR/media-capabilities/#colorgamut",
         "title": "ColorGamut",
-        "number": "2.1.7"
+        "number": "2.1.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-colorgamut-p3",
@@ -822,9 +801,10 @@
         "id": "colorgamut",
         "href": "https://www.w3.org/TR/media-capabilities/#colorgamut",
         "title": "ColorGamut",
-        "number": "2.1.7"
+        "number": "2.1.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-colorgamut-rec2020",
@@ -844,9 +824,10 @@
         "id": "colorgamut",
         "href": "https://www.w3.org/TR/media-capabilities/#colorgamut",
         "title": "ColorGamut",
-        "number": "2.1.7"
+        "number": "2.1.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "enumdef-transferfunction",
@@ -863,9 +844,10 @@
         "id": "transferfunction",
         "href": "https://www.w3.org/TR/media-capabilities/#transferfunction",
         "title": "TransferFunction",
-        "number": "2.1.8"
+        "number": "2.1.7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-transferfunction-srgb",
@@ -885,9 +867,10 @@
         "id": "transferfunction",
         "href": "https://www.w3.org/TR/media-capabilities/#transferfunction",
         "title": "TransferFunction",
-        "number": "2.1.8"
+        "number": "2.1.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-transferfunction-pq",
@@ -907,9 +890,10 @@
         "id": "transferfunction",
         "href": "https://www.w3.org/TR/media-capabilities/#transferfunction",
         "title": "TransferFunction",
-        "number": "2.1.8"
+        "number": "2.1.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-transferfunction-hlg",
@@ -929,9 +913,10 @@
         "id": "transferfunction",
         "href": "https://www.w3.org/TR/media-capabilities/#transferfunction",
         "title": "TransferFunction",
-        "number": "2.1.8"
+        "number": "2.1.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dictdef-audioconfiguration",
@@ -948,9 +933,10 @@
         "id": "audioconfiguration",
         "href": "https://www.w3.org/TR/media-capabilities/#audioconfiguration",
         "title": "AudioConfiguration",
-        "number": "2.1.9"
+        "number": "2.1.8"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-audioconfiguration-contenttype",
@@ -969,9 +955,10 @@
         "id": "audioconfiguration",
         "href": "https://www.w3.org/TR/media-capabilities/#audioconfiguration",
         "title": "AudioConfiguration",
-        "number": "2.1.9"
+        "number": "2.1.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valid-audio-configuration",
@@ -988,9 +975,10 @@
         "id": "audioconfiguration",
         "href": "https://www.w3.org/TR/media-capabilities/#audioconfiguration",
         "title": "AudioConfiguration",
-        "number": "2.1.9"
+        "number": "2.1.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-audioconfiguration-channels",
@@ -1009,9 +997,10 @@
         "id": "audioconfiguration",
         "href": "https://www.w3.org/TR/media-capabilities/#audioconfiguration",
         "title": "AudioConfiguration",
-        "number": "2.1.9"
+        "number": "2.1.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-audioconfiguration-bitrate",
@@ -1030,9 +1019,10 @@
         "id": "audioconfiguration",
         "href": "https://www.w3.org/TR/media-capabilities/#audioconfiguration",
         "title": "AudioConfiguration",
-        "number": "2.1.9"
+        "number": "2.1.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-audioconfiguration-samplerate",
@@ -1051,9 +1041,10 @@
         "id": "audioconfiguration",
         "href": "https://www.w3.org/TR/media-capabilities/#audioconfiguration",
         "title": "AudioConfiguration",
-        "number": "2.1.9"
+        "number": "2.1.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-audioconfiguration-spatialrendering",
@@ -1072,9 +1063,10 @@
         "id": "audioconfiguration",
         "href": "https://www.w3.org/TR/media-capabilities/#audioconfiguration",
         "title": "AudioConfiguration",
-        "number": "2.1.9"
+        "number": "2.1.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dictdef-mediacapabilitieskeysystemconfiguration",
@@ -1091,9 +1083,10 @@
         "id": "mediacapabilitieskeysystemconfiguration",
         "href": "https://www.w3.org/TR/media-capabilities/#mediacapabilitieskeysystemconfiguration",
         "title": "MediaCapabilitiesKeySystemConfiguration",
-        "number": "2.1.10"
+        "number": "2.1.9"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mediacapabilitieskeysystemconfiguration-keysystem",
@@ -1112,9 +1105,10 @@
         "id": "mediacapabilitieskeysystemconfiguration",
         "href": "https://www.w3.org/TR/media-capabilities/#mediacapabilitieskeysystemconfiguration",
         "title": "MediaCapabilitiesKeySystemConfiguration",
-        "number": "2.1.10"
+        "number": "2.1.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mediacapabilitieskeysystemconfiguration-initdatatype",
@@ -1133,9 +1127,10 @@
         "id": "mediacapabilitieskeysystemconfiguration",
         "href": "https://www.w3.org/TR/media-capabilities/#mediacapabilitieskeysystemconfiguration",
         "title": "MediaCapabilitiesKeySystemConfiguration",
-        "number": "2.1.10"
+        "number": "2.1.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mediacapabilitieskeysystemconfiguration-distinctiveidentifier",
@@ -1154,9 +1149,10 @@
         "id": "mediacapabilitieskeysystemconfiguration",
         "href": "https://www.w3.org/TR/media-capabilities/#mediacapabilitieskeysystemconfiguration",
         "title": "MediaCapabilitiesKeySystemConfiguration",
-        "number": "2.1.10"
+        "number": "2.1.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mediacapabilitieskeysystemconfiguration-persistentstate",
@@ -1175,9 +1171,10 @@
         "id": "mediacapabilitieskeysystemconfiguration",
         "href": "https://www.w3.org/TR/media-capabilities/#mediacapabilitieskeysystemconfiguration",
         "title": "MediaCapabilitiesKeySystemConfiguration",
-        "number": "2.1.10"
+        "number": "2.1.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mediacapabilitieskeysystemconfiguration-sessiontypes",
@@ -1196,9 +1193,10 @@
         "id": "mediacapabilitieskeysystemconfiguration",
         "href": "https://www.w3.org/TR/media-capabilities/#mediacapabilitieskeysystemconfiguration",
         "title": "MediaCapabilitiesKeySystemConfiguration",
-        "number": "2.1.10"
+        "number": "2.1.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mediacapabilitieskeysystemconfiguration-audio",
@@ -1217,9 +1215,10 @@
         "id": "mediacapabilitieskeysystemconfiguration",
         "href": "https://www.w3.org/TR/media-capabilities/#mediacapabilitieskeysystemconfiguration",
         "title": "MediaCapabilitiesKeySystemConfiguration",
-        "number": "2.1.10"
+        "number": "2.1.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mediacapabilitieskeysystemconfiguration-video",
@@ -1238,9 +1237,10 @@
         "id": "mediacapabilitieskeysystemconfiguration",
         "href": "https://www.w3.org/TR/media-capabilities/#mediacapabilitieskeysystemconfiguration",
         "title": "MediaCapabilitiesKeySystemConfiguration",
-        "number": "2.1.10"
+        "number": "2.1.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dictdef-keysystemtrackconfiguration",
@@ -1257,9 +1257,10 @@
         "id": "keysystemtrackconfiguration",
         "href": "https://www.w3.org/TR/media-capabilities/#keysystemtrackconfiguration",
         "title": "KeySystemTrackConfiguration",
-        "number": "2.1.11"
+        "number": "2.1.10"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-keysystemtrackconfiguration-robustness",
@@ -1278,9 +1279,10 @@
         "id": "keysystemtrackconfiguration",
         "href": "https://www.w3.org/TR/media-capabilities/#keysystemtrackconfiguration",
         "title": "KeySystemTrackConfiguration",
-        "number": "2.1.11"
+        "number": "2.1.10"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-keysystemtrackconfiguration-encryptionscheme",
@@ -1299,9 +1301,10 @@
         "id": "keysystemtrackconfiguration",
         "href": "https://www.w3.org/TR/media-capabilities/#keysystemtrackconfiguration",
         "title": "KeySystemTrackConfiguration",
-        "number": "2.1.11"
+        "number": "2.1.10"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dictdef-mediacapabilitiesinfo",
@@ -1320,7 +1323,8 @@
         "title": "Media Capabilities Information",
         "number": "2.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-mediacapabilitiesdecodinginfo",
@@ -1339,7 +1343,8 @@
         "title": "Media Capabilities Information",
         "number": "2.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-mediacapabilitiesencodinginfo",
@@ -1358,7 +1363,8 @@
         "title": "Media Capabilities Information",
         "number": "2.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mediacapabilitiesinfo-supported",
@@ -1379,7 +1385,8 @@
         "title": "Media Capabilities Information",
         "number": "2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mediacapabilitiesinfo-smooth",
@@ -1400,7 +1407,8 @@
         "title": "Media Capabilities Information",
         "number": "2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mediacapabilitiesinfo-powerefficient",
@@ -1421,7 +1429,8 @@
         "title": "Media Capabilities Information",
         "number": "2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "power-efficient",
@@ -1440,7 +1449,8 @@
         "title": "Media Capabilities Information",
         "number": "2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mediacapabilitiesdecodinginfo-keysystemaccess",
@@ -1461,7 +1471,8 @@
         "title": "Media Capabilities Information",
         "number": "2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mediacapabilitiesdecodinginfo-configuration",
@@ -1482,7 +1493,8 @@
         "title": "Media Capabilities Information",
         "number": "2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mediacapabilitiesencodinginfo-configuration",
@@ -1503,16 +1515,18 @@
         "title": "Media Capabilities Information",
         "number": "2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "create-a-mediacapabilitiesencodinginfo",
-      "href": "https://www.w3.org/TR/media-capabilities/#create-a-mediacapabilitiesencodinginfo",
+      "id": "abstract-opdef-create-a-mediacapabilitiesencodinginfo",
+      "href": "https://www.w3.org/TR/media-capabilities/#abstract-opdef-create-a-mediacapabilitiesencodinginfo",
       "linkingText": [
-        "Create a MediaCapabilitiesEncodingInfo"
+        "Create a MediaCapabilitiesEncodingInfo",
+        "create a MediaCapabilitiesEncodingInfo"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
       "access": "private",
       "informative": false,
@@ -1522,16 +1536,18 @@
         "title": "Create a MediaCapabilitiesEncodingInfo",
         "number": "2.3.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
-      "id": "create-a-mediacapabilitiesdecodinginfo",
-      "href": "https://www.w3.org/TR/media-capabilities/#create-a-mediacapabilitiesdecodinginfo",
+      "id": "abstract-opdef-create-a-mediacapabilitiesdecodinginfo",
+      "href": "https://www.w3.org/TR/media-capabilities/#abstract-opdef-create-a-mediacapabilitiesdecodinginfo",
       "linkingText": [
-        "Create a MediaCapabilitiesDecodingInfo"
+        "Create a MediaCapabilitiesDecodingInfo",
+        "create a MediaCapabilitiesDecodingInfo"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
       "for": [],
       "access": "private",
       "informative": false,
@@ -1541,16 +1557,60 @@
         "title": "Create a MediaCapabilitiesDecodingInfo",
         "number": "2.3.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
-      "id": "check-encrypted-decoding-support",
-      "href": "https://www.w3.org/TR/media-capabilities/#check-encrypted-decoding-support",
+      "id": "abstract-opdef-check-mime-type-validity",
+      "href": "https://www.w3.org/TR/media-capabilities/#abstract-opdef-check-mime-type-validity",
       "linkingText": [
-        "Check Encrypted Decoding Support"
+        "Check MIME Type Validity",
+        "check MIME type validity"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "abstract-op",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "check-mime-type-validity",
+        "href": "https://www.w3.org/TR/media-capabilities/#check-mime-type-validity",
+        "title": "Check MIME Type Validity",
+        "number": "2.3.3"
+      },
+      "definedIn": "heading",
+      "links": []
+    },
+    {
+      "id": "abstract-opdef-check-mime-type-support",
+      "href": "https://www.w3.org/TR/media-capabilities/#abstract-opdef-check-mime-type-support",
+      "linkingText": [
+        "Check MIME Type Support",
+        "check MIME type support"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "check-mime-type-support",
+        "href": "https://www.w3.org/TR/media-capabilities/#check-mime-type-support",
+        "title": "Check MIME Type Support",
+        "number": "2.3.4"
+      },
+      "definedIn": "heading",
+      "links": []
+    },
+    {
+      "id": "abstract-opdef-check-encrypted-decoding-support",
+      "href": "https://www.w3.org/TR/media-capabilities/#abstract-opdef-check-encrypted-decoding-support",
+      "linkingText": [
+        "Check Encrypted Decoding Support",
+        "check encrypted decoding support"
+      ],
+      "localLinkingText": [],
+      "type": "abstract-op",
       "for": [],
       "access": "private",
       "informative": false,
@@ -1558,9 +1618,10 @@
         "id": "is-encrypted-decode-supported",
         "href": "https://www.w3.org/TR/media-capabilities/#is-encrypted-decode-supported",
         "title": "Check Encrypted Decoding Support",
-        "number": "2.3.3"
+        "number": "2.3.5"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-navigator-mediacapabilities",
@@ -1581,7 +1642,8 @@
         "title": "Navigator and WorkerNavigator extension",
         "number": "2.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-workernavigator-mediacapabilities",
@@ -1602,7 +1664,8 @@
         "title": "Navigator and WorkerNavigator extension",
         "number": "2.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "mediacapabilities",
@@ -1621,7 +1684,8 @@
         "title": "Media Capabilities Interface",
         "number": "2.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mediacapabilities-decodinginfo",
@@ -1642,7 +1706,8 @@
         "title": "Media Capabilities Interface",
         "number": "2.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mediacapabilities-decodinginfo-configuration-configuration",
@@ -1663,7 +1728,8 @@
         "title": "Media Capabilities Interface",
         "number": "2.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mediacapabilities-encodinginfo",
@@ -1684,7 +1750,8 @@
         "title": "Media Capabilities Interface",
         "number": "2.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mediacapabilities-encodinginfo-configuration-configuration",
@@ -1705,7 +1772,8 @@
         "title": "Media Capabilities Interface",
         "number": "2.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "media-capabilities-task-source",
@@ -1724,7 +1792,8 @@
         "title": "Media Capabilities Task Source",
         "number": "2.5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "queue-a-media-capabilities-task",
@@ -1743,7 +1812,8 @@
         "title": "Media Capabilities Task Source",
         "number": "2.5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

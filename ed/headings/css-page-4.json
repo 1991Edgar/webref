@@ -26,7 +26,10 @@
       "id": "toc",
       "href": "https://drafts.csswg.org/css-page-4/#toc",
       "level": 2,
-      "title": "Table of Contents"
+      "title": "Table of Contents",
+      "alternateIds": [
+        "contents"
+      ]
     },
     {
       "id": "css-page-model",
@@ -34,6 +37,18 @@
       "level": 2,
       "title": "The CSS 3 Page Model",
       "number": "1"
+    },
+    {
+      "id": "privacy",
+      "href": "https://drafts.csswg.org/css-page-4/#privacy",
+      "level": 2,
+      "title": "Privacy Considerations"
+    },
+    {
+      "id": "security",
+      "href": "https://drafts.csswg.org/css-page-4/#security",
+      "level": 2,
+      "title": "Security Considerations"
     },
     {
       "id": "w3c-conformance",

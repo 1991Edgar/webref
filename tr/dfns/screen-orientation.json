@@ -8,9 +8,7 @@
       "id": "dfn-lock-the-screen-orientation",
       "href": "https://www.w3.org/TR/screen-orientation/#dfn-lock-the-screen-orientation",
       "linkingText": [
-        "lock the screen orientation",
-        "locking the screen orientation",
-        "locked"
+        "lock the screen orientation"
       ],
       "localLinkingText": [
         "locking the screen orientation",
@@ -24,17 +22,19 @@
         "id": "concepts",
         "href": "https://www.w3.org/TR/screen-orientation/#concepts",
         "title": "Concepts",
+        "alternateIds": [
+          "x2-concepts"
+        ],
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-unlock-the-screen-orientation",
       "href": "https://www.w3.org/TR/screen-orientation/#dfn-unlock-the-screen-orientation",
       "linkingText": [
-        "unlock the screen orientation",
-        "unlocking the screen orientation",
-        "unlocked"
+        "unlock the screen orientation"
       ],
       "localLinkingText": [
         "unlocking the screen orientation",
@@ -48,9 +48,13 @@
         "id": "concepts",
         "href": "https://www.w3.org/TR/screen-orientation/#concepts",
         "title": "Concepts",
+        "alternateIds": [
+          "x2-concepts"
+        ],
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-screen-orientations",
@@ -67,9 +71,13 @@
         "id": "screen-orientation-types",
         "href": "https://www.w3.org/TR/screen-orientation/#screen-orientation-types",
         "title": "Screen orientation types",
+        "alternateIds": [
+          "x2-1-screen-orientation-types"
+        ],
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-any",
@@ -86,9 +94,13 @@
         "id": "screen-orientation-types",
         "href": "https://www.w3.org/TR/screen-orientation/#screen-orientation-types",
         "title": "Screen orientation types",
+        "alternateIds": [
+          "x2-1-screen-orientation-types"
+        ],
         "number": "2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-default-screen-orientation",
@@ -106,9 +118,13 @@
         "id": "screen-orientation-types",
         "href": "https://www.w3.org/TR/screen-orientation/#screen-orientation-types",
         "title": "Screen orientation types",
+        "alternateIds": [
+          "x2-1-screen-orientation-types"
+        ],
         "number": "2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-landscape",
@@ -125,9 +141,13 @@
         "id": "screen-orientation-types",
         "href": "https://www.w3.org/TR/screen-orientation/#screen-orientation-types",
         "title": "Screen orientation types",
+        "alternateIds": [
+          "x2-1-screen-orientation-types"
+        ],
         "number": "2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-natural",
@@ -144,9 +164,13 @@
         "id": "screen-orientation-types",
         "href": "https://www.w3.org/TR/screen-orientation/#screen-orientation-types",
         "title": "Screen orientation types",
+        "alternateIds": [
+          "x2-1-screen-orientation-types"
+        ],
         "number": "2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-portrait",
@@ -163,17 +187,19 @@
         "id": "screen-orientation-types",
         "href": "https://www.w3.org/TR/screen-orientation/#screen-orientation-types",
         "title": "Screen orientation types",
+        "alternateIds": [
+          "x2-1-screen-orientation-types"
+        ],
         "number": "2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-primary",
       "href": "https://www.w3.org/TR/screen-orientation/#dfn-primary",
       "linkingText": [
-        "Primary",
-        "landscape-primary",
-        "portrait-primary"
+        "Primary"
       ],
       "localLinkingText": [
         "landscape-primary",
@@ -187,17 +213,19 @@
         "id": "screen-orientation-types",
         "href": "https://www.w3.org/TR/screen-orientation/#screen-orientation-types",
         "title": "Screen orientation types",
+        "alternateIds": [
+          "x2-1-screen-orientation-types"
+        ],
         "number": "2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-secondary",
       "href": "https://www.w3.org/TR/screen-orientation/#dfn-secondary",
       "linkingText": [
-        "Secondary",
-        "landscape-secondary",
-        "portrait-secondary"
+        "Secondary"
       ],
       "localLinkingText": [
         "landscape-secondary",
@@ -211,9 +239,13 @@
         "id": "screen-orientation-types",
         "href": "https://www.w3.org/TR/screen-orientation/#screen-orientation-types",
         "title": "Screen orientation types",
+        "alternateIds": [
+          "x2-1-screen-orientation-types"
+        ],
         "number": "2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-active-orientation-lock",
@@ -232,9 +264,13 @@
         "id": "the-current-screen-orientation-type-and-angle",
         "href": "https://www.w3.org/TR/screen-orientation/#the-current-screen-orientation-type-and-angle",
         "title": "The current screen orientation type and angle",
+        "alternateIds": [
+          "x2-2-the-current-screen-orientation-type-and-angle"
+        ],
         "number": "2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-current-orientation-angle",
@@ -253,9 +289,13 @@
         "id": "the-current-screen-orientation-type-and-angle",
         "href": "https://www.w3.org/TR/screen-orientation/#the-current-screen-orientation-type-and-angle",
         "title": "The current screen orientation type and angle",
+        "alternateIds": [
+          "x2-2-the-current-screen-orientation-type-and-angle"
+        ],
         "number": "2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-current-orientation-type",
@@ -274,9 +314,13 @@
         "id": "the-current-screen-orientation-type-and-angle",
         "href": "https://www.w3.org/TR/screen-orientation/#the-current-screen-orientation-type-and-angle",
         "title": "The current screen orientation type and angle",
+        "alternateIds": [
+          "x2-2-the-current-screen-orientation-type-and-angle"
+        ],
         "number": "2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-screen-orientation-values-lists",
@@ -293,9 +337,13 @@
         "id": "the-current-screen-orientation-type-and-angle",
         "href": "https://www.w3.org/TR/screen-orientation/#the-current-screen-orientation-type-and-angle",
         "title": "The current screen orientation type and angle",
+        "alternateIds": [
+          "x2-2-the-current-screen-orientation-type-and-angle"
+        ],
         "number": "2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-orientationpendingpromise",
@@ -314,9 +362,13 @@
         "id": "internal-slots",
         "href": "https://www.w3.org/TR/screen-orientation/#internal-slots",
         "title": "Internal Slots",
+        "alternateIds": [
+          "x3-1-internal-slots"
+        ],
         "number": "3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-screen-orientation",
@@ -337,9 +389,13 @@
         "id": "extensions-to-the-screen-interface",
         "href": "https://www.w3.org/TR/screen-orientation/#extensions-to-the-screen-interface",
         "title": "Extensions to the Screen interface",
+        "alternateIds": [
+          "x4-extensions-to-the-screen-interface"
+        ],
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dfn-associated-screenorientation",
@@ -356,9 +412,13 @@
         "id": "extensions-to-the-screen-interface",
         "href": "https://www.w3.org/TR/screen-orientation/#extensions-to-the-screen-interface",
         "title": "Extensions to the Screen interface",
+        "alternateIds": [
+          "x4-extensions-to-the-screen-interface"
+        ],
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-screenorientation",
@@ -375,9 +435,13 @@
         "id": "screenorientation-interface",
         "href": "https://www.w3.org/TR/screen-orientation/#screenorientation-interface",
         "title": "ScreenOrientation interface",
+        "alternateIds": [
+          "x5-screenorientation-interface"
+        ],
         "number": "5"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-screenorientation-lock",
@@ -401,9 +465,13 @@
         "id": "screenorientation-interface",
         "href": "https://www.w3.org/TR/screen-orientation/#screenorientation-interface",
         "title": "ScreenOrientation interface",
+        "alternateIds": [
+          "x5-screenorientation-interface"
+        ],
         "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-screenorientation-unlock",
@@ -426,9 +494,13 @@
         "id": "screenorientation-interface",
         "href": "https://www.w3.org/TR/screen-orientation/#screenorientation-interface",
         "title": "ScreenOrientation interface",
+        "alternateIds": [
+          "x5-screenorientation-interface"
+        ],
         "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-screenorientation-type",
@@ -449,9 +521,13 @@
         "id": "screenorientation-interface",
         "href": "https://www.w3.org/TR/screen-orientation/#screenorientation-interface",
         "title": "ScreenOrientation interface",
+        "alternateIds": [
+          "x5-screenorientation-interface"
+        ],
         "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-screenorientation-angle",
@@ -472,9 +548,13 @@
         "id": "screenorientation-interface",
         "href": "https://www.w3.org/TR/screen-orientation/#screenorientation-interface",
         "title": "ScreenOrientation interface",
+        "alternateIds": [
+          "x5-screenorientation-interface"
+        ],
         "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-screenorientation-onchange",
@@ -495,9 +575,13 @@
         "id": "screenorientation-interface",
         "href": "https://www.w3.org/TR/screen-orientation/#screenorientation-interface",
         "title": "ScreenOrientation interface",
+        "alternateIds": [
+          "x5-screenorientation-interface"
+        ],
         "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dfn-angle",
@@ -516,9 +600,13 @@
         "id": "internal-slots-0",
         "href": "https://www.w3.org/TR/screen-orientation/#internal-slots-0",
         "title": "Internal Slots",
+        "alternateIds": [
+          "x5-1-internal-slots"
+        ],
         "number": "5.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-initialtype",
@@ -537,9 +625,13 @@
         "id": "internal-slots-0",
         "href": "https://www.w3.org/TR/screen-orientation/#internal-slots-0",
         "title": "Internal Slots",
+        "alternateIds": [
+          "x5-1-internal-slots"
+        ],
         "number": "5.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-type",
@@ -558,9 +650,13 @@
         "id": "internal-slots-0",
         "href": "https://www.w3.org/TR/screen-orientation/#internal-slots-0",
         "title": "Internal Slots",
+        "alternateIds": [
+          "x5-1-internal-slots"
+        ],
         "number": "5.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-pre-lock-conditions",
@@ -577,9 +673,13 @@
         "id": "lock-method",
         "href": "https://www.w3.org/TR/screen-orientation/#lock-method",
         "title": "lock() method",
+        "alternateIds": [
+          "x5-2-lock-method"
+        ],
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-common-safety-checks",
@@ -596,9 +696,13 @@
         "id": "common-safety-checks",
         "href": "https://www.w3.org/TR/screen-orientation/#common-safety-checks",
         "title": "Common Safety Checks",
+        "alternateIds": [
+          "x5-4-common-safety-checks"
+        ],
         "number": "5.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-change",
@@ -617,9 +721,13 @@
         "id": "screenorientation-interface",
         "href": "https://www.w3.org/TR/screen-orientation/#screenorientation-interface",
         "title": "ScreenOrientation interface",
+        "alternateIds": [
+          "x5-screenorientation-interface"
+        ],
         "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-orientationlocktype",
@@ -636,9 +744,13 @@
         "id": "orientationlocktype-enum",
         "href": "https://www.w3.org/TR/screen-orientation/#orientationlocktype-enum",
         "title": "OrientationLockType enum",
+        "alternateIds": [
+          "x6-orientationlocktype-enum"
+        ],
         "number": "6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-orientationlocktype-any",
@@ -657,9 +769,13 @@
         "id": "orientationlocktype-enum",
         "href": "https://www.w3.org/TR/screen-orientation/#orientationlocktype-enum",
         "title": "OrientationLockType enum",
+        "alternateIds": [
+          "x6-orientationlocktype-enum"
+        ],
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-orientationlocktype-natural",
@@ -678,9 +794,13 @@
         "id": "orientationlocktype-enum",
         "href": "https://www.w3.org/TR/screen-orientation/#orientationlocktype-enum",
         "title": "OrientationLockType enum",
+        "alternateIds": [
+          "x6-orientationlocktype-enum"
+        ],
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-orientationlocktype-landscape",
@@ -699,9 +819,13 @@
         "id": "orientationlocktype-enum",
         "href": "https://www.w3.org/TR/screen-orientation/#orientationlocktype-enum",
         "title": "OrientationLockType enum",
+        "alternateIds": [
+          "x6-orientationlocktype-enum"
+        ],
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-orientationlocktype-portrait",
@@ -720,9 +844,13 @@
         "id": "orientationlocktype-enum",
         "href": "https://www.w3.org/TR/screen-orientation/#orientationlocktype-enum",
         "title": "OrientationLockType enum",
+        "alternateIds": [
+          "x6-orientationlocktype-enum"
+        ],
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-orientationlocktype-portrait-primary",
@@ -741,9 +869,13 @@
         "id": "orientationlocktype-enum",
         "href": "https://www.w3.org/TR/screen-orientation/#orientationlocktype-enum",
         "title": "OrientationLockType enum",
+        "alternateIds": [
+          "x6-orientationlocktype-enum"
+        ],
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-orientationlocktype-portrait-secondary",
@@ -762,9 +894,13 @@
         "id": "orientationlocktype-enum",
         "href": "https://www.w3.org/TR/screen-orientation/#orientationlocktype-enum",
         "title": "OrientationLockType enum",
+        "alternateIds": [
+          "x6-orientationlocktype-enum"
+        ],
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-orientationlocktype-landscape-primary",
@@ -783,9 +919,13 @@
         "id": "orientationlocktype-enum",
         "href": "https://www.w3.org/TR/screen-orientation/#orientationlocktype-enum",
         "title": "OrientationLockType enum",
+        "alternateIds": [
+          "x6-orientationlocktype-enum"
+        ],
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-orientationlocktype-landscape-secondary",
@@ -804,9 +944,13 @@
         "id": "orientationlocktype-enum",
         "href": "https://www.w3.org/TR/screen-orientation/#orientationlocktype-enum",
         "title": "OrientationLockType enum",
+        "alternateIds": [
+          "x6-orientationlocktype-enum"
+        ],
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-orientationtype",
@@ -823,9 +967,13 @@
         "id": "orientationtype-enum",
         "href": "https://www.w3.org/TR/screen-orientation/#orientationtype-enum",
         "title": "OrientationType enum",
+        "alternateIds": [
+          "x7-orientationtype-enum"
+        ],
         "number": "7"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-orientationtype-portrait-primary",
@@ -844,9 +992,13 @@
         "id": "orientationtype-enum",
         "href": "https://www.w3.org/TR/screen-orientation/#orientationtype-enum",
         "title": "OrientationType enum",
+        "alternateIds": [
+          "x7-orientationtype-enum"
+        ],
         "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-orientationtype-portrait-secondary",
@@ -865,9 +1017,13 @@
         "id": "orientationtype-enum",
         "href": "https://www.w3.org/TR/screen-orientation/#orientationtype-enum",
         "title": "OrientationType enum",
+        "alternateIds": [
+          "x7-orientationtype-enum"
+        ],
         "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-orientationtype-landscape-primary",
@@ -886,9 +1042,13 @@
         "id": "orientationtype-enum",
         "href": "https://www.w3.org/TR/screen-orientation/#orientationtype-enum",
         "title": "OrientationType enum",
+        "alternateIds": [
+          "x7-orientationtype-enum"
+        ],
         "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-orientationtype-landscape-secondary",
@@ -907,9 +1067,13 @@
         "id": "orientationtype-enum",
         "href": "https://www.w3.org/TR/screen-orientation/#orientationtype-enum",
         "title": "OrientationType enum",
+        "alternateIds": [
+          "x7-orientationtype-enum"
+        ],
         "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-reject-and-nullify-the-current-lock-promise",
@@ -926,9 +1090,13 @@
         "id": "rejecting-a-document-s-current-lock-promise",
         "href": "https://www.w3.org/TR/screen-orientation/#rejecting-a-document-s-current-lock-promise",
         "title": "Rejecting a document's current lock promise",
+        "alternateIds": [
+          "x8-2-rejecting-a-document-s-current-lock-promise"
+        ],
         "number": "8.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-apply-orientation-lock",
@@ -945,9 +1113,13 @@
         "id": "applying-an-orientation-lock",
         "href": "https://www.w3.org/TR/screen-orientation/#applying-an-orientation-lock",
         "title": "Applying an orientation lock",
+        "alternateIds": [
+          "x8-3-applying-an-orientation-lock"
+        ],
         "number": "8.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-screen-orientation-change-steps",
@@ -964,9 +1136,13 @@
         "id": "screen-orientation-change",
         "href": "https://www.w3.org/TR/screen-orientation/#screen-orientation-change",
         "title": "Screen orientation change",
+        "alternateIds": [
+          "x8-4-screen-orientation-change"
+        ],
         "number": "8.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-fully-unlock-the-screen-orientation-steps",
@@ -983,9 +1159,13 @@
         "id": "fully-unlocking-the-orientation",
         "href": "https://www.w3.org/TR/screen-orientation/#fully-unlocking-the-orientation",
         "title": "Fully unlocking the orientation",
+        "alternateIds": [
+          "x8-7-fully-unlocking-the-orientation"
+        ],
         "number": "8.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

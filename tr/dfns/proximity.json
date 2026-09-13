@@ -21,7 +21,8 @@
         "title": "Permissions Policy integration",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "proximity-sensor-sensor-type",
@@ -40,7 +41,8 @@
         "title": "Model",
         "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "permissiondef-proximity",
@@ -54,11 +56,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/proximity/#title",
-        "title": "Proximity Sensor"
+        "id": "model",
+        "href": "https://www.w3.org/TR/proximity/#model",
+        "title": "Model",
+        "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "proximity-virtual-sensor-type",
@@ -72,11 +76,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/proximity/#title",
-        "title": "Proximity Sensor"
+        "id": "model",
+        "href": "https://www.w3.org/TR/proximity/#model",
+        "title": "Model",
+        "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "distance",
@@ -90,11 +96,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/proximity/#title",
-        "title": "Proximity Sensor"
+        "id": "model",
+        "href": "https://www.w3.org/TR/proximity/#model",
+        "title": "Model",
+        "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "sensing-range",
@@ -108,11 +116,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/proximity/#title",
-        "title": "Proximity Sensor"
+        "id": "model",
+        "href": "https://www.w3.org/TR/proximity/#model",
+        "title": "Model",
+        "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "max",
@@ -126,11 +136,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/proximity/#title",
-        "title": "Proximity Sensor"
+        "id": "model",
+        "href": "https://www.w3.org/TR/proximity/#model",
+        "title": "Model",
+        "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "near",
@@ -144,11 +156,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/proximity/#title",
-        "title": "Proximity Sensor"
+        "id": "model",
+        "href": "https://www.w3.org/TR/proximity/#model",
+        "title": "Model",
+        "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "proximitysensor",
@@ -167,7 +181,8 @@
         "title": "The ProximitySensor Interface",
         "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-proximitysensor-proximitysensor",
@@ -186,11 +201,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/proximity/#title",
-        "title": "Proximity Sensor"
+        "id": "proximity-sensor-interface",
+        "href": "https://www.w3.org/TR/proximity/#proximity-sensor-interface",
+        "title": "The ProximitySensor Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-proximitysensor-proximitysensor-sensoroptions-sensoroptions",
@@ -209,11 +226,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/proximity/#title",
-        "title": "Proximity Sensor"
+        "id": "proximity-sensor-interface",
+        "href": "https://www.w3.org/TR/proximity/#proximity-sensor-interface",
+        "title": "The ProximitySensor Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-proximitysensor-distance",
@@ -229,11 +248,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/proximity/#title",
-        "title": "Proximity Sensor"
+        "id": "proximity-sensor-interface",
+        "href": "https://www.w3.org/TR/proximity/#proximity-sensor-interface",
+        "title": "The ProximitySensor Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-proximitysensor-max",
@@ -249,11 +270,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/proximity/#title",
-        "title": "Proximity Sensor"
+        "id": "proximity-sensor-interface",
+        "href": "https://www.w3.org/TR/proximity/#proximity-sensor-interface",
+        "title": "The ProximitySensor Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-proximitysensor-near",
@@ -269,11 +292,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/proximity/#title",
-        "title": "Proximity Sensor"
+        "id": "proximity-sensor-interface",
+        "href": "https://www.w3.org/TR/proximity/#proximity-sensor-interface",
+        "title": "The ProximitySensor Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "construct-a-proximity-sensor-object",
@@ -292,7 +317,8 @@
         "title": "Construct a proximity sensor object",
         "number": "7.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "proximity-reading-parsing-algorithm",
@@ -311,7 +337,8 @@
         "title": "Proximity reading parsing algorithm",
         "number": "8.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "conformant-user-agent",
@@ -329,7 +356,8 @@
         "href": "https://www.w3.org/TR/proximity/#conformance",
         "title": "11. Conformance"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

@@ -34,16 +34,12 @@
         "url": "https://html.spec.whatwg.org/multipage/"
       },
       {
-        "name": "infra",
+        "name": "INFRA",
         "url": "https://infra.spec.whatwg.org/"
       },
       {
         "name": "ISO4217",
         "url": "http://www.iso.org/iso/home/standards/currency_codes.htm"
-      },
-      {
-        "name": "payment-handler",
-        "url": "https://www.w3.org/TR/payment-handler/"
       },
       {
         "name": "payment-method-id",
@@ -55,19 +51,23 @@
       },
       {
         "name": "RFC2119",
-        "url": "https://www.rfc-editor.org/rfc/rfc2119"
+        "url": "https://www.rfc-editor.org/info/rfc2119/"
       },
       {
         "name": "RFC4122",
-        "url": "https://www.rfc-editor.org/rfc/rfc4122"
+        "url": "https://www.rfc-editor.org/info/rfc4122/"
       },
       {
         "name": "RFC8174",
-        "url": "https://www.rfc-editor.org/rfc/rfc8174"
+        "url": "https://www.rfc-editor.org/info/rfc8174/"
       },
       {
         "name": "url",
         "url": "https://url.spec.whatwg.org/"
+      },
+      {
+        "name": "web-based-payment-handler",
+        "url": "https://www.w3.org/TR/web-based-payment-handler/"
       },
       {
         "name": "WEBIDL",
@@ -77,7 +77,7 @@
     "informative": [
       {
         "name": "rfc6454",
-        "url": "https://www.rfc-editor.org/rfc/rfc6454"
+        "url": "https://www.rfc-editor.org/info/rfc6454/"
       },
       {
         "name": "secure-contexts",

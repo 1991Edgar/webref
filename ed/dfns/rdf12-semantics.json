@@ -19,9 +19,13 @@
         "id": "extensions",
         "href": "https://w3c.github.io/rdf-semantics/spec/#extensions",
         "title": "Semantic Extensions and Entailment Regimes",
+        "alternateIds": [
+          "x3-semantic-extensions-and-entailment-regimes"
+        ],
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-entailment-regime",
@@ -38,9 +42,13 @@
         "id": "extensions",
         "href": "https://w3c.github.io/rdf-semantics/spec/#extensions",
         "title": "Semantic Extensions and Entailment Regimes",
+        "alternateIds": [
+          "x3-semantic-extensions-and-entailment-regimes"
+        ],
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-monotonic",
@@ -57,9 +65,105 @@
         "id": "extensions",
         "href": "https://w3c.github.io/rdf-semantics/spec/#extensions",
         "title": "Semantic Extensions and Entailment Regimes",
+        "alternateIds": [
+          "x3-semantic-extensions-and-entailment-regimes"
+        ],
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-ground-rdf-graph",
+      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-ground-rdf-graph",
+      "linkingText": [
+        "ground RDF graph"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "notation",
+        "href": "https://w3c.github.io/rdf-semantics/spec/#notation",
+        "title": "Notation and Terminology",
+        "alternateIds": [
+          "x4-notation-and-terminology"
+        ],
+        "number": "4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-ground-rdf-term",
+      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-ground-rdf-term",
+      "linkingText": [
+        "ground RDF term"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "notation",
+        "href": "https://w3c.github.io/rdf-semantics/spec/#notation",
+        "title": "Notation and Terminology",
+        "alternateIds": [
+          "x4-notation-and-terminology"
+        ],
+        "number": "4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-ground-triple-term",
+      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-ground-triple-term",
+      "linkingText": [
+        "ground triple term"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "notation",
+        "href": "https://w3c.github.io/rdf-semantics/spec/#notation",
+        "title": "Notation and Terminology",
+        "alternateIds": [
+          "x4-notation-and-terminology"
+        ],
+        "number": "4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-ground-rdf-triple",
+      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-ground-rdf-triple",
+      "linkingText": [
+        "ground RDF triple"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "notation",
+        "href": "https://w3c.github.io/rdf-semantics/spec/#notation",
+        "title": "Notation and Terminology",
+        "alternateIds": [
+          "x4-notation-and-terminology"
+        ],
+        "number": "4"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-interpretation",
@@ -76,9 +180,13 @@
         "id": "notation",
         "href": "https://w3c.github.io/rdf-semantics/spec/#notation",
         "title": "Notation and Terminology",
+        "alternateIds": [
+          "x4-notation-and-terminology"
+        ],
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-refer-to",
@@ -95,9 +203,13 @@
         "id": "notation",
         "href": "https://w3c.github.io/rdf-semantics/spec/#notation",
         "title": "Notation and Terminology",
+        "alternateIds": [
+          "x4-notation-and-terminology"
+        ],
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-denotation",
@@ -114,16 +226,19 @@
         "id": "notation",
         "href": "https://w3c.github.io/rdf-semantics/spec/#notation",
         "title": "Notation and Terminology",
+        "alternateIds": [
+          "x4-notation-and-terminology"
+        ],
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-identify",
       "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-identify",
       "linkingText": [
-        "identify",
-        "identified"
+        "identify"
       ],
       "localLinkingText": [
         "identified"
@@ -136,9 +251,13 @@
         "id": "notation",
         "href": "https://w3c.github.io/rdf-semantics/spec/#notation",
         "title": "Notation and Terminology",
+        "alternateIds": [
+          "x4-notation-and-terminology"
+        ],
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-name",
@@ -155,9 +274,13 @@
         "id": "notation",
         "href": "https://w3c.github.io/rdf-semantics/spec/#notation",
         "title": "Notation and Terminology",
+        "alternateIds": [
+          "x4-notation-and-terminology"
+        ],
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-vocabulary",
@@ -174,9 +297,13 @@
         "id": "notation",
         "href": "https://w3c.github.io/rdf-semantics/spec/#notation",
         "title": "Notation and Terminology",
+        "alternateIds": [
+          "x4-notation-and-terminology"
+        ],
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-empty-graph",
@@ -193,9 +320,13 @@
         "id": "notation",
         "href": "https://w3c.github.io/rdf-semantics/spec/#notation",
         "title": "Notation and Terminology",
+        "alternateIds": [
+          "x4-notation-and-terminology"
+        ],
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-subgraph",
@@ -212,9 +343,13 @@
         "id": "notation",
         "href": "https://w3c.github.io/rdf-semantics/spec/#notation",
         "title": "Notation and Terminology",
+        "alternateIds": [
+          "x4-notation-and-terminology"
+        ],
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-proper-subgraph",
@@ -231,15 +366,19 @@
         "id": "notation",
         "href": "https://w3c.github.io/rdf-semantics/spec/#notation",
         "title": "Notation and Terminology",
+        "alternateIds": [
+          "x4-notation-and-terminology"
+        ],
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "dfn-ground",
-      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-ground",
+      "id": "dfn-substitution-mapping",
+      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-substitution-mapping",
       "linkingText": [
-        "ground"
+        "substitution mapping"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -250,9 +389,13 @@
         "id": "notation",
         "href": "https://w3c.github.io/rdf-semantics/spec/#notation",
         "title": "Notation and Terminology",
+        "alternateIds": [
+          "x4-notation-and-terminology"
+        ],
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-instance",
@@ -269,28 +412,13 @@
         "id": "notation",
         "href": "https://w3c.github.io/rdf-semantics/spec/#notation",
         "title": "Notation and Terminology",
+        "alternateIds": [
+          "x4-notation-and-terminology"
+        ],
         "number": "4"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-instance-with-respect-to",
-      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-instance-with-respect-to",
-      "linkingText": [
-        "instance with respect to"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "notation",
-        "href": "https://w3c.github.io/rdf-semantics/spec/#notation",
-        "title": "Notation and Terminology",
-        "number": "4"
-      },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-proper-instance",
@@ -307,9 +435,13 @@
         "id": "notation",
         "href": "https://w3c.github.io/rdf-semantics/spec/#notation",
         "title": "Notation and Terminology",
+        "alternateIds": [
+          "x4-notation-and-terminology"
+        ],
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-lean",
@@ -326,9 +458,13 @@
         "id": "notation",
         "href": "https://w3c.github.io/rdf-semantics/spec/#notation",
         "title": "Notation and Terminology",
+        "alternateIds": [
+          "x4-notation-and-terminology"
+        ],
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-standardize",
@@ -344,10 +480,37 @@
       "heading": {
         "id": "unions_merges",
         "href": "https://w3c.github.io/rdf-semantics/spec/#unions_merges",
-        "title": "Shared blank nodes, unions and merges",
+        "title": "Shared blank nodes, unions, and merges",
+        "alternateIds": [
+          "x4-1-shared-blank-nodes-unions-and-merges"
+        ],
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-union",
+      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-union",
+      "linkingText": [
+        "union"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "unions_merges",
+        "href": "https://w3c.github.io/rdf-semantics/spec/#unions_merges",
+        "title": "Shared blank nodes, unions, and merges",
+        "alternateIds": [
+          "x4-1-shared-blank-nodes-unions-and-merges"
+        ],
+        "number": "4.1"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-merging",
@@ -363,15 +526,20 @@
       "heading": {
         "id": "unions_merges",
         "href": "https://w3c.github.io/rdf-semantics/spec/#unions_merges",
-        "title": "Shared blank nodes, unions and merges",
+        "title": "Shared blank nodes, unions, and merges",
+        "alternateIds": [
+          "x4-1-shared-blank-nodes-unions-and-merges"
+        ],
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "dfn-merge",
-      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-merge",
+      "id": "dfn-rdf-graph-merge",
+      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-rdf-graph-merge",
       "linkingText": [
+        "RDF graph merge",
         "merge"
       ],
       "localLinkingText": [],
@@ -382,10 +550,14 @@
       "heading": {
         "id": "unions_merges",
         "href": "https://w3c.github.io/rdf-semantics/spec/#unions_merges",
-        "title": "Shared blank nodes, unions and merges",
+        "title": "Shared blank nodes, unions, and merges",
+        "alternateIds": [
+          "x4-1-shared-blank-nodes-unions-and-merges"
+        ],
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-simply-entail",
@@ -403,9 +575,13 @@
         "id": "simple",
         "href": "https://w3c.github.io/rdf-semantics/spec/#simple",
         "title": "Simple Interpretations",
+        "alternateIds": [
+          "x5-simple-interpretations"
+        ],
         "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-extension",
@@ -422,9 +598,13 @@
         "id": "simple",
         "href": "https://w3c.github.io/rdf-semantics/spec/#simple",
         "title": "Simple Interpretations",
+        "alternateIds": [
+          "x5-simple-interpretations"
+        ],
         "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-satisfies",
@@ -441,9 +621,13 @@
         "id": "simpleentailment",
         "href": "https://w3c.github.io/rdf-semantics/spec/#simpleentailment",
         "title": "Simple Entailment",
+        "alternateIds": [
+          "x5-2-simple-entailment"
+        ],
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-satisfiable",
@@ -460,9 +644,13 @@
         "id": "simpleentailment",
         "href": "https://w3c.github.io/rdf-semantics/spec/#simpleentailment",
         "title": "Simple Entailment",
+        "alternateIds": [
+          "x5-2-simple-entailment"
+        ],
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-unsatisfiable",
@@ -479,9 +667,13 @@
         "id": "simpleentailment",
         "href": "https://w3c.github.io/rdf-semantics/spec/#simpleentailment",
         "title": "Simple Entailment",
+        "alternateIds": [
+          "x5-2-simple-entailment"
+        ],
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-valid",
@@ -498,9 +690,13 @@
         "id": "simpleentailment",
         "href": "https://w3c.github.io/rdf-semantics/spec/#simpleentailment",
         "title": "Simple Entailment",
+        "alternateIds": [
+          "x5-2-simple-entailment"
+        ],
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-invalid",
@@ -517,9 +713,13 @@
         "id": "simpleentailment",
         "href": "https://w3c.github.io/rdf-semantics/spec/#simpleentailment",
         "title": "Simple Entailment",
+        "alternateIds": [
+          "x5-2-simple-entailment"
+        ],
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-interpolation",
@@ -535,10 +735,83 @@
       "heading": {
         "id": "simple_entailment_properties",
         "href": "https://w3c.github.io/rdf-semantics/spec/#simple_entailment_properties",
-        "title": "Properties of simple entailment (Informative)",
+        "title": "Properties of simple entailment and satisfiability",
+        "alternateIds": [
+          "x5-3-properties-of-simple-entailment-and-satisfiability"
+        ],
         "number": "5.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-set-of-propositions",
+      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-set-of-propositions",
+      "linkingText": [
+        "set of propositions"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "simple_entailment_properties",
+        "href": "https://w3c.github.io/rdf-semantics/spec/#simple_entailment_properties",
+        "title": "Properties of simple entailment and satisfiability",
+        "alternateIds": [
+          "x5-3-properties-of-simple-entailment-and-satisfiability"
+        ],
+        "number": "5.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-set-of-facts",
+      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-set-of-facts",
+      "linkingText": [
+        "set of facts"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "simple_entailment_properties",
+        "href": "https://w3c.github.io/rdf-semantics/spec/#simple_entailment_properties",
+        "title": "Properties of simple entailment and satisfiability",
+        "alternateIds": [
+          "x5-3-properties-of-simple-entailment-and-satisfiability"
+        ],
+        "number": "5.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-set-of-facts-asserted-by-a-graph",
+      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-set-of-facts-asserted-by-a-graph",
+      "linkingText": [
+        "set of facts asserted by a graph"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "simple_entailment_properties",
+        "href": "https://w3c.github.io/rdf-semantics/spec/#simple_entailment_properties",
+        "title": "Properties of simple entailment and satisfiability",
+        "alternateIds": [
+          "x5-3-properties-of-simple-entailment-and-satisfiability"
+        ],
+        "number": "5.3"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-skolemization",
@@ -554,17 +827,20 @@
       "heading": {
         "id": "skolemization",
         "href": "https://w3c.github.io/rdf-semantics/spec/#skolemization",
-        "title": "Skolemization (Informative)",
+        "title": "Skolemization",
+        "alternateIds": [
+          "x6-skolemization"
+        ],
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-recognize",
       "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-recognize",
       "linkingText": [
-        "recognize",
-        "recognized"
+        "recognize"
       ],
       "localLinkingText": [
         "recognized"
@@ -577,28 +853,13 @@
         "id": "datatypes",
         "href": "https://w3c.github.io/rdf-semantics/spec/#datatypes",
         "title": "Literals and datatypes",
+        "alternateIds": [
+          "x7-literals-and-datatypes"
+        ],
         "number": "7"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-datatype-map",
-      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-datatype-map",
-      "linkingText": [
-        "datatype map"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "datatypes",
-        "href": "https://w3c.github.io/rdf-semantics/spec/#datatypes",
-        "title": "Literals and datatypes",
-        "number": "7"
-      },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-l2v",
@@ -615,47 +876,13 @@
         "id": "datatypes",
         "href": "https://w3c.github.io/rdf-semantics/spec/#datatypes",
         "title": "Literals and datatypes",
+        "alternateIds": [
+          "x7-literals-and-datatypes"
+        ],
         "number": "7"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-value-space",
-      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-value-space",
-      "linkingText": [
-        "value space"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "datatypes",
-        "href": "https://w3c.github.io/rdf-semantics/spec/#datatypes",
-        "title": "Literals and datatypes",
-        "number": "7"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-ill-typed",
-      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-ill-typed",
-      "linkingText": [
-        "ill-typed"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "datatypes",
-        "href": "https://w3c.github.io/rdf-semantics/spec/#datatypes",
-        "title": "Literals and datatypes",
-        "number": "7"
-      },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-d-interpretation",
@@ -672,9 +899,13 @@
         "id": "D_interpretations",
         "href": "https://w3c.github.io/rdf-semantics/spec/#D_interpretations",
         "title": "D-interpretations",
+        "alternateIds": [
+          "x7-1-d-interpretations"
+        ],
         "number": "7.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-d-satisfiable",
@@ -691,9 +922,13 @@
         "id": "D_entailment",
         "href": "https://w3c.github.io/rdf-semantics/spec/#D_entailment",
         "title": "Datatype entailment",
+        "alternateIds": [
+          "x7-2-datatype-entailment"
+        ],
         "number": "7.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-satisfiable-recognizing-d",
@@ -710,9 +945,13 @@
         "id": "D_entailment",
         "href": "https://w3c.github.io/rdf-semantics/spec/#D_entailment",
         "title": "Datatype entailment",
+        "alternateIds": [
+          "x7-2-datatype-entailment"
+        ],
         "number": "7.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-d-entails",
@@ -729,9 +968,13 @@
         "id": "D_entailment",
         "href": "https://w3c.github.io/rdf-semantics/spec/#D_entailment",
         "title": "Datatype entailment",
+        "alternateIds": [
+          "x7-2-datatype-entailment"
+        ],
         "number": "7.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-entails-recognizing-d",
@@ -748,9 +991,13 @@
         "id": "D_entailment",
         "href": "https://w3c.github.io/rdf-semantics/spec/#D_entailment",
         "title": "Datatype entailment",
+        "alternateIds": [
+          "x7-2-datatype-entailment"
+        ],
         "number": "7.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-d-unsatisfiability",
@@ -768,9 +1015,13 @@
         "id": "D_entailment",
         "href": "https://w3c.github.io/rdf-semantics/spec/#D_entailment",
         "title": "Datatype entailment",
+        "alternateIds": [
+          "x7-2-datatype-entailment"
+        ],
         "number": "7.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rdf-vocabulary",
@@ -784,11 +1035,16 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "rdf-vocabulary",
-        "href": "https://w3c.github.io/rdf-semantics/spec/#rdf-vocabulary",
-        "title": "RDF vocabulary"
+        "id": "rdf_d_interpretations",
+        "href": "https://w3c.github.io/rdf-semantics/spec/#rdf_d_interpretations",
+        "title": "RDF Interpretations",
+        "alternateIds": [
+          "x8-rdf-interpretations"
+        ],
+        "number": "8"
       },
-      "definedIn": "heading"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-rdf-interpretation",
@@ -805,9 +1061,13 @@
         "id": "rdf_d_interpretations",
         "href": "https://w3c.github.io/rdf-semantics/spec/#rdf_d_interpretations",
         "title": "RDF Interpretations",
+        "alternateIds": [
+          "x8-rdf-interpretations"
+        ],
         "number": "8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rdf-entail",
@@ -824,9 +1084,13 @@
         "id": "rdf_entail",
         "href": "https://w3c.github.io/rdf-semantics/spec/#rdf_entail",
         "title": "RDF entailment",
+        "alternateIds": [
+          "x8-1-rdf-entailment"
+        ],
         "number": "8.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rdf-unsatisfiable",
@@ -843,9 +1107,13 @@
         "id": "rdf_entail",
         "href": "https://w3c.github.io/rdf-semantics/spec/#rdf_entail",
         "title": "RDF entailment",
+        "alternateIds": [
+          "x8-1-rdf-entailment"
+        ],
         "number": "8.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rdfd1",
@@ -861,10 +1129,14 @@
       "heading": {
         "id": "rdf_entailment_patterns",
         "href": "https://w3c.github.io/rdf-semantics/spec/#rdf_entailment_patterns",
-        "title": "Patterns of RDF entailment (Informative)",
+        "title": "Patterns of RDF entailment",
+        "alternateIds": [
+          "x8-1-1-patterns-of-rdf-entailment"
+        ],
         "number": "8.1.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-rdfd1a",
@@ -880,10 +1152,14 @@
       "heading": {
         "id": "rdf_entailment_patterns",
         "href": "https://w3c.github.io/rdf-semantics/spec/#rdf_entailment_patterns",
-        "title": "Patterns of RDF entailment (Informative)",
+        "title": "Patterns of RDF entailment",
+        "alternateIds": [
+          "x8-1-1-patterns-of-rdf-entailment"
+        ],
         "number": "8.1.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-rdfd2",
@@ -899,10 +1175,14 @@
       "heading": {
         "id": "rdf_entailment_patterns",
         "href": "https://w3c.github.io/rdf-semantics/spec/#rdf_entailment_patterns",
-        "title": "Patterns of RDF entailment (Informative)",
+        "title": "Patterns of RDF entailment",
+        "alternateIds": [
+          "x8-1-1-patterns-of-rdf-entailment"
+        ],
         "number": "8.1.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-rdfs-vocabulary",
@@ -916,11 +1196,16 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "rdfs-vocabulary",
-        "href": "https://w3c.github.io/rdf-semantics/spec/#rdfs-vocabulary",
-        "title": "RDFS vocabulary"
+        "id": "rdfs_interpretations",
+        "href": "https://w3c.github.io/rdf-semantics/spec/#rdfs_interpretations",
+        "title": "RDFS Interpretations",
+        "alternateIds": [
+          "x9-rdfs-interpretations"
+        ],
+        "number": "9"
       },
-      "definedIn": "heading"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-class",
@@ -937,9 +1222,13 @@
         "id": "rdfs_interpretations",
         "href": "https://w3c.github.io/rdf-semantics/spec/#rdfs_interpretations",
         "title": "RDFS Interpretations",
+        "alternateIds": [
+          "x9-rdfs-interpretations"
+        ],
         "number": "9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rdfs-interpretation",
@@ -956,9 +1245,13 @@
         "id": "rdfs_interpretations",
         "href": "https://w3c.github.io/rdf-semantics/spec/#rdfs_interpretations",
         "title": "RDFS Interpretations",
+        "alternateIds": [
+          "x9-rdfs-interpretations"
+        ],
         "number": "9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rdfs-entails",
@@ -975,9 +1268,13 @@
         "id": "rdfs_entailment",
         "href": "https://w3c.github.io/rdf-semantics/spec/#rdfs_entailment",
         "title": "RDFS entailment",
+        "alternateIds": [
+          "x9-2-rdfs-entailment"
+        ],
         "number": "9.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rdfs1",
@@ -993,10 +1290,14 @@
       "heading": {
         "id": "rdfs_patterns",
         "href": "https://w3c.github.io/rdf-semantics/spec/#rdfs_patterns",
-        "title": "Patterns of RDFS entailment (Informative)",
+        "title": "Patterns of RDFS entailment",
+        "alternateIds": [
+          "x9-2-1-patterns-of-rdfs-entailment"
+        ],
         "number": "9.2.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-rdfs2",
@@ -1012,10 +1313,14 @@
       "heading": {
         "id": "rdfs_patterns",
         "href": "https://w3c.github.io/rdf-semantics/spec/#rdfs_patterns",
-        "title": "Patterns of RDFS entailment (Informative)",
+        "title": "Patterns of RDFS entailment",
+        "alternateIds": [
+          "x9-2-1-patterns-of-rdfs-entailment"
+        ],
         "number": "9.2.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-rdfs3",
@@ -1031,16 +1336,20 @@
       "heading": {
         "id": "rdfs_patterns",
         "href": "https://w3c.github.io/rdf-semantics/spec/#rdfs_patterns",
-        "title": "Patterns of RDFS entailment (Informative)",
+        "title": "Patterns of RDFS entailment",
+        "alternateIds": [
+          "x9-2-1-patterns-of-rdfs-entailment"
+        ],
         "number": "9.2.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
-      "id": "dfn-rdfs4a",
-      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-rdfs4a",
+      "id": "dfn-rdfs4",
+      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-rdfs4",
       "linkingText": [
-        "rdfs4a"
+        "rdfs4"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1050,29 +1359,14 @@
       "heading": {
         "id": "rdfs_patterns",
         "href": "https://w3c.github.io/rdf-semantics/spec/#rdfs_patterns",
-        "title": "Patterns of RDFS entailment (Informative)",
+        "title": "Patterns of RDFS entailment",
+        "alternateIds": [
+          "x9-2-1-patterns-of-rdfs-entailment"
+        ],
         "number": "9.2.1"
       },
-      "definedIn": "table"
-    },
-    {
-      "id": "dfn-rdfs4b",
-      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-rdfs4b",
-      "linkingText": [
-        "rdfs4b"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": true,
-      "heading": {
-        "id": "rdfs_patterns",
-        "href": "https://w3c.github.io/rdf-semantics/spec/#rdfs_patterns",
-        "title": "Patterns of RDFS entailment (Informative)",
-        "number": "9.2.1"
-      },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-rdfs5",
@@ -1088,10 +1382,14 @@
       "heading": {
         "id": "rdfs_patterns",
         "href": "https://w3c.github.io/rdf-semantics/spec/#rdfs_patterns",
-        "title": "Patterns of RDFS entailment (Informative)",
+        "title": "Patterns of RDFS entailment",
+        "alternateIds": [
+          "x9-2-1-patterns-of-rdfs-entailment"
+        ],
         "number": "9.2.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-rdfs6",
@@ -1107,10 +1405,14 @@
       "heading": {
         "id": "rdfs_patterns",
         "href": "https://w3c.github.io/rdf-semantics/spec/#rdfs_patterns",
-        "title": "Patterns of RDFS entailment (Informative)",
+        "title": "Patterns of RDFS entailment",
+        "alternateIds": [
+          "x9-2-1-patterns-of-rdfs-entailment"
+        ],
         "number": "9.2.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-rdfs7",
@@ -1126,10 +1428,14 @@
       "heading": {
         "id": "rdfs_patterns",
         "href": "https://w3c.github.io/rdf-semantics/spec/#rdfs_patterns",
-        "title": "Patterns of RDFS entailment (Informative)",
+        "title": "Patterns of RDFS entailment",
+        "alternateIds": [
+          "x9-2-1-patterns-of-rdfs-entailment"
+        ],
         "number": "9.2.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-rdfs8",
@@ -1145,10 +1451,14 @@
       "heading": {
         "id": "rdfs_patterns",
         "href": "https://w3c.github.io/rdf-semantics/spec/#rdfs_patterns",
-        "title": "Patterns of RDFS entailment (Informative)",
+        "title": "Patterns of RDFS entailment",
+        "alternateIds": [
+          "x9-2-1-patterns-of-rdfs-entailment"
+        ],
         "number": "9.2.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-rdfs9",
@@ -1164,10 +1474,14 @@
       "heading": {
         "id": "rdfs_patterns",
         "href": "https://w3c.github.io/rdf-semantics/spec/#rdfs_patterns",
-        "title": "Patterns of RDFS entailment (Informative)",
+        "title": "Patterns of RDFS entailment",
+        "alternateIds": [
+          "x9-2-1-patterns-of-rdfs-entailment"
+        ],
         "number": "9.2.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-rdfs10",
@@ -1183,10 +1497,14 @@
       "heading": {
         "id": "rdfs_patterns",
         "href": "https://w3c.github.io/rdf-semantics/spec/#rdfs_patterns",
-        "title": "Patterns of RDFS entailment (Informative)",
+        "title": "Patterns of RDFS entailment",
+        "alternateIds": [
+          "x9-2-1-patterns-of-rdfs-entailment"
+        ],
         "number": "9.2.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-rdfs11",
@@ -1202,10 +1520,14 @@
       "heading": {
         "id": "rdfs_patterns",
         "href": "https://w3c.github.io/rdf-semantics/spec/#rdfs_patterns",
-        "title": "Patterns of RDFS entailment (Informative)",
+        "title": "Patterns of RDFS entailment",
+        "alternateIds": [
+          "x9-2-1-patterns-of-rdfs-entailment"
+        ],
         "number": "9.2.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-rdfs12",
@@ -1221,10 +1543,14 @@
       "heading": {
         "id": "rdfs_patterns",
         "href": "https://w3c.github.io/rdf-semantics/spec/#rdfs_patterns",
-        "title": "Patterns of RDFS entailment (Informative)",
+        "title": "Patterns of RDFS entailment",
+        "alternateIds": [
+          "x9-2-1-patterns-of-rdfs-entailment"
+        ],
         "number": "9.2.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-rdfs13",
@@ -1240,10 +1566,82 @@
       "heading": {
         "id": "rdfs_patterns",
         "href": "https://w3c.github.io/rdf-semantics/spec/#rdfs_patterns",
-        "title": "Patterns of RDFS entailment (Informative)",
+        "title": "Patterns of RDFS entailment",
+        "alternateIds": [
+          "x9-2-1-patterns-of-rdfs-entailment"
+        ],
         "number": "9.2.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dfn-rdfs14",
+      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-rdfs14",
+      "linkingText": [
+        "rdfs14"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "rdfs_patterns",
+        "href": "https://w3c.github.io/rdf-semantics/spec/#rdfs_patterns",
+        "title": "Patterns of RDFS entailment",
+        "alternateIds": [
+          "x9-2-1-patterns-of-rdfs-entailment"
+        ],
+        "number": "9.2.1"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dfn-rdfs14a",
+      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-rdfs14a",
+      "linkingText": [
+        "rdfs14a"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "rdfs_patterns",
+        "href": "https://w3c.github.io/rdf-semantics/spec/#rdfs_patterns",
+        "title": "Patterns of RDFS entailment",
+        "alternateIds": [
+          "x9-2-1-patterns-of-rdfs-entailment"
+        ],
+        "number": "9.2.1"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dfn-rdf-dataset-merge-0",
+      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-rdf-dataset-merge-0",
+      "linkingText": [
+        "RDF dataset merge"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "rdf_datasets",
+        "href": "https://w3c.github.io/rdf-semantics/spec/#rdf_datasets",
+        "title": "10. RDF Datasets",
+        "alternateIds": [
+          "x10-rdf-datasets"
+        ]
+      },
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-grdfd1",
@@ -1259,10 +1657,37 @@
       "heading": {
         "id": "entailment_rules",
         "href": "https://w3c.github.io/rdf-semantics/spec/#entailment_rules",
-        "title": "Entailment rules (Informative)",
+        "title": "Entailment rules",
+        "alternateIds": [
+          "a-entailment-rules"
+        ],
         "number": "A"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dfn-grdfs14",
+      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-grdfs14",
+      "linkingText": [
+        "Grdfs14"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "entailment_rules",
+        "href": "https://w3c.github.io/rdf-semantics/spec/#entailment_rules",
+        "title": "Entailment rules",
+        "alternateIds": [
+          "a-entailment-rules"
+        ],
+        "number": "A"
+      },
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-generalized-rdf-rdfs-closure",
@@ -1278,16 +1703,20 @@
       "heading": {
         "id": "entailment_rules",
         "href": "https://w3c.github.io/rdf-semantics/spec/#entailment_rules",
-        "title": "Entailment rules (Informative)",
+        "title": "Entailment rules",
+        "alternateIds": [
+          "a-entailment-rules"
+        ],
         "number": "A"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "dfn-pre-interpretation",
-      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-pre-interpretation",
+      "id": "dfn-datatype-map",
+      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-datatype-map",
       "linkingText": [
-        "pre-interpretation"
+        "datatype map"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1295,31 +1724,16 @@
       "access": "private",
       "informative": true,
       "heading": {
-        "id": "finite_interpretations",
-        "href": "https://w3c.github.io/rdf-semantics/spec/#finite_interpretations",
-        "title": "Finite interpretations",
-        "number": "B"
+        "id": "ChangeLog-11",
+        "href": "https://w3c.github.io/rdf-semantics/spec/#ChangeLog-11",
+        "title": "Substantive changes between RDF 1.0 and RDF 1.1",
+        "alternateIds": [
+          "g-1-substantive-changes-between-rdf-1-0-and-rdf-1-1"
+        ],
+        "number": "G.1"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-reification",
-      "href": "https://w3c.github.io/rdf-semantics/spec/#dfn-reification",
-      "linkingText": [
-        "reification"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": true,
-      "heading": {
-        "id": "Reif",
-        "href": "https://w3c.github.io/rdf-semantics/spec/#Reif",
-        "title": "Reification",
-        "number": "D.1"
-      },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

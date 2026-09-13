@@ -22,7 +22,8 @@
         "title": "Terminology",
         "number": "1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "float-area",
@@ -41,7 +42,28 @@
         "title": "Terminology",
         "number": "1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "direction-agnostic-size",
+      "href": "https://drafts.csswg.org/css-shapes-1/#direction-agnostic-size",
+      "linkingText": [
+        "direction-agnostic size"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://drafts.csswg.org/css-shapes-1/#terminology",
+        "title": "Terminology",
+        "number": "1.3"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "typedef-basic-shape",
@@ -60,7 +82,8 @@
         "title": "Basic Shapes",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "basic-shape-reference-box",
@@ -81,7 +104,8 @@
         "title": "Basic Shapes",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "typedef-basic-shape-rect",
@@ -100,7 +124,8 @@
         "title": "Supported Shapes",
         "number": "3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "funcdef-basic-shape-inset",
@@ -121,7 +146,8 @@
         "title": "Supported Shapes",
         "number": "3.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "funcdef-basic-shape-xywh",
@@ -142,7 +168,8 @@
         "title": "Supported Shapes",
         "number": "3.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "funcdef-basic-shape-rect",
@@ -163,7 +190,8 @@
         "title": "Supported Shapes",
         "number": "3.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "funcdef-basic-shape-circle",
@@ -184,7 +212,8 @@
         "title": "Supported Shapes",
         "number": "3.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "funcdef-basic-shape-ellipse",
@@ -205,7 +234,8 @@
         "title": "Supported Shapes",
         "number": "3.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "funcdef-basic-shape-polygon",
@@ -226,7 +256,8 @@
         "title": "Supported Shapes",
         "number": "3.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "funcdef-basic-shape-path",
@@ -247,7 +278,606 @@
         "title": "Supported Shapes",
         "number": "3.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "funcdef-basic-shape-shape",
+      "href": "https://drafts.csswg.org/css-shapes-1/#funcdef-basic-shape-shape",
+      "linkingText": [
+        "shape()"
+      ],
+      "localLinkingText": [],
+      "type": "function",
+      "for": [
+        "<basic-shape>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "supported-basic-shapes",
+        "href": "https://drafts.csswg.org/css-shapes-1/#supported-basic-shapes",
+        "title": "Supported Shapes",
+        "number": "3.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "typedef-shape-command",
+      "href": "https://drafts.csswg.org/css-shapes-1/#typedef-shape-command",
+      "linkingText": [
+        "<shape-command>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-function",
+        "href": "https://drafts.csswg.org/css-shapes-1/#shape-function",
+        "title": "The shape() Function",
+        "number": "3.1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "typedef-shape-coordinate-pair",
+      "href": "https://drafts.csswg.org/css-shapes-1/#typedef-shape-coordinate-pair",
+      "linkingText": [
+        "<coordinate-pair>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [
+        "shape()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-function",
+        "href": "https://drafts.csswg.org/css-shapes-1/#shape-function",
+        "title": "The shape() Function",
+        "number": "3.1.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "typedef-shape-command-end-point",
+      "href": "https://drafts.csswg.org/css-shapes-1/#typedef-shape-command-end-point",
+      "linkingText": [
+        "<command-end-point>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [
+        "shape()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-function",
+        "href": "https://drafts.csswg.org/css-shapes-1/#shape-function",
+        "title": "The shape() Function",
+        "number": "3.1.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-shape-to",
+      "href": "https://drafts.csswg.org/css-shapes-1/#valdef-shape-to",
+      "linkingText": [
+        "to"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "shape()",
+        "<command-end-point>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-function",
+        "href": "https://drafts.csswg.org/css-shapes-1/#shape-function",
+        "title": "The shape() Function",
+        "number": "3.1.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-shape-by",
+      "href": "https://drafts.csswg.org/css-shapes-1/#valdef-shape-by",
+      "linkingText": [
+        "by"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "shape()",
+        "<command-end-point>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-function",
+        "href": "https://drafts.csswg.org/css-shapes-1/#shape-function",
+        "title": "The shape() Function",
+        "number": "3.1.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "typedef-shape-move-command",
+      "href": "https://drafts.csswg.org/css-shapes-1/#typedef-shape-move-command",
+      "linkingText": [
+        "<move-command>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [
+        "shape()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-function",
+        "href": "https://drafts.csswg.org/css-shapes-1/#shape-function",
+        "title": "The shape() Function",
+        "number": "3.1.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-shape-move",
+      "href": "https://drafts.csswg.org/css-shapes-1/#valdef-shape-move",
+      "linkingText": [
+        "move"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "shape()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-function",
+        "href": "https://drafts.csswg.org/css-shapes-1/#shape-function",
+        "title": "The shape() Function",
+        "number": "3.1.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "typedef-shape-line-command",
+      "href": "https://drafts.csswg.org/css-shapes-1/#typedef-shape-line-command",
+      "linkingText": [
+        "<line-command>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [
+        "shape()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-function",
+        "href": "https://drafts.csswg.org/css-shapes-1/#shape-function",
+        "title": "The shape() Function",
+        "number": "3.1.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-shape-line",
+      "href": "https://drafts.csswg.org/css-shapes-1/#valdef-shape-line",
+      "linkingText": [
+        "line"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "shape()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-function",
+        "href": "https://drafts.csswg.org/css-shapes-1/#shape-function",
+        "title": "The shape() Function",
+        "number": "3.1.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "typedef-shape-horizontal-line-command",
+      "href": "https://drafts.csswg.org/css-shapes-1/#typedef-shape-horizontal-line-command",
+      "linkingText": [
+        "<horizontal-line-command>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [
+        "shape()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-function",
+        "href": "https://drafts.csswg.org/css-shapes-1/#shape-function",
+        "title": "The shape() Function",
+        "number": "3.1.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "typedef-shape-vertical-line-command",
+      "href": "https://drafts.csswg.org/css-shapes-1/#typedef-shape-vertical-line-command",
+      "linkingText": [
+        "<vertical-line-command>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [
+        "shape()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-function",
+        "href": "https://drafts.csswg.org/css-shapes-1/#shape-function",
+        "title": "The shape() Function",
+        "number": "3.1.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "typedef-shape-curve-command",
+      "href": "https://drafts.csswg.org/css-shapes-1/#typedef-shape-curve-command",
+      "linkingText": [
+        "<curve-command>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [
+        "shape()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-function",
+        "href": "https://drafts.csswg.org/css-shapes-1/#shape-function",
+        "title": "The shape() Function",
+        "number": "3.1.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-shape-curve",
+      "href": "https://drafts.csswg.org/css-shapes-1/#valdef-shape-curve",
+      "linkingText": [
+        "curve"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "shape()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-function",
+        "href": "https://drafts.csswg.org/css-shapes-1/#shape-function",
+        "title": "The shape() Function",
+        "number": "3.1.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "typedef-shape-smooth-command",
+      "href": "https://drafts.csswg.org/css-shapes-1/#typedef-shape-smooth-command",
+      "linkingText": [
+        "<smooth-command>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [
+        "shape()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-function",
+        "href": "https://drafts.csswg.org/css-shapes-1/#shape-function",
+        "title": "The shape() Function",
+        "number": "3.1.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-shape-smooth",
+      "href": "https://drafts.csswg.org/css-shapes-1/#valdef-shape-smooth",
+      "linkingText": [
+        "smooth"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "shape()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-function",
+        "href": "https://drafts.csswg.org/css-shapes-1/#shape-function",
+        "title": "The shape() Function",
+        "number": "3.1.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "typedef-shape-control-point",
+      "href": "https://drafts.csswg.org/css-shapes-1/#typedef-shape-control-point",
+      "linkingText": [
+        "<control-point>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [
+        "shape()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-function",
+        "href": "https://drafts.csswg.org/css-shapes-1/#shape-function",
+        "title": "The shape() Function",
+        "number": "3.1.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "typedef-shape-relative-control-point",
+      "href": "https://drafts.csswg.org/css-shapes-1/#typedef-shape-relative-control-point",
+      "linkingText": [
+        "<relative-control-point>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [
+        "shape()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-function",
+        "href": "https://drafts.csswg.org/css-shapes-1/#shape-function",
+        "title": "The shape() Function",
+        "number": "3.1.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "typedef-shape-arc-command",
+      "href": "https://drafts.csswg.org/css-shapes-1/#typedef-shape-arc-command",
+      "linkingText": [
+        "<arc-command>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [
+        "shape()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-function",
+        "href": "https://drafts.csswg.org/css-shapes-1/#shape-function",
+        "title": "The shape() Function",
+        "number": "3.1.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-shape-arc",
+      "href": "https://drafts.csswg.org/css-shapes-1/#valdef-shape-arc",
+      "linkingText": [
+        "arc"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "shape()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-function",
+        "href": "https://drafts.csswg.org/css-shapes-1/#shape-function",
+        "title": "The shape() Function",
+        "number": "3.1.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "typedef-shape-arc-sweep",
+      "href": "https://drafts.csswg.org/css-shapes-1/#typedef-shape-arc-sweep",
+      "linkingText": [
+        "<arc-sweep>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [
+        "shape()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-function",
+        "href": "https://drafts.csswg.org/css-shapes-1/#shape-function",
+        "title": "The shape() Function",
+        "number": "3.1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "valdef-shape-cw",
+      "href": "https://drafts.csswg.org/css-shapes-1/#valdef-shape-cw",
+      "linkingText": [
+        "cw"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "shape()",
+        "arc"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-function",
+        "href": "https://drafts.csswg.org/css-shapes-1/#shape-function",
+        "title": "The shape() Function",
+        "number": "3.1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "valdef-shape-ccw",
+      "href": "https://drafts.csswg.org/css-shapes-1/#valdef-shape-ccw",
+      "linkingText": [
+        "ccw"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "shape()",
+        "arc"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-function",
+        "href": "https://drafts.csswg.org/css-shapes-1/#shape-function",
+        "title": "The shape() Function",
+        "number": "3.1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "typedef-shape-arc-size",
+      "href": "https://drafts.csswg.org/css-shapes-1/#typedef-shape-arc-size",
+      "linkingText": [
+        "<arc-size>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [
+        "shape()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-function",
+        "href": "https://drafts.csswg.org/css-shapes-1/#shape-function",
+        "title": "The shape() Function",
+        "number": "3.1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "valdef-shape-large",
+      "href": "https://drafts.csswg.org/css-shapes-1/#valdef-shape-large",
+      "linkingText": [
+        "large"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "shape()",
+        "arc"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-function",
+        "href": "https://drafts.csswg.org/css-shapes-1/#shape-function",
+        "title": "The shape() Function",
+        "number": "3.1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "valdef-shape-small",
+      "href": "https://drafts.csswg.org/css-shapes-1/#valdef-shape-small",
+      "linkingText": [
+        "small"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "shape()",
+        "arc"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-function",
+        "href": "https://drafts.csswg.org/css-shapes-1/#shape-function",
+        "title": "The shape() Function",
+        "number": "3.1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "valdef-shape-close",
+      "href": "https://drafts.csswg.org/css-shapes-1/#valdef-shape-close",
+      "linkingText": [
+        "close"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "shape()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shape-function",
+        "href": "https://drafts.csswg.org/css-shapes-1/#shape-function",
+        "title": "The shape() Function",
+        "number": "3.1.1"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "typedef-shape-box",
@@ -266,7 +896,8 @@
         "title": "Shapes from Box Values",
         "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "valdef-shape-box-margin-box",
@@ -288,7 +919,8 @@
         "title": "Shapes from Box Values",
         "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-shape-box-border-box",
@@ -310,7 +942,8 @@
         "title": "Shapes from Box Values",
         "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-shape-box-padding-box",
@@ -332,7 +965,8 @@
         "title": "Shapes from Box Values",
         "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-shape-box-content-box",
@@ -354,7 +988,31 @@
         "title": "Shapes from Box Values",
         "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "valdef-shape-box-half-border-box",
+      "href": "https://drafts.csswg.org/css-shapes-1/#valdef-shape-box-half-border-box",
+      "linkingText": [
+        "half-border-box"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "<shape-box>",
+        "shape-outside"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "shapes-from-box-values",
+        "href": "https://drafts.csswg.org/css-shapes-1/#shapes-from-box-values",
+        "title": "Shapes from Box Values",
+        "number": "5"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-shape-outside",
@@ -373,7 +1031,8 @@
         "title": "Float Area Shape: the shape-outside property",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-shape-outside-none",
@@ -394,7 +1053,8 @@
         "title": "Float Area Shape: the shape-outside property",
         "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-shape-outside-basic-shape",
@@ -415,7 +1075,8 @@
         "title": "Float Area Shape: the shape-outside property",
         "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-shape-image-threshold",
@@ -434,7 +1095,8 @@
         "title": "Choosing Image Pixels: the shape-image-threshold property",
         "number": "6.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "propdef-shape-margin",
@@ -453,7 +1115,8 @@
         "title": "Expanding a Shape: the shape-margin property",
         "number": "6.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     }
   ]
 }

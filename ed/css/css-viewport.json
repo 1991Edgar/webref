@@ -7,14 +7,14 @@
     {
       "name": "zoom",
       "href": "https://drafts.csswg.org/css-viewport/#propdef-zoom",
-      "value": "<number [0,∞]> || <percentage [0,∞]>",
+      "value": "<number [0,∞]> | <percentage [0,∞]>",
       "initial": "1",
       "appliesTo": "all <length> property values of all elements",
       "inherited": "no",
       "percentages": "Converted to <number>",
       "computedValue": "as specified, but with <percentage> converted to the equivalent <number>",
       "canonicalOrder": "per grammar",
-      "animationType": "not animatable",
+      "animationType": "by computed value type",
       "media": "visual",
       "values": [
         {

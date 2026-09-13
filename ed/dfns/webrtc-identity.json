@@ -19,9 +19,13 @@
         "id": "conformance",
         "href": "https://w3c.github.io/webrtc-identity/#conformance",
         "title": "Conformance",
+        "alternateIds": [
+          "x2-conformance"
+        ],
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-media-description",
@@ -38,9 +42,13 @@
         "id": "terminology",
         "href": "https://w3c.github.io/webrtc-identity/#terminology",
         "title": "Terminology",
+        "alternateIds": [
+          "x3-terminology"
+        ],
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-media-transport",
@@ -57,9 +65,13 @@
         "id": "terminology",
         "href": "https://w3c.github.io/webrtc-identity/#terminology",
         "title": "Terminology",
+        "alternateIds": [
+          "x3-terminology"
+        ],
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-generation",
@@ -76,9 +88,13 @@
         "id": "terminology",
         "href": "https://w3c.github.io/webrtc-identity/#terminology",
         "title": "Terminology",
+        "alternateIds": [
+          "x3-terminology"
+        ],
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-settled",
@@ -95,9 +111,13 @@
         "id": "terminology",
         "href": "https://w3c.github.io/webrtc-identity/#terminology",
         "title": "Terminology",
+        "alternateIds": [
+          "x3-terminology"
+        ],
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-bundle",
@@ -114,9 +134,13 @@
         "id": "terminology",
         "href": "https://w3c.github.io/webrtc-identity/#terminology",
         "title": "Terminology",
+        "alternateIds": [
+          "x3-terminology"
+        ],
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-bundle-only",
@@ -133,9 +157,13 @@
         "id": "terminology",
         "href": "https://w3c.github.io/webrtc-identity/#terminology",
         "title": "Terminology",
+        "alternateIds": [
+          "x3-terminology"
+        ],
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-bundle-policy",
@@ -152,9 +180,13 @@
         "id": "terminology",
         "href": "https://w3c.github.io/webrtc-identity/#terminology",
         "title": "Terminology",
+        "alternateIds": [
+          "x3-terminology"
+        ],
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-oauth-client",
@@ -171,9 +203,13 @@
         "id": "terminology",
         "href": "https://w3c.github.io/webrtc-identity/#terminology",
         "title": "Terminology",
+        "alternateIds": [
+          "x3-terminology"
+        ],
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-authorization-server",
@@ -190,9 +226,13 @@
         "id": "terminology",
         "href": "https://w3c.github.io/webrtc-identity/#terminology",
         "title": "Terminology",
+        "alternateIds": [
+          "x3-terminology"
+        ],
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-rtcidentityproviderglobalscope",
@@ -209,9 +249,13 @@
         "id": "instantiating-an-idp-proxy",
         "href": "https://w3c.github.io/webrtc-identity/#instantiating-an-idp-proxy",
         "title": "Instantiating an IdP Proxy",
+        "alternateIds": [
+          "sec.create-identity-proxy"
+        ],
         "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-rtcidentityproviderglobalscope-rtcidentityprovider",
@@ -233,7 +277,8 @@
         "href": "https://w3c.github.io/webrtc-identity/#attributes-0",
         "title": "Attributes"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcidentityproviderregistrar",
@@ -250,9 +295,13 @@
         "id": "registering-an-idp-proxy",
         "href": "https://w3c.github.io/webrtc-identity/#registering-an-idp-proxy",
         "title": "Registering an IdP Proxy",
+        "alternateIds": [
+          "sec.register-idp"
+        ],
         "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-rtcidentityproviderregistrar-register",
@@ -277,7 +326,8 @@
         "href": "https://w3c.github.io/webrtc-identity/#methods",
         "title": "Methods"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcidentityprovider",
@@ -295,7 +345,8 @@
         "href": "https://w3c.github.io/webrtc-identity/#dictionary-rtcidentityprovider-members",
         "title": "Dictionary RTCIdentityProvider Members"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-rtcidentityprovider-generateassertion",
@@ -315,7 +366,8 @@
         "href": "https://w3c.github.io/webrtc-identity/#dictionary-rtcidentityprovider-members",
         "title": "Dictionary RTCIdentityProvider Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcidentityprovider-validateassertion",
@@ -335,7 +387,8 @@
         "href": "https://w3c.github.io/webrtc-identity/#dictionary-rtcidentityprovider-members",
         "title": "Dictionary RTCIdentityProvider Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-generateassertioncallback",
@@ -353,7 +406,8 @@
         "href": "https://w3c.github.io/webrtc-identity/#callback-generateassertioncallback-parameters",
         "title": "Callback GenerateAssertionCallback Parameters"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-validateassertioncallback",
@@ -371,7 +425,8 @@
         "href": "https://w3c.github.io/webrtc-identity/#callback-validateassertioncallback-parameters",
         "title": "Callback ValidateAssertionCallback Parameters"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-rtcidentityassertionresult",
@@ -389,7 +444,8 @@
         "href": "https://w3c.github.io/webrtc-identity/#dictionary-rtcidentityassertionresult-members",
         "title": "Dictionary RTCIdentityAssertionResult Members"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-rtcidentityassertionresult-idp",
@@ -409,7 +465,8 @@
         "href": "https://w3c.github.io/webrtc-identity/#dictionary-rtcidentityassertionresult-members",
         "title": "Dictionary RTCIdentityAssertionResult Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcidentityassertionresult-assertion",
@@ -429,7 +486,8 @@
         "href": "https://w3c.github.io/webrtc-identity/#dictionary-rtcidentityassertionresult-members",
         "title": "Dictionary RTCIdentityAssertionResult Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcidentityproviderdetails",
@@ -447,7 +505,8 @@
         "href": "https://w3c.github.io/webrtc-identity/#dictionary-rtcidentityproviderdetails-members",
         "title": "Dictionary RTCIdentityProviderDetails Members"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-rtcidentityproviderdetails-domain",
@@ -467,7 +526,8 @@
         "href": "https://w3c.github.io/webrtc-identity/#dictionary-rtcidentityproviderdetails-members",
         "title": "Dictionary RTCIdentityProviderDetails Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcidentityproviderdetails-protocol",
@@ -487,7 +547,8 @@
         "href": "https://w3c.github.io/webrtc-identity/#dictionary-rtcidentityproviderdetails-members",
         "title": "Dictionary RTCIdentityProviderDetails Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcidentityvalidationresult",
@@ -505,7 +566,8 @@
         "href": "https://w3c.github.io/webrtc-identity/#dictionary-rtcidentityvalidationresult-members",
         "title": "Dictionary RTCIdentityValidationResult Members"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-rtcidentityvalidationresult-identity",
@@ -525,7 +587,8 @@
         "href": "https://w3c.github.io/webrtc-identity/#dictionary-rtcidentityvalidationresult-members",
         "title": "Dictionary RTCIdentityValidationResult Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcidentityvalidationresult-contents",
@@ -545,7 +608,8 @@
         "href": "https://w3c.github.io/webrtc-identity/#dictionary-rtcidentityvalidationresult-members",
         "title": "Dictionary RTCIdentityValidationResult Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcpeerconnection-peeridentity",
@@ -567,7 +631,8 @@
         "href": "https://w3c.github.io/webrtc-identity/#attributes-1",
         "title": "Attributes"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcpeerconnection-idploginurl",
@@ -589,7 +654,8 @@
         "href": "https://w3c.github.io/webrtc-identity/#attributes-1",
         "title": "Attributes"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcpeerconnection-idperrorinfo",
@@ -611,7 +677,8 @@
         "href": "https://w3c.github.io/webrtc-identity/#attributes-1",
         "title": "Attributes"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcpeerconnection-setidentityprovider",
@@ -637,7 +704,8 @@
         "href": "https://w3c.github.io/webrtc-identity/#methods-0",
         "title": "Methods"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-rtcpeerconnection-getidentityassertion",
@@ -661,7 +729,8 @@
         "href": "https://w3c.github.io/webrtc-identity/#methods-0",
         "title": "Methods"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcconfiguration",
@@ -678,9 +747,13 @@
         "id": "rtcconfiguration-dictionary-extensions",
         "href": "https://w3c.github.io/webrtc-identity/#rtcconfiguration-dictionary-extensions",
         "title": "RTCConfiguration Dictionary Extensions",
+        "alternateIds": [
+          "x9-1-rtcconfiguration-dictionary-extensions"
+        ],
         "number": "9.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-rtcconfiguration-peeridentity",
@@ -700,7 +773,8 @@
         "href": "https://w3c.github.io/webrtc-identity/#dictionary-rtcconfiguration-members",
         "title": "Dictionary RTCConfiguration Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcidentityprovideroptions",
@@ -717,9 +791,13 @@
         "id": "rtcidentityprovideroptions-dictionary",
         "href": "https://w3c.github.io/webrtc-identity/#rtcidentityprovideroptions-dictionary",
         "title": "RTCIdentityProviderOptions Dictionary",
+        "alternateIds": [
+          "x9-2-rtcidentityprovideroptions-dictionary"
+        ],
         "number": "9.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-rtcidentityprovideroptions-protocol",
@@ -739,7 +817,8 @@
         "href": "https://w3c.github.io/webrtc-identity/#rtcidentityprovideroptions-members",
         "title": "RTCIdentityProviderOptions Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcidentityprovideroptions-usernamehint",
@@ -759,7 +838,8 @@
         "href": "https://w3c.github.io/webrtc-identity/#rtcidentityprovideroptions-members",
         "title": "RTCIdentityProviderOptions Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcidentityprovideroptions-peeridentity",
@@ -779,7 +859,8 @@
         "href": "https://w3c.github.io/webrtc-identity/#rtcidentityprovideroptions-members",
         "title": "RTCIdentityProviderOptions Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcidentityassertion",
@@ -796,9 +877,13 @@
         "id": "rtcidentityassertion-interface",
         "href": "https://w3c.github.io/webrtc-identity/#rtcidentityassertion-interface",
         "title": "RTCIdentityAssertion Interface",
+        "alternateIds": [
+          "x9-3-rtcidentityassertion-interface"
+        ],
         "number": "9.3"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-rtcidentityassertion-constructor",
@@ -822,9 +907,13 @@
         "id": "rtcidentityassertion-interface",
         "href": "https://w3c.github.io/webrtc-identity/#rtcidentityassertion-interface",
         "title": "RTCIdentityAssertion Interface",
+        "alternateIds": [
+          "x9-3-rtcidentityassertion-interface"
+        ],
         "number": "9.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-rtcidentityassertion-idp",
@@ -846,7 +935,8 @@
         "href": "https://w3c.github.io/webrtc-identity/#rtcidentityassertion-attributes",
         "title": "RTCIdentityAssertion Attributes"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcidentityassertion-name",
@@ -868,7 +958,8 @@
         "href": "https://w3c.github.io/webrtc-identity/#rtcidentityassertion-attributes",
         "title": "RTCIdentityAssertion Attributes"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "target-peer-identity",
@@ -885,9 +976,13 @@
         "id": "setting-a-remote-description",
         "href": "https://w3c.github.io/webrtc-identity/#setting-a-remote-description",
         "title": "Setting a Remote Description",
+        "alternateIds": [
+          "x9-7-setting-a-remote-description"
+        ],
         "number": "9.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-rtcerror-httprequeststatuscode",
@@ -908,9 +1003,13 @@
         "id": "attributes",
         "href": "https://w3c.github.io/webrtc-identity/#attributes",
         "title": "Attributes",
+        "alternateIds": [
+          "x10-1-attributes"
+        ],
         "number": "10.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcerrorinit",
@@ -928,7 +1027,8 @@
         "href": "https://w3c.github.io/webrtc-identity/#rtcerrorinit-dictionary",
         "title": "RTCErrorInit Dictionary"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-rtcerrorinit-httprequeststatuscode",
@@ -948,7 +1048,8 @@
         "href": "https://w3c.github.io/webrtc-identity/#rtcerrorinit-dictionary",
         "title": "RTCErrorInit Dictionary"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-rtcerrordetailtypeidp",
@@ -965,9 +1066,13 @@
         "id": "rtcerrordetailtypeidp-enum",
         "href": "https://w3c.github.io/webrtc-identity/#rtcerrordetailtypeidp-enum",
         "title": "RTCErrorDetailTypeIdp Enum",
+        "alternateIds": [
+          "x10-3-rtcerrordetailtypeidp-enum"
+        ],
         "number": "10.3"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-rtcerrordetailtypeidp-idp-bad-script-failure",
@@ -986,9 +1091,13 @@
         "id": "rtcerrordetailtypeidp-enum",
         "href": "https://w3c.github.io/webrtc-identity/#rtcerrordetailtypeidp-enum",
         "title": "RTCErrorDetailTypeIdp Enum",
+        "alternateIds": [
+          "x10-3-rtcerrordetailtypeidp-enum"
+        ],
         "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-rtcerrordetailtypeidp-idp-execution-failure",
@@ -1007,9 +1116,13 @@
         "id": "rtcerrordetailtypeidp-enum",
         "href": "https://w3c.github.io/webrtc-identity/#rtcerrordetailtypeidp-enum",
         "title": "RTCErrorDetailTypeIdp Enum",
+        "alternateIds": [
+          "x10-3-rtcerrordetailtypeidp-enum"
+        ],
         "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-rtcerrordetailtypeidp-idp-load-failure",
@@ -1028,9 +1141,13 @@
         "id": "rtcerrordetailtypeidp-enum",
         "href": "https://w3c.github.io/webrtc-identity/#rtcerrordetailtypeidp-enum",
         "title": "RTCErrorDetailTypeIdp Enum",
+        "alternateIds": [
+          "x10-3-rtcerrordetailtypeidp-enum"
+        ],
         "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-rtcerrordetailtypeidp-idp-need-login",
@@ -1049,9 +1166,13 @@
         "id": "rtcerrordetailtypeidp-enum",
         "href": "https://w3c.github.io/webrtc-identity/#rtcerrordetailtypeidp-enum",
         "title": "RTCErrorDetailTypeIdp Enum",
+        "alternateIds": [
+          "x10-3-rtcerrordetailtypeidp-enum"
+        ],
         "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-rtcerrordetailtypeidp-idp-timeout",
@@ -1070,9 +1191,13 @@
         "id": "rtcerrordetailtypeidp-enum",
         "href": "https://w3c.github.io/webrtc-identity/#rtcerrordetailtypeidp-enum",
         "title": "RTCErrorDetailTypeIdp Enum",
+        "alternateIds": [
+          "x10-3-rtcerrordetailtypeidp-enum"
+        ],
         "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-rtcerrordetailtypeidp-idp-tls-failure",
@@ -1091,9 +1216,13 @@
         "id": "rtcerrordetailtypeidp-enum",
         "href": "https://w3c.github.io/webrtc-identity/#rtcerrordetailtypeidp-enum",
         "title": "RTCErrorDetailTypeIdp Enum",
+        "alternateIds": [
+          "x10-3-rtcerrordetailtypeidp-enum"
+        ],
         "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-rtcerrordetailtypeidp-idp-token-expired",
@@ -1112,9 +1241,13 @@
         "id": "rtcerrordetailtypeidp-enum",
         "href": "https://w3c.github.io/webrtc-identity/#rtcerrordetailtypeidp-enum",
         "title": "RTCErrorDetailTypeIdp Enum",
+        "alternateIds": [
+          "x10-3-rtcerrordetailtypeidp-enum"
+        ],
         "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-rtcerrordetailtypeidp-idp-token-invalid",
@@ -1133,9 +1266,13 @@
         "id": "rtcerrordetailtypeidp-enum",
         "href": "https://w3c.github.io/webrtc-identity/#rtcerrordetailtypeidp-enum",
         "title": "RTCErrorDetailTypeIdp Enum",
+        "alternateIds": [
+          "x10-3-rtcerrordetailtypeidp-enum"
+        ],
         "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-mediastreamconstraints-peeridentity",
@@ -1155,7 +1292,8 @@
         "href": "https://w3c.github.io/webrtc-identity/#dictionary-mediastreamconstraints-members",
         "title": "Dictionary MediaStreamConstraints Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-peeridentity",
@@ -1172,9 +1310,13 @@
         "id": "isolated-media-streams",
         "href": "https://w3c.github.io/webrtc-identity/#isolated-media-streams",
         "title": "Isolated Media Streams",
+        "alternateIds": [
+          "x11-1-isolated-media-streams"
+        ],
         "number": "11.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mediastreamtrack-isolated",
@@ -1196,7 +1338,8 @@
         "href": "https://w3c.github.io/webrtc-identity/#attributes-2",
         "title": "Attributes"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-mediastreamtrack-onisolationchange",
@@ -1218,7 +1361,8 @@
         "href": "https://w3c.github.io/webrtc-identity/#attributes-2",
         "title": "Attributes"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "event-isolationchange",
@@ -1236,9 +1380,13 @@
       "heading": {
         "id": "event-summary",
         "href": "https://w3c.github.io/webrtc-identity/#event-summary",
-        "title": "13. Event summary"
+        "title": "13. Event summary",
+        "alternateIds": [
+          "x13-event-summary"
+        ]
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     }
   ]
 }

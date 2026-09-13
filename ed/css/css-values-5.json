@@ -18,14 +18,14 @@
       "values": [
         {
           "name": "numeric-only",
-          "prose": "An <intrinsic-size-keyword> cannot be interpolated.",
+          "prose": "A <size-keyword> can only be combined with a compatible <calc-size()>.",
           "href": "https://drafts.csswg.org/css-values-5/#valdef-interpolate-size-numeric-only",
           "type": "value",
           "value": "numeric-only"
         },
         {
           "name": "allow-keywords",
-          "prose": "Two values can also be interpolated if one of them is an <intrinsic-size-keyword> and the other is a <length-percentage>. This is done by treating the <intrinsic-size-keyword> keyword as though it is calc-size(keyword, size) and applying the rules in § 10.3 Interpolating calc-size(). In other cases, an <intrinsic-size-keyword> still cannot be interpolated.",
+          "prose": "Sizing values can also be combined if one of them is an <size-keyword> and the other is a <length-percentage>. This is done by treating the <size-keyword> keyword as though it is calc-size(keyword, size) and applying the rules in § 11.2 Interpolating calc-size(). In other cases, a <size-keyword> still cannot be interpolated.",
           "href": "https://drafts.csswg.org/css-values-5/#valdef-interpolate-size-allow-keywords",
           "type": "value",
           "value": "allow-keywords"
@@ -41,10 +41,11 @@
   "selectors": [],
   "values": [
     {
-      "name": "<boolean-expr[]>",
-      "prose": "Several contexts (such as @media, @supports, if(), ...) specify conditions, and allow combining those conditions with boolean logic (and/or/not/grouping). Because they use the same non-trivial recursive syntax structure, the special <boolean-expr[]> production represents this pattern generically.",
+      "name": "<boolean-expr>",
+      "prose": "Several contexts (such as @media, @supports, if(), ...) specify conditions, and allow combining those conditions with boolean logic (and/or/not/grouping). Because they use the same non-trivial recursive syntax structure, the special <boolean-expr> production represents this pattern generically.",
       "href": "https://drafts.csswg.org/css-values-5/#typedef-boolean-expr",
-      "type": "type"
+      "type": "type",
+      "value": "not <boolean-expr-group> | <boolean-expr-group> [ [ and <boolean-expr-group> ]* | [ or <boolean-expr-group> ]* ]"
     },
     {
       "name": "<syntax>",
@@ -93,30 +94,30 @@
       "prose": "<request-url-modifier>s are <url-modifier>s that affect the <url>’s resource request by applying associated URL request modifier steps. See CSS Values 4 § 4.5.4 URL Processing Model.",
       "href": "https://drafts.csswg.org/css-values-5/#typedef-request-url-modifier",
       "type": "type",
-      "value": "<crossorigin-modifier> | <integrity-modifier> | <referrerpolicy-modifier>",
+      "value": "<cross-origin-modifier> | <integrity-modifier> | <referrer-policy-modifier>",
       "values": [
         {
-          "name": "<crossorigin-modifier>",
-          "value": "crossorigin(anonymous | use-credentials)",
-          "href": "https://drafts.csswg.org/css-values-5/#typedef-request-url-modifier-crossorigin-modifier",
+          "name": "<cross-origin-modifier>",
+          "value": "cross-origin(anonymous | use-credentials)",
+          "href": "https://drafts.csswg.org/css-values-5/#typedef-request-url-modifier-cross-origin-modifier",
           "type": "type"
         },
         {
-          "name": "crossorigin()",
-          "prose": "<crossorigin-modifier> = crossorigin(anonymous | use-credentials)",
-          "href": "https://drafts.csswg.org/css-values-5/#funcdef-request-url-modifier-crossorigin",
+          "name": "cross-origin()",
+          "prose": "<cross-origin-modifier> = cross-origin(anonymous | use-credentials)",
+          "href": "https://drafts.csswg.org/css-values-5/#funcdef-request-url-modifier-cross-origin",
           "type": "function"
         },
         {
           "name": "anonymous",
-          "prose": "<crossorigin-modifier> = crossorigin(anonymous | use-credentials)",
+          "prose": "<cross-origin-modifier> = cross-origin(anonymous | use-credentials)",
           "href": "https://drafts.csswg.org/css-values-5/#valdef-request-url-modifier-anonymous",
           "type": "value",
           "value": "anonymous"
         },
         {
           "name": "use-credentials",
-          "prose": "<crossorigin-modifier> = crossorigin(anonymous | use-credentials)",
+          "prose": "<cross-origin-modifier> = cross-origin(anonymous | use-credentials)",
           "href": "https://drafts.csswg.org/css-values-5/#valdef-request-url-modifier-use-credentials",
           "type": "value",
           "value": "use-credentials"
@@ -134,69 +135,69 @@
           "type": "function"
         },
         {
-          "name": "<referrerpolicy-modifier>",
-          "value": "referrerpolicy(no-referrer | no-referrer-when-downgrade | same-origin | origin | strict-origin | origin-when-cross-origin | strict-origin-when-cross-origin | unsafe-url)",
-          "href": "https://drafts.csswg.org/css-values-5/#typedef-request-url-modifier-referrerpolicy-modifier",
+          "name": "<referrer-policy-modifier>",
+          "value": "referrer-policy(no-referrer | no-referrer-when-downgrade | same-origin | origin | strict-origin | origin-when-cross-origin | strict-origin-when-cross-origin | unsafe-url)",
+          "href": "https://drafts.csswg.org/css-values-5/#typedef-request-url-modifier-referrer-policy-modifier",
           "type": "type"
         },
         {
-          "name": "referrerpolicy()",
-          "prose": "<referrerpolicy-modifier> = referrerpolicy(no-referrer | no-referrer-when-downgrade | same-origin | origin | strict-origin | origin-when-cross-origin | strict-origin-when-cross-origin | unsafe-url)",
-          "href": "https://drafts.csswg.org/css-values-5/#funcdef-request-url-modifier-referrerpolicy",
+          "name": "referrer-policy()",
+          "prose": "<referrer-policy-modifier> = referrer-policy(no-referrer | no-referrer-when-downgrade | same-origin | origin | strict-origin | origin-when-cross-origin | strict-origin-when-cross-origin | unsafe-url)",
+          "href": "https://drafts.csswg.org/css-values-5/#funcdef-request-url-modifier-referrer-policy",
           "type": "function"
         },
         {
           "name": "no-referrer",
-          "prose": "<referrerpolicy-modifier> = referrerpolicy(no-referrer | no-referrer-when-downgrade | same-origin | origin | strict-origin | origin-when-cross-origin | strict-origin-when-cross-origin | unsafe-url)",
+          "prose": "<referrer-policy-modifier> = referrer-policy(no-referrer | no-referrer-when-downgrade | same-origin | origin | strict-origin | origin-when-cross-origin | strict-origin-when-cross-origin | unsafe-url)",
           "href": "https://drafts.csswg.org/css-values-5/#valdef-request-url-modifier-no-referrer",
           "type": "value",
           "value": "no-referrer"
         },
         {
           "name": "no-referrer-when-downgrade",
-          "prose": "<referrerpolicy-modifier> = referrerpolicy(no-referrer | no-referrer-when-downgrade | same-origin | origin | strict-origin | origin-when-cross-origin | strict-origin-when-cross-origin | unsafe-url)",
+          "prose": "<referrer-policy-modifier> = referrer-policy(no-referrer | no-referrer-when-downgrade | same-origin | origin | strict-origin | origin-when-cross-origin | strict-origin-when-cross-origin | unsafe-url)",
           "href": "https://drafts.csswg.org/css-values-5/#valdef-request-url-modifier-no-referrer-when-downgrade",
           "type": "value",
           "value": "no-referrer-when-downgrade"
         },
         {
           "name": "same-origin",
-          "prose": "<referrerpolicy-modifier> = referrerpolicy(no-referrer | no-referrer-when-downgrade | same-origin | origin | strict-origin | origin-when-cross-origin | strict-origin-when-cross-origin | unsafe-url)",
+          "prose": "<referrer-policy-modifier> = referrer-policy(no-referrer | no-referrer-when-downgrade | same-origin | origin | strict-origin | origin-when-cross-origin | strict-origin-when-cross-origin | unsafe-url)",
           "href": "https://drafts.csswg.org/css-values-5/#valdef-request-url-modifier-same-origin",
           "type": "value",
           "value": "same-origin"
         },
         {
           "name": "origin",
-          "prose": "<referrerpolicy-modifier> = referrerpolicy(no-referrer | no-referrer-when-downgrade | same-origin | origin | strict-origin | origin-when-cross-origin | strict-origin-when-cross-origin | unsafe-url)",
+          "prose": "<referrer-policy-modifier> = referrer-policy(no-referrer | no-referrer-when-downgrade | same-origin | origin | strict-origin | origin-when-cross-origin | strict-origin-when-cross-origin | unsafe-url)",
           "href": "https://drafts.csswg.org/css-values-5/#valdef-request-url-modifier-origin",
           "type": "value",
           "value": "origin"
         },
         {
           "name": "strict-origin",
-          "prose": "<referrerpolicy-modifier> = referrerpolicy(no-referrer | no-referrer-when-downgrade | same-origin | origin | strict-origin | origin-when-cross-origin | strict-origin-when-cross-origin | unsafe-url)",
+          "prose": "<referrer-policy-modifier> = referrer-policy(no-referrer | no-referrer-when-downgrade | same-origin | origin | strict-origin | origin-when-cross-origin | strict-origin-when-cross-origin | unsafe-url)",
           "href": "https://drafts.csswg.org/css-values-5/#valdef-request-url-modifier-strict-origin",
           "type": "value",
           "value": "strict-origin"
         },
         {
           "name": "origin-when-cross-origin",
-          "prose": "<referrerpolicy-modifier> = referrerpolicy(no-referrer | no-referrer-when-downgrade | same-origin | origin | strict-origin | origin-when-cross-origin | strict-origin-when-cross-origin | unsafe-url)",
+          "prose": "<referrer-policy-modifier> = referrer-policy(no-referrer | no-referrer-when-downgrade | same-origin | origin | strict-origin | origin-when-cross-origin | strict-origin-when-cross-origin | unsafe-url)",
           "href": "https://drafts.csswg.org/css-values-5/#valdef-request-url-modifier-origin-when-cross-origin",
           "type": "value",
           "value": "origin-when-cross-origin"
         },
         {
           "name": "strict-origin-when-cross-origin",
-          "prose": "<referrerpolicy-modifier> = referrerpolicy(no-referrer | no-referrer-when-downgrade | same-origin | origin | strict-origin | origin-when-cross-origin | strict-origin-when-cross-origin | unsafe-url)",
+          "prose": "<referrer-policy-modifier> = referrer-policy(no-referrer | no-referrer-when-downgrade | same-origin | origin | strict-origin | origin-when-cross-origin | strict-origin-when-cross-origin | unsafe-url)",
           "href": "https://drafts.csswg.org/css-values-5/#valdef-request-url-modifier-strict-origin-when-cross-origin",
           "type": "value",
           "value": "strict-origin-when-cross-origin"
         },
         {
           "name": "unsafe-url",
-          "prose": "<referrerpolicy-modifier> = referrerpolicy(no-referrer | no-referrer-when-downgrade | same-origin | origin | strict-origin | origin-when-cross-origin | strict-origin-when-cross-origin | unsafe-url)",
+          "prose": "<referrer-policy-modifier> = referrer-policy(no-referrer | no-referrer-when-downgrade | same-origin | origin | strict-origin | origin-when-cross-origin | strict-origin-when-cross-origin | unsafe-url)",
           "href": "https://drafts.csswg.org/css-values-5/#valdef-request-url-modifier-unsafe-url",
           "type": "value",
           "value": "unsafe-url"
@@ -247,28 +248,28 @@
         },
         {
           "name": "y-start",
-          "prose": "Computes the same as the physical edge keyword corresponding to the start/end side in the [=y-axis|y/x axis.",
+          "prose": "Computes the same as the physical edge keyword corresponding to the start/end side in the y/x axis.",
           "href": "https://drafts.csswg.org/css-values-5/#valdef-position-y-start",
           "type": "value",
           "value": "y-start"
         },
         {
           "name": "y-end",
-          "prose": "Computes the same as the physical edge keyword corresponding to the start/end side in the [=y-axis|y/x axis.",
+          "prose": "Computes the same as the physical edge keyword corresponding to the start/end side in the y/x axis.",
           "href": "https://drafts.csswg.org/css-values-5/#valdef-position-y-end",
           "type": "value",
           "value": "y-end"
         },
         {
           "name": "x-start",
-          "prose": "Computes the same as the physical edge keyword corresponding to the start/end side in the [=y-axis|y/x axis.",
+          "prose": "Computes the same as the physical edge keyword corresponding to the start/end side in the y/x axis.",
           "href": "https://drafts.csswg.org/css-values-5/#valdef-position-x-start",
           "type": "value",
           "value": "x-start"
         },
         {
           "name": "x-end",
-          "prose": "Computes the same as the physical edge keyword corresponding to the start/end side in the [=y-axis|y/x axis.",
+          "prose": "Computes the same as the physical edge keyword corresponding to the start/end side in the y/x axis.",
           "href": "https://drafts.csswg.org/css-values-5/#valdef-position-x-end",
           "type": "value",
           "value": "x-end"
@@ -330,130 +331,249 @@
     },
     {
       "name": "progress()",
-      "prose": "The progress() functional notation returns a <number> value representing the position of one calculation (the progress value) between two other calculations (the progress start value and progress end value). progress() is a math function.",
+      "prose": "The progress() functional notation represents the proportional distance of a given value (the progress value) from one value (the progress start value) to another value (the progress end value), each represented as a calculation. It is a math function, and can be input into other calculations such as a math function or a mix notation. The syntax of progress() is:",
       "href": "https://drafts.csswg.org/css-values-5/#funcdef-progress",
-      "type": "function"
-    },
-    {
-      "name": "<progress()>",
-      "href": "https://drafts.csswg.org/css-values-5/#typedef-progress-fn",
-      "type": "type",
-      "value": "progress(<calc-sum>, <calc-sum>, <calc-sum>)"
-    },
-    {
-      "name": "media-progress()",
-      "prose": "Similar to the progress() notation, the media-progress() functional notation returns a <number> value representing current value of the specified media query [MEDIAQUERIES-4] as a progress value between two explicit values of the media query (as the progress start value and progress end value).",
-      "href": "https://drafts.csswg.org/css-values-5/#funcdef-media-progress",
-      "type": "function"
-    },
-    {
-      "name": "<media-progress()>",
-      "href": "https://drafts.csswg.org/css-values-5/#typedef-media-progress",
-      "type": "type",
-      "value": "media-progress(<mf-name>, <calc-sum>, <calc-sum>)"
-    },
-    {
-      "name": "container-progress()",
-      "prose": "The container-progress() functional notation is identical to the media-progress() functional notation, except that it accepts container features [CSS-CONTAIN-3] in place of media features.",
-      "href": "https://drafts.csswg.org/css-values-5/#funcdef-container-progress",
-      "type": "function"
-    },
-    {
-      "name": "<container-progress()>",
-      "href": "https://drafts.csswg.org/css-values-5/#typedef-container-progress",
-      "type": "type",
-      "value": "container-progress(<mf-name> [ of <container-name> ]?, <calc-sum>, <calc-sum>)"
-    },
-    {
-      "name": "<progress>",
-      "prose": "The <progress> value type represents the mix progress value in a mix notation, and ultimately resolves to a percentage. It can, however, draw that percentage value from sources such as media queries and animation timelines, and can also convert it through an easing function before using it for interpolation.",
-      "href": "https://drafts.csswg.org/css-values-5/#typedef-progress",
-      "type": "type",
-      "value": "[ <percentage> | <number> | <'animation-timeline'> ] && [ by <easing-function> ]?",
+      "type": "function",
+      "value": "progress(no-clamp? <calc-sum>, <calc-sum>, <calc-sum>)",
       "values": [
         {
-          "name": "<percentage-token>",
-          "prose": "Computes to the equivalent <number>: 0% becomes 0, 100% becomes 1, etc.",
-          "href": "https://drafts.csswg.org/css-values-5/#valdef-progress-percentage-token",
+          "name": "no-clamp",
+          "prose": "If no-clamp is present, the progress() function can potentially resolve to any number; if omitted (the default), the return value is clamped to the range [0, 1].",
+          "href": "https://drafts.csswg.org/css-values-5/#valdef-progress-no-clamp",
           "type": "value",
-          "value": "<percentage-token>"
-        },
-        {
-          "name": "<number>",
-          "prose": "Represents the mix progress value.",
-          "href": "https://drafts.csswg.org/css-values-5/#valdef-progress-number",
-          "type": "value",
-          "value": "<number>"
-        },
-        {
-          "name": "<'animation-timeline'>",
-          "prose": "Represents the mix progress value as the progress of the specified animation timeline. The values none and auto, however, are invalid. [CSS-ANIMATIONS-2] [WEB-ANIMATIONS-2]",
-          "href": "https://drafts.csswg.org/css-values-5/#valdef-progress-animation-timeline",
-          "type": "value",
-          "value": "<'animation-timeline'>"
-        },
-        {
-          "name": "<easing-function>",
-          "prose": "Converts the specified input mix progress value into an output mix progress value using the specified easing function. [CSS-EASING-1]",
-          "href": "https://drafts.csswg.org/css-values-5/#valdef-progress-easing-function",
-          "type": "value",
-          "value": "<easing-function>"
+          "value": "no-clamp"
         }
       ]
     },
     {
       "name": "calc-mix()",
-      "prose": "The calc-mix() mix notation represents an interpolated numeric or dimensional value. Like calc(), it is a math function, with the following syntactic form:",
+      "prose": "The calc-mix() mix notation represents a weighted average of numeric or dimensional value. Like calc(), it is a math function, with the following syntactic form:",
       "href": "https://drafts.csswg.org/css-values-5/#funcdef-calc-mix",
-      "type": "function"
-    },
-    {
-      "name": "<calc-mix()>",
-      "href": "https://drafts.csswg.org/css-values-5/#typedef-calc-mix",
-      "type": "type",
-      "value": "calc-mix( <progress>, <calc-sum>, <calc-sum> )"
+      "type": "function",
+      "value": "calc-mix( [ <calc-sum> <percentage [0,100]>? ]# )"
     },
     {
       "name": "transform-mix()",
-      "prose": "The transform-mix() mix notation represents an interpolated <transform-list>, with the following syntactic form:",
+      "prose": "The transform-mix() mix notation represents a weighted average of <transform-list>, with the following syntactic form:",
       "href": "https://drafts.csswg.org/css-values-5/#funcdef-transform-mix",
-      "type": "function"
+      "type": "function",
+      "value": "transform-mix( [ <transform-list> && <percentage [0,100]> ]# )"
     },
     {
-      "name": "<transform-mix()>",
-      "href": "https://drafts.csswg.org/css-values-5/#typedef-transform-mix",
+      "name": "<progress-source>",
+      "prose": "The <progress-source> value type represents the interpolation progress in an interpolation notation. Its syntax is:",
+      "href": "https://drafts.csswg.org/css-values-5/#typedef-progress-source",
       "type": "type",
-      "value": "transform-mix( <progress>, <transform-list>, <transform-list> )"
+      "value": "<percentage> | <number> | <dimension> | <'animation-timeline'>",
+      "values": [
+        {
+          "name": "<percentage>",
+          "prose": "Represents the interpolation progress as a percentage, with 0% computing to zero and 100% computing to 1.",
+          "href": "https://drafts.csswg.org/css-values-5/#valdef-progress-source-percentage",
+          "type": "value",
+          "value": "<percentage>"
+        },
+        {
+          "name": "<number>",
+          "prose": "Represents the interpolation progress as a number directly.",
+          "href": "https://drafts.csswg.org/css-values-5/#valdef-progress-source-number",
+          "type": "value",
+          "value": "<number>"
+        },
+        {
+          "name": "<dimension>",
+          "prose": "Represents the interpolation progress as a dimension, which is converted to a number as specified in § 7.2 Validation and Normalization.",
+          "href": "https://drafts.csswg.org/css-values-5/#valdef-progress-source-dimension",
+          "type": "value",
+          "value": "<dimension>"
+        },
+        {
+          "name": "<'animation-timeline'>",
+          "prose": "Represents the interpolation progress as the progress of the specified animation timeline. The values none and auto are invalid. [CSS-ANIMATIONS-2] [WEB-ANIMATIONS-2] If the specified timeline does not exist on the element or otherwise doesn’t have a progress for some reason, this represents an interpolation progress of 0.",
+          "href": "https://drafts.csswg.org/css-values-5/#valdef-progress-source-animation-timeline",
+          "type": "value",
+          "value": "<'animation-timeline'>"
+        }
+      ]
     },
     {
-      "name": "mix()",
-      "prose": "Interpolation of any two property values can be represented by the mix() mix notation, which supports two alternative syntax patterns:",
-      "href": "https://drafts.csswg.org/css-values-5/#funcdef-mix",
-      "type": "function"
+      "name": "calc-interpolate()",
+      "prose": "The calc-interpolate() interpolation notation represents an interpolated numeric or dimensional value. Like calc(), it is a math function, with the following syntax:",
+      "href": "https://drafts.csswg.org/css-values-5/#funcdef-calc-interpolate",
+      "type": "function",
+      "value": "calc-interpolate( [ <progress-source> && [ by <easing-function> ]? && <easing-function>? ] , <input-position>{1,2} : <calc-sum> , [ <easing-function>? , <input-position>{1,2} : <calc-sum> ]#? )",
+      "values": [
+        {
+          "name": "by",
+          "prose": "The interpolation progress given by <progress-source> may be optionally modified by the <easing-function> specified after the by keyword. It applies the specified easing function to the “timeline” of progress as a whole by modifying the interpolation progress before it’s applied to the interpolation map, analogous to animation-timing-function.",
+          "href": "https://drafts.csswg.org/css-values-5/#valdef-calc-interpolate-by",
+          "type": "value",
+          "value": "by"
+        },
+        {
+          "name": "<input-position>",
+          "value": "<percentage> | <number> | <dimension>",
+          "href": "https://drafts.csswg.org/css-values-5/#typedef-calc-interpolate-input-position",
+          "type": "type"
+        },
+        {
+          "name": "<output-value>",
+          "href": "https://drafts.csswg.org/css-values-5/#typedef-calc-interpolate-input-position",
+          "type": "type"
+        },
+        {
+          "name": "<easing-function>",
+          "prose": "When appearing in the first argument, specifies the “default” easing function to be used between each stop. When appearing between stops, specifies the easing function to be used between the two surrounding stops, overriding any default provided by a global <easing-function> argument. (It is analogous to animation-timing-function.) If omitted, defaults to linear. The input progress value to this easing function is the segment interpolation progress—​how far the interpolation progress is between the input positions of the nearest stops preceding and following it. For example, in color-interpolate(20%, 0%: red, ease-in-out, 80%: green, 100%: blue), the 20% interpolation progress becomes a 25% segment interpolation progress, as 20% is 25% of the way between 0% and 80%, the surrounding input positions.",
+          "href": "https://drafts.csswg.org/css-values-5/#valdef-calc-interpolate-easing-function",
+          "type": "value",
+          "value": "<easing-function>"
+        },
+        {
+          "name": "<segment-options>",
+          "prose": "When appearing in the first argument, provides any type-specific interpolation options that apply to every segment in the interpolation map. (For example, color-interpolate() allows <color-interpolation-method>.) When appearing between stops, provides any type-specific interpolation options that apply to the interpolation segment between the stops on either side of this argument, overriding any default provided by a corresponding global <segment-options> argument.",
+          "href": "https://drafts.csswg.org/css-values-5/#typedef-calc-interpolate-segment-options",
+          "type": "type"
+        }
+      ]
     },
     {
-      "name": "<mix()>",
-      "href": "https://drafts.csswg.org/css-values-5/#typedef-mix",
-      "type": "type",
-      "value": "mix( <progress> , <whole-value> , <whole-value> ) | mix( <progress> && of <keyframes-name> )"
+      "name": "color-interpolate()",
+      "prose": "The color-interpolate() interpolation notation represents an interpolated <color> value, with the following syntax:",
+      "href": "https://drafts.csswg.org/css-values-5/#funcdef-color-interpolate",
+      "type": "function",
+      "value": "color-interpolate( [ <progress-source> && [ by <easing-function> ]? && <easing-function>? && <color-interpolation-method>? ] , <input-position>{1,2} : <color>, [ [ <easing-function> || <color-interpolation-method> ]?, <input-position>{1,2} : <color> ]#? )",
+      "values": [
+        {
+          "name": "by",
+          "prose": "The interpolation progress given by <progress-source> may be optionally modified by the <easing-function> specified after the by keyword. It applies the specified easing function to the “timeline” of progress as a whole by modifying the interpolation progress before it’s applied to the interpolation map, analogous to animation-timing-function.",
+          "href": "https://drafts.csswg.org/css-values-5/#valdef-calc-interpolate-by",
+          "type": "value",
+          "value": "by"
+        },
+        {
+          "name": "<input-position>",
+          "value": "<percentage> | <number> | <dimension>",
+          "href": "https://drafts.csswg.org/css-values-5/#typedef-calc-interpolate-input-position",
+          "type": "type"
+        },
+        {
+          "name": "<output-value>",
+          "href": "https://drafts.csswg.org/css-values-5/#typedef-calc-interpolate-input-position",
+          "type": "type"
+        },
+        {
+          "name": "<easing-function>",
+          "prose": "When appearing in the first argument, specifies the “default” easing function to be used between each stop. When appearing between stops, specifies the easing function to be used between the two surrounding stops, overriding any default provided by a global <easing-function> argument. (It is analogous to animation-timing-function.) If omitted, defaults to linear. The input progress value to this easing function is the segment interpolation progress—​how far the interpolation progress is between the input positions of the nearest stops preceding and following it. For example, in color-interpolate(20%, 0%: red, ease-in-out, 80%: green, 100%: blue), the 20% interpolation progress becomes a 25% segment interpolation progress, as 20% is 25% of the way between 0% and 80%, the surrounding input positions.",
+          "href": "https://drafts.csswg.org/css-values-5/#valdef-calc-interpolate-easing-function",
+          "type": "value",
+          "value": "<easing-function>"
+        },
+        {
+          "name": "<segment-options>",
+          "prose": "When appearing in the first argument, provides any type-specific interpolation options that apply to every segment in the interpolation map. (For example, color-interpolate() allows <color-interpolation-method>.) When appearing between stops, provides any type-specific interpolation options that apply to the interpolation segment between the stops on either side of this argument, overriding any default provided by a corresponding global <segment-options> argument.",
+          "href": "https://drafts.csswg.org/css-values-5/#typedef-calc-interpolate-segment-options",
+          "type": "type"
+        }
+      ]
+    },
+    {
+      "name": "transform-interpolate()",
+      "prose": "The transform-interpolate() interpolation notation represents an interpolated <transform-list>, with the following syntax:",
+      "href": "https://drafts.csswg.org/css-values-5/#funcdef-transform-interpolate",
+      "type": "function",
+      "value": "transform-interpolate( [ <progress-source> && [ by <easing-function> ]? && <easing-function>? ], <input-position>{1,2} : <transform-list>, [ <easing-function>?, <input-position>{1,2} : <transform-list> ]#? )",
+      "values": [
+        {
+          "name": "by",
+          "prose": "The interpolation progress given by <progress-source> may be optionally modified by the <easing-function> specified after the by keyword. It applies the specified easing function to the “timeline” of progress as a whole by modifying the interpolation progress before it’s applied to the interpolation map, analogous to animation-timing-function.",
+          "href": "https://drafts.csswg.org/css-values-5/#valdef-calc-interpolate-by",
+          "type": "value",
+          "value": "by"
+        },
+        {
+          "name": "<input-position>",
+          "value": "<percentage> | <number> | <dimension>",
+          "href": "https://drafts.csswg.org/css-values-5/#typedef-calc-interpolate-input-position",
+          "type": "type"
+        },
+        {
+          "name": "<output-value>",
+          "href": "https://drafts.csswg.org/css-values-5/#typedef-calc-interpolate-input-position",
+          "type": "type"
+        },
+        {
+          "name": "<easing-function>",
+          "prose": "When appearing in the first argument, specifies the “default” easing function to be used between each stop. When appearing between stops, specifies the easing function to be used between the two surrounding stops, overriding any default provided by a global <easing-function> argument. (It is analogous to animation-timing-function.) If omitted, defaults to linear. The input progress value to this easing function is the segment interpolation progress—​how far the interpolation progress is between the input positions of the nearest stops preceding and following it. For example, in color-interpolate(20%, 0%: red, ease-in-out, 80%: green, 100%: blue), the 20% interpolation progress becomes a 25% segment interpolation progress, as 20% is 25% of the way between 0% and 80%, the surrounding input positions.",
+          "href": "https://drafts.csswg.org/css-values-5/#valdef-calc-interpolate-easing-function",
+          "type": "value",
+          "value": "<easing-function>"
+        },
+        {
+          "name": "<segment-options>",
+          "prose": "When appearing in the first argument, provides any type-specific interpolation options that apply to every segment in the interpolation map. (For example, color-interpolate() allows <color-interpolation-method>.) When appearing between stops, provides any type-specific interpolation options that apply to the interpolation segment between the stops on either side of this argument, overriding any default provided by a corresponding global <segment-options> argument.",
+          "href": "https://drafts.csswg.org/css-values-5/#typedef-calc-interpolate-segment-options",
+          "type": "type"
+        }
+      ]
+    },
+    {
+      "name": "interpolate()",
+      "prose": "The interpolate() interpolation notation represents the interpolation of entire property values, which supports two alternative syntax patterns:",
+      "href": "https://drafts.csswg.org/css-values-5/#funcdef-interpolate",
+      "type": "function",
+      "value": "interpolate( [ <progress-source> && [ by <easing-function> ]? && <easing-function>? ] , <input-position>{1,2} : <whole-value>, [ <easing-function>?, <input-position>{1,2} : <whole-value> ]#? ) | interpolate( <progress-source> && [ by <easing-function> ]? && <easing-function>? of <keyframes-name> )",
+      "values": [
+        {
+          "name": "by",
+          "prose": "The interpolation progress given by <progress-source> may be optionally modified by the <easing-function> specified after the by keyword. It applies the specified easing function to the “timeline” of progress as a whole by modifying the interpolation progress before it’s applied to the interpolation map, analogous to animation-timing-function.",
+          "href": "https://drafts.csswg.org/css-values-5/#valdef-calc-interpolate-by",
+          "type": "value",
+          "value": "by"
+        },
+        {
+          "name": "<input-position>",
+          "value": "<percentage> | <number> | <dimension>",
+          "href": "https://drafts.csswg.org/css-values-5/#typedef-calc-interpolate-input-position",
+          "type": "type"
+        },
+        {
+          "name": "<output-value>",
+          "href": "https://drafts.csswg.org/css-values-5/#typedef-calc-interpolate-input-position",
+          "type": "type"
+        },
+        {
+          "name": "<easing-function>",
+          "prose": "When appearing in the first argument, specifies the “default” easing function to be used between each stop. When appearing between stops, specifies the easing function to be used between the two surrounding stops, overriding any default provided by a global <easing-function> argument. (It is analogous to animation-timing-function.) If omitted, defaults to linear. The input progress value to this easing function is the segment interpolation progress—​how far the interpolation progress is between the input positions of the nearest stops preceding and following it. For example, in color-interpolate(20%, 0%: red, ease-in-out, 80%: green, 100%: blue), the 20% interpolation progress becomes a 25% segment interpolation progress, as 20% is 25% of the way between 0% and 80%, the surrounding input positions.",
+          "href": "https://drafts.csswg.org/css-values-5/#valdef-calc-interpolate-easing-function",
+          "type": "value",
+          "value": "<easing-function>"
+        },
+        {
+          "name": "<segment-options>",
+          "prose": "When appearing in the first argument, provides any type-specific interpolation options that apply to every segment in the interpolation map. (For example, color-interpolate() allows <color-interpolation-method>.) When appearing between stops, provides any type-specific interpolation options that apply to the interpolation segment between the stops on either side of this argument, overriding any default provided by a corresponding global <segment-options> argument.",
+          "href": "https://drafts.csswg.org/css-values-5/#typedef-calc-interpolate-segment-options",
+          "type": "type"
+        }
+      ]
+    },
+    {
+      "name": "<whole-value>",
+      "href": "https://drafts.csswg.org/css-values-5/#whole-value",
+      "type": "type"
     },
     {
       "name": "first-valid()",
       "prose": "The first-valid() functional notation inlines the fallback behavior intrinsic to parsing declarations. Unlike most notations, it can accept any valid or invalid syntax in its arguments, and represents the first value among its arguments that is supported (parsed as valid) by the UA as the whole value of the property it’s used in.",
       "href": "https://drafts.csswg.org/css-values-5/#funcdef-first-valid",
-      "type": "function"
-    },
-    {
-      "name": "<first-valid()>",
-      "href": "https://drafts.csswg.org/css-values-5/#typedef-first-valid",
-      "type": "type",
+      "type": "function",
       "value": "first-valid( <declaration-value># )"
     },
     {
       "name": "if()",
-      "prose": "The if() notation is an arbitrary substitution function that represents conditional values. Its argument consists of an ordered semi-colon–separated list of statements, each consisting of a condition followed by a colon followed by a value. An if() notation represents the value corresponding to the first condition in its argument list to be true; if no condition matches, then the if() notation represents an empty token stream.",
+      "prose": "The if() function is an arbitrary substitution function that represents conditional values. Its argument consists of an ordered semi-colon–separated list of statements, each consisting of a condition followed by a colon followed by a value. An if() function represents the value corresponding to the first condition in its argument list to be true; if no condition matches, then the if() function represents an empty token stream.",
       "href": "https://drafts.csswg.org/css-values-5/#funcdef-if",
       "type": "function",
+      "value": "if( [ <if-branch> ; ]* <if-branch> ;? )",
       "values": [
         {
           "name": "else",
@@ -465,10 +585,10 @@
       ]
     },
     {
-      "name": "<if()>",
-      "href": "https://drafts.csswg.org/css-values-5/#typedef-if",
+      "name": "<if-branch>",
+      "href": "https://drafts.csswg.org/css-values-5/#typedef-if-branch",
       "type": "type",
-      "value": "if( [ <if-condition> : <declaration-value>? ; ]* <if-condition> : <declaration-value>? ;? )"
+      "value": "<if-condition> : <declaration-value>?"
     },
     {
       "name": "<if-condition>",
@@ -480,38 +600,54 @@
       "name": "<if-test>",
       "href": "https://drafts.csswg.org/css-values-5/#typedef-if-test",
       "type": "type",
-      "value": "supports( [ <supports-condition> | <ident> : <declaration-value> ] ) | media( <media-query> ) | style( <style-query> )"
+      "value": "supports( [ <ident> : <declaration-value> ] | <supports-condition> ) | media( <media-feature> | <media-condition> ) | style( <style-query> )"
     },
     {
-      "name": "toggle()",
-      "prose": "The toggle() expression allows descendant elements to cycle over a list of values instead of inheriting the same value.",
-      "href": "https://drafts.csswg.org/css-values-5/#funcdef-toggle",
-      "type": "function"
-    },
-    {
-      "name": "<toggle()>",
-      "href": "https://drafts.csswg.org/css-values-5/#typedef-toggle",
+      "name": "<if-args>",
+      "href": "https://drafts.csswg.org/css-values-5/#typedef-if-args",
       "type": "type",
-      "value": "toggle( <whole-value># )"
+      "value": "if( [ <if-args-branch> ; ]* <if-args-branch> ;? )"
+    },
+    {
+      "name": "<if-args-branch>",
+      "href": "https://drafts.csswg.org/css-values-5/#typedef-if-args-branch",
+      "type": "type",
+      "value": "<declaration-value> : <declaration-value>?"
+    },
+    {
+      "name": "cycle()",
+      "prose": "The cycle() expression allows descendant elements to cycle over a list of values instead of inheriting the same value.",
+      "href": "https://drafts.csswg.org/css-values-5/#funcdef-cycle",
+      "type": "function",
+      "value": "cycle( <whole-value># )"
     },
     {
       "name": "inherit()",
-      "prose": "Like the inherit keyword, the inherit() functional notation resolves to the computed value of a property on the parent. Rather than resolving to the value of the same property, however, it resolves to the tokenized computed value of the property specified as its first argument. Its second argument, if present, is used as a fallback in case the first argument resolves to the guaranteed-invalid value.",
+      "prose": "Like the inherit keyword, the inherit() functional notation resolves to the computed value of a property on the parent. Rather than resolving to the value of the same property, however, it resolves to a sequence of component values representing the computed value of the property specified as its first argument. Its second argument, if present, is used as a fallback in case the first argument resolves to the guaranteed-invalid value.",
       "href": "https://drafts.csswg.org/css-values-5/#funcdef-inherit",
-      "type": "function"
+      "type": "function",
+      "value": "inherit( <custom-property-name>, <declaration-value>? )"
     },
     {
-      "name": "<inherit()>",
-      "href": "https://drafts.csswg.org/css-values-5/#typedef-inherit",
+      "name": "<inherit-args>",
+      "href": "https://drafts.csswg.org/css-values-5/#typedef-inherit-args",
       "type": "type",
-      "value": "inherit( <custom-property-name>, <declaration-value>? )"
+      "value": "inherit( <declaration-value>, <declaration-value>? )"
     },
     {
       "name": "attr()",
       "prose": "The attr() function substitutes the value of an attribute on an element into a property, similar to how the var() function substitutes a custom property value into a function.",
       "href": "https://drafts.csswg.org/css-values-5/#funcdef-attr",
       "type": "function",
-      "value": "attr( <attr-name> <attr-type>? , <declaration-value>?)"
+      "value": "attr( <attr-name> <attr-type>? , <declaration-value>?)",
+      "values": [
+        {
+          "name": "type()",
+          "value": "type( <syntax> )",
+          "href": "https://drafts.csswg.org/css-values-5/#funcdef-attr-type",
+          "type": "function"
+        }
+      ]
     },
     {
       "name": "<attr-name>",
@@ -523,33 +659,126 @@
       "name": "<attr-type>",
       "href": "https://drafts.csswg.org/css-values-5/#typedef-attr-type",
       "type": "type",
-      "value": "type( <syntax> ) | string | <attr-unit>"
+      "value": "type( <syntax> ) | raw-string | number | <attr-unit>"
     },
     {
       "name": "<attr-unit>",
-      "prose": "The <attr-unit> production matches any identifier that is an ASCII case-insensitive match for the name of a CSS dimension unit, such as px, or the <delim-token> %. It is not expanded literally here, as the set of units expands over time.",
       "href": "https://drafts.csswg.org/css-values-5/#typedef-attr-unit",
-      "type": "type"
+      "type": "type",
+      "value": "<custom-ident>"
+    },
+    {
+      "name": "<attr-args>",
+      "href": "https://drafts.csswg.org/css-values-5/#typedef-attr-args",
+      "type": "type",
+      "value": "attr( <declaration-value>, <declaration-value>? )"
+    },
+    {
+      "name": "ident()",
+      "prose": "The ident() function represents an arbitrary <ident>, built from one or more separate idents, strings, and integers. It is an arbitrary substitution function.",
+      "href": "https://drafts.csswg.org/css-values-5/#funcdef-ident",
+      "type": "function",
+      "value": "ident( <ident-arg>+ )"
+    },
+    {
+      "name": "<ident-arg>",
+      "href": "https://drafts.csswg.org/css-values-5/#typedef-ident-arg",
+      "type": "type",
+      "value": "<string> | <integer> | <ident>"
+    },
+    {
+      "name": "<ident-args>",
+      "href": "https://drafts.csswg.org/css-values-5/#typedef-ident-args",
+      "type": "type",
+      "value": "ident( <declaration-value> )"
     },
     {
       "name": "random()",
       "prose": "The random() function is a math function that represents a random value between a minimum and maximum value, drawn from a uniform distribution, optionally limiting the possible values to a step between those limits:",
       "href": "https://drafts.csswg.org/css-values-5/#funcdef-random",
       "type": "function",
-      "value": "random( <random-caching-options>? , <calc-sum>, <calc-sum>, [by <calc-sum>]? )"
-    },
-    {
-      "name": "<random-caching-options>",
-      "href": "https://drafts.csswg.org/css-values-5/#typedef-random-caching-options",
-      "type": "type",
-      "value": "<dashed-ident> || per-element"
+      "value": "random( <random-key>? , <calc-sum>, <calc-sum>, <calc-sum>? )"
     },
     {
       "name": "random-item()",
       "prose": "The random-item() function resolves to a random item from among its list of items.",
       "href": "https://drafts.csswg.org/css-values-5/#funcdef-random-item",
       "type": "function",
-      "value": "random-item( <random-caching-options> , [ <declaration-value>? ]# )"
+      "value": "random-item( <random-key> , [ <declaration-value>? ]# )"
+    },
+    {
+      "name": "<random-item-args>",
+      "href": "https://drafts.csswg.org/css-values-5/#typedef-random-item-args",
+      "type": "type",
+      "value": "random-item( <declaration-value>, [ <declaration-value>? ]# )"
+    },
+    {
+      "name": "<random-key>",
+      "href": "https://drafts.csswg.org/css-values-5/#typedef-random-key",
+      "type": "type",
+      "value": "auto | <random-cache-key> | fixed <number [0,1]>",
+      "values": [
+        {
+          "name": "auto",
+          "prose": "The random function is roughly “as random as possible”: the random cache name, and thus the result, varies across every random() instance in a multi-component value, across different properties, and across different elements. This is equivalent to specifying element-scoped property-index-scoped, and simplifies in exactly the same way.",
+          "href": "https://drafts.csswg.org/css-values-5/#valdef-random-auto",
+          "type": "value",
+          "value": "auto"
+        },
+        {
+          "name": "<random-cache-key>",
+          "prose": "The <random-cache-key> specifies the random cache name, allowing it to be explicitly shared (or not) with other uses of random functions. Every random function using the same random cache name will get the same random value; every one using a different random cache name will get unrelated random values. The <dashed-ident> gives the value an explicit name. If omitted, this part of the name is null. element-scoped adds an element-specific identifier to the random cache name, so different elements will get different random values. If the random function is being evaluated inside of a custom function, the element-specific identifier is for the \"hypothetical element\" that the function’s styles are evaluated on, so element-scoped will give you different random values on every function invocation. property-scoped adds the property name the random function is being used on to the random cache name, so different properties will get different random values. Note that shorthand declarations will apply the shorthand property’s name. property-index-scoped adds the property name and the index of the random function among all the random functions used in the same property value to the random cache name, so multiple instances of a random function in the same declaration will each get different random cache names. Note this index is assigned before shorthand expansion. See § 9.4.1 Simplification of <random-key> for how these values resolve. The <random-ua-ident> value, like fixed below, isn’t intended to be specified by authors, but can show up in computed values. It is a <custom-ident> that must start with the prefix ua-, or else it is invalid. When generated automatically by the user agent, it follows certain specific patterns; see § 9.4.1 Simplification of <random-key> for details.",
+          "href": "https://drafts.csswg.org/css-values-5/#valdef-random-random-cache-key",
+          "type": "value",
+          "value": "<random-cache-key>"
+        },
+        {
+          "name": "<random-ua-ident>",
+          "prose": "The <random-ua-ident> value, like fixed below, isn’t intended to be specified by authors, but can show up in computed values. It is a <custom-ident> that must start with the prefix ua-, or else it is invalid. When generated automatically by the user agent, it follows certain specific patterns; see § 9.4.1 Simplification of <random-key> for details.",
+          "href": "https://drafts.csswg.org/css-values-5/#valdef-random-random-ua-ident",
+          "type": "value",
+          "value": "<random-ua-ident>"
+        },
+        {
+          "name": "<number>",
+          "prose": "If fixed <number> is specified, the random function bypasses the random cache name entirely, and just uses the <number> as its random base value directly. While 1 is technically allowed as a valid value (because CSS grammars can only express closed ranges), the random base value is clamped to the highest representable value less than 1, so random base values remain in the half-open range `[0, 1)`.",
+          "href": "https://drafts.csswg.org/css-values-5/#valdef-random-fixed",
+          "type": "value",
+          "value": "<number>"
+        }
+      ]
+    },
+    {
+      "name": "<random-cache-key>",
+      "href": "https://drafts.csswg.org/css-values-5/#typedef-random-cache-key",
+      "type": "type",
+      "value": "<dashed-ident> || element-scoped || [ property-scoped | property-index-scoped | <random-ua-ident> ]",
+      "values": [
+        {
+          "name": "element-scoped",
+          "href": "https://drafts.csswg.org/css-values-5/#valdef-random-element-scoped",
+          "type": "value",
+          "value": "element-scoped"
+        },
+        {
+          "name": "property-scoped",
+          "href": "https://drafts.csswg.org/css-values-5/#valdef-random-property-scoped",
+          "type": "value",
+          "value": "property-scoped"
+        },
+        {
+          "name": "property-index-scoped",
+          "href": "https://drafts.csswg.org/css-values-5/#valdef-random-property-index-scoped",
+          "type": "value",
+          "value": "property-index-scoped"
+        }
+      ]
+    },
+    {
+      "name": "<random-ua-ident>",
+      "href": "https://drafts.csswg.org/css-values-5/#typedef-random-ua-ident",
+      "type": "type",
+      "value": "<custom-ident>"
     },
     {
       "name": "sibling-count()",
@@ -559,29 +788,50 @@
     },
     {
       "name": "sibling-index()",
-      "prose": "The sibling-index() functional notation represents, as an <integer>, the index of the element on which the notation is used among the children of its parent. Like :nth-child(), sibling-index() is 1-indexed.",
+      "prose": "The sibling-index() functional notation represents, as an <integer>, the index of the element on which the notation is used among its inclusive siblings. Like :nth-child(), sibling-index() is 1-indexed.",
       "href": "https://drafts.csswg.org/css-values-5/#funcdef-sibling-index",
       "type": "function"
     },
     {
       "name": "calc-size()",
+      "prose": "The calc-size() function allows math and transition/animation to be performed on these sizes in a safe, well-defined way. Its syntax is as follows:",
       "href": "https://drafts.csswg.org/css-values-5/#funcdef-calc-size",
       "type": "function",
       "value": "calc-size( <calc-size-basis>, <calc-sum> )",
       "values": [
         {
-          "name": "size",
-          "prose": "Within the calc-size calculation, if the calc-size basis is not any, the keyword size is allowed. This keyword is a <length>, and resolves at used value time.",
-          "href": "https://drafts.csswg.org/css-values-5/#valdef-calc-size-size",
+          "name": "<size-keyword>",
+          "prose": "Indicates that the calc-size() is basing its size off of the specified keyword. Represents any sizing keywords allowed in the context where the function is used. For example, in width, it matches auto, min-content, stretch, etc. Also allows any related sizing functions, like the fit-content() function in width/etc., which is a variation of the fit-content keyword. For all purposes other than actually resolving the size, the calc-size() acts like this keyword. The calc-size calculation will use the corresponding size as the value of its size keyword.",
+          "href": "https://drafts.csswg.org/css-values-5/#typedef-calc-size-size-keyword",
+          "type": "type"
+        },
+        {
+          "name": "<calc-sum>",
+          "prose": "Indicates that the calc-size() is basing its size off of the specified calculation. For all purposes other than actually resolving the size, the calc-size() acts like this calculation wrapped in a calc() (including, for example, whether it represents a definite or indefinite size). The calc-size calculation will use the corresponding size as the value of its size keyword.",
+          "href": "https://drafts.csswg.org/css-values-5/#valdef-calc-size-calc-sum",
           "type": "value",
-          "value": "size"
+          "value": "<calc-sum>"
+        },
+        {
+          "name": "<calc-size()>",
+          "prose": "Indicates that the outer calc-size() is basing its size off of this inner calc-size(), and will share the same behavior as it. The calc-size calculation will use the size of the inner calc-size() as its size keyword. The size keyword is allowed, in this case, even if the inner calc-size() uses any. For example, in calc-size(calc-size(min-content, size / 2), size + 10%), the outer calc-size() acts as if its calc-size basis was min-content, and will calculate its own size using the result of the inner calc-size(), equivalent to calc-size(min-content, size / 2 + 10%).",
+          "href": "https://drafts.csswg.org/css-values-5/#valdef-calc-size-calc-size",
+          "type": "value",
+          "value": "<calc-size()>"
         },
         {
           "name": "any",
-          "prose": "(If the calc-size basis is any, the calc-size() is a definite length, equal to its calc-size calculation.)",
+          "prose": "Indicates that the calc-size() does not depend on any additional information, and thus can be interpolated with any other size. The calc-size() function represents a definite size. The calc-size calculation cannot use the size keyword; it is a syntax error for size to appear in the calc-size calculation.",
           "href": "https://drafts.csswg.org/css-values-5/#valdef-calc-size-any",
           "type": "value",
           "value": "any"
+        },
+        {
+          "name": "size",
+          "prose": "Within the calc-size calculation, the size is a <calc-keyword> which is a <length>, and resolves at used value time to the size specified above.",
+          "href": "https://drafts.csswg.org/css-values-5/#valdef-calc-size-size",
+          "type": "value",
+          "value": "size"
         }
       ]
     },
@@ -589,21 +839,10 @@
       "name": "<calc-size-basis>",
       "href": "https://drafts.csswg.org/css-values-5/#typedef-calc-size-basis",
       "type": "type",
-      "value": "[ <intrinsic-size-keyword> | <calc-size()> | any | <calc-sum> ]"
-    },
-    {
-      "name": "<intrinsic-size-keyword>",
-      "prose": "The <intrinsic-size-keyword> production matches any intrinsic size keywords allowed in the context. For example, in width, it matches auto, min-content, stretch, etc.",
-      "href": "https://drafts.csswg.org/css-values-5/#typedef-intrinsic-size-keyword",
-      "type": "type"
+      "value": "[ <size-keyword> | <calc-sum> | <calc-size()> | any ]"
     }
   ],
   "warnings": [
-    {
-      "msg": "Missing definition",
-      "name": "]>",
-      "value": "not <boolean-expr-group> | <boolean-expr-group> [ [ and <boolean-expr-group> ]* | [ or <boolean-expr-group> ]* ]"
-    },
     {
       "msg": "Missing definition",
       "name": "<boolean-expr-group>",
@@ -611,23 +850,27 @@
     },
     {
       "msg": "Missing definition",
-      "name": "progress-function()",
-      "value": "progress-function( progress value from start value to end value )"
+      "name": "*mix()",
+      "value": "*mix( options? , [ value && <percentage>? ]# )"
     },
     {
       "msg": "Missing definition",
-      "name": "mix-function()",
-      "value": "mix-function( <progress>,"
+      "name": "*interpolate()",
+      "value": "*interpolate( [ progress && global-options? ], stop, [ between-options? , stop ]# )"
     },
     {
       "msg": "Missing definition",
-      "name": "<color-mix()>",
-      "value": "color-mix( [ <progress> && <color-interpolation-method>? ] , <color>, <color> ) | color-mix( <color-interpolation-method>, [<color> && <percentage [0,100]>?]#{2} )"
+      "name": "interpolate-function()",
+      "value": "interpolate-function( [ <progress-source> && [ by <easing-function> ]? && <easing-function>? && <segment-options>? ] , <input-position>{1,2} : <output-value> , [ [ <easing-function> || <segment-options> ]? , <input-position>{1,2} : <output-value> ]#? )"
     },
     {
-      "msg": "Missing definition",
-      "name": "<cross-fade()>",
-      "value": "cross-fade( <progress>, [ <image> | <color> ], [ <image> | <color> ] ) | cross-fade( <cf-image># )"
+      "msg": "Dangling value",
+      "name": "size",
+      "prose": "Within the calc-size calculation, the size is a <calc-keyword> which is a <length>, and resolves at used value time to the size specified above.",
+      "href": "https://drafts.csswg.org/css-values-5/#valdef-calc-size-size",
+      "type": "value",
+      "value": "size",
+      "for": "calc()"
     }
   ]
 }

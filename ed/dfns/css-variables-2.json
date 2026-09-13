@@ -21,7 +21,8 @@
         "title": "Defining Custom Properties: the --* family of properties",
         "number": "2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "custom-property",
@@ -40,7 +41,8 @@
         "title": "Defining Custom Properties: the --* family of properties",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "typedef-custom-property-name",
@@ -59,7 +61,8 @@
         "title": "Defining Custom Properties: the --* family of properties",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "animation-tainted",
@@ -78,7 +81,8 @@
         "title": "Defining Custom Properties: the --* family of properties",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "guaranteed-invalid-value",
@@ -97,7 +101,8 @@
         "title": "Guaranteed-Invalid Values",
         "number": "2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "funcdef-var",
@@ -116,19 +121,17 @@
         "title": "Using Cascading Variables: the var() notation",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
-      "id": "substitute-a-var",
-      "href": "https://drafts.csswg.org/css-variables-2/#substitute-a-var",
+      "id": "typedef-var-args",
+      "href": "https://drafts.csswg.org/css-variables-2/#typedef-var-args",
       "linkingText": [
-        "substitute a var()",
-        "var() substitution"
+        "<var-args>"
       ],
-      "localLinkingText": [
-        "substitute"
-      ],
-      "type": "dfn",
+      "localLinkingText": [],
+      "type": "type",
       "for": [],
       "access": "public",
       "informative": false,
@@ -138,7 +141,8 @@
         "title": "Using Cascading Variables: the var() notation",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "variable-unit-reference",
@@ -157,45 +161,8 @@
         "title": "Variable Units",
         "number": "3.1"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "invalid-at-computed-value-time",
-      "href": "https://drafts.csswg.org/css-variables-2/#invalid-at-computed-value-time",
-      "linkingText": [
-        "invalid at computed-value time"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "invalid-variables",
-        "href": "https://drafts.csswg.org/css-variables-2/#invalid-variables",
-        "title": "Invalid Variables",
-        "number": "3.2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "pending-substitution-value",
-      "href": "https://drafts.csswg.org/css-variables-2/#pending-substitution-value",
-      "linkingText": [
-        "pending-substitution value"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "variables-in-shorthands",
-        "href": "https://drafts.csswg.org/css-variables-2/#variables-in-shorthands",
-        "title": "Variables in Shorthand Properties",
-        "number": "3.3"
-      },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

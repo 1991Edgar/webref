@@ -14,19 +14,28 @@
       "id": "related",
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#related",
       "level": 3,
-      "title": "Set of Documents"
+      "title": "Set of Documents",
+      "alternateIds": [
+        "set-of-documents"
+      ]
     },
     {
       "id": "toc",
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#toc",
       "level": 2,
-      "title": "Table of Contents"
+      "title": "Table of Contents",
+      "alternateIds": [
+        "table-of-contents"
+      ]
     },
     {
       "id": "introduction",
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#introduction",
       "level": 2,
       "title": "Introduction",
+      "alternateIds": [
+        "x1-introduction"
+      ],
       "number": "1"
     },
     {
@@ -34,6 +43,9 @@
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#terminology",
       "level": 2,
       "title": "Terminology",
+      "alternateIds": [
+        "x2-terminology"
+      ],
       "number": "2"
     },
     {
@@ -41,6 +53,9 @@
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#protocol-model",
       "level": 2,
       "title": "Protocol Model",
+      "alternateIds": [
+        "x3-protocol-model"
+      ],
       "number": "3"
     },
     {
@@ -48,6 +63,9 @@
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#graph-identification",
       "level": 2,
       "title": "Graph Identification",
+      "alternateIds": [
+        "x4-graph-identification"
+      ],
       "number": "4"
     },
     {
@@ -55,6 +73,9 @@
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#direct-graph-identification",
       "level": 3,
       "title": "Direct Graph Identification",
+      "alternateIds": [
+        "x4-1-direct-graph-identification"
+      ],
       "number": "4.1"
     },
     {
@@ -62,6 +83,9 @@
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#indirect-graph-identification",
       "level": 3,
       "title": "Indirect Graph Identification",
+      "alternateIds": [
+        "x4-2-indirect-graph-identification"
+      ],
       "number": "4.2"
     },
     {
@@ -69,6 +93,9 @@
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#graph-management",
       "level": 2,
       "title": "Graph Management Operations",
+      "alternateIds": [
+        "x5-graph-management-operations"
+      ],
       "number": "5"
     },
     {
@@ -76,6 +103,9 @@
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#status-codes",
       "level": 3,
       "title": "Status Codes",
+      "alternateIds": [
+        "x5-1-status-codes"
+      ],
       "number": "5.1"
     },
     {
@@ -83,6 +113,9 @@
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#http-get",
       "level": 3,
       "title": "HTTP GET",
+      "alternateIds": [
+        "x5-2-http-get"
+      ],
       "number": "5.2"
     },
     {
@@ -90,6 +123,9 @@
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#httpRange-14",
       "level": 4,
       "title": "Ambiguity Regarding the Range of HTTP GET (Informative)",
+      "alternateIds": [
+        "x5-2-1-ambiguity-regarding-the-range-of-http-get-informative"
+      ],
       "number": "5.2.1"
     },
     {
@@ -97,6 +133,9 @@
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#http-put",
       "level": 3,
       "title": "HTTP PUT",
+      "alternateIds": [
+        "x5-3-http-put"
+      ],
       "number": "5.3"
     },
     {
@@ -104,6 +143,9 @@
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#http-delete",
       "level": 3,
       "title": "HTTP DELETE",
+      "alternateIds": [
+        "x5-4-http-delete"
+      ],
       "number": "5.4"
     },
     {
@@ -111,6 +153,9 @@
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#http-post",
       "level": 3,
       "title": "HTTP POST",
+      "alternateIds": [
+        "x5-5-http-post"
+      ],
       "number": "5.5"
     },
     {
@@ -118,6 +163,9 @@
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#http-head",
       "level": 3,
       "title": "HTTP HEAD",
+      "alternateIds": [
+        "x5-6-http-head"
+      ],
       "number": "5.6"
     },
     {
@@ -125,6 +173,9 @@
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#http-patch",
       "level": 3,
       "title": "HTTP PATCH (Informative)",
+      "alternateIds": [
+        "x5-7-http-patch-informative"
+      ],
       "number": "5.7"
     },
     {
@@ -132,6 +183,9 @@
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#security-original",
       "level": 2,
       "title": "Security Considerations",
+      "alternateIds": [
+        "x6-security-considerations"
+      ],
       "number": "6"
     },
     {
@@ -139,6 +193,9 @@
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#conformance",
       "level": 2,
       "title": "Conformance",
+      "alternateIds": [
+        "x7-conformance"
+      ],
       "number": "7"
     },
     {
@@ -146,108 +203,160 @@
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#conformance-0",
       "level": 3,
       "title": "Conformance",
+      "alternateIds": [
+        "x7-1-conformance"
+      ],
       "number": "7.1"
     },
     {
-      "id": "changes",
-      "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#changes",
+      "id": "changes-1-1",
+      "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#changes-1-1",
       "level": 2,
-      "title": "Changes",
-      "number": "8"
+      "title": "Changes between SPARQL 1.1 Graph Store Protocol and SPARQL 1.2 Graph Store Protocol",
+      "alternateIds": [
+        "a-changes-between-sparql-1-1-graph-store-protocol-and-sparql-1-2-graph-store-protocol"
+      ],
+      "number": "A"
     },
     {
       "id": "sec-bibliography",
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#sec-bibliography",
       "level": 2,
       "title": "References",
-      "number": "9"
+      "alternateIds": [
+        "b-references"
+      ],
+      "number": "B"
     },
     {
       "id": "section-Normative-References",
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#section-Normative-References",
       "level": 3,
       "title": "Normative References",
-      "number": "9.1"
+      "alternateIds": [
+        "b-1-normative-references"
+      ],
+      "number": "B.1"
     },
     {
       "id": "section-informative-references",
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#section-informative-references",
       "level": 3,
       "title": "Informative References",
-      "number": "9.2"
+      "alternateIds": [
+        "b-2-informative-references"
+      ],
+      "number": "B.2"
     },
     {
       "id": "ackacknowledgements",
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#ackacknowledgements",
       "level": 2,
-      "title": "10. Acknowledgements"
+      "title": "Acknowledgements",
+      "alternateIds": [
+        "c-acknowledgements"
+      ],
+      "number": "C"
     },
     {
       "id": "privacy",
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#privacy",
       "level": 2,
-      "title": "11. Privacy Considerations"
+      "title": "Privacy Considerations",
+      "alternateIds": [
+        "d-privacy-considerations"
+      ],
+      "number": "D"
     },
     {
       "id": "security",
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#security",
       "level": 2,
-      "title": "12. Security Considerations"
+      "title": "Security Considerations",
+      "alternateIds": [
+        "e-security-considerations"
+      ],
+      "number": "E"
     },
     {
       "id": "internationalization",
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#internationalization",
       "level": 2,
-      "title": "13. Internationalization Considerations"
+      "title": "Internationalization Considerations",
+      "alternateIds": [
+        "f-internationalization-considerations"
+      ],
+      "number": "F"
     },
     {
       "id": "changes-from-sparql11",
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#changes-from-sparql11",
       "level": 2,
       "title": "Change Log",
-      "number": "A"
+      "alternateIds": [
+        "g-change-log"
+      ],
+      "number": "G"
     },
     {
       "id": "index",
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#index",
       "level": 2,
       "title": "Index",
-      "number": "B"
+      "alternateIds": [
+        "h-index"
+      ],
+      "number": "H"
     },
     {
       "id": "index-defined-here",
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#index-defined-here",
       "level": 3,
       "title": "Terms defined by this specification",
-      "number": "B.1"
+      "alternateIds": [
+        "h-1-terms-defined-by-this-specification"
+      ],
+      "number": "H.1"
     },
     {
       "id": "index-defined-elsewhere",
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#index-defined-elsewhere",
       "level": 3,
       "title": "Terms defined by reference",
-      "number": "B.2"
+      "alternateIds": [
+        "h-2-terms-defined-by-reference"
+      ],
+      "number": "H.2"
     },
     {
       "id": "references",
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#references",
       "level": 2,
       "title": "References",
-      "number": "C"
+      "alternateIds": [
+        "i-references"
+      ],
+      "number": "I"
     },
     {
       "id": "normative-references",
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#normative-references",
       "level": 3,
       "title": "Normative references",
-      "number": "C.1"
+      "alternateIds": [
+        "i-1-normative-references"
+      ],
+      "number": "I.1"
     },
     {
       "id": "informative-references",
       "href": "https://w3c.github.io/sparql-graph-store-protocol/spec/#informative-references",
       "level": 3,
       "title": "Informative references",
-      "number": "C.2"
+      "alternateIds": [
+        "i-2-informative-references"
+      ],
+      "number": "I.2"
     }
   ]
 }

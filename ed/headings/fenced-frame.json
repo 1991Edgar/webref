@@ -26,7 +26,10 @@
       "id": "toc",
       "href": "https://wicg.github.io/fenced-frame/#toc",
       "level": 2,
-      "title": "Table of Contents"
+      "title": "Table of Contents",
+      "alternateIds": [
+        "contents"
+      ]
     },
     {
       "id": "introduction",
@@ -106,10 +109,10 @@
       "number": "2.4"
     },
     {
-      "id": "disable-fetch",
-      "href": "https://wicg.github.io/fenced-frame/#disable-fetch",
+      "id": "disable-monkeypatches",
+      "href": "https://wicg.github.io/fenced-frame/#disable-monkeypatches",
       "level": 3,
-      "title": "Fetch monkeypatches for network revocation",
+      "title": "Monkeypatches for network revocation",
       "number": "2.5"
     },
     {
@@ -120,11 +123,18 @@
       "number": "2.6"
     },
     {
+      "id": "gating-methods-on-network-revocation",
+      "href": "https://wicg.github.io/fenced-frame/#gating-methods-on-network-revocation",
+      "level": 3,
+      "title": "Gating methods on network revocation",
+      "number": "2.7"
+    },
+    {
       "id": "automatic-reporting",
       "href": "https://wicg.github.io/fenced-frame/#automatic-reporting",
       "level": 3,
       "title": "Automatic Reporting",
-      "number": "2.7"
+      "number": "2.8"
     },
     {
       "id": "html-integration",
@@ -358,11 +368,18 @@
       "number": "4.4"
     },
     {
+      "id": "credentialless-monkeypatch",
+      "href": "https://wicg.github.io/fenced-frame/#credentialless-monkeypatch",
+      "level": 3,
+      "title": "Iframe credentialless",
+      "number": "4.5"
+    },
+    {
       "id": "webrtc-monkeypatch",
       "href": "https://wicg.github.io/fenced-frame/#webrtc-monkeypatch",
       "level": 3,
       "title": "WebRTC",
-      "number": "4.5"
+      "number": "4.6"
     },
     {
       "id": "security-and-privacy",

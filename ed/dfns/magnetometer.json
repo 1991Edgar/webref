@@ -21,7 +21,8 @@
         "title": "Introduction",
         "number": "1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "hard-iron-distortion",
@@ -35,11 +36,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/magnetometer/#title",
-        "title": "Magnetometer"
+        "id": "intro",
+        "href": "https://w3c.github.io/magnetometer/#intro",
+        "title": "Introduction",
+        "number": "1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "soft-iron-distortion",
@@ -53,11 +56,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/magnetometer/#title",
-        "title": "Magnetometer"
+        "id": "intro",
+        "href": "https://w3c.github.io/magnetometer/#intro",
+        "title": "Introduction",
+        "number": "1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "calibrated-magnetic-field",
@@ -71,11 +76,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/magnetometer/#title",
-        "title": "Magnetometer"
+        "id": "intro",
+        "href": "https://w3c.github.io/magnetometer/#intro",
+        "title": "Introduction",
+        "number": "1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "uncalibrated-magnetic-field",
@@ -89,11 +96,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/magnetometer/#title",
-        "title": "Magnetometer"
+        "id": "intro",
+        "href": "https://w3c.github.io/magnetometer/#intro",
+        "title": "Introduction",
+        "number": "1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "magnetometer-sensor-type",
@@ -112,7 +121,8 @@
         "title": "Model",
         "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "uncalibrated-magnetometer-sensor-type",
@@ -126,11 +136,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/magnetometer/#title",
-        "title": "Magnetometer"
+        "id": "model",
+        "href": "https://w3c.github.io/magnetometer/#model",
+        "title": "Model",
+        "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "uncalibrated-magnetometer-virtual-sensor-type",
@@ -144,11 +156,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/magnetometer/#title",
-        "title": "Magnetometer"
+        "id": "model",
+        "href": "https://w3c.github.io/magnetometer/#model",
+        "title": "Model",
+        "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "magnetometer",
@@ -167,7 +181,8 @@
         "title": "The Magnetometer Interface",
         "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-magnetometer-magnetometer-sensoroptions-sensoroptions",
@@ -186,11 +201,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/magnetometer/#title",
-        "title": "Magnetometer"
+        "id": "magnetometer-interface",
+        "href": "https://w3c.github.io/magnetometer/#magnetometer-interface",
+        "title": "The Magnetometer Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-magnetometer-x",
@@ -206,11 +223,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/magnetometer/#title",
-        "title": "Magnetometer"
+        "id": "magnetometer-interface",
+        "href": "https://w3c.github.io/magnetometer/#magnetometer-interface",
+        "title": "The Magnetometer Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-magnetometer-y",
@@ -226,11 +245,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/magnetometer/#title",
-        "title": "Magnetometer"
+        "id": "magnetometer-interface",
+        "href": "https://w3c.github.io/magnetometer/#magnetometer-interface",
+        "title": "The Magnetometer Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-magnetometer-z",
@@ -246,11 +267,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/magnetometer/#title",
-        "title": "Magnetometer"
+        "id": "magnetometer-interface",
+        "href": "https://w3c.github.io/magnetometer/#magnetometer-interface",
+        "title": "The Magnetometer Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "enumdef-magnetometerlocalcoordinatesystem",
@@ -264,11 +287,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/magnetometer/#title",
-        "title": "Magnetometer"
+        "id": "magnetometer-interface",
+        "href": "https://w3c.github.io/magnetometer/#magnetometer-interface",
+        "title": "The Magnetometer Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-magnetometerlocalcoordinatesystem-device",
@@ -284,11 +309,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/magnetometer/#title",
-        "title": "Magnetometer"
+        "id": "magnetometer-interface",
+        "href": "https://w3c.github.io/magnetometer/#magnetometer-interface",
+        "title": "The Magnetometer Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-magnetometerlocalcoordinatesystem-screen",
@@ -304,11 +331,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/magnetometer/#title",
-        "title": "Magnetometer"
+        "id": "magnetometer-interface",
+        "href": "https://w3c.github.io/magnetometer/#magnetometer-interface",
+        "title": "The Magnetometer Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-magnetometersensoroptions",
@@ -322,11 +351,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/magnetometer/#title",
-        "title": "Magnetometer"
+        "id": "magnetometer-interface",
+        "href": "https://w3c.github.io/magnetometer/#magnetometer-interface",
+        "title": "The Magnetometer Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-magnetometersensoroptions-referenceframe",
@@ -342,11 +373,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/magnetometer/#title",
-        "title": "Magnetometer"
+        "id": "magnetometer-interface",
+        "href": "https://w3c.github.io/magnetometer/#magnetometer-interface",
+        "title": "The Magnetometer Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-magnetometer-magnetometer",
@@ -365,11 +398,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/magnetometer/#title",
-        "title": "Magnetometer"
+        "id": "magnetometer-interface",
+        "href": "https://w3c.github.io/magnetometer/#magnetometer-interface",
+        "title": "The Magnetometer Interface",
+        "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "uncalibratedmagnetometer",
@@ -388,7 +423,8 @@
         "title": "The UncalibratedMagnetometer Interface",
         "number": "6.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-uncalibratedmagnetometer-uncalibratedmagnetometer-sensoroptions-sensoroptions",
@@ -407,11 +443,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/magnetometer/#title",
-        "title": "Magnetometer"
+        "id": "uncalibrated-magnetometer-interface",
+        "href": "https://w3c.github.io/magnetometer/#uncalibrated-magnetometer-interface",
+        "title": "The UncalibratedMagnetometer Interface",
+        "number": "6.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-uncalibratedmagnetometer-x",
@@ -427,11 +465,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/magnetometer/#title",
-        "title": "Magnetometer"
+        "id": "uncalibrated-magnetometer-interface",
+        "href": "https://w3c.github.io/magnetometer/#uncalibrated-magnetometer-interface",
+        "title": "The UncalibratedMagnetometer Interface",
+        "number": "6.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-uncalibratedmagnetometer-y",
@@ -447,11 +487,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/magnetometer/#title",
-        "title": "Magnetometer"
+        "id": "uncalibrated-magnetometer-interface",
+        "href": "https://w3c.github.io/magnetometer/#uncalibrated-magnetometer-interface",
+        "title": "The UncalibratedMagnetometer Interface",
+        "number": "6.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-uncalibratedmagnetometer-z",
@@ -467,11 +509,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/magnetometer/#title",
-        "title": "Magnetometer"
+        "id": "uncalibrated-magnetometer-interface",
+        "href": "https://w3c.github.io/magnetometer/#uncalibrated-magnetometer-interface",
+        "title": "The UncalibratedMagnetometer Interface",
+        "number": "6.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-uncalibratedmagnetometer-xbias",
@@ -487,11 +531,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/magnetometer/#title",
-        "title": "Magnetometer"
+        "id": "uncalibrated-magnetometer-interface",
+        "href": "https://w3c.github.io/magnetometer/#uncalibrated-magnetometer-interface",
+        "title": "The UncalibratedMagnetometer Interface",
+        "number": "6.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-uncalibratedmagnetometer-ybias",
@@ -507,11 +553,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/magnetometer/#title",
-        "title": "Magnetometer"
+        "id": "uncalibrated-magnetometer-interface",
+        "href": "https://w3c.github.io/magnetometer/#uncalibrated-magnetometer-interface",
+        "title": "The UncalibratedMagnetometer Interface",
+        "number": "6.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-uncalibratedmagnetometer-zbias",
@@ -527,11 +575,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/magnetometer/#title",
-        "title": "Magnetometer"
+        "id": "uncalibrated-magnetometer-interface",
+        "href": "https://w3c.github.io/magnetometer/#uncalibrated-magnetometer-interface",
+        "title": "The UncalibratedMagnetometer Interface",
+        "number": "6.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-uncalibratedmagnetometer-uncalibratedmagnetometer",
@@ -550,11 +600,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/magnetometer/#title",
-        "title": "Magnetometer"
+        "id": "uncalibrated-magnetometer-interface",
+        "href": "https://w3c.github.io/magnetometer/#uncalibrated-magnetometer-interface",
+        "title": "The UncalibratedMagnetometer Interface",
+        "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "construct-a-magnetometer-object",
@@ -573,7 +625,8 @@
         "title": "Construct a magnetometer object",
         "number": "7.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "uncalibrated-magnetometer-reading-parsing-algorithm",
@@ -592,7 +645,8 @@
         "title": "Uncalibrated Magnetometer reading parsing algorithm",
         "number": "8.2.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "magnetic-declination",
@@ -610,7 +664,8 @@
         "href": "https://w3c.github.io/magnetometer/#compass",
         "title": "11. Compass Heading Using Magnetometers"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "declination-angle",
@@ -624,11 +679,12 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/magnetometer/#title",
-        "title": "Magnetometer"
+        "id": "compass",
+        "href": "https://w3c.github.io/magnetometer/#compass",
+        "title": "11. Compass Heading Using Magnetometers"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "conformant-user-agent",
@@ -646,7 +702,8 @@
         "href": "https://w3c.github.io/magnetometer/#conformance",
         "title": "13. Conformance"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

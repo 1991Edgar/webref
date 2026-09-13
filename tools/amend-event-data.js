@@ -45,6 +45,22 @@ const patches = {
       change: { interface: 'Event' }
     }
   ],
+  // The "autofill" event does not have an event dfn for now, and is defined
+  // through "create an event". Crawler misses it as a result. Also, the spec
+  // does not yet extend Document and Window to add `onautofill` attributes:
+  // https://github.com/WICG/autofill-event/issues/29
+  'autofill-event': [
+    {
+      add: {
+        interface: 'AutofillEvent',
+        type: 'autofill',
+        bubbles: true,
+        cancelable: false,
+        targets: ['Document'],
+        src: { href: 'https://wicg.github.io/autofill-event/#fire-an-autofill-event' }
+      }
+    }
+  ],
   'background-fetch': [
     {
       pattern: { type: /^backgroundfetch(success|fail)$/ },
@@ -65,6 +81,13 @@ const patches = {
       change: { interface: "Event" }
     }
   ],
+  'CSP3': [
+    {
+      pattern: { type: 'securitypolicyviolation' },
+      matched: 1,
+      change: { bubbles: true }
+    }
+  ],
   // Bubbles heuristic in Reffy is not smart enough to trap:
   // "bubbles and cancelable attributes set to false"
   // and incorrectly thinks occurence of "bubbles" means that the event bubbles.
@@ -75,16 +98,22 @@ const patches = {
       change: { bubbles: false }
     }
   ],
-  // pending https://github.com/w3c/clipboard-apis/pull/181
-  // see also https://github.com/w3c/clipboard-apis/issues/74
+  // see https://github.com/w3c/clipboard-apis/issues/74
   'clipboard-apis': [
     {
-      pattern: { type: /^(cut|clipboardchange|paste|copy)$/ },
-      matched: 4,
+      pattern: { type: /^(cut|paste|copy)$/ },
+      matched: 3,
       change: {
         interface: "ClipboardEvent",
         targets: ["GlobalEventHandlers"],
         bubbles: true
+      }
+    },
+    {
+      pattern: { type: 'clipboardchange' },
+      matched: 1,
+      change: {
+        targets: ["Window"]
       }
     }
   ],
@@ -97,19 +126,39 @@ const patches = {
       change: { targets: ['Window'] }
     }
   ],
-  'cookie-store': [
+  'cookiestore': [
     {
       pattern: { type: /^change$/ },
       matched: 1,
       change: { interface: "CookieChangeEvent" }
     }
   ],
-  // pending https://github.com/w3c/csswg-drafts/pull/7466/files
+  // Scroll events bubble or not, depending on target, crawl does not
+  // capture that nuance given how the algorithm is currently written
   'cssom-view-1': [
     {
-      pattern: { type: "change" },
-      matched: 1,
-      change: { interface: 'MediaQueryListEvent' }
+      pattern: { type: /^scroll(end)?$/ },
+      matched: 2,
+      change: {
+        targets: [ "VisualViewport", "Element" ],
+        bubbles: false
+      }
+    },
+    {
+      add: {
+        type: "scroll",
+        interface: "Event",
+        bubbles: true,
+        targets: [ "Document" ]
+      }
+    },
+    {
+      add: {
+        type: "scrollend",
+        interface: "Event",
+        bubbles: true,
+        targets: [ "Document" ]
+      }
     }
   ],
   // pending resolution of https://github.com/w3c/csswg-drafts/issues/7603
@@ -162,6 +211,13 @@ const patches = {
       pattern: {  type: /^fullscreen(change|error)$/ },
       matched: 2,
       change: { bubbles: true, interface: "Event"}
+    }
+  ],
+  'gamepad': [
+    {
+      pattern: { type: /^gamepad(dis)?connected$/ },
+      matched: 2,
+      change: { targets: ["Window"] }
     }
   ],
   'html': [
@@ -270,19 +326,27 @@ const patches = {
       change: { bubbles: false}
     }
   ],
+  // Pending https://github.com/w3c/mediacapture-extensions/issues/176
+  // but spec also uses a proxy "queue an event" algorithm that cannot be detected
+  'mediacapture-extensions': [
+    {
+      pattern: { type: /^(cancel|error)$/ },
+      matched: 6,
+      change: { interface: "DOMException" }
+    },
+    {
+      pattern: { type: /^(stream|track)$/ },
+      matched: 3,
+      change: { interface: "Event" }
+    }
+  ],
   'mediacapture-surface-control': [
-    // Pending clarification on the notion of "viewport":
-    // https://github.com/w3c/mediacapture-surface-control/issues/51
+    // Element fires at the "topmost event target", which extraction code
+    // cannot map to the right interface.
     {
       pattern: { type: 'wheel' },
       matched: 1,
-      delete: true
-    },
-    // Pending https://github.com/w3c/mediacapture-surface-control/issues/50
-    {
-      pattern: { type: 'capturedzoomlevelchange' },
-      matched: 1,
-      change: { interface: "Event" }
+      change: { targets: ["HTMLElement"] }
     }
   ],
   'notifications': [
@@ -321,6 +385,39 @@ const patches = {
       change: { interface: "PeriodicSyncEvent" }
     }
   ],
+  // Custom dispatch algorithms are not identified by crawler, and not
+  // correctly written for now:
+  // https://github.com/WICG/PEPC/issues/83
+  'geolocation-element': [
+    {
+      pattern: { type: /^validationstatuschange|prompt(action|dismiss)$/ },
+      matched: 3,
+      change: {
+        interface: "Event",
+        bubbles: true,
+        cancelable: true
+      }
+    },
+    {
+      pattern: { type: "location" },
+      matched: 1,
+      change: {
+        interface: "Event"
+      }
+    }
+  ],
+  // Spec uses specific formatting for the definition of the events and code
+  // fails to idenfity GlobalEventHandlers as the target because the event
+  // handler IDL attributes are defined in a different spec, and pointerevents
+  // uses "topmost event target". Note: the extraction logic could perhaps be
+  // improved to address this more directly.
+  'pointerevents4': [
+    {
+      pattern: { type: /^(.*click|contextmenu|mouse.*|wheel)$/ },
+      matched: 12,
+      change: { targets: ["GlobalEventHandlers"] }
+    }
+  ],
   'pointerlock-2': [
     {
       pattern: { type: /^pointerlock(change|error)$/ },
@@ -337,6 +434,14 @@ const patches = {
         href: "https://html.spec.whatwg.org/multipage/indices.html#event-message",
         isExtension: true
       }
+    }
+  ],
+  // No event processing in the Prompt API for now
+  'prompt-api': [
+    {
+      pattern: { type: /overflow$/ },
+      matched: 2,
+      change: { interface: "Event" }
     }
   ],
   'savedata': [
@@ -356,32 +461,6 @@ const patches = {
       pattern: { type: "devicechange" },
       matched: 1,
       delete: true
-    }
-  ],
-  'selection-api': [
-    // pending https://github.com/w3c/selection-api/pull/148
-    {
-      pattern: { type: "selectstart" },
-      matched: 1,
-      change: { interface: "Event", bubbles: true }
-    },
-    {
-      pattern: { type: "selectionchange" },
-      matched: 1,
-      change: { interface: "Event", bubbles: false }
-    }
-  ],
-  'service-workers': [
-    {
-      pattern: { href: "https://wicg.github.io/BackgroundSync/spec/#sync" },
-      matched: 1,
-      change: { href: "https://wicg.github.io/background-sync/spec/#sync"}
-    },
-    // pending https://github.com/w3c/ServiceWorker/pull/1706
-    {
-      pattern: { type: "install" },
-      matched: 1,
-      change: { interface: "InstallEvent" }
     }
   ],
   'speech-api': [
@@ -447,6 +526,13 @@ const patches = {
       change: { targets: ['XMLHttpRequest', 'XMLHttpRequestUpload'] }
     }
   ],
+  'web-bluetooth': [
+    {
+      pattern: { type: /^(advertisementreceived|gattserverdisconnected)$/ },
+      matched: 2,
+      change: { targets: ['BluetoothDevice'], bubbles: true }
+    }
+  ],
   'webaudio-1.1': [
     {
       pattern: { type: 'ended' },
@@ -496,7 +582,8 @@ const patches = {
       }
     }
   ],
-  // Pending https://github.com/WebAudio/web-midi-api/pull/234
+  // Spec fires two events at once on two different targets. The extraction
+  // code does not understand that phrasing.
   'webmidi': [
     {
       pattern: { targets: null, type: "statechange" },
@@ -507,22 +594,8 @@ const patches = {
       pattern: { type: "statechange"},
       matched: 1,
       change: {
-        targets: ["MIDIPort", "MIDIAccess" ],
-        interface: "MIDIConnectionEvent"
+        targets: ["MIDIPort", "MIDIAccess" ]
       }
-    },
-    {
-      pattern: { type: "midimessage"},
-      matched: 1,
-      change: { interface: "MIDIMessageEvent" }
-    }
-  ],
-  // pending https://github.com/immersive-web/layers/pull/285
-  'webxrlayers-1': [
-    {
-      pattern: { type: "redraw" },
-      matched: 1,
-      change: { interface: "XRLayerEvent" }
     }
   ],
   'web-animations-1': [

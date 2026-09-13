@@ -9,9 +9,8 @@
       "http://www.w3.org/TR/": {},
       "https://datatracker.ietf.org/doc/html/rfc2119": {},
       "https://dom.spec.whatwg.org/": {},
-      "https://drafts.csswg.org/css-writing-modes-4/": {},
-      "https://drafts.fxtf.org/compositing-1/": {},
-      "https://drafts.fxtf.org/geometry/": {},
+      "https://drafts.csswg.org/compositing-1/": {},
+      "https://drafts.csswg.org/geometry/": {},
       "https://github.com/immersive-web/layers/issues": {},
       "https://github.com/immersive-web/layers/pull/234": {},
       "https://github.com/immersive-web/layers/pull/241": {},
@@ -33,6 +32,7 @@
       "https://html.spec.whatwg.org/multipage/": {},
       "https://immersive-web.github.io/webxr-ar-module/": {},
       "https://immersive-web.github.io/webxr/": {},
+      "https://tc39.es/ecma262/multipage/": {},
       "https://webidl.spec.whatwg.org/": {},
       "https://wicg.github.io/permissions-request/": {},
       "https://www.khronos.org/registry/OpenGL/specs/es/3.0/es_spec_3.0.pdf": {
@@ -41,16 +41,16 @@
         ]
       },
       "https://www.khronos.org/registry/webgl/specs/latest/2.0/": {},
-      "https://www.w3.org/2023/Process-20231103/": {},
-      "https://www.w3.org/Consortium/Patent-Policy/": {
+      "https://www.w3.org/TR/2020/WD-webxrlayers-1-20201203/": {},
+      "https://www.w3.org/groups/wg/immersive-web": {},
+      "https://www.w3.org/groups/wg/immersive-web/ipr": {},
+      "https://www.w3.org/policies/patent-policy/": {
         "anchors": [
           "def-essential",
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/TR/2020/WD-webxrlayers-1-20201203/": {},
-      "https://www.w3.org/groups/wg/immersive-web": {},
-      "https://www.w3.org/groups/wg/immersive-web/ipr": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://dom.spec.whatwg.org/": {
@@ -60,12 +60,7 @@
           "dictdef-eventinit"
         ]
       },
-      "https://drafts.csswg.org/css-writing-modes-4/": {
-        "anchors": [
-          "css-end"
-        ]
-      },
-      "https://drafts.fxtf.org/geometry-1/": {
+      "https://drafts.csswg.org/geometry-1/": {
         "anchors": [
           "dictdef-dompointinit",
           "dompointreadonly",
@@ -113,6 +108,8 @@
           "xrlayer",
           "xrsession",
           "xr-animation-frame",
+          "pending-render-state",
+          "active-render-state",
           "xrspace",
           "xrspace-session",
           "xrframe",
@@ -132,7 +129,6 @@
           "xrview",
           "secondary-view",
           "view",
-          "secondary-view-secondary-views",
           "dom-xrframe-session",
           "xrframe-active",
           "dom-xrviewport-x",
@@ -149,12 +145,17 @@
           "xr-device",
           "dom-xrrenderstateinit-layers",
           "xrrenderstate",
+          "initialize-the-render-state",
+          "update-the-pending-layers-state",
           "dom-xrrenderstateinit-baselayer",
-          "active-render-state",
-          "pending-render-state",
           "xrwebgllayer-session",
           "dom-xrrenderstate-baselayer",
           "dom-xreye-left"
+        ]
+      },
+      "https://tc39.github.io/ecma262/": {
+        "anchors": [
+          "sec-weakset-objects"
         ]
       },
       "https://webidl.spec.whatwg.org/": {
@@ -164,12 +165,12 @@
           "idl-float",
           "idl-unsigned-long",
           "idl-undefined",
+          "invalidstateerror",
           "this",
           "exceptiondef-typeerror",
           "new",
           "SameObject",
           "idl-double",
-          "invalidstateerror",
           "notsupportederror",
           "operationerror",
           "SecureContext",
@@ -214,12 +215,12 @@
       },
       "https://www.khronos.org/registry/webgl/specs/latest/1.0/": {
         "anchors": [
+          "5.14.8",
+          "WebGLRenderingContextBase",
           "WebGLRenderingContext",
           "WebGLTexture",
           "5.14",
           "5.8",
-          "5.14.8",
-          "WebGLRenderingContextBase",
           "5.1",
           "5.14.14",
           "5.14.11"
@@ -242,10 +243,13 @@
           "feature-descriptor",
           "xr-compositor",
           "recommended-webgl-framebuffer-resolution",
+          "xrsession-ended",
           "immersive-session",
           "xr-compatible",
           "native-webgl-framebuffer-resolution",
-          "animationframe"
+          "animationframe",
+          "xrsession-interface",
+          "shut-down-the-session"
         ]
       }
     }

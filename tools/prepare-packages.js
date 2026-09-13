@@ -27,7 +27,8 @@ async function preparePackages(curatedFolder, packagesFolder) {
   console.log(`- ${crawlIndex.results.length} curated specs in index file`);
 
   const packages = [
-    { name: 'css', fileExt: 'json' },
+    { name: 'css', fileExt: 'json', index: 'css.json', folder: null },
+    { name: 'css6', fileExt: 'json', folder: 'css' },
     { name: 'elements', fileExt: 'json' },
     { name: 'events', fileExt: 'json', index: 'events.json', folder: null },
     { name: 'idl', fileExt: 'idl' }
@@ -60,7 +61,7 @@ async function preparePackages(curatedFolder, packagesFolder) {
     if (folder) {
       // Only keep extracts from specs in good standing targeted at browsers
       const specs = crawlIndex.results
-        .filter(spec => spec[name])
+        .filter(spec => spec[folder])
         .filter(spec => spec.categories?.includes('browser') && spec.standing === 'good');
       console.log(`- ${specs.length}/${crawlIndex.results.length} specs to include in the package`);
 
@@ -69,7 +70,7 @@ async function preparePackages(curatedFolder, packagesFolder) {
       const srcFiles = await fs.readdir(srcDir);
       for (const file of srcFiles) {
         if (file.endsWith(`.${fileExt}`) &&
-            specs.find(spec => spec[name] === `${name}/${file}`)) {
+            specs.find(spec => spec[folder] === `${folder}/${file}`)) {
           await fs.copyFile(path.join(srcDir, file), path.join(dstDir, file));
         }
       }

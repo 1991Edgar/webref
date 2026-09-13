@@ -12,6 +12,7 @@
       "http://wpt.live/dom/observable/tentative/observable-event-target.window.js": {},
       "http://wpt.live/dom/observable/tentative/observable-filter.any.js": {},
       "http://wpt.live/dom/observable/tentative/observable-forEach.any.js": {},
+      "http://wpt.live/dom/observable/tentative/observable-from.any.js": {},
       "http://wpt.live/dom/observable/tentative/observable-inspect.any.js": {},
       "http://wpt.live/dom/observable/tentative/observable-map.any.js": {},
       "http://wpt.live/dom/observable/tentative/observable-map.window.js": {},
@@ -23,6 +24,8 @@
       "https://benlesh.com/": {},
       "https://dom.spec.whatwg.org/": {},
       "https://github.com/WICG/observable/blob/master/security-privacy-questionnaire.md": {},
+      "https://github.com/WICG/observable/issues/125": {},
+      "https://github.com/WICG/observable/issues/127": {},
       "https://github.com/WICG/observable/issues/new": {},
       "https://github.com/w3c/IntersectionObserver/issues/464": {},
       "https://github.com/web-platform-tests/wpt/blob/master/dom/observable/tentative/observable-constructor.any.js": {},
@@ -32,6 +35,7 @@
       "https://github.com/web-platform-tests/wpt/blob/master/dom/observable/tentative/observable-event-target.window.js": {},
       "https://github.com/web-platform-tests/wpt/blob/master/dom/observable/tentative/observable-filter.any.js": {},
       "https://github.com/web-platform-tests/wpt/blob/master/dom/observable/tentative/observable-forEach.any.js": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/dom/observable/tentative/observable-from.any.js": {},
       "https://github.com/web-platform-tests/wpt/blob/master/dom/observable/tentative/observable-inspect.any.js": {},
       "https://github.com/web-platform-tests/wpt/blob/master/dom/observable/tentative/observable-map.any.js": {},
       "https://github.com/web-platform-tests/wpt/blob/master/dom/observable/tentative/observable-map.window.js": {},
@@ -55,6 +59,7 @@
       "https://wpt.fyi/results/dom/observable/tentative/observable-event-target.window.js": {},
       "https://wpt.fyi/results/dom/observable/tentative/observable-filter.any.js": {},
       "https://wpt.fyi/results/dom/observable/tentative/observable-forEach.any.js": {},
+      "https://wpt.fyi/results/dom/observable/tentative/observable-from.any.js": {},
       "https://wpt.fyi/results/dom/observable/tentative/observable-inspect.any.js": {},
       "https://wpt.fyi/results/dom/observable/tentative/observable-map.any.js": {},
       "https://wpt.fyi/results/dom/observable/tentative/observable-map.window.js": {},
@@ -74,8 +79,8 @@
           "abortsignal-signal-abort",
           "document",
           "abortsignal-aborted",
-          "abortsignal-abort-reason",
           "abortsignal-add",
+          "abortsignal-abort-reason",
           "abortcontroller-signal-abort",
           "create-a-dependent-abort-signal",
           "abortsignal-remove",
@@ -107,29 +112,63 @@
       "https://html.spec.whatwg.org/multipage/webappapis.html": {
         "anchors": [
           "concept-relevant-global",
-          "report-the-exception",
+          "report-an-exception",
+          "concept-realm-global",
           "microtask",
           "queue-a-microtask"
         ]
       },
       "https://infra.spec.whatwg.org/": {
         "anchors": [
+          "ordered-set",
           "list",
+          "list-iterate",
           "assert",
           "list-append",
-          "list-iterate",
           "struct",
           "struct-item",
+          "iteration-while",
+          "iteration-break",
           "map-exists",
-          "boolean",
-          "list-contain",
+          "set-append",
+          "list-remove",
           "list-empty",
-          "list-remove"
+          "boolean",
+          "list-contain"
         ]
       },
       "https://tc39.es/ecma262/": {
         "anchors": [
-          "current-realm"
+          "current-realm",
+          "sec-ecmascript-data-types-and-values",
+          "sec-object-type",
+          "sec-returnifabrupt-shorthands",
+          "sec-iterator-records",
+          "sec-completion-record-specification-type",
+          "sec-normalcompletion"
+        ]
+      },
+      "https://tc39.es/ecma262/multipage/abstract-operations.html": {
+        "anchors": [
+          "sec-getmethod",
+          "sec-getiterator",
+          "sec-iteratornext",
+          "sec-iteratorstepvalue",
+          "sec-iteratorcomplete",
+          "sec-iteratorvalue",
+          "sec-asynciteratorclose",
+          "sec-iteratorclose"
+        ]
+      },
+      "https://tc39.es/ecma262/multipage/control-abstraction-objects.html": {
+        "anchors": [
+          "await",
+          "sec-ispromise"
+        ]
+      },
+      "https://tc39.es/ecma262/multipage/ecmascript-data-types-and-values.html": {
+        "anchors": [
+          "sec-well-known-symbols"
         ]
       },
       "https://webidl.spec.whatwg.org/": {
@@ -145,12 +184,17 @@
           "idl-promise",
           "idl-sequence",
           "dfn-callback-function",
+          "dfn-throw",
+          "exceptiondef-typeerror",
+          "dfn-specific-type",
+          "a-promise-rejected-with",
+          "a-promise-resolved-with",
+          "dfn-perform-steps-once-promise-is-settled",
           "new",
           "a-new-promise",
           "reject",
           "resolve",
           "exceptiondef-rangeerror",
-          "exceptiondef-typeerror",
           "idl-DOMString"
         ]
       }

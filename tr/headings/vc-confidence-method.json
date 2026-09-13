@@ -1,0 +1,249 @@
+{
+  "spec": {
+    "title": "Verifiable Credential Confidence Methods v1.0",
+    "url": "https://www.w3.org/TR/vc-confidence-method/"
+  },
+  "headings": [
+    {
+      "id": "title",
+      "href": "https://www.w3.org/TR/vc-confidence-method/#title",
+      "level": 1,
+      "title": "Verifiable Credential Confidence Methods v1.0"
+    },
+    {
+      "id": "subtitle",
+      "href": "https://www.w3.org/TR/vc-confidence-method/#subtitle",
+      "level": 2,
+      "title": "Increasing confidence during presentation of verifiable credentials"
+    },
+    {
+      "id": "toc",
+      "href": "https://www.w3.org/TR/vc-confidence-method/#toc",
+      "level": 2,
+      "title": "Table of Contents",
+      "alternateIds": [
+        "table-of-contents"
+      ]
+    },
+    {
+      "id": "introduction",
+      "href": "https://www.w3.org/TR/vc-confidence-method/#introduction",
+      "level": 2,
+      "title": "Introduction",
+      "alternateIds": [
+        "x1-introduction"
+      ],
+      "number": "1"
+    },
+    {
+      "id": "terminology",
+      "href": "https://www.w3.org/TR/vc-confidence-method/#terminology",
+      "level": 3,
+      "title": "Terminology",
+      "alternateIds": [
+        "x1-1-terminology"
+      ],
+      "number": "1.1"
+    },
+    {
+      "id": "conformance",
+      "href": "https://www.w3.org/TR/vc-confidence-method/#conformance",
+      "level": 2,
+      "title": "Conformance",
+      "alternateIds": [
+        "x2-conformance"
+      ],
+      "number": "2"
+    },
+    {
+      "id": "evidence",
+      "href": "https://www.w3.org/TR/vc-confidence-method/#evidence",
+      "level": 2,
+      "title": "Relation to the evidence property",
+      "alternateIds": [
+        "x3-relation-to-the-evidence-property"
+      ],
+      "number": "3"
+    },
+    {
+      "id": "data-model",
+      "href": "https://www.w3.org/TR/vc-confidence-method/#data-model",
+      "level": 2,
+      "title": "Data Model",
+      "alternateIds": [
+        "x4-data-model"
+      ],
+      "number": "4"
+    },
+    {
+      "id": "confidence-methods",
+      "href": "https://www.w3.org/TR/vc-confidence-method/#confidence-methods",
+      "level": 2,
+      "title": "Confidence Methods",
+      "alternateIds": [
+        "x5-confidence-methods"
+      ],
+      "number": "5"
+    },
+    {
+      "id": "verification-confidence",
+      "href": "https://www.w3.org/TR/vc-confidence-method/#verification-confidence",
+      "level": 3,
+      "title": "Verification Confidence",
+      "alternateIds": [
+        "x5-1-verification-confidence"
+      ],
+      "number": "5.1"
+    },
+    {
+      "id": "biometric-image",
+      "href": "https://www.w3.org/TR/vc-confidence-method/#biometric-image",
+      "level": 3,
+      "title": "Biometric Image",
+      "alternateIds": [
+        "x5-2-biometric-image"
+      ],
+      "number": "5.2"
+    },
+    {
+      "id": "cryptographic-key",
+      "href": "https://www.w3.org/TR/vc-confidence-method/#cryptographic-key",
+      "level": 3,
+      "title": "Cryptographic Key",
+      "alternateIds": [
+        "x5-3-cryptographic-key"
+      ],
+      "number": "5.3"
+    },
+    {
+      "id": "controlled-identifier",
+      "href": "https://www.w3.org/TR/vc-confidence-method/#controlled-identifier",
+      "level": 3,
+      "title": "Controlled Identifier",
+      "alternateIds": [
+        "x5-4-controlled-identifier"
+      ],
+      "number": "5.4"
+    },
+    {
+      "id": "biometric-image-confidence",
+      "href": "https://www.w3.org/TR/vc-confidence-method/#biometric-image-confidence",
+      "level": 3,
+      "title": "Biometric Image Confidence",
+      "alternateIds": [
+        "x5-5-biometric-image-confidence"
+      ],
+      "number": "5.5"
+    },
+    {
+      "id": "biometric-vector-confidence-method",
+      "href": "https://www.w3.org/TR/vc-confidence-method/#biometric-vector-confidence-method",
+      "level": 3,
+      "title": "Biometric Vector Confidence Method",
+      "alternateIds": [
+        "x5-6-biometric-vector-confidence-method"
+      ],
+      "number": "5.6"
+    },
+    {
+      "id": "use-cases",
+      "href": "https://www.w3.org/TR/vc-confidence-method/#use-cases",
+      "level": 4,
+      "title": "Use Cases",
+      "alternateIds": [
+        "x5-6-1-use-cases"
+      ],
+      "number": "5.6.1"
+    },
+    {
+      "id": "client-side-verification",
+      "href": "https://www.w3.org/TR/vc-confidence-method/#client-side-verification",
+      "level": 4,
+      "title": "Client-Side Verification",
+      "alternateIds": [
+        "x5-6-2-client-side-verification"
+      ],
+      "number": "5.6.2"
+    },
+    {
+      "id": "user-selected-provider",
+      "href": "https://www.w3.org/TR/vc-confidence-method/#user-selected-provider",
+      "level": 4,
+      "title": "User-Selected Provider",
+      "alternateIds": [
+        "x5-6-3-user-selected-provider"
+      ],
+      "number": "5.6.3"
+    },
+    {
+      "id": "assurance-levels",
+      "href": "https://www.w3.org/TR/vc-confidence-method/#assurance-levels",
+      "level": 2,
+      "title": "Assurance Levels",
+      "alternateIds": [
+        "x6-assurance-levels"
+      ],
+      "number": "6"
+    },
+    {
+      "id": "nist_800-63-4_loa",
+      "href": "https://www.w3.org/TR/vc-confidence-method/#nist_800-63-4_loa",
+      "level": 3,
+      "title": "NIST_800-63-4_LOA",
+      "alternateIds": [
+        "x6-1-nist_800-63-4_loa"
+      ],
+      "number": "6.1"
+    },
+    {
+      "id": "eidas_loa",
+      "href": "https://www.w3.org/TR/vc-confidence-method/#eidas_loa",
+      "level": 3,
+      "title": "EIDAS_LOA",
+      "alternateIds": [
+        "x6-2-eidas_loa"
+      ],
+      "number": "6.2"
+    },
+    {
+      "id": "security-considerations",
+      "href": "https://www.w3.org/TR/vc-confidence-method/#security-considerations",
+      "level": 2,
+      "title": "Security Considerations",
+      "alternateIds": [
+        "x7-security-considerations"
+      ],
+      "number": "7"
+    },
+    {
+      "id": "privacy-considerations",
+      "href": "https://www.w3.org/TR/vc-confidence-method/#privacy-considerations",
+      "level": 2,
+      "title": "Privacy Considerations",
+      "alternateIds": [
+        "x8-privacy-considerations"
+      ],
+      "number": "8"
+    },
+    {
+      "id": "references",
+      "href": "https://www.w3.org/TR/vc-confidence-method/#references",
+      "level": 2,
+      "title": "References",
+      "alternateIds": [
+        "a-references"
+      ],
+      "number": "A"
+    },
+    {
+      "id": "normative-references",
+      "href": "https://www.w3.org/TR/vc-confidence-method/#normative-references",
+      "level": 3,
+      "title": "Normative references",
+      "alternateIds": [
+        "a-1-normative-references"
+      ],
+      "number": "A.1"
+    }
+  ]
+}

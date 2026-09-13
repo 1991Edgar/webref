@@ -1,9 +1,29 @@
 {
   "spec": {
-    "title": "CSS Transitions",
+    "title": "CSS Transitions Module Level 1",
     "url": "https://www.w3.org/TR/css-transitions-1/"
   },
   "dfns": [
+    {
+      "id": "transitions",
+      "href": "https://www.w3.org/TR/css-transitions-1/#transitions",
+      "linkingText": [
+        "Transitions"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "transitions",
+        "href": "https://www.w3.org/TR/css-transitions-1/#transitions",
+        "title": "Transitions",
+        "number": "2"
+      },
+      "definedIn": "heading",
+      "links": []
+    },
     {
       "id": "propdef-transition-property",
       "href": "https://www.w3.org/TR/css-transitions-1/#propdef-transition-property",
@@ -21,7 +41,8 @@
         "title": "The transition-property Property",
         "number": "2.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "single-transition-property",
@@ -40,7 +61,8 @@
         "title": "The transition-property Property",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-transition-property-none",
@@ -61,7 +83,8 @@
         "title": "The transition-property Property",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-transition-property-all",
@@ -82,7 +105,8 @@
         "title": "The transition-property Property",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-transition-duration",
@@ -101,7 +125,8 @@
         "title": "The transition-duration Property",
         "number": "2.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "propdef-transition-timing-function",
@@ -120,7 +145,8 @@
         "title": "The transition-timing-function Property",
         "number": "2.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "propdef-transition-delay",
@@ -139,7 +165,8 @@
         "title": "The transition-delay Property",
         "number": "2.4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "propdef-transition",
@@ -158,7 +185,8 @@
         "title": "The transition Shorthand Property",
         "number": "2.5"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "single-transition",
@@ -177,7 +205,8 @@
         "title": "The transition Shorthand Property",
         "number": "2.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "running-transition",
@@ -196,7 +225,8 @@
         "title": "Starting of transitions",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "transition-start-time",
@@ -217,7 +247,8 @@
         "title": "Starting of transitions",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "transition-end-time",
@@ -238,7 +269,8 @@
         "title": "Starting of transitions",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "transition-start-value",
@@ -259,7 +291,8 @@
         "title": "Starting of transitions",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "transition-end-value",
@@ -280,7 +313,8 @@
         "title": "Starting of transitions",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "transition-reversing-adjusted-start-value",
@@ -301,7 +335,8 @@
         "title": "Starting of transitions",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "transition-reversing-shortening-factor",
@@ -322,7 +357,8 @@
         "title": "Starting of transitions",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "transition-cancel",
@@ -343,7 +379,8 @@
         "title": "Starting of transitions",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "completed-transition",
@@ -362,7 +399,8 @@
         "title": "Starting of transitions",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "style-change-event",
@@ -381,7 +419,8 @@
         "title": "Starting of transitions",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "before-change-style",
@@ -400,7 +439,8 @@
         "title": "Starting of transitions",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "after-change-style",
@@ -419,7 +459,8 @@
         "title": "Starting of transitions",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "matching-transition-property-value",
@@ -438,7 +479,8 @@
         "title": "Starting of transitions",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "matching-transition-duration",
@@ -457,7 +499,8 @@
         "title": "Starting of transitions",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "matching-transition-delay",
@@ -476,7 +519,8 @@
         "title": "Starting of transitions",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "matching-transition-timing-function",
@@ -495,7 +539,8 @@
         "title": "Starting of transitions",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "transition-combined-duration",
@@ -516,7 +561,8 @@
         "title": "Starting of transitions",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "transitionable",
@@ -535,7 +581,8 @@
         "title": "Starting of transitions",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "current-value",
@@ -554,7 +601,8 @@
         "title": "Application of transitions",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-complete",
@@ -575,49 +623,8 @@
         "title": "Completion of transitions",
         "number": "5"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dom-transitionevent-transitionevent-type-transitioneventinitdict-type",
-      "href": "https://www.w3.org/TR/css-transitions-1/#dom-transitionevent-transitionevent-type-transitioneventinitdict-type",
-      "linkingText": [
-        "type"
-      ],
-      "localLinkingText": [],
-      "type": "argument",
-      "for": [
-        "TransitionEvent/TransitionEvent(type, transitionEventInitDict)"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "interface-transitionevent-idl",
-        "href": "https://www.w3.org/TR/css-transitions-1/#interface-transitionevent-idl",
-        "title": "IDL Definition",
-        "number": "6.1.1"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-transitionevent-transitionevent-type-transitioneventinitdict-transitioneventinitdict",
-      "href": "https://www.w3.org/TR/css-transitions-1/#dom-transitionevent-transitionevent-type-transitioneventinitdict-transitioneventinitdict",
-      "linkingText": [
-        "transitionEventInitDict"
-      ],
-      "localLinkingText": [],
-      "type": "argument",
-      "for": [
-        "TransitionEvent/TransitionEvent(type, transitionEventInitDict)"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "interface-transitionevent-idl",
-        "href": "https://www.w3.org/TR/css-transitions-1/#interface-transitionevent-idl",
-        "title": "IDL Definition",
-        "number": "6.1.1"
-      },
-      "definedIn": "pre"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "transitionevent",
@@ -636,7 +643,58 @@
         "title": "IDL Definition",
         "number": "6.1.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-transitionevent-transitionevent-type-transitioneventinitdict-type",
+      "href": "https://www.w3.org/TR/css-transitions-1/#dom-transitionevent-transitionevent-type-transitioneventinitdict-type",
+      "linkingText": [
+        "type"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "TransitionEvent/TransitionEvent(type, transitionEventInitDict)",
+        "TransitionEvent/constructor(type, transitionEventInitDict)",
+        "TransitionEvent/TransitionEvent(type)",
+        "TransitionEvent/constructor(type)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interface-transitionevent-idl",
+        "href": "https://www.w3.org/TR/css-transitions-1/#interface-transitionevent-idl",
+        "title": "IDL Definition",
+        "number": "6.1.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-transitionevent-transitionevent-type-transitioneventinitdict-transitioneventinitdict",
+      "href": "https://www.w3.org/TR/css-transitions-1/#dom-transitionevent-transitionevent-type-transitioneventinitdict-transitioneventinitdict",
+      "linkingText": [
+        "transitionEventInitDict"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "TransitionEvent/TransitionEvent(type, transitionEventInitDict)",
+        "TransitionEvent/constructor(type, transitionEventInitDict)",
+        "TransitionEvent/TransitionEvent(type)",
+        "TransitionEvent/constructor(type)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interface-transitionevent-idl",
+        "href": "https://www.w3.org/TR/css-transitions-1/#interface-transitionevent-idl",
+        "title": "IDL Definition",
+        "number": "6.1.1"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-transitioneventinit",
@@ -655,7 +713,8 @@
         "title": "IDL Definition",
         "number": "6.1.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-transitioneventinit-propertyname",
@@ -676,7 +735,8 @@
         "title": "IDL Definition",
         "number": "6.1.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-transitioneventinit-elapsedtime",
@@ -697,7 +757,8 @@
         "title": "IDL Definition",
         "number": "6.1.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-transitioneventinit-pseudoelement",
@@ -718,7 +779,8 @@
         "title": "IDL Definition",
         "number": "6.1.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "Events-TransitionEvent-propertyName",
@@ -739,7 +801,8 @@
         "title": "Attributes",
         "number": "6.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "Events-TransitionEvent-elapsedTime",
@@ -760,7 +823,8 @@
         "title": "Attributes",
         "number": "6.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "Events-TransitionEvent-pseudoElement",
@@ -781,13 +845,17 @@
         "title": "Attributes",
         "number": "6.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-transitionevent-transitionevent",
       "href": "https://www.w3.org/TR/css-transitions-1/#dom-transitionevent-transitionevent",
       "linkingText": [
-        "TransitionEvent(type, transitionEventInitDict)"
+        "TransitionEvent(type, transitionEventInitDict)",
+        "constructor(type, transitionEventInitDict)",
+        "TransitionEvent(type)",
+        "constructor(type)"
       ],
       "localLinkingText": [],
       "type": "constructor",
@@ -802,7 +870,8 @@
         "title": "Attributes",
         "number": "6.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "transitionrun",
@@ -813,7 +882,7 @@
       "localLinkingText": [],
       "type": "event",
       "for": [
-        "transitionevent"
+        "GlobalEventHandlers"
       ],
       "access": "public",
       "informative": false,
@@ -823,7 +892,8 @@
         "title": "Types of TransitionEvent",
         "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "transitionstart",
@@ -834,7 +904,7 @@
       "localLinkingText": [],
       "type": "event",
       "for": [
-        "transitionevent"
+        "GlobalEventHandlers"
       ],
       "access": "public",
       "informative": false,
@@ -844,7 +914,8 @@
         "title": "Types of TransitionEvent",
         "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "transitionend",
@@ -855,7 +926,7 @@
       "localLinkingText": [],
       "type": "event",
       "for": [
-        "transitionevent"
+        "GlobalEventHandlers"
       ],
       "access": "public",
       "informative": false,
@@ -865,7 +936,8 @@
         "title": "Types of TransitionEvent",
         "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "transitioncancel",
@@ -876,7 +948,7 @@
       "localLinkingText": [],
       "type": "event",
       "for": [
-        "transitionevent"
+        "GlobalEventHandlers"
       ],
       "access": "public",
       "informative": false,
@@ -886,7 +958,8 @@
         "title": "Types of TransitionEvent",
         "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-globaleventhandlers-ontransitionrun",
@@ -907,7 +980,8 @@
         "title": "IDL Definition",
         "number": "7.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-globaleventhandlers-ontransitionstart",
@@ -928,7 +1002,8 @@
         "title": "IDL Definition",
         "number": "7.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-globaleventhandlers-ontransitionend",
@@ -949,7 +1024,8 @@
         "title": "IDL Definition",
         "number": "7.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-globaleventhandlers-ontransitioncancel",
@@ -970,7 +1046,8 @@
         "title": "IDL Definition",
         "number": "7.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     }
   ]
 }

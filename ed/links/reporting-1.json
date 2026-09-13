@@ -23,8 +23,8 @@
       "https://httpwg.org/specs/rfc9110.html": {},
       "https://infra.spec.whatwg.org/": {},
       "https://url.spec.whatwg.org/": {},
-      "https://w3c.github.io/FileAPI/": {},
       "https://w3c.github.io/network-error-logging/": {},
+      "https://w3c.github.io/rdf-concepts/spec/": {},
       "https://w3c.github.io/webappsec-csp/": {},
       "https://w3c.github.io/webappsec-secure-contexts/": {},
       "https://w3c.github.io/webdriver/": {},
@@ -36,12 +36,12 @@
       "https://www.rfc-editor.org/rfc/rfc8259": {},
       "https://www.rfc-editor.org/rfc/rfc8941.html": {},
       "https://www.w3.org/TR/html-design-principles/": {},
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://dom.spec.whatwg.org/": {
         "anchors": [
-          "concept-document"
+          "document"
         ]
       },
       "https://fetch.spec.whatwg.org/": {
@@ -58,7 +58,8 @@
           "concept-body-source",
           "concept-fetch",
           "wait-for-a-response",
-          "ok-status"
+          "ok-status",
+          "http-scheme"
         ]
       },
       "https://html.spec.whatwg.org/multipage/browsers.html": {
@@ -114,17 +115,21 @@
       "https://url.spec.whatwg.org/": {
         "anchors": [
           "concept-url",
-          "concept-url-username",
-          "concept-url-password",
-          "concept-url-serializer",
+          "dom-url-username",
+          "dom-url-password",
           "concept-url-origin",
           "concept-url-parser",
-          "concept-base-url"
+          "concept-base-url",
+          "concept-url-scheme",
+          "concept-url-fragment",
+          "concept-url-username",
+          "concept-url-password",
+          "concept-url-serializer"
         ]
       },
-      "https://w3c.github.io/FileAPI/": {
+      "https://w3c.github.io/rdf-concepts/spec/": {
         "anchors": [
-          "blob-url-entry-object"
+          "dfn-object"
         ]
       },
       "https://w3c.github.io/webappsec-csp/": {
@@ -155,13 +160,13 @@
       },
       "https://webidl.spec.whatwg.org/": {
         "anchors": [
-          "Exposed",
-          "Default",
-          "idl-object",
           "idl-DOMString",
+          "Exposed",
           "idl-undefined",
           "idl-sequence",
           "idl-boolean",
+          "dfn-dictionary",
+          "dfn-inherit-dictionary",
           "this",
           "invoke-a-callback-function",
           "dfn-callback-this-value"

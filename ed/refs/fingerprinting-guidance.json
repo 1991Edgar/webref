@@ -7,16 +7,28 @@
     "normative": [],
     "informative": [
       {
-        "name": "BATTERY-STATUS",
-        "url": "https://www.w3.org/TR/battery-status/"
+        "name": "BEAUTY-BEAST",
+        "url": "https://inria.hal.science/hal-01285470v2/"
       },
       {
-        "name": "BEAUTY-BEAST",
-        "url": "https://hal.inria.fr/hal-01285470v2/"
+        "name": "client-hints-infrastructure",
+        "url": "https://wicg.github.io/client-hints-infrastructure/"
       },
       {
         "name": "dap-privacy-reqs",
         "url": "https://www.w3.org/TR/dap-privacy-reqs/"
+      },
+      {
+        "name": "device-posture",
+        "url": "https://www.w3.org/TR/device-posture/"
+      },
+      {
+        "name": "dom",
+        "url": "https://dom.spec.whatwg.org/"
+      },
+      {
+        "name": "EPHEMERAL-FINGERPRINTING",
+        "url": "https://github.com/asankah/ephemeral-fingerprinting"
       },
       {
         "name": "EVERCOOKIE",
@@ -36,19 +48,15 @@
       },
       {
         "name": "HIDING-CROWD",
-        "url": "https://hal.inria.fr/hal-01718234v2"
+        "url": "https://inria.hal.science/hal-01718234v2"
+      },
+      {
+        "name": "HSTS-SUPERCOOKIE",
+        "url": "https://github.com/ben174/hsts-cookie"
       },
       {
         "name": "HTML",
         "url": "https://html.spec.whatwg.org/multipage/"
-      },
-      {
-        "name": "html52",
-        "url": "https://www.w3.org/TR/html52/"
-      },
-      {
-        "name": "httpbis-client-hints",
-        "url": "https://httpwg.org/http-extensions/client-hints.html"
       },
       {
         "name": "LEAKING-BATTERY",
@@ -63,8 +71,8 @@
         "url": "https://www.microsoft.com/en-us/research/publication/host-fingerprinting-and-tracking-on-the-webprivacy-and-security-implications/"
       },
       {
-        "name": "PROXIMITY",
-        "url": "https://www.w3.org/TR/proximity/"
+        "name": "RENDERING-CONTENTION",
+        "url": "https://www.usenix.org/system/files/sec22summer_wu.pdf"
       },
       {
         "name": "RFC6265",
@@ -72,19 +80,19 @@
       },
       {
         "name": "RFC6454",
-        "url": "https://www.rfc-editor.org/rfc/rfc6454"
+        "url": "https://www.rfc-editor.org/info/rfc6454/"
       },
       {
         "name": "RFC6973",
-        "url": "https://www.rfc-editor.org/rfc/rfc6973.txt"
+        "url": "https://www.rfc-editor.org/info/rfc6973/"
       },
       {
-        "name": "RFC7231",
-        "url": "https://httpwg.org/specs/rfc7231.html"
+        "name": "RFC9110",
+        "url": "https://httpwg.org/specs/rfc9110.html"
       },
       {
-        "name": "security-privacy-questionnaire-tag",
-        "url": "https://w3ctag.github.io/security-questionnaire/"
+        "name": "security-privacy-questionnaire",
+        "url": "https://www.w3.org/TR/security-privacy-questionnaire/"
       },
       {
         "name": "TAG-MINIMIZATION",

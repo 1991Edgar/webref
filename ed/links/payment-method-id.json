@@ -5,7 +5,6 @@
   },
   "links": {
     "rawlinks": {
-      "https://datatracker.ietf.org/doc/html/bcp14": {},
       "https://fetch.spec.whatwg.org/": {},
       "https://github.com/w3c/payment-request-info/wiki/PaymentMethodPractice": {},
       "https://infra.spec.whatwg.org/": {},
@@ -13,9 +12,10 @@
       "https://w3c.github.io/test-results/payment-method-id/all.html": {},
       "https://wpt.live/payment-method-id/": {},
       "https://wpt.live/payment-method-id/payment-request-ctor-pmi-handling.https.sub.html": {},
-      "https://www.rfc-editor.org/rfc/rfc2119": {},
-      "https://www.rfc-editor.org/rfc/rfc5234": {},
-      "https://www.rfc-editor.org/rfc/rfc8174": {},
+      "https://www.rfc-editor.org/info/bcp14": {},
+      "https://www.rfc-editor.org/info/rfc2119/": {},
+      "https://www.rfc-editor.org/info/rfc5234/": {},
+      "https://www.rfc-editor.org/info/rfc8174/": {},
       "https://www.w3.org/": {},
       "https://www.w3.org/Consortium/Process/": {},
       "https://www.w3.org/Consortium/join": {},
@@ -30,7 +30,7 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {
+      "https://www.w3.org/policies/process/20250818/": {
         "anchors": [
           "allow-new-features"
         ]

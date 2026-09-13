@@ -16,7 +16,7 @@ import util from 'node:util';
 import { fileURLToPath } from 'node:url';
 import { execFile as execFileCb } from 'node:child_process';
 import { loadJSON } from './utils.js';
-import { expandCrawlResult } from 'reffy';
+import { expandCrawlResult, isLatestLevelThatPasses } from 'reffy';
 const execFile = util.promisify(execFileCb);
 
 
@@ -36,9 +36,11 @@ const supersededBy = {
 
   // https://github.com/w3c/csswg-drafts/issues/6434#issuecomment-877447360
   // https://drafts.csswg.org/css-borders-4/#level-changes
+  // https://github.com/w3c/csswg-drafts/issues/10189
   'css-logical': [
     'css-position',
-    'css-borders'
+    'css-borders',
+    'css-sizing'
   ],
 
   // See https://github.com/w3c/csswg-drafts/issues/6435
@@ -67,6 +69,14 @@ const supersededBy = {
   // This override can be dropped once css-backgrounds-4 becomes the current
   // specification in the css-backgrounds series.
   'css-backgrounds': 'css-borders',
+
+  // css-forms-1 took over the `::file-selector-button`` pseudo-element from
+  // css-pseudo-4, see initial commit at:
+  // https://github.com/w3c/csswg-drafts/commit/7460e21886a7d7d3ee8b1b5c2dd6dd35973c578a
+  // The CSS Forms spec still says it's an unofficial draft as of March 2025,
+  // but spec is in good standing in browser-specs because some parts already
+  // ship in Chrome.
+  'css-pseudo': 'css-forms',
 
   // The Selectors spec defines the ":fullscreen" selector, which is refined in
   // Fullscreen. The Fullscreen definition should probably be flagged as non
@@ -156,13 +166,6 @@ async function dropCSSPropertyDuplicates(folder) {
 
   function filterSuperseded(spec, specs, type, name) {
     const shortname = spec.series.shortname;
-    if ((spec.seriesComposition === 'delta') &&
-        specs.find(s => s !== spec && s.series.shortname === shortname)) {
-      // Property name both defined in delta spec and in base full spec,
-      // let's ignore the duplication.
-      return false;
-    }
-
     const superseding = [supersededBy[shortname]].flat();
     if (superseding[0] === '*' ||
         specs.find(s => superseding.includes(s.series.shortname))) {
@@ -170,6 +173,13 @@ async function dropCSSPropertyDuplicates(folder) {
       // drop the property definition from the current spec
       spec.css[type] = spec.css[type].filter(dfn => dfn.name !== name);
       spec.needsSaving = true;
+      return false;
+    }
+
+    if ((spec.seriesComposition === 'delta') &&
+        specs.find(s => s !== spec && s.series.shortname === shortname)) {
+      // Property name both defined in delta spec and in base full spec,
+      // let's ignore the duplication
       return false;
     }
     return true;
@@ -228,6 +238,31 @@ async function dropCSSPropertyDuplicates(folder) {
     }
   }
 
+  // TEMP (2025-01-23): Auto-drop wrapping "''" in values of properties and
+  // values. Shorthand syntax used to be supported by Bikeshed, but no longer
+  // is starting with v5.0.0. Pending resolution of:
+  // https://github.com/speced/bikeshed/issues/3011
+  // ... or updates made to underlying specs:
+  // css-color-5, css-color-4, css-easing-2, css-fonts-4, css-shapes-1
+  for (const spec of index.results) {
+    if (!spec.css) {
+      continue;
+    }
+    for (const dfnType of ['properties', 'values', 'atrules']) {
+      for (const prop of spec.css[dfnType]) {
+        if (!prop.value) {
+          continue;
+        }
+        const needsSaving = prop.value.match(/''/);
+        if (needsSaving) {
+          console.warn(`- Dropped wrapping quotes in definition of ${prop.name} in ${spec.shortname}`);
+          prop.value = prop.value.replace(/''/g, '');
+          spec.needsSaving = true;
+        }
+      }
+    }
+  }
+
   function getBaseJSON(spec) {
     return {
       spec: {
@@ -247,7 +282,7 @@ async function dropCSSPropertyDuplicates(folder) {
       }
     }, spec.css);
     const json = JSON.stringify(css, null, 2) + '\n';
-    const filename = spec.shortname === spec.series.currentSpecification ?
+    const filename = isLatestLevelThatPasses(spec, index.results, spec => spec.css) ?
       spec.series.shortname :
       spec.shortname
     const pathname = path.join(folder, 'css', filename + '.json');

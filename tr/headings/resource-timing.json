@@ -11,10 +11,25 @@
       "title": "Resource Timing"
     },
     {
+      "id": "abstract",
+      "href": "https://www.w3.org/TR/resource-timing/#abstract",
+      "level": 2,
+      "title": "Abstract"
+    },
+    {
+      "id": "sotd",
+      "href": "https://www.w3.org/TR/resource-timing/#sotd",
+      "level": 2,
+      "title": "Status of this document"
+    },
+    {
       "id": "toc",
       "href": "https://www.w3.org/TR/resource-timing/#toc",
       "level": 2,
-      "title": "Table of Contents"
+      "title": "Table of Contents",
+      "alternateIds": [
+        "contents"
+      ]
     },
     {
       "id": "introduction",
@@ -24,137 +39,176 @@
       "number": "1"
     },
     {
-      "id": "conformance",
-      "href": "https://www.w3.org/TR/resource-timing/#conformance",
-      "level": 2,
-      "title": "Conformance",
-      "number": "2"
-    },
-    {
       "id": "terminology",
       "href": "https://www.w3.org/TR/resource-timing/#terminology",
       "level": 2,
       "title": "Terminology",
-      "number": "3"
+      "number": "2"
     },
     {
       "id": "sec-resource-timing",
       "href": "https://www.w3.org/TR/resource-timing/#sec-resource-timing",
       "level": 2,
       "title": "Resource Timing",
-      "number": "4"
+      "number": "3"
     },
     {
-      "id": "introduction-0",
-      "href": "https://www.w3.org/TR/resource-timing/#introduction-0",
+      "id": "sec-resource-timing-intro",
+      "href": "https://www.w3.org/TR/resource-timing/#sec-resource-timing-intro",
       "level": 3,
       "title": "Introduction",
-      "number": "4.1"
+      "number": "3.1"
     },
     {
       "id": "resources-included-in-the-performanceresourcetiming-interface",
       "href": "https://www.w3.org/TR/resource-timing/#resources-included-in-the-performanceresourcetiming-interface",
       "level": 3,
       "title": "Resources Included in the PerformanceResourceTiming Interface",
-      "number": "4.2"
+      "number": "3.2"
     },
     {
       "id": "sec-performanceresourcetiming",
       "href": "https://www.w3.org/TR/resource-timing/#sec-performanceresourcetiming",
       "level": 3,
       "title": "The PerformanceResourceTiming Interface",
-      "number": "4.3"
+      "number": "3.3"
     },
     {
       "id": "sec-render-blocking-status-types",
       "href": "https://www.w3.org/TR/resource-timing/#sec-render-blocking-status-types",
       "level": 4,
       "title": "RenderBlockingStatusType enum",
-      "number": "4.3.1"
+      "number": "3.3.1"
     },
     {
       "id": "sec-extensions-performance-interface",
       "href": "https://www.w3.org/TR/resource-timing/#sec-extensions-performance-interface",
       "level": 3,
       "title": "Extensions to the Performance Interface",
-      "number": "4.4"
+      "number": "3.4"
     },
     {
       "id": "sec-cross-origin-resources",
       "href": "https://www.w3.org/TR/resource-timing/#sec-cross-origin-resources",
       "level": 3,
       "title": "Cross-origin Resources",
-      "number": "4.5"
+      "number": "3.5"
+    },
+    {
+      "id": "sec-cross-origin-intro",
+      "href": "https://www.w3.org/TR/resource-timing/#sec-cross-origin-intro",
+      "level": 4,
+      "title": "Introduction",
+      "number": "3.5.1"
     },
     {
       "id": "sec-timing-allow-origin",
       "href": "https://www.w3.org/TR/resource-timing/#sec-timing-allow-origin",
       "level": 4,
       "title": "Timing-Allow-Origin Response Header",
-      "number": "4.5.1"
+      "number": "3.5.2"
     },
     {
       "id": "sec-iana-considerations",
       "href": "https://www.w3.org/TR/resource-timing/#sec-iana-considerations",
       "level": 4,
       "title": "IANA Considerations",
-      "number": "4.5.2"
+      "number": "3.5.3"
     },
     {
       "id": "attribute-descriptions",
       "href": "https://www.w3.org/TR/resource-timing/#attribute-descriptions",
       "level": 3,
       "title": "Resource Timing Attributes",
-      "number": "4.6"
+      "number": "3.6"
     },
     {
       "id": "marking-resource-timing",
       "href": "https://www.w3.org/TR/resource-timing/#marking-resource-timing",
-      "level": 3,
+      "level": 2,
       "title": "Creating a resource timing entry",
-      "number": "4.7"
+      "number": "4"
     },
     {
       "id": "sec-security",
       "href": "https://www.w3.org/TR/resource-timing/#sec-security",
-      "level": 3,
+      "level": 2,
       "title": "Security Considerations",
-      "number": "4.8"
+      "number": "5"
     },
     {
       "id": "sec-privacy",
       "href": "https://www.w3.org/TR/resource-timing/#sec-privacy",
-      "level": 3,
+      "level": 2,
       "title": "Privacy Considerations",
-      "number": "4.9"
+      "number": "6"
     },
     {
       "id": "acknowledgements",
       "href": "https://www.w3.org/TR/resource-timing/#acknowledgements",
-      "level": 3,
+      "level": 2,
       "title": "Acknowledgments",
-      "number": "4.10"
+      "number": "7"
+    },
+    {
+      "id": "w3c-conformance",
+      "href": "https://www.w3.org/TR/resource-timing/#w3c-conformance",
+      "level": 2,
+      "title": "Conformance"
+    },
+    {
+      "id": "w3c-conventions",
+      "href": "https://www.w3.org/TR/resource-timing/#w3c-conventions",
+      "level": 3,
+      "title": "Document conventions"
+    },
+    {
+      "id": "w3c-conformant-algorithms",
+      "href": "https://www.w3.org/TR/resource-timing/#w3c-conformant-algorithms",
+      "level": 3,
+      "title": "Conformant Algorithms"
+    },
+    {
+      "id": "index",
+      "href": "https://www.w3.org/TR/resource-timing/#index",
+      "level": 2,
+      "title": "Index"
+    },
+    {
+      "id": "index-defined-here",
+      "href": "https://www.w3.org/TR/resource-timing/#index-defined-here",
+      "level": 3,
+      "title": "Terms defined by this specification"
+    },
+    {
+      "id": "index-defined-elsewhere",
+      "href": "https://www.w3.org/TR/resource-timing/#index-defined-elsewhere",
+      "level": 3,
+      "title": "Terms defined by reference"
     },
     {
       "id": "references",
       "href": "https://www.w3.org/TR/resource-timing/#references",
       "level": 2,
-      "title": "References",
-      "number": "A"
+      "title": "References"
     },
     {
-      "id": "normative-references",
-      "href": "https://www.w3.org/TR/resource-timing/#normative-references",
+      "id": "normative",
+      "href": "https://www.w3.org/TR/resource-timing/#normative",
       "level": 3,
-      "title": "Normative references",
-      "number": "A.1"
+      "title": "Normative References"
     },
     {
-      "id": "informative-references",
-      "href": "https://www.w3.org/TR/resource-timing/#informative-references",
+      "id": "informative",
+      "href": "https://www.w3.org/TR/resource-timing/#informative",
       "level": 3,
-      "title": "Informative references",
-      "number": "A.2"
+      "title": "Non-Normative References"
+    },
+    {
+      "id": "idl-index",
+      "href": "https://www.w3.org/TR/resource-timing/#idl-index",
+      "level": 2,
+      "title": "IDL Index"
     }
   ]
 }

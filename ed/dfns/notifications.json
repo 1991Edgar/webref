@@ -21,7 +21,8 @@
         "title": "Notifications",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "service-worker-registration",
@@ -42,7 +43,8 @@
         "title": "Notifications",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "concept-title",
@@ -63,7 +65,8 @@
         "title": "Notifications",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "concept-direction",
@@ -84,7 +87,8 @@
         "title": "Notifications",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "concept-language",
@@ -105,7 +109,8 @@
         "title": "Notifications",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "body",
@@ -126,7 +131,30 @@
         "title": "Notifications",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "notification-navigation-url",
+      "href": "https://notifications.spec.whatwg.org/#notification-navigation-url",
+      "linkingText": [
+        "navigation URL"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "notification"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "notifications",
+        "href": "https://notifications.spec.whatwg.org/#notifications",
+        "title": "Notifications",
+        "number": "2"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "tag",
@@ -147,7 +175,8 @@
         "title": "Notifications",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "data",
@@ -168,7 +197,8 @@
         "title": "Notifications",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "timestamp",
@@ -189,7 +219,8 @@
         "title": "Notifications",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "concept-origin",
@@ -210,7 +241,8 @@
         "title": "Notifications",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "renotify-preference-flag",
@@ -231,7 +263,8 @@
         "title": "Notifications",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "silent-preference-flag",
@@ -252,7 +285,8 @@
         "title": "Notifications",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "require-interaction-preference-flag",
@@ -273,7 +307,8 @@
         "title": "Notifications",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "image-url",
@@ -294,7 +329,8 @@
         "title": "Notifications",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "icon-url",
@@ -315,7 +351,8 @@
         "title": "Notifications",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "badge-url",
@@ -336,7 +373,8 @@
         "title": "Notifications",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "image-resource",
@@ -357,7 +395,8 @@
         "title": "Notifications",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "icon-resource",
@@ -378,7 +417,8 @@
         "title": "Notifications",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "badge-resource",
@@ -399,7 +439,8 @@
         "title": "Notifications",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "vibration-pattern",
@@ -420,7 +461,8 @@
         "title": "Notifications",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "actions",
@@ -441,7 +483,8 @@
         "title": "Notifications",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "action",
@@ -460,7 +503,8 @@
         "title": "Notifications",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "action-name",
@@ -481,7 +525,8 @@
         "title": "Notifications",
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "action-title",
@@ -502,7 +547,30 @@
         "title": "Notifications",
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "notification-action-navigation-url",
+      "href": "https://notifications.spec.whatwg.org/#notification-action-navigation-url",
+      "linkingText": [
+        "navigation URL"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "notification action"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "notifications",
+        "href": "https://notifications.spec.whatwg.org/#notifications",
+        "title": "Notifications",
+        "number": "2"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "action-icon-url",
@@ -523,7 +591,8 @@
         "title": "Notifications",
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "action-icon-resource",
@@ -544,7 +613,8 @@
         "title": "Notifications",
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "maximum-number-of-actions",
@@ -563,7 +633,8 @@
         "title": "Notifications",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "non-persistent-notification",
@@ -582,7 +653,8 @@
         "title": "Notifications",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "persistent-notification",
@@ -601,7 +673,8 @@
         "title": "Notifications",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "create-a-notification-with-a-settings-object",
@@ -620,7 +693,8 @@
         "title": "Notifications",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "create-a-notification",
@@ -639,7 +713,8 @@
         "title": "Notifications",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "list-of-notifications",
@@ -658,7 +733,8 @@
         "title": "Lifetime and UI integration",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "permissiondef-notifications",
@@ -677,7 +753,8 @@
         "title": "Permissions integration",
         "number": "2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "get-the-notifications-permission-state",
@@ -696,7 +773,8 @@
         "title": "Permissions integration",
         "number": "2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "fetch-steps",
@@ -715,7 +793,8 @@
         "title": "Resources",
         "number": "2.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "notification-show-steps",
@@ -734,7 +813,8 @@
         "title": "Showing a notification",
         "number": "2.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "close-steps",
@@ -753,7 +833,8 @@
         "title": "Closing a notification",
         "number": "2.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "handle-close-events",
@@ -772,7 +853,8 @@
         "title": "Closing a notification",
         "number": "2.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "alert-steps",
@@ -791,7 +873,8 @@
         "title": "Alerting the end user",
         "number": "2.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "notification",
@@ -810,7 +893,8 @@
         "title": "API",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-notification-notification-title-options-title",
@@ -834,7 +918,8 @@
         "title": "API",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-notification-notification-title-options-options",
@@ -858,7 +943,8 @@
         "title": "API",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-notification-requestpermission-deprecatedcallback-deprecatedcallback",
@@ -880,7 +966,8 @@
         "title": "API",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-notificationoptions",
@@ -899,7 +986,8 @@
         "title": "API",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-notificationoptions-dir",
@@ -920,7 +1008,8 @@
         "title": "API",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-notificationoptions-lang",
@@ -941,7 +1030,8 @@
         "title": "API",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-notificationoptions-body",
@@ -962,7 +1052,30 @@
         "title": "API",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-notificationoptions-navigate",
+      "href": "https://notifications.spec.whatwg.org/#dom-notificationoptions-navigate",
+      "linkingText": [
+        "navigate"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "NotificationOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "api",
+        "href": "https://notifications.spec.whatwg.org/#api",
+        "title": "API",
+        "number": "3"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-notificationoptions-tag",
@@ -983,7 +1096,8 @@
         "title": "API",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-notificationoptions-image",
@@ -1004,7 +1118,8 @@
         "title": "API",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-notificationoptions-icon",
@@ -1025,7 +1140,8 @@
         "title": "API",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-notificationoptions-badge",
@@ -1046,7 +1162,8 @@
         "title": "API",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-notificationoptions-vibrate",
@@ -1067,7 +1184,8 @@
         "title": "API",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-notificationoptions-timestamp",
@@ -1088,7 +1206,8 @@
         "title": "API",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-notificationoptions-renotify",
@@ -1109,7 +1228,8 @@
         "title": "API",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-notificationoptions-silent",
@@ -1130,7 +1250,8 @@
         "title": "API",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-notificationoptions-requireinteraction",
@@ -1151,7 +1272,8 @@
         "title": "API",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-notificationoptions-data",
@@ -1172,7 +1294,8 @@
         "title": "API",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-notificationoptions-actions",
@@ -1193,7 +1316,8 @@
         "title": "API",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "enumdef-notificationpermission",
@@ -1212,7 +1336,8 @@
         "title": "API",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-notificationpermission-default",
@@ -1233,7 +1358,8 @@
         "title": "API",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-notificationpermission-denied",
@@ -1254,7 +1380,8 @@
         "title": "API",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-notificationpermission-granted",
@@ -1275,7 +1402,8 @@
         "title": "API",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "enumdef-notificationdirection",
@@ -1294,7 +1422,8 @@
         "title": "API",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-notificationdirection-auto",
@@ -1315,7 +1444,8 @@
         "title": "API",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-notificationdirection-ltr",
@@ -1336,7 +1466,8 @@
         "title": "API",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-notificationdirection-rtl",
@@ -1357,7 +1488,8 @@
         "title": "API",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-notificationaction",
@@ -1376,7 +1508,8 @@
         "title": "API",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-notificationaction-action",
@@ -1397,7 +1530,8 @@
         "title": "API",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-notificationaction-title",
@@ -1418,7 +1552,30 @@
         "title": "API",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-notificationaction-navigate",
+      "href": "https://notifications.spec.whatwg.org/#dom-notificationaction-navigate",
+      "linkingText": [
+        "navigate"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "NotificationAction"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "api",
+        "href": "https://notifications.spec.whatwg.org/#api",
+        "title": "API",
+        "number": "3"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-notificationaction-icon",
@@ -1439,7 +1596,8 @@
         "title": "API",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "callbackdef-notificationpermissioncallback",
@@ -1458,7 +1616,8 @@
         "title": "API",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-notificationpermissioncallback-permission",
@@ -1479,7 +1638,8 @@
         "title": "API",
         "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-notification-notification",
@@ -1503,7 +1663,8 @@
         "title": "Constructors",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-notification-permission",
@@ -1524,7 +1685,8 @@
         "title": "Static members",
         "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-notification-requestpermission",
@@ -1546,7 +1708,8 @@
         "title": "Static members",
         "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-notification-maxactions",
@@ -1567,7 +1730,8 @@
         "title": "Static members",
         "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-notification-onclick",
@@ -1588,7 +1752,8 @@
         "title": "Object members",
         "number": "3.4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-notification-onshow",
@@ -1609,7 +1774,8 @@
         "title": "Object members",
         "number": "3.4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-notification-onerror",
@@ -1630,7 +1796,8 @@
         "title": "Object members",
         "number": "3.4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-notification-onclose",
@@ -1651,7 +1818,8 @@
         "title": "Object members",
         "number": "3.4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-notification-close",
@@ -1672,7 +1840,8 @@
         "title": "Object members",
         "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-notification-title",
@@ -1693,7 +1862,8 @@
         "title": "Object members",
         "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-notification-dir",
@@ -1714,7 +1884,8 @@
         "title": "Object members",
         "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-notification-lang",
@@ -1735,7 +1906,8 @@
         "title": "Object members",
         "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-notification-body",
@@ -1756,7 +1928,30 @@
         "title": "Object members",
         "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-notification-navigate",
+      "href": "https://notifications.spec.whatwg.org/#dom-notification-navigate",
+      "linkingText": [
+        "navigate"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "Notification"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "object-members",
+        "href": "https://notifications.spec.whatwg.org/#object-members",
+        "title": "Object members",
+        "number": "3.4"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-notification-tag",
@@ -1777,7 +1972,8 @@
         "title": "Object members",
         "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-notification-image",
@@ -1798,7 +1994,8 @@
         "title": "Object members",
         "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-notification-icon",
@@ -1819,7 +2016,8 @@
         "title": "Object members",
         "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-notification-badge",
@@ -1840,7 +2038,8 @@
         "title": "Object members",
         "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-notification-vibrate",
@@ -1861,7 +2060,8 @@
         "title": "Object members",
         "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-notification-timestamp",
@@ -1882,7 +2082,8 @@
         "title": "Object members",
         "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-notification-renotify",
@@ -1903,7 +2104,8 @@
         "title": "Object members",
         "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-notification-silent",
@@ -1924,7 +2126,8 @@
         "title": "Object members",
         "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-notification-requireinteraction",
@@ -1945,7 +2148,8 @@
         "title": "Object members",
         "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-notification-data",
@@ -1966,7 +2170,8 @@
         "title": "Object members",
         "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-notification-actions",
@@ -1987,7 +2192,8 @@
         "title": "Object members",
         "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dictdef-getnotificationoptions",
@@ -2006,7 +2212,8 @@
         "title": "Service worker API",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-getnotificationoptions-tag",
@@ -2027,7 +2234,8 @@
         "title": "Service worker API",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-serviceworkerregistration-shownotification-title-options-title",
@@ -2049,7 +2257,8 @@
         "title": "Service worker API",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-serviceworkerregistration-shownotification-title-options-options",
@@ -2071,7 +2280,8 @@
         "title": "Service worker API",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-serviceworkerregistration-getnotifications-filter-filter",
@@ -2093,7 +2303,8 @@
         "title": "Service worker API",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "notificationevent",
@@ -2112,7 +2323,8 @@
         "title": "Service worker API",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-notificationevent-notificationevent",
@@ -2134,7 +2346,8 @@
         "title": "Service worker API",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-notificationevent-notificationevent-type-eventinitdict-type",
@@ -2156,7 +2369,8 @@
         "title": "Service worker API",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-notificationevent-notificationevent-type-eventinitdict-eventinitdict",
@@ -2178,7 +2392,8 @@
         "title": "Service worker API",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-notificationeventinit",
@@ -2197,7 +2412,8 @@
         "title": "Service worker API",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-notificationeventinit-notification",
@@ -2218,7 +2434,8 @@
         "title": "Service worker API",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-notificationeventinit-action",
@@ -2239,7 +2456,30 @@
         "title": "Service worker API",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "service-worker-registration-has-shownotification-been-successfully-invoked",
+      "href": "https://notifications.spec.whatwg.org/#service-worker-registration-has-shownotification-been-successfully-invoked",
+      "linkingText": [
+        "has showNotification() been successfully invoked"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "service worker registration"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "service-worker-api",
+        "href": "https://notifications.spec.whatwg.org/#service-worker-api",
+        "title": "Service worker API",
+        "number": "4"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-serviceworkerregistration-shownotification",
@@ -2261,7 +2501,8 @@
         "title": "Service worker API",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-serviceworkerregistration-getnotifications",
@@ -2283,7 +2524,8 @@
         "title": "Service worker API",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "fire-a-service-worker-notification-event",
@@ -2302,7 +2544,8 @@
         "title": "Service worker API",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-notificationevent-notification",
@@ -2323,7 +2566,8 @@
         "title": "Service worker API",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-notificationevent-action",
@@ -2344,7 +2588,8 @@
         "title": "Service worker API",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-serviceworkerglobalscope-onnotificationclick",
@@ -2365,7 +2610,8 @@
         "title": "Service worker API",
         "number": "4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-serviceworkerglobalscope-onnotificationclose",
@@ -2386,7 +2632,8 @@
         "title": "Service worker API",
         "number": "4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     }
   ]
 }

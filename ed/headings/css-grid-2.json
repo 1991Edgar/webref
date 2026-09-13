@@ -26,7 +26,10 @@
       "id": "toc",
       "href": "https://drafts.csswg.org/css-grid-2/#toc",
       "level": 2,
-      "title": "Table of Contents"
+      "title": "Table of Contents",
+      "alternateIds": [
+        "contents"
+      ]
     },
     {
       "id": "intro",
@@ -620,14 +623,14 @@
       "number": "13.1"
     },
     {
-      "id": "priv",
-      "href": "https://drafts.csswg.org/css-grid-2/#priv",
+      "id": "privacy",
+      "href": "https://drafts.csswg.org/css-grid-2/#privacy",
       "level": 2,
       "title": "14. Privacy Considerations"
     },
     {
-      "id": "sec",
-      "href": "https://drafts.csswg.org/css-grid-2/#sec",
+      "id": "security",
+      "href": "https://drafts.csswg.org/css-grid-2/#security",
       "level": 2,
       "title": "15. Security Considerations"
     },
@@ -707,6 +710,12 @@
       "title": "Non-experimental implementations"
     },
     {
+      "id": "w3c-cr-exit-criteria",
+      "href": "https://drafts.csswg.org/css-grid-2/#w3c-cr-exit-criteria",
+      "level": 3,
+      "title": "CR exit criteria"
+    },
+    {
       "id": "index",
       "href": "https://drafts.csswg.org/css-grid-2/#index",
       "level": 2,
@@ -740,7 +749,7 @@
       "id": "informative",
       "href": "https://drafts.csswg.org/css-grid-2/#informative",
       "level": 3,
-      "title": "Informative References"
+      "title": "Non-Normative References"
     },
     {
       "id": "property-index",

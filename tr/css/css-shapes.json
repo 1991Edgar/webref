@@ -9,7 +9,7 @@
       "href": "https://www.w3.org/TR/css-shapes-1/#propdef-shape-outside",
       "value": "none | [ <basic-shape> || <shape-box> ] | <image>",
       "initial": "none",
-      "appliesTo": "floats",
+      "appliesTo": "floats and initial letter boxes",
       "inherited": "no",
       "percentages": "n/a",
       "computedValue": "as defined for <basic-shape> (with <shape-box> following, if supplied); else the computed <image>; else the keyword as specified",
@@ -25,7 +25,7 @@
         },
         {
           "name": "<basic-shape>",
-          "prose": "The shape is computed based on the values of one of inset(), circle(), ellipse() or polygon(). If a <shape-box> is also supplied, this defines the reference box for the <basic-shape> function. If <shape-box> is not supplied, then the reference box defaults to margin-box.",
+          "prose": "The shape is computed based on one of the <basic-shape> functions. If a <shape-box> is also supplied, this defines the reference box for the <basic-shape> function. If <shape-box> is not supplied, then the reference box defaults to margin-box.",
           "href": "https://www.w3.org/TR/css-shapes-1/#valdef-shape-outside-basic-shape",
           "type": "value",
           "value": "<basic-shape>"
@@ -46,7 +46,7 @@
     {
       "name": "shape-image-threshold",
       "href": "https://www.w3.org/TR/css-shapes-1/#propdef-shape-image-threshold",
-      "value": "<alpha-value>",
+      "value": "<opacity-value>",
       "initial": "0",
       "appliesTo": "floats",
       "inherited": "no",
@@ -71,9 +71,9 @@
     {
       "name": "shape-margin",
       "href": "https://www.w3.org/TR/css-shapes-1/#propdef-shape-margin",
-      "value": "<length-percentage>",
+      "value": "<length-percentage [0,∞]>",
       "initial": "0",
-      "appliesTo": "floats",
+      "appliesTo": "floats and initial letter boxes",
       "inherited": "no",
       "percentages": "refer to the inline size of the containing block",
       "computedValue": "computed <length-percentage> value",
@@ -81,11 +81,11 @@
       "animationType": "by computed value",
       "values": [
         {
-          "name": "<length-percentage>",
+          "name": "<length-percentage [0,∞]>",
           "prose": "Sets the margin of the shape to the specified value.",
-          "href": "https://www.w3.org/TR/css-shapes-1/#valdef-shape-margin-length-percentage",
+          "href": "https://www.w3.org/TR/css-shapes-1/#valdef-shape-margin-length-percentage-0",
           "type": "value",
-          "value": "<length-percentage>"
+          "value": "<length-percentage [0,∞]>"
         }
       ],
       "styleDeclaration": [
@@ -105,61 +105,223 @@
       "values": [
         {
           "name": "inset()",
-          "value": "inset( <length-percentage>{1,4} [ round <'border-radius'> ]? )",
           "href": "https://www.w3.org/TR/css-shapes-1/#funcdef-basic-shape-inset",
-          "type": "function"
+          "type": "function",
+          "value": "inset( <length-percentage>{1,4} [ round <'border-radius'> ]? )"
         },
         {
           "name": "xywh()",
-          "value": "xywh( <length-percentage>{2} <length-percentage [0,∞]>{2} [ round <'border-radius'> ]? )",
           "href": "https://www.w3.org/TR/css-shapes-1/#funcdef-basic-shape-xywh",
-          "type": "function"
+          "type": "function",
+          "value": "xywh( <length-percentage>{2} <length-percentage [0,∞]>{2} [ round <'border-radius'> ]? )"
         },
         {
           "name": "rect()",
-          "value": "rect( [ <length-percentage> | auto ]{4} [ round <'border-radius'> ]? )",
           "href": "https://www.w3.org/TR/css-shapes-1/#funcdef-basic-shape-rect",
-          "type": "function"
+          "type": "function",
+          "value": "rect( [ <length-percentage> | auto ]{4} [ round <'border-radius'> ]? )"
         },
         {
           "name": "circle()",
-          "value": "circle( <shape-radius>? [ at <position> ]? )",
           "href": "https://www.w3.org/TR/css-shapes-1/#funcdef-basic-shape-circle",
-          "type": "function"
+          "type": "function",
+          "value": "circle( <radial-size>? [ at <position> ]? )"
         },
         {
           "name": "ellipse()",
-          "value": "ellipse( [ <shape-radius>{2} ]? [ at <position> ]? )",
           "href": "https://www.w3.org/TR/css-shapes-1/#funcdef-basic-shape-ellipse",
-          "type": "function"
+          "type": "function",
+          "value": "ellipse( <radial-size>? [ at <position> ]? )"
         },
         {
           "name": "polygon()",
-          "value": "polygon( <'fill-rule'>? , [<length-percentage> <length-percentage>]# )",
           "href": "https://www.w3.org/TR/css-shapes-1/#funcdef-basic-shape-polygon",
-          "type": "function"
+          "type": "function",
+          "value": "polygon( <'fill-rule'>? [ round <length> ]? , [<length-percentage> <length-percentage>]# )"
         },
         {
           "name": "path()",
-          "value": "path( [<'fill-rule'>,]? <string> )",
           "href": "https://www.w3.org/TR/css-shapes-1/#funcdef-basic-shape-path",
           "type": "function",
+          "value": "path( <'fill-rule'>? , <string> )"
+        },
+        {
+          "name": "shape()",
+          "href": "https://www.w3.org/TR/css-shapes-1/#funcdef-basic-shape-shape",
+          "type": "function",
+          "value": "shape( <'fill-rule'>? from <position> <shape-command># )",
           "values": [
             {
-              "name": "<string>",
-              "href": "https://www.w3.org/TR/css-shapes-1/#valdef-path-string",
+              "name": "<coordinate-pair>",
+              "value": "<length-percentage>{2}",
+              "href": "https://www.w3.org/TR/css-shapes-1/#typedef-shape-coordinate-pair",
+              "type": "type"
+            },
+            {
+              "name": "<command-end-point>",
+              "value": "[ to <position> | by <coordinate-pair> ]",
+              "href": "https://www.w3.org/TR/css-shapes-1/#typedef-shape-command-end-point",
+              "type": "type",
+              "values": [
+                {
+                  "name": "to",
+                  "prose": "<command-end-point> = [ to <position> | by <coordinate-pair> ]",
+                  "href": "https://www.w3.org/TR/css-shapes-1/#valdef-shape-to",
+                  "type": "value",
+                  "value": "to"
+                },
+                {
+                  "name": "by",
+                  "prose": "<command-end-point> = [ to <position> | by <coordinate-pair> ]",
+                  "href": "https://www.w3.org/TR/css-shapes-1/#valdef-shape-by",
+                  "type": "value",
+                  "value": "by"
+                }
+              ]
+            },
+            {
+              "name": "<move-command>",
+              "value": "move <command-end-point>",
+              "href": "https://www.w3.org/TR/css-shapes-1/#typedef-shape-move-command",
+              "type": "type"
+            },
+            {
+              "name": "move",
+              "prose": "<move-command> = move <command-end-point>",
+              "href": "https://www.w3.org/TR/css-shapes-1/#valdef-shape-move",
               "type": "value",
-              "value": "<string>"
+              "value": "move"
+            },
+            {
+              "name": "<line-command>",
+              "value": "line <command-end-point>",
+              "href": "https://www.w3.org/TR/css-shapes-1/#typedef-shape-line-command",
+              "type": "type"
+            },
+            {
+              "name": "line",
+              "prose": "<line-command> = line <command-end-point>",
+              "href": "https://www.w3.org/TR/css-shapes-1/#valdef-shape-line",
+              "type": "value",
+              "value": "line"
+            },
+            {
+              "name": "<horizontal-line-command>",
+              "value": "hline [ to [ <length-percentage> | left | center | right | x-start | x-end ] | by <length-percentage> ]",
+              "href": "https://www.w3.org/TR/css-shapes-1/#typedef-shape-horizontal-line-command",
+              "type": "type"
+            },
+            {
+              "name": "<vertical-line-command>",
+              "value": "vline [ to [ <length-percentage> | top | center | bottom | y-start | y-end ] | by <length-percentage> ]",
+              "href": "https://www.w3.org/TR/css-shapes-1/#typedef-shape-vertical-line-command",
+              "type": "type"
+            },
+            {
+              "name": "<curve-command>",
+              "value": "curve [ [ to <position> with <control-point> [ / <control-point> ]? ] | [ by <coordinate-pair> with <relative-control-point> [ / <relative-control-point> ]? ] ]",
+              "href": "https://www.w3.org/TR/css-shapes-1/#typedef-shape-curve-command",
+              "type": "type"
+            },
+            {
+              "name": "curve",
+              "prose": "<curve-command> = curve [ [ to <position> with <control-point> [ / <control-point> ]? ] | [ by <coordinate-pair> with <relative-control-point> [ / <relative-control-point> ]? ] ]",
+              "href": "https://www.w3.org/TR/css-shapes-1/#valdef-shape-curve",
+              "type": "value",
+              "value": "curve"
+            },
+            {
+              "name": "<smooth-command>",
+              "value": "smooth [ [ to <position> [ with <control-point> ]? ] | [ by <coordinate-pair> [ with <relative-control-point> ]? ] ]",
+              "href": "https://www.w3.org/TR/css-shapes-1/#typedef-shape-smooth-command",
+              "type": "type"
+            },
+            {
+              "name": "smooth",
+              "prose": "<smooth-command> = smooth [ [ to <position> [with <control-point> ]? ] | [ by <coordinate-pair> [ with <relative-control-point> ]? ] ]",
+              "href": "https://www.w3.org/TR/css-shapes-1/#valdef-shape-smooth",
+              "type": "value",
+              "value": "smooth"
+            },
+            {
+              "name": "<control-point>",
+              "value": "[ <position> | <relative-control-point> ]",
+              "href": "https://www.w3.org/TR/css-shapes-1/#typedef-shape-control-point",
+              "type": "type"
+            },
+            {
+              "name": "<relative-control-point>",
+              "value": "<coordinate-pair> [ from [ start | end | origin ] ]?",
+              "href": "https://www.w3.org/TR/css-shapes-1/#typedef-shape-relative-control-point",
+              "type": "type"
+            },
+            {
+              "name": "<arc-command>",
+              "value": "arc <command-end-point> [ [ of <length-percentage>{1,2} ] && <arc-sweep>? && <arc-size>? && [rotate <angle>]? ]",
+              "href": "https://www.w3.org/TR/css-shapes-1/#typedef-shape-arc-command",
+              "type": "type"
+            },
+            {
+              "name": "arc",
+              "prose": "<arc-command> = arc <command-end-point> [of <length-percentage>{1,2}] && <arc-sweep>? && <arc-size>? && rotate <angle>? ]",
+              "href": "https://www.w3.org/TR/css-shapes-1/#valdef-shape-arc",
+              "type": "value",
+              "value": "arc",
+              "values": [
+                {
+                  "name": "cw",
+                  "prose": "<arc-sweep> can be cw or ccw, indicating that the arc that is traced around the ellipse clockwise or counter-clockwise from the center, respectively, must be chosen. If omitted, this defaults to ccw.",
+                  "href": "https://www.w3.org/TR/css-shapes-1/#valdef-shape-cw",
+                  "type": "value",
+                  "value": "cw"
+                },
+                {
+                  "name": "ccw",
+                  "prose": "<arc-sweep> can be cw or ccw, indicating that the arc that is traced around the ellipse clockwise or counter-clockwise from the center, respectively, must be chosen. If omitted, this defaults to ccw.",
+                  "href": "https://www.w3.org/TR/css-shapes-1/#valdef-shape-ccw",
+                  "type": "value",
+                  "value": "ccw"
+                },
+                {
+                  "name": "large",
+                  "prose": "<arc-size> can be large or small, indicating that the larger or smaller, respectively, of the two possible arcs must be chosen. If omitted, this defaults to small.",
+                  "href": "https://www.w3.org/TR/css-shapes-1/#valdef-shape-large",
+                  "type": "value",
+                  "value": "large"
+                },
+                {
+                  "name": "small",
+                  "prose": "<arc-size> can be large or small, indicating that the larger or smaller, respectively, of the two possible arcs must be chosen. If omitted, this defaults to small.",
+                  "href": "https://www.w3.org/TR/css-shapes-1/#valdef-shape-small",
+                  "type": "value",
+                  "value": "small"
+                }
+              ]
+            },
+            {
+              "name": "<arc-sweep>",
+              "prose": "<arc-sweep> can be cw or ccw, indicating that the arc that is traced around the ellipse clockwise or counter-clockwise from the center, respectively, must be chosen. If omitted, this defaults to ccw.",
+              "href": "https://www.w3.org/TR/css-shapes-1/#typedef-shape-arc-sweep",
+              "type": "type",
+              "value": "cw | ccw"
+            },
+            {
+              "name": "<arc-size>",
+              "prose": "<arc-size> can be large or small, indicating that the larger or smaller, respectively, of the two possible arcs must be chosen. If omitted, this defaults to small.",
+              "href": "https://www.w3.org/TR/css-shapes-1/#typedef-shape-arc-size",
+              "type": "type",
+              "value": "large | small"
+            },
+            {
+              "name": "close",
+              "prose": "Adds a closepath command to the list of path data commands.",
+              "href": "https://www.w3.org/TR/css-shapes-1/#valdef-shape-close",
+              "type": "value",
+              "value": "close"
             }
           ]
         }
       ]
-    },
-    {
-      "name": "<shape-radius>",
-      "value": "<length-percentage [0,∞]> | closest-side | farthest-side",
-      "href": "https://www.w3.org/TR/css-shapes-1/#typedef-shape-radius",
-      "type": "type"
     },
     {
       "name": "<basic-shape-rect>",
@@ -168,10 +330,17 @@
       "value": "<inset()> | <rect()> | <xywh()>"
     },
     {
+      "name": "<shape-command>",
+      "prose": "The sequence of <shape-command>s represent further path data commands. Each command’s starting point is the previous command’s ending point.",
+      "href": "https://www.w3.org/TR/css-shapes-1/#typedef-shape-command",
+      "type": "type",
+      "value": "<move-command> | <line-command> | close | <horizontal-line-command> | <vertical-line-command> | <curve-command> | <smooth-command> | <arc-command>"
+    },
+    {
       "name": "<shape-box>",
       "href": "https://www.w3.org/TR/css-shapes-1/#typedef-shape-box",
       "type": "type",
-      "value": "<box> | margin-box",
+      "value": "<visual-box> | margin-box",
       "values": [
         {
           "name": "margin-box",

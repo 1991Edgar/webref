@@ -13,7 +13,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "sec-terminology",
@@ -21,7 +21,8 @@
         "title": "Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "largest-contentful-paint-candidate-element",
@@ -42,7 +43,74 @@
         "title": "Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "largest-contentful-paint-candidate-size",
+      "href": "https://www.w3.org/TR/largest-contentful-paint/#largest-contentful-paint-candidate-size",
+      "linkingText": [
+        "size"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "largest contentful paint candidate"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-terminology",
+        "href": "https://www.w3.org/TR/largest-contentful-paint/#sec-terminology",
+        "title": "Terminology",
+        "number": "2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "largest-contentful-paint-candidate-width",
+      "href": "https://www.w3.org/TR/largest-contentful-paint/#largest-contentful-paint-candidate-width",
+      "linkingText": [
+        "width"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "largest contentful paint candidate"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-terminology",
+        "href": "https://www.w3.org/TR/largest-contentful-paint/#sec-terminology",
+        "title": "Terminology",
+        "number": "2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "largest-contentful-paint-candidate-height",
+      "href": "https://www.w3.org/TR/largest-contentful-paint/#largest-contentful-paint-candidate-height",
+      "linkingText": [
+        "height"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "largest contentful paint candidate"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-terminology",
+        "href": "https://www.w3.org/TR/largest-contentful-paint/#sec-terminology",
+        "title": "Terminology",
+        "number": "2"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "largest-contentful-paint-candidate-request",
@@ -63,17 +131,20 @@
         "title": "Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "eligible-to-be-largest-contentful-paint",
-      "href": "https://www.w3.org/TR/largest-contentful-paint/#eligible-to-be-largest-contentful-paint",
+      "id": "largest-contentful-paint-candidate-loadtime",
+      "href": "https://www.w3.org/TR/largest-contentful-paint/#largest-contentful-paint-candidate-loadtime",
       "linkingText": [
-        "eligible to be largest contentful paint"
+        "loadTime"
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
+      "for": [
+        "largest contentful paint candidate"
+      ],
       "access": "private",
       "informative": false,
       "heading": {
@@ -82,7 +153,8 @@
         "title": "Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "largestcontentfulpaint",
@@ -101,7 +173,8 @@
         "title": "LargestContentfulPaint interface",
         "number": "3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-largestcontentfulpaint-loadtime",
@@ -122,7 +195,30 @@
         "title": "LargestContentfulPaint interface",
         "number": "3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-largestcontentfulpaint-rendertime",
+      "href": "https://www.w3.org/TR/largest-contentful-paint/#dom-largestcontentfulpaint-rendertime",
+      "linkingText": [
+        "renderTime"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "LargestContentfulPaint"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-largest-contentful-paint-interface",
+        "href": "https://www.w3.org/TR/largest-contentful-paint/#sec-largest-contentful-paint-interface",
+        "title": "LargestContentfulPaint interface",
+        "number": "3.1"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-largestcontentfulpaint-size",
@@ -143,7 +239,8 @@
         "title": "LargestContentfulPaint interface",
         "number": "3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-largestcontentfulpaint-id",
@@ -164,7 +261,8 @@
         "title": "LargestContentfulPaint interface",
         "number": "3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-largestcontentfulpaint-url",
@@ -185,7 +283,8 @@
         "title": "LargestContentfulPaint interface",
         "number": "3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-largestcontentfulpaint-element",
@@ -206,7 +305,8 @@
         "title": "LargestContentfulPaint interface",
         "number": "3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-largestcontentfulpaint-tojson",
@@ -227,7 +327,8 @@
         "title": "LargestContentfulPaint interface",
         "number": "3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "largestcontentfulpaint-size",
@@ -248,7 +349,8 @@
         "title": "LargestContentfulPaint interface",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "largestcontentfulpaint-loadtime",
@@ -269,7 +371,8 @@
         "title": "LargestContentfulPaint interface",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "largestcontentfulpaint-id",
@@ -290,7 +393,8 @@
         "title": "LargestContentfulPaint interface",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "largestcontentfulpaint-url",
@@ -311,7 +415,8 @@
         "title": "LargestContentfulPaint interface",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "largestcontentfulpaint-element",
@@ -332,13 +437,14 @@
         "title": "LargestContentfulPaint interface",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "largest-contentful-paint-size",
-      "href": "https://www.w3.org/TR/largest-contentful-paint/#largest-contentful-paint-size",
+      "id": "current-largest-contentful-paint-candidate",
+      "href": "https://www.w3.org/TR/largest-contentful-paint/#current-largest-contentful-paint-candidate",
       "linkingText": [
-        "largest contentful paint size"
+        "current largest contentful paint candidate"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -351,26 +457,8 @@
         "title": "LargestContentfulPaint interface",
         "number": "3.1"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "content-set",
-      "href": "https://www.w3.org/TR/largest-contentful-paint/#content-set",
-      "linkingText": [
-        "content set"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "sec-largest-contentful-paint-interface",
-        "href": "https://www.w3.org/TR/largest-contentful-paint/#sec-largest-contentful-paint-interface",
-        "title": "LargestContentfulPaint interface",
-        "number": "3.1"
-      },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "has-dispatched-scroll-event",
@@ -389,7 +477,8 @@
         "title": "Processing model",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "report-largest-contentful-paint",
@@ -408,7 +497,28 @@
         "title": "Report Largest Contentful Paint",
         "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "compute-a-new-largest-contentful-paint-candidate",
+      "href": "https://www.w3.org/TR/largest-contentful-paint/#compute-a-new-largest-contentful-paint-candidate",
+      "linkingText": [
+        "compute a new largest contentful paint candidate"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-report-largest-contentful-paint",
+        "href": "https://www.w3.org/TR/largest-contentful-paint/#sec-report-largest-contentful-paint",
+        "title": "Report Largest Contentful Paint",
+        "number": "4.2"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "effective-visual-size",
@@ -427,26 +537,94 @@
         "title": "Determine the effective visual size of an element",
         "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "potentially-add-a-largestcontentfulpaint-entry",
-      "href": "https://www.w3.org/TR/largest-contentful-paint/#potentially-add-a-largestcontentfulpaint-entry",
+      "id": "effective-visual-size-result",
+      "href": "https://www.w3.org/TR/largest-contentful-paint/#effective-visual-size-result",
       "linkingText": [
-        "potentially add a LargestContentfulPaint entry"
+        "effective visual size result"
       ],
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "public",
+      "access": "private",
       "informative": false,
       "heading": {
-        "id": "sec-add-lcp-entry",
-        "href": "https://www.w3.org/TR/largest-contentful-paint/#sec-add-lcp-entry",
-        "title": "Potentially add LargestContentfulPaint entry",
-        "number": "4.4"
+        "id": "sec-effective-visual-size",
+        "href": "https://www.w3.org/TR/largest-contentful-paint/#sec-effective-visual-size",
+        "title": "Determine the effective visual size of an element",
+        "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "effective-visual-size-result-size",
+      "href": "https://www.w3.org/TR/largest-contentful-paint/#effective-visual-size-result-size",
+      "linkingText": [
+        "size"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "effective visual size result"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-effective-visual-size",
+        "href": "https://www.w3.org/TR/largest-contentful-paint/#sec-effective-visual-size",
+        "title": "Determine the effective visual size of an element",
+        "number": "4.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "effective-visual-size-result-width",
+      "href": "https://www.w3.org/TR/largest-contentful-paint/#effective-visual-size-result-width",
+      "linkingText": [
+        "width"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "effective visual size result"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-effective-visual-size",
+        "href": "https://www.w3.org/TR/largest-contentful-paint/#sec-effective-visual-size",
+        "title": "Determine the effective visual size of an element",
+        "number": "4.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "effective-visual-size-result-height",
+      "href": "https://www.w3.org/TR/largest-contentful-paint/#effective-visual-size-result-height",
+      "linkingText": [
+        "height"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "effective visual size result"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-effective-visual-size",
+        "href": "https://www.w3.org/TR/largest-contentful-paint/#sec-effective-visual-size",
+        "title": "Determine the effective visual size of an element",
+        "number": "4.3"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "create-a-largestcontentfulpaint-entry",
@@ -457,15 +635,16 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "sec-create-entry",
         "href": "https://www.w3.org/TR/largest-contentful-paint/#sec-create-entry",
         "title": "Create a LargestContentfulPaint entry",
-        "number": "4.5"
+        "number": "4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

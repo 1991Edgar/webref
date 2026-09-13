@@ -5,7 +5,6 @@
   },
   "links": {
     "rawlinks": {
-      "http://ieeexplore.ieee.org/servlet/opac?punumber=4610933": {},
       "http://openaccess.thecvf.com/content_cvpr_2018/html/Chang_PairedCycleGAN_Asymmetric_Style_CVPR_2018_paper.html": {},
       "http://www-scf.usc.edu/~zhan355/ke_eccv2016.pdf": {},
       "https://arxiv.org/abs/1502.03167": {},
@@ -41,6 +40,7 @@
       },
       "https://en.wikipedia.org/wiki/Hard_sigmoid": {},
       "https://en.wikipedia.org/wiki/Hyperbolic_functions": {},
+      "https://en.wikipedia.org/wiki/Prefix_sum": {},
       "https://en.wikipedia.org/wiki/Rectifier_(neural_networks)": {
         "anchors": [
           "ELU",
@@ -55,18 +55,107 @@
       "https://github.com/ondyari/FaceForensics": {},
       "https://github.com/tensorflow/nmt": {},
       "https://github.com/webmachinelearning/webmachinelearning-ethics": {},
+      "https://github.com/webmachinelearning/webnn/blob/master/device-selection-explainer.md": {},
       "https://github.com/webmachinelearning/webnn/blob/master/explainer.md": {},
       "https://github.com/webmachinelearning/webnn/blob/master/op_compatibility/first_wave_models.md": {},
       "https://github.com/webmachinelearning/webnn/issues": {},
       "https://github.com/webmachinelearning/webnn/issues/373": {},
-      "https://github.com/webmachinelearning/webnn/issues/375": {},
       "https://github.com/webmachinelearning/webnn/issues/391": {},
       "https://github.com/webmachinelearning/webnn/issues/456": {},
-      "https://github.com/webmachinelearning/webnn/issues/482": {},
       "https://github.com/webmachinelearning/webnn/issues/529": {},
-      "https://github.com/webmachinelearning/webnn/issues/623": {},
       "https://github.com/webmachinelearning/webnn/issues/778": {},
+      "https://github.com/webmachinelearning/webnn/issues/836": {},
       "https://github.com/webmachinelearning/webnn/issues/85": {},
+      "https://github.com/webmachinelearning/webnn/labels/device%20selection": {},
+      "https://github.com/webmachinelearning/webnn/pull/598": {},
+      "https://github.com/webmachinelearning/webnn/pull/622": {},
+      "https://github.com/webmachinelearning/webnn/pull/631": {},
+      "https://github.com/webmachinelearning/webnn/pull/637": {},
+      "https://github.com/webmachinelearning/webnn/pull/638": {},
+      "https://github.com/webmachinelearning/webnn/pull/639": {},
+      "https://github.com/webmachinelearning/webnn/pull/641": {},
+      "https://github.com/webmachinelearning/webnn/pull/642": {},
+      "https://github.com/webmachinelearning/webnn/pull/643": {},
+      "https://github.com/webmachinelearning/webnn/pull/644": {},
+      "https://github.com/webmachinelearning/webnn/pull/646": {},
+      "https://github.com/webmachinelearning/webnn/pull/647": {},
+      "https://github.com/webmachinelearning/webnn/pull/648": {},
+      "https://github.com/webmachinelearning/webnn/pull/649": {},
+      "https://github.com/webmachinelearning/webnn/pull/650": {},
+      "https://github.com/webmachinelearning/webnn/pull/656": {},
+      "https://github.com/webmachinelearning/webnn/pull/657": {},
+      "https://github.com/webmachinelearning/webnn/pull/659": {},
+      "https://github.com/webmachinelearning/webnn/pull/663": {},
+      "https://github.com/webmachinelearning/webnn/pull/665": {},
+      "https://github.com/webmachinelearning/webnn/pull/679": {},
+      "https://github.com/webmachinelearning/webnn/pull/680": {},
+      "https://github.com/webmachinelearning/webnn/pull/684": {},
+      "https://github.com/webmachinelearning/webnn/pull/690": {},
+      "https://github.com/webmachinelearning/webnn/pull/696": {},
+      "https://github.com/webmachinelearning/webnn/pull/698": {},
+      "https://github.com/webmachinelearning/webnn/pull/699": {},
+      "https://github.com/webmachinelearning/webnn/pull/702": {},
+      "https://github.com/webmachinelearning/webnn/pull/708": {},
+      "https://github.com/webmachinelearning/webnn/pull/711": {},
+      "https://github.com/webmachinelearning/webnn/pull/715": {},
+      "https://github.com/webmachinelearning/webnn/pull/717": {},
+      "https://github.com/webmachinelearning/webnn/pull/718": {},
+      "https://github.com/webmachinelearning/webnn/pull/719": {},
+      "https://github.com/webmachinelearning/webnn/pull/721": {},
+      "https://github.com/webmachinelearning/webnn/pull/722": {},
+      "https://github.com/webmachinelearning/webnn/pull/723": {},
+      "https://github.com/webmachinelearning/webnn/pull/725": {},
+      "https://github.com/webmachinelearning/webnn/pull/726": {},
+      "https://github.com/webmachinelearning/webnn/pull/727": {},
+      "https://github.com/webmachinelearning/webnn/pull/729": {},
+      "https://github.com/webmachinelearning/webnn/pull/730": {},
+      "https://github.com/webmachinelearning/webnn/pull/732": {},
+      "https://github.com/webmachinelearning/webnn/pull/735": {},
+      "https://github.com/webmachinelearning/webnn/pull/737": {},
+      "https://github.com/webmachinelearning/webnn/pull/738": {},
+      "https://github.com/webmachinelearning/webnn/pull/741": {},
+      "https://github.com/webmachinelearning/webnn/pull/742": {},
+      "https://github.com/webmachinelearning/webnn/pull/744": {},
+      "https://github.com/webmachinelearning/webnn/pull/746": {},
+      "https://github.com/webmachinelearning/webnn/pull/752": {},
+      "https://github.com/webmachinelearning/webnn/pull/757": {},
+      "https://github.com/webmachinelearning/webnn/pull/764": {},
+      "https://github.com/webmachinelearning/webnn/pull/765": {},
+      "https://github.com/webmachinelearning/webnn/pull/769": {},
+      "https://github.com/webmachinelearning/webnn/pull/770": {},
+      "https://github.com/webmachinelearning/webnn/pull/774": {},
+      "https://github.com/webmachinelearning/webnn/pull/776": {},
+      "https://github.com/webmachinelearning/webnn/pull/782": {},
+      "https://github.com/webmachinelearning/webnn/pull/787": {},
+      "https://github.com/webmachinelearning/webnn/pull/795": {},
+      "https://github.com/webmachinelearning/webnn/pull/797": {},
+      "https://github.com/webmachinelearning/webnn/pull/799": {},
+      "https://github.com/webmachinelearning/webnn/pull/802": {},
+      "https://github.com/webmachinelearning/webnn/pull/803": {},
+      "https://github.com/webmachinelearning/webnn/pull/805": {},
+      "https://github.com/webmachinelearning/webnn/pull/809": {},
+      "https://github.com/webmachinelearning/webnn/pull/810": {},
+      "https://github.com/webmachinelearning/webnn/pull/816": {},
+      "https://github.com/webmachinelearning/webnn/pull/820": {},
+      "https://github.com/webmachinelearning/webnn/pull/823": {},
+      "https://github.com/webmachinelearning/webnn/pull/828": {},
+      "https://github.com/webmachinelearning/webnn/pull/834": {},
+      "https://github.com/webmachinelearning/webnn/pull/841": {},
+      "https://github.com/webmachinelearning/webnn/pull/843": {},
+      "https://github.com/webmachinelearning/webnn/pull/851": {},
+      "https://github.com/webmachinelearning/webnn/pull/857": {},
+      "https://github.com/webmachinelearning/webnn/pull/858": {},
+      "https://github.com/webmachinelearning/webnn/pull/859": {},
+      "https://github.com/webmachinelearning/webnn/pull/868": {},
+      "https://github.com/webmachinelearning/webnn/pull/869": {},
+      "https://github.com/webmachinelearning/webnn/pull/881": {},
+      "https://github.com/webmachinelearning/webnn/pull/888": {},
+      "https://github.com/webmachinelearning/webnn/pull/890": {},
+      "https://github.com/webmachinelearning/webnn/pull/891": {},
+      "https://github.com/webmachinelearning/webnn/pull/894": {},
+      "https://github.com/webmachinelearning/webnn/pull/895": {},
+      "https://github.com/webmachinelearning/webnn/pull/909": {},
+      "https://github.com/whatwg/infra/issues/664": {},
       "https://github.com/whatwg/webidl/issues/1388": {},
       "https://github.com/xiph/rnnoise": {},
       "https://gpuweb.github.io/gpuweb/": {
@@ -78,6 +167,7 @@
         ]
       },
       "https://html.spec.whatwg.org/multipage/": {},
+      "https://ieeexplore.ieee.org/document/8766229": {},
       "https://infra.spec.whatwg.org/": {},
       "https://jmlr.org/papers/volume21/20-074/20-074.pdf": {},
       "https://mathworld.wolfram.com/L1-Norm.html": {},
@@ -97,13 +187,26 @@
       "https://tc39.es/ecma262/multipage/": {},
       "https://tc39.es/process-document/": {},
       "https://webidl.spec.whatwg.org/": {},
-      "https://webmachinelearning.github.io/webnn-status/": {},
+      "https://www.unicode.org/reports/tr36/": {
+        "anchors": [
+          "Bidirectional_Text_Spoofing"
+        ]
+      },
+      "https://www.unicode.org/reports/tr36/tr36-15.html": {},
+      "https://www.unicode.org/reports/tr55/tr55-5.html": {
+        "anchors": [
+          "Spoofing"
+        ]
+      },
       "https://www.w3.org/TR/": {},
-      "https://www.w3.org/TR/2023/CR-webnn-20230330/": {},
+      "https://www.w3.org/TR/2024/CR-webnn-20240411/": {},
+      "https://www.w3.org/TR/2026/CR-webnn-20260122/": {},
+      "https://www.w3.org/TR/WCAG22/": {},
       "https://www.w3.org/TR/hr-time-3/": {},
       "https://www.w3.org/TR/permissions-policy-1/": {},
       "https://www.w3.org/TR/secure-contexts/": {},
       "https://www.w3.org/TR/security-privacy-questionnaire/": {},
+      "https://www.w3.org/TR/wasm-js-api-2/": {},
       "https://www.w3.org/TR/webgpu/": {
         "anchors": [
           "security-dos"
@@ -118,7 +221,15 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {
+      "https://www.w3.org/policies/process/": {
+        "anchors": [
+          "correction-classes",
+          "class-4",
+          "class-3",
+          "class-2"
+        ]
+      },
+      "https://www.w3.org/policies/process/20250818/": {
         "anchors": [
           "recs-and-notes"
         ]
@@ -163,7 +274,7 @@
       },
       "https://html.spec.whatwg.org/multipage/workers.html": {
         "anchors": [
-          "dedicatedworkerglobalscope",
+          "workerglobalscope",
           "workernavigator"
         ]
       },
@@ -178,9 +289,13 @@
           "list-extend",
           "list-item",
           "list-iterate",
-          "byte-sequence",
+          "abort-when",
+          "if-aborted",
           "assert",
           "byte-sequence-length",
+          "set-append",
+          "byte-sequence",
+          "list-remove",
           "list-clone",
           "list-size",
           "string",
@@ -188,20 +303,20 @@
           "queue",
           "list-is-empty",
           "queue-dequeue",
-          "set-append",
           "queue-enqueue",
           "the-range",
           "list-contain",
           "iteration-break",
           "iteration-continue",
-          "list-remove",
           "list-append",
+          "the-exclusive-range",
           "boolean",
           "list-prepend"
         ]
       },
       "https://tc39.es/ecma262/": {
         "anchors": [
+          "sec-promise-objects",
           "table-the-typedarray-constructors",
           "sec-ecmascript-language-types-number-type"
         ]
@@ -213,37 +328,41 @@
       },
       "https://webidl.spec.whatwg.org/": {
         "anchors": [
-          "operationerror",
-          "idl-DOMException",
+          "idl-USVString",
           "dfn-exception",
           "idl-promise",
           "ArrayBufferView",
           "SecureContext",
           "SameObject",
+          "idl-boolean",
           "Exposed",
-          "this",
           "a-new-promise",
+          "this",
           "reject",
           "securityerror",
+          "idl-DOMException",
           "notsupportederror",
           "resolve",
           "idl-record",
-          "idl-USVString",
+          "idl-DOMString",
           "idl-undefined",
-          "idl-ArrayBuffer",
           "AllowSharedBufferSource",
+          "idl-ArrayBuffer",
           "buffersource-byte-length",
           "idl-SharedArrayBuffer",
+          "idl-Uint8Array",
           "dfn-throw",
           "exceptiondef-typeerror",
+          "invalidstateerror",
           "unknownerror",
+          "dfn-get-buffer-source-copy",
           "arraybuffer-create",
           "buffersource-detached",
           "arraybuffer-write",
-          "dfn-get-buffer-source-copy",
-          "idl-sequence",
           "EnforceRange",
+          "idl-unsigned-long-long",
           "idl-unsigned-long",
+          "idl-sequence",
           "idl-long",
           "idl-frozen-array",
           "idl-bigint",
@@ -252,9 +371,8 @@
           "idl-double",
           "idl-long-long",
           "dfn-numeric-type",
-          "idl-boolean",
           "new",
-          "invalidstateerror",
+          "operationerror",
           "idl-float",
           "idl-Float32Array",
           "idl-Float16Array",
@@ -263,7 +381,6 @@
           "idl-Int32Array",
           "idl-Uint32Array",
           "idl-Int8Array",
-          "idl-Uint8Array",
           "idl-Uint16Array"
         ]
       },
@@ -273,9 +390,20 @@
           "policy-controlled-feature-default-allowlist"
         ]
       },
+      "https://www.w3.org/TR/wasm-js-api-2/": {
+        "anchors": [
+          "namespacedef-webassembly",
+          "memory"
+        ]
+      },
       "https://www.w3.org/TR/webgpu/": {
         "anchors": [
-          "gpudevice"
+          "gpudevice",
+          "gpubuffer",
+          "dom-gpubuffer-usage",
+          "dom-gpubuffer-size",
+          "gpuqueue",
+          "dom-gpubuffer-destroy"
         ]
       }
     }

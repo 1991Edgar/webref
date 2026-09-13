@@ -13,19 +13,22 @@
       "https://html.spec.whatwg.org/multipage/": {},
       "https://infra.spec.whatwg.org/": {},
       "https://url.spec.whatwg.org/": {},
+      "https://w3c.github.io/element-timing/": {},
       "https://webidl.spec.whatwg.org/": {},
-      "https://wicg.github.io/element-timing/": {},
       "https://www.w3.org/TR/": {},
-      "https://www.w3.org/TR/CSS22/": {},
+      "https://www.w3.org/TR/CSS2/": {},
       "https://www.w3.org/TR/SVG2/": {},
       "https://www.w3.org/TR/css-backgrounds-3/": {},
       "https://www.w3.org/TR/css-cascade-5/": {},
       "https://www.w3.org/TR/css-color-3/": {},
-      "https://www.w3.org/TR/css-display-3/": {},
+      "https://www.w3.org/TR/css-display-4/": {},
       "https://www.w3.org/TR/css-fonts-4/": {},
       "https://www.w3.org/TR/css-text-4/": {},
       "https://www.w3.org/TR/cssom-view-1/": {},
+      "https://www.w3.org/TR/event-timing/": {},
       "https://www.w3.org/TR/hr-time-3/": {},
+      "https://www.w3.org/TR/largest-contentful-paint/": {},
+      "https://www.w3.org/TR/long-animation-frames/": {},
       "https://www.w3.org/TR/performance-timeline/": {},
       "https://www.w3.org/TR/selectors-4/": {},
       "https://www.w3.org/groups/wg/webperf": {},
@@ -36,7 +39,7 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {
+      "https://www.w3.org/policies/process/20250818/": {
         "anchors": [
           "recs-and-notes"
         ]
@@ -155,11 +158,26 @@
           "concept-url-scheme"
         ]
       },
+      "https://w3c.github.io/element-timing/": {
+        "anchors": [
+          "performanceelementtiming"
+        ]
+      },
+      "https://w3c.github.io/long-animation-frames/": {
+        "anchors": [
+          "current-frame-timing-info",
+          "queue-a-long-animation-frame-entry"
+        ]
+      },
       "https://webidl.spec.whatwg.org/": {
         "anchors": [
           "idl-DOMString",
+          "dfn-platform-object",
           "Exposed",
           "this",
+          "Default",
+          "idl-object",
+          "default-tojson-steps",
           "new"
         ]
       },
@@ -173,7 +191,7 @@
           "report-largest-contentful-paint"
         ]
       },
-      "https://www.w3.org/TR/CSS22/visufx.html": {
+      "https://www.w3.org/TR/CSS2/visufx.html": {
         "anchors": [
           "propdef-visibility"
         ]
@@ -197,7 +215,9 @@
       "https://www.w3.org/TR/css-backgrounds-3/": {
         "anchors": [
           "propdef-background-image",
-          "background-size"
+          "background-size",
+          "propdef-border-image-source",
+          "border-image-width"
         ]
       },
       "https://www.w3.org/TR/css-cascade-5/": {
@@ -210,7 +230,7 @@
           "opacity"
         ]
       },
-      "https://www.w3.org/TR/css-display-3/": {
+      "https://www.w3.org/TR/css-display-4/": {
         "anchors": [
           "box",
           "text-nodes",
@@ -248,18 +268,34 @@
           "dom-element-getboundingclientrect"
         ]
       },
+      "https://www.w3.org/TR/event-timing/": {
+        "anchors": [
+          "performanceeventtiming"
+        ]
+      },
       "https://www.w3.org/TR/hr-time-3/": {
         "anchors": [
-          "dom-domhighrestimestamp",
+          "typedefdef-domhighrestimestamp",
           "dfn-current-high-resolution-time"
+        ]
+      },
+      "https://www.w3.org/TR/largest-contentful-paint/": {
+        "anchors": [
+          "largestcontentfulpaint",
+          "dom-largestcontentfulpaint-rendertime"
+        ]
+      },
+      "https://www.w3.org/TR/long-animation-frames/": {
+        "anchors": [
+          "performancelonganimationframetiming"
         ]
       },
       "https://www.w3.org/TR/performance-timeline/": {
         "anchors": [
           "dom-performanceentry",
+          "dom-performanceentry-starttime",
           "dom-performanceentry-name",
           "dom-performanceentry-entrytype",
-          "dom-performanceentry-starttime",
           "dom-performanceentry-duration",
           "dom-performanceobserver-supportedentrytypes",
           "dfn-performance-timeline-task-source",

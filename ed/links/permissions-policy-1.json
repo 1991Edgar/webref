@@ -27,6 +27,11 @@
         ]
       },
       "https://html.spec.whatwg.org/multipage/": {},
+      "https://html.spec.whatwg.org/multipage/iframe-embed-object.html": {
+        "anchors": [
+          "iframe-load-event-steps"
+        ]
+      },
       "https://httpwg.org/specs/rfc8941.html": {},
       "https://infra.spec.whatwg.org/": {},
       "https://lists.w3.org/Archives/Public/public-webappsec/": {},
@@ -38,16 +43,16 @@
       "https://webidl.spec.whatwg.org/": {},
       "https://www.rfc-editor.org/rfc/rfc3864": {},
       "https://www.w3.org/Mail/Request": {},
+      "https://www.w3.org/TR/html5/": {},
       "https://www.w3.org/groups/wg/webappsec": {},
       "https://www.w3.org/groups/wg/webappsec/ipr": {},
-      "https://www.w3.org/html/wg/drafts/html/master/": {},
       "https://www.w3.org/policies/patent-policy/": {
         "anchors": [
           "def-essential",
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://datatracker.ietf.org/doc/html/rfc8941": {
@@ -62,7 +67,7 @@
           "node",
           "element",
           "concept-node-document",
-          "concept-document",
+          "clone-a-node-document",
           "concept-element"
         ]
       },
@@ -72,7 +77,7 @@
           "concept-header-list-get-structured-header",
           "concept-response-header-list",
           "concept-request",
-          "concept-request-window",
+          "concept-request-client",
           "concept-request-origin"
         ]
       },
@@ -126,7 +131,8 @@
       },
       "https://html.spec.whatwg.org/multipage/webappapis.html": {
         "anchors": [
-          "environment-settings-object"
+          "environment-settings-object",
+          "concept-settings-object-global"
         ]
       },
       "https://html.spec.whatwg.org/multipage/workers.html": {

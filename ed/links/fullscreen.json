@@ -56,8 +56,8 @@
         "anchors": [
           "concept-element",
           "concept-document",
-          "concept-node-remove-ext",
           "concept-node-document",
+          "concept-node-remove-ext",
           "concept-shadow-including-inclusive-descendant",
           "concept-shadow-including-tree-order",
           "connected",
@@ -74,7 +74,8 @@
           "retarget",
           "concept-tree",
           "shadowroot",
-          "element-shadow-host"
+          "element-shadow-host",
+          "dom-event-preventdefault"
         ]
       },
       "https://drafts.csswg.org/css-position-4/": {
@@ -99,7 +100,6 @@
           "nav-container",
           "navigable",
           "descendant-navigables",
-          "top-level-traversable",
           "child-navigable"
         ]
       },
@@ -124,7 +124,10 @@
       "https://html.spec.whatwg.org/multipage/interaction.html": {
         "anchors": [
           "transient-activation",
-          "consume-user-activation"
+          "consume-user-activation",
+          "close-request",
+          "close-request-steps",
+          "close-watcher"
         ]
       },
       "https://html.spec.whatwg.org/multipage/interactive-elements.html": {
@@ -140,7 +143,7 @@
       "https://html.spec.whatwg.org/multipage/popover.html": {
         "anchors": [
           "topmost-popover-ancestor",
-          "hide-all-popovers-until",
+          "hide-popovers-until",
           "popover-visibility-state",
           "popover-hidden-state"
         ]

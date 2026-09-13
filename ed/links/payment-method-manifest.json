@@ -14,10 +14,10 @@
       "https://infra.spec.whatwg.org/": {},
       "https://url.spec.whatwg.org/": {},
       "https://w3c.github.io/manifest/": {},
-      "https://w3c.github.io/payment-handler/": {},
       "https://w3c.github.io/payment-method-id/": {},
       "https://w3c.github.io/payment-method-manifest/": {},
-      "https://w3c.github.io/payment-request/": {}
+      "https://w3c.github.io/payment-request/": {},
+      "https://w3c.github.io/web-based-payment-handler/": {}
     },
     "autolinks": {
       "https://encoding.spec.whatwg.org/": {
@@ -42,6 +42,7 @@
           "concept-network-error",
           "concept-response-status",
           "ok-status",
+          "concept-response-url-list",
           "extract-header-list-values",
           "concept-response-header-list",
           "fetch-controller-terminate",
@@ -51,10 +52,11 @@
           "process-response-end-of-body"
         ]
       },
-      "https://html.spec.whatwg.org/multipage/origin.html": {
+      "https://html.spec.whatwg.org/multipage/browsers.html": {
         "anchors": [
           "concept-origin",
-          "ascii-serialisation-of-an-origin"
+          "ascii-serialisation-of-an-origin",
+          "same-site"
         ]
       },
       "https://html.spec.whatwg.org/multipage/webappapis.html": {
@@ -74,6 +76,7 @@
           "byte-sequence",
           "tuple",
           "list-append",
+          "list-size",
           "ascii-case-insensitive",
           "iteration-break",
           "map-set",
@@ -81,7 +84,6 @@
           "ordered-set",
           "parse-a-json-string-to-an-infra-value",
           "map-exists",
-          "list-size",
           "set-append",
           "scalar-value-string"
         ]

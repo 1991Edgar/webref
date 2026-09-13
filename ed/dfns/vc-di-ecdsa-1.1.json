@@ -1,0 +1,54 @@
+{
+  "spec": {
+    "title": "Data Integrity ECDSA Cryptosuites v1.1",
+    "url": "https://w3c.github.io/vc-di-ecdsa/"
+  },
+  "dfns": [
+    {
+      "id": "dfn-conforming-proof",
+      "href": "https://w3c.github.io/vc-di-ecdsa/#dfn-conforming-proof",
+      "linkingText": [
+        "conforming proof"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "conformance",
+        "href": "https://w3c.github.io/vc-di-ecdsa/#conformance",
+        "title": "Conformance",
+        "alternateIds": [
+          "x1-2-conformance"
+        ],
+        "number": "1.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-conforming-processor",
+      "href": "https://w3c.github.io/vc-di-ecdsa/#dfn-conforming-processor",
+      "linkingText": [
+        "conforming processor"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "conformance",
+        "href": "https://w3c.github.io/vc-di-ecdsa/#conformance",
+        "title": "Conformance",
+        "alternateIds": [
+          "x1-2-conformance"
+        ],
+        "number": "1.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    }
+  ]
+}

@@ -1,11 +1,50 @@
 {
   "spec": {
-    "title": "CSS Functions and Mixins Module",
+    "title": "CSS Custom Functions and Mixins Module Level 1",
     "url": "https://drafts.csswg.org/css-mixins-1/"
   },
   "links": {
     "rawlinks": {
       "http://lists.w3.org/Archives/Public/public-css-testsuite": {},
+      "http://wpt.live/css/css-mixins/functions/at-function-cssom.html": {},
+      "http://wpt.live/css/css-mixins/functions/at-function-parsing.html": {},
+      "http://wpt.live/css/css-mixins/functions/dashed-function-cycles.html": {},
+      "http://wpt.live/css/css-mixins/functions/dashed-function-eval.html": {},
+      "http://wpt.live/css/css-mixins/functions/dashed-function-named-arg.tentative.html": {},
+      "http://wpt.live/css/css-mixins/functions/dashed-function-parsing.html": {},
+      "http://wpt.live/css/css-mixins/functions/dashed-function-standard-property.html": {},
+      "http://wpt.live/css/css-mixins/functions/function-attr.html": {},
+      "http://wpt.live/css/css-mixins/functions/function-conditionals.html": {},
+      "http://wpt.live/css/css-mixins/functions/function-container-dynamic.html": {},
+      "http://wpt.live/css/css-mixins/functions/function-container-self.html": {},
+      "http://wpt.live/css/css-mixins/functions/function-container-style.html": {},
+      "http://wpt.live/css/css-mixins/functions/function-in-media.html": {},
+      "http://wpt.live/css/css-mixins/functions/function-invalidation.html": {},
+      "http://wpt.live/css/css-mixins/functions/function-layer.html": {},
+      "http://wpt.live/css/css-mixins/functions/function-media-dynamic.html": {},
+      "http://wpt.live/css/css-mixins/functions/function-shadow-animations.html": {},
+      "http://wpt.live/css/css-mixins/functions/function-shadow-cache.html": {},
+      "http://wpt.live/css/css-mixins/functions/function-shadow-container.html": {},
+      "http://wpt.live/css/css-mixins/functions/function-shadow.html": {},
+      "http://wpt.live/css/css-mixins/functions/local-attr-substitution.html": {},
+      "http://wpt.live/css/css-mixins/functions/local-if-substitution.html": {},
+      "http://wpt.live/css/css-mixins/functions/local-inherit-substitution.html": {},
+      "http://wpt.live/css/css-mixins/functions/local-var-substitution.html": {},
+      "http://wpt.live/css/css-mixins/mixins/apply-top-level.html": {},
+      "http://wpt.live/css/css-mixins/mixins/apply-within-mixin.html": {},
+      "http://wpt.live/css/css-mixins/mixins/contents-nested-declarations-fallback.html": {},
+      "http://wpt.live/css/css-mixins/mixins/contents-nested-declarations.html": {},
+      "http://wpt.live/css/css-mixins/mixins/contents-rule.html": {},
+      "http://wpt.live/css/css-mixins/mixins/mixin-basic.html": {},
+      "http://wpt.live/css/css-mixins/mixins/mixin-conditionals.html": {},
+      "http://wpt.live/css/css-mixins/mixins/mixin-declarations.html": {},
+      "http://wpt.live/css/css-mixins/mixins/mixin-layers.html": {},
+      "http://wpt.live/css/css-mixins/mixins/mixin-locals.html": {},
+      "http://wpt.live/css/css-mixins/mixins/mixin-media-query-invalidation-2.html": {},
+      "http://wpt.live/css/css-mixins/mixins/mixin-media-query-invalidation.html": {},
+      "http://wpt.live/css/css-mixins/mixins/mixin-parameters.html": {},
+      "http://wpt.live/css/css-mixins/mixins/mixin-parsing.html": {},
+      "http://wpt.live/css/css-mixins/mixins/mixin-shadow-dom.html": {},
       "http://www.w3.org/Style/CSS/Test/": {},
       "http://www.w3.org/TR/CSS/": {
         "anchors": [
@@ -24,63 +63,194 @@
       "https://datatracker.ietf.org/doc/html/rfc2119": {},
       "https://drafts.css-houdini.org/css-properties-values-api-1/": {
         "anchors": [
-          "calculation-of-computed-values"
+          "calculation-of-computed-values",
+          "syntax-strings"
         ]
       },
+      "https://drafts.csswg.org/css-animations/": {},
+      "https://drafts.csswg.org/css-borders-4/": {},
+      "https://drafts.csswg.org/css-cascade-5/": {},
+      "https://drafts.csswg.org/css-color-4/": {},
+      "https://drafts.csswg.org/css-color-5/": {},
       "https://drafts.csswg.org/css-conditional-3/": {
         "anchors": [
           "processing"
         ]
       },
-      "https://drafts.csswg.org/css-env-1/": {},
-      "https://drafts.csswg.org/css-images-4/": {},
+      "https://drafts.csswg.org/css-conditional-5/": {},
+      "https://drafts.csswg.org/css-fonts-4/": {},
       "https://drafts.csswg.org/css-nesting/": {},
-      "https://drafts.csswg.org/css-scoping/": {},
+      "https://drafts.csswg.org/css-shadow-1/": {},
       "https://drafts.csswg.org/css-syntax/": {},
       "https://drafts.csswg.org/css-values-4/": {},
-      "https://drafts.csswg.org/css-values-5/": {},
+      "https://drafts.csswg.org/css-values-5/": {
+        "anchors": [
+          "component-function-commas"
+        ]
+      },
+      "https://drafts.csswg.org/css-variables-1/": {
+        "anchors": [
+          "serializing-custom-props"
+        ]
+      },
       "https://drafts.csswg.org/css-variables-2/": {},
       "https://drafts.csswg.org/css-variables/": {},
       "https://drafts.csswg.org/cssom/": {},
+      "https://drafts.csswg.org/selectors/": {},
       "https://github.com/w3c/csswg-drafts/issues": {},
+      "https://github.com/w3c/csswg-drafts/issues/13015": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/functions/at-function-cssom.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/functions/at-function-parsing.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/functions/dashed-function-cycles.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/functions/dashed-function-eval.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/functions/dashed-function-named-arg.tentative.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/functions/dashed-function-parsing.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/functions/dashed-function-standard-property.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/functions/function-attr.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/functions/function-conditionals.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/functions/function-container-dynamic.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/functions/function-container-self.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/functions/function-container-style.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/functions/function-in-media.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/functions/function-invalidation.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/functions/function-layer.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/functions/function-media-dynamic.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/functions/function-shadow-animations.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/functions/function-shadow-cache.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/functions/function-shadow-container.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/functions/function-shadow.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/functions/local-attr-substitution.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/functions/local-if-substitution.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/functions/local-inherit-substitution.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/functions/local-var-substitution.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/mixins/apply-top-level.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/mixins/apply-within-mixin.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/mixins/contents-nested-declarations-fallback.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/mixins/contents-nested-declarations.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/mixins/contents-rule.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/mixins/mixin-basic.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/mixins/mixin-conditionals.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/mixins/mixin-declarations.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/mixins/mixin-layers.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/mixins/mixin-locals.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/mixins/mixin-media-query-invalidation-2.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/mixins/mixin-media-query-invalidation.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/mixins/mixin-parameters.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/mixins/mixin-parsing.html": {},
+      "https://github.com/web-platform-tests/wpt/blob/master/css/css-mixins/mixins/mixin-shadow-dom.html": {},
+      "https://html.spec.whatwg.org/multipage/": {},
       "https://infra.spec.whatwg.org/": {},
       "https://lists.w3.org/Archives/Public/public-css-archive/": {},
       "https://lists.w3.org/Archives/Public/www-style/": {},
       "https://webidl.spec.whatwg.org/": {},
+      "https://wpt.fyi/results/css/css-mixins/functions/at-function-cssom.html": {},
+      "https://wpt.fyi/results/css/css-mixins/functions/at-function-parsing.html": {},
+      "https://wpt.fyi/results/css/css-mixins/functions/dashed-function-cycles.html": {},
+      "https://wpt.fyi/results/css/css-mixins/functions/dashed-function-eval.html": {},
+      "https://wpt.fyi/results/css/css-mixins/functions/dashed-function-named-arg.tentative.html": {},
+      "https://wpt.fyi/results/css/css-mixins/functions/dashed-function-parsing.html": {},
+      "https://wpt.fyi/results/css/css-mixins/functions/dashed-function-standard-property.html": {},
+      "https://wpt.fyi/results/css/css-mixins/functions/function-attr.html": {},
+      "https://wpt.fyi/results/css/css-mixins/functions/function-conditionals.html": {},
+      "https://wpt.fyi/results/css/css-mixins/functions/function-container-dynamic.html": {},
+      "https://wpt.fyi/results/css/css-mixins/functions/function-container-self.html": {},
+      "https://wpt.fyi/results/css/css-mixins/functions/function-container-style.html": {},
+      "https://wpt.fyi/results/css/css-mixins/functions/function-in-media.html": {},
+      "https://wpt.fyi/results/css/css-mixins/functions/function-invalidation.html": {},
+      "https://wpt.fyi/results/css/css-mixins/functions/function-layer.html": {},
+      "https://wpt.fyi/results/css/css-mixins/functions/function-media-dynamic.html": {},
+      "https://wpt.fyi/results/css/css-mixins/functions/function-shadow-animations.html": {},
+      "https://wpt.fyi/results/css/css-mixins/functions/function-shadow-cache.html": {},
+      "https://wpt.fyi/results/css/css-mixins/functions/function-shadow-container.html": {},
+      "https://wpt.fyi/results/css/css-mixins/functions/function-shadow.html": {},
+      "https://wpt.fyi/results/css/css-mixins/functions/local-attr-substitution.html": {},
+      "https://wpt.fyi/results/css/css-mixins/functions/local-if-substitution.html": {},
+      "https://wpt.fyi/results/css/css-mixins/functions/local-inherit-substitution.html": {},
+      "https://wpt.fyi/results/css/css-mixins/functions/local-var-substitution.html": {},
+      "https://wpt.fyi/results/css/css-mixins/mixins/apply-top-level.html": {},
+      "https://wpt.fyi/results/css/css-mixins/mixins/apply-within-mixin.html": {},
+      "https://wpt.fyi/results/css/css-mixins/mixins/contents-nested-declarations-fallback.html": {},
+      "https://wpt.fyi/results/css/css-mixins/mixins/contents-nested-declarations.html": {},
+      "https://wpt.fyi/results/css/css-mixins/mixins/contents-rule.html": {},
+      "https://wpt.fyi/results/css/css-mixins/mixins/mixin-basic.html": {},
+      "https://wpt.fyi/results/css/css-mixins/mixins/mixin-conditionals.html": {},
+      "https://wpt.fyi/results/css/css-mixins/mixins/mixin-declarations.html": {},
+      "https://wpt.fyi/results/css/css-mixins/mixins/mixin-layers.html": {},
+      "https://wpt.fyi/results/css/css-mixins/mixins/mixin-locals.html": {},
+      "https://wpt.fyi/results/css/css-mixins/mixins/mixin-media-query-invalidation-2.html": {},
+      "https://wpt.fyi/results/css/css-mixins/mixins/mixin-media-query-invalidation.html": {},
+      "https://wpt.fyi/results/css/css-mixins/mixins/mixin-parameters.html": {},
+      "https://wpt.fyi/results/css/css-mixins/mixins/mixin-parsing.html": {},
+      "https://wpt.fyi/results/css/css-mixins/mixins/mixin-shadow-dom.html": {},
+      "https://www.w3.org/TR/2025/WD-css-mixins-1-20250515/": {},
       "https://www.w3.org/TR/CSS/": {},
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://drafts.css-houdini.org/css-properties-values-api-1/": {
         "anchors": [
           "syntax-definition",
           "equivalent-token-sequence",
-          "registered-custom-property"
+          "custom-property-registration",
+          "registered-custom-property",
+          "universal-syntax-definition"
+        ]
+      },
+      "https://drafts.csswg.org/css-animations-1/": {
+        "anchors": [
+          "at-ruledef-keyframes"
+        ]
+      },
+      "https://drafts.csswg.org/css-borders-4/": {
+        "anchors": [
+          "propdef-border-width"
+        ]
+      },
+      "https://drafts.csswg.org/css-cascade-5/": {
+        "anchors": [
+          "valdef-all-initial",
+          "valdef-all-inherit",
+          "computed-value",
+          "specified-value",
+          "inherited-value"
+        ]
+      },
+      "https://drafts.csswg.org/css-color-4/": {
+        "anchors": [
+          "propdef-color"
+        ]
+      },
+      "https://drafts.csswg.org/css-color-5/": {
+        "anchors": [
+          "typedef-color"
         ]
       },
       "https://drafts.csswg.org/css-conditional-3/": {
         "anchors": [
           "conditional-group-rule",
-          "at-ruledef-media"
+          "at-ruledef-media",
+          "supports-queries"
         ]
       },
-      "https://drafts.csswg.org/css-env-1/": {
+      "https://drafts.csswg.org/css-conditional-5/": {
         "anchors": [
-          "funcdef-env"
+          "at-ruledef-container"
         ]
       },
-      "https://drafts.csswg.org/css-images-4/": {
+      "https://drafts.csswg.org/css-fonts-4/": {
         "anchors": [
-          "funcdef-image-set-type"
+          "propdef-font-size"
         ]
       },
       "https://drafts.csswg.org/css-nesting-1/": {
         "anchors": [
           "nested-group-rules",
+          "nested-style-rule",
+          "nested-declarations-rule",
           "cssnesteddeclarations"
         ]
       },
-      "https://drafts.csswg.org/css-scoping-1/": {
+      "https://drafts.csswg.org/css-shadow-1/": {
         "anchors": [
           "css-tree-scoped-name",
           "css-tree-scoped-reference"
@@ -88,28 +258,49 @@
       },
       "https://drafts.csswg.org/css-syntax-3/": {
         "anchors": [
+          "typedef-function-token",
           "typedef-declaration-rule-list",
           "typedef-declaration-value",
-          "css-descriptor"
+          "css-parse-something-according-to-a-css-grammar",
+          "style-rule",
+          "typedef-ident-token",
+          "typedef-block-contents",
+          "typedef-declaration-list",
+          "declaration",
+          "typedef-comma-token",
+          "tokendef-open-curly"
         ]
       },
       "https://drafts.csswg.org/css-values-4/": {
         "anchors": [
-          "mult-opt",
-          "typedef-dashed-ident",
           "mult-comma",
+          "mult-opt",
           "comb-one",
+          "typedef-dashed-ident",
           "functional-notation",
-          "mult-zero-plus"
+          "mult-zero-plus",
+          "css-wide-keywords",
+          "em",
+          "length-value",
+          "px",
+          "css-css-identifier"
         ]
       },
       "https://drafts.csswg.org/css-values-5/": {
         "anchors": [
+          "arbitrary-substitution-function",
+          "substitute-arbitrary-substitution-function",
           "typedef-syntax-component",
           "typedef-syntax",
           "typedef-syntax-combinator",
-          "funcdef-attr",
-          "invalid-at-computed-value-time"
+          "argument-grammar",
+          "free-form-productions",
+          "substitution-context",
+          "guarded",
+          "cyclic-substitution-contexts",
+          "funcdef-inherit",
+          "property-replacement",
+          "funcdef-attr"
         ]
       },
       "https://drafts.csswg.org/css-variables-2/": {
@@ -122,18 +313,49 @@
       },
       "https://drafts.csswg.org/cssom-1/": {
         "anchors": [
+          "cssstyledeclaration",
+          "dom-cssstyledeclaration-getpropertyvalue",
           "cssgroupingrule",
-          "cssstyledeclaration"
+          "cssomstring",
+          "serialize-an-identifier",
+          "serialize-a-css-rule",
+          "serialize-a-css-value",
+          "cssrule",
+          "cssstyledeclaration-computed-flag",
+          "cssstyledeclaration-readonly-flag",
+          "cssstyledeclaration-declarations",
+          "concept-declarations-specified-order",
+          "cssstyledeclaration-parent-css-rule",
+          "cssstyledeclaration-owner-node",
+          "css-declaration-block",
+          "serialize-a-css-declaration-block",
+          "concept-css-rule-child-css-rules"
+        ]
+      },
+      "https://drafts.csswg.org/selectors-4/": {
+        "anchors": [
+          "featureless"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/sections.html": {
+        "anchors": [
+          "the-section-element"
         ]
       },
       "https://infra.spec.whatwg.org/": {
         "anchors": [
-          "list"
+          "ordered-set"
         ]
       },
       "https://webidl.spec.whatwg.org/": {
         "anchors": [
-          "Exposed"
+          "Exposed",
+          "idl-sequence",
+          "LegacyNullToEmptyString",
+          "SameObject",
+          "PutForwards",
+          "this",
+          "idl-boolean"
         ]
       }
     }

@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Round Display Level 1",
+    "title": "CSS Round Display Module Level 1",
     "url": "https://drafts.csswg.org/css-round-display-1/"
   },
   "headings": [
@@ -8,7 +8,7 @@
       "id": "title",
       "href": "https://drafts.csswg.org/css-round-display-1/#title",
       "level": 1,
-      "title": "CSS Round Display Level 1"
+      "title": "CSS Round Display Module Level 1"
     },
     {
       "id": "abstract",
@@ -26,7 +26,10 @@
       "id": "toc",
       "href": "https://drafts.csswg.org/css-round-display-1/#toc",
       "level": 2,
-      "title": "Table of Contents"
+      "title": "Table of Contents",
+      "alternateIds": [
+        "contents"
+      ]
     },
     {
       "id": "introduction",
@@ -64,17 +67,17 @@
       "number": "3.1"
     },
     {
-      "id": "extending-viewport-rule",
-      "href": "https://drafts.csswg.org/css-round-display-1/#extending-viewport-rule",
+      "id": "extending-viewport-meta",
+      "href": "https://drafts.csswg.org/css-round-display-1/#extending-viewport-meta",
       "level": 2,
-      "title": "Extending the @viewport rule",
+      "title": "Extending the viewport <meta> element",
       "number": "4"
     },
     {
-      "id": "viewport-fit-descriptor",
-      "href": "https://drafts.csswg.org/css-round-display-1/#viewport-fit-descriptor",
+      "id": "viewport-fit-property",
+      "href": "https://drafts.csswg.org/css-round-display-1/#viewport-fit-property",
       "level": 3,
-      "title": "The viewport-fit descriptor",
+      "title": "The viewport-fit property",
       "number": "4.1"
     },
     {
@@ -120,11 +123,18 @@
       "number": "8"
     },
     {
+      "id": "changes_from_December_22_2016",
+      "href": "https://drafts.csswg.org/css-round-display-1/#changes_from_December_22_2016",
+      "level": 3,
+      "title": "Changes from December 22th 2016 version",
+      "number": "8.1"
+    },
+    {
       "id": "changes_from_March_01_2016",
       "href": "https://drafts.csswg.org/css-round-display-1/#changes_from_March_01_2016",
       "level": 3,
       "title": "Changes from March 1th 2016 version",
-      "number": "8.1"
+      "number": "8.2"
     },
     {
       "id": "security-considerations",
@@ -215,7 +225,7 @@
       "id": "informative",
       "href": "https://drafts.csswg.org/css-round-display-1/#informative",
       "level": 3,
-      "title": "Informative References"
+      "title": "Non-Normative References"
     },
     {
       "id": "property-index",
@@ -228,12 +238,6 @@
       "href": "https://drafts.csswg.org/css-round-display-1/#media-descriptor-table",
       "level": 3,
       "title": "@media Descriptors"
-    },
-    {
-      "id": "viewport-descriptor-table",
-      "href": "https://drafts.csswg.org/css-round-display-1/#viewport-descriptor-table",
-      "level": 3,
-      "title": "@viewport Descriptors"
     },
     {
       "id": "issues-index",

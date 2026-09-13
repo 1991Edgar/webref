@@ -5,6 +5,122 @@
   },
   "dfns": [
     {
+      "id": "dfn-node-elements",
+      "href": "https://www.w3.org/TR/rdf12-xml/#dfn-node-elements",
+      "linkingText": [
+        "node elements"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "section-Syntax-node-property-elements",
+        "href": "https://www.w3.org/TR/rdf12-xml/#section-Syntax-node-property-elements",
+        "title": "Node Elements and Property Elements",
+        "alternateIds": [
+          "x2-2-node-elements-and-property-elements"
+        ],
+        "number": "2.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-property-elements",
+      "href": "https://www.w3.org/TR/rdf12-xml/#dfn-property-elements",
+      "linkingText": [
+        "property elements"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "section-Syntax-node-property-elements",
+        "href": "https://www.w3.org/TR/rdf12-xml/#section-Syntax-node-property-elements",
+        "title": "Node Elements and Property Elements",
+        "alternateIds": [
+          "x2-2-node-elements-and-property-elements"
+        ],
+        "number": "2.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-blank-node-elements",
+      "href": "https://www.w3.org/TR/rdf12-xml/#dfn-blank-node-elements",
+      "linkingText": [
+        "blank node elements"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "section-Syntax-node-property-elements",
+        "href": "https://www.w3.org/TR/rdf12-xml/#section-Syntax-node-property-elements",
+        "title": "Node Elements and Property Elements",
+        "alternateIds": [
+          "x2-2-node-elements-and-property-elements"
+        ],
+        "number": "2.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-property-attribute",
+      "href": "https://www.w3.org/TR/rdf12-xml/#dfn-property-attribute",
+      "linkingText": [
+        "property attribute",
+        "Property Attribute"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "section-Syntax-property-attributes",
+        "href": "https://www.w3.org/TR/rdf12-xml/#section-Syntax-property-attributes",
+        "title": "Property Attributes",
+        "alternateIds": [
+          "x2-5-property-attributes"
+        ],
+        "number": "2.5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-annotating",
+      "href": "https://www.w3.org/TR/rdf12-xml/#dfn-annotating",
+      "linkingText": [
+        "annotating"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "section-Syntax-annotations",
+        "href": "https://www.w3.org/TR/rdf12-xml/#section-Syntax-annotations",
+        "title": "Annotating Triples: rdf:annotation or rdf:annotationNodeID",
+        "alternateIds": [
+          "x2-20-annotating-triples-rdf-annotation-or-rdf-annotationnodeid"
+        ],
+        "number": "2.20"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
       "id": "dfn-rdf-xml-document",
       "href": "https://www.w3.org/TR/rdf12-xml/#dfn-rdf-xml-document",
       "linkingText": [
@@ -19,9 +135,13 @@
         "id": "conformance",
         "href": "https://www.w3.org/TR/rdf12-xml/#conformance",
         "title": "Conformance",
+        "alternateIds": [
+          "x3-conformance"
+        ],
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-conforming-document",
@@ -39,9 +159,13 @@
         "id": "conformance",
         "href": "https://www.w3.org/TR/rdf12-xml/#conformance",
         "title": "Conformance",
+        "alternateIds": [
+          "x3-conformance"
+        ],
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-constraint-id",
@@ -58,15 +182,19 @@
         "id": "section-constraints",
         "href": "https://www.w3.org/TR/rdf12-xml/#section-constraints",
         "title": "Constraints",
+        "alternateIds": [
+          "x4-4-constraints"
+        ],
         "number": "4.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
-      "id": "dfn-anyuri",
-      "href": "https://www.w3.org/TR/rdf12-xml/#dfn-anyuri",
+      "id": "dfn-top-level-xml-document-element",
+      "href": "https://www.w3.org/TR/rdf12-xml/#dfn-top-level-xml-document-element",
       "linkingText": [
-        "anyURI"
+        "top-level XML document element"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -74,31 +202,16 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "section-Infoset-Grammar-Matching",
-        "href": "https://www.w3.org/TR/rdf12-xml/#section-Infoset-Grammar-Matching",
-        "title": "Grammar Event Matching Notation",
-        "number": "5.3.2"
+        "id": "start",
+        "href": "https://www.w3.org/TR/rdf12-xml/#start",
+        "title": "Grammar start",
+        "alternateIds": [
+          "x6-2-1-grammar-start"
+        ],
+        "number": "6.2.1"
       },
-      "definedIn": "table"
-    },
-    {
-      "id": "dfn-anystring",
-      "href": "https://www.w3.org/TR/rdf12-xml/#dfn-anystring",
-      "linkingText": [
-        "anyString"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "section-Infoset-Grammar-Matching",
-        "href": "https://www.w3.org/TR/rdf12-xml/#section-Infoset-Grammar-Matching",
-        "title": "Grammar Event Matching Notation",
-        "number": "5.3.2"
-      },
-      "definedIn": "table"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

@@ -6,7 +6,6 @@
   "links": {
     "rawlinks": {
       "http://www.webrtc.org/experiments/rtp-hdrext/corruption-detection": {},
-      "https://datatracker.ietf.org/doc/html/bcp14": {},
       "https://datatracker.ietf.org/doc/html/draft-alvestrand-rmcat-remb-03": {},
       "https://datatracker.ietf.org/doc/html/draft-holmer-rmcat-transport-wide-cc-extensions-01": {},
       "https://datatracker.ietf.org/doc/html/draft-ietf-xrblock-rtcweb-rtcp-xr-metrics": {},
@@ -42,11 +41,7 @@
           "scalabilitymodes*"
         ]
       },
-      "https://webidl.spec.whatwg.org/": {
-        "anchors": [
-          "idl-record"
-        ]
-      },
+      "https://webidl.spec.whatwg.org/": {},
       "https://www.iana.org/assignments/media-types/": {},
       "https://www.iana.org/assignments/srtp-protection/srtp-protection.xhtml": {},
       "https://www.iana.org/assignments/tls-parameters/tls-parameters.xhtml": {
@@ -54,9 +49,12 @@
           "tls-parameters-4"
         ]
       },
+      "https://www.iso.org/standard/63637.html": {},
       "https://www.itu.int/rec/T-REC-G.168/en": {},
+      "https://www.rfc-editor.org/info/bcp14": {},
       "https://www.rfc-editor.org/rfc/rfc2032": {},
       "https://www.rfc-editor.org/rfc/rfc2119": {},
+      "https://www.rfc-editor.org/rfc/rfc3168": {},
       "https://www.rfc-editor.org/rfc/rfc3550": {},
       "https://www.rfc-editor.org/rfc/rfc3611": {},
       "https://www.rfc-editor.org/rfc/rfc3890": {},
@@ -81,6 +79,8 @@
           "section-5.8"
         ]
       },
+      "https://www.rfc-editor.org/rfc/rfc8888": {},
+      "https://www.rfc-editor.org/rfc/rfc9331": {},
       "https://www.w3.org/TR/": {},
       "https://www.w3.org/TR/design-principles/": {},
       "https://www.w3.org/TR/hr-time-3/": {},
@@ -104,7 +104,7 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {
+      "https://www.w3.org/policies/process/20250818/": {
         "anchors": [
           "recs-and-notes"
         ]
@@ -113,7 +113,8 @@
     "autolinks": {
       "https://infra.spec.whatwg.org/": {
         "anchors": [
-          "map-exists"
+          "map-exists",
+          "implementation-defined"
         ]
       },
       "https://webidl.spec.whatwg.org/": {
@@ -124,6 +125,7 @@
           "idl-long-long",
           "idl-double",
           "idl-boolean",
+          "idl-record",
           "idl-unsigned-short",
           "idl-long"
         ]
@@ -161,6 +163,7 @@
           "dom-rtcrtpencodingparameters-active",
           "dom-rtptransceiver-mid",
           "dom-rtcrtpcodingparameters-rid",
+          "dom-rtcrtpsendparameters-encodings",
           "dom-rtcdatachannelstate-open",
           "dom-rtcdatachannelstate-connecting",
           "dom-rtcdatachannelstate-closing",

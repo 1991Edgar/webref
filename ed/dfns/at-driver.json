@@ -21,7 +21,8 @@
         "title": "Infrastructure",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "generating-a-uuid",
@@ -35,11 +36,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "infra",
+        "href": "https://w3c.github.io/at-driver/#infra",
+        "title": "Infrastructure",
+        "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "success",
@@ -53,11 +56,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "infra",
+        "href": "https://w3c.github.io/at-driver/#infra",
+        "title": "Infrastructure",
+        "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "error",
@@ -71,11 +76,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "infra",
+        "href": "https://w3c.github.io/at-driver/#infra",
+        "title": "Infrastructure",
+        "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "try",
@@ -90,11 +97,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "infra",
+        "href": "https://w3c.github.io/at-driver/#infra",
+        "title": "Infrastructure",
+        "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "local-end",
@@ -113,7 +122,8 @@
         "title": "Nodes",
         "number": "4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "remote-end",
@@ -127,20 +137,24 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "nodes",
+        "href": "https://w3c.github.io/at-driver/#nodes",
+        "title": "Nodes",
+        "number": "4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
-      "id": "remote-end-definition",
-      "href": "https://w3c.github.io/at-driver/#remote-end-definition",
+      "id": "cddl-module-remote-end-definition",
+      "href": "https://w3c.github.io/at-driver/#cddl-module-remote-end-definition",
       "linkingText": [
-        "remote end definition"
+        "Remote end definition",
+        "remote end definition",
+        "remote-cddl"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "cddl-module",
       "for": [],
       "access": "private",
       "informative": false,
@@ -150,25 +164,503 @@
         "title": "Protocol",
         "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "local-end-definition",
-      "href": "https://w3c.github.io/at-driver/#local-end-definition",
+      "id": "cddl-module-local-end-definition",
+      "href": "https://w3c.github.io/at-driver/#cddl-module-local-end-definition",
       "linkingText": [
-        "local end definition"
+        "Local end definition",
+        "local end definition",
+        "local-cddl"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "cddl-module",
       "for": [],
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "protocol",
+        "href": "https://w3c.github.io/at-driver/#protocol",
+        "title": "Protocol",
+        "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "cddl-type-command",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-command",
+      "linkingText": [
+        "Command"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "protocol-definition",
+        "href": "https://w3c.github.io/at-driver/#protocol-definition",
+        "title": "Definition",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-command-id",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-command-id",
+      "linkingText": [
+        "id",
+        "\"id\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "Command"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "protocol-definition",
+        "href": "https://w3c.github.io/at-driver/#protocol-definition",
+        "title": "Definition",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-commanddata",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-commanddata",
+      "linkingText": [
+        "CommandData"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "protocol-definition",
+        "href": "https://w3c.github.io/at-driver/#protocol-definition",
+        "title": "Definition",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-emptyparams",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-emptyparams",
+      "linkingText": [
+        "EmptyParams"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "protocol-definition",
+        "href": "https://w3c.github.io/at-driver/#protocol-definition",
+        "title": "Definition",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-message",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-message",
+      "linkingText": [
+        "Message"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "protocol-definition",
+        "href": "https://w3c.github.io/at-driver/#protocol-definition",
+        "title": "Definition",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-commandresponse",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-commandresponse",
+      "linkingText": [
+        "CommandResponse"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "protocol-definition",
+        "href": "https://w3c.github.io/at-driver/#protocol-definition",
+        "title": "Definition",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-commandresponse-id",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-commandresponse-id",
+      "linkingText": [
+        "id",
+        "\"id\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "CommandResponse"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "protocol-definition",
+        "href": "https://w3c.github.io/at-driver/#protocol-definition",
+        "title": "Definition",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-commandresponse-result",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-commandresponse-result",
+      "linkingText": [
+        "result",
+        "\"result\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "CommandResponse"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "protocol-definition",
+        "href": "https://w3c.github.io/at-driver/#protocol-definition",
+        "title": "Definition",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-errorresponse",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-errorresponse",
+      "linkingText": [
+        "ErrorResponse"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "protocol-definition",
+        "href": "https://w3c.github.io/at-driver/#protocol-definition",
+        "title": "Definition",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-errorresponse-id",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-errorresponse-id",
+      "linkingText": [
+        "id",
+        "\"id\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "ErrorResponse"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "protocol-definition",
+        "href": "https://w3c.github.io/at-driver/#protocol-definition",
+        "title": "Definition",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-errorresponse-error",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-errorresponse-error",
+      "linkingText": [
+        "error",
+        "\"error\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "ErrorResponse"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "protocol-definition",
+        "href": "https://w3c.github.io/at-driver/#protocol-definition",
+        "title": "Definition",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-value-errorresponse-error-unknown-error",
+      "href": "https://w3c.github.io/at-driver/#cddl-value-errorresponse-error-unknown-error",
+      "linkingText": [
+        "unknown error",
+        "\"unknown error\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-value",
+      "for": [
+        "ErrorResponse/error"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "protocol-definition",
+        "href": "https://w3c.github.io/at-driver/#protocol-definition",
+        "title": "Definition",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-value-errorresponse-error-unknown-command",
+      "href": "https://w3c.github.io/at-driver/#cddl-value-errorresponse-error-unknown-command",
+      "linkingText": [
+        "unknown command",
+        "\"unknown command\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-value",
+      "for": [
+        "ErrorResponse/error"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "protocol-definition",
+        "href": "https://w3c.github.io/at-driver/#protocol-definition",
+        "title": "Definition",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-value-errorresponse-error-invalid-argument",
+      "href": "https://w3c.github.io/at-driver/#cddl-value-errorresponse-error-invalid-argument",
+      "linkingText": [
+        "invalid argument",
+        "\"invalid argument\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-value",
+      "for": [
+        "ErrorResponse/error"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "protocol-definition",
+        "href": "https://w3c.github.io/at-driver/#protocol-definition",
+        "title": "Definition",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-value-errorresponse-error-session-not-created",
+      "href": "https://w3c.github.io/at-driver/#cddl-value-errorresponse-error-session-not-created",
+      "linkingText": [
+        "session not created",
+        "\"session not created\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-value",
+      "for": [
+        "ErrorResponse/error"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "protocol-definition",
+        "href": "https://w3c.github.io/at-driver/#protocol-definition",
+        "title": "Definition",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-errorresponse-message",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-errorresponse-message",
+      "linkingText": [
+        "message",
+        "\"message\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "ErrorResponse"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "protocol-definition",
+        "href": "https://w3c.github.io/at-driver/#protocol-definition",
+        "title": "Definition",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-errorresponse-stacktrace",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-errorresponse-stacktrace",
+      "linkingText": [
+        "stacktrace",
+        "\"stacktrace\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "ErrorResponse"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "protocol-definition",
+        "href": "https://w3c.github.io/at-driver/#protocol-definition",
+        "title": "Definition",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-resultdata",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-resultdata",
+      "linkingText": [
+        "ResultData"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "protocol-definition",
+        "href": "https://w3c.github.io/at-driver/#protocol-definition",
+        "title": "Definition",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-emptyresult",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-emptyresult",
+      "linkingText": [
+        "EmptyResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "protocol-definition",
+        "href": "https://w3c.github.io/at-driver/#protocol-definition",
+        "title": "Definition",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-event",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-event",
+      "linkingText": [
+        "Event"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "protocol-definition",
+        "href": "https://w3c.github.io/at-driver/#protocol-definition",
+        "title": "Definition",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-eventdata",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-eventdata",
+      "linkingText": [
+        "EventData"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "protocol-definition",
+        "href": "https://w3c.github.io/at-driver/#protocol-definition",
+        "title": "Definition",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-extensible",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-extensible",
+      "linkingText": [
+        "Extensible"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "protocol-definition",
+        "href": "https://w3c.github.io/at-driver/#protocol-definition",
+        "title": "Definition",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "capabilities",
@@ -187,7 +679,8 @@
         "title": "Capabilities",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "standard-capabilities",
@@ -206,7 +699,8 @@
         "title": "Capabilities",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "standard-capabilities-at-name",
@@ -227,7 +721,8 @@
         "title": "Capabilities",
         "number": "5.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "standard-capabilities-at-version",
@@ -248,7 +743,8 @@
         "title": "Capabilities",
         "number": "5.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "standard-capabilities-platform",
@@ -269,7 +765,8 @@
         "title": "Capabilities",
         "number": "5.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "extension-capabilities",
@@ -288,7 +785,8 @@
         "title": "Capabilities",
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "process-capabilities",
@@ -302,11 +800,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "protocol-capabilities",
+        "href": "https://w3c.github.io/at-driver/#protocol-capabilities",
+        "title": "Capabilities",
+        "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "match-capabilities",
@@ -320,11 +820,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "protocol-capabilities",
+        "href": "https://w3c.github.io/at-driver/#protocol-capabilities",
+        "title": "Capabilities",
+        "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "session",
@@ -343,7 +845,8 @@
         "title": "Session",
         "number": "5.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "remote-end-active-sessions",
@@ -359,11 +862,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "protocol-session",
+        "href": "https://w3c.github.io/at-driver/#protocol-session",
+        "title": "Session",
+        "number": "5.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "session-session-id",
@@ -379,11 +884,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "protocol-session",
+        "href": "https://w3c.github.io/at-driver/#protocol-session",
+        "title": "Session",
+        "number": "5.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "module",
@@ -402,7 +909,8 @@
         "title": "Modules",
         "number": "5.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "module-name",
@@ -416,11 +924,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "protocol-modules",
+        "href": "https://w3c.github.io/at-driver/#protocol-modules",
+        "title": "Modules",
+        "number": "5.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "extension-modules",
@@ -434,11 +944,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "protocol-modules",
+        "href": "https://w3c.github.io/at-driver/#protocol-modules",
+        "title": "Modules",
+        "number": "5.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "command",
@@ -457,7 +969,8 @@
         "title": "Commands",
         "number": "5.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "command-type",
@@ -471,11 +984,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "protocol-commands",
+        "href": "https://w3c.github.io/at-driver/#protocol-commands",
+        "title": "Commands",
+        "number": "5.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "command-name",
@@ -489,11 +1004,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "protocol-commands",
+        "href": "https://w3c.github.io/at-driver/#protocol-commands",
+        "title": "Commands",
+        "number": "5.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "command-parameters",
@@ -507,11 +1024,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "protocol-commands",
+        "href": "https://w3c.github.io/at-driver/#protocol-commands",
+        "title": "Commands",
+        "number": "5.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "result-type",
@@ -525,11 +1044,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "protocol-commands",
+        "href": "https://w3c.github.io/at-driver/#protocol-commands",
+        "title": "Commands",
+        "number": "5.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "remote-end-steps",
@@ -543,11 +1064,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "protocol-commands",
+        "href": "https://w3c.github.io/at-driver/#protocol-commands",
+        "title": "Commands",
+        "number": "5.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "static-command",
@@ -561,11 +1084,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "protocol-commands",
+        "href": "https://w3c.github.io/at-driver/#protocol-commands",
+        "title": "Commands",
+        "number": "5.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "set-of-all-command-names",
@@ -579,11 +1104,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "protocol-commands",
+        "href": "https://w3c.github.io/at-driver/#protocol-commands",
+        "title": "Commands",
+        "number": "5.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "event",
@@ -602,7 +1129,8 @@
         "title": "Events",
         "number": "5.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "event-type",
@@ -616,11 +1144,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "protocol-events",
+        "href": "https://w3c.github.io/at-driver/#protocol-events",
+        "title": "Events",
+        "number": "5.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "event-name",
@@ -634,11 +1164,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "protocol-events",
+        "href": "https://w3c.github.io/at-driver/#protocol-events",
+        "title": "Events",
+        "number": "5.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "event-parameters",
@@ -652,11 +1184,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "protocol-events",
+        "href": "https://w3c.github.io/at-driver/#protocol-events",
+        "title": "Events",
+        "number": "5.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "remote-end-event-trigger",
@@ -670,11 +1204,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "protocol-events",
+        "href": "https://w3c.github.io/at-driver/#protocol-events",
+        "title": "Events",
+        "number": "5.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "error-code",
@@ -693,7 +1229,8 @@
         "title": "Errors",
         "number": "5.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "error-code-invalid-argument",
@@ -709,11 +1246,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "protocol-errors",
+        "href": "https://w3c.github.io/at-driver/#protocol-errors",
+        "title": "Errors",
+        "number": "5.7"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "error-code-invalid-session-id",
@@ -729,11 +1268,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "protocol-errors",
+        "href": "https://w3c.github.io/at-driver/#protocol-errors",
+        "title": "Errors",
+        "number": "5.7"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "error-code-unknown-command",
@@ -749,11 +1290,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "protocol-errors",
+        "href": "https://w3c.github.io/at-driver/#protocol-errors",
+        "title": "Errors",
+        "number": "5.7"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "error-code-session-not-created",
@@ -769,11 +1312,35 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "protocol-errors",
+        "href": "https://w3c.github.io/at-driver/#protocol-errors",
+        "title": "Errors",
+        "number": "5.7"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "error-code-unknown-user-intent",
+      "href": "https://w3c.github.io/at-driver/#error-code-unknown-user-intent",
+      "linkingText": [
+        "unknown user intent"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "error code"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "protocol-errors",
+        "href": "https://w3c.github.io/at-driver/#protocol-errors",
+        "title": "Errors",
+        "number": "5.7"
+      },
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "error-code-cannot-simulate-keyboard-interaction",
@@ -789,11 +1356,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "protocol-errors",
+        "href": "https://w3c.github.io/at-driver/#protocol-errors",
+        "title": "Errors",
+        "number": "5.7"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "error-code-invalid-os-focus-state",
@@ -809,11 +1378,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "protocol-errors",
+        "href": "https://w3c.github.io/at-driver/#protocol-errors",
+        "title": "Errors",
+        "number": "5.7"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "check-that-keyboard-interaction-can-be-simulated",
@@ -832,7 +1403,8 @@
         "title": "Security checks",
         "number": "5.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "check-that-one-of-the-expected-applications-has-focus",
@@ -846,11 +1418,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "security-checks",
+        "href": "https://w3c.github.io/at-driver/#security-checks",
+        "title": "Security checks",
+        "number": "5.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "should-be-withheld",
@@ -864,11 +1438,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "security-checks",
+        "href": "https://w3c.github.io/at-driver/#security-checks",
+        "title": "Security checks",
+        "number": "5.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "websocket-listener",
@@ -887,7 +1463,8 @@
         "title": "Transport",
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "websocket-listener-host",
@@ -903,11 +1480,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "transport",
+        "href": "https://w3c.github.io/at-driver/#transport",
+        "title": "Transport",
+        "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "websocket-listener-port",
@@ -923,11 +1502,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "transport",
+        "href": "https://w3c.github.io/at-driver/#transport",
+        "title": "Transport",
+        "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "websocket-listener-secure-flag",
@@ -943,11 +1524,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "transport",
+        "href": "https://w3c.github.io/at-driver/#transport",
+        "title": "Transport",
+        "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "remote-end-active-listeners",
@@ -963,11 +1546,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "transport",
+        "href": "https://w3c.github.io/at-driver/#transport",
+        "title": "Transport",
+        "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "remote-end-websocket-connections-not-associated-with-a-session",
@@ -983,11 +1568,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "transport",
+        "href": "https://w3c.github.io/at-driver/#transport",
+        "title": "Transport",
+        "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "websocket-connection",
@@ -1001,11 +1588,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "transport",
+        "href": "https://w3c.github.io/at-driver/#transport",
+        "title": "Transport",
+        "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "session-session-websocket-connections",
@@ -1021,11 +1610,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "transport",
+        "href": "https://w3c.github.io/at-driver/#transport",
+        "title": "Transport",
+        "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "session-associated-with-connection",
@@ -1041,11 +1632,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "transport",
+        "href": "https://w3c.github.io/at-driver/#transport",
+        "title": "Transport",
+        "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "start-listening-for-a-websocket-connection",
@@ -1059,11 +1652,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "transport",
+        "href": "https://w3c.github.io/at-driver/#transport",
+        "title": "Transport",
+        "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "handle-an-incoming-message",
@@ -1077,11 +1672,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "transport",
+        "href": "https://w3c.github.io/at-driver/#transport",
+        "title": "Transport",
+        "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "emit-an-event",
@@ -1095,11 +1692,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "transport",
+        "href": "https://w3c.github.io/at-driver/#transport",
+        "title": "Transport",
+        "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "send-an-error-response",
@@ -1113,11 +1712,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "transport",
+        "href": "https://w3c.github.io/at-driver/#transport",
+        "title": "Transport",
+        "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "handle-a-connection-closing",
@@ -1131,11 +1732,142 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "transport",
+        "href": "https://w3c.github.io/at-driver/#transport",
+        "title": "Transport",
+        "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "cddl-type-sessioncommand",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-sessioncommand",
+      "linkingText": [
+        "SessionCommand"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-session-definition",
+        "href": "https://w3c.github.io/at-driver/#module-session-definition",
+        "title": "Definition",
+        "number": "7.1.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-sessionresult",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-sessionresult",
+      "linkingText": [
+        "SessionResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-session-definition",
+        "href": "https://w3c.github.io/at-driver/#module-session-definition",
+        "title": "Definition",
+        "number": "7.1.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-capabilitiesrequest",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-capabilitiesrequest",
+      "linkingText": [
+        "CapabilitiesRequest"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-session-CapabilitiesRequest",
+        "href": "https://w3c.github.io/at-driver/#module-session-CapabilitiesRequest",
+        "title": "The session.CapabilitiesRequest Type",
+        "number": "7.1.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-capabilitiesrequest-atname",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-capabilitiesrequest-atname",
+      "linkingText": [
+        "atName",
+        "\"atName\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "CapabilitiesRequest"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-session-CapabilitiesRequest",
+        "href": "https://w3c.github.io/at-driver/#module-session-CapabilitiesRequest",
+        "title": "The session.CapabilitiesRequest Type",
+        "number": "7.1.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-capabilitiesrequest-atversion",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-capabilitiesrequest-atversion",
+      "linkingText": [
+        "atVersion",
+        "\"atVersion\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "CapabilitiesRequest"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-session-CapabilitiesRequest",
+        "href": "https://w3c.github.io/at-driver/#module-session-CapabilitiesRequest",
+        "title": "The session.CapabilitiesRequest Type",
+        "number": "7.1.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-capabilitiesrequest-platformname",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-capabilitiesrequest-platformname",
+      "linkingText": [
+        "platformName",
+        "\"platformName\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "CapabilitiesRequest"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-session-CapabilitiesRequest",
+        "href": "https://w3c.github.io/at-driver/#module-session-CapabilitiesRequest",
+        "title": "The session.CapabilitiesRequest Type",
+        "number": "7.1.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "sessionnew",
@@ -1154,7 +1886,298 @@
         "title": "The session.new Command",
         "number": "7.1.3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "cddl-type-sessionnewcommand",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-sessionnewcommand",
+      "linkingText": [
+        "SessionNewCommand"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-session-new",
+        "href": "https://w3c.github.io/at-driver/#module-session-new",
+        "title": "The session.new Command",
+        "number": "7.1.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-sessionnewcommand-method",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-sessionnewcommand-method",
+      "linkingText": [
+        "method",
+        "\"method\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "SessionNewCommand"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-session-new",
+        "href": "https://w3c.github.io/at-driver/#module-session-new",
+        "title": "The session.new Command",
+        "number": "7.1.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-value-sessionnewcommand-method-sessionnew",
+      "href": "https://w3c.github.io/at-driver/#cddl-value-sessionnewcommand-method-sessionnew",
+      "linkingText": [
+        "session.new",
+        "\"session.new\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-value",
+      "for": [
+        "SessionNewCommand/method"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-session-new",
+        "href": "https://w3c.github.io/at-driver/#module-session-new",
+        "title": "The session.new Command",
+        "number": "7.1.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-sessionnewcommand-params",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-sessionnewcommand-params",
+      "linkingText": [
+        "params",
+        "\"params\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "SessionNewCommand"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-session-new",
+        "href": "https://w3c.github.io/at-driver/#module-session-new",
+        "title": "The session.new Command",
+        "number": "7.1.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-sessionnewcommand-params-capabilities",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-sessionnewcommand-params-capabilities",
+      "linkingText": [
+        "capabilities",
+        "\"capabilities\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "SessionNewCommand/params"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-session-new",
+        "href": "https://w3c.github.io/at-driver/#module-session-new",
+        "title": "The session.new Command",
+        "number": "7.1.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-capabilitiesrequestparameters",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-capabilitiesrequestparameters",
+      "linkingText": [
+        "CapabilitiesRequestParameters"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-session-new",
+        "href": "https://w3c.github.io/at-driver/#module-session-new",
+        "title": "The session.new Command",
+        "number": "7.1.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-capabilitiesrequestparameters-alwaysmatch",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-capabilitiesrequestparameters-alwaysmatch",
+      "linkingText": [
+        "alwaysMatch",
+        "\"alwaysMatch\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "CapabilitiesRequestParameters"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-session-new",
+        "href": "https://w3c.github.io/at-driver/#module-session-new",
+        "title": "The session.new Command",
+        "number": "7.1.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-sessionnewresult",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-sessionnewresult",
+      "linkingText": [
+        "SessionNewResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-session-new",
+        "href": "https://w3c.github.io/at-driver/#module-session-new",
+        "title": "The session.new Command",
+        "number": "7.1.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-sessionnewresult-sessionid",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-sessionnewresult-sessionid",
+      "linkingText": [
+        "sessionId",
+        "\"sessionId\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "SessionNewResult"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-session-new",
+        "href": "https://w3c.github.io/at-driver/#module-session-new",
+        "title": "The session.new Command",
+        "number": "7.1.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-sessionnewresult-capabilities",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-sessionnewresult-capabilities",
+      "linkingText": [
+        "capabilities",
+        "\"capabilities\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "SessionNewResult"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-session-new",
+        "href": "https://w3c.github.io/at-driver/#module-session-new",
+        "title": "The session.new Command",
+        "number": "7.1.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-sessionnewresult-capabilities-atname",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-sessionnewresult-capabilities-atname",
+      "linkingText": [
+        "atName",
+        "\"atName\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "SessionNewResult/capabilities"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-session-new",
+        "href": "https://w3c.github.io/at-driver/#module-session-new",
+        "title": "The session.new Command",
+        "number": "7.1.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-sessionnewresult-capabilities-atversion",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-sessionnewresult-capabilities-atversion",
+      "linkingText": [
+        "atVersion",
+        "\"atVersion\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "SessionNewResult/capabilities"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-session-new",
+        "href": "https://w3c.github.io/at-driver/#module-session-new",
+        "title": "The session.new Command",
+        "number": "7.1.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-sessionnewresult-capabilities-platformname",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-sessionnewresult-capabilities-platformname",
+      "linkingText": [
+        "platformName",
+        "\"platformName\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "SessionNewResult/capabilities"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-session-new",
+        "href": "https://w3c.github.io/at-driver/#module-session-new",
+        "title": "The session.new Command",
+        "number": "7.1.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "remote-end-supported-settings",
@@ -1175,7 +2198,8 @@
         "title": "The settings Module",
         "number": "7.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "validate-setting-name",
@@ -1189,11 +2213,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "module-settings",
+        "href": "https://w3c.github.io/at-driver/#module-settings",
+        "title": "The settings Module",
+        "number": "7.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "get-settings",
@@ -1207,11 +2233,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "module-settings",
+        "href": "https://w3c.github.io/at-driver/#module-settings",
+        "title": "The settings Module",
+        "number": "7.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "modify-setting",
@@ -1225,11 +2253,162 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/at-driver/#title",
-        "title": "AT Driver"
+        "id": "module-settings",
+        "href": "https://w3c.github.io/at-driver/#module-settings",
+        "title": "The settings Module",
+        "number": "7.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "cddl-type-settingscommand",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-settingscommand",
+      "linkingText": [
+        "SettingsCommand"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-settings-definition",
+        "href": "https://w3c.github.io/at-driver/#module-settings-definition",
+        "title": "Definition",
+        "number": "7.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-settingsresult",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-settingsresult",
+      "linkingText": [
+        "SettingsResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-settings-definition",
+        "href": "https://w3c.github.io/at-driver/#module-settings-definition",
+        "title": "Definition",
+        "number": "7.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-settingsgetsettingsresult",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-settingsgetsettingsresult",
+      "linkingText": [
+        "SettingsGetSettingsResult"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-settings-get-settings-result",
+        "href": "https://w3c.github.io/at-driver/#module-settings-get-settings-result",
+        "title": "The SettingsGetSettingsResult type",
+        "number": "7.2.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-settingsgetsettingsresult-settings",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-settingsgetsettingsresult-settings",
+      "linkingText": [
+        "settings",
+        "\"settings\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "SettingsGetSettingsResult"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-settings-get-settings-result",
+        "href": "https://w3c.github.io/at-driver/#module-settings-get-settings-result",
+        "title": "The SettingsGetSettingsResult type",
+        "number": "7.2.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-settingsgetsettingsresultitem",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-settingsgetsettingsresultitem",
+      "linkingText": [
+        "SettingsGetSettingsResultItem"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-settings-get-settings-result",
+        "href": "https://w3c.github.io/at-driver/#module-settings-get-settings-result",
+        "title": "The SettingsGetSettingsResult type",
+        "number": "7.2.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-settingsgetsettingsresultitem-name",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-settingsgetsettingsresultitem-name",
+      "linkingText": [
+        "name",
+        "\"name\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "SettingsGetSettingsResultItem"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-settings-get-settings-result",
+        "href": "https://w3c.github.io/at-driver/#module-settings-get-settings-result",
+        "title": "The SettingsGetSettingsResult type",
+        "number": "7.2.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-settingsgetsettingsresultitem-value",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-settingsgetsettingsresultitem-value",
+      "linkingText": [
+        "value",
+        "\"value\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "SettingsGetSettingsResultItem"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-settings-get-settings-result",
+        "href": "https://w3c.github.io/at-driver/#module-settings-get-settings-result",
+        "title": "The SettingsGetSettingsResult type",
+        "number": "7.2.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "settingssetsettings",
@@ -1248,13 +2427,212 @@
         "title": "The settings.setSettings Command",
         "number": "7.2.3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "settingsgetsettings-command",
-      "href": "https://w3c.github.io/at-driver/#settingsgetsettings-command",
+      "id": "cddl-type-settingssetsettingscommand",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-settingssetsettingscommand",
       "linkingText": [
-        "settings.getSettings command"
+        "SettingsSetSettingsCommand"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-settings-set-settings",
+        "href": "https://w3c.github.io/at-driver/#command-settings-set-settings",
+        "title": "The settings.setSettings Command",
+        "number": "7.2.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-settingssetsettingscommand-method",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-settingssetsettingscommand-method",
+      "linkingText": [
+        "method",
+        "\"method\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "SettingsSetSettingsCommand"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-settings-set-settings",
+        "href": "https://w3c.github.io/at-driver/#command-settings-set-settings",
+        "title": "The settings.setSettings Command",
+        "number": "7.2.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-value-settingssetsettingscommand-method-settingssetsettings",
+      "href": "https://w3c.github.io/at-driver/#cddl-value-settingssetsettingscommand-method-settingssetsettings",
+      "linkingText": [
+        "settings.setSettings",
+        "\"settings.setSettings\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-value",
+      "for": [
+        "SettingsSetSettingsCommand/method"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-settings-set-settings",
+        "href": "https://w3c.github.io/at-driver/#command-settings-set-settings",
+        "title": "The settings.setSettings Command",
+        "number": "7.2.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-settingssetsettingscommand-params",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-settingssetsettingscommand-params",
+      "linkingText": [
+        "params",
+        "\"params\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "SettingsSetSettingsCommand"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-settings-set-settings",
+        "href": "https://w3c.github.io/at-driver/#command-settings-set-settings",
+        "title": "The settings.setSettings Command",
+        "number": "7.2.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-settingssetsettingsparameters",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-settingssetsettingsparameters",
+      "linkingText": [
+        "SettingsSetSettingsParameters"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-settings-set-settings",
+        "href": "https://w3c.github.io/at-driver/#command-settings-set-settings",
+        "title": "The settings.setSettings Command",
+        "number": "7.2.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-settingssetsettingsparameters-settings",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-settingssetsettingsparameters-settings",
+      "linkingText": [
+        "settings",
+        "\"settings\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "SettingsSetSettingsParameters"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-settings-set-settings",
+        "href": "https://w3c.github.io/at-driver/#command-settings-set-settings",
+        "title": "The settings.setSettings Command",
+        "number": "7.2.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-settingssetsettingsparametersitem",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-settingssetsettingsparametersitem",
+      "linkingText": [
+        "SettingsSetSettingsParametersItem"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-settings-set-settings",
+        "href": "https://w3c.github.io/at-driver/#command-settings-set-settings",
+        "title": "The settings.setSettings Command",
+        "number": "7.2.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-settingssetsettingsparametersitem-name",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-settingssetsettingsparametersitem-name",
+      "linkingText": [
+        "name",
+        "\"name\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "SettingsSetSettingsParametersItem"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-settings-set-settings",
+        "href": "https://w3c.github.io/at-driver/#command-settings-set-settings",
+        "title": "The settings.setSettings Command",
+        "number": "7.2.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-settingssetsettingsparametersitem-value",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-settingssetsettingsparametersitem-value",
+      "linkingText": [
+        "value",
+        "\"value\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "SettingsSetSettingsParametersItem"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-settings-set-settings",
+        "href": "https://w3c.github.io/at-driver/#command-settings-set-settings",
+        "title": "The settings.setSettings Command",
+        "number": "7.2.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "settingsgetsettings",
+      "href": "https://w3c.github.io/at-driver/#settingsgetsettings",
+      "linkingText": [
+        "settings.getSettings"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1267,13 +2645,189 @@
         "title": "The settings.getSettings Command",
         "number": "7.2.3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "settingsgetsupportedsettings-command",
-      "href": "https://w3c.github.io/at-driver/#settingsgetsupportedsettings-command",
+      "id": "cddl-type-settingsgetsettingscommand",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-settingsgetsettingscommand",
       "linkingText": [
-        "settings.getSupportedSettings command"
+        "SettingsGetSettingsCommand"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-settings-get-settings",
+        "href": "https://w3c.github.io/at-driver/#command-settings-get-settings",
+        "title": "The settings.getSettings Command",
+        "number": "7.2.3.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-settingsgetsettingscommand-method",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-settingsgetsettingscommand-method",
+      "linkingText": [
+        "method",
+        "\"method\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "SettingsGetSettingsCommand"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-settings-get-settings",
+        "href": "https://w3c.github.io/at-driver/#command-settings-get-settings",
+        "title": "The settings.getSettings Command",
+        "number": "7.2.3.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-value-settingsgetsettingscommand-method-settingsgetsettings",
+      "href": "https://w3c.github.io/at-driver/#cddl-value-settingsgetsettingscommand-method-settingsgetsettings",
+      "linkingText": [
+        "settings.getSettings",
+        "\"settings.getSettings\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-value",
+      "for": [
+        "SettingsGetSettingsCommand/method"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-settings-get-settings",
+        "href": "https://w3c.github.io/at-driver/#command-settings-get-settings",
+        "title": "The settings.getSettings Command",
+        "number": "7.2.3.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-settingsgetsettingscommand-params",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-settingsgetsettingscommand-params",
+      "linkingText": [
+        "params",
+        "\"params\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "SettingsGetSettingsCommand"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-settings-get-settings",
+        "href": "https://w3c.github.io/at-driver/#command-settings-get-settings",
+        "title": "The settings.getSettings Command",
+        "number": "7.2.3.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-settingsgetsettingsparameters",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-settingsgetsettingsparameters",
+      "linkingText": [
+        "SettingsGetSettingsParameters"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-settings-get-settings",
+        "href": "https://w3c.github.io/at-driver/#command-settings-get-settings",
+        "title": "The settings.getSettings Command",
+        "number": "7.2.3.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-settingsgetsettingsparameters-settings",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-settingsgetsettingsparameters-settings",
+      "linkingText": [
+        "settings",
+        "\"settings\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "SettingsGetSettingsParameters"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-settings-get-settings",
+        "href": "https://w3c.github.io/at-driver/#command-settings-get-settings",
+        "title": "The settings.getSettings Command",
+        "number": "7.2.3.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-settingsgetsettingsparametersitem",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-settingsgetsettingsparametersitem",
+      "linkingText": [
+        "SettingsGetSettingsParametersItem"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-settings-get-settings",
+        "href": "https://w3c.github.io/at-driver/#command-settings-get-settings",
+        "title": "The settings.getSettings Command",
+        "number": "7.2.3.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-settingsgetsettingsparametersitem-name",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-settingsgetsettingsparametersitem-name",
+      "linkingText": [
+        "name",
+        "\"name\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "SettingsGetSettingsParametersItem"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-settings-get-settings",
+        "href": "https://w3c.github.io/at-driver/#command-settings-get-settings",
+        "title": "The settings.getSettings Command",
+        "number": "7.2.3.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "settingsgetsupportedsettings",
+      "href": "https://w3c.github.io/at-driver/#settingsgetsupportedsettings",
+      "linkingText": [
+        "settings.getSupportedSettings"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1286,13 +2840,103 @@
         "title": "The settings.getSupportedSettings Command",
         "number": "7.2.3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "interactionpresskeys",
-      "href": "https://w3c.github.io/at-driver/#interactionpresskeys",
+      "id": "cddl-type-settingsgetsupportedsettingscommand",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-settingsgetsupportedsettingscommand",
       "linkingText": [
-        "interaction.pressKeys"
+        "SettingsGetSupportedSettingsCommand"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-settings-get-supported-settings",
+        "href": "https://w3c.github.io/at-driver/#command-settings-get-supported-settings",
+        "title": "The settings.getSupportedSettings Command",
+        "number": "7.2.3.3"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-settingsgetsupportedsettingscommand-method",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-settingsgetsupportedsettingscommand-method",
+      "linkingText": [
+        "method",
+        "\"method\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "SettingsGetSupportedSettingsCommand"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-settings-get-supported-settings",
+        "href": "https://w3c.github.io/at-driver/#command-settings-get-supported-settings",
+        "title": "The settings.getSupportedSettings Command",
+        "number": "7.2.3.3"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-value-settingsgetsupportedsettingscommand-method-settingsgetsupportedsettings",
+      "href": "https://w3c.github.io/at-driver/#cddl-value-settingsgetsupportedsettingscommand-method-settingsgetsupportedsettings",
+      "linkingText": [
+        "settings.getSupportedSettings",
+        "\"settings.getSupportedSettings\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-value",
+      "for": [
+        "SettingsGetSupportedSettingsCommand/method"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-settings-get-supported-settings",
+        "href": "https://w3c.github.io/at-driver/#command-settings-get-supported-settings",
+        "title": "The settings.getSupportedSettings Command",
+        "number": "7.2.3.3"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-settingsgetsupportedsettingscommand-params",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-settingsgetsupportedsettingscommand-params",
+      "linkingText": [
+        "params",
+        "\"params\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "SettingsGetSupportedSettingsCommand"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "command-settings-get-supported-settings",
+        "href": "https://w3c.github.io/at-driver/#command-settings-get-supported-settings",
+        "title": "The settings.getSupportedSettings Command",
+        "number": "7.2.3.3"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "table-of-standard-user-intents",
+      "href": "https://w3c.github.io/at-driver/#table-of-standard-user-intents",
+      "linkingText": [
+        "table of standard user intents"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1300,12 +2944,528 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "module-interaction-presskeys",
-        "href": "https://w3c.github.io/at-driver/#module-interaction-presskeys",
-        "title": "The interaction.pressKeys Command",
+        "id": "module-interaction",
+        "href": "https://w3c.github.io/at-driver/#module-interaction",
+        "title": "The Interaction Module",
+        "number": "7.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "remote-end-table-of-extension-user-intents",
+      "href": "https://w3c.github.io/at-driver/#remote-end-table-of-extension-user-intents",
+      "linkingText": [
+        "table of extension user intents"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "remote end"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-interaction",
+        "href": "https://w3c.github.io/at-driver/#module-interaction",
+        "title": "The Interaction Module",
+        "number": "7.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "press-keys",
+      "href": "https://w3c.github.io/at-driver/#press-keys",
+      "linkingText": [
+        "press keys"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-interaction",
+        "href": "https://w3c.github.io/at-driver/#module-interaction",
+        "title": "The Interaction Module",
+        "number": "7.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "cddl-type-interactioncommand",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-interactioncommand",
+      "linkingText": [
+        "InteractionCommand"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-interaction-definition",
+        "href": "https://w3c.github.io/at-driver/#module-interaction-definition",
+        "title": "Definition",
+        "number": "7.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-interactionevent",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-interactionevent",
+      "linkingText": [
+        "InteractionEvent"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-interaction-definition",
+        "href": "https://w3c.github.io/at-driver/#module-interaction-definition",
+        "title": "Definition",
+        "number": "7.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-interactioncapturedoutputparameters",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-interactioncapturedoutputparameters",
+      "linkingText": [
+        "InteractionCapturedOutputParameters"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-interaction-types",
+        "href": "https://w3c.github.io/at-driver/#module-interaction-types",
+        "title": "Types",
+        "number": "7.3.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-interactioncapturedoutputparameters-data",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-interactioncapturedoutputparameters-data",
+      "linkingText": [
+        "data",
+        "\"data\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "InteractionCapturedOutputParameters"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-interaction-types",
+        "href": "https://w3c.github.io/at-driver/#module-interaction-types",
+        "title": "Types",
+        "number": "7.3.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "interactionuserintent",
+      "href": "https://w3c.github.io/at-driver/#interactionuserintent",
+      "linkingText": [
+        "interaction.userIntent"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-interaction-userintent",
+        "href": "https://w3c.github.io/at-driver/#module-interaction-userintent",
+        "title": "The interaction.userIntent Command",
         "number": "7.3.3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "cddl-type-interactionuserintentcommand",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-interactionuserintentcommand",
+      "linkingText": [
+        "InteractionUserIntentCommand"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-interaction-userintent",
+        "href": "https://w3c.github.io/at-driver/#module-interaction-userintent",
+        "title": "The interaction.userIntent Command",
+        "number": "7.3.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-interactionuserintentcommand-method",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-interactionuserintentcommand-method",
+      "linkingText": [
+        "method",
+        "\"method\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "InteractionUserIntentCommand"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-interaction-userintent",
+        "href": "https://w3c.github.io/at-driver/#module-interaction-userintent",
+        "title": "The interaction.userIntent Command",
+        "number": "7.3.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-value-interactionuserintentcommand-method-interactionuserintent",
+      "href": "https://w3c.github.io/at-driver/#cddl-value-interactionuserintentcommand-method-interactionuserintent",
+      "linkingText": [
+        "interaction.userIntent",
+        "\"interaction.userIntent\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-value",
+      "for": [
+        "InteractionUserIntentCommand/method"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-interaction-userintent",
+        "href": "https://w3c.github.io/at-driver/#module-interaction-userintent",
+        "title": "The interaction.userIntent Command",
+        "number": "7.3.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-interactionuserintentcommand-params",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-interactionuserintentcommand-params",
+      "linkingText": [
+        "params",
+        "\"params\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "InteractionUserIntentCommand"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-interaction-userintent",
+        "href": "https://w3c.github.io/at-driver/#module-interaction-userintent",
+        "title": "The interaction.userIntent Command",
+        "number": "7.3.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-interactionuserintentparameters",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-interactionuserintentparameters",
+      "linkingText": [
+        "InteractionUserIntentParameters"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-interaction-userintent",
+        "href": "https://w3c.github.io/at-driver/#module-interaction-userintent",
+        "title": "The interaction.userIntent Command",
+        "number": "7.3.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-presskeysintentparameters",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-presskeysintentparameters",
+      "linkingText": [
+        "PressKeysIntentParameters"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-interaction-userintent",
+        "href": "https://w3c.github.io/at-driver/#module-interaction-userintent",
+        "title": "The interaction.userIntent Command",
+        "number": "7.3.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-presskeysintentparameters-name",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-presskeysintentparameters-name",
+      "linkingText": [
+        "name",
+        "\"name\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "PressKeysIntentParameters"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-interaction-userintent",
+        "href": "https://w3c.github.io/at-driver/#module-interaction-userintent",
+        "title": "The interaction.userIntent Command",
+        "number": "7.3.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-value-presskeysintentparameters-name-presskeys",
+      "href": "https://w3c.github.io/at-driver/#cddl-value-presskeysintentparameters-name-presskeys",
+      "linkingText": [
+        "pressKeys",
+        "\"pressKeys\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-value",
+      "for": [
+        "PressKeysIntentParameters/name"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-interaction-userintent",
+        "href": "https://w3c.github.io/at-driver/#module-interaction-userintent",
+        "title": "The interaction.userIntent Command",
+        "number": "7.3.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-presskeysintentparameters-keys",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-presskeysintentparameters-keys",
+      "linkingText": [
+        "keys",
+        "\"keys\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "PressKeysIntentParameters"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-interaction-userintent",
+        "href": "https://w3c.github.io/at-driver/#module-interaction-userintent",
+        "title": "The interaction.userIntent Command",
+        "number": "7.3.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-keycombination",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-keycombination",
+      "linkingText": [
+        "KeyCombination"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-interaction-userintent",
+        "href": "https://w3c.github.io/at-driver/#module-interaction-userintent",
+        "title": "The interaction.userIntent Command",
+        "number": "7.3.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-type-extensionintentparameters",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-extensionintentparameters",
+      "linkingText": [
+        "ExtensionIntentParameters"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-interaction-userintent",
+        "href": "https://w3c.github.io/at-driver/#module-interaction-userintent",
+        "title": "The interaction.userIntent Command",
+        "number": "7.3.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-extensionintentparameters-name",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-extensionintentparameters-name",
+      "linkingText": [
+        "name",
+        "\"name\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "ExtensionIntentParameters"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "module-interaction-userintent",
+        "href": "https://w3c.github.io/at-driver/#module-interaction-userintent",
+        "title": "The interaction.userIntent Command",
+        "number": "7.3.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "interactioncapturedoutput",
+      "href": "https://w3c.github.io/at-driver/#interactioncapturedoutput",
+      "linkingText": [
+        "interaction.capturedOutput"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "event-interaction-capturedOutput",
+        "href": "https://w3c.github.io/at-driver/#event-interaction-capturedOutput",
+        "title": "The interaction.capturedOutput Event",
+        "number": "7.3.4.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "cddl-type-interactioncapturedoutputevent",
+      "href": "https://w3c.github.io/at-driver/#cddl-type-interactioncapturedoutputevent",
+      "linkingText": [
+        "InteractionCapturedOutputEvent"
+      ],
+      "localLinkingText": [],
+      "type": "cddl-type",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "event-interaction-capturedOutput",
+        "href": "https://w3c.github.io/at-driver/#event-interaction-capturedOutput",
+        "title": "The interaction.capturedOutput Event",
+        "number": "7.3.4.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-interactioncapturedoutputevent-method",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-interactioncapturedoutputevent-method",
+      "linkingText": [
+        "method",
+        "\"method\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "InteractionCapturedOutputEvent"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "event-interaction-capturedOutput",
+        "href": "https://w3c.github.io/at-driver/#event-interaction-capturedOutput",
+        "title": "The interaction.capturedOutput Event",
+        "number": "7.3.4.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-value-interactioncapturedoutputevent-method-interactioncapturedoutput",
+      "href": "https://w3c.github.io/at-driver/#cddl-value-interactioncapturedoutputevent-method-interactioncapturedoutput",
+      "linkingText": [
+        "interaction.capturedOutput",
+        "\"interaction.capturedOutput\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-value",
+      "for": [
+        "InteractionCapturedOutputEvent/method"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "event-interaction-capturedOutput",
+        "href": "https://w3c.github.io/at-driver/#event-interaction-capturedOutput",
+        "title": "The interaction.capturedOutput Event",
+        "number": "7.3.4.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "cddl-key-interactioncapturedoutputevent-params",
+      "href": "https://w3c.github.io/at-driver/#cddl-key-interactioncapturedoutputevent-params",
+      "linkingText": [
+        "params",
+        "\"params\""
+      ],
+      "localLinkingText": [],
+      "type": "cddl-key",
+      "for": [
+        "InteractionCapturedOutputEvent"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "event-interaction-capturedOutput",
+        "href": "https://w3c.github.io/at-driver/#event-interaction-capturedOutput",
+        "title": "The interaction.capturedOutput Event",
+        "number": "7.3.4.1"
+      },
+      "definedIn": "pre",
+      "links": []
     }
   ]
 }

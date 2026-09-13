@@ -1,0 +1,293 @@
+{
+  "spec": {
+    "title": "Web of Things (WoT) Binding Registry",
+    "url": "https://w3c.github.io/wot-binding-registry/"
+  },
+  "headings": [
+    {
+      "id": "title",
+      "href": "https://w3c.github.io/wot-binding-registry/#title",
+      "level": 1,
+      "title": "Web of Things (WoT) Binding Registry"
+    },
+    {
+      "id": "toc",
+      "href": "https://w3c.github.io/wot-binding-registry/#toc",
+      "level": 2,
+      "title": "Table of Contents",
+      "alternateIds": [
+        "table-of-contents"
+      ]
+    },
+    {
+      "id": "introduction",
+      "href": "https://w3c.github.io/wot-binding-registry/#introduction",
+      "level": 2,
+      "title": "Introduction",
+      "alternateIds": [
+        "x1-introduction"
+      ],
+      "number": "1"
+    },
+    {
+      "id": "conformance",
+      "href": "https://w3c.github.io/wot-binding-registry/#conformance",
+      "level": 2,
+      "title": "Conformance",
+      "alternateIds": [
+        "x2-conformance"
+      ],
+      "number": "2"
+    },
+    {
+      "id": "terminology",
+      "href": "https://w3c.github.io/wot-binding-registry/#terminology",
+      "level": 2,
+      "title": "Terminology",
+      "alternateIds": [
+        "x3-terminology"
+      ],
+      "number": "3"
+    },
+    {
+      "id": "registry-definition",
+      "href": "https://w3c.github.io/wot-binding-registry/#registry-definition",
+      "level": 2,
+      "title": "Registry Definition",
+      "alternateIds": [
+        "x4-registry-definition"
+      ],
+      "number": "4"
+    },
+    {
+      "id": "entry-format",
+      "href": "https://w3c.github.io/wot-binding-registry/#entry-format",
+      "level": 3,
+      "title": "Entry format",
+      "alternateIds": [
+        "x4-1-entry-format"
+      ],
+      "number": "4.1"
+    },
+    {
+      "id": "submission-requirements",
+      "href": "https://w3c.github.io/wot-binding-registry/#submission-requirements",
+      "level": 3,
+      "title": "Submission Requirements",
+      "alternateIds": [
+        "x4-2-submission-requirements"
+      ],
+      "number": "4.2"
+    },
+    {
+      "id": "req-overall",
+      "href": "https://w3c.github.io/wot-binding-registry/#req-overall",
+      "level": 4,
+      "title": "Administrative Requirements",
+      "alternateIds": [
+        "x4-2-1-administrative-requirements"
+      ],
+      "number": "4.2.1"
+    },
+    {
+      "id": "req-content",
+      "href": "https://w3c.github.io/wot-binding-registry/#req-content",
+      "level": 4,
+      "title": "Binding Content",
+      "alternateIds": [
+        "x4-2-2-binding-content"
+      ],
+      "number": "4.2.2"
+    },
+    {
+      "id": "req-docs",
+      "href": "https://w3c.github.io/wot-binding-registry/#req-docs",
+      "level": 4,
+      "title": "Supporting Documents",
+      "alternateIds": [
+        "x4-2-3-supporting-documents"
+      ],
+      "number": "4.2.3"
+    },
+    {
+      "id": "req-summ",
+      "href": "https://w3c.github.io/wot-binding-registry/#req-summ",
+      "level": 5,
+      "title": "Summary Document",
+      "alternateIds": [
+        "x4-2-3-1-summary-document"
+      ],
+      "number": "4.2.3.1"
+    },
+    {
+      "id": "req-docs-mach",
+      "href": "https://w3c.github.io/wot-binding-registry/#req-docs-mach",
+      "level": 5,
+      "title": "Machine-readable Documents",
+      "alternateIds": [
+        "x4-2-3-2-machine-readable-documents"
+      ],
+      "number": "4.2.3.2"
+    },
+    {
+      "id": "sec-lifecycle",
+      "href": "https://w3c.github.io/wot-binding-registry/#sec-lifecycle",
+      "level": 4,
+      "title": "Lifecycle",
+      "alternateIds": [
+        "x4-2-4-lifecycle"
+      ],
+      "number": "4.2.4"
+    },
+    {
+      "id": "req-tran-overall",
+      "href": "https://w3c.github.io/wot-binding-registry/#req-tran-overall",
+      "level": 5,
+      "title": "Overall Transition Requirements",
+      "alternateIds": [
+        "x4-2-4-1-overall-transition-requirements"
+      ],
+      "number": "4.2.4.1"
+    },
+    {
+      "id": "req-tran-init",
+      "href": "https://w3c.github.io/wot-binding-registry/#req-tran-init",
+      "level": 5,
+      "title": "Transition to Initial",
+      "alternateIds": [
+        "x4-2-4-2-transition-to-initial"
+      ],
+      "number": "4.2.4.2"
+    },
+    {
+      "id": "req-docsec",
+      "href": "https://w3c.github.io/wot-binding-registry/#req-docsec",
+      "level": 6,
+      "title": "Document Section",
+      "alternateIds": [
+        "x4-2-4-2-1-document-section"
+      ],
+      "number": "4.2.4.2.1"
+    },
+    {
+      "id": "req-tran-init-review",
+      "href": "https://w3c.github.io/wot-binding-registry/#req-tran-init-review",
+      "level": 6,
+      "title": "Review Organization",
+      "alternateIds": [
+        "x4-2-4-2-2-review-organization"
+      ],
+      "number": "4.2.4.2.2"
+    },
+    {
+      "id": "req-tran-init-curr",
+      "href": "https://w3c.github.io/wot-binding-registry/#req-tran-init-curr",
+      "level": 5,
+      "title": "Transition from Initial to Current",
+      "alternateIds": [
+        "x4-2-4-3-transition-from-initial-to-current"
+      ],
+      "number": "4.2.4.3"
+    },
+    {
+      "id": "req-tran-init-curr-review",
+      "href": "https://w3c.github.io/wot-binding-registry/#req-tran-init-curr-review",
+      "level": 6,
+      "title": "Review Organization",
+      "alternateIds": [
+        "x4-2-4-3-1-review-organization"
+      ],
+      "number": "4.2.4.3.1"
+    },
+    {
+      "id": "req-tran-curr-supers",
+      "href": "https://w3c.github.io/wot-binding-registry/#req-tran-curr-supers",
+      "level": 5,
+      "title": "Transition from Current to Superseded",
+      "alternateIds": [
+        "x4-2-4-4-transition-from-current-to-superseded"
+      ],
+      "number": "4.2.4.4"
+    },
+    {
+      "id": "req-tran-curr-obsolete",
+      "href": "https://w3c.github.io/wot-binding-registry/#req-tran-curr-obsolete",
+      "level": 5,
+      "title": "Transition from Current to Obsolete",
+      "alternateIds": [
+        "x4-2-4-5-transition-from-current-to-obsolete"
+      ],
+      "number": "4.2.4.5"
+    },
+    {
+      "id": "req-tran-supers-obsolete",
+      "href": "https://w3c.github.io/wot-binding-registry/#req-tran-supers-obsolete",
+      "level": 5,
+      "title": "Transition from Superseded to Obsolete",
+      "alternateIds": [
+        "x4-2-4-6-transition-from-superseded-to-obsolete"
+      ],
+      "number": "4.2.4.6"
+    },
+    {
+      "id": "req-tran-init-supers",
+      "href": "https://w3c.github.io/wot-binding-registry/#req-tran-init-supers",
+      "level": 5,
+      "title": "Transition from Initial to Superseded",
+      "alternateIds": [
+        "x4-2-4-7-transition-from-initial-to-superseded"
+      ],
+      "number": "4.2.4.7"
+    },
+    {
+      "id": "req-tran-init-obsolete",
+      "href": "https://w3c.github.io/wot-binding-registry/#req-tran-init-obsolete",
+      "level": 5,
+      "title": "Transition from Initial to Obsolete",
+      "alternateIds": [
+        "x4-2-4-8-transition-from-initial-to-obsolete"
+      ],
+      "number": "4.2.4.8"
+    },
+    {
+      "id": "registry",
+      "href": "https://w3c.github.io/wot-binding-registry/#registry",
+      "level": 2,
+      "title": "Registry Table",
+      "alternateIds": [
+        "x5-registry-table"
+      ],
+      "number": "5"
+    },
+    {
+      "id": "references",
+      "href": "https://w3c.github.io/wot-binding-registry/#references",
+      "level": 2,
+      "title": "References",
+      "alternateIds": [
+        "a-references"
+      ],
+      "number": "A"
+    },
+    {
+      "id": "normative-references",
+      "href": "https://w3c.github.io/wot-binding-registry/#normative-references",
+      "level": 3,
+      "title": "Normative references",
+      "alternateIds": [
+        "a-1-normative-references"
+      ],
+      "number": "A.1"
+    },
+    {
+      "id": "informative-references",
+      "href": "https://w3c.github.io/wot-binding-registry/#informative-references",
+      "level": 3,
+      "title": "Informative references",
+      "alternateIds": [
+        "a-2-informative-references"
+      ],
+      "number": "A.2"
+    }
+  ]
+}

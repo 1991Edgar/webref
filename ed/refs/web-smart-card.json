@@ -6,32 +6,44 @@
   "refs": {
     "normative": [
       {
-        "name": "dom",
+        "name": "DOM",
         "url": "https://dom.spec.whatwg.org/"
       },
       {
-        "name": "hr-time-3",
-        "url": "https://www.w3.org/TR/hr-time-3/"
+        "name": "HR-TIME-3",
+        "url": "https://w3c.github.io/hr-time/"
       },
       {
-        "name": "html",
+        "name": "HTML",
         "url": "https://html.spec.whatwg.org/multipage/"
       },
       {
-        "name": "infra",
+        "name": "INFRA",
         "url": "https://infra.spec.whatwg.org/"
       },
       {
-        "name": "ISO7186-3",
+        "name": "ISO7816-3",
         "url": "https://www.iso.org/standard/38770.html"
+      },
+      {
+        "name": "ISOLATED-CONTEXTS",
+        "url": "https://wicg.github.io/isolated-web-apps/isolated-contexts.html"
       },
       {
         "name": "PCSC5",
         "url": "https://pcscworkgroup.com/Download/Specifications/pcsc5_v2.01.01.pdf"
       },
       {
-        "name": "permissions-policy",
-        "url": "https://www.w3.org/TR/permissions-policy-1/"
+        "name": "PERMISSIONS",
+        "url": "https://w3c.github.io/permissions/"
+      },
+      {
+        "name": "PERMISSIONS-POLICY-1",
+        "url": "https://w3c.github.io/webappsec-permissions-policy/"
+      },
+      {
+        "name": "RFC2119",
+        "url": "https://datatracker.ietf.org/doc/html/rfc2119"
       },
       {
         "name": "WEBIDL",

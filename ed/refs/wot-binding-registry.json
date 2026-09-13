@@ -1,0 +1,32 @@
+{
+  "spec": {
+    "title": "Web of Things (WoT) Binding Registry",
+    "url": "https://w3c.github.io/wot-binding-registry/"
+  },
+  "refs": {
+    "normative": [
+      {
+        "name": "RFC2119",
+        "url": "https://www.rfc-editor.org/info/rfc2119/"
+      },
+      {
+        "name": "RFC8174",
+        "url": "https://www.rfc-editor.org/info/rfc8174/"
+      },
+      {
+        "name": "w3c-process",
+        "url": "https://www.w3.org/policies/process/"
+      },
+      {
+        "name": "WOT-ARCHITECTURE",
+        "url": "https://www.w3.org/TR/wot-architecture/"
+      }
+    ],
+    "informative": [
+      {
+        "name": "WOT-THING-DESCRIPTION11",
+        "url": "https://www.w3.org/TR/wot-thing-description11/"
+      }
+    ]
+  }
+}

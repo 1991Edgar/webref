@@ -46,6 +46,7 @@
       "https://lists.w3.org/Archives/Public/www-style/": {},
       "https://w3c.github.io/epub-specs/epub33/core/": {},
       "https://w3c.github.io/touch-events/": {},
+      "https://w3c.github.io/uievents/": {},
       "https://www.w3.org/TR/CSS/": {},
       "https://www.w3.org/TR/CSS2/about.html": {
         "anchors": [
@@ -81,7 +82,7 @@
           "animation-type"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://dom.spec.whatwg.org/": {
@@ -99,7 +100,9 @@
         "anchors": [
           "scroll-container",
           "scrollport",
-          "overflow"
+          "overflow",
+          "single-axis-scroll-container",
+          "scrollable-axis"
         ]
       },
       "https://drafts.csswg.org/css-position-3/": {
@@ -128,6 +131,11 @@
       "https://w3c.github.io/epub-specs/epub33/core/": {
         "anchors": [
           "dfn-viewport"
+        ]
+      },
+      "https://w3c.github.io/uievents/": {
+        "anchors": [
+          "default-action"
         ]
       },
       "https://www.w3.org/TR/touch-events/": {

@@ -42,11 +42,9 @@
           "use-cases"
         ]
       },
-      "https://github.com/WICG/ua-client-hints/issues/151": {},
       "https://github.com/bslassey/privacy-budget": {},
       "https://github.com/w3ctag/design-reviews/issues/320": {},
       "https://html.spec.whatwg.org/multipage/": {},
-      "https://httpwg.org/specs/rfc8941.html": {},
       "https://httpwg.org/specs/rfc9110.html": {},
       "https://infra.spec.whatwg.org/": {},
       "https://polyfill.io/": {},
@@ -54,11 +52,15 @@
       "https://w3c.github.io/device-memory/": {},
       "https://w3c.github.io/fingerprinting-guidance/": {},
       "https://w3c.github.io/webappsec-permissions-policy/": {},
+      "https://w3c.github.io/webdriver-bidi/": {},
+      "https://w3c.github.io/webdriver/": {},
       "https://webidl.spec.whatwg.org/": {},
       "https://wicg.github.io/client-hints-infrastructure/": {},
       "https://wicg.github.io/savedata/": {},
       "https://www.rfc-editor.org/rfc/rfc3864": {},
+      "https://www.rfc-editor.org/rfc/rfc8610": {},
       "https://www.rfc-editor.org/rfc/rfc8942": {},
+      "https://www.rfc-editor.org/rfc/rfc9651": {},
       "https://www.w3.org/community/about/agreements/cla/": {},
       "https://www.w3.org/community/wicg/": {}
     },
@@ -68,9 +70,25 @@
           "devicecompat"
         ]
       },
+      "https://html.spec.whatwg.org/multipage/document-sequences.html": {
+        "anchors": [
+          "navigable",
+          "nav-top"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/iframe-embed-object.html": {
+        "anchors": [
+          "allowed-to-use"
+        ]
+      },
       "https://html.spec.whatwg.org/multipage/infrastructure.html": {
         "anchors": [
           "in-parallel"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/nav-history-apis.html": {
+        "anchors": [
+          "concept-document-window"
         ]
       },
       "https://html.spec.whatwg.org/multipage/system-state.html": {
@@ -80,6 +98,7 @@
       },
       "https://html.spec.whatwg.org/multipage/webappapis.html": {
         "anchors": [
+          "environment-settings-object",
           "windoworworkerglobalscope",
           "concept-relevant-global",
           "queue-a-task"
@@ -109,7 +128,12 @@
           "list-is-empty",
           "stack-pop",
           "strip-leading-and-trailing-ascii-whitespace",
-          "list-contain"
+          "list-contain",
+          "struct",
+          "struct-item",
+          "map-exists",
+          "map-remove",
+          "map-set"
         ]
       },
       "https://tc39.es/ecma262/": {
@@ -117,7 +141,7 @@
           "current-realm"
         ]
       },
-      "https://tools.ietf.org/html/rfc8941": {
+      "https://tools.ietf.org/html/rfc9651": {
         "anchors": [
           "section-3.1",
           "section-3.3.3",
@@ -137,6 +161,32 @@
           "dfn-permissions-task-source"
         ]
       },
+      "https://w3c.github.io/webappsec-permissions-policy/": {
+        "anchors": [
+          "policy-controlled-feature",
+          "policy-controlled-feature-default-allowlist"
+        ]
+      },
+      "https://w3c.github.io/webdriver-bidi/": {
+        "anchors": [
+          "user-context",
+          "get-related-navigables",
+          "associated-user-context",
+          "get-valid-top-level-traversables-by-ids",
+          "get-valid-user-contexts"
+        ]
+      },
+      "https://w3c.github.io/webdriver/": {
+        "anchors": [
+          "dfn-remote-ends",
+          "dfn-remote-end-steps",
+          "dfn-error",
+          "dfn-error-code",
+          "dfn-invalid-argument",
+          "dfn-try",
+          "dfn-success"
+        ]
+      },
       "https://webidl.spec.whatwg.org/": {
         "anchors": [
           "idl-DOMString",
@@ -150,8 +200,6 @@
           "dfn-dictionary",
           "this",
           "a-new-promise",
-          "reject",
-          "notallowederror",
           "resolve"
         ]
       },
@@ -160,7 +208,13 @@
           "low-entropy-hint-table",
           "policy-controlled-client-hints-features",
           "client-hints-token",
+          "high-entropy-client-hint",
           "abstract-opdef-append-client-hints-to-request"
+        ]
+      },
+      "https://www.rfc-editor.org/rfc/rfc8610": {
+        "anchors": [
+          "appendix-D"
         ]
       }
     }

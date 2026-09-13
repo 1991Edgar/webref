@@ -26,7 +26,10 @@
       "id": "toc",
       "href": "https://gpuweb.github.io/gpuweb/#toc",
       "level": 2,
-      "title": "Table of Contents"
+      "title": "Table of Contents",
+      "alternateIds": [
+        "contents"
+      ]
     },
     {
       "id": "intro",
@@ -337,6 +340,20 @@
       "number": "3.6.1"
     },
     {
+      "id": "gpufeaturename",
+      "href": "https://gpuweb.github.io/gpuweb/#gpufeaturename",
+      "level": 5,
+      "title": "GPUFeatureName",
+      "number": "3.6.1.1"
+    },
+    {
+      "id": "feature-dependencies",
+      "href": "https://gpuweb.github.io/gpuweb/#feature-dependencies",
+      "level": 5,
+      "title": "Feature Dependencies",
+      "number": "3.6.1.2"
+    },
+    {
       "id": "limits",
       "href": "https://gpuweb.github.io/gpuweb/#limits",
       "level": 4,
@@ -372,67 +389,74 @@
       "number": "3.6.2.4"
     },
     {
+      "id": "feature-detection",
+      "href": "https://gpuweb.github.io/gpuweb/#feature-detection",
+      "level": 3,
+      "title": "Feature Detection",
+      "number": "3.7"
+    },
+    {
       "id": "extension-documents",
       "href": "https://gpuweb.github.io/gpuweb/#extension-documents",
       "level": 3,
       "title": "Extension Documents",
-      "number": "3.7"
+      "number": "3.8"
     },
     {
       "id": "origin-restrictions",
       "href": "https://gpuweb.github.io/gpuweb/#origin-restrictions",
       "level": 3,
       "title": "Origin Restrictions",
-      "number": "3.8"
+      "number": "3.9"
     },
     {
       "id": "task-sources",
       "href": "https://gpuweb.github.io/gpuweb/#task-sources",
       "level": 3,
       "title": "Task Sources",
-      "number": "3.9"
+      "number": "3.10"
     },
     {
       "id": "-webgpu-task-source",
       "href": "https://gpuweb.github.io/gpuweb/#-webgpu-task-source",
       "level": 4,
       "title": "WebGPU Task Source",
-      "number": "3.9.1"
+      "number": "3.10.1"
     },
     {
       "id": "automatic-expiry-task-source",
       "href": "https://gpuweb.github.io/gpuweb/#automatic-expiry-task-source",
       "level": 4,
       "title": "Automatic Expiry Task Source",
-      "number": "3.9.2"
+      "number": "3.10.2"
     },
     {
       "id": "color-spaces",
       "href": "https://gpuweb.github.io/gpuweb/#color-spaces",
       "level": 3,
       "title": "Color Spaces and Encoding",
-      "number": "3.10"
+      "number": "3.11"
     },
     {
       "id": "color-space-conversions",
       "href": "https://gpuweb.github.io/gpuweb/#color-space-conversions",
       "level": 4,
       "title": "Color Space Conversions",
-      "number": "3.10.1"
+      "number": "3.11.1"
     },
     {
       "id": "color-space-conversion-elision",
       "href": "https://gpuweb.github.io/gpuweb/#color-space-conversion-elision",
       "level": 4,
       "title": "Color Space Conversion Elision",
-      "number": "3.10.2"
+      "number": "3.11.2"
     },
     {
       "id": "conversions-to-wgsl",
       "href": "https://gpuweb.github.io/gpuweb/#conversions-to-wgsl",
       "level": 3,
       "title": "Numeric conversions from JavaScript to WGSL",
-      "number": "3.11"
+      "number": "3.12"
     },
     {
       "id": "initialization",
@@ -482,13 +506,6 @@
       "level": 4,
       "title": "GPUDeviceDescriptor",
       "number": "4.3.1"
-    },
-    {
-      "id": "gpufeaturename",
-      "href": "https://gpuweb.github.io/gpuweb/#gpufeaturename",
-      "level": 5,
-      "title": "GPUFeatureName",
-      "number": "4.3.1.1"
     },
     {
       "id": "gpudevice",
@@ -633,9 +650,9 @@
     {
       "id": "external-texture-sampling",
       "href": "https://gpuweb.github.io/gpuweb/#external-texture-sampling",
-      "level": 4,
-      "title": "Sampling External Textures",
-      "number": "6.4.2"
+      "level": 3,
+      "title": "Sampling External Texture Bindings",
+      "number": "6.5"
     },
     {
       "id": "samplers",
@@ -1030,6 +1047,13 @@
       "level": 3,
       "title": "Bind Groups",
       "number": "14.1"
+    },
+    {
+      "id": "programmable-passes-immediate-data",
+      "href": "https://gpuweb.github.io/gpuweb/#programmable-passes-immediate-data",
+      "level": 3,
+      "title": "Immediate Data",
+      "number": "14.2"
     },
     {
       "id": "debug-markers",
@@ -1504,116 +1528,172 @@
       "title": "25. Feature Index"
     },
     {
+      "id": "core-features-and-limits",
+      "href": "https://gpuweb.github.io/gpuweb/#core-features-and-limits",
+      "level": 3,
+      "title": "\"core-features-and-limits\"",
+      "number": "25.1"
+    },
+    {
       "id": "depth-clip-control",
       "href": "https://gpuweb.github.io/gpuweb/#depth-clip-control",
       "level": 3,
       "title": "\"depth-clip-control\"",
-      "number": "25.1"
+      "number": "25.2"
     },
     {
       "id": "depth32float-stencil8",
       "href": "https://gpuweb.github.io/gpuweb/#depth32float-stencil8",
       "level": 3,
       "title": "\"depth32float-stencil8\"",
-      "number": "25.2"
+      "number": "25.3"
     },
     {
       "id": "texture-compression-bc",
       "href": "https://gpuweb.github.io/gpuweb/#texture-compression-bc",
       "level": 3,
       "title": "\"texture-compression-bc\"",
-      "number": "25.3"
+      "number": "25.4"
     },
     {
       "id": "texture-compression-bc-sliced-3d",
       "href": "https://gpuweb.github.io/gpuweb/#texture-compression-bc-sliced-3d",
       "level": 3,
       "title": "\"texture-compression-bc-sliced-3d\"",
-      "number": "25.4"
+      "number": "25.5"
     },
     {
       "id": "texture-compression-etc2",
       "href": "https://gpuweb.github.io/gpuweb/#texture-compression-etc2",
       "level": 3,
       "title": "\"texture-compression-etc2\"",
-      "number": "25.5"
+      "number": "25.6"
     },
     {
       "id": "texture-compression-astc",
       "href": "https://gpuweb.github.io/gpuweb/#texture-compression-astc",
       "level": 3,
       "title": "\"texture-compression-astc\"",
-      "number": "25.6"
+      "number": "25.7"
     },
     {
       "id": "texture-compression-astc-sliced-3d",
       "href": "https://gpuweb.github.io/gpuweb/#texture-compression-astc-sliced-3d",
       "level": 3,
       "title": "\"texture-compression-astc-sliced-3d\"",
-      "number": "25.7"
+      "number": "25.8"
     },
     {
       "id": "timestamp-query",
       "href": "https://gpuweb.github.io/gpuweb/#timestamp-query",
       "level": 3,
       "title": "\"timestamp-query\"",
-      "number": "25.8"
+      "number": "25.9"
     },
     {
       "id": "indirect-first-instance",
       "href": "https://gpuweb.github.io/gpuweb/#indirect-first-instance",
       "level": 3,
       "title": "\"indirect-first-instance\"",
-      "number": "25.9"
+      "number": "25.10"
     },
     {
       "id": "shader-f16",
       "href": "https://gpuweb.github.io/gpuweb/#shader-f16",
       "level": 3,
       "title": "\"shader-f16\"",
-      "number": "25.10"
+      "number": "25.11"
     },
     {
       "id": "rg11b10ufloat-renderable",
       "href": "https://gpuweb.github.io/gpuweb/#rg11b10ufloat-renderable",
       "level": 3,
       "title": "\"rg11b10ufloat-renderable\"",
-      "number": "25.11"
+      "number": "25.12"
     },
     {
       "id": "bgra8unorm-storage",
       "href": "https://gpuweb.github.io/gpuweb/#bgra8unorm-storage",
       "level": 3,
       "title": "\"bgra8unorm-storage\"",
-      "number": "25.12"
+      "number": "25.13"
     },
     {
       "id": "float32-filterable",
       "href": "https://gpuweb.github.io/gpuweb/#float32-filterable",
       "level": 3,
       "title": "\"float32-filterable\"",
-      "number": "25.13"
+      "number": "25.14"
     },
     {
       "id": "float32-blendable",
       "href": "https://gpuweb.github.io/gpuweb/#float32-blendable",
       "level": 3,
       "title": "\"float32-blendable\"",
-      "number": "25.14"
+      "number": "25.15"
     },
     {
       "id": "dom-gpufeaturename-clip-distances",
       "href": "https://gpuweb.github.io/gpuweb/#dom-gpufeaturename-clip-distances",
       "level": 3,
       "title": "\"clip-distances\"",
-      "number": "25.15"
+      "number": "25.16"
     },
     {
       "id": "dom-gpufeaturename-dual-source-blending",
       "href": "https://gpuweb.github.io/gpuweb/#dom-gpufeaturename-dual-source-blending",
       "level": 3,
       "title": "\"dual-source-blending\"",
-      "number": "25.16"
+      "number": "25.17"
+    },
+    {
+      "id": "subgroups",
+      "href": "https://gpuweb.github.io/gpuweb/#subgroups",
+      "level": 3,
+      "title": "\"subgroups\"",
+      "number": "25.18"
+    },
+    {
+      "id": "texture-formats-tier1",
+      "href": "https://gpuweb.github.io/gpuweb/#texture-formats-tier1",
+      "level": 3,
+      "title": "\"texture-formats-tier1\"",
+      "number": "25.19"
+    },
+    {
+      "id": "texture-formats-tier2",
+      "href": "https://gpuweb.github.io/gpuweb/#texture-formats-tier2",
+      "level": 3,
+      "title": "\"texture-formats-tier2\"",
+      "number": "25.20"
+    },
+    {
+      "id": "dom-gpufeaturename-primitive-index",
+      "href": "https://gpuweb.github.io/gpuweb/#dom-gpufeaturename-primitive-index",
+      "level": 3,
+      "title": "\"primitive-index\"",
+      "number": "25.21"
+    },
+    {
+      "id": "dom-gpufeaturename-texture-component-swizzle",
+      "href": "https://gpuweb.github.io/gpuweb/#dom-gpufeaturename-texture-component-swizzle",
+      "level": 3,
+      "title": "\"texture-component-swizzle\"",
+      "number": "25.22"
+    },
+    {
+      "id": "dom-gpufeaturename-subgroup-size-control",
+      "href": "https://gpuweb.github.io/gpuweb/#dom-gpufeaturename-subgroup-size-control",
+      "level": 3,
+      "title": "\"subgroup-size-control\"",
+      "number": "25.23"
+    },
+    {
+      "id": "dom-gpufeaturename-texture-compression-unaligned",
+      "href": "https://gpuweb.github.io/gpuweb/#dom-gpufeaturename-texture-compression-unaligned",
+      "level": 3,
+      "title": "\"texture-compression-unaligned\"",
+      "number": "25.24"
     },
     {
       "id": "appendices",
@@ -1715,7 +1795,7 @@
       "id": "informative",
       "href": "https://gpuweb.github.io/gpuweb/#informative",
       "level": 3,
-      "title": "Informative References"
+      "title": "Non-Normative References"
     },
     {
       "id": "idl-index",

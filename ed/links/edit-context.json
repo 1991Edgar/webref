@@ -23,6 +23,7 @@
           "layout-viewport"
         ]
       },
+      "https://github.com/w3c/edit-context/issues/139": {},
       "https://html.spec.whatwg.org/": {
         "anchors": [
           "focused-area-of-the-document"
@@ -41,7 +42,16 @@
           "currently-focused-area-of-a-top-level-traversable"
         ]
       },
-      "https://infra.spec.whatwg.org/": {},
+      "https://w3c.github.io/aria/": {
+        "anchors": [
+          "textbox",
+          "aria-label",
+          "aria-labelledby",
+          "aria-multiline",
+          "paragraph",
+          "aria-hidden"
+        ]
+      },
       "https://w3c.github.io/editing/docs/execCommand/": {
         "anchors": [
           "editable"
@@ -56,12 +66,11 @@
       "https://webidl.spec.whatwg.org/": {},
       "https://www.w3.org/TR/": {},
       "https://www.w3.org/TR/geometry-1/": {},
-      "https://www.w3.org/TR/input-events-1/": {},
       "https://www.w3.org/TR/uievents/": {
         "anchors": [
-          "default-action",
           "event-type-beforeinput",
           "event-type-input",
+          "events-compositionevents",
           "dom-inputevent-inputtype"
         ]
       },
@@ -73,7 +82,7 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://dom.spec.whatwg.org/": {
@@ -88,6 +97,11 @@
           "eventtarget",
           "dictdef-eventinit",
           "event"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/canvas.html": {
+        "anchors": [
+          "canvas"
         ]
       },
       "https://html.spec.whatwg.org/multipage/document-sequences.html": {
@@ -115,11 +129,6 @@
           "dom-manipulation-task-source",
           "concept-relevant-global",
           "eventhandler"
-        ]
-      },
-      "https://infra.spec.whatwg.org/": {
-        "anchors": [
-          "assert"
         ]
       },
       "https://webidl.spec.whatwg.org/": {

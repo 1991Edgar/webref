@@ -112,7 +112,8 @@
       },
       "https://github.com/tabatkins/bikeshed": {},
       "https://github.com/w3c/IndexedDB/": {},
-      "https://github.com/w3c/IndexedDB/issues": {},
+      "https://github.com/w3c/IndexedDB/issues/130": {},
+      "https://github.com/w3c/IndexedDB/issues/206": {},
       "https://github.com/w3c/IndexedDB/issues/215": {},
       "https://github.com/w3c/IndexedDB/issues/234": {},
       "https://github.com/w3c/IndexedDB/issues/253": {},
@@ -123,18 +124,27 @@
       "https://github.com/w3c/IndexedDB/issues/327": {},
       "https://github.com/w3c/IndexedDB/issues/346": {},
       "https://github.com/w3c/IndexedDB/issues/408": {},
+      "https://github.com/w3c/IndexedDB/issues/417": {},
+      "https://github.com/w3c/IndexedDB/issues/421": {},
       "https://github.com/w3c/IndexedDB/issues/423": {},
+      "https://github.com/w3c/IndexedDB/issues/433": {},
+      "https://github.com/w3c/IndexedDB/issues/434": {},
+      "https://github.com/w3c/IndexedDB/issues/436": {},
+      "https://github.com/w3c/IndexedDB/issues/442": {},
+      "https://github.com/w3c/IndexedDB/issues/445": {},
+      "https://github.com/w3c/IndexedDB/issues/450": {},
+      "https://github.com/w3c/IndexedDB/issues/452": {},
+      "https://github.com/w3c/IndexedDB/issues/463": {},
       "https://github.com/w3c/IndexedDB/issues/50": {},
       "https://github.com/w3c/IndexedDB/pull/232": {},
       "https://github.com/w3c/IndexedDB/pull/238": {},
+      "https://github.com/w3c/IndexedDB/pull/310": {},
       "https://html.spec.whatwg.org/multipage/": {},
       "https://httpwg.org/specs/rfc6265.html": {},
       "https://infra.spec.whatwg.org/": {},
-      "https://lists.w3.org/Archives/Public/public-webapps/": {},
       "https://storage.spec.whatwg.org/": {},
       "https://tc39.es/ecma262/multipage/": {},
       "https://webidl.spec.whatwg.org/": {},
-      "https://www.w3.org/2004/01/pp-impl/114929/status": {},
       "https://www.w3.org/TR/": {},
       "https://www.w3.org/TR/2015/REC-IndexedDB-20150108/": {
         "anchors": [
@@ -151,7 +161,8 @@
       "https://www.w3.org/TR/charmod-norm/": {},
       "https://www.w3.org/TR/webstorage/": {},
       "https://www.w3.org/groups/wg/webapps": {},
-      "https://www.w3.org/policies/patent-policy/20200915/": {
+      "https://www.w3.org/groups/wg/webapps/ipr": {},
+      "https://www.w3.org/policies/patent-policy/": {
         "anchors": [
           "def-essential",
           "sec-Disclosure"
@@ -188,11 +199,6 @@
           "concept-origin"
         ]
       },
-      "https://html.spec.whatwg.org/multipage/canvas.html": {
-        "anchors": [
-          "imagedata"
-        ]
-      },
       "https://html.spec.whatwg.org/multipage/common-dom-interfaces.html": {
         "anchors": [
           "domstringlist"
@@ -201,6 +207,11 @@
       "https://html.spec.whatwg.org/multipage/document-sequences.html": {
         "anchors": [
           "browsing-context"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html": {
+        "anchors": [
+          "imagedata"
         ]
       },
       "https://html.spec.whatwg.org/multipage/infrastructure.html": {
@@ -218,8 +229,8 @@
       "https://html.spec.whatwg.org/multipage/webappapis.html": {
         "anchors": [
           "event-loop",
-          "queue-a-task",
           "task-queue",
+          "queue-a-task",
           "event-handler-idl-attributes",
           "eventhandler",
           "event-handler-event-type",
@@ -241,7 +252,10 @@
           "byte",
           "ordered-set",
           "list-iterate",
+          "iteration-continue",
           "list-append",
+          "iteration-break",
+          "list-prepend",
           "strictly-split",
           "byte-sequence-length",
           "list-contain",
@@ -322,6 +336,7 @@
           "dfn-throw",
           "dataerror",
           "idl-DOMException",
+          "buffersource-detached",
           "constrainterror",
           "aborterror",
           "datacloneerror",
@@ -329,12 +344,12 @@
           "invalidstateerror",
           "notfounderror",
           "notreadableerror",
-          "quotaexceedederror",
           "syntaxerror",
           "readonlyerror",
           "transactioninactiveerror",
           "unknownerror",
           "versionerror",
+          "quotaexceedederror",
           "Exposed",
           "idl-any",
           "this",

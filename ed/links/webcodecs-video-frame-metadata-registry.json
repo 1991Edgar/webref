@@ -6,13 +6,16 @@
   "links": {
     "rawlinks": {
       "https://github.com/w3c/webcodecs/issues": {},
+      "https://github.com/w3c/webcodecs/issues/": {},
       "https://lists.w3.org/Archives/Public/public-media-wg/": {},
       "https://w3c.github.io/mediacapture-extensions/": {
         "anchors": [
           "human-face-segmentation",
           "dom-videoframemetadata-capturetime",
           "dom-videoframemetadata-receivetime",
-          "dom-videoframemetadata-rtptimestamp"
+          "dom-videoframemetadata-rtptimestamp",
+          "background-blur-effect-status",
+          "background-segmentation-mask"
         ]
       },
       "https://w3c.github.io/webcodecs/": {
@@ -30,7 +33,7 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://w3c.github.io/webcodecs/": {

@@ -6,6 +6,10 @@
   "refs": {
     "normative": [
       {
+        "name": "CLEAR-SITE-DATA",
+        "url": "https://w3c.github.io/webappsec-clear-site-data/"
+      },
+      {
         "name": "COOKIES",
         "url": "https://httpwg.org/specs/rfc6265.html"
       },
@@ -39,7 +43,11 @@
       },
       {
         "name": "NO-VARY-SEARCH",
-        "url": "https://wicg.github.io/nav-speculation/no-vary-search.html"
+        "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-no-vary-search"
+      },
+      {
+        "name": "PRERENDERING-REVAMPED",
+        "url": "https://wicg.github.io/nav-speculation/prerendering.html"
       },
       {
         "name": "REFERRER-POLICY",
@@ -50,16 +58,28 @@
         "url": "https://w3c.github.io/resource-timing/"
       },
       {
+        "name": "RFC8610",
+        "url": "https://www.rfc-editor.org/info/rfc8610/"
+      },
+      {
         "name": "RFC9651",
-        "url": "https://www.rfc-editor.org/rfc/rfc9651"
+        "url": "https://www.rfc-editor.org/info/rfc9651/"
       },
       {
         "name": "SECURE-CONTEXTS",
         "url": "https://w3c.github.io/webappsec-secure-contexts/"
       },
       {
+        "name": "SERVICE-WORKERS",
+        "url": "https://w3c.github.io/ServiceWorker/"
+      },
+      {
         "name": "URL",
         "url": "https://url.spec.whatwg.org/"
+      },
+      {
+        "name": "WebDriver-BiDi",
+        "url": "https://w3c.github.io/webdriver-bidi/"
       }
     ],
     "informative": [
@@ -70,10 +90,6 @@
       {
         "name": "NAVIGATION-TIMING",
         "url": "https://www.w3.org/TR/navigation-timing/"
-      },
-      {
-        "name": "PRERENDERING-REVAMPED",
-        "url": "https://wicg.github.io/nav-speculation/prerendering.html"
       }
     ]
   }

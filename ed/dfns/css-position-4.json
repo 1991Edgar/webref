@@ -5,10 +5,10 @@
   },
   "dfns": [
     {
-      "id": "paint-a-document",
-      "href": "https://drafts.csswg.org/css-position-4/#paint-a-document",
+      "id": "fixed-containing-block",
+      "href": "https://drafts.csswg.org/css-position-4/#fixed-containing-block",
       "linkingText": [
-        "paint a document"
+        "fixed containing block"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -16,18 +16,19 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "painting-order",
-        "href": "https://drafts.csswg.org/css-position-4/#painting-order",
-        "title": "Painting Order and Stacking Contexts",
+        "id": "scrollable-cb",
+        "href": "https://drafts.csswg.org/css-position-4/#scrollable-cb",
+        "title": "Scrollable Containing Block",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "dt",
+      "links": []
     },
     {
-      "id": "paint-a-stacking-context",
-      "href": "https://drafts.csswg.org/css-position-4/#paint-a-stacking-context",
+      "id": "local-containing-block",
+      "href": "https://drafts.csswg.org/css-position-4/#local-containing-block",
       "linkingText": [
-        "paint a stacking context"
+        "local containing block"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -35,107 +36,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "painting-order",
-        "href": "https://drafts.csswg.org/css-position-4/#painting-order",
-        "title": "Painting Order and Stacking Contexts",
+        "id": "scrollable-cb",
+        "href": "https://drafts.csswg.org/css-position-4/#scrollable-cb",
+        "title": "Scrollable Containing Block",
         "number": "2"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "paint-a-blocks-decorations",
-      "href": "https://drafts.csswg.org/css-position-4/#paint-a-blocks-decorations",
-      "linkingText": [
-        "paint a block’s decorations"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "painting-order",
-        "href": "https://drafts.csswg.org/css-position-4/#painting-order",
-        "title": "Painting Order and Stacking Contexts",
-        "number": "2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "paint-a-box-in-a-line-box",
-      "href": "https://drafts.csswg.org/css-position-4/#paint-a-box-in-a-line-box",
-      "linkingText": [
-        "paint a box in a line box"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "painting-order",
-        "href": "https://drafts.csswg.org/css-position-4/#painting-order",
-        "title": "Painting Order and Stacking Contexts",
-        "number": "2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "paint-a-stacking-container",
-      "href": "https://drafts.csswg.org/css-position-4/#paint-a-stacking-container",
-      "linkingText": [
-        "paint a stacking container"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "painting-order",
-        "href": "https://drafts.csswg.org/css-position-4/#painting-order",
-        "title": "Painting Order and Stacking Contexts",
-        "number": "2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "in-band-outline",
-      "href": "https://drafts.csswg.org/css-position-4/#in-band-outline",
-      "linkingText": [
-        "in-band outline"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "painting-order",
-        "href": "https://drafts.csswg.org/css-position-4/#painting-order",
-        "title": "Painting Order and Stacking Contexts",
-        "number": "2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "out-of-band-outline",
-      "href": "https://drafts.csswg.org/css-position-4/#out-of-band-outline",
-      "linkingText": [
-        "out-of-band outline"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "painting-order",
-        "href": "https://drafts.csswg.org/css-position-4/#painting-order",
-        "title": "Painting Order and Stacking Contexts",
-        "number": "2"
-      },
-      "definedIn": "prose"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "scrollable-containing-block",
@@ -152,9 +59,10 @@
         "id": "scrollable-cb",
         "href": "https://drafts.csswg.org/css-position-4/#scrollable-cb",
         "title": "Scrollable Containing Block",
-        "number": "3"
+        "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "document-top-layer",
@@ -173,9 +81,10 @@
         "id": "top-layer",
         "href": "https://drafts.csswg.org/css-position-4/#top-layer",
         "title": "Top Layer",
-        "number": "4"
+        "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "top-layer-root",
@@ -192,9 +101,10 @@
         "id": "top-layer",
         "href": "https://drafts.csswg.org/css-position-4/#top-layer",
         "title": "Top Layer",
-        "number": "4"
+        "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "in-the-same-top-layer",
@@ -211,15 +121,17 @@
         "id": "top-layer",
         "href": "https://drafts.csswg.org/css-position-4/#top-layer",
         "title": "Top Layer",
-        "number": "4"
+        "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "in-a-higher-top-layer",
       "href": "https://drafts.csswg.org/css-position-4/#in-a-higher-top-layer",
       "linkingText": [
-        "in a higher top layer"
+        "in a higher top layer",
+        "in a lower top layer"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -230,9 +142,10 @@
         "id": "top-layer",
         "href": "https://drafts.csswg.org/css-position-4/#top-layer",
         "title": "Top Layer",
-        "number": "4"
+        "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "pending-top-layer-removals",
@@ -249,9 +162,10 @@
         "id": "top-layer",
         "href": "https://drafts.csswg.org/css-position-4/#top-layer",
         "title": "Top Layer",
-        "number": "4"
+        "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "selectordef-backdrop",
@@ -268,9 +182,10 @@
         "id": "backdrop",
         "href": "https://drafts.csswg.org/css-position-4/#backdrop",
         "title": "The ::backdrop Pseudo-Element",
-        "number": "4.2"
+        "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "in-the-top-layer",
@@ -287,9 +202,10 @@
         "id": "top-manip",
         "href": "https://drafts.csswg.org/css-position-4/#top-manip",
         "title": "Top Layer Manipulation",
-        "number": "4.3"
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "render-in-the-top-layer",
@@ -306,9 +222,10 @@
         "id": "top-manip",
         "href": "https://drafts.csswg.org/css-position-4/#top-manip",
         "title": "Top Layer Manipulation",
-        "number": "4.3"
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "add-an-element-to-the-top-layer",
@@ -326,9 +243,10 @@
         "id": "top-manip",
         "href": "https://drafts.csswg.org/css-position-4/#top-manip",
         "title": "Top Layer Manipulation",
-        "number": "4.3"
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "request-an-element-to-be-removed-from-the-top-layer",
@@ -346,9 +264,10 @@
         "id": "top-manip",
         "href": "https://drafts.csswg.org/css-position-4/#top-manip",
         "title": "Top Layer Manipulation",
-        "number": "4.3"
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "remove-an-element-from-the-top-layer-immediately",
@@ -366,9 +285,10 @@
         "id": "top-manip",
         "href": "https://drafts.csswg.org/css-position-4/#top-manip",
         "title": "Top Layer Manipulation",
-        "number": "4.3"
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "process-top-layer-removals",
@@ -385,9 +305,10 @@
         "id": "top-manip",
         "href": "https://drafts.csswg.org/css-position-4/#top-manip",
         "title": "Top Layer Manipulation",
-        "number": "4.3"
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-overlay",
@@ -404,9 +325,10 @@
         "id": "overlay",
         "href": "https://drafts.csswg.org/css-position-4/#overlay",
         "title": "Controlling the Top Layer: the overlay property",
-        "number": "4.4"
+        "number": "3.4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-overlay-none",
@@ -425,9 +347,10 @@
         "id": "overlay",
         "href": "https://drafts.csswg.org/css-position-4/#overlay",
         "title": "Controlling the Top Layer: the overlay property",
-        "number": "4.4"
+        "number": "3.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-overlay-auto",
@@ -446,9 +369,150 @@
         "id": "overlay",
         "href": "https://drafts.csswg.org/css-position-4/#overlay",
         "title": "Controlling the Top Layer: the overlay property",
-        "number": "4.4"
+        "number": "3.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "paint-a-document",
+      "href": "https://drafts.csswg.org/css-position-4/#paint-a-document",
+      "linkingText": [
+        "paint a document"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "painting-order",
+        "href": "https://drafts.csswg.org/css-position-4/#painting-order",
+        "title": "Painting Order and Stacking Contexts",
+        "number": "4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "paint-a-stacking-context",
+      "href": "https://drafts.csswg.org/css-position-4/#paint-a-stacking-context",
+      "linkingText": [
+        "paint a stacking context"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "painting-order",
+        "href": "https://drafts.csswg.org/css-position-4/#painting-order",
+        "title": "Painting Order and Stacking Contexts",
+        "number": "4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "paint-a-blocks-decorations",
+      "href": "https://drafts.csswg.org/css-position-4/#paint-a-blocks-decorations",
+      "linkingText": [
+        "paint a block’s decorations"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "painting-order",
+        "href": "https://drafts.csswg.org/css-position-4/#painting-order",
+        "title": "Painting Order and Stacking Contexts",
+        "number": "4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "paint-a-box-in-a-line-box",
+      "href": "https://drafts.csswg.org/css-position-4/#paint-a-box-in-a-line-box",
+      "linkingText": [
+        "paint a box in a line box"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "painting-order",
+        "href": "https://drafts.csswg.org/css-position-4/#painting-order",
+        "title": "Painting Order and Stacking Contexts",
+        "number": "4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "paint-a-stacking-container",
+      "href": "https://drafts.csswg.org/css-position-4/#paint-a-stacking-container",
+      "linkingText": [
+        "paint a stacking container"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "painting-order",
+        "href": "https://drafts.csswg.org/css-position-4/#painting-order",
+        "title": "Painting Order and Stacking Contexts",
+        "number": "4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "in-band-outline",
+      "href": "https://drafts.csswg.org/css-position-4/#in-band-outline",
+      "linkingText": [
+        "in-band outline"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "painting-order",
+        "href": "https://drafts.csswg.org/css-position-4/#painting-order",
+        "title": "Painting Order and Stacking Contexts",
+        "number": "4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "out-of-band-outline",
+      "href": "https://drafts.csswg.org/css-position-4/#out-of-band-outline",
+      "linkingText": [
+        "out-of-band outline"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "painting-order",
+        "href": "https://drafts.csswg.org/css-position-4/#painting-order",
+        "title": "Painting Order and Stacking Contexts",
+        "number": "4"
+      },
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

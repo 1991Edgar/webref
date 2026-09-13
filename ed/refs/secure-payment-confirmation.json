@@ -10,6 +10,10 @@
         "url": "https://w3c.github.io/webappsec-credential-management/"
       },
       {
+        "name": "DOM",
+        "url": "https://dom.spec.whatwg.org/"
+      },
+      {
         "name": "ECMASCRIPT",
         "url": "https://tc39.es/ecma262/multipage/"
       },
@@ -24,6 +28,10 @@
       {
         "name": "I18N-GLOSSARY",
         "url": "https://w3c.github.io/i18n-glossary/"
+      },
+      {
+        "name": "IANA-COSE-ALGS-REG",
+        "url": "https://www.iana.org/assignments/cose/cose.xhtml#algorithms"
       },
       {
         "name": "IANA-WebAuthn-Registries",
@@ -51,7 +59,7 @@
       },
       {
         "name": "RFC8809",
-        "url": "https://www.rfc-editor.org/rfc/rfc8809"
+        "url": "https://www.rfc-editor.org/info/rfc8809/"
       },
       {
         "name": "URL",
@@ -62,8 +70,8 @@
         "url": "https://w3c.github.io/webauthn/"
       },
       {
-        "name": "WEBDRIVER1",
-        "url": "https://w3c.github.io/webdriver/"
+        "name": "WEBCRYPTO-2",
+        "url": "https://w3c.github.io/webcrypto/"
       },
       {
         "name": "WebDriver2",
@@ -77,15 +85,23 @@
     "informative": [
       {
         "name": "BCP47",
-        "url": "https://www.rfc-editor.org/rfc/rfc5646"
+        "url": "https://www.rfc-editor.org/info/rfc5646/"
+      },
+      {
+        "name": "DBSC",
+        "url": "https://w3c.github.io/webappsec-dbsc/"
+      },
+      {
+        "name": "FS",
+        "url": "https://fs.spec.whatwg.org/"
       },
       {
         "name": "RFC2397",
-        "url": "https://www.rfc-editor.org/rfc/rfc2397"
+        "url": "https://www.rfc-editor.org/info/rfc2397/"
       },
       {
         "name": "RFC4647",
-        "url": "https://www.rfc-editor.org/rfc/rfc4647"
+        "url": "https://www.rfc-editor.org/info/rfc4647/"
       },
       {
         "name": "WEBAUTHN-CONDITIONAL-UI",

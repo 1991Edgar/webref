@@ -1,9 +1,89 @@
 {
   "spec": {
-    "title": "CSS Cascading and Inheritance Level 6",
+    "title": "CSS Cascading and Inheritance Module Level 6",
     "url": "https://drafts.csswg.org/css-cascade-6/"
   },
   "dfns": [
+    {
+      "id": "at-ruledef-import",
+      "href": "https://drafts.csswg.org/css-cascade-6/#at-ruledef-import",
+      "linkingText": [
+        "@import"
+      ],
+      "localLinkingText": [],
+      "type": "at-rule",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "at-import",
+        "href": "https://drafts.csswg.org/css-cascade-6/#at-import",
+        "title": "Importing Style Sheets: the @import rule",
+        "number": "2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "typedef-supports-import-condition",
+      "href": "https://drafts.csswg.org/css-cascade-6/#typedef-supports-import-condition",
+      "linkingText": [
+        "<supports-import-condition>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "at-import",
+        "href": "https://drafts.csswg.org/css-cascade-6/#at-import",
+        "title": "Importing Style Sheets: the @import rule",
+        "number": "2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "typedef-media-import-condition",
+      "href": "https://drafts.csswg.org/css-cascade-6/#typedef-media-import-condition",
+      "linkingText": [
+        "<media-import-condition>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "at-import",
+        "href": "https://drafts.csswg.org/css-cascade-6/#at-import",
+        "title": "Importing Style Sheets: the @import rule",
+        "number": "2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "import-conditions",
+      "href": "https://drafts.csswg.org/css-cascade-6/#import-conditions",
+      "linkingText": [
+        "Import conditions"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "conditional-import",
+        "href": "https://drafts.csswg.org/css-cascade-6/#conditional-import",
+        "title": "Conditional @import Rules",
+        "number": "2.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
     {
       "id": "cascade",
       "href": "https://drafts.csswg.org/css-cascade-6/#cascade",
@@ -19,9 +99,10 @@
         "id": "cascading",
         "href": "https://drafts.csswg.org/css-cascade-6/#cascading",
         "title": "Cascading",
-        "number": "2"
+        "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "encapsulation-contexts",
@@ -40,9 +121,10 @@
         "id": "cascade-sort",
         "href": "https://drafts.csswg.org/css-cascade-6/#cascade-sort",
         "title": "Cascade Sorting Order",
-        "number": "2.1"
+        "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "scope-proximity",
@@ -59,9 +141,10 @@
         "id": "cascade-sort",
         "href": "https://drafts.csswg.org/css-cascade-6/#cascade-sort",
         "title": "Cascade Sorting Order",
-        "number": "2.1"
+        "number": "3.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "output-of-the-cascade",
@@ -78,9 +161,10 @@
         "id": "cascade-sort",
         "href": "https://drafts.csswg.org/css-cascade-6/#cascade-sort",
         "title": "Cascade Sorting Order",
-        "number": "2.1"
+        "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "origin",
@@ -99,9 +183,10 @@
         "id": "cascading-origins",
         "href": "https://drafts.csswg.org/css-cascade-6/#cascading-origins",
         "title": "Cascading Origins",
-        "number": "2.2"
+        "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "important",
@@ -120,9 +205,10 @@
         "id": "importance",
         "href": "https://drafts.csswg.org/css-cascade-6/#importance",
         "title": "Important Declarations: the !important annotation",
-        "number": "2.3"
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "normal",
@@ -139,9 +225,10 @@
         "id": "importance",
         "href": "https://drafts.csswg.org/css-cascade-6/#importance",
         "title": "Important Declarations: the !important annotation",
-        "number": "2.3"
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "scope",
@@ -158,9 +245,10 @@
         "id": "scoped-styles",
         "href": "https://drafts.csswg.org/css-cascade-6/#scoped-styles",
         "title": "Scoping Styles: the @scope rule",
-        "number": "2.5"
+        "number": "3.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "scoping-limit",
@@ -177,9 +265,10 @@
         "id": "scoped-styles",
         "href": "https://drafts.csswg.org/css-cascade-6/#scoped-styles",
         "title": "Scoping Styles: the @scope rule",
-        "number": "2.5"
+        "number": "3.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "in-scope",
@@ -196,9 +285,10 @@
         "id": "scoped-styles",
         "href": "https://drafts.csswg.org/css-cascade-6/#scoped-styles",
         "title": "Scoping Styles: the @scope rule",
-        "number": "2.5"
+        "number": "3.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "at-ruledef-scope",
@@ -215,9 +305,30 @@
         "id": "scoped-styles",
         "href": "https://drafts.csswg.org/css-cascade-6/#scoped-styles",
         "title": "Scoping Styles: the @scope rule",
-        "number": "2.5"
+        "number": "3.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "typedef-scope-boundaries",
+      "href": "https://drafts.csswg.org/css-cascade-6/#typedef-scope-boundaries",
+      "linkingText": [
+        "<scope-boundaries>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scope-syntax",
+        "href": "https://drafts.csswg.org/css-cascade-6/#scope-syntax",
+        "title": "Syntax of @scope",
+        "number": "3.5.2"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-scope-start",
@@ -234,9 +345,10 @@
         "id": "scope-syntax",
         "href": "https://drafts.csswg.org/css-cascade-6/#scope-syntax",
         "title": "Syntax of @scope",
-        "number": "2.5.2"
+        "number": "3.5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "typedef-scope-end",
@@ -253,9 +365,10 @@
         "id": "scope-syntax",
         "href": "https://drafts.csswg.org/css-cascade-6/#scope-syntax",
         "title": "Syntax of @scope",
-        "number": "2.5.2"
+        "number": "3.5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "scoped-style-rules",
@@ -266,15 +379,16 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "scoped-rules",
         "href": "https://drafts.csswg.org/css-cascade-6/#scoped-rules",
         "title": "Scoped Style Rules",
-        "number": "2.5.3"
+        "number": "3.5.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "cssscoperule",
@@ -291,9 +405,10 @@
         "id": "the-cssscoperule-interface",
         "href": "https://drafts.csswg.org/css-cascade-6/#the-cssscoperule-interface",
         "title": "The CSSScopeRule interface",
-        "number": "3.1"
+        "number": "4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssscoperule-start",
@@ -312,9 +427,10 @@
         "id": "the-cssscoperule-interface",
         "href": "https://drafts.csswg.org/css-cascade-6/#the-cssscoperule-interface",
         "title": "The CSSScopeRule interface",
-        "number": "3.1"
+        "number": "4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssscoperule-end",
@@ -333,9 +449,10 @@
         "id": "the-cssscoperule-interface",
         "href": "https://drafts.csswg.org/css-cascade-6/#the-cssscoperule-interface",
         "title": "The CSSScopeRule interface",
-        "number": "3.1"
+        "number": "4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     }
   ]
 }

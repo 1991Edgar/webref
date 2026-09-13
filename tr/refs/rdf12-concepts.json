@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "RDF 1.2 Concepts and Abstract Syntax",
+    "title": "RDF 1.2 Concepts and Abstract Data Model",
     "url": "https://www.w3.org/TR/rdf12-concepts/"
   },
   "refs": {
@@ -28,22 +28,6 @@
       {
         "name": "RDF11-TESTCASES",
         "url": "https://www.w3.org/TR/rdf11-testcases/"
-      },
-      {
-        "name": "RDF12-N-QUADS",
-        "url": "https://www.w3.org/TR/rdf12-n-quads/"
-      },
-      {
-        "name": "RDF12-N-TRIPLES",
-        "url": "https://www.w3.org/TR/rdf12-n-triples/"
-      },
-      {
-        "name": "RDF12-TRIG",
-        "url": "https://www.w3.org/TR/rdf12-trig/"
-      },
-      {
-        "name": "RDF12-TURTLE",
-        "url": "https://www.w3.org/TR/rdf12-turtle/"
       },
       {
         "name": "RFC2119",
@@ -104,6 +88,10 @@
         "url": "https://www.w3.org/TR/cooluris/"
       },
       {
+        "name": "did-core",
+        "url": "https://www.w3.org/TR/did-core/"
+      },
+      {
         "name": "HTML",
         "url": "https://html.spec.whatwg.org/multipage/"
       },
@@ -128,6 +116,10 @@
         "url": "https://www.w3.org/TR/owl2-syntax/"
       },
       {
+        "name": "RDF-CANON",
+        "url": "https://www.w3.org/TR/rdf-canon/"
+      },
+      {
         "name": "RDF-CONCEPTS-20040210",
         "url": "https://www.w3.org/TR/2004/REC-rdf-concepts-20040210/"
       },
@@ -140,8 +132,20 @@
         "url": "https://www.w3.org/TR/rdf11-datasets/"
       },
       {
-        "name": "RDF11-NEW",
-        "url": "https://www.w3.org/TR/rdf11-new/"
+        "name": "RDF11-MT",
+        "url": "https://www.w3.org/TR/rdf11-mt/"
+      },
+      {
+        "name": "RDF12-INTEROP",
+        "url": "https://w3c.github.io/rdf-interop/spec/"
+      },
+      {
+        "name": "RDF12-N-QUADS",
+        "url": "https://www.w3.org/TR/rdf12-n-quads/"
+      },
+      {
+        "name": "RDF12-N-TRIPLES",
+        "url": "https://www.w3.org/TR/rdf12-n-triples/"
       },
       {
         "name": "RDF12-NEW",
@@ -149,7 +153,7 @@
       },
       {
         "name": "RDF12-PRIMER",
-        "url": "https://w3c.github.io/rdf-primer/spec/"
+        "url": "https://www.w3.org/TR/rdf12-primer/"
       },
       {
         "name": "RDF12-SCHEMA",
@@ -158,6 +162,14 @@
       {
         "name": "RDF12-SEMANTICS",
         "url": "https://www.w3.org/TR/rdf12-semantics/"
+      },
+      {
+        "name": "RDF12-TRIG",
+        "url": "https://www.w3.org/TR/rdf12-trig/"
+      },
+      {
+        "name": "RDF12-TURTLE",
+        "url": "https://www.w3.org/TR/rdf12-turtle/"
       },
       {
         "name": "RDF12-XML",
@@ -172,12 +184,20 @@
         "url": "https://www.rfc-editor.org/rfc/rfc3023"
       },
       {
-        "name": "RFC3492",
-        "url": "https://www.rfc-editor.org/rfc/rfc3492"
+        "name": "RFC5890",
+        "url": "https://www.rfc-editor.org/rfc/rfc5890"
+      },
+      {
+        "name": "RFC5892",
+        "url": "https://www.rfc-editor.org/rfc/rfc5892"
       },
       {
         "name": "RFC6874",
         "url": "https://www.rfc-editor.org/rfc/rfc6874"
+      },
+      {
+        "name": "rfc7230",
+        "url": "https://httpwg.org/specs/rfc7230.html"
       },
       {
         "name": "SPARQL11-QUERY",

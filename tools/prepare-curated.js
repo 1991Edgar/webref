@@ -4,7 +4,7 @@
  * Curation means copying raw data to the given folder, applying patches (CSS,
  * elements, events, IDL) when needed and running post-processing modules that
  * need to run on curated data to generate the `idlparsed`, `idlnames` and
- * `idlnamesparsed` folders, and the merged `events.json` file
+ * `idlnamesparsed` folders, and the merged `events.json` and `css.json` files.
  *
  * The output folder gets created if it does not exist yet. Output folder
  * contents get deleted to start with if folder is not empty.
@@ -23,9 +23,12 @@ import { rimraf } from 'rimraf';
 import {
   createFolderIfNeeded,
   loadJSON,
-  copyFolder } from './utils.js';
+  copyFolder,
+  getTargetedExtracts } from './utils.js';
 import { applyPatches } from './apply-patches.js';
 import { dropCSSPropertyDuplicates } from './drop-css-property-duplicates.js';
+import { amendCssSyntaxes } from './amend-css-syntaxes.js';
+import { addCssLonghands } from './add-css-longhands.js';
 import { curateEvents } from './amend-event-data.js';
 import { crawlSpecs } from 'reffy';
 
@@ -34,11 +37,10 @@ import { crawlSpecs } from 'reffy';
  * Remove the spec from curation process
 */
 async function removeFromCuration(spec, curatedFolder) {
-  for (const property of ['css', 'elements', 'events', 'idl']) {
-    if (spec[property] &&
-        (typeof spec[property] === 'string') &&
-        spec[property].match(/^[^\/]+\/[^\/]+\.(json|idl)$/)) {
-      const filename = path.join(curatedFolder, spec[property]);
+  for (const property of ['cddl', 'css', 'elements', 'events', 'idl']) {
+    const extractFiles = getTargetedExtracts(spec[property]);
+    for (const extractFile of extractFiles) {
+      const filename = path.join(curatedFolder, extractFile);
       console.log(`Removing ${spec.standing} ${spec.title} from curation: del ${filename}`);
       await fs.unlink(filename);
     }
@@ -56,15 +58,14 @@ async function removeFromCuration(spec, curatedFolder) {
 async function cleanCrawlOutcome(spec) {
   for (const property of Object.keys(spec)) {
     // Only consider properties that link to an extract
-    if (spec[property] &&
-        (typeof spec[property] === 'string') &&
-        spec[property].match(/^[^\/]+\/[^\/]+\.(json|idl)$/)) {
-      try {
-        await fs.lstat(path.join(curatedFolder, spec[property]));
+    const extractFiles = getTargetedExtracts(spec[property]);
+    try {
+      for (const extractFile of extractFiles) {
+        await fs.lstat(path.join(curatedFolder, extractFile));
       }
-      catch (err) {
-        delete spec[property];
-      }
+    }
+    catch (err) {
+      delete spec[property];
     }
   }
 }
@@ -122,11 +123,21 @@ async function prepareCurated(rawFolder, curatedFolder) {
   console.log('- done');
 
   console.log();
+  console.log('Amend CSS syntaxes as needed');
+  await amendCssSyntaxes(curatedFolder);
+  console.log('- done');
+
+  console.log();
+  console.log('Add longhands to CSS shorthand properties');
+  await addCssLonghands(curatedFolder);
+  console.log('- done');
+
+  console.log();
   console.log('Run post-processing modules on curated data');
   await crawlSpecs({
     useCrawl: curatedFolder,
     output: curatedFolder,
-    post: ['idlparsed', 'idlnames', 'events'],
+    post: ['idlparsed', 'idlnames', 'events', 'cssmerge', 'backrefs'],
     quiet: true
   });
   console.log('- done');

@@ -6,6 +6,10 @@
   "refs": {
     "normative": [
       {
+        "name": "CSS-ANCHOR-POSITION-1",
+        "url": "https://drafts.csswg.org/css-anchor-position-1/"
+      },
+      {
         "name": "CSS-BOX-4",
         "url": "https://drafts.csswg.org/css-box-4/"
       },
@@ -19,15 +23,23 @@
       },
       {
         "name": "CSS-FLEXBOX-1",
-        "url": "https://drafts.csswg.org/css-flexbox-1/"
+        "url": "https://drafts.csswg.org/css-flexbox/"
+      },
+      {
+        "name": "CSS-FLEXBOX-2",
+        "url": "https://drafts.csswg.org/css-flexbox-2/"
       },
       {
         "name": "CSS-FONTS-4",
         "url": "https://drafts.csswg.org/css-fonts-4/"
       },
       {
+        "name": "CSS-GAPS-1",
+        "url": "https://drafts.csswg.org/css-gaps-1/"
+      },
+      {
         "name": "CSS-GRID-1",
-        "url": "https://drafts.csswg.org/css-grid/"
+        "url": "https://drafts.csswg.org/css-grid-1/"
       },
       {
         "name": "CSS-GRID-2",
@@ -58,8 +70,8 @@
         "url": "https://drafts.csswg.org/css-position-3/"
       },
       {
-        "name": "CSS-SCROLL-SNAP-2",
-        "url": "https://drafts.csswg.org/css-scroll-snap-2/"
+        "name": "CSS-POSITION-4",
+        "url": "https://drafts.csswg.org/css-position-4/"
       },
       {
         "name": "CSS-SIZING-3",
@@ -68,10 +80,6 @@
       {
         "name": "CSS-SIZING-4",
         "url": "https://drafts.csswg.org/css-sizing-4/"
-      },
-      {
-        "name": "CSS-TABLES-3",
-        "url": "https://drafts.csswg.org/css-tables-3/"
       },
       {
         "name": "CSS-TEXT-3",
@@ -96,6 +104,10 @@
       {
         "name": "CSS2",
         "url": "https://drafts.csswg.org/css2/"
+      },
+      {
+        "name": "ECMA-426",
+        "url": "https://tc39.es/ecma426/"
       },
       {
         "name": "RFC2119",

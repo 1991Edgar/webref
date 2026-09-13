@@ -19,9 +19,13 @@
         "id": "terminology",
         "href": "https://www.w3.org/TR/webrtc-stats/#terminology",
         "title": "Terminology",
+        "alternateIds": [
+          "x3-terminology"
+        ],
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-audio-sample",
@@ -38,9 +42,13 @@
         "id": "terminology",
         "href": "https://www.w3.org/TR/webrtc-stats/#terminology",
         "title": "Terminology",
+        "alternateIds": [
+          "x3-terminology"
+        ],
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-monitored-object",
@@ -57,9 +65,13 @@
         "id": "basic-concepts",
         "href": "https://www.w3.org/TR/webrtc-stats/#basic-concepts",
         "title": "Basic concepts",
+        "alternateIds": [
+          "x4-basic-concepts"
+        ],
         "number": "4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-stats-object",
@@ -76,9 +88,13 @@
         "id": "basic-concepts",
         "href": "https://www.w3.org/TR/webrtc-stats/#basic-concepts",
         "title": "Basic concepts",
+        "alternateIds": [
+          "x4-basic-concepts"
+        ],
         "number": "4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-stats-object-reference",
@@ -95,9 +111,13 @@
         "id": "basic-concepts",
         "href": "https://www.w3.org/TR/webrtc-stats/#basic-concepts",
         "title": "Basic concepts",
+        "alternateIds": [
+          "x4-basic-concepts"
+        ],
         "number": "4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-stats-value",
@@ -114,9 +134,13 @@
         "id": "basic-concepts",
         "href": "https://www.w3.org/TR/webrtc-stats/#basic-concepts",
         "title": "Basic concepts",
+        "alternateIds": [
+          "x4-basic-concepts"
+        ],
         "number": "4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcstats",
@@ -133,9 +157,13 @@
         "id": "basic-concepts",
         "href": "https://www.w3.org/TR/webrtc-stats/#basic-concepts",
         "title": "Basic concepts",
+        "alternateIds": [
+          "x4-basic-concepts"
+        ],
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-rtcstats-timestamp",
@@ -154,9 +182,13 @@
         "id": "basic-concepts",
         "href": "https://www.w3.org/TR/webrtc-stats/#basic-concepts",
         "title": "Basic concepts",
+        "alternateIds": [
+          "x4-basic-concepts"
+        ],
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-rtcstats-type",
@@ -175,9 +207,13 @@
         "id": "basic-concepts",
         "href": "https://www.w3.org/TR/webrtc-stats/#basic-concepts",
         "title": "Basic concepts",
+        "alternateIds": [
+          "x4-basic-concepts"
+        ],
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-rtcstats-id",
@@ -196,9 +232,13 @@
         "id": "basic-concepts",
         "href": "https://www.w3.org/TR/webrtc-stats/#basic-concepts",
         "title": "Basic concepts",
+        "alternateIds": [
+          "x4-basic-concepts"
+        ],
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dfn-deleted",
@@ -215,9 +255,13 @@
         "id": "lifetime-considerations-for-monitored-objects",
         "href": "https://www.w3.org/TR/webrtc-stats/#lifetime-considerations-for-monitored-objects",
         "title": "Lifetime considerations for monitored objects",
+        "alternateIds": [
+          "x4-3-lifetime-considerations-for-monitored-objects"
+        ],
         "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-exposing-hardware-is-allowed",
@@ -235,9 +279,13 @@
         "id": "limiting-exposure-of-hardware-capabilities",
         "href": "https://www.w3.org/TR/webrtc-stats/#limiting-exposure-of-hardware-capabilities",
         "title": "Limiting exposure of hardware capabilities",
+        "alternateIds": [
+          "x6-1-limiting-exposure-of-hardware-capabilities"
+        ],
         "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-rtcstatstype",
@@ -254,9 +302,13 @@
         "id": "rtcstatstype-str*",
         "href": "https://www.w3.org/TR/webrtc-stats/#rtcstatstype-str*",
         "title": "RTCStatsType enum",
+        "alternateIds": [
+          "x7-1-rtcstatstype-enum"
+        ],
         "number": "7.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-rtcstatstype-codec",
@@ -275,9 +327,13 @@
         "id": "rtcstatstype-str*",
         "href": "https://www.w3.org/TR/webrtc-stats/#rtcstatstype-str*",
         "title": "RTCStatsType enum",
+        "alternateIds": [
+          "x7-1-rtcstatstype-enum"
+        ],
         "number": "7.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcstatstype-inbound-rtp",
@@ -296,9 +352,13 @@
         "id": "rtcstatstype-str*",
         "href": "https://www.w3.org/TR/webrtc-stats/#rtcstatstype-str*",
         "title": "RTCStatsType enum",
+        "alternateIds": [
+          "x7-1-rtcstatstype-enum"
+        ],
         "number": "7.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcstatstype-outbound-rtp",
@@ -317,9 +377,13 @@
         "id": "rtcstatstype-str*",
         "href": "https://www.w3.org/TR/webrtc-stats/#rtcstatstype-str*",
         "title": "RTCStatsType enum",
+        "alternateIds": [
+          "x7-1-rtcstatstype-enum"
+        ],
         "number": "7.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcstatstype-remote-inbound-rtp",
@@ -338,9 +402,13 @@
         "id": "rtcstatstype-str*",
         "href": "https://www.w3.org/TR/webrtc-stats/#rtcstatstype-str*",
         "title": "RTCStatsType enum",
+        "alternateIds": [
+          "x7-1-rtcstatstype-enum"
+        ],
         "number": "7.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcstatstype-remote-outbound-rtp",
@@ -359,9 +427,13 @@
         "id": "rtcstatstype-str*",
         "href": "https://www.w3.org/TR/webrtc-stats/#rtcstatstype-str*",
         "title": "RTCStatsType enum",
+        "alternateIds": [
+          "x7-1-rtcstatstype-enum"
+        ],
         "number": "7.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcstatstype-media-source",
@@ -380,9 +452,13 @@
         "id": "rtcstatstype-str*",
         "href": "https://www.w3.org/TR/webrtc-stats/#rtcstatstype-str*",
         "title": "RTCStatsType enum",
+        "alternateIds": [
+          "x7-1-rtcstatstype-enum"
+        ],
         "number": "7.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcstatstype-media-playout",
@@ -401,9 +477,13 @@
         "id": "rtcstatstype-str*",
         "href": "https://www.w3.org/TR/webrtc-stats/#rtcstatstype-str*",
         "title": "RTCStatsType enum",
+        "alternateIds": [
+          "x7-1-rtcstatstype-enum"
+        ],
         "number": "7.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcstatstype-peer-connection",
@@ -422,9 +502,13 @@
         "id": "rtcstatstype-str*",
         "href": "https://www.w3.org/TR/webrtc-stats/#rtcstatstype-str*",
         "title": "RTCStatsType enum",
+        "alternateIds": [
+          "x7-1-rtcstatstype-enum"
+        ],
         "number": "7.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcstatstype-data-channel",
@@ -443,9 +527,13 @@
         "id": "rtcstatstype-str*",
         "href": "https://www.w3.org/TR/webrtc-stats/#rtcstatstype-str*",
         "title": "RTCStatsType enum",
+        "alternateIds": [
+          "x7-1-rtcstatstype-enum"
+        ],
         "number": "7.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcstatstype-transport",
@@ -464,9 +552,13 @@
         "id": "rtcstatstype-str*",
         "href": "https://www.w3.org/TR/webrtc-stats/#rtcstatstype-str*",
         "title": "RTCStatsType enum",
+        "alternateIds": [
+          "x7-1-rtcstatstype-enum"
+        ],
         "number": "7.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcstatstype-candidate-pair",
@@ -485,9 +577,13 @@
         "id": "rtcstatstype-str*",
         "href": "https://www.w3.org/TR/webrtc-stats/#rtcstatstype-str*",
         "title": "RTCStatsType enum",
+        "alternateIds": [
+          "x7-1-rtcstatstype-enum"
+        ],
         "number": "7.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcstatstype-local-candidate",
@@ -506,9 +602,13 @@
         "id": "rtcstatstype-str*",
         "href": "https://www.w3.org/TR/webrtc-stats/#rtcstatstype-str*",
         "title": "RTCStatsType enum",
+        "alternateIds": [
+          "x7-1-rtcstatstype-enum"
+        ],
         "number": "7.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcstatstype-remote-candidate",
@@ -527,9 +627,13 @@
         "id": "rtcstatstype-str*",
         "href": "https://www.w3.org/TR/webrtc-stats/#rtcstatstype-str*",
         "title": "RTCStatsType enum",
+        "alternateIds": [
+          "x7-1-rtcstatstype-enum"
+        ],
         "number": "7.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcstatstype-certificate",
@@ -548,9 +652,13 @@
         "id": "rtcstatstype-str*",
         "href": "https://www.w3.org/TR/webrtc-stats/#rtcstatstype-str*",
         "title": "RTCStatsType enum",
+        "alternateIds": [
+          "x7-1-rtcstatstype-enum"
+        ],
         "number": "7.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcrtpstreamstats",
@@ -567,9 +675,13 @@
         "id": "streamstats-dict*",
         "href": "https://www.w3.org/TR/webrtc-stats/#streamstats-dict*",
         "title": "RTCRtpStreamStats dictionary",
+        "alternateIds": [
+          "x8-2-rtcrtpstreamstats-dictionary"
+        ],
         "number": "8.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-rtcrtpstreamstats-ssrc",
@@ -589,7 +701,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcrtpstreamstats-members",
         "title": "Dictionary RTCRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcrtpstreamstats-kind",
@@ -609,7 +722,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcrtpstreamstats-members",
         "title": "Dictionary RTCRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcrtpstreamstats-transportid",
@@ -629,7 +743,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcrtpstreamstats-members",
         "title": "Dictionary RTCRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcrtpstreamstats-codecid",
@@ -649,7 +764,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcrtpstreamstats-members",
         "title": "Dictionary RTCRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtccodecstats",
@@ -666,9 +782,13 @@
         "id": "codec-dict*",
         "href": "https://www.w3.org/TR/webrtc-stats/#codec-dict*",
         "title": "RTCCodecStats dictionary",
+        "alternateIds": [
+          "x8-3-rtccodecstats-dictionary"
+        ],
         "number": "8.3"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-rtccodecstats-payloadtype",
@@ -688,7 +808,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtccodecstats-members",
         "title": "Dictionary RTCCodecStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtccodecstats-transportid",
@@ -708,7 +829,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtccodecstats-members",
         "title": "Dictionary RTCCodecStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtccodecstats-mimetype",
@@ -728,7 +850,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtccodecstats-members",
         "title": "Dictionary RTCCodecStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtccodecstats-clockrate",
@@ -748,7 +871,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtccodecstats-members",
         "title": "Dictionary RTCCodecStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtccodecstats-channels",
@@ -768,7 +892,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtccodecstats-members",
         "title": "Dictionary RTCCodecStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtccodecstats-sdpfmtpline",
@@ -788,7 +913,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtccodecstats-members",
         "title": "Dictionary RTCCodecStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcreceivedrtpstreamstats",
@@ -805,9 +931,13 @@
         "id": "receivedrtpstats-dict*",
         "href": "https://www.w3.org/TR/webrtc-stats/#receivedrtpstats-dict*",
         "title": "RTCReceivedRtpStreamStats dictionary",
+        "alternateIds": [
+          "x8-4-rtcreceivedrtpstreamstats-dictionary"
+        ],
         "number": "8.4"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-rtcreceivedrtpstreamstats-packetsreceived",
@@ -827,7 +957,92 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcreceivedrtpstreamstats-members",
         "title": "Dictionary RTCReceivedRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-rtcreceivedrtpstreamstats-packetsreceivedwithect1",
+      "href": "https://www.w3.org/TR/webrtc-stats/#dom-rtcreceivedrtpstreamstats-packetsreceivedwithect1",
+      "linkingText": [
+        "packetsReceivedWithEct1"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RTCReceivedRtpStreamStats"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dictionary-rtcreceivedrtpstreamstats-members",
+        "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcreceivedrtpstreamstats-members",
+        "title": "Dictionary RTCReceivedRtpStreamStats Members"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-rtcreceivedrtpstreamstats-packetsreceivedwithce",
+      "href": "https://www.w3.org/TR/webrtc-stats/#dom-rtcreceivedrtpstreamstats-packetsreceivedwithce",
+      "linkingText": [
+        "packetsReceivedWithCe"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RTCReceivedRtpStreamStats"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dictionary-rtcreceivedrtpstreamstats-members",
+        "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcreceivedrtpstreamstats-members",
+        "title": "Dictionary RTCReceivedRtpStreamStats Members"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-rtcreceivedrtpstreamstats-packetsreportedaslost",
+      "href": "https://www.w3.org/TR/webrtc-stats/#dom-rtcreceivedrtpstreamstats-packetsreportedaslost",
+      "linkingText": [
+        "packetsReportedAsLost"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RTCReceivedRtpStreamStats"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dictionary-rtcreceivedrtpstreamstats-members",
+        "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcreceivedrtpstreamstats-members",
+        "title": "Dictionary RTCReceivedRtpStreamStats Members"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-rtcreceivedrtpstreamstats-packetsreportedaslostbutrecovered",
+      "href": "https://www.w3.org/TR/webrtc-stats/#dom-rtcreceivedrtpstreamstats-packetsreportedaslostbutrecovered",
+      "linkingText": [
+        "packetsReportedAsLostButRecovered"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RTCReceivedRtpStreamStats"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dictionary-rtcreceivedrtpstreamstats-members",
+        "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcreceivedrtpstreamstats-members",
+        "title": "Dictionary RTCReceivedRtpStreamStats Members"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcreceivedrtpstreamstats-packetslost",
@@ -847,7 +1062,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcreceivedrtpstreamstats-members",
         "title": "Dictionary RTCReceivedRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcreceivedrtpstreamstats-jitter",
@@ -867,7 +1083,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcreceivedrtpstreamstats-members",
         "title": "Dictionary RTCReceivedRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats",
@@ -884,9 +1101,13 @@
         "id": "inboundrtpstats-dict*",
         "href": "https://www.w3.org/TR/webrtc-stats/#inboundrtpstats-dict*",
         "title": "RTCInboundRtpStreamStats dictionary",
+        "alternateIds": [
+          "x8-5-rtcinboundrtpstreamstats-dictionary"
+        ],
         "number": "8.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-trackidentifier",
@@ -906,7 +1127,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-mid",
@@ -926,7 +1148,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-remoteid",
@@ -946,7 +1169,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-framesdecoded",
@@ -966,7 +1190,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-keyframesdecoded",
@@ -986,7 +1211,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-framesrendered",
@@ -1006,7 +1232,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-framesdropped",
@@ -1026,7 +1253,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-framewidth",
@@ -1046,7 +1274,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-frameheight",
@@ -1066,7 +1295,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-framespersecond",
@@ -1086,7 +1316,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-qpsum",
@@ -1106,7 +1337,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-totaldecodetime",
@@ -1126,7 +1358,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-totalinterframedelay",
@@ -1146,7 +1379,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-totalsquaredinterframedelay",
@@ -1166,7 +1400,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-pausecount",
@@ -1186,7 +1421,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-totalpausesduration",
@@ -1206,7 +1442,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-freezecount",
@@ -1226,7 +1463,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-totalfreezesduration",
@@ -1246,7 +1484,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-lastpacketreceivedtimestamp",
@@ -1266,7 +1505,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-headerbytesreceived",
@@ -1286,7 +1526,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-packetsdiscarded",
@@ -1306,7 +1547,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-fecbytesreceived",
@@ -1326,7 +1568,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-fecpacketsreceived",
@@ -1346,7 +1589,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-fecpacketsdiscarded",
@@ -1366,7 +1610,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-bytesreceived",
@@ -1386,7 +1631,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-fircount",
@@ -1406,7 +1652,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-plicount",
@@ -1426,7 +1673,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-totalprocessingdelay",
@@ -1446,7 +1694,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-nackcount",
@@ -1466,7 +1715,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-estimatedplayouttimestamp",
@@ -1486,7 +1736,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-jitterbufferdelay",
@@ -1506,7 +1757,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-jitterbuffertargetdelay",
@@ -1526,7 +1778,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-jitterbufferemittedcount",
@@ -1546,7 +1799,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-jitterbufferminimumdelay",
@@ -1566,7 +1820,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-totalsamplesreceived",
@@ -1586,7 +1841,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-concealedsamples",
@@ -1606,7 +1862,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-silentconcealedsamples",
@@ -1626,7 +1883,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-concealmentevents",
@@ -1646,7 +1904,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-insertedsamplesfordeceleration",
@@ -1666,7 +1925,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-removedsamplesforacceleration",
@@ -1686,7 +1946,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-audiolevel",
@@ -1706,7 +1967,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-totalaudioenergy",
@@ -1726,7 +1988,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-totalsamplesduration",
@@ -1746,7 +2009,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-framesreceived",
@@ -1766,7 +2030,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-decoderimplementation",
@@ -1786,7 +2051,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-playoutid",
@@ -1806,7 +2072,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-powerefficientdecoder",
@@ -1826,7 +2093,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-framesassembledfrommultiplepackets",
@@ -1846,7 +2114,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-totalassemblytime",
@@ -1866,7 +2135,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-retransmittedpacketsreceived",
@@ -1886,7 +2156,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-retransmittedbytesreceived",
@@ -1906,7 +2177,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-rtxssrc",
@@ -1926,7 +2198,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-fecssrc",
@@ -1946,7 +2219,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-totalcorruptionprobability",
@@ -1966,7 +2240,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-totalsquaredcorruptionprobability",
@@ -1986,7 +2261,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcinboundrtpstreamstats-corruptionmeasurements",
@@ -2006,7 +2282,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcinboundrtpstreamstats-members",
         "title": "Dictionary RTCInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcremoteinboundrtpstreamstats",
@@ -2023,9 +2300,13 @@
         "id": "remoteinboundrtpstats-dict*",
         "href": "https://www.w3.org/TR/webrtc-stats/#remoteinboundrtpstats-dict*",
         "title": "RTCRemoteInboundRtpStreamStats dictionary",
+        "alternateIds": [
+          "x8-6-rtcremoteinboundrtpstreamstats-dictionary"
+        ],
         "number": "8.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-rtcremoteinboundrtpstreamstats-localid",
@@ -2045,7 +2326,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcremoteinboundrtpstreamstats-members",
         "title": "Dictionary RTCRemoteInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcremoteinboundrtpstreamstats-roundtriptime",
@@ -2065,7 +2347,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcremoteinboundrtpstreamstats-members",
         "title": "Dictionary RTCRemoteInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcremoteinboundrtpstreamstats-totalroundtriptime",
@@ -2085,7 +2368,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcremoteinboundrtpstreamstats-members",
         "title": "Dictionary RTCRemoteInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcremoteinboundrtpstreamstats-fractionlost",
@@ -2105,7 +2389,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcremoteinboundrtpstreamstats-members",
         "title": "Dictionary RTCRemoteInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcremoteinboundrtpstreamstats-roundtriptimemeasurements",
@@ -2125,7 +2410,29 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcremoteinboundrtpstreamstats-members",
         "title": "Dictionary RTCRemoteInboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-rtcremoteinboundrtpstreamstats-packetswithbleachedect1marking",
+      "href": "https://www.w3.org/TR/webrtc-stats/#dom-rtcremoteinboundrtpstreamstats-packetswithbleachedect1marking",
+      "linkingText": [
+        "packetsWithBleachedEct1Marking"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RTCRemoteInboundRtpStreamStats"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dictionary-rtcremoteinboundrtpstreamstats-members",
+        "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcremoteinboundrtpstreamstats-members",
+        "title": "Dictionary RTCRemoteInboundRtpStreamStats Members"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcsentrtpstreamstats",
@@ -2142,9 +2449,13 @@
         "id": "sentrtpstats-dict*",
         "href": "https://www.w3.org/TR/webrtc-stats/#sentrtpstats-dict*",
         "title": "RTCSentRtpStreamStats dictionary",
+        "alternateIds": [
+          "x8-7-rtcsentrtpstreamstats-dictionary"
+        ],
         "number": "8.7"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-rtcsentrtpstreamstats-packetssent",
@@ -2164,7 +2475,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcsentrtpstreamstats-members",
         "title": "Dictionary RTCSentRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcsentrtpstreamstats-bytessent",
@@ -2184,7 +2496,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcsentrtpstreamstats-members",
         "title": "Dictionary RTCSentRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcoutboundrtpstreamstats",
@@ -2201,9 +2514,13 @@
         "id": "outboundrtpstats-dict*",
         "href": "https://www.w3.org/TR/webrtc-stats/#outboundrtpstats-dict*",
         "title": "RTCOutboundRtpStreamStats dictionary",
+        "alternateIds": [
+          "x8-8-rtcoutboundrtpstreamstats-dictionary"
+        ],
         "number": "8.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-rtcoutboundrtpstreamstats-mid",
@@ -2223,7 +2540,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
         "title": "Dictionary RTCOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcoutboundrtpstreamstats-mediasourceid",
@@ -2243,7 +2561,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
         "title": "Dictionary RTCOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcoutboundrtpstreamstats-remoteid",
@@ -2263,7 +2582,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
         "title": "Dictionary RTCOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcoutboundrtpstreamstats-rid",
@@ -2283,7 +2603,29 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
         "title": "Dictionary RTCOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-rtcoutboundrtpstreamstats-encodingindex",
+      "href": "https://www.w3.org/TR/webrtc-stats/#dom-rtcoutboundrtpstreamstats-encodingindex",
+      "linkingText": [
+        "encodingIndex"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RTCOutboundRtpStreamStats"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dictionary-rtcoutboundrtpstreamstats-members",
+        "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
+        "title": "Dictionary RTCOutboundRtpStreamStats Members"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcoutboundrtpstreamstats-headerbytessent",
@@ -2303,7 +2645,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
         "title": "Dictionary RTCOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcoutboundrtpstreamstats-retransmittedpacketssent",
@@ -2323,7 +2666,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
         "title": "Dictionary RTCOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcoutboundrtpstreamstats-retransmittedbytessent",
@@ -2343,7 +2687,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
         "title": "Dictionary RTCOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcoutboundrtpstreamstats-rtxssrc",
@@ -2363,7 +2708,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
         "title": "Dictionary RTCOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcoutboundrtpstreamstats-targetbitrate",
@@ -2383,7 +2729,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
         "title": "Dictionary RTCOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcoutboundrtpstreamstats-totalencodedbytestarget",
@@ -2403,7 +2750,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
         "title": "Dictionary RTCOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcoutboundrtpstreamstats-framewidth",
@@ -2423,7 +2771,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
         "title": "Dictionary RTCOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcoutboundrtpstreamstats-frameheight",
@@ -2443,7 +2792,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
         "title": "Dictionary RTCOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcoutboundrtpstreamstats-framespersecond",
@@ -2463,7 +2813,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
         "title": "Dictionary RTCOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcoutboundrtpstreamstats-framessent",
@@ -2483,7 +2834,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
         "title": "Dictionary RTCOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcoutboundrtpstreamstats-hugeframessent",
@@ -2503,7 +2855,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
         "title": "Dictionary RTCOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcoutboundrtpstreamstats-framesencoded",
@@ -2523,7 +2876,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
         "title": "Dictionary RTCOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcoutboundrtpstreamstats-keyframesencoded",
@@ -2543,7 +2897,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
         "title": "Dictionary RTCOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcoutboundrtpstreamstats-qpsum",
@@ -2563,7 +2918,50 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
         "title": "Dictionary RTCOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-rtcoutboundrtpstreamstats-psnrsum",
+      "href": "https://www.w3.org/TR/webrtc-stats/#dom-rtcoutboundrtpstreamstats-psnrsum",
+      "linkingText": [
+        "psnrSum"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RTCOutboundRtpStreamStats"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dictionary-rtcoutboundrtpstreamstats-members",
+        "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
+        "title": "Dictionary RTCOutboundRtpStreamStats Members"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-rtcoutboundrtpstreamstats-psnrmeasurements",
+      "href": "https://www.w3.org/TR/webrtc-stats/#dom-rtcoutboundrtpstreamstats-psnrmeasurements",
+      "linkingText": [
+        "psnrMeasurements"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RTCOutboundRtpStreamStats"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dictionary-rtcoutboundrtpstreamstats-members",
+        "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
+        "title": "Dictionary RTCOutboundRtpStreamStats Members"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcoutboundrtpstreamstats-totalencodetime",
@@ -2583,7 +2981,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
         "title": "Dictionary RTCOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcoutboundrtpstreamstats-totalpacketsenddelay",
@@ -2603,7 +3002,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
         "title": "Dictionary RTCOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcoutboundrtpstreamstats-qualitylimitationreason",
@@ -2623,7 +3023,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
         "title": "Dictionary RTCOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcoutboundrtpstreamstats-qualitylimitationdurations",
@@ -2643,7 +3044,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
         "title": "Dictionary RTCOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcoutboundrtpstreamstats-qualitylimitationresolutionchanges",
@@ -2663,7 +3065,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
         "title": "Dictionary RTCOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcoutboundrtpstreamstats-nackcount",
@@ -2683,7 +3086,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
         "title": "Dictionary RTCOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcoutboundrtpstreamstats-fircount",
@@ -2703,7 +3107,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
         "title": "Dictionary RTCOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcoutboundrtpstreamstats-plicount",
@@ -2723,7 +3128,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
         "title": "Dictionary RTCOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcoutboundrtpstreamstats-encoderimplementation",
@@ -2743,7 +3149,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
         "title": "Dictionary RTCOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcoutboundrtpstreamstats-powerefficientencoder",
@@ -2763,7 +3170,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
         "title": "Dictionary RTCOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcoutboundrtpstreamstats-active",
@@ -2783,7 +3191,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
         "title": "Dictionary RTCOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcoutboundrtpstreamstats-scalabilitymode",
@@ -2803,7 +3212,29 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
         "title": "Dictionary RTCOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-rtcoutboundrtpstreamstats-packetssentwithect1",
+      "href": "https://www.w3.org/TR/webrtc-stats/#dom-rtcoutboundrtpstreamstats-packetssentwithect1",
+      "linkingText": [
+        "packetsSentWithEct1"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RTCOutboundRtpStreamStats"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dictionary-rtcoutboundrtpstreamstats-members",
+        "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcoutboundrtpstreamstats-members",
+        "title": "Dictionary RTCOutboundRtpStreamStats Members"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcqualitylimitationreason",
@@ -2820,9 +3251,13 @@
         "id": "rtcqualitylimitationreason-enum",
         "href": "https://www.w3.org/TR/webrtc-stats/#rtcqualitylimitationreason-enum",
         "title": "RTCQualityLimitationReason enum",
+        "alternateIds": [
+          "x8-9-rtcqualitylimitationreason-enum"
+        ],
         "number": "8.9"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-rtcqualitylimitationreason-none",
@@ -2841,9 +3276,13 @@
         "id": "rtcqualitylimitationreason-enum",
         "href": "https://www.w3.org/TR/webrtc-stats/#rtcqualitylimitationreason-enum",
         "title": "RTCQualityLimitationReason enum",
+        "alternateIds": [
+          "x8-9-rtcqualitylimitationreason-enum"
+        ],
         "number": "8.9"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-rtcqualitylimitationreason-cpu",
@@ -2862,9 +3301,13 @@
         "id": "rtcqualitylimitationreason-enum",
         "href": "https://www.w3.org/TR/webrtc-stats/#rtcqualitylimitationreason-enum",
         "title": "RTCQualityLimitationReason enum",
+        "alternateIds": [
+          "x8-9-rtcqualitylimitationreason-enum"
+        ],
         "number": "8.9"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-rtcqualitylimitationreason-bandwidth",
@@ -2883,9 +3326,13 @@
         "id": "rtcqualitylimitationreason-enum",
         "href": "https://www.w3.org/TR/webrtc-stats/#rtcqualitylimitationreason-enum",
         "title": "RTCQualityLimitationReason enum",
+        "alternateIds": [
+          "x8-9-rtcqualitylimitationreason-enum"
+        ],
         "number": "8.9"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-rtcqualitylimitationreason-other",
@@ -2904,9 +3351,13 @@
         "id": "rtcqualitylimitationreason-enum",
         "href": "https://www.w3.org/TR/webrtc-stats/#rtcqualitylimitationreason-enum",
         "title": "RTCQualityLimitationReason enum",
+        "alternateIds": [
+          "x8-9-rtcqualitylimitationreason-enum"
+        ],
         "number": "8.9"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-rtcremoteoutboundrtpstreamstats",
@@ -2923,9 +3374,13 @@
         "id": "remoteoutboundrtpstats-dict*",
         "href": "https://www.w3.org/TR/webrtc-stats/#remoteoutboundrtpstats-dict*",
         "title": "RTCRemoteOutboundRtpStreamStats dictionary",
+        "alternateIds": [
+          "x8-10-rtcremoteoutboundrtpstreamstats-dictionary"
+        ],
         "number": "8.10"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-rtcremoteoutboundrtpstreamstats-localid",
@@ -2945,7 +3400,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcremoteoutboundrtpstreamstats-members",
         "title": "Dictionary RTCRemoteOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcremoteoutboundrtpstreamstats-remotetimestamp",
@@ -2965,7 +3421,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcremoteoutboundrtpstreamstats-members",
         "title": "Dictionary RTCRemoteOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcremoteoutboundrtpstreamstats-reportssent",
@@ -2985,7 +3442,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcremoteoutboundrtpstreamstats-members",
         "title": "Dictionary RTCRemoteOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcremoteoutboundrtpstreamstats-roundtriptime",
@@ -3005,7 +3463,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcremoteoutboundrtpstreamstats-members",
         "title": "Dictionary RTCRemoteOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcremoteoutboundrtpstreamstats-totalroundtriptime",
@@ -3025,7 +3484,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcremoteoutboundrtpstreamstats-members",
         "title": "Dictionary RTCRemoteOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcremoteoutboundrtpstreamstats-roundtriptimemeasurements",
@@ -3045,7 +3505,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcremoteoutboundrtpstreamstats-members",
         "title": "Dictionary RTCRemoteOutboundRtpStreamStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcmediasourcestats",
@@ -3062,9 +3523,13 @@
         "id": "mediasourcestats-dict*",
         "href": "https://www.w3.org/TR/webrtc-stats/#mediasourcestats-dict*",
         "title": "RTCMediaSourceStats dictionary",
+        "alternateIds": [
+          "x8-11-rtcmediasourcestats-dictionary"
+        ],
         "number": "8.11"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-rtcmediasourcestats-trackidentifier",
@@ -3084,7 +3549,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcmediasourcestats-members",
         "title": "Dictionary RTCMediaSourceStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcmediasourcestats-kind",
@@ -3104,7 +3570,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcmediasourcestats-members",
         "title": "Dictionary RTCMediaSourceStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcaudiosourcestats",
@@ -3121,9 +3588,13 @@
         "id": "audiosourcestats-dict*",
         "href": "https://www.w3.org/TR/webrtc-stats/#audiosourcestats-dict*",
         "title": "RTCAudioSourceStats dictionary",
+        "alternateIds": [
+          "x8-12-rtcaudiosourcestats-dictionary"
+        ],
         "number": "8.12"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-rtcaudiosourcestats-audiolevel",
@@ -3143,7 +3614,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcaudiosourcestats-members",
         "title": "Dictionary RTCAudioSourceStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcaudiosourcestats-totalaudioenergy",
@@ -3163,7 +3635,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcaudiosourcestats-members",
         "title": "Dictionary RTCAudioSourceStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcaudiosourcestats-totalsamplesduration",
@@ -3183,7 +3656,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcaudiosourcestats-members",
         "title": "Dictionary RTCAudioSourceStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcaudiosourcestats-echoreturnloss",
@@ -3203,7 +3677,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcaudiosourcestats-members",
         "title": "Dictionary RTCAudioSourceStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcaudiosourcestats-echoreturnlossenhancement",
@@ -3223,7 +3698,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcaudiosourcestats-members",
         "title": "Dictionary RTCAudioSourceStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcvideosourcestats",
@@ -3240,9 +3716,13 @@
         "id": "videosourcestats-dict*",
         "href": "https://www.w3.org/TR/webrtc-stats/#videosourcestats-dict*",
         "title": "RTCVideoSourceStats dictionary",
+        "alternateIds": [
+          "x8-13-rtcvideosourcestats-dictionary"
+        ],
         "number": "8.13"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-rtcvideosourcestats-width",
@@ -3262,7 +3742,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcvideosourcestats-members",
         "title": "Dictionary RTCVideoSourceStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcvideosourcestats-height",
@@ -3282,7 +3763,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcvideosourcestats-members",
         "title": "Dictionary RTCVideoSourceStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcvideosourcestats-frames",
@@ -3302,7 +3784,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcvideosourcestats-members",
         "title": "Dictionary RTCVideoSourceStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcvideosourcestats-framespersecond",
@@ -3322,7 +3805,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcvideosourcestats-members",
         "title": "Dictionary RTCVideoSourceStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcaudioplayoutstats",
@@ -3339,9 +3823,13 @@
         "id": "playoutstats-dict*",
         "href": "https://www.w3.org/TR/webrtc-stats/#playoutstats-dict*",
         "title": "RTCAudioPlayoutStats dictionary",
+        "alternateIds": [
+          "x8-14-rtcaudioplayoutstats-dictionary"
+        ],
         "number": "8.14"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-rtcaudioplayoutstats-kind",
@@ -3361,7 +3849,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcaudioplayoutstats-members",
         "title": "Dictionary RTCAudioPlayoutStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcaudioplayoutstats-synthesizedsamplesduration",
@@ -3381,7 +3870,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcaudioplayoutstats-members",
         "title": "Dictionary RTCAudioPlayoutStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcaudioplayoutstats-synthesizedsamplesevents",
@@ -3401,7 +3891,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcaudioplayoutstats-members",
         "title": "Dictionary RTCAudioPlayoutStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcaudioplayoutstats-totalsamplesduration",
@@ -3421,7 +3912,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcaudioplayoutstats-members",
         "title": "Dictionary RTCAudioPlayoutStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcaudioplayoutstats-totalplayoutdelay",
@@ -3441,7 +3933,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcaudioplayoutstats-members",
         "title": "Dictionary RTCAudioPlayoutStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcaudioplayoutstats-totalsamplescount",
@@ -3461,7 +3954,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcaudioplayoutstats-members",
         "title": "Dictionary RTCAudioPlayoutStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcpeerconnectionstats",
@@ -3478,9 +3972,13 @@
         "id": "pcstats-dict*",
         "href": "https://www.w3.org/TR/webrtc-stats/#pcstats-dict*",
         "title": "RTCPeerConnectionStats dictionary",
+        "alternateIds": [
+          "x8-15-rtcpeerconnectionstats-dictionary"
+        ],
         "number": "8.15"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-rtcpeerconnectionstats-datachannelsopened",
@@ -3500,7 +3998,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcpeerconnectionstats-members",
         "title": "Dictionary RTCPeerConnectionStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcpeerconnectionstats-datachannelsclosed",
@@ -3520,7 +4019,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcpeerconnectionstats-members",
         "title": "Dictionary RTCPeerConnectionStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcdatachannelstats",
@@ -3537,9 +4037,13 @@
         "id": "dcstats-dict*",
         "href": "https://www.w3.org/TR/webrtc-stats/#dcstats-dict*",
         "title": "RTCDataChannelStats dictionary",
+        "alternateIds": [
+          "x8-16-rtcdatachannelstats-dictionary"
+        ],
         "number": "8.16"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-rtcdatachannelstats-label",
@@ -3559,7 +4063,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcdatachannelstats-members",
         "title": "Dictionary RTCDataChannelStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcdatachannelstats-protocol",
@@ -3579,7 +4084,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcdatachannelstats-members",
         "title": "Dictionary RTCDataChannelStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcdatachannelstats-datachannelidentifier",
@@ -3599,7 +4105,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcdatachannelstats-members",
         "title": "Dictionary RTCDataChannelStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcdatachannelstats-state",
@@ -3619,7 +4126,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcdatachannelstats-members",
         "title": "Dictionary RTCDataChannelStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcdatachannelstats-messagessent",
@@ -3639,7 +4147,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcdatachannelstats-members",
         "title": "Dictionary RTCDataChannelStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcdatachannelstats-bytessent",
@@ -3659,7 +4168,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcdatachannelstats-members",
         "title": "Dictionary RTCDataChannelStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcdatachannelstats-messagesreceived",
@@ -3679,7 +4189,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcdatachannelstats-members",
         "title": "Dictionary RTCDataChannelStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcdatachannelstats-bytesreceived",
@@ -3699,7 +4210,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcdatachannelstats-members",
         "title": "Dictionary RTCDataChannelStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtctransportstats",
@@ -3716,9 +4228,13 @@
         "id": "transportstats-dict*",
         "href": "https://www.w3.org/TR/webrtc-stats/#transportstats-dict*",
         "title": "RTCTransportStats dictionary",
+        "alternateIds": [
+          "x8-17-rtctransportstats-dictionary"
+        ],
         "number": "8.17"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-rtctransportstats-packetssent",
@@ -3738,7 +4254,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtctransportstats-members",
         "title": "Dictionary RTCTransportStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtctransportstats-packetsreceived",
@@ -3758,7 +4275,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtctransportstats-members",
         "title": "Dictionary RTCTransportStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtctransportstats-bytessent",
@@ -3778,7 +4296,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtctransportstats-members",
         "title": "Dictionary RTCTransportStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtctransportstats-bytesreceived",
@@ -3798,7 +4317,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtctransportstats-members",
         "title": "Dictionary RTCTransportStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtctransportstats-icerole",
@@ -3818,7 +4338,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtctransportstats-members",
         "title": "Dictionary RTCTransportStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtctransportstats-icelocalusernamefragment",
@@ -3838,7 +4359,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtctransportstats-members",
         "title": "Dictionary RTCTransportStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtctransportstats-dtlsstate",
@@ -3858,7 +4380,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtctransportstats-members",
         "title": "Dictionary RTCTransportStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtctransportstats-icestate",
@@ -3878,7 +4401,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtctransportstats-members",
         "title": "Dictionary RTCTransportStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtctransportstats-selectedcandidatepairid",
@@ -3898,7 +4422,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtctransportstats-members",
         "title": "Dictionary RTCTransportStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtctransportstats-localcertificateid",
@@ -3918,7 +4443,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtctransportstats-members",
         "title": "Dictionary RTCTransportStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtctransportstats-remotecertificateid",
@@ -3938,7 +4464,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtctransportstats-members",
         "title": "Dictionary RTCTransportStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtctransportstats-tlsversion",
@@ -3958,7 +4485,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtctransportstats-members",
         "title": "Dictionary RTCTransportStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtctransportstats-dtlscipher",
@@ -3978,7 +4506,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtctransportstats-members",
         "title": "Dictionary RTCTransportStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtctransportstats-dtlsrole",
@@ -3998,7 +4527,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtctransportstats-members",
         "title": "Dictionary RTCTransportStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtctransportstats-srtpcipher",
@@ -4018,7 +4548,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtctransportstats-members",
         "title": "Dictionary RTCTransportStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtctransportstats-selectedcandidatepairchanges",
@@ -4038,7 +4569,50 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtctransportstats-members",
         "title": "Dictionary RTCTransportStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-rtctransportstats-ccfbmessagessent",
+      "href": "https://www.w3.org/TR/webrtc-stats/#dom-rtctransportstats-ccfbmessagessent",
+      "linkingText": [
+        "ccfbMessagesSent"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RTCTransportStats"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dictionary-rtctransportstats-members",
+        "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtctransportstats-members",
+        "title": "Dictionary RTCTransportStats Members"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-rtctransportstats-ccfbmessagesreceived",
+      "href": "https://www.w3.org/TR/webrtc-stats/#dom-rtctransportstats-ccfbmessagesreceived",
+      "linkingText": [
+        "ccfbMessagesReceived"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "RTCTransportStats"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "dictionary-rtctransportstats-members",
+        "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtctransportstats-members",
+        "title": "Dictionary RTCTransportStats Members"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcdtlsrole",
@@ -4056,7 +4630,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#rtcdtlsrole-enum",
         "title": "RTCDtlsRole enum"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-rtcdtlsrole-client",
@@ -4076,7 +4651,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#rtcdtlsrole-enum",
         "title": "RTCDtlsRole enum"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-rtcdtlsrole-server",
@@ -4096,7 +4672,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#rtcdtlsrole-enum",
         "title": "RTCDtlsRole enum"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-rtcdtlsrole-unknown",
@@ -4116,7 +4693,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#rtcdtlsrole-enum",
         "title": "RTCDtlsRole enum"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatestats",
@@ -4133,9 +4711,13 @@
         "id": "icecandidate-dict*",
         "href": "https://www.w3.org/TR/webrtc-stats/#icecandidate-dict*",
         "title": "RTCIceCandidateStats dictionary",
+        "alternateIds": [
+          "x8-18-rtcicecandidatestats-dictionary"
+        ],
         "number": "8.18"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatestats-transportid",
@@ -4155,7 +4737,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatestats-members",
         "title": "Dictionary RTCIceCandidateStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatestats-address",
@@ -4175,7 +4758,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatestats-members",
         "title": "Dictionary RTCIceCandidateStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatestats-port",
@@ -4195,7 +4779,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatestats-members",
         "title": "Dictionary RTCIceCandidateStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatestats-protocol",
@@ -4215,7 +4800,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatestats-members",
         "title": "Dictionary RTCIceCandidateStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatestats-candidatetype",
@@ -4235,7 +4821,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatestats-members",
         "title": "Dictionary RTCIceCandidateStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatestats-priority",
@@ -4255,7 +4842,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatestats-members",
         "title": "Dictionary RTCIceCandidateStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatestats-url",
@@ -4275,7 +4863,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatestats-members",
         "title": "Dictionary RTCIceCandidateStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatestats-relayprotocol",
@@ -4295,7 +4884,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatestats-members",
         "title": "Dictionary RTCIceCandidateStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatestats-foundation",
@@ -4315,7 +4905,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatestats-members",
         "title": "Dictionary RTCIceCandidateStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatestats-relatedaddress",
@@ -4335,7 +4926,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatestats-members",
         "title": "Dictionary RTCIceCandidateStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatestats-relatedport",
@@ -4355,7 +4947,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatestats-members",
         "title": "Dictionary RTCIceCandidateStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatestats-usernamefragment",
@@ -4375,7 +4968,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatestats-members",
         "title": "Dictionary RTCIceCandidateStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatestats-tcptype",
@@ -4395,7 +4989,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatestats-members",
         "title": "Dictionary RTCIceCandidateStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatepairstats",
@@ -4412,9 +5007,13 @@
         "id": "candidatepair-dict*",
         "href": "https://www.w3.org/TR/webrtc-stats/#candidatepair-dict*",
         "title": "RTCIceCandidatePairStats dictionary",
+        "alternateIds": [
+          "x8-19-rtcicecandidatepairstats-dictionary"
+        ],
         "number": "8.19"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatepairstats-transportid",
@@ -4434,7 +5033,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatepairstats-members",
         "title": "Dictionary RTCIceCandidatePairStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatepairstats-localcandidateid",
@@ -4454,7 +5054,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatepairstats-members",
         "title": "Dictionary RTCIceCandidatePairStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatepairstats-remotecandidateid",
@@ -4474,7 +5075,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatepairstats-members",
         "title": "Dictionary RTCIceCandidatePairStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatepairstats-state",
@@ -4494,7 +5096,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatepairstats-members",
         "title": "Dictionary RTCIceCandidatePairStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatepairstats-nominated",
@@ -4514,7 +5117,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatepairstats-members",
         "title": "Dictionary RTCIceCandidatePairStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatepairstats-packetssent",
@@ -4534,7 +5138,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatepairstats-members",
         "title": "Dictionary RTCIceCandidatePairStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatepairstats-packetsreceived",
@@ -4554,7 +5159,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatepairstats-members",
         "title": "Dictionary RTCIceCandidatePairStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatepairstats-bytessent",
@@ -4574,7 +5180,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatepairstats-members",
         "title": "Dictionary RTCIceCandidatePairStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatepairstats-bytesreceived",
@@ -4594,7 +5201,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatepairstats-members",
         "title": "Dictionary RTCIceCandidatePairStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatepairstats-lastpacketsenttimestamp",
@@ -4614,7 +5222,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatepairstats-members",
         "title": "Dictionary RTCIceCandidatePairStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatepairstats-lastpacketreceivedtimestamp",
@@ -4634,7 +5243,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatepairstats-members",
         "title": "Dictionary RTCIceCandidatePairStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatepairstats-totalroundtriptime",
@@ -4654,7 +5264,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatepairstats-members",
         "title": "Dictionary RTCIceCandidatePairStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatepairstats-currentroundtriptime",
@@ -4674,7 +5285,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatepairstats-members",
         "title": "Dictionary RTCIceCandidatePairStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatepairstats-availableoutgoingbitrate",
@@ -4694,7 +5306,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatepairstats-members",
         "title": "Dictionary RTCIceCandidatePairStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatepairstats-availableincomingbitrate",
@@ -4714,7 +5327,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatepairstats-members",
         "title": "Dictionary RTCIceCandidatePairStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatepairstats-requestsreceived",
@@ -4734,7 +5348,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatepairstats-members",
         "title": "Dictionary RTCIceCandidatePairStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatepairstats-requestssent",
@@ -4754,7 +5369,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatepairstats-members",
         "title": "Dictionary RTCIceCandidatePairStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatepairstats-responsesreceived",
@@ -4774,7 +5390,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatepairstats-members",
         "title": "Dictionary RTCIceCandidatePairStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatepairstats-responsessent",
@@ -4794,7 +5411,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatepairstats-members",
         "title": "Dictionary RTCIceCandidatePairStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatepairstats-consentrequestssent",
@@ -4814,7 +5432,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatepairstats-members",
         "title": "Dictionary RTCIceCandidatePairStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatepairstats-packetsdiscardedonsend",
@@ -4834,7 +5453,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatepairstats-members",
         "title": "Dictionary RTCIceCandidatePairStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcicecandidatepairstats-bytesdiscardedonsend",
@@ -4854,7 +5474,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtcicecandidatepairstats-members",
         "title": "Dictionary RTCIceCandidatePairStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtcstatsicecandidatepairstate",
@@ -4871,9 +5492,13 @@
         "id": "rtcstatsicecandidatepairstate-enum",
         "href": "https://www.w3.org/TR/webrtc-stats/#rtcstatsicecandidatepairstate-enum",
         "title": "RTCStatsIceCandidatePairState enum",
+        "alternateIds": [
+          "x8-19-1-rtcstatsicecandidatepairstate-enum"
+        ],
         "number": "8.19.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-rtcstatsicecandidatepairstate-frozen",
@@ -4892,9 +5517,13 @@
         "id": "rtcstatsicecandidatepairstate-enum",
         "href": "https://www.w3.org/TR/webrtc-stats/#rtcstatsicecandidatepairstate-enum",
         "title": "RTCStatsIceCandidatePairState enum",
+        "alternateIds": [
+          "x8-19-1-rtcstatsicecandidatepairstate-enum"
+        ],
         "number": "8.19.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-rtcstatsicecandidatepairstate-waiting",
@@ -4913,9 +5542,13 @@
         "id": "rtcstatsicecandidatepairstate-enum",
         "href": "https://www.w3.org/TR/webrtc-stats/#rtcstatsicecandidatepairstate-enum",
         "title": "RTCStatsIceCandidatePairState enum",
+        "alternateIds": [
+          "x8-19-1-rtcstatsicecandidatepairstate-enum"
+        ],
         "number": "8.19.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-rtcstatsicecandidatepairstate-in-progress",
@@ -4934,9 +5567,13 @@
         "id": "rtcstatsicecandidatepairstate-enum",
         "href": "https://www.w3.org/TR/webrtc-stats/#rtcstatsicecandidatepairstate-enum",
         "title": "RTCStatsIceCandidatePairState enum",
+        "alternateIds": [
+          "x8-19-1-rtcstatsicecandidatepairstate-enum"
+        ],
         "number": "8.19.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-rtcstatsicecandidatepairstate-failed",
@@ -4955,9 +5592,13 @@
         "id": "rtcstatsicecandidatepairstate-enum",
         "href": "https://www.w3.org/TR/webrtc-stats/#rtcstatsicecandidatepairstate-enum",
         "title": "RTCStatsIceCandidatePairState enum",
+        "alternateIds": [
+          "x8-19-1-rtcstatsicecandidatepairstate-enum"
+        ],
         "number": "8.19.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-rtcstatsicecandidatepairstate-succeeded",
@@ -4976,9 +5617,13 @@
         "id": "rtcstatsicecandidatepairstate-enum",
         "href": "https://www.w3.org/TR/webrtc-stats/#rtcstatsicecandidatepairstate-enum",
         "title": "RTCStatsIceCandidatePairState enum",
+        "alternateIds": [
+          "x8-19-1-rtcstatsicecandidatepairstate-enum"
+        ],
         "number": "8.19.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-rtccertificatestats",
@@ -4995,9 +5640,13 @@
         "id": "certificatestats-dict*",
         "href": "https://www.w3.org/TR/webrtc-stats/#certificatestats-dict*",
         "title": "RTCCertificateStats dictionary",
+        "alternateIds": [
+          "x8-20-rtccertificatestats-dictionary"
+        ],
         "number": "8.20"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-rtccertificatestats-fingerprint",
@@ -5017,7 +5666,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtccertificatestats-members",
         "title": "Dictionary RTCCertificateStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtccertificatestats-fingerprintalgorithm",
@@ -5037,7 +5687,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtccertificatestats-members",
         "title": "Dictionary RTCCertificateStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtccertificatestats-base64certificate",
@@ -5057,7 +5708,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtccertificatestats-members",
         "title": "Dictionary RTCCertificateStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rtccertificatestats-issuercertificateid",
@@ -5077,7 +5729,8 @@
         "href": "https://www.w3.org/TR/webrtc-stats/#dictionary-rtccertificatestats-members",
         "title": "Dictionary RTCCertificateStats Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     }
   ]
 }

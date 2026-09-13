@@ -19,9 +19,13 @@
         "id": "model",
         "href": "https://www.w3.org/TR/badging/#model",
         "title": "Model",
-        "number": "2"
+        "alternateIds": [
+          "x3-model"
+        ],
+        "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-values",
@@ -34,15 +38,19 @@
       "for": [
         "badge"
       ],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "model",
         "href": "https://www.w3.org/TR/badging/#model",
         "title": "Model",
-        "number": "2"
+        "alternateIds": [
+          "x3-model"
+        ],
+        "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-nothing",
@@ -52,16 +60,22 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
-      "access": "private",
+      "for": [
+        "badge"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "model",
         "href": "https://www.w3.org/TR/badging/#model",
         "title": "Model",
-        "number": "2"
+        "alternateIds": [
+          "x3-model"
+        ],
+        "number": "3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-flag",
@@ -71,16 +85,22 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
-      "access": "private",
+      "for": [
+        "badge"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "model",
         "href": "https://www.w3.org/TR/badging/#model",
         "title": "Model",
-        "number": "2"
+        "alternateIds": [
+          "x3-model"
+        ],
+        "number": "3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-number",
@@ -90,16 +110,22 @@
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [],
-      "access": "private",
+      "for": [
+        "badge"
+      ],
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "model",
         "href": "https://www.w3.org/TR/badging/#model",
         "title": "Model",
-        "number": "2"
+        "alternateIds": [
+          "x3-model"
+        ],
+        "number": "3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-setting",
@@ -119,17 +145,19 @@
         "id": "presentation",
         "href": "https://www.w3.org/TR/badging/#presentation",
         "title": "Displaying a badge",
-        "number": "3"
+        "alternateIds": [
+          "displaying-a-badge"
+        ],
+        "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-clear",
       "href": "https://www.w3.org/TR/badging/#dfn-clear",
       "linkingText": [
-        "clear",
-        "clearing",
-        "cleared"
+        "clear"
       ],
       "localLinkingText": [
         "clearing",
@@ -145,9 +173,13 @@
         "id": "presentation",
         "href": "https://www.w3.org/TR/badging/#presentation",
         "title": "Displaying a badge",
-        "number": "3"
+        "alternateIds": [
+          "displaying-a-badge"
+        ],
+        "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-navigatorbadge",
@@ -164,9 +196,13 @@
         "id": "extensions-to-the-navigator-and-workernavigator-interfaces",
         "href": "https://www.w3.org/TR/badging/#extensions-to-the-navigator-and-workernavigator-interfaces",
         "title": "Extensions to the Navigator and WorkerNavigator interfaces",
-        "number": "4"
+        "alternateIds": [
+          "x5-extensions-to-the-navigator-and-workernavigator-interfaces"
+        ],
+        "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-navigatorbadge-setappbadge",
@@ -190,9 +226,13 @@
         "id": "setappbadge-method",
         "href": "https://www.w3.org/TR/badging/#setappbadge-method",
         "title": "setAppBadge() method",
-        "number": "4.1"
+        "alternateIds": [
+          "x5-1-setappbadge-method"
+        ],
+        "number": "5.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-navigatorbadge-clearappbadge",
@@ -215,9 +255,13 @@
         "id": "clearappbadge-method",
         "href": "https://www.w3.org/TR/badging/#clearappbadge-method",
         "title": "clearAppBadge() method",
-        "number": "4.2"
+        "alternateIds": [
+          "x5-2-clearappbadge-method"
+        ],
+        "number": "5.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dfn-set-the-application-badge",
@@ -234,9 +278,13 @@
         "id": "setting-the-application-badge",
         "href": "https://www.w3.org/TR/badging/#setting-the-application-badge",
         "title": "Setting the application badge",
-        "number": "5"
+        "alternateIds": [
+          "x6-setting-the-application-badge"
+        ],
+        "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

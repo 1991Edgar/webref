@@ -5,7 +5,6 @@
   },
   "links": {
     "rawlinks": {
-      "https://datatracker.ietf.org/doc/html/bcp14": {},
       "https://github.com/w3c/html-aria/pull/352": {},
       "https://github.com/w3c/html-aria/pull/353": {},
       "https://github.com/w3c/html-aria/pull/360": {},
@@ -32,7 +31,13 @@
       "https://github.com/w3c/html-aria/pull/469": {},
       "https://github.com/w3c/html-aria/pull/489": {},
       "https://github.com/w3c/html-aria/pull/507": {},
+      "https://github.com/w3c/html-aria/pull/525": {},
+      "https://github.com/w3c/html-aria/pull/528": {},
       "https://github.com/w3c/html-aria/pull/533": {},
+      "https://github.com/w3c/html-aria/pull/550": {},
+      "https://github.com/w3c/html-aria/pull/556": {},
+      "https://github.com/w3c/html-aria/pull/560": {},
+      "https://github.com/w3c/html-aria/pulls/?q=is%3Apr+is%3Aclosed": {},
       "https://html.spec.whatwg.org/multipage/": {},
       "https://html.spec.whatwg.org/multipage/dom.html": {
         "anchors": [
@@ -52,9 +57,14 @@
           "concept-fe-checked"
         ]
       },
-      "https://html.spec.whatwg.org/multipage/images.html": {
+      "https://html.spec.whatwg.org/multipage/form-elements.html": {
         "anchors": [
-          "unknown-images"
+          "concept-select-option-list"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/forms.html": {
+        "anchors": [
+          "category-label"
         ]
       },
       "https://html.spec.whatwg.org/multipage/input.html": {
@@ -80,12 +90,12 @@
           "url-state-(type=url)",
           "time-state-(type=time)",
           "week-state-(type=week)",
-          "attr-input-list",
           "dom-input-indeterminate"
         ]
       },
       "https://html.spec.whatwg.org/multipage/interaction.html": {
         "anchors": [
+          "attr-hidden-until-found-state",
           "dom-iscontenteditable"
         ]
       },
@@ -94,21 +104,28 @@
           "summary-for-its-parent-details"
         ]
       },
+      "https://html.spec.whatwg.org/multipage/rendering.html": {
+        "anchors": [
+          "drop-down-box",
+          "list-box"
+        ]
+      },
       "https://html.spec.whatwg.org/multipage/sections.html": {
         "anchors": [
           "the-h1,-h2,-h3,-h4,-h5,-and-h6-elements"
         ]
       },
       "https://infra.spec.whatwg.org/": {},
-      "https://www.rfc-editor.org/rfc/rfc2119": {},
-      "https://www.rfc-editor.org/rfc/rfc8174": {},
+      "https://www.rfc-editor.org/info/bcp14": {},
+      "https://www.rfc-editor.org/info/rfc2119/": {},
+      "https://www.rfc-editor.org/info/rfc8174/": {},
       "https://www.w3.org/TR/": {},
       "https://www.w3.org/TR/accname-1.2/": {
         "anchors": [
           "dfn-accessible-name"
         ]
       },
-      "https://www.w3.org/TR/dpub-aria-1.0/": {
+      "https://www.w3.org/TR/dpub-aria-1.1/": {
         "anchors": [
           "doc-backlink",
           "doc-biblioref",
@@ -123,6 +140,8 @@
           "doc-subtitle",
           "doc-pagebreak",
           "doc-cover",
+          "doc-biblioentry",
+          "doc-endnote",
           "doc-index",
           "doc-pagelist",
           "doc-toc",
@@ -149,12 +168,6 @@
           "doc-qna"
         ]
       },
-      "https://www.w3.org/TR/dpub-aria-1.1/": {
-        "anchors": [
-          "doc-biblioentry",
-          "doc-endnote"
-        ]
-      },
       "https://www.w3.org/TR/html-aam-1.0/": {
         "anchors": [
           "img-element-accessible-name-computation"
@@ -162,7 +175,7 @@
       },
       "https://www.w3.org/TR/svg-aam-1.0/": {
         "anchors": [
-          "details-id-66"
+          "role-map-svg"
         ]
       },
       "https://www.w3.org/TR/using-aria/": {},
@@ -276,9 +289,9 @@
           "treeitem"
         ]
       },
-      "https://www.w3.org/TR/wai-aria-practices-1.2/": {},
-      "https://www.w3.org/groups/wg/webapps": {},
-      "https://www.w3.org/groups/wg/webapps/ipr": {},
+      "https://www.w3.org/WAI/ARIA/apg/": {},
+      "https://www.w3.org/groups/wg/aria": {},
+      "https://www.w3.org/groups/wg/aria/ipr": {},
       "https://www.w3.org/policies/patent-policy/": {
         "anchors": [
           "sec-Requirements",
@@ -286,10 +299,9 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {
+      "https://www.w3.org/policies/process/20250818/": {
         "anchors": [
           "recs-and-notes",
-          "candidate-amendments",
           "allow-new-features"
         ]
       }
@@ -350,6 +362,7 @@
           "the-output-element",
           "the-progress-element",
           "the-select-element",
+          "the-selectedcontent-element",
           "the-textarea-element",
           "attr-option-disabled",
           "attr-optgroup-disabled",

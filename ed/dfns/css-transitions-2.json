@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Transitions Level 2",
+    "title": "CSS Transitions Module Level 2",
     "url": "https://drafts.csswg.org/css-transitions-2/"
   },
   "dfns": [
@@ -21,7 +21,8 @@
         "title": "The transition-property Property",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "transitionable",
@@ -40,7 +41,8 @@
         "title": "The transition-property Property",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-transition-behavior",
@@ -59,7 +61,8 @@
         "title": "The transition-behavior Property",
         "number": "2.5"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "typedef-transition-behavior-value",
@@ -78,7 +81,8 @@
         "title": "The transition-behavior Property",
         "number": "2.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "single-transition",
@@ -97,7 +101,8 @@
         "title": "The transition Shorthand Property",
         "number": "2.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "owning-element",
@@ -116,7 +121,8 @@
         "title": "Starting of transitions",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "current-transition-generation",
@@ -135,7 +141,8 @@
         "title": "The current transition generation",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "transition-generation",
@@ -154,7 +161,8 @@
         "title": "The current transition generation",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "at-ruledef-starting-style",
@@ -173,7 +181,8 @@
         "title": "Defining before-change style: the @starting-style rule",
         "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "starting-style",
@@ -192,7 +201,8 @@
         "title": "Defining before-change style: the @starting-style rule",
         "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "cssstartingstylerule",
@@ -211,7 +221,8 @@
         "title": "The CSSStartingStyleRule interface",
         "number": "3.3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "transition-phase",
@@ -230,7 +241,8 @@
         "title": "Event dispatch",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "interval-start",
@@ -249,7 +261,8 @@
         "title": "Event dispatch",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "interval-end",
@@ -268,7 +281,8 @@
         "title": "Event dispatch",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "elapsed-time",
@@ -287,7 +301,52 @@
         "title": "Event dispatch",
         "number": "5.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dom-transitioneventinit-animation",
+      "href": "https://drafts.csswg.org/css-transitions-2/#dom-transitioneventinit-animation",
+      "linkingText": [
+        "animation"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "TransitionEventInit"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interface-transitionevent-idl",
+        "href": "https://drafts.csswg.org/css-transitions-2/#interface-transitionevent-idl",
+        "title": "IDL Definition",
+        "number": "5.2.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "Events-TransitionEvent-animation",
+      "href": "https://drafts.csswg.org/css-transitions-2/#Events-TransitionEvent-animation",
+      "linkingText": [
+        "animation"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "TransitionEvent"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "interface-transitionevent-attributes",
+        "href": "https://drafts.csswg.org/css-transitions-2/#interface-transitionevent-attributes",
+        "title": "Attributes",
+        "number": "5.2.2"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "csstransition",
@@ -306,7 +365,8 @@
         "title": "The CSSTransition interface",
         "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csstransition-transitionproperty",
@@ -327,7 +387,8 @@
         "title": "The CSSTransition interface",
         "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     }
   ]
 }

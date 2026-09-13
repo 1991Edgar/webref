@@ -26,7 +26,10 @@
       "id": "toc",
       "href": "https://www.w3.org/TR/mediacapture-transform/#toc",
       "level": 2,
-      "title": "Table of Contents"
+      "title": "Table of Contents",
+      "alternateIds": [
+        "contents"
+      ]
     },
     {
       "id": "introduction",
@@ -83,6 +86,20 @@
       "level": 4,
       "title": "Handling interaction with the track",
       "number": "2.1.5"
+    },
+    {
+      "id": "mediastreamtrackhandle①",
+      "href": "https://www.w3.org/TR/mediacapture-transform/#mediastreamtrackhandle%E2%91%A0",
+      "level": 4,
+      "title": "MediaStreamTrackHandle",
+      "number": "2.1.6"
+    },
+    {
+      "id": "mediastreamtrackhandle-constructor",
+      "href": "https://www.w3.org/TR/mediacapture-transform/#mediastreamtrackhandle-constructor",
+      "level": 4,
+      "title": "Constructor",
+      "number": "2.1.7"
     },
     {
       "id": "video-track-generator",

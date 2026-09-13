@@ -23,7 +23,8 @@
         "title": "AudioEncoderConfig extensions",
         "number": "5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dictdef-opusencoderconfig",
@@ -42,7 +43,8 @@
         "title": "OpusEncoderConfig",
         "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-opusencoderconfig-format",
@@ -58,11 +60,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webcodecs/opus_codec_registration.html#title",
-        "title": "Opus WebCodecs Registration"
+        "id": "opus-encoder-config",
+        "href": "https://w3c.github.io/webcodecs/opus_codec_registration.html#opus-encoder-config",
+        "title": "OpusEncoderConfig",
+        "number": "5.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-opusencoderconfig-signal",
@@ -78,11 +82,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webcodecs/opus_codec_registration.html#title",
-        "title": "Opus WebCodecs Registration"
+        "id": "opus-encoder-config",
+        "href": "https://w3c.github.io/webcodecs/opus_codec_registration.html#opus-encoder-config",
+        "title": "OpusEncoderConfig",
+        "number": "5.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-opusencoderconfig-application",
@@ -98,11 +104,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webcodecs/opus_codec_registration.html#title",
-        "title": "Opus WebCodecs Registration"
+        "id": "opus-encoder-config",
+        "href": "https://w3c.github.io/webcodecs/opus_codec_registration.html#opus-encoder-config",
+        "title": "OpusEncoderConfig",
+        "number": "5.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-opusencoderconfig-frameduration",
@@ -118,11 +126,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webcodecs/opus_codec_registration.html#title",
-        "title": "Opus WebCodecs Registration"
+        "id": "opus-encoder-config",
+        "href": "https://w3c.github.io/webcodecs/opus_codec_registration.html#opus-encoder-config",
+        "title": "OpusEncoderConfig",
+        "number": "5.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-opusencoderconfig-complexity",
@@ -138,11 +148,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webcodecs/opus_codec_registration.html#title",
-        "title": "Opus WebCodecs Registration"
+        "id": "opus-encoder-config",
+        "href": "https://w3c.github.io/webcodecs/opus_codec_registration.html#opus-encoder-config",
+        "title": "OpusEncoderConfig",
+        "number": "5.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-opusencoderconfig-packetlossperc",
@@ -158,11 +170,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webcodecs/opus_codec_registration.html#title",
-        "title": "Opus WebCodecs Registration"
+        "id": "opus-encoder-config",
+        "href": "https://w3c.github.io/webcodecs/opus_codec_registration.html#opus-encoder-config",
+        "title": "OpusEncoderConfig",
+        "number": "5.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-opusencoderconfig-useinbandfec",
@@ -178,11 +192,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webcodecs/opus_codec_registration.html#title",
-        "title": "Opus WebCodecs Registration"
+        "id": "opus-encoder-config",
+        "href": "https://w3c.github.io/webcodecs/opus_codec_registration.html#opus-encoder-config",
+        "title": "OpusEncoderConfig",
+        "number": "5.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-opusencoderconfig-usedtx",
@@ -198,11 +214,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webcodecs/opus_codec_registration.html#title",
-        "title": "Opus WebCodecs Registration"
+        "id": "opus-encoder-config",
+        "href": "https://w3c.github.io/webcodecs/opus_codec_registration.html#opus-encoder-config",
+        "title": "OpusEncoderConfig",
+        "number": "5.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "enumdef-opusbitstreamformat",
@@ -221,7 +239,8 @@
         "title": "OpusBitstreamFormat",
         "number": "5.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-opusbitstreamformat-opus",
@@ -238,11 +257,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webcodecs/opus_codec_registration.html#title",
-        "title": "Opus WebCodecs Registration"
+        "id": "opus-bitstream-format",
+        "href": "https://w3c.github.io/webcodecs/opus_codec_registration.html#opus-bitstream-format",
+        "title": "OpusBitstreamFormat",
+        "number": "5.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-opusbitstreamformat-ogg",
@@ -259,11 +280,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webcodecs/opus_codec_registration.html#title",
-        "title": "Opus WebCodecs Registration"
+        "id": "opus-bitstream-format",
+        "href": "https://w3c.github.io/webcodecs/opus_codec_registration.html#opus-bitstream-format",
+        "title": "OpusBitstreamFormat",
+        "number": "5.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "enumdef-opussignal",
@@ -282,7 +305,8 @@
         "title": "OpusSignal",
         "number": "5.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-opussignal-auto",
@@ -299,11 +323,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webcodecs/opus_codec_registration.html#title",
-        "title": "Opus WebCodecs Registration"
+        "id": "opus-signal",
+        "href": "https://w3c.github.io/webcodecs/opus_codec_registration.html#opus-signal",
+        "title": "OpusSignal",
+        "number": "5.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-opussignal-music",
@@ -320,11 +346,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webcodecs/opus_codec_registration.html#title",
-        "title": "Opus WebCodecs Registration"
+        "id": "opus-signal",
+        "href": "https://w3c.github.io/webcodecs/opus_codec_registration.html#opus-signal",
+        "title": "OpusSignal",
+        "number": "5.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-opussignal-voice",
@@ -341,11 +369,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webcodecs/opus_codec_registration.html#title",
-        "title": "Opus WebCodecs Registration"
+        "id": "opus-signal",
+        "href": "https://w3c.github.io/webcodecs/opus_codec_registration.html#opus-signal",
+        "title": "OpusSignal",
+        "number": "5.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "enumdef-opusapplication",
@@ -364,7 +394,8 @@
         "title": "OpusApplication",
         "number": "5.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-opusapplication-voip",
@@ -381,11 +412,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webcodecs/opus_codec_registration.html#title",
-        "title": "Opus WebCodecs Registration"
+        "id": "opus-application",
+        "href": "https://w3c.github.io/webcodecs/opus_codec_registration.html#opus-application",
+        "title": "OpusApplication",
+        "number": "5.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-opusapplication-audio",
@@ -402,11 +435,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webcodecs/opus_codec_registration.html#title",
-        "title": "Opus WebCodecs Registration"
+        "id": "opus-application",
+        "href": "https://w3c.github.io/webcodecs/opus_codec_registration.html#opus-application",
+        "title": "OpusApplication",
+        "number": "5.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-opusapplication-lowdelay",
@@ -423,11 +458,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webcodecs/opus_codec_registration.html#title",
-        "title": "Opus WebCodecs Registration"
+        "id": "opus-application",
+        "href": "https://w3c.github.io/webcodecs/opus_codec_registration.html#opus-application",
+        "title": "OpusApplication",
+        "number": "5.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     }
   ]
 }

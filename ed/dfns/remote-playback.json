@@ -19,9 +19,13 @@
         "id": "introduction",
         "href": "https://w3c.github.io/remote-playback/#introduction",
         "title": "Introduction",
+        "alternateIds": [
+          "x2-introduction"
+        ],
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-media-remoting",
@@ -38,9 +42,13 @@
         "id": "introduction",
         "href": "https://w3c.github.io/remote-playback/#introduction",
         "title": "Introduction",
+        "alternateIds": [
+          "x2-introduction"
+        ],
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-media-flinging",
@@ -57,9 +65,13 @@
         "id": "introduction",
         "href": "https://w3c.github.io/remote-playback/#introduction",
         "title": "Introduction",
+        "alternateIds": [
+          "x2-introduction"
+        ],
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-local-playback-device",
@@ -76,9 +88,13 @@
         "id": "common-idioms",
         "href": "https://w3c.github.io/remote-playback/#common-idioms",
         "title": "Common idioms",
+        "alternateIds": [
+          "x5-1-common-idioms"
+        ],
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-remote-playback-devices",
@@ -96,9 +112,13 @@
         "id": "common-idioms",
         "href": "https://w3c.github.io/remote-playback/#common-idioms",
         "title": "Common idioms",
+        "alternateIds": [
+          "x5-1-common-idioms"
+        ],
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-media-element-state",
@@ -115,9 +135,13 @@
         "id": "common-idioms",
         "href": "https://w3c.github.io/remote-playback/#common-idioms",
         "title": "Common idioms",
+        "alternateIds": [
+          "x5-1-common-idioms"
+        ],
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-local-playback-state",
@@ -134,9 +158,13 @@
         "id": "common-idioms",
         "href": "https://w3c.github.io/remote-playback/#common-idioms",
         "title": "Common idioms",
+        "alternateIds": [
+          "x5-1-common-idioms"
+        ],
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-remote-playback-state",
@@ -153,9 +181,13 @@
         "id": "common-idioms",
         "href": "https://w3c.github.io/remote-playback/#common-idioms",
         "title": "Common idioms",
+        "alternateIds": [
+          "x5-1-common-idioms"
+        ],
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-remoteplayback",
@@ -172,9 +204,13 @@
         "id": "remoteplayback-interface",
         "href": "https://w3c.github.io/remote-playback/#remoteplayback-interface",
         "title": "RemotePlayback interface",
+        "alternateIds": [
+          "x5-2-remoteplayback-interface"
+        ],
         "number": "5.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-remoteplaybackstate",
@@ -191,9 +227,13 @@
         "id": "remoteplayback-interface",
         "href": "https://w3c.github.io/remote-playback/#remoteplayback-interface",
         "title": "RemotePlayback interface",
+        "alternateIds": [
+          "x5-2-remoteplayback-interface"
+        ],
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-remoteplaybackavailabilitycallback",
@@ -210,9 +250,13 @@
         "id": "remoteplayback-interface",
         "href": "https://w3c.github.io/remote-playback/#remoteplayback-interface",
         "title": "RemotePlayback interface",
+        "alternateIds": [
+          "x5-2-remoteplayback-interface"
+        ],
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-remote-playback-device-availability",
@@ -229,9 +273,13 @@
         "id": "observing-remote-playback-device-availability",
         "href": "https://w3c.github.io/remote-playback/#observing-remote-playback-device-availability",
         "title": "Observing remote playback device availability",
+        "alternateIds": [
+          "x5-2-1-observing-remote-playback-device-availability"
+        ],
         "number": "5.2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-set-of-availability-callbacks",
@@ -248,9 +296,13 @@
         "id": "the-set-of-availability-callbacks",
         "href": "https://w3c.github.io/remote-playback/#the-set-of-availability-callbacks",
         "title": "The set of availability callbacks",
+        "alternateIds": [
+          "x5-2-1-1-the-set-of-availability-callbacks"
+        ],
         "number": "5.2.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-remoteplayback-watchavailability",
@@ -274,9 +326,13 @@
         "id": "the-set-of-availability-callbacks",
         "href": "https://w3c.github.io/remote-playback/#the-set-of-availability-callbacks",
         "title": "The set of availability callbacks",
+        "alternateIds": [
+          "x5-2-1-1-the-set-of-availability-callbacks"
+        ],
         "number": "5.2.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-global-set-of-availability-callbacks",
@@ -293,9 +349,13 @@
         "id": "the-set-of-availability-callbacks",
         "href": "https://w3c.github.io/remote-playback/#the-set-of-availability-callbacks",
         "title": "The set of availability callbacks",
+        "alternateIds": [
+          "x5-2-1-1-the-set-of-availability-callbacks"
+        ],
         "number": "5.2.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-list-of-available-remote-playback-devices",
@@ -312,9 +372,13 @@
         "id": "the-list-of-available-remote-playback-devices",
         "href": "https://w3c.github.io/remote-playback/#the-list-of-available-remote-playback-devices",
         "title": "The list of available remote playback devices",
+        "alternateIds": [
+          "x5-2-1-2-the-list-of-available-remote-playback-devices"
+        ],
         "number": "5.2.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-compatible-remote-playback-device",
@@ -331,9 +395,13 @@
         "id": "the-list-of-available-remote-playback-devices",
         "href": "https://w3c.github.io/remote-playback/#the-list-of-available-remote-playback-devices",
         "title": "The list of available remote playback devices",
+        "alternateIds": [
+          "x5-2-1-2-the-list-of-available-remote-playback-devices"
+        ],
         "number": "5.2.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-availability-sources-set",
@@ -350,9 +418,13 @@
         "id": "the-list-of-available-remote-playback-devices",
         "href": "https://w3c.github.io/remote-playback/#the-list-of-available-remote-playback-devices",
         "title": "The list of available remote playback devices",
+        "alternateIds": [
+          "x5-2-1-2-the-list-of-available-remote-playback-devices"
+        ],
         "number": "5.2.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-remote-playback-source",
@@ -369,9 +441,13 @@
         "id": "the-list-of-available-remote-playback-devices",
         "href": "https://w3c.github.io/remote-playback/#the-list-of-available-remote-playback-devices",
         "title": "The list of available remote playback devices",
+        "alternateIds": [
+          "x5-2-1-2-the-list-of-available-remote-playback-devices"
+        ],
         "number": "5.2.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-unavailable",
@@ -388,9 +464,13 @@
         "id": "the-list-of-available-remote-playback-devices",
         "href": "https://w3c.github.io/remote-playback/#the-list-of-available-remote-playback-devices",
         "title": "The list of available remote playback devices",
+        "alternateIds": [
+          "x5-2-1-2-the-list-of-available-remote-playback-devices"
+        ],
         "number": "5.2.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-available",
@@ -407,9 +487,13 @@
         "id": "the-list-of-available-remote-playback-devices",
         "href": "https://w3c.github.io/remote-playback/#the-list-of-available-remote-playback-devices",
         "title": "The list of available remote playback devices",
+        "alternateIds": [
+          "x5-2-1-2-the-list-of-available-remote-playback-devices"
+        ],
         "number": "5.2.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-availability",
@@ -426,9 +510,13 @@
         "id": "the-list-of-available-remote-playback-devices",
         "href": "https://w3c.github.io/remote-playback/#the-list-of-available-remote-playback-devices",
         "title": "The list of available remote playback devices",
+        "alternateIds": [
+          "x5-2-1-2-the-list-of-available-remote-playback-devices"
+        ],
         "number": "5.2.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-monitor-the-list-of-available-remote-playback-devices",
@@ -445,9 +533,13 @@
         "id": "monitoring-the-list-of-available-remote-playback-devices",
         "href": "https://w3c.github.io/remote-playback/#monitoring-the-list-of-available-remote-playback-devices",
         "title": "Monitoring the list of available remote playback devices",
+        "alternateIds": [
+          "x5-2-1-4-monitoring-the-list-of-available-remote-playback-devices"
+        ],
         "number": "5.2.1.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-remoteplayback-cancelwatchavailability",
@@ -471,9 +563,13 @@
         "id": "stop-observing-remote-playback-devices-availability",
         "href": "https://w3c.github.io/remote-playback/#stop-observing-remote-playback-devices-availability",
         "title": "Stop observing remote playback devices availability",
+        "alternateIds": [
+          "x5-2-1-5-stop-observing-remote-playback-devices-availability"
+        ],
         "number": "5.2.1.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-remoteplayback-prompt",
@@ -496,9 +592,13 @@
         "id": "prompt-user-for-changing-remote-playback-state",
         "href": "https://w3c.github.io/remote-playback/#prompt-user-for-changing-remote-playback-state",
         "title": "Prompt user for changing remote playback state",
+        "alternateIds": [
+          "x5-2-2-prompt-user-for-changing-remote-playback-state"
+        ],
         "number": "5.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-change-remote-playback-state",
@@ -515,9 +615,13 @@
         "id": "prompt-user-for-changing-remote-playback-state",
         "href": "https://w3c.github.io/remote-playback/#prompt-user-for-changing-remote-playback-state",
         "title": "Prompt user for changing remote playback state",
+        "alternateIds": [
+          "x5-2-2-prompt-user-for-changing-remote-playback-state"
+        ],
         "number": "5.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-initiate-remote-playback",
@@ -534,9 +638,13 @@
         "id": "prompt-user-for-changing-remote-playback-state",
         "href": "https://w3c.github.io/remote-playback/#prompt-user-for-changing-remote-playback-state",
         "title": "Prompt user for changing remote playback state",
+        "alternateIds": [
+          "x5-2-2-prompt-user-for-changing-remote-playback-state"
+        ],
         "number": "5.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-remoteplayback-state",
@@ -557,9 +665,13 @@
         "id": "the-state-attribute",
         "href": "https://w3c.github.io/remote-playback/#the-state-attribute",
         "title": "The state attribute",
+        "alternateIds": [
+          "x5-2-3-the-state-attribute"
+        ],
         "number": "5.2.3"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-remoteplaybackstate-connecting",
@@ -578,9 +690,13 @@
         "id": "the-state-attribute",
         "href": "https://w3c.github.io/remote-playback/#the-state-attribute",
         "title": "The state attribute",
+        "alternateIds": [
+          "x5-2-3-the-state-attribute"
+        ],
         "number": "5.2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-remoteplaybackstate-connected",
@@ -599,9 +715,13 @@
         "id": "the-state-attribute",
         "href": "https://w3c.github.io/remote-playback/#the-state-attribute",
         "title": "The state attribute",
+        "alternateIds": [
+          "x5-2-3-the-state-attribute"
+        ],
         "number": "5.2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-remoteplaybackstate-disconnected",
@@ -620,9 +740,13 @@
         "id": "the-state-attribute",
         "href": "https://w3c.github.io/remote-playback/#the-state-attribute",
         "title": "The state attribute",
+        "alternateIds": [
+          "x5-2-3-the-state-attribute"
+        ],
         "number": "5.2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-establish-a-connection-with-the-remote-playback-device",
@@ -639,9 +763,13 @@
         "id": "establishing-a-connection-with-a-remote-playback-device",
         "href": "https://w3c.github.io/remote-playback/#establishing-a-connection-with-a-remote-playback-device",
         "title": "Establishing a connection with a remote playback device",
+        "alternateIds": [
+          "x5-2-4-establishing-a-connection-with-a-remote-playback-device"
+        ],
         "number": "5.2.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-browser-initiated-remote-playback",
@@ -658,9 +786,13 @@
         "id": "browser-initiated-remote-playback",
         "href": "https://w3c.github.io/remote-playback/#browser-initiated-remote-playback",
         "title": "Browser initiated remote playback",
+        "alternateIds": [
+          "x5-2-5-browser-initiated-remote-playback"
+        ],
         "number": "5.2.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-disconnect-from-a-remote-playback-device",
@@ -677,9 +809,13 @@
         "id": "disconnecting-from-a-remote-playback-device",
         "href": "https://w3c.github.io/remote-playback/#disconnecting-from-a-remote-playback-device",
         "title": "Disconnecting from a remote playback device",
+        "alternateIds": [
+          "x5-2-7-disconnecting-from-a-remote-playback-device"
+        ],
         "number": "5.2.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-remoteplayback-onconnecting",
@@ -700,9 +836,13 @@
         "id": "event-handlers",
         "href": "https://w3c.github.io/remote-playback/#event-handlers",
         "title": "Event Handlers",
+        "alternateIds": [
+          "x5-2-8-event-handlers"
+        ],
         "number": "5.2.8"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-connecting",
@@ -719,9 +859,13 @@
         "id": "event-handlers",
         "href": "https://w3c.github.io/remote-playback/#event-handlers",
         "title": "Event Handlers",
+        "alternateIds": [
+          "x5-2-8-event-handlers"
+        ],
         "number": "5.2.8"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-remoteplayback-onconnect",
@@ -742,9 +886,13 @@
         "id": "event-handlers",
         "href": "https://w3c.github.io/remote-playback/#event-handlers",
         "title": "Event Handlers",
+        "alternateIds": [
+          "x5-2-8-event-handlers"
+        ],
         "number": "5.2.8"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-connect",
@@ -761,9 +909,13 @@
         "id": "event-handlers",
         "href": "https://w3c.github.io/remote-playback/#event-handlers",
         "title": "Event Handlers",
+        "alternateIds": [
+          "x5-2-8-event-handlers"
+        ],
         "number": "5.2.8"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-remoteplayback-ondisconnect",
@@ -784,9 +936,13 @@
         "id": "event-handlers",
         "href": "https://w3c.github.io/remote-playback/#event-handlers",
         "title": "Event Handlers",
+        "alternateIds": [
+          "x5-2-8-event-handlers"
+        ],
         "number": "5.2.8"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-disconnect",
@@ -803,9 +959,13 @@
         "id": "event-handlers",
         "href": "https://w3c.github.io/remote-playback/#event-handlers",
         "title": "Event Handlers",
+        "alternateIds": [
+          "x5-2-8-event-handlers"
+        ],
         "number": "5.2.8"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-htmlmediaelement-remote",
@@ -826,9 +986,13 @@
         "id": "extensions-to-htmlmediaelement",
         "href": "https://w3c.github.io/remote-playback/#extensions-to-htmlmediaelement",
         "title": "Extensions to HTMLMediaElement",
+        "alternateIds": [
+          "x5-3-extensions-to-htmlmediaelement"
+        ],
         "number": "5.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-htmlmediaelement-disableremoteplayback",
@@ -849,9 +1013,13 @@
         "id": "the-disableremoteplayback-attribute",
         "href": "https://w3c.github.io/remote-playback/#the-disableremoteplayback-attribute",
         "title": "The disableRemotePlayback attribute",
+        "alternateIds": [
+          "x5-3-1-the-disableremoteplayback-attribute"
+        ],
         "number": "5.3.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dfn-disable-remote-playback",
@@ -868,9 +1036,13 @@
         "id": "disabling-remote-playback",
         "href": "https://w3c.github.io/remote-playback/#disabling-remote-playback",
         "title": "Disabling remote playback",
+        "alternateIds": [
+          "x5-3-2-disabling-remote-playback"
+        ],
         "number": "5.3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

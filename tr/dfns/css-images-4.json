@@ -21,7 +21,8 @@
         "title": "2D Image Values: the <image> type",
         "number": "2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "invalid-image",
@@ -36,11 +37,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "image-values",
+        "href": "https://www.w3.org/TR/css-images-4/#image-values",
+        "title": "2D Image Values: the <image> type",
+        "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "loading-image",
@@ -54,11 +57,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "image-values",
+        "href": "https://www.w3.org/TR/css-images-4/#image-values",
+        "title": "2D Image Values: the <image> type",
+        "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "computed-image",
@@ -72,11 +77,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "image-values",
+        "href": "https://www.w3.org/TR/css-images-4/#image-values",
+        "title": "2D Image Values: the <image> type",
+        "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "fetch-an-external-image-for-a-stylesheet",
@@ -87,7 +94,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "fetching-images",
@@ -95,7 +102,8 @@
         "title": "Fetching External Images",
         "number": "2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "funcdef-image-set",
@@ -114,7 +122,8 @@
         "title": "Resolution/Type Negotiation: the image-set() notation",
         "number": "2.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "typedef-image-set-option",
@@ -128,11 +137,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "image-set-notation",
+        "href": "https://www.w3.org/TR/css-images-4/#image-set-notation",
+        "title": "Resolution/Type Negotiation: the image-set() notation",
+        "number": "2.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "funcdef-image-set-type",
@@ -148,11 +159,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "image-set-notation",
+        "href": "https://www.w3.org/TR/css-images-4/#image-set-notation",
+        "title": "Resolution/Type Negotiation: the image-set() notation",
+        "number": "2.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "funcdef-image",
@@ -171,7 +184,8 @@
         "title": "Image Fallbacks and Annotations: the image() notation",
         "number": "2.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-image-tags",
@@ -185,11 +199,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "image-notation",
+        "href": "https://www.w3.org/TR/css-images-4/#image-notation",
+        "title": "Image Fallbacks and Annotations: the image() notation",
+        "number": "2.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-image-src",
@@ -203,11 +219,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "image-notation",
+        "href": "https://www.w3.org/TR/css-images-4/#image-notation",
+        "title": "Image Fallbacks and Annotations: the image() notation",
+        "number": "2.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "funcdef-cross-fade",
@@ -226,7 +244,8 @@
         "title": "Combining images: the cross-fade() notation",
         "number": "2.6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-cf-image",
@@ -240,11 +259,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "cross-fade-function",
+        "href": "https://www.w3.org/TR/css-images-4/#cross-fade-function",
+        "title": "Combining images: the cross-fade() notation",
+        "number": "2.6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "natural-dimensions-of-a-cross-fade",
@@ -263,7 +284,8 @@
         "title": "cross-fade() Sizing",
         "number": "2.6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "appearance-of-a-cross-fade",
@@ -282,7 +304,8 @@
         "title": "cross-fade() Painting",
         "number": "2.6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "funcdef-element",
@@ -301,7 +324,8 @@
         "title": "Using Elements as Images: the element() notation",
         "number": "2.7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "decorated-bounding-box",
@@ -315,11 +339,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "element-notation",
+        "href": "https://www.w3.org/TR/css-images-4/#element-notation",
+        "title": "Using Elements as Images: the element() notation",
+        "number": "2.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "element-not-rendered",
@@ -333,11 +359,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "element-notation",
+        "href": "https://www.w3.org/TR/css-images-4/#element-notation",
+        "title": "Using Elements as Images: the element() notation",
+        "number": "2.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "paint-source",
@@ -356,7 +384,8 @@
         "title": "Paint Sources",
         "number": "2.7.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-css-elementsources",
@@ -377,7 +406,8 @@
         "title": "Using Out-Of-Document Sources: the ElementSources interface",
         "number": "2.7.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "gradient-function",
@@ -396,7 +426,8 @@
         "title": "Gradients",
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "typedef-gradient",
@@ -410,11 +441,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "gradients",
+        "href": "https://www.w3.org/TR/css-images-4/#gradients",
+        "title": "Gradients",
+        "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "gradient-box",
@@ -428,11 +461,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "gradients",
+        "href": "https://www.w3.org/TR/css-images-4/#gradients",
+        "title": "Gradients",
+        "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "starting-point",
@@ -446,11 +481,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "gradients",
+        "href": "https://www.w3.org/TR/css-images-4/#gradients",
+        "title": "Gradients",
+        "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "ending-point",
@@ -464,11 +501,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "gradients",
+        "href": "https://www.w3.org/TR/css-images-4/#gradients",
+        "title": "Gradients",
+        "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "gradient-line",
@@ -482,20 +521,22 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "gradients",
+        "href": "https://www.w3.org/TR/css-images-4/#gradients",
+        "title": "Gradients",
+        "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "funcdef-linear-gradient",
-      "href": "https://www.w3.org/TR/css-images-4/#funcdef-linear-gradient",
+      "id": "typedef-linear-gradient-syntax",
+      "href": "https://www.w3.org/TR/css-images-4/#typedef-linear-gradient-syntax",
       "linkingText": [
-        "linear-gradient()"
+        "<linear-gradient-syntax>"
       ],
       "localLinkingText": [],
-      "type": "function",
+      "type": "type",
       "for": [],
       "access": "public",
       "informative": false,
@@ -505,7 +546,8 @@
         "title": "Linear Gradients: the linear-gradient() notation",
         "number": "3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-side-or-corner",
@@ -519,30 +561,33 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "linear-gradients",
+        "href": "https://www.w3.org/TR/css-images-4/#linear-gradients",
+        "title": "Linear Gradients: the linear-gradient() notation",
+        "number": "3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
-      "id": "funcdef-radial-gradient",
-      "href": "https://www.w3.org/TR/css-images-4/#funcdef-radial-gradient",
+      "id": "typedef-radial-gradient-syntax",
+      "href": "https://www.w3.org/TR/css-images-4/#typedef-radial-gradient-syntax",
       "linkingText": [
-        "radial-gradient()"
+        "<radial-gradient-syntax>"
       ],
       "localLinkingText": [],
-      "type": "function",
+      "type": "type",
       "for": [],
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "radial-gradients",
-        "href": "https://www.w3.org/TR/css-images-4/#radial-gradients",
-        "title": "Radial Gradients: the radial-gradient() notation",
-        "number": "3.2"
+        "id": "radial-color-interpolation",
+        "href": "https://www.w3.org/TR/css-images-4/#radial-color-interpolation",
+        "title": "Adding <color-interpolation-method>",
+        "number": "3.2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "funcdef-conic-gradient",
@@ -561,7 +606,51 @@
         "title": "conic-gradient() Syntax",
         "number": "3.3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "typedef-conic-gradient-syntax",
+      "href": "https://www.w3.org/TR/css-images-4/#typedef-conic-gradient-syntax",
+      "linkingText": [
+        "<conic-gradient-syntax>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "conic-gradient-syntax",
+        "href": "https://www.w3.org/TR/css-images-4/#conic-gradient-syntax",
+        "title": "conic-gradient() Syntax",
+        "number": "3.3.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "valdef-conic-gradient-angle--zero",
+      "href": "https://www.w3.org/TR/css-images-4/#valdef-conic-gradient-angle--zero",
+      "linkingText": [
+        "<angle> | <zero>"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "conic-gradient()",
+        "repeating-conic-gradient()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "conic-gradient-syntax",
+        "href": "https://www.w3.org/TR/css-images-4/#conic-gradient-syntax",
+        "title": "conic-gradient() Syntax",
+        "number": "3.3.1"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "conic-gradient-gradient-center",
@@ -578,11 +667,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "conic-gradient-syntax",
+        "href": "https://www.w3.org/TR/css-images-4/#conic-gradient-syntax",
+        "title": "conic-gradient() Syntax",
+        "number": "3.3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "funcdef-repeating-linear-gradient",
@@ -601,7 +692,8 @@
         "title": "Repeating Gradients: the repeating-linear-gradient(), repeating-radial-gradient(), and repeating-conic-gradient() notations",
         "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "funcdef-repeating-radial-gradient",
@@ -615,11 +707,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "repeating-gradients",
+        "href": "https://www.w3.org/TR/css-images-4/#repeating-gradients",
+        "title": "Repeating Gradients: the repeating-linear-gradient(), repeating-radial-gradient(), and repeating-conic-gradient() notations",
+        "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "funcdef-repeating-conic-gradient",
@@ -633,11 +727,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "repeating-gradients",
+        "href": "https://www.w3.org/TR/css-images-4/#repeating-gradients",
+        "title": "Repeating Gradients: the repeating-linear-gradient(), repeating-radial-gradient(), and repeating-conic-gradient() notations",
+        "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "color-stop",
@@ -656,7 +752,8 @@
         "title": "Defining Gradient Color",
         "number": "3.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "color-transition-hint",
@@ -672,11 +769,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "gradient-colors",
+        "href": "https://www.w3.org/TR/css-images-4/#gradient-colors",
+        "title": "Defining Gradient Color",
+        "number": "3.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "color-stop-list",
@@ -695,7 +794,8 @@
         "title": "Color Stop Lists",
         "number": "3.5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "typedef-color-stop-list",
@@ -709,11 +809,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "color-stop-syntax",
+        "href": "https://www.w3.org/TR/css-images-4/#color-stop-syntax",
+        "title": "Color Stop Lists",
+        "number": "3.5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-linear-color-stop",
@@ -727,11 +829,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "color-stop-syntax",
+        "href": "https://www.w3.org/TR/css-images-4/#color-stop-syntax",
+        "title": "Color Stop Lists",
+        "number": "3.5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-linear-color-hint",
@@ -745,11 +849,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "color-stop-syntax",
+        "href": "https://www.w3.org/TR/css-images-4/#color-stop-syntax",
+        "title": "Color Stop Lists",
+        "number": "3.5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-color-stop-length",
@@ -763,11 +869,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "color-stop-syntax",
+        "href": "https://www.w3.org/TR/css-images-4/#color-stop-syntax",
+        "title": "Color Stop Lists",
+        "number": "3.5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-angular-color-stop-list",
@@ -781,11 +889,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "color-stop-syntax",
+        "href": "https://www.w3.org/TR/css-images-4/#color-stop-syntax",
+        "title": "Color Stop Lists",
+        "number": "3.5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-angular-color-stop",
@@ -799,11 +909,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "color-stop-syntax",
+        "href": "https://www.w3.org/TR/css-images-4/#color-stop-syntax",
+        "title": "Color Stop Lists",
+        "number": "3.5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-angular-color-hint",
@@ -817,11 +929,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "color-stop-syntax",
+        "href": "https://www.w3.org/TR/css-images-4/#color-stop-syntax",
+        "title": "Color Stop Lists",
+        "number": "3.5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-color-stop-angle",
@@ -835,11 +949,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "color-stop-syntax",
+        "href": "https://www.w3.org/TR/css-images-4/#color-stop-syntax",
+        "title": "Color Stop Lists",
+        "number": "3.5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-color-stop",
@@ -853,11 +969,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "color-stop-syntax",
+        "href": "https://www.w3.org/TR/css-images-4/#color-stop-syntax",
+        "title": "Color Stop Lists",
+        "number": "3.5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "1d-image",
@@ -878,7 +996,8 @@
         "title": "1D Image Values: the <image-1D> type and stripes() notation",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "paint-line",
@@ -892,11 +1011,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "stripes",
+        "href": "https://www.w3.org/TR/css-images-4/#stripes",
+        "title": "1D Image Values: the <image-1D> type and stripes() notation",
+        "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "typedef-image-1d",
@@ -910,11 +1031,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "stripes",
+        "href": "https://www.w3.org/TR/css-images-4/#stripes",
+        "title": "1D Image Values: the <image-1D> type and stripes() notation",
+        "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "funcdef-stripes",
@@ -928,11 +1051,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "stripes",
+        "href": "https://www.w3.org/TR/css-images-4/#stripes",
+        "title": "1D Image Values: the <image-1D> type and stripes() notation",
+        "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "typedef-color-stripe",
@@ -946,11 +1071,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "stripes",
+        "href": "https://www.w3.org/TR/css-images-4/#stripes",
+        "title": "1D Image Values: the <image-1D> type and stripes() notation",
+        "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-object-fit",
@@ -969,7 +1096,8 @@
         "title": "Sizing Objects: the object-fit property",
         "number": "5.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-object-fit-fill",
@@ -990,7 +1118,8 @@
         "title": "Sizing Objects: the object-fit property",
         "number": "5.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-object-fit-none",
@@ -1011,7 +1140,8 @@
         "title": "Sizing Objects: the object-fit property",
         "number": "5.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-object-fit-contain",
@@ -1027,11 +1157,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "the-object-fit",
+        "href": "https://www.w3.org/TR/css-images-4/#the-object-fit",
+        "title": "Sizing Objects: the object-fit property",
+        "number": "5.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-object-fit-cover",
@@ -1047,11 +1179,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "the-object-fit",
+        "href": "https://www.w3.org/TR/css-images-4/#the-object-fit",
+        "title": "Sizing Objects: the object-fit property",
+        "number": "5.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-object-fit-scale-down",
@@ -1067,11 +1201,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "the-object-fit",
+        "href": "https://www.w3.org/TR/css-images-4/#the-object-fit",
+        "title": "Sizing Objects: the object-fit property",
+        "number": "5.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "image-resolution",
@@ -1090,7 +1226,8 @@
         "title": "Overriding Image Resolutions: the image-resolution property",
         "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-image-resolution",
@@ -1109,7 +1246,8 @@
         "title": "Overriding Image Resolutions: the image-resolution property",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "preferred-resolution",
@@ -1128,7 +1266,8 @@
         "title": "Overriding Image Resolutions: the image-resolution property",
         "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-image-resolution-from-image",
@@ -1144,11 +1283,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "the-image-resolution",
+        "href": "https://www.w3.org/TR/css-images-4/#the-image-resolution",
+        "title": "Overriding Image Resolutions: the image-resolution property",
+        "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "--natural-resolution",
@@ -1164,11 +1305,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "the-image-resolution",
+        "href": "https://www.w3.org/TR/css-images-4/#the-image-resolution",
+        "title": "Overriding Image Resolutions: the image-resolution property",
+        "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-image-resolution-snap",
@@ -1184,11 +1327,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-images-4/#title",
-        "title": "CSS Images Module Level 4"
+        "id": "the-image-resolution",
+        "href": "https://www.w3.org/TR/css-images-4/#the-image-resolution",
+        "title": "Overriding Image Resolutions: the image-resolution property",
+        "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "funcdef--webkit-image-set",
@@ -1207,7 +1352,8 @@
         "title": "Deprecated Features and Aliases",
         "number": "A"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

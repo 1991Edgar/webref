@@ -8,6 +8,11 @@
       "https://blog.google/products/chrome/privacy-sustainability-and-the-importance-of-and/": {},
       "https://blog.mozilla.org/blog/2019/09/03/todays-firefox-blocks-third-party-tracking-cookies-and-cryptomining-by-default/": {},
       "https://datatracker.ietf.org/doc/html/rfc2119": {},
+      "https://datatracker.ietf.org/doc/html/rfc6749": {
+        "anchors": [
+          "section-4.1.2.1"
+        ]
+      },
       "https://datatracker.ietf.org/doc/html/rfc7258": {},
       "https://dom.spec.whatwg.org/": {},
       "https://drafts.csswg.org/css-color-4/": {},
@@ -23,10 +28,10 @@
         ]
       },
       "https://github.com/fedidcg/FedCM/issues/314": {},
-      "https://github.com/fedidcg/FedCM/issues/319": {},
       "https://github.com/fedidcg/FedCM/issues/333": {},
       "https://github.com/fedidcg/FedCM/issues/336": {},
       "https://github.com/fedidcg/FedCM/issues/476": {},
+      "https://github.com/httpwg/http-extensions/issues/2084": {},
       "https://github.com/michaelkleber/privacy-model": {},
       "https://github.com/w3c-fedid/": {},
       "https://github.com/w3c-fedid/FedCM/issues/240": {},
@@ -83,13 +88,13 @@
         ]
       },
       "https://tc39.es/ecma262/multipage/": {},
-      "https://tc39.es/ecma262/multipage/structured-data.html": {
+      "https://tc39.es/ecma262/multipage/overview.html": {
         "anchors": [
-          "sec-json-object"
+          "sec-objects"
         ]
       },
       "https://url.spec.whatwg.org/": {},
-      "https://w3c.github.io/ServiceWorker/": {},
+      "https://w3c-fedid.github.io/login-status/": {},
       "https://w3c.github.io/webappsec-credential-management/": {
         "anchors": [
           "algorithm-request"
@@ -110,10 +115,14 @@
           "hl-intrusion"
         ]
       },
-      "https://webidl.spec.whatwg.org/": {},
+      "https://webidl.spec.whatwg.org/": {
+        "anchors": [
+          "idl-any"
+        ]
+      },
       "https://webkit.org/blog/10218/full-third-party-cookie-blocking-and-more/": {},
       "https://wiki.mozilla.org/Identity/Persona_AAR": {},
-      "https://www.rfc-editor.org/rfc/rfc6973": {
+      "https://www.rfc-editor.org/info/rfc6973/": {
         "anchors": [
           "section-5.1.3"
         ]
@@ -132,7 +141,7 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://datatracker.ietf.org/doc/html/rfc2119": {},
@@ -145,6 +154,7 @@
       },
       "https://drafts.csswg.org/css-color-4/": {
         "anchors": [
+          "color",
           "typedef-hex-color",
           "funcdef-hsl",
           "funcdef-rgb",
@@ -174,7 +184,6 @@
           "concept-request-body",
           "concept-request-redirect-mode",
           "concept-request-client",
-          "concept-request-window",
           "request-service-workers-mode",
           "concept-request-destination",
           "concept-request-origin",
@@ -186,11 +195,11 @@
           "concept-request-mode",
           "concept-response",
           "concept-request-referrer-policy",
+          "concept-response-status",
+          "ok-status",
           "concept-fetch",
           "process-response-end-of-body",
           "concept-network-error",
-          "concept-response-status",
-          "ok-status",
           "concept-header-extract-mime-type",
           "concept-response-header-list",
           "http-origin",
@@ -201,14 +210,17 @@
       "https://html.spec.whatwg.org/multipage/browsers.html": {
         "anchors": [
           "concept-origin",
+          "same-origin",
+          "same-site",
           "concept-origin-opaque",
           "concept-origin-scheme",
-          "same-origin"
+          "ascii-serialisation-of-an-origin"
         ]
       },
       "https://html.spec.whatwg.org/multipage/document-sequences.html": {
         "anchors": [
           "nav-top",
+          "nav-document",
           "create-a-fresh-top-level-traversable",
           "top-level-traversable"
         ]
@@ -235,13 +247,15 @@
       },
       "https://html.spec.whatwg.org/multipage/nav-history-apis.html": {
         "anchors": [
+          "window-navigable",
           "concept-document-window",
-          "window-navigable"
+          "window"
         ]
       },
       "https://html.spec.whatwg.org/multipage/webappapis.html": {
         "anchors": [
           "current-global-object",
+          "concept-relevant-realm",
           "relevant-settings-object",
           "concept-settings-object-origin",
           "environment-settings-object",
@@ -249,6 +263,7 @@
           "dom-manipulation-task-source",
           "concept-global-object-realm",
           "networking-task-source",
+          "concept-relevant-global",
           "current-settings-object"
         ]
       },
@@ -262,13 +277,18 @@
           "list-contain",
           "set-append",
           "list",
+          "list-empty",
           "list-size",
-          "serialize-a-javascript-value-to-a-json-string",
-          "string",
           "ordered-map",
+          "iteration-continue",
+          "map-is-empty",
+          "map-getting-the-values",
+          "list-extend",
+          "serialize-a-javascript-value-to-a-json-string",
+          "string-concatenate",
+          "string",
           "parse-json-bytes-to-a-javascript-value",
           "list-append",
-          "list-empty",
           "boolean"
         ]
       },
@@ -287,11 +307,12 @@
           "concept-url-origin",
           "concept-url",
           "concept-urlencoded-serializer",
+          "host-registrable-domain",
           "concept-url-scheme",
           "concept-url-host",
-          "host-registrable-domain",
           "concept-url-path",
           "concept-url-equals",
+          "url-query-string",
           "concept-url-parser",
           "concept-url-query"
         ]
@@ -301,13 +322,8 @@
           "get-the-login-status",
           "unknown",
           "logged-out",
-          "set-the-login-status",
-          "logged-in"
-        ]
-      },
-      "https://w3c.github.io/ServiceWorker/": {
-        "anchors": [
-          "extendableevent-active"
+          "logged-in",
+          "set-the-login-status"
         ]
       },
       "https://w3c.github.io/webappsec-credential-management/": {
@@ -324,9 +340,9 @@
           "abstract-opdef-request-a-credential",
           "same-origin-with-its-ancestors",
           "dom-credentialrequestoptions-signal",
-          "origin-requires-user-mediation",
           "dom-credentialrequestoptions-mediation",
           "dom-credentialmediationrequirement-silent",
+          "origin-requires-user-mediation",
           "dom-credentialmediationrequirement-required"
         ]
       },
@@ -372,6 +388,7 @@
           "SecureContext",
           "idl-promise",
           "idl-undefined",
+          "idl-any",
           "idl-boolean",
           "notallowederror",
           "idl-DOMException",
@@ -380,9 +397,12 @@
           "networkerror",
           "resolve",
           "dfn-convert-ecmascript-to-idl-value",
-          "idl-sequence",
           "idl-DOMString",
-          "idl-any",
+          "new",
+          "dom-domexception-message",
+          "dom-domexception-domexception",
+          "this",
+          "idl-sequence",
           "idl-unsigned-long",
           "a-promise-rejected-with",
           "dfn-dictionary"

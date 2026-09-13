@@ -21,7 +21,8 @@
         "title": "Feature descriptor",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrmesh",
@@ -40,7 +41,8 @@
         "title": "XRMesh",
         "number": "3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrmesh-meshspace",
@@ -56,11 +58,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/real-world-meshing/#title",
-        "title": "WebXR Mesh Detection Module"
+        "id": "mesh",
+        "href": "https://immersive-web.github.io/real-world-meshing/#mesh",
+        "title": "XRMesh",
+        "number": "3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrmesh-vertices",
@@ -76,11 +80,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/real-world-meshing/#title",
-        "title": "WebXR Mesh Detection Module"
+        "id": "mesh",
+        "href": "https://immersive-web.github.io/real-world-meshing/#mesh",
+        "title": "XRMesh",
+        "number": "3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrmesh-indices",
@@ -96,11 +102,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/real-world-meshing/#title",
-        "title": "WebXR Mesh Detection Module"
+        "id": "mesh",
+        "href": "https://immersive-web.github.io/real-world-meshing/#mesh",
+        "title": "XRMesh",
+        "number": "3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrmesh-lastchangedtime",
@@ -116,11 +124,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/real-world-meshing/#title",
-        "title": "WebXR Mesh Detection Module"
+        "id": "mesh",
+        "href": "https://immersive-web.github.io/real-world-meshing/#mesh",
+        "title": "XRMesh",
+        "number": "3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrmesh-semanticlabel",
@@ -136,11 +146,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/real-world-meshing/#title",
-        "title": "WebXR Mesh Detection Module"
+        "id": "mesh",
+        "href": "https://immersive-web.github.io/real-world-meshing/#mesh",
+        "title": "XRMesh",
+        "number": "3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "xrmesh-native-entity",
@@ -156,11 +168,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/real-world-meshing/#title",
-        "title": "WebXR Mesh Detection Module"
+        "id": "mesh",
+        "href": "https://immersive-web.github.io/real-world-meshing/#mesh",
+        "title": "XRMesh",
+        "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrmesh-frame",
@@ -176,11 +190,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/real-world-meshing/#title",
-        "title": "WebXR Mesh Detection Module"
+        "id": "mesh",
+        "href": "https://immersive-web.github.io/real-world-meshing/#mesh",
+        "title": "XRMesh",
+        "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrmeshset",
@@ -199,7 +215,8 @@
         "title": "XRMeshSet",
         "number": "4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrframe-detectedmeshes",
@@ -215,11 +232,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/real-world-meshing/#title",
-        "title": "WebXR Mesh Detection Module"
+        "id": "mesh-set",
+        "href": "https://immersive-web.github.io/real-world-meshing/#mesh-set",
+        "title": "XRMeshSet",
+        "number": "4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "xrsession-set-of-tracked-meshes",
@@ -235,11 +254,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/real-world-meshing/#title",
-        "title": "WebXR Mesh Detection Module"
+        "id": "mesh-set",
+        "href": "https://immersive-web.github.io/real-world-meshing/#mesh-set",
+        "title": "XRMeshSet",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "update-meshes",
@@ -253,11 +274,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/real-world-meshing/#title",
-        "title": "WebXR Mesh Detection Module"
+        "id": "mesh-set",
+        "href": "https://immersive-web.github.io/real-world-meshing/#mesh-set",
+        "title": "XRMeshSet",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "create-mesh-object",
@@ -271,11 +294,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/real-world-meshing/#title",
-        "title": "WebXR Mesh Detection Module"
+        "id": "mesh-set",
+        "href": "https://immersive-web.github.io/real-world-meshing/#mesh-set",
+        "title": "XRMeshSet",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "correspond-to",
@@ -289,11 +314,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/real-world-meshing/#title",
-        "title": "WebXR Mesh Detection Module"
+        "id": "mesh-set",
+        "href": "https://immersive-web.github.io/real-world-meshing/#mesh-set",
+        "title": "XRMeshSet",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "update-mesh-object",
@@ -307,11 +334,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/real-world-meshing/#title",
-        "title": "WebXR Mesh Detection Module"
+        "id": "mesh-set",
+        "href": "https://immersive-web.github.io/real-world-meshing/#mesh-set",
+        "title": "XRMeshSet",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "native-mesh-detection",
@@ -329,7 +358,8 @@
         "href": "https://immersive-web.github.io/real-world-meshing/#title",
         "title": "WebXR Mesh Detection Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "native-mesh-objects",
@@ -347,7 +377,8 @@
         "href": "https://immersive-web.github.io/real-world-meshing/#title",
         "title": "WebXR Mesh Detection Module"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

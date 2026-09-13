@@ -50,7 +50,7 @@
       "targets": [
         "ServiceWorkerContainer"
       ],
-      "interface": "Event"
+      "interface": "MessageEvent"
     },
     {
       "href": "https://w3c.github.io/ServiceWorker/#service-worker-container-messageerror-event",
@@ -62,7 +62,7 @@
       "targets": [
         "ServiceWorkerContainer"
       ],
-      "interface": "Event"
+      "interface": "MessageEvent"
     },
     {
       "href": "https://w3c.github.io/ServiceWorker/#service-worker-global-scope-install-event",
@@ -101,9 +101,10 @@
       "interface": "FetchEvent"
     },
     {
-      "href": "https://w3c.github.io/push-api/#dfn-push",
+      "href": "https://w3c.github.io/push-api/#pushevent-interface",
       "src": {
-        "format": "summary table"
+        "format": "summary table",
+        "href": "https://w3c.github.io/ServiceWorker/#c22e82f90"
       },
       "type": "push",
       "interface": "PushEvent",
@@ -128,7 +129,7 @@
       "isExtension": true
     },
     {
-      "href": "https://wicg.github.io/BackgroundSync/spec/#sync",
+      "href": "https://wicg.github.io/background-sync/spec/#syncevent",
       "src": {
         "format": "summary table"
       },
@@ -137,7 +138,7 @@
       "isExtension": true
     },
     {
-      "href": "https://w3c.github.io/payment-handler/#the-canmakepaymentevent",
+      "href": "https://w3c.github.io/web-based-payment-handler/#the-canmakepaymentevent",
       "src": {
         "format": "summary table"
       },
@@ -146,7 +147,7 @@
       "isExtension": true
     },
     {
-      "href": "https://w3c.github.io/payment-handler/#the-paymentrequestevent",
+      "href": "https://w3c.github.io/web-based-payment-handler/#the-paymentrequestevent",
       "src": {
         "format": "summary table"
       },
@@ -176,7 +177,7 @@
       "targets": [
         "ServiceWorkerGlobalScope"
       ],
-      "interface": "MessageEvent"
+      "interface": "ExtendableMessageEvent"
     }
   ]
 }

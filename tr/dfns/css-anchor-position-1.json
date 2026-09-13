@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Anchor Positioning",
+    "title": "CSS Anchor Positioning Module Level 1",
     "url": "https://www.w3.org/TR/css-anchor-position-1/"
   },
   "dfns": [
@@ -21,7 +21,8 @@
         "title": "Introduction",
         "number": "1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "anchor-functions",
@@ -40,7 +41,50 @@
         "title": "Introduction",
         "number": "1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "anchor-reference",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#anchor-reference",
+      "linkingText": [
+        "anchor reference"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "intro",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#intro",
+        "title": "Introduction",
+        "number": "1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "anchor-box",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#anchor-box",
+      "linkingText": [
+        "anchor box"
+      ],
+      "localLinkingText": [
+        "anchor"
+      ],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "determining",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#determining",
+        "title": "Determining the Anchor",
+        "number": "2"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-anchor-name",
@@ -59,7 +103,28 @@
         "title": "Creating an Anchor: the anchor-name property",
         "number": "2.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "typedef-anchor-name",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#typedef-anchor-name",
+      "linkingText": [
+        "<anchor-name>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "name",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#name",
+        "title": "Creating an Anchor: the anchor-name property",
+        "number": "2.1"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "anchor-element",
@@ -78,28 +143,8 @@
         "title": "Creating an Anchor: the anchor-name property",
         "number": "2.1"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "anchor-box",
-      "href": "https://www.w3.org/TR/css-anchor-position-1/#anchor-box",
-      "linkingText": [
-        "anchor box"
-      ],
-      "localLinkingText": [
-        "anchor"
-      ],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "name",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#name",
-        "title": "Creating an Anchor: the anchor-name property",
-        "number": "2.1"
-      },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "anchor-name",
@@ -118,7 +163,8 @@
         "title": "Creating an Anchor: the anchor-name property",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-anchor-name-none",
@@ -139,13 +185,14 @@
         "title": "Creating an Anchor: the anchor-name property",
         "number": "2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
-      "id": "valdef-anchor-name-dashed-ident",
-      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-anchor-name-dashed-ident",
+      "id": "valdef-anchor-name-anchor-name",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-anchor-name-anchor-name",
       "linkingText": [
-        "<dashed-ident>#"
+        "<anchor-name>#"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -160,26 +207,8 @@
         "title": "Creating an Anchor: the anchor-name property",
         "number": "2.1"
       },
-      "definedIn": "dt"
-    },
-    {
-      "id": "implicit-anchor-element",
-      "href": "https://www.w3.org/TR/css-anchor-position-1/#implicit-anchor-element",
-      "linkingText": [
-        "implicit anchor element"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "implicit",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#implicit",
-        "title": "Implicit Anchor Elements",
-        "number": "2.1.1"
-      },
-      "definedIn": "prose"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-anchor-scope",
@@ -198,7 +227,8 @@
         "title": "Scoping Anchor Names: the anchor-scope property",
         "number": "2.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-anchor-scope-none",
@@ -219,7 +249,8 @@
         "title": "Scoping Anchor Names: the anchor-scope property",
         "number": "2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-anchor-scope-all",
@@ -240,7 +271,30 @@
         "title": "Scoping Anchor Names: the anchor-scope property",
         "number": "2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-anchor-scope-anchor-name",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-anchor-scope-anchor-name",
+      "linkingText": [
+        "<anchor-name>"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "anchor-scope"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "anchor-scope",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#anchor-scope",
+        "title": "Scoping Anchor Names: the anchor-scope property",
+        "number": "2.2"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "anchor-specifier",
@@ -259,7 +313,8 @@
         "title": "Finding an Anchor",
         "number": "2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "target-anchor-element",
@@ -278,7 +333,8 @@
         "title": "Finding an Anchor",
         "number": "2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "acceptable-anchor-element",
@@ -297,7 +353,8 @@
         "title": "Finding an Anchor",
         "number": "2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-position-anchor",
@@ -316,7 +373,8 @@
         "title": "Default Anchors: the position-anchor property",
         "number": "2.4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "default-anchor-element",
@@ -335,7 +393,52 @@
         "title": "Default Anchors: the position-anchor property",
         "number": "2.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "valdef-position-anchor-normal",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-anchor-normal",
+      "linkingText": [
+        "normal"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "position-anchor"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-anchor",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-anchor",
+        "title": "Default Anchors: the position-anchor property",
+        "number": "2.4"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-position-anchor-none",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-anchor-none",
+      "linkingText": [
+        "none"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "position-anchor"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-anchor",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-anchor",
+        "title": "Default Anchors: the position-anchor property",
+        "number": "2.4"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-anchor-auto",
@@ -356,7 +459,8 @@
         "title": "Default Anchors: the position-anchor property",
         "number": "2.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-anchor-anchor-name",
@@ -377,7 +481,30 @@
         "title": "Default Anchors: the position-anchor property",
         "number": "2.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-position-anchor-match-parent",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-anchor-match-parent",
+      "linkingText": [
+        "match-parent"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "position-anchor"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-anchor",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-anchor",
+        "title": "Default Anchors: the position-anchor property",
+        "number": "2.4"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "default-anchor-box",
@@ -396,7 +523,28 @@
         "title": "Default Anchors: the position-anchor property",
         "number": "2.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "implicit-anchor-element",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#implicit-anchor-element",
+      "linkingText": [
+        "implicit anchor element"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "implicit",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#implicit",
+        "title": "Implicit Anchor Elements",
+        "number": "2.4.1"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-position-area",
@@ -415,26 +563,8 @@
         "title": "The position-area Property",
         "number": "3.1"
       },
-      "definedIn": "table"
-    },
-    {
-      "id": "typedef-position-area",
-      "href": "https://www.w3.org/TR/css-anchor-position-1/#typedef-position-area",
-      "linkingText": [
-        "<position-area>"
-      ],
-      "localLinkingText": [],
-      "type": "type",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "position-area",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area",
-        "title": "The position-area Property",
-        "number": "3.1"
-      },
-      "definedIn": "pre"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-position-area-none",
@@ -455,7 +585,8 @@
         "title": "The position-area Property",
         "number": "3.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-area-position-area",
@@ -476,7 +607,8 @@
         "title": "The position-area Property",
         "number": "3.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "position-area-grid",
@@ -490,12 +622,33 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
+        "id": "position-area-grid-resolution",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-grid-resolution",
+        "title": "Resolving the Position Area Grid",
         "number": "3.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "typedef-position-area",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#typedef-position-area",
+      "linkingText": [
+        "<position-area>"
+      ],
+      "localLinkingText": [],
+      "type": "type",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "valdef-position-area-start",
@@ -512,12 +665,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-area-end",
@@ -534,12 +688,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-area-self-start",
@@ -556,12 +711,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-area-self-end",
@@ -578,12 +734,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-area-top",
@@ -600,12 +757,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-area-bottom",
@@ -622,12 +780,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-area-left",
@@ -644,12 +803,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-area-right",
@@ -666,12 +826,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-area-y-start",
@@ -688,12 +849,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-area-y-end",
@@ -710,18 +872,19 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
-      "id": "valdef-position-area-y-self-start",
-      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-area-y-self-start",
+      "id": "valdef-position-area-self-y-start",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-area-self-y-start",
       "linkingText": [
-        "y-self-start"
+        "self-y-start"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -732,18 +895,19 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
-      "id": "valdef-position-area-y-self-end",
-      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-area-y-self-end",
+      "id": "valdef-position-area-self-y-end",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-area-self-y-end",
       "linkingText": [
-        "y-self-end"
+        "self-y-end"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -754,12 +918,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-area-x-start",
@@ -776,12 +941,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-area-x-end",
@@ -798,18 +964,19 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
-      "id": "valdef-position-area-x-self-start",
-      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-area-x-self-start",
+      "id": "valdef-position-area-self-x-start",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-area-self-x-start",
       "linkingText": [
-        "x-self-start"
+        "self-x-start"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -820,18 +987,19 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
-      "id": "valdef-position-area-x-self-end",
-      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-area-x-self-end",
+      "id": "valdef-position-area-self-x-end",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-area-self-x-end",
       "linkingText": [
-        "x-self-end"
+        "self-x-end"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -842,12 +1010,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-area-block-start",
@@ -864,12 +1033,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-area-block-end",
@@ -886,18 +1056,19 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
-      "id": "valdef-position-area-block-self-start",
-      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-area-block-self-start",
+      "id": "valdef-position-area-self-block-start",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-area-self-block-start",
       "linkingText": [
-        "block-self-start"
+        "self-block-start"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -908,18 +1079,19 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
-      "id": "valdef-position-area-block-self-end",
-      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-area-block-self-end",
+      "id": "valdef-position-area-self-block-end",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-area-self-block-end",
       "linkingText": [
-        "block-self-end"
+        "self-block-end"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -930,12 +1102,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-area-inline-start",
@@ -952,12 +1125,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-area-inline-end",
@@ -974,18 +1148,19 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
-      "id": "valdef-position-area-inline-self-start",
-      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-area-inline-self-start",
+      "id": "valdef-position-area-self-inline-start",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-area-self-inline-start",
       "linkingText": [
-        "inline-self-start"
+        "self-inline-start"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -996,18 +1171,19 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
-      "id": "valdef-position-area-inline-self-end",
-      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-area-inline-self-end",
+      "id": "valdef-position-area-self-inline-end",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-area-self-inline-end",
       "linkingText": [
-        "inline-self-end"
+        "self-inline-end"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -1018,12 +1194,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-area-center",
@@ -1040,12 +1217,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-area-span-start",
@@ -1062,12 +1240,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-area-span-end",
@@ -1084,12 +1263,59 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-position-area-span-self-start",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-area-span-self-start",
+      "linkingText": [
+        "span-self-start"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "position-area",
+        "<position-area>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-position-area-span-self-end",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-area-span-self-end",
+      "linkingText": [
+        "span-self-end"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "position-area",
+        "<position-area>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-area-span-top",
@@ -1106,12 +1332,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-area-span-bottom",
@@ -1128,12 +1355,59 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-position-area-span-left",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-area-span-left",
+      "linkingText": [
+        "span-left"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "position-area",
+        "<position-area>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-position-area-span-right",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-area-span-right",
+      "linkingText": [
+        "span-right"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "position-area",
+        "<position-area>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-area-span-y-start",
@@ -1150,12 +1424,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-area-span-y-end",
@@ -1172,12 +1447,59 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-position-area-span-self-y-start",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-area-span-self-y-start",
+      "linkingText": [
+        "span-self-y-start"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "position-area",
+        "<position-area>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-position-area-span-self-y-end",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-area-span-self-y-end",
+      "linkingText": [
+        "span-self-y-end"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "position-area",
+        "<position-area>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-area-span-x-start",
@@ -1194,12 +1516,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-area-span-x-end",
@@ -1216,12 +1539,59 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-position-area-span-self-x-start",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-area-span-self-x-start",
+      "linkingText": [
+        "span-self-x-start"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "position-area",
+        "<position-area>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-position-area-span-self-x-end",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-area-span-self-x-end",
+      "linkingText": [
+        "span-self-x-end"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "position-area",
+        "<position-area>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-area-span-block-start",
@@ -1238,12 +1608,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-area-span-block-end",
@@ -1260,12 +1631,59 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-position-area-span-self-block-start",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-area-span-self-block-start",
+      "linkingText": [
+        "span-self-block-start"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "position-area",
+        "<position-area>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-position-area-span-self-block-end",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-area-span-self-block-end",
+      "linkingText": [
+        "span-self-block-end"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "position-area",
+        "<position-area>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-area-span-inline-start",
@@ -1282,12 +1700,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-area-span-inline-end",
@@ -1304,12 +1723,59 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-position-area-span-self-inline-start",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-area-span-self-inline-start",
+      "linkingText": [
+        "span-self-inline-start"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "position-area",
+        "<position-area>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-position-area-span-self-inline-end",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-area-span-self-inline-end",
+      "linkingText": [
+        "span-self-inline-end"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "position-area",
+        "<position-area>"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-area-span-all",
@@ -1326,12 +1792,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "resolving-spans",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#resolving-spans",
-        "title": "Resolving <position-area>s",
-        "number": "3.1.1"
+        "id": "position-area-syntax",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-area-syntax",
+        "title": "Syntax of <position-area> Values",
+        "number": "3.1.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "funcdef-anchor",
@@ -1347,29 +1814,11 @@
       "heading": {
         "id": "anchor-pos",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#anchor-pos",
-        "title": "The anchor() Function",
+        "title": "Anchor-relative Insets: the anchor() function",
         "number": "3.2"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "typedef-anchor-name",
-      "href": "https://www.w3.org/TR/css-anchor-position-1/#typedef-anchor-name",
-      "linkingText": [
-        "<anchor-name>"
-      ],
-      "localLinkingText": [],
-      "type": "type",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "anchor-pos",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#anchor-pos",
-        "title": "The anchor() Function",
-        "number": "3.2"
-      },
-      "definedIn": "pre"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "typedef-anchor-side",
@@ -1385,10 +1834,11 @@
       "heading": {
         "id": "anchor-pos",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#anchor-pos",
-        "title": "The anchor() Function",
+        "title": "Anchor-relative Insets: the anchor() function",
         "number": "3.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "valdef-anchor-inside",
@@ -1406,10 +1856,11 @@
       "heading": {
         "id": "anchor-pos",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#anchor-pos",
-        "title": "The anchor() Function",
+        "title": "Anchor-relative Insets: the anchor() function",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-anchor-outside",
@@ -1427,10 +1878,11 @@
       "heading": {
         "id": "anchor-pos",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#anchor-pos",
-        "title": "The anchor() Function",
+        "title": "Anchor-relative Insets: the anchor() function",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-anchor-top",
@@ -1448,10 +1900,11 @@
       "heading": {
         "id": "anchor-pos",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#anchor-pos",
-        "title": "The anchor() Function",
+        "title": "Anchor-relative Insets: the anchor() function",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-anchor-right",
@@ -1469,10 +1922,11 @@
       "heading": {
         "id": "anchor-pos",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#anchor-pos",
-        "title": "The anchor() Function",
+        "title": "Anchor-relative Insets: the anchor() function",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-anchor-bottom",
@@ -1490,10 +1944,11 @@
       "heading": {
         "id": "anchor-pos",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#anchor-pos",
-        "title": "The anchor() Function",
+        "title": "Anchor-relative Insets: the anchor() function",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-anchor-left",
@@ -1511,10 +1966,11 @@
       "heading": {
         "id": "anchor-pos",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#anchor-pos",
-        "title": "The anchor() Function",
+        "title": "Anchor-relative Insets: the anchor() function",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-anchor-start",
@@ -1532,10 +1988,11 @@
       "heading": {
         "id": "anchor-pos",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#anchor-pos",
-        "title": "The anchor() Function",
+        "title": "Anchor-relative Insets: the anchor() function",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-anchor-end",
@@ -1553,10 +2010,11 @@
       "heading": {
         "id": "anchor-pos",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#anchor-pos",
-        "title": "The anchor() Function",
+        "title": "Anchor-relative Insets: the anchor() function",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-anchor-self-start",
@@ -1574,10 +2032,11 @@
       "heading": {
         "id": "anchor-pos",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#anchor-pos",
-        "title": "The anchor() Function",
+        "title": "Anchor-relative Insets: the anchor() function",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-anchor-self-end",
@@ -1595,10 +2054,11 @@
       "heading": {
         "id": "anchor-pos",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#anchor-pos",
-        "title": "The anchor() Function",
+        "title": "Anchor-relative Insets: the anchor() function",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-anchor-center",
@@ -1616,10 +2076,152 @@
       "heading": {
         "id": "anchor-pos",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#anchor-pos",
-        "title": "The anchor() Function",
+        "title": "Anchor-relative Insets: the anchor() function",
         "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "resolvable-anchor-function",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#resolvable-anchor-function",
+      "linkingText": [
+        "resolvable anchor function",
+        "unresolvable anchor function"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "anchor-resolution",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#anchor-resolution",
+        "title": "Resolution of anchor()",
+        "number": "3.2.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "anchor-recalculation-point",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#anchor-recalculation-point",
+      "linkingText": [
+        "anchor recalculation point"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "scroll",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#scroll",
+        "title": "Taking Scroll Into Account",
+        "number": "3.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "remembered-scroll-offset",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#remembered-scroll-offset",
+      "linkingText": [
+        "remembered scroll offset"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "scroll",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#scroll",
+        "title": "Taking Scroll Into Account",
+        "number": "3.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "compensate-for-scroll",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#compensate-for-scroll",
+      "linkingText": [
+        "compensate for scroll"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "scroll",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#scroll",
+        "title": "Taking Scroll Into Account",
+        "number": "3.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "default-scroll-shift",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#default-scroll-shift",
+      "linkingText": [
+        "default scroll shift"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "scroll",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#scroll",
+        "title": "Taking Scroll Into Account",
+        "number": "3.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "propdef-justify-self",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#propdef-justify-self",
+      "linkingText": [
+        "justify-self"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "anchor-center",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#anchor-center",
+        "title": "Centering on the Anchor: the anchor-center alignment value",
+        "number": "4.2"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "propdef-align-self",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#propdef-align-self",
+      "linkingText": [
+        "align-self"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "anchor-center",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#anchor-center",
+        "title": "Centering on the Anchor: the anchor-center alignment value",
+        "number": "4.2"
+      },
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-justify-self-anchor-center",
@@ -1631,237 +2233,18 @@
       "type": "value",
       "for": [
         "justify-self",
-        "align-self",
-        "justify-items",
-        "align-items"
+        "align-self"
       ],
       "access": "public",
       "informative": false,
       "heading": {
         "id": "anchor-center",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#anchor-center",
-        "title": "Centering on the Anchor: the anchor-center value",
-        "number": "3.3"
+        "title": "Centering on the Anchor: the anchor-center alignment value",
+        "number": "4.2"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "needs-scroll-adjustment",
-      "href": "https://www.w3.org/TR/css-anchor-position-1/#needs-scroll-adjustment",
-      "linkingText": [
-        "needs scroll adjustment"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "scroll",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#scroll",
-        "title": "Taking Scroll Into Account",
-        "number": "3.4"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "snapshotted-scroll-offset",
-      "href": "https://www.w3.org/TR/css-anchor-position-1/#snapshotted-scroll-offset",
-      "linkingText": [
-        "snapshotted scroll offset"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "scroll",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#scroll",
-        "title": "Taking Scroll Into Account",
-        "number": "3.4"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "valid-anchor-function",
-      "href": "https://www.w3.org/TR/css-anchor-position-1/#valid-anchor-function",
-      "linkingText": [
-        "valid anchor function",
-        "invalid anchor function"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "anchor-valid",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#anchor-valid",
-        "title": "Validity",
-        "number": "3.5"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "propdef-position-visibility",
-      "href": "https://www.w3.org/TR/css-anchor-position-1/#propdef-position-visibility",
-      "linkingText": [
-        "position-visibility"
-      ],
-      "localLinkingText": [],
-      "type": "property",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "position-visibility",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-visibility",
-        "title": "Conditional Hiding: the position-visibility property",
-        "number": "3.6"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "valdef-position-visibility-always",
-      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-visibility-always",
-      "linkingText": [
-        "always"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "position-visibility"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "position-visibility",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-visibility",
-        "title": "Conditional Hiding: the position-visibility property",
-        "number": "3.6"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-position-visibility-anchors-valid",
-      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-visibility-anchors-valid",
-      "linkingText": [
-        "anchors-valid"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "position-visibility"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "position-visibility",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-visibility",
-        "title": "Conditional Hiding: the position-visibility property",
-        "number": "3.6"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "required-anchor-reference",
-      "href": "https://www.w3.org/TR/css-anchor-position-1/#required-anchor-reference",
-      "linkingText": [
-        "required anchor reference"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": true,
-      "heading": {
-        "id": "position-visibility",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-visibility",
-        "title": "Conditional Hiding: the position-visibility property",
-        "number": "3.6"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "valdef-position-visibility-anchors-visible",
-      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-visibility-anchors-visible",
-      "linkingText": [
-        "anchors-visible"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "position-visibility"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "position-visibility",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-visibility",
-        "title": "Conditional Hiding: the position-visibility property",
-        "number": "3.6"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "valdef-position-visibility-no-overflow",
-      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-visibility-no-overflow",
-      "linkingText": [
-        "no-overflow"
-      ],
-      "localLinkingText": [],
-      "type": "value",
-      "for": [
-        "position-visibility"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "position-visibility",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-visibility",
-        "title": "Conditional Hiding: the position-visibility property",
-        "number": "3.6"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "clipped-by-intervening-boxes",
-      "href": "https://www.w3.org/TR/css-anchor-position-1/#clipped-by-intervening-boxes",
-      "linkingText": [
-        "clipped by intervening boxes"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "position-visibility",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-visibility",
-        "title": "Conditional Hiding: the position-visibility property",
-        "number": "3.6"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "strongly-hidden",
-      "href": "https://www.w3.org/TR/css-anchor-position-1/#strongly-hidden",
-      "linkingText": [
-        "strongly hidden"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "position-visibility",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-visibility",
-        "title": "Conditional Hiding: the position-visibility property",
-        "number": "3.6"
-      },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "funcdef-anchor-size",
@@ -1878,9 +2261,10 @@
         "id": "sizing",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#sizing",
         "title": "Anchor-Based Sizing",
-        "number": "4"
+        "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "typedef-anchor-size",
@@ -1897,9 +2281,10 @@
         "id": "anchor-size-fn",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#anchor-size-fn",
         "title": "The anchor-size() Function",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "valdef-anchor-size-width",
@@ -1918,9 +2303,10 @@
         "id": "anchor-size-fn",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#anchor-size-fn",
         "title": "The anchor-size() Function",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-anchor-size-height",
@@ -1939,9 +2325,10 @@
         "id": "anchor-size-fn",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#anchor-size-fn",
         "title": "The anchor-size() Function",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-anchor-size-block",
@@ -1960,9 +2347,10 @@
         "id": "anchor-size-fn",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#anchor-size-fn",
         "title": "The anchor-size() Function",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-anchor-size-inline",
@@ -1981,9 +2369,10 @@
         "id": "anchor-size-fn",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#anchor-size-fn",
         "title": "The anchor-size() Function",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-anchor-size-self-block",
@@ -2002,9 +2391,10 @@
         "id": "anchor-size-fn",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#anchor-size-fn",
         "title": "The anchor-size() Function",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-anchor-size-self-inline",
@@ -2023,16 +2413,17 @@
         "id": "anchor-size-fn",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#anchor-size-fn",
         "title": "The anchor-size() Function",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "valid-anchor-size-function",
-      "href": "https://www.w3.org/TR/css-anchor-position-1/#valid-anchor-size-function",
+      "id": "resolvable-anchor-size-function",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#resolvable-anchor-size-function",
       "linkingText": [
-        "valid anchor-size function",
-        "invalid anchor-size function"
+        "resolvable anchor-size function",
+        "unresolvable anchor-size function"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -2040,12 +2431,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "anchor-size-valid",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#anchor-size-valid",
-        "title": "Validity",
-        "number": "4.2"
+        "id": "anchor-size-resolution",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#anchor-size-resolution",
+        "title": "Resolution of anchor-size()",
+        "number": "5.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-position-try-fallbacks",
@@ -2062,9 +2454,10 @@
         "id": "position-try-fallbacks",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#position-try-fallbacks",
         "title": "Giving Fallback Options: the position-try-fallbacks property",
-        "number": "5.1"
+        "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "position-options-list",
@@ -2081,9 +2474,32 @@
         "id": "position-try-fallbacks",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#position-try-fallbacks",
         "title": "Giving Fallback Options: the position-try-fallbacks property",
-        "number": "5.1"
+        "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "fallback-base-styles",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#fallback-base-styles",
+      "linkingText": [
+        "fallback base styles"
+      ],
+      "localLinkingText": [
+        "base style"
+      ],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-try-fallbacks",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-try-fallbacks",
+        "title": "Giving Fallback Options: the position-try-fallbacks property",
+        "number": "6.1"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-position-try-fallbacks-none",
@@ -2102,9 +2518,10 @@
         "id": "position-try-fallbacks",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#position-try-fallbacks",
         "title": "Giving Fallback Options: the position-try-fallbacks property",
-        "number": "5.1"
+        "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-try-fallbacks-try-tactic",
@@ -2123,9 +2540,10 @@
         "id": "position-try-fallbacks",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#position-try-fallbacks",
         "title": "Giving Fallback Options: the position-try-fallbacks property",
-        "number": "5.1"
+        "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "typedef-position-try-fallbacks-try-tactic",
@@ -2144,9 +2562,10 @@
         "id": "position-try-fallbacks",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#position-try-fallbacks",
         "title": "Giving Fallback Options: the position-try-fallbacks property",
-        "number": "5.1"
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "valdef-position-try-fallbacks-flip-block",
@@ -2165,9 +2584,10 @@
         "id": "position-try-fallbacks",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#position-try-fallbacks",
         "title": "Giving Fallback Options: the position-try-fallbacks property",
-        "number": "5.1"
+        "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-try-fallbacks-flip-inline",
@@ -2186,9 +2606,54 @@
         "id": "position-try-fallbacks",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#position-try-fallbacks",
         "title": "Giving Fallback Options: the position-try-fallbacks property",
-        "number": "5.1"
+        "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-position-try-fallbacks-flip-x",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-try-fallbacks-flip-x",
+      "linkingText": [
+        "flip-x"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "position-try-fallbacks"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-try-fallbacks",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-try-fallbacks",
+        "title": "Giving Fallback Options: the position-try-fallbacks property",
+        "number": "6.1"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-position-try-fallbacks-flip-y",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-try-fallbacks-flip-y",
+      "linkingText": [
+        "flip-y"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "position-try-fallbacks"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-try-fallbacks",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-try-fallbacks",
+        "title": "Giving Fallback Options: the position-try-fallbacks property",
+        "number": "6.1"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-try-fallbacks-flip-start",
@@ -2207,9 +2672,10 @@
         "id": "position-try-fallbacks",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#position-try-fallbacks",
         "title": "Giving Fallback Options: the position-try-fallbacks property",
-        "number": "5.1"
+        "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-try-fallbacks-dashed-ident--try-tactic",
@@ -2228,15 +2694,16 @@
         "id": "position-try-fallbacks",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#position-try-fallbacks",
         "title": "Giving Fallback Options: the position-try-fallbacks property",
-        "number": "5.1"
+        "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-try-fallbacks-position-area",
       "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-try-fallbacks-position-area",
       "linkingText": [
-        "<'position-area'>"
+        "<position-area>"
       ],
       "localLinkingText": [],
       "type": "value",
@@ -2249,28 +2716,10 @@
         "id": "position-try-fallbacks",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#position-try-fallbacks",
         "title": "Giving Fallback Options: the position-try-fallbacks property",
-        "number": "5.1"
+        "number": "6.1"
       },
-      "definedIn": "dt"
-    },
-    {
-      "id": "swap-due-to-a-try-tactic",
-      "href": "https://www.w3.org/TR/css-anchor-position-1/#swap-due-to-a-try-tactic",
-      "linkingText": [
-        "swap due to a try-tactic"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "position-try-fallbacks",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-try-fallbacks",
-        "title": "Giving Fallback Options: the position-try-fallbacks property",
-        "number": "5.1"
-      },
-      "definedIn": "prose"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-position-try-order",
@@ -2287,9 +2736,10 @@
         "id": "position-try-order-property",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#position-try-order-property",
         "title": "Determining Fallback Order: the position-try-order property",
-        "number": "5.2"
+        "number": "6.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "typedef-try-size",
@@ -2306,9 +2756,10 @@
         "id": "position-try-order-property",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#position-try-order-property",
         "title": "Determining Fallback Order: the position-try-order property",
-        "number": "5.2"
+        "number": "6.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "valdef-position-try-order-normal",
@@ -2327,9 +2778,10 @@
         "id": "position-try-order-property",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#position-try-order-property",
         "title": "Determining Fallback Order: the position-try-order property",
-        "number": "5.2"
+        "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-try-order-most-width",
@@ -2348,9 +2800,10 @@
         "id": "position-try-order-property",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#position-try-order-property",
         "title": "Determining Fallback Order: the position-try-order property",
-        "number": "5.2"
+        "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-try-order-most-height",
@@ -2369,9 +2822,10 @@
         "id": "position-try-order-property",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#position-try-order-property",
         "title": "Determining Fallback Order: the position-try-order property",
-        "number": "5.2"
+        "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-try-order-most-block-size",
@@ -2390,9 +2844,10 @@
         "id": "position-try-order-property",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#position-try-order-property",
         "title": "Determining Fallback Order: the position-try-order property",
-        "number": "5.2"
+        "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-position-try-order-most-inline-size",
@@ -2411,9 +2866,10 @@
         "id": "position-try-order-property",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#position-try-order-property",
         "title": "Determining Fallback Order: the position-try-order property",
-        "number": "5.2"
+        "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-position-try",
@@ -2430,9 +2886,10 @@
         "id": "position-try-prop",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#position-try-prop",
         "title": "The position-try Shorthand",
-        "number": "5.3"
+        "number": "6.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "at-ruledef-position-try",
@@ -2449,9 +2906,10 @@
         "id": "fallback-rule",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#fallback-rule",
         "title": "The @position-try Rule",
-        "number": "5.4"
+        "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "position-option",
@@ -2468,9 +2926,10 @@
         "id": "fallback-rule",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#fallback-rule",
         "title": "The @position-try Rule",
-        "number": "5.4"
+        "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "accepted-position-try-properties",
@@ -2487,9 +2946,10 @@
         "id": "fallback-rule",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#fallback-rule",
         "title": "The @position-try Rule",
-        "number": "5.4"
+        "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "position-fallback-origin",
@@ -2506,28 +2966,10 @@
         "id": "fallback-rule",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#fallback-rule",
         "title": "The @position-try Rule",
-        "number": "5.4"
+        "number": "6.4"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "apply-a-position-option",
-      "href": "https://www.w3.org/TR/css-anchor-position-1/#apply-a-position-option",
-      "linkingText": [
-        "apply a position option"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "fallback-apply",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#fallback-apply",
-        "title": "Applying Position Fallback",
-        "number": "5.5"
-      },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "determine-position-fallback-styles",
@@ -2544,9 +2986,70 @@
         "id": "fallback-apply",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#fallback-apply",
         "title": "Applying Position Fallback",
-        "number": "5.5"
+        "number": "6.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "fallback-sensitive-changes",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#fallback-sensitive-changes",
+      "linkingText": [
+        "fallback-sensitive changes"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "statefulness",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#statefulness",
+        "title": "Maintaining and Clearing Fallback Choices",
+        "number": "6.5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "computed-base-style",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#computed-base-style",
+      "linkingText": [
+        "computed base style"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "statefulness",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#statefulness",
+        "title": "Maintaining and Clearing Fallback Choices",
+        "number": "6.5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "record-the-last-successful-position-option",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#record-the-last-successful-position-option",
+      "linkingText": [
+        "record the last successful position option"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "last-successful-recording",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#last-successful-recording",
+        "title": "Recording the last successful position option",
+        "number": "6.5.1.1"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "last-successful-position-option",
@@ -2560,12 +3063,201 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "fallback-apply",
-        "href": "https://www.w3.org/TR/css-anchor-position-1/#fallback-apply",
-        "title": "Applying Position Fallback",
-        "number": "5.5"
+        "id": "last-successful-recording",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#last-successful-recording",
+        "title": "Recording the last successful position option",
+        "number": "6.5.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "apply-a-position-option",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#apply-a-position-option",
+      "linkingText": [
+        "apply a position option"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "applying-options",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#applying-options",
+        "title": "Applying Position Options",
+        "number": "6.5.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "execute-a-try-tactic",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#execute-a-try-tactic",
+      "linkingText": [
+        "execute a try-tactic"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "applying-options",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#applying-options",
+        "title": "Applying Position Options",
+        "number": "6.5.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "propdef-position-visibility",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#propdef-position-visibility",
+      "linkingText": [
+        "position-visibility"
+      ],
+      "localLinkingText": [],
+      "type": "property",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-visibility",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-visibility",
+        "title": "Conditional Hiding: the position-visibility property",
+        "number": "6.6"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "valdef-position-visibility-always",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-visibility-always",
+      "linkingText": [
+        "always"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "position-visibility"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-visibility",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-visibility",
+        "title": "Conditional Hiding: the position-visibility property",
+        "number": "6.6"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-position-visibility-anchors-valid",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-visibility-anchors-valid",
+      "linkingText": [
+        "anchors-valid"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "position-visibility"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-visibility",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-visibility",
+        "title": "Conditional Hiding: the position-visibility property",
+        "number": "6.6"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "required-anchor-reference",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#required-anchor-reference",
+      "linkingText": [
+        "required anchor reference"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "position-visibility",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-visibility",
+        "title": "Conditional Hiding: the position-visibility property",
+        "number": "6.6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "valdef-position-visibility-anchors-visible",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-visibility-anchors-visible",
+      "linkingText": [
+        "anchors-visible"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "position-visibility"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-visibility",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-visibility",
+        "title": "Conditional Hiding: the position-visibility property",
+        "number": "6.6"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "valdef-position-visibility-no-overflow",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#valdef-position-visibility-no-overflow",
+      "linkingText": [
+        "no-overflow"
+      ],
+      "localLinkingText": [],
+      "type": "value",
+      "for": [
+        "position-visibility"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "position-visibility",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-visibility",
+        "title": "Conditional Hiding: the position-visibility property",
+        "number": "6.6"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "clipped-by-intervening-boxes",
+      "href": "https://www.w3.org/TR/css-anchor-position-1/#clipped-by-intervening-boxes",
+      "linkingText": [
+        "clipped by intervening boxes"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "position-visibility",
+        "href": "https://www.w3.org/TR/css-anchor-position-1/#position-visibility",
+        "title": "Conditional Hiding: the position-visibility property",
+        "number": "6.6"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "csspositiontryrule",
@@ -2582,9 +3274,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "csspositiontrydescriptors",
@@ -2601,9 +3294,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-margin",
@@ -2622,9 +3316,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-margintop",
@@ -2643,9 +3338,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-marginright",
@@ -2664,9 +3360,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-marginbottom",
@@ -2685,9 +3382,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-marginleft",
@@ -2706,9 +3404,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-marginblock",
@@ -2727,9 +3426,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-marginblockstart",
@@ -2748,9 +3448,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-marginblockend",
@@ -2769,9 +3470,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-margininline",
@@ -2790,9 +3492,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-margininlinestart",
@@ -2811,9 +3514,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-margininlineend",
@@ -2832,9 +3536,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-margin-top",
@@ -2853,9 +3558,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-margin-right",
@@ -2874,9 +3580,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-margin-bottom",
@@ -2895,9 +3602,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-margin-left",
@@ -2916,9 +3624,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-margin-block",
@@ -2937,9 +3646,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-margin-block-start",
@@ -2958,9 +3668,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-margin-block-end",
@@ -2979,9 +3690,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-margin-inline",
@@ -3000,9 +3712,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-margin-inline-start",
@@ -3021,9 +3734,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-margin-inline-end",
@@ -3042,9 +3756,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-inset",
@@ -3063,9 +3778,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-insetblock",
@@ -3084,9 +3800,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-insetblockstart",
@@ -3105,9 +3822,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-insetblockend",
@@ -3126,9 +3844,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-insetinline",
@@ -3147,9 +3866,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-insetinlinestart",
@@ -3168,9 +3888,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-insetinlineend",
@@ -3189,9 +3910,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-top",
@@ -3210,9 +3932,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-left",
@@ -3231,9 +3954,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-right",
@@ -3252,9 +3976,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-bottom",
@@ -3273,9 +3998,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-inset-block",
@@ -3294,9 +4020,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-inset-block-start",
@@ -3315,9 +4042,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-inset-block-end",
@@ -3336,9 +4064,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-inset-inline",
@@ -3357,9 +4086,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-inset-inline-start",
@@ -3378,9 +4108,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-inset-inline-end",
@@ -3399,9 +4130,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-width",
@@ -3420,9 +4152,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-minwidth",
@@ -3441,9 +4174,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-maxwidth",
@@ -3462,9 +4196,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-height",
@@ -3483,9 +4218,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-minheight",
@@ -3504,9 +4240,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-maxheight",
@@ -3525,9 +4262,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-blocksize",
@@ -3546,9 +4284,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-minblocksize",
@@ -3567,9 +4306,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-maxblocksize",
@@ -3588,9 +4328,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-inlinesize",
@@ -3609,9 +4350,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-mininlinesize",
@@ -3630,9 +4372,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-maxinlinesize",
@@ -3651,9 +4394,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-min-width",
@@ -3672,9 +4416,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-max-width",
@@ -3693,9 +4438,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-min-height",
@@ -3714,9 +4460,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-max-height",
@@ -3735,9 +4482,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-block-size",
@@ -3756,9 +4504,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-min-block-size",
@@ -3777,9 +4526,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-max-block-size",
@@ -3798,9 +4548,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-inline-size",
@@ -3819,9 +4570,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-min-inline-size",
@@ -3840,9 +4592,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-max-inline-size",
@@ -3861,9 +4614,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-placeself",
@@ -3882,9 +4636,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-alignself",
@@ -3903,9 +4658,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-justifyself",
@@ -3924,9 +4680,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-place-self",
@@ -3945,9 +4702,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-align-self",
@@ -3966,9 +4724,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-justify-self",
@@ -3987,9 +4746,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-positionanchor",
@@ -4008,9 +4768,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-position-anchor",
@@ -4029,9 +4790,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-positionarea",
@@ -4050,9 +4812,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontrydescriptors-position-area",
@@ -4071,9 +4834,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-csspositiontryrule-name",
@@ -4092,9 +4856,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-csspositiontryrule-style",
@@ -4113,9 +4878,10 @@
         "id": "om-position-try",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#om-position-try",
         "title": "The CSSPositionTryRule interface",
-        "number": "6.1"
+        "number": "8.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "style--layout-interleave",
@@ -4134,9 +4900,10 @@
         "id": "interleaving",
         "href": "https://www.w3.org/TR/css-anchor-position-1/#interleaving",
         "title": "Appendix: Style & Layout Interleaving",
-        "number": "7"
+        "number": "9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

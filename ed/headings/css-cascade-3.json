@@ -26,7 +26,10 @@
       "id": "toc",
       "href": "https://drafts.csswg.org/css-cascade-3/#toc",
       "level": 2,
-      "title": "Table of Contents"
+      "title": "Table of Contents",
+      "alternateIds": [
+        "contents"
+      ]
     },
     {
       "id": "intro",
@@ -259,10 +262,16 @@
       "title": "Acknowledgments"
     },
     {
-      "id": "priv-sec",
-      "href": "https://drafts.csswg.org/css-cascade-3/#priv-sec",
+      "id": "privacy",
+      "href": "https://drafts.csswg.org/css-cascade-3/#privacy",
       "level": 2,
-      "title": "Privacy and Security Considerations"
+      "title": "Privacy Considerations"
+    },
+    {
+      "id": "security",
+      "href": "https://drafts.csswg.org/css-cascade-3/#security",
+      "level": 2,
+      "title": "Security Considerations"
     },
     {
       "id": "w3c-conformance",
@@ -334,7 +343,7 @@
       "id": "informative",
       "href": "https://drafts.csswg.org/css-cascade-3/#informative",
       "level": 3,
-      "title": "Informative References"
+      "title": "Non-Normative References"
     },
     {
       "id": "property-index",

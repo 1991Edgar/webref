@@ -18,6 +18,8 @@
       "https://fetch.spec.whatwg.org/": {},
       "https://github.com/domenic/promises-unwrapping/issues/85": {},
       "https://github.com/whatwg/webidl/issues/432": {},
+      "https://github.com/whatwg/webidl/issues/674": {},
+      "https://github.com/whatwg/webidl/issues/698": {},
       "https://github.com/whatwg/webidl/issues/new?title=DOMException%20name%20proposal": {},
       "https://github.com/whatwg/webidl/issues/new?title=Enhancement%20request%20for%20Async%20Iterables": {},
       "https://github.com/whatwg/webidl/issues/new?title=Enhancement%20request%20for%20Iterables": {},
@@ -175,6 +177,7 @@
           "ordered-set",
           "list-size",
           "set-append",
+          "the-exclusive-range",
           "the-range",
           "iteration-while",
           "iteration-break",
@@ -230,6 +233,7 @@
           "sec-json.stringify",
           "eqn-max",
           "sec-iscallable",
+          "sec-string-objects",
           "sec-array-iterator-objects",
           "sec-error-objects",
           "sec-ordinary-object-internal-methods-and-internal-slots",
@@ -245,6 +249,9 @@
           "eqn-abs",
           "eqn-min",
           "eqn-modulo",
+          "sec-iterator-records",
+          "sec-createasyncfromsynciterator",
+          "sec-completion-record-specification-type",
           "sec-own-property",
           "sec-property-attributes",
           "sec-promisecapability-records",
@@ -257,7 +264,6 @@
           "sec-array.prototype.entries",
           "sec-array.prototype.keys",
           "sec-array.prototype.foreach",
-          "sec-completion-record-specification-type",
           "sec-abstract-closure",
           "sec-isinteger",
           "sec-algorithm-conventions"
@@ -276,8 +282,11 @@
           "sec-getmethod",
           "sec-getiteratorfrommethod",
           "sec-iteratorstepvalue",
-          "sec-createdataproperty",
+          "sec-iteratornext",
+          "sec-iteratorcomplete",
+          "sec-iteratorvalue",
           "sec-call",
+          "sec-createdataproperty",
           "sec-construct",
           "sec-setintegritylevel",
           "sec-toint32",
@@ -359,8 +368,6 @@
         "anchors": [
           "sec-ordinaryobjectcreate",
           "sec-createbuiltinfunction",
-          "sec-setfunctionname",
-          "sec-setfunctionlength",
           "immutable-prototype-exotic-object",
           "sec-ordinaryownpropertykeys",
           "sec-ordinarygetownproperty",
@@ -378,6 +385,7 @@
         "anchors": [
           "sec-issharedarraybuffer",
           "sec-arraybuffer-objects",
+          "sec-isfixedlengtharraybuffer",
           "sec-sharedarraybuffer-objects",
           "sec-allocatearraybuffer",
           "sec-arraybuffer-constructor",
@@ -387,11 +395,6 @@
           "sec-getvaluefrombuffer",
           "sec-setvalueinbuffer",
           "sec-detacharraybuffer"
-        ]
-      },
-      "https://tc39.es/proposal-resizablearraybuffer/": {
-        "anchors": [
-          "sec-isresizablearraybuffer"
         ]
       },
       "https://webassembly.github.io/spec/js-api/": {

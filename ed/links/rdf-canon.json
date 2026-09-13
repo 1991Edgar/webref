@@ -7,7 +7,6 @@
     "rawlinks": {
       "http://yaml.org/spec/1.2/spec.html": {},
       "https://aidanhogan.com/docs/rdf-canonicalisation.pdf": {},
-      "https://datatracker.ietf.org/doc/html/bcp14": {},
       "https://doi.org/10.1007/978-3-319-07443-6_11": {},
       "https://doi.org/10.1007/978-3-540-39718-2_24": {},
       "https://doi.org/10.1007/978-3-540-76298-0_39": {},
@@ -41,14 +40,15 @@
       "https://w3c.github.io/rdf-canon/tests/": {},
       "https://web.archive.org/web/20230129125726/https://www.hpl.hp.com/techreports/2003/HPL-2003-142.pdf": {},
       "https://web.archive.org/web/20230605070352/https://www.hpl.hp.com/techreports/2003/HPL-2003-235R1.html": {},
-      "https://www.rfc-editor.org/rfc/rfc2119": {},
-      "https://www.rfc-editor.org/rfc/rfc3987": {},
-      "https://www.rfc-editor.org/rfc/rfc5646": {
+      "https://www.rfc-editor.org/info/bcp14": {},
+      "https://www.rfc-editor.org/info/rfc2119/": {},
+      "https://www.rfc-editor.org/info/rfc3987/": {},
+      "https://www.rfc-editor.org/info/rfc5646/": {
         "anchors": [
           "section-2.1.1"
         ]
       },
-      "https://www.rfc-editor.org/rfc/rfc8174": {},
+      "https://www.rfc-editor.org/info/rfc8174/": {},
       "https://www.unicode.org/versions/latest/": {},
       "https://www.w3.org/2001/sw/wiki/How_to_diff_RDF": {},
       "https://www.w3.org/DesignIssues/Diff": {},
@@ -130,7 +130,7 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {
+      "https://www.w3.org/policies/process/20250818/": {
         "anchors": [
           "allow-new-features"
         ]

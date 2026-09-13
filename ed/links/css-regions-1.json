@@ -44,7 +44,7 @@
       "https://drafts.csswg.org/css-content-3/": {},
       "https://drafts.csswg.org/css-display-4/": {},
       "https://drafts.csswg.org/css-exclusions/": {},
-      "https://drafts.csswg.org/css-flexbox-1/": {},
+      "https://drafts.csswg.org/css-flexbox/": {},
       "https://drafts.csswg.org/css-line-grid/": {},
       "https://drafts.csswg.org/css-multicol-2/": {},
       "https://drafts.csswg.org/css-multicol/": {},
@@ -76,6 +76,7 @@
       },
       "https://drafts.csswg.org/cssom/": {},
       "https://drafts.csswg.org/mediaqueries-5/": {},
+      "https://drafts.csswg.org/pointer-animations-1/": {},
       "https://drafts.csswg.org/selectors-3/": {},
       "https://github.com/w3c/csswg-drafts/issues": {},
       "https://heycam.github.io/webidl/": {
@@ -94,11 +95,6 @@
       "https://w3c.github.io/uievents/": {},
       "https://webidl.spec.whatwg.org/": {},
       "https://www.w3.org/Bugs/Public/show_bug.cgi?id=16527": {},
-      "https://www.w3.org/TR/2011/REC-CSS2-20110607/syndata.html": {
-        "anchors": [
-          "value-def-identifier"
-        ]
-      },
       "https://www.w3.org/TR/2011/REC-CSS2-20110607/tables.html": {
         "anchors": [
           "anonymous-boxes"
@@ -134,23 +130,18 @@
           "min-max-heights"
         ]
       },
-      "https://www.w3.org/TR/CSS2/visuren.html": {
-        "anchors": [
-          "z-index",
-          "block-formatting",
-          "block-boxes"
-        ]
-      },
-      "https://www.w3.org/TR/CSS21/visufx.html": {
+      "https://www.w3.org/TR/CSS2/visufx.html": {
         "anchors": [
           "propdef-overflow",
           "overflow"
         ]
       },
-      "https://www.w3.org/TR/CSS21/visuren.html": {
+      "https://www.w3.org/TR/CSS2/visuren.html": {
         "anchors": [
           "block-boxes",
-          "principal-box"
+          "principal-box",
+          "z-index",
+          "block-formatting"
         ]
       },
       "https://www.w3.org/TR/DOM-Level-3-Events/": {
@@ -217,7 +208,7 @@
           "animation-type"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://dom.spec.whatwg.org/": {
@@ -302,8 +293,13 @@
         "anchors": [
           "css-wide-keywords",
           "comb-one",
-          "typedef-ident",
+          "identifier-value",
           "mult-opt"
+        ]
+      },
+      "https://drafts.csswg.org/css2/": {
+        "anchors": [
+          "propdef-max-height"
         ]
       },
       "https://drafts.csswg.org/cssom-1/": {
@@ -316,9 +312,15 @@
           "paged-media"
         ]
       },
+      "https://drafts.csswg.org/pointer-animations-1/": {
+        "anchors": [
+          "valdef-animation-timeline-range-fit"
+        ]
+      },
       "https://webidl.spec.whatwg.org/": {
         "anchors": [
           "Exposed",
+          "dfn-maplike",
           "idl-boolean",
           "idl-sequence",
           "idl-short"

@@ -10,24 +10,20 @@
         "url": "https://www.w3.org/TR/rdf12-concepts/"
       },
       {
-        "name": "RDF12-XML",
-        "url": "https://www.w3.org/TR/rdf12-xml/"
-      },
-      {
         "name": "RFC2119",
-        "url": "https://www.rfc-editor.org/rfc/rfc2119"
+        "url": "https://www.rfc-editor.org/info/rfc2119/"
       },
       {
         "name": "RFC3986",
-        "url": "https://www.rfc-editor.org/rfc/rfc3986"
+        "url": "https://www.rfc-editor.org/info/rfc3986/"
       },
       {
         "name": "RFC3987",
-        "url": "https://www.rfc-editor.org/rfc/rfc3987"
+        "url": "https://www.rfc-editor.org/info/rfc3987/"
       },
       {
         "name": "RFC8174",
-        "url": "https://www.rfc-editor.org/rfc/rfc8174"
+        "url": "https://www.rfc-editor.org/info/rfc8174/"
       },
       {
         "name": "RFC9110",
@@ -42,18 +38,6 @@
         "url": "https://www.w3.org/TR/sparql12-query/"
       },
       {
-        "name": "SPARQL12-RESULTS-CSV-TSV",
-        "url": "https://www.w3.org/TR/sparql12-results-csv-tsv/"
-      },
-      {
-        "name": "SPARQL12-RESULTS-JSON",
-        "url": "https://www.w3.org/TR/sparql12-results-json/"
-      },
-      {
-        "name": "SPARQL12-RESULTS-XML",
-        "url": "https://www.w3.org/TR/sparql12-results-xml/"
-      },
-      {
         "name": "SPARQL12-UPDATE",
         "url": "https://www.w3.org/TR/sparql12-update/"
       },
@@ -63,6 +47,26 @@
       }
     ],
     "informative": [
+      {
+        "name": "JSON-LD11",
+        "url": "https://www.w3.org/TR/json-ld11/"
+      },
+      {
+        "name": "RDF12-N-TRIPLES",
+        "url": "https://www.w3.org/TR/rdf12-n-triples/"
+      },
+      {
+        "name": "RDF12-TURTLE",
+        "url": "https://www.w3.org/TR/rdf12-turtle/"
+      },
+      {
+        "name": "RDF12-XML",
+        "url": "https://www.w3.org/TR/rdf12-xml/"
+      },
+      {
+        "name": "RFC10008",
+        "url": "https://www.rfc-editor.org/info/rfc10008/"
+      },
       {
         "name": "SPARQL12-CONCEPTS",
         "url": "https://w3c.github.io/sparql-concepts/spec/"
@@ -78,6 +82,18 @@
       {
         "name": "SPARQL12-NEW",
         "url": "https://w3c.github.io/sparql-new/spec/"
+      },
+      {
+        "name": "SPARQL12-RESULTS-CSV-TSV",
+        "url": "https://www.w3.org/TR/sparql12-results-csv-tsv/"
+      },
+      {
+        "name": "SPARQL12-RESULTS-JSON",
+        "url": "https://www.w3.org/TR/sparql12-results-json/"
+      },
+      {
+        "name": "SPARQL12-RESULTS-XML",
+        "url": "https://www.w3.org/TR/sparql12-results-xml/"
       },
       {
         "name": "SPARQL12-SERVICE-DESCRIPTION",

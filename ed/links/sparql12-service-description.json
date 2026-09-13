@@ -16,8 +16,12 @@
       "http://www.w3.org/ns/formats/media_type": {},
       "http://www.w3.org/ns/formats/preferred_suffix": {},
       "http://www.w3.org/ns/owl-profile/": {},
+      "http://www.w3.org/ns/sparql": {
+        "anchors": [
+          "version-1.2-basic"
+        ]
+      },
       "http://www.w3.org/ns/sparql-service-description": {},
-      "https://datatracker.ietf.org/doc/html/bcp14": {},
       "https://httpwg.org/specs/rfc9110.html": {
         "anchors": [
           "content.negotiation"
@@ -25,13 +29,20 @@
       },
       "https://w3c.github.io/sparql-concepts/spec/": {},
       "https://w3c.github.io/sparql-new/spec/": {},
-      "https://www.rfc-editor.org/rfc/rfc2119": {},
-      "https://www.rfc-editor.org/rfc/rfc8174": {},
+      "https://www.rfc-editor.org/info/bcp14": {},
+      "https://www.rfc-editor.org/info/rfc2119/": {},
+      "https://www.rfc-editor.org/info/rfc8174/": {},
       "https://www.w3.org/TR/": {},
       "https://www.w3.org/TR/rdf-sparql-query/": {},
+      "https://www.w3.org/TR/rdf12-concepts/": {
+        "anchors": [
+          "dfn-basic"
+        ]
+      },
       "https://www.w3.org/TR/rdf12-turtle/": {},
       "https://www.w3.org/TR/rdfa-core/": {},
       "https://www.w3.org/TR/sparql11-query/": {},
+      "https://www.w3.org/TR/sparql11-service-description/": {},
       "https://www.w3.org/TR/sparql11-update/": {},
       "https://www.w3.org/TR/sparql12-entailment/": {
         "anchors": [
@@ -87,7 +98,7 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {
+      "https://www.w3.org/policies/process/20250818/": {
         "anchors": [
           "allow-new-features"
         ]

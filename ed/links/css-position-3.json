@@ -27,6 +27,11 @@
       "https://developer.mozilla.org/en-US/docs/Web/CSS/position": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/right": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/top": {},
+      "https://drafts.csswg.org/css-align-3/": {
+        "anchors": [
+          "auto-safety-position"
+        ]
+      },
       "https://drafts.csswg.org/css-align/": {},
       "https://drafts.csswg.org/css-anchor-position-1/": {
         "anchors": [
@@ -41,22 +46,21 @@
       "https://drafts.csswg.org/css-backgrounds/": {},
       "https://drafts.csswg.org/css-box-4/": {},
       "https://drafts.csswg.org/css-break-4/": {},
-      "https://drafts.csswg.org/css-break/": {},
       "https://drafts.csswg.org/css-cascade-5/": {},
       "https://drafts.csswg.org/css-contain-2/": {},
       "https://drafts.csswg.org/css-display-4/": {},
-      "https://drafts.csswg.org/css-display/": {},
-      "https://drafts.csswg.org/css-flexbox-1/": {},
+      "https://drafts.csswg.org/css-flexbox-2/": {},
+      "https://drafts.csswg.org/css-flexbox/": {},
       "https://drafts.csswg.org/css-grid-1/": {
         "anchors": [
           "abspos-items"
         ]
       },
       "https://drafts.csswg.org/css-grid-2/": {},
-      "https://drafts.csswg.org/css-grid/": {},
       "https://drafts.csswg.org/css-inline-3/": {},
       "https://drafts.csswg.org/css-logical-1/": {
         "anchors": [
+          "position-properties",
           "logical-property-group"
         ]
       },
@@ -74,6 +78,7 @@
       "https://drafts.csswg.org/css-transforms/": {},
       "https://drafts.csswg.org/css-values-3/": {},
       "https://drafts.csswg.org/css-values-4/": {},
+      "https://drafts.csswg.org/css-viewport/": {},
       "https://drafts.csswg.org/css-will-change/": {},
       "https://drafts.csswg.org/css-writing-modes-3/": {
         "anchors": [
@@ -83,36 +88,20 @@
       },
       "https://drafts.csswg.org/css-writing-modes-4/": {},
       "https://drafts.csswg.org/css2/": {},
-      "https://drafts.csswg.org/cssom-view/": {},
       "https://drafts.csswg.org/cssom/": {},
       "https://drafts.csswg.org/mediaqueries-5/": {},
       "https://github.com/w3c/csswg-drafts/issues": {},
-      "https://github.com/w3c/csswg-drafts/issues/10316": {},
-      "https://github.com/w3c/csswg-drafts/issues/1053": {},
-      "https://github.com/w3c/csswg-drafts/issues/5077": {},
-      "https://github.com/w3c/csswg-drafts/issues/5151": {},
-      "https://github.com/w3c/csswg-drafts/issues/5327": {},
-      "https://github.com/w3c/csswg-drafts/issues/5374": {},
-      "https://github.com/w3c/csswg-drafts/issues/609": {},
-      "https://github.com/w3c/csswg-drafts/issues/6453": {},
-      "https://github.com/w3c/csswg-drafts/issues/6607": {},
-      "https://github.com/w3c/csswg-drafts/issues/6789": {},
-      "https://github.com/w3c/csswg-drafts/issues/6846": {},
-      "https://github.com/w3c/csswg-drafts/issues/7124": {},
-      "https://github.com/w3c/csswg-drafts/issues/7599": {},
-      "https://github.com/w3c/csswg-drafts/issues/7612": {},
-      "https://github.com/w3c/csswg-drafts/issues/7917": {},
-      "https://github.com/w3c/csswg-drafts/issues/7930": {},
+      "https://github.com/w3c/csswg-drafts/issues/11195": {},
+      "https://github.com/w3c/csswg-drafts/issues/11478": {},
       "https://github.com/w3c/csswg-drafts/issues/8284": {},
-      "https://github.com/w3c/csswg-drafts/issues/9939": {},
       "https://lists.w3.org/Archives/Public/public-css-archive/": {},
       "https://lists.w3.org/Archives/Public/www-style/": {},
-      "https://www.w3.org/TR/2016/WD-css-position-3-20160517/": {},
-      "https://www.w3.org/TR/2020/WD-css-position-3-20200519/": {},
-      "https://www.w3.org/TR/2021/WD-css-position-3-20211216/": {},
-      "https://www.w3.org/TR/2022/WD-css-position-3-20220901/": {},
-      "https://www.w3.org/TR/2023/WD-css-position-3-20230217/": {},
-      "https://www.w3.org/TR/2023/WD-css-position-3-20230403/": {},
+      "https://www.w3.org/TR/2025/WD-css-position-3-20250311/": {
+        "anchors": [
+          "changes"
+        ]
+      },
+      "https://www.w3.org/TR/2025/WD-css-position-3-20251007/": {},
       "https://www.w3.org/TR/CSS/": {},
       "https://www.w3.org/TR/CSS2/about.html": {
         "anchors": [
@@ -171,11 +160,6 @@
           "static-position"
         ]
       },
-      "https://www.w3.org/TR/css-logical-1/": {
-        "anchors": [
-          "inset-properties"
-        ]
-      },
       "https://www.w3.org/TR/css-values-3/": {
         "anchors": [
           "value-defs"
@@ -197,7 +181,7 @@
           "animation-type"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://drafts.csswg.org/css-align-3/": {
@@ -213,8 +197,7 @@
           "valdef-align-self-stretch",
           "alignment-container",
           "box-alignment-properties",
-          "valdef-overflow-position-safe",
-          "valdef-overflow-position-unsafe",
+          "alignment-subject",
           "self-align"
         ]
       },
@@ -288,6 +271,7 @@
           "box",
           "inline-box",
           "initial-containing-block",
+          "containing-block-chain",
           "root-element",
           "valdef-display-table-row-group",
           "valdef-display-table-header-group",
@@ -299,13 +283,12 @@
           "block-level-box",
           "inline-level-box",
           "propdef-display",
-          "block-level",
           "non-replaced",
           "replaced-element",
-          "independent-formatting-context"
+          "block-level"
         ]
       },
-      "https://drafts.csswg.org/css-flexbox-1/": {
+      "https://drafts.csswg.org/css-flexbox-2/": {
         "anchors": [
           "flex-container",
           "cross-axis",
@@ -327,9 +310,10 @@
       "https://drafts.csswg.org/css-overflow-3/": {
         "anchors": [
           "scrollable-overflow-region",
-          "scroll-container",
           "scrollport",
-          "nearest-scrollport",
+          "scroll-container",
+          "scrollable-axis",
+          "single-axis-scroll-container",
           "initial-scroll-position"
         ]
       },
@@ -390,6 +374,11 @@
           "mult-num-range"
         ]
       },
+      "https://drafts.csswg.org/css-viewport/": {
+        "anchors": [
+          "layout-viewport"
+        ]
+      },
       "https://drafts.csswg.org/css-will-change-1/": {
         "anchors": [
           "propdef-will-change"
@@ -422,19 +411,16 @@
       "https://drafts.csswg.org/css2/": {
         "anchors": [
           "propdef-float",
+          "valdef-float-none",
           "propdef-z-index",
           "valdef-z-index-auto",
+          "stacking-context",
           "propdef-clear"
         ]
       },
       "https://drafts.csswg.org/cssom-1/": {
         "anchors": [
           "resolved-value"
-        ]
-      },
-      "https://drafts.csswg.org/cssom-view-1/": {
-        "anchors": [
-          "layout-viewport"
         ]
       },
       "https://drafts.csswg.org/mediaqueries-5/": {
@@ -447,6 +433,11 @@
         "anchors": [
           "x1",
           "normal-flow"
+        ]
+      },
+      "https://www.w3.org/TR/css-overflow-3/": {
+        "anchors": [
+          "nearest-scrollport"
         ]
       }
     }

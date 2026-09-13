@@ -1,0 +1,30 @@
+From 5426c031cba30028ca08fd522684a14eecf0d4dc Mon Sep 17 00:00:00 2001
+From: Francois Daoust <fd@tidoust.net>
+Date: Mon, 17 Aug 2026 18:37:29 +0200
+Subject: [PATCH] Drop `xrCompatible` option
+
+The option has already been upstreamed to WebGPU. Tracking issue to get the
+definition removed from `webxr-webgpu-binding`:
+https://github.com/immersive-web/webxr-webgpu-binding/issues/35
+---
+ ed/idl/webxr-webgpu-binding.idl | 4 ----
+ 1 file changed, 4 deletions(-)
+
+diff --git a/ed/idl/webxr-webgpu-binding.idl b/ed/idl/webxr-webgpu-binding.idl
+index 4b6dd3ff51..3787ece72b 100644
+--- a/ed/idl/webxr-webgpu-binding.idl
++++ b/ed/idl/webxr-webgpu-binding.idl
+@@ -3,10 +3,6 @@
+ // (https://github.com/w3c/webref)
+ // Source: WebXR/WebGPU Binding Module - Level 1 (https://immersive-web.github.io/webxr-webgpu-binding/)
+ 
+-partial dictionary GPURequestAdapterOptions {
+-    boolean xrCompatible = false;
+-};
+-
+ [Exposed=(Window), SecureContext]
+ interface XRGPUSubImage : XRSubImage {
+   [SameObject] readonly attribute GPUTexture colorTexture;
+-- 
+2.55.0
+

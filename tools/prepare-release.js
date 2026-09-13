@@ -62,19 +62,42 @@ MissingPackageError.prototype = Error.prototype;
  *   match.
  */
 async function computeDiff(type) {
+  const packageName = type.replace(/\d+$/, '');
+  const majorVersionMatch = type.match(/(\d+)$/);
+  const majorVersion = majorVersionMatch ? majorVersionMatch[1] : '';
+
   // Install @webref package in tmp folder
+  // If package is pinned to a major version, we'll use that one.
+  // If not, what we want is to install the latest version of the package,
+  // where "latest" includes pre-releases. The `npm install` command skips
+  // pre-releases, so we need to retrieve the latest published version first
+  // through a call to `npm view`.
   const tmpFolder = fs.mkdtempSync(path.join(os.tmpdir(), "webref-"));
+  let versionToInstall = null;
+  if (majorVersion) {
+    versionToInstall = majorVersion;
+  }
+  else {
+    try {
+      const versionsStr = execSync(`npm view --json @webref/${packageName} versions`);
+      const versions = JSON.parse(versionsStr);
+      versionToInstall = versions.pop();
+    }
+    catch (err) {
+      throw new MissingPackageError(`No version found for package @webref/${packageName}.`);
+    }
+  }
   try {
-    execSync(`npm install @webref/${type}`, {
+    execSync(`npm install @webref/${packageName}@${versionToInstall}`, {
       cwd: tmpFolder
     });
   }
   catch (err) {
-    throw new MissingPackageError(`Package @webref/${type} does not exist or could not be installed.`);
+    throw new MissingPackageError(`Package @webref/${packageName}@${versionToInstall} does not exist or could not be installed.`);
   }
 
   // Extract released version (will be used in the body of the pre-release PR)
-  latestReleasedVersion = (await loadJSON(path.join(tmpFolder, "node_modules", "@webref", type, "package.json"))).version;
+  latestReleasedVersion = (await loadJSON(path.join(tmpFolder, "node_modules", "@webref", packageName, "package.json"))).version;
 
   // Diff does not take the package.json file into account because "npm install"
   // adds properties that start with "_" to that file which do not exist in the
@@ -84,7 +107,7 @@ async function computeDiff(type) {
   // code to 0 to avoid the exception.
   // Note diff can be very large when the structure of all extracts are changed,
   // hence the need to enlarge the size of the stdout/stderr buffer.
-  const installedFiles = path.join(tmpFolder, "node_modules", "@webref", type);
+  const installedFiles = path.join(tmpFolder, "node_modules", "@webref", packageName);
   let diff = execSync(
     `diff ${installedFiles} packages/${type} --ignore-trailing-space --exclude=package.json --exclude=README.md --exclude=CHANGELOG.md --unified=3 || echo -n`,
     { encoding: "utf8", maxBuffer: 100 * 1024 * 1024 });
@@ -161,7 +184,8 @@ async function computeDiff(type) {
  *
  * @function
  * @param {String} type Package name. Must match one of the existing folder
- *  names under "packages" (e.g. "css", "elements", "events", "idl")
+ *  names under "packages" (e.g. "css", "elements", "events", "idl"), possibly
+ *  pinned to a major version.
  */
 async function prepareRelease(type) {
   // Compute a reasonably unique ID
@@ -244,10 +268,13 @@ ${diff.substring(0, 60000)}`;
   const packageFilename = path.resolve(scriptPath, '..', 'packages', type, 'package.json');
   const packageFile = await loadJSON(packageFilename);
   const version = packageFile.version;
-  const bumpedVersion = version
+  const versionTokens = version.match(/^([\d\.]+)(-.+)?$/);
+  const versionNoAlpha = versionTokens[1];
+  const alpha = versionTokens[2] ?? '';
+  const bumpedVersion = versionNoAlpha
     .split(".")
     .map((nb, idx) => parseInt(nb, 10) + ((idx === 2) ? 1 : 0))
-    .join(".");
+    .join(".") + alpha;
   packageFile.version = bumpedVersion;
   const bumpedPackageFileContents = btoa(JSON.stringify(packageFile, null, 2));
   console.log(`- Version to release: ${version}`);

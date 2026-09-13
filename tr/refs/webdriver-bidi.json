@@ -6,6 +6,10 @@
   "refs": {
     "normative": [
       {
+        "name": "ACCNAME-1.1",
+        "url": "https://w3c.github.io/accname/"
+      },
+      {
         "name": "CONSOLE",
         "url": "https://console.spec.whatwg.org/"
       },
@@ -14,15 +18,27 @@
         "url": "https://httpwg.org/specs/rfc6265.html"
       },
       {
+        "name": "CORE-AAM-1.1",
+        "url": "https://w3c.github.io/core-aam/"
+      },
+      {
+        "name": "CSS-COLOR-ADJUST-1",
+        "url": "https://drafts.csswg.org/css-color-adjust-1/"
+      },
+      {
+        "name": "CSS-OVERFLOW-3",
+        "url": "https://drafts.csswg.org/css-overflow-3/"
+      },
+      {
         "name": "CSS-PAINT-API-1",
         "url": "https://drafts.css-houdini.org/css-paint-api-1/"
       },
       {
-        "name": "CSS21",
-        "url": "https://drafts.csswg.org/css2/"
+        "name": "CSS-VIEWPORT-1",
+        "url": "https://drafts.csswg.org/css-viewport/"
       },
       {
-        "name": "CSS22",
+        "name": "CSS2",
         "url": "https://drafts.csswg.org/css2/"
       },
       {
@@ -32,6 +48,10 @@
       {
         "name": "DOM",
         "url": "https://dom.spec.whatwg.org/"
+      },
+      {
+        "name": "ECMA-402",
+        "url": "https://tc39.es/ecma402/"
       },
       {
         "name": "ECMAScript",
@@ -54,8 +74,12 @@
         "url": "https://fullscreen.spec.whatwg.org/"
       },
       {
+        "name": "GEOLOCATION",
+        "url": "https://w3c.github.io/geolocation/"
+      },
+      {
         "name": "GEOMETRY-1",
-        "url": "https://drafts.fxtf.org/geometry/"
+        "url": "https://drafts.csswg.org/geometry/"
       },
       {
         "name": "HR-TIME-3",
@@ -83,15 +107,19 @@
       },
       {
         "name": "RFC4648",
-        "url": "https://www.rfc-editor.org/rfc/rfc4648"
+        "url": "https://www.rfc-editor.org/info/rfc4648/"
+      },
+      {
+        "name": "RFC5280",
+        "url": "https://www.rfc-editor.org/info/rfc5280/"
       },
       {
         "name": "RFC6455",
-        "url": "https://www.rfc-editor.org/rfc/rfc6455"
+        "url": "https://www.rfc-editor.org/info/rfc6455/"
       },
       {
         "name": "RFC8610",
-        "url": "https://www.rfc-editor.org/rfc/rfc8610"
+        "url": "https://www.rfc-editor.org/info/rfc8610/"
       },
       {
         "name": "RFC9110",
@@ -99,7 +127,15 @@
       },
       {
         "name": "RFC9562",
-        "url": "https://www.rfc-editor.org/rfc/rfc9562"
+        "url": "https://www.rfc-editor.org/info/rfc9562/"
+      },
+      {
+        "name": "SCREEN-CAPTURE",
+        "url": "https://w3c.github.io/mediacapture-screen-share/"
+      },
+      {
+        "name": "SCREEN-ORIENTATION",
+        "url": "https://w3c.github.io/screen-orientation/"
       },
       {
         "name": "SELECTORS-4",
@@ -126,12 +162,16 @@
         "url": "https://w3c.github.io/webdriver/"
       },
       {
-        "name": "WEBDRIVER2",
-        "url": "https://w3c.github.io/webdriver/"
-      },
-      {
         "name": "WEBIDL",
         "url": "https://webidl.spec.whatwg.org/"
+      },
+      {
+        "name": "WEBSOCKETS",
+        "url": "https://websockets.spec.whatwg.org/"
+      },
+      {
+        "name": "WEBTRANSPORT",
+        "url": "https://w3c.github.io/webtransport/"
       }
     ],
     "informative": [
@@ -148,8 +188,12 @@
         "url": "https://www.jsonrpc.org/specification"
       },
       {
-        "name": "SAME-SITE-COOKIES",
-        "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-cookie-same-site"
+        "name": "RFC6265BIS",
+        "url": "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-rfc6265bis"
+      },
+      {
+        "name": "TOUCH-EVENTS",
+        "url": "https://w3c.github.io/touch-events/"
       },
       {
         "name": "URLPattern",

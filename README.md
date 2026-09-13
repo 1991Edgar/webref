@@ -12,9 +12,9 @@ The `curated` branch contains **curated extracts**. Curated extracts are generat
 
 Additionally, subsets of the curated content get manually reviewed and published as **NPM [packages](https://github.com/w3c/webref/tree/main/packages)** on a weekly basis:
 - [`@webref/idl`](https://www.npmjs.com/package/@webref/idl) contains a [curated](packages/idl#guarantees) version of the [`ed/idl`](ed/idl) folder.
-- [`@webref/css`](https://www.npmjs.com/package/@webref/css) contains a [curated](packages/css#guarantees) version of the [`ed/css`](ed/css) folder.
+- [`@webref/css`](https://www.npmjs.com/package/@webref/css) contains a [consolidated and curated](packages/css#guarantees) version of the [`ed/css`](ed/css) folder.
 - [`@webref/elements`](https://www.npmjs.com/package/@webref/elements) contains a [curated](packages/elements#guarantees) version of the [`ed/elements`](ed/elements) folder.
-- [`@webref/events`](https://www.npmjs.com/package/@webref/events) contains a [curated](packages/events#guarantees) version of the [`ed/events`](ed/events) folder.
+- [`@webref/events`](https://www.npmjs.com/package/@webref/events) contains a [consolidated and curated](packages/events#guarantees) version of the [`ed/events`](ed/events) folder.
 
 **Important:** The curated extracts only contain data for specifications that are in [good standing](https://github.com/w3c/browser-specs/#standing) (to keep the number of manually-maintained patches minimal and manageable). The NPM packages only contain curated extracts of specifications that are in good standing and that [target web browsers](https://github.com/w3c/browser-specs/#categories).
 
@@ -31,6 +31,8 @@ More often than not, released versions of specifications are much older than the
 
 The following subfolders in the `curated` branch contain individual machine-readable JSON or text files generated from specifications:
 
+- [`ed/backrefs`](https://github.com/w3c/webref/tree/curated/ed/backrefs): Back references to definitions of a specification from other specifications. One file per specification. This is a curated, derived view built from `dfns` and `links` extracts.
+- [`ed/cddl`](https://github.com/w3c/webref/tree/curated/ed/cddl): CDDL modules. If the specification defines a single CDDL module, one file gets created for the specification. If it defines multiple CDDL modules, one file gets created per CDDL module, plus one file named `[shortname]-all.cddl` with all CDDL definitions.
 - [`ed/css`](https://github.com/w3c/webref/tree/curated/ed/css): CSS terms (properties, descriptors, value spaces). One file per specification [series](https://github.com/w3c/browser-specs/#series).
 - [`ed/dfns`](https://github.com/w3c/webref/tree/curated/ed/dfns): `<dfn>` terms, along with metadata such as linking text, access level, namespace. One file per specification.
 - [`ed/elements`](https://github.com/w3c/webref/tree/curated/ed/elements): Markup elements defined, along with the interface that they implement. One file per specification.
@@ -68,18 +70,36 @@ Data curation brings the following guarantees.
 
 ### CSS extracts
 
+**Important:** Starting with `@webref/css` version 7, the package contains the consolidated `ed/css.json` file, and no longer contains CSS extracts per spec. See the [changelog](packages/css/CHANGELOG.md) for "How to upgrade" considerations.
+
+The consolidated `ed/css.json` file, released in the `@webref/css` package, comes with the following guarantees:
+
+- The file follows the [relevant JSON schema](https://github.com/w3c/reffy/blob/main/schemas/postprocessing/css.json) in the version of Reffy that was used to crawl the specs.
+- All syntax values (the `syntax` keys) can be parsed by the version of [CSSTree](https://github.com/csstree/csstree) set in `peerDependencies` in `package.json`.
+- Feature names (the `name` keys) are unique per type provided that the `for` key is also taken into account for functions and types.
+- CSS features targeted by `for`, `legacyAliasOf`, `longhands` and `resetLonghands` keys are guaranteed to exist in the package.
+- All features have an `href` key that targets the CSS spec that defines the feature. When the feature is extended across CSS specs, this URL targets the base definition.
+- All URLs (without fragment) that appear in `href` and `extended` keys are guaranteed to exist in the version of [`web-specs`](https://www.npmjs.com/package/web-specs) that was used to identify the specs to extract data from. The exact version that was used is not yet surfaced in the data though. In most cases, it should be the latest published version at the time when the data is released.
+
+The consolidated file is generated from curated extracts in the `ed/css` folder. These extracts, released in the `@webref/css` package until version 7, come with the following guarantees:
+
+- All extracts follow the [relevant JSON schema](https://github.com/w3c/reffy/blob/main/schemas/files/extracts/css.json) in the version of Reffy that was used to crawl the specs.
 - All values in CSS files can be parsed by the version of [CSSTree](https://github.com/csstree/csstree) used in `peerDependencies` in `package.json`.
-- No duplicate definitions of CSS properties provided that CSS extracts of [delta specs](https://github.com/w3c/browser-specs/#seriescomposition) are not taken into account (such extracts end with `-n.json`, where `n` is a level number).
+- No duplicate definitions of entries in CSS files provided that CSS extracts of [delta specs](https://github.com/w3c/browser-specs/#seriescomposition) are not taken into account (such extracts end with `-n.json`, where `n` is a level number). The term "entries" includes CSS properties, at-rules, selectors, types and functions. Please note that specs may still extend entries defined elsewhere (to define new values for CSS properties, or new selectors for at-rules).
 - CSS extracts contain a base definition of all CSS properties that get extended by other CSS property definitions (those for which `newValues` is set).
 - All entries in CSS files that do not extend a base definition link back to their actual definition in the spec. In other words, all entries under `properties[]`, `properties[].values[]`, `selectors[]`, `atrules[]` and `values[]` have an `href` key that contains an absolute URL with fragment, except properties that that have a `newValues` key, at-rules that neither have a `prose` nor a `value` key, and definitions of a [delta spec](https://github.com/w3c/browser-specs/#seriescomposition) that completely override a definition in a previous level.
 
 ### Elements extracts
 
+- All extracts follow the [relevant JSON schema](https://github.com/w3c/reffy/blob/main/schemas/files/extracts/elements.json) in the version of Reffy that was used to crawl the specs.
 - All Web IDL interfaces referenced by elements exist in Web IDL extracts.
 - All elements link back to their definition in the spec.
 
 ### Events extracts
 
+The consolidated `ed/events.json` file, released in the `@webref/events` package, comes with the following guarantees:
+
+- The file follows the [relevant JSON schema](https://github.com/w3c/reffy/blob/main/schemas/postprocessing/events.json) in the version of Reffy that was used to crawl the specs.
 - All events have a `type` attribute that match the name of the event
 - All events have a `interface` attribute to describe the interface used by the Event. The Web IDL interface exists in the latest version of the [`@webref/idl` package](https://www.npmjs.com/package/@webref/idl) at the time the `@webref/events` package is released, and represents an actual interface (i.e. not a mixin).
 - All events have a `targets` attribute with a non-empty list of target interfaces on which the event may fire. All Web IDL interfaces in the list exist in the latest version of the [`@webref/idl` package](https://www.npmjs.com/package/@webref/idl) at the time the `@webref/events` package is released, and represent an actual interface (i.e. not a mixin).
@@ -88,6 +108,24 @@ Data curation brings the following guarantees.
 - The `bubblingPath` attribute is only set for target interfaces on which the event bubbles.
 - The `targets` attribute contains the top most interfaces in an inheritance chain, unless bubbling conditions differ. For instance, the list may contain `{ "target": "Element", "bubbles": true }` but not also `{ "target": "HTMLElement", "bubbles": true }` since `HTMLElement` inherits from `Element`.
 - For target interfaces that belong to a bubbling tree, the `targets` attribute only contains the deepest interface in the bubbling tree on which the event may fire and bubble. For instance, the list may contain `{ "target": "HTMLElement", "bubbles": true }`, but not also `{ "target": "Document" }` since event would de facto fire at `Document` through bubbling.
+
+### CDDL extracts
+
+- All CDDL files pass CDDL analysis by the version of [Strudy](https://github.com/w3c/strudy) referenced in `package.json`. Said differently, all CDDL files can be parsed by the version of [cddlparser](https://github.com/tidoust/cddlparser) referenced by Strudy.
+
+The CDDL extracts are not released in an NPM package for the time being.
+
+### Backrefs extracts
+
+- All extracts follow the [relevant JSON schema](https://github.com/w3c/reffy/blob/main/schemas/postprocessing/backrefs.json) in the version of Reffy that was used to crawl the specs.
+- The extracts contain both terms defined as private and public.
+- Every `backrefs[]` entry corresponds to a definition that exists in the defining spec's `dfns` extract (matched by `href`).
+- `id`, `href`, `linkingText`, `type`, `for`, and `access` are copied from that definition so the extract is usable on its own.
+- `referencedBy` is a non-empty list of distinct referencing specifications. The defining specification itself never appears in `referencedBy`.
+- Every `referencedBy[].shortname` identifies a specification present in the crawl (and thus listed in `ed/index.json`).
+
+The backrefs extracts are not released in an NPM package for the time being.
+
 
 ## Known consumers
 
@@ -105,6 +143,8 @@ The following projects are known to use webref data:
 * [nodysseus](https://gitlab.com/ulysses.codes/nodysseus)
 * [WebIDLPedia](https://dontcallmedom.github.io/webidlpedia/)
 * [Webdex](https://dontcallmedom.github.io/webdex/)
+* [Gost-DOM](https://github.com/gost-dom/browser), a headless browser for Go (early prototype available).
+* [Gost-DOM Webref](https://github.com/gost-dom/webref) exposing parts of the data as native Go objects.
 
 Using webref data in a project that is not yet in the list? Let us know!
 

@@ -6,7 +6,6 @@
   "links": {
     "rawlinks": {
       "http://www.microsoft.com/typography/otspec/default.htm": {},
-      "https://datatracker.ietf.org/doc/html/bcp14": {},
       "https://developer.apple.com/fonts/TrueType-Reference-Manual/": {},
       "https://dom.spec.whatwg.org/": {},
       "https://en.wikipedia.org/wiki/Billion_laughs_attack": {},
@@ -76,7 +75,7 @@
       "https://github.com/w3c/epub-specs/issues/808": {},
       "https://github.com/w3c/epub-specs/issues/810": {},
       "https://github.com/w3c/epub-specs/issues/975": {},
-      "https://github.com/w3c/epub-specs/issues?q=is%3Aissue+is%3Aclosed+sort%3Aupdated-desc+label%3ASpec-ReadingSystems": {},
+      "https://github.com/w3c/epub-specs/issues?q=is%3Aissue%20is%3Aclosed%20sort%3Aupdated-desc%20label%3ASpec-ReadingSystems%20label%3AEPUB33": {},
       "https://github.com/w3c/epub-specs/pull/1468": {},
       "https://github.com/w3c/epub-specs/pull/1597": {},
       "https://github.com/w3c/epub-specs/pull/1609": {},
@@ -293,15 +292,16 @@
       "https://www.ietf.org/standards/rfcs/": {},
       "https://www.itu.int/ITU-T/recommendations/rec.aspx?rec=13189": {},
       "https://www.mathjax.org/": {},
-      "https://www.rfc-editor.org/rfc/rfc1951": {},
-      "https://www.rfc-editor.org/rfc/rfc2046": {},
-      "https://www.rfc-editor.org/rfc/rfc2119": {},
-      "https://www.rfc-editor.org/rfc/rfc2397": {},
-      "https://www.rfc-editor.org/rfc/rfc6386": {},
+      "https://www.rfc-editor.org/info/bcp14": {},
+      "https://www.rfc-editor.org/info/rfc1951/": {},
+      "https://www.rfc-editor.org/info/rfc2046/": {},
+      "https://www.rfc-editor.org/info/rfc2119/": {},
+      "https://www.rfc-editor.org/info/rfc2397/": {},
+      "https://www.rfc-editor.org/info/rfc6386/": {},
+      "https://www.rfc-editor.org/info/rfc8089/": {},
+      "https://www.rfc-editor.org/info/rfc8174/": {},
       "https://www.rfc-editor.org/rfc/rfc7034": {},
-      "https://www.rfc-editor.org/rfc/rfc8089": {},
-      "https://www.rfc-editor.org/rfc/rfc8174": {},
-      "https://www.unicode.org/reports/tr9/tr9-50.html": {
+      "https://www.unicode.org/reports/tr9/tr9-51.html": {
         "anchors": [
           "Higher-Level_Protocols",
           "P2"
@@ -321,6 +321,7 @@
         ]
       },
       "https://www.w3.org/TR/CSS/": {},
+      "https://www.w3.org/TR/CSS2/": {},
       "https://www.w3.org/TR/CSS2/generate.html": {
         "anchors": [
           "propdef-list-style"
@@ -336,7 +337,6 @@
           "containing-block-details"
         ]
       },
-      "https://www.w3.org/TR/CSS21/": {},
       "https://www.w3.org/TR/IndexedDB/": {},
       "https://www.w3.org/TR/MathML3/": {},
       "https://www.w3.org/TR/MathML3/chapter2.html": {
@@ -496,7 +496,7 @@
         ]
       },
       "https://www.w3.org/policies/process/": {},
-      "https://www.w3.org/policies/process/20231103/": {
+      "https://www.w3.org/policies/process/20250818/": {
         "anchors": [
           "allow-new-features"
         ]

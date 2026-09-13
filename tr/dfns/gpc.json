@@ -19,9 +19,13 @@
         "id": "definitions",
         "href": "https://www.w3.org/TR/gpc/#definitions",
         "title": "Definitions",
+        "alternateIds": [
+          "x2-definitions"
+        ],
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-preference",
@@ -39,9 +43,13 @@
         "id": "definitions",
         "href": "https://www.w3.org/TR/gpc/#definitions",
         "title": "Definitions",
+        "alternateIds": [
+          "x2-definitions"
+        ],
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-gpcatnavigation",
@@ -58,9 +66,13 @@
         "id": "preference-caching",
         "href": "https://www.w3.org/TR/gpc/#preference-caching",
         "title": "Preference Caching",
+        "alternateIds": [
+          "x3-2-preference-caching"
+        ],
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-sec-gpc",
@@ -77,9 +89,13 @@
         "id": "the-sec-gpc-header-field-for-http-requests",
         "href": "https://www.w3.org/TR/gpc/#the-sec-gpc-header-field-for-http-requests",
         "title": "The Sec-GPC Header Field for HTTP Requests",
+        "alternateIds": [
+          "x3-3-the-sec-gpc-header-field-for-http-requests"
+        ],
         "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-globalprivacycontrol",
@@ -96,9 +112,13 @@
         "id": "javascript-property-to-detect-preference",
         "href": "https://www.w3.org/TR/gpc/#javascript-property-to-detect-preference",
         "title": "JavaScript Property to Detect Preference",
+        "alternateIds": [
+          "x3-4-javascript-property-to-detect-preference"
+        ],
         "number": "3.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-globalprivacycontrol-globalprivacycontrol",
@@ -119,9 +139,59 @@
         "id": "javascript-property-to-detect-preference",
         "href": "https://www.w3.org/TR/gpc/#javascript-property-to-detect-preference",
         "title": "JavaScript Property to Detect Preference",
+        "alternateIds": [
+          "x3-4-javascript-property-to-detect-preference"
+        ],
         "number": "3.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dfn-set-global-privacy-control",
+      "href": "https://www.w3.org/TR/gpc/#dfn-set-global-privacy-control",
+      "linkingText": [
+        "Set Global Privacy Control"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "set-global-privacy-control-0",
+        "href": "https://www.w3.org/TR/gpc/#set-global-privacy-control-0",
+        "title": "Set Global Privacy Control",
+        "alternateIds": [
+          "set-global-privacy-control"
+        ],
+        "number": "8.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-get-global-privacy-control",
+      "href": "https://www.w3.org/TR/gpc/#dfn-get-global-privacy-control",
+      "linkingText": [
+        "Get Global Privacy Control"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "get-global-privacy-control-0",
+        "href": "https://www.w3.org/TR/gpc/#get-global-privacy-control-0",
+        "title": "Get Global Privacy Control",
+        "alternateIds": [
+          "get-global-privacy-control"
+        ],
+        "number": "8.2"
+      },
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

@@ -28,6 +28,7 @@
       "https://storage.spec.whatwg.org/": {},
       "https://w3c.github.io/FileAPI/": {},
       "https://w3c.github.io/permissions/": {},
+      "https://w3c.github.io/webdriver-bidi/": {},
       "https://webidl.spec.whatwg.org/": {},
       "https://wicg.github.io/entries-api/": {
         "anchors": [
@@ -85,11 +86,6 @@
         "anchors": [
           "transient-activation",
           "activation-notification"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/links.html": {
-        "anchors": [
-          "as-a-download"
         ]
       },
       "https://html.spec.whatwg.org/multipage/nav-history-apis.html": {
@@ -194,6 +190,11 @@
       "https://wicg.github.io/permissions-request/": {
         "anchors": [
           "permission-request-algorithm"
+        ]
+      },
+      "https://www.w3.org/TR/webdriver-bidi/": {
+        "anchors": [
+          "webdriver-bidi-file-dialog-opened"
         ]
       }
     }

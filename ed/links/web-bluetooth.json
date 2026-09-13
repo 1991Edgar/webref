@@ -105,6 +105,7 @@
       "https://www.bluetooth.org/DocMan/handlers/DownloadDoc.ashx?doc_id=302735": {},
       "https://www.bluetooth.org/en-us/specification/assigned-numbers/company-identifiers": {},
       "https://www.rfc-editor.org/rfc/rfc4122": {},
+      "https://www.rfc-editor.org/rfc/rfc8610": {},
       "https://www.usenix.org/legacy/events/woot11/tech/final_files/Goodspeed.pdf": {},
       "https://www.w3.org/TR/page-visibility/": {},
       "https://www.w3.org/community/about/agreements/cla/": {},
@@ -122,10 +123,11 @@
           "abortsignal-add",
           "abortcontroller",
           "concept-document",
+          "document",
           "dom-event-istrusted",
+          "dom-event-bubbles",
           "concept-tree-participate",
-          "concept-tree-child",
-          "dom-event-bubbles"
+          "concept-tree-child"
         ]
       },
       "https://encoding.spec.whatwg.org/": {
@@ -189,6 +191,11 @@
           "enqueue-the-following-steps"
         ]
       },
+      "https://html.spec.whatwg.org/multipage/interaction.html": {
+        "anchors": [
+          "page-visibility-change-steps"
+        ]
+      },
       "https://html.spec.whatwg.org/multipage/nav-history-apis.html": {
         "anchors": [
           "concept-document-window",
@@ -197,21 +204,23 @@
       },
       "https://html.spec.whatwg.org/multipage/system-state.html": {
         "anchors": [
-          "navigator",
-          "associated-navigator"
+          "associated-navigator",
+          "navigator"
         ]
       },
       "https://html.spec.whatwg.org/multipage/webappapis.html": {
         "anchors": [
           "secure-context",
           "eventhandler",
+          "task-source",
           "concept-relevant-global",
+          "queue-a-global-task",
           "non-secure-context",
           "current-settings-object",
           "queue-a-task",
           "global-object",
-          "responsible-event-loop",
           "relevant-settings-object",
+          "responsible-event-loop",
           "perform-a-microtask-checkpoint",
           "environment-settings-object",
           "concept-settings-object-global",
@@ -227,16 +236,17 @@
           "abort-when",
           "if-aborted",
           "map-iterate",
+          "byte-sequence",
           "string",
           "strictly-split",
           "ascii-lower-hex-digit",
           "ordered-map",
-          "byte-sequence",
           "tuple",
           "ordered-set",
           "map-exists",
           "list-append",
-          "forgiving-base64-decode"
+          "forgiving-base64-decode",
+          "byte-value"
         ]
       },
       "https://tc39.es/ecma262/multipage/text-processing.html": {
@@ -309,7 +319,8 @@
           "dfn-remote-end-steps",
           "dfn-try",
           "dfn-local-ends",
-          "dfn-invalid-argument"
+          "dfn-invalid-argument",
+          "dfn-invalid-element-state"
         ]
       },
       "https://webidl.spec.whatwg.org/": {
@@ -324,11 +335,12 @@
           "SecureContext",
           "idl-promise",
           "SameObject",
-          "a-new-promise",
           "this",
-          "reject",
+          "a-promise-rejected-with",
           "securityerror",
+          "a-new-promise",
           "resolve",
+          "reject",
           "notfounderror",
           "dfn-convert-idl-to-javascript-value",
           "idl-DOMException",
@@ -339,14 +351,14 @@
           "notsupportederror",
           "invalidstateerror",
           "unknownerror",
+          "dfn-maplike",
           "idl-byte",
           "idl-unsigned-long",
-          "dfn-maplike",
           "wait-for-all",
-          "a-promise-rejected-with",
           "networkerror",
           "upon-fulfillment",
           "dfn-perform-steps-once-promise-is-settled",
+          "new",
           "invalidmodificationerror",
           "idl-Uint8Array"
         ]
@@ -359,6 +371,11 @@
       "https://www.bluetooth.com/specifications/assigned-numbers/": {
         "anchors": [
           ":~:text=Generic%20Access%20Profile"
+        ]
+      },
+      "https://www.rfc-editor.org/info/rfc8610/": {
+        "anchors": [
+          "appendix-D"
         ]
       },
       "https://www.w3.org/TR/page-visibility-2/": {

@@ -19,9 +19,36 @@
         "id": "navigatornetworkinformation-interface",
         "href": "https://wicg.github.io/savedata/#navigatornetworkinformation-interface",
         "title": "NavigatorNetworkInformation interface",
+        "alternateIds": [
+          "x2-navigatornetworkinformation-interface"
+        ],
         "number": "2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
+    },
+    {
+      "id": "dfn-networkinformation",
+      "href": "https://wicg.github.io/savedata/#dfn-networkinformation",
+      "linkingText": [
+        "NetworkInformation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "navigatornetworkinformation-interface",
+        "href": "https://wicg.github.io/savedata/#navigatornetworkinformation-interface",
+        "title": "NavigatorNetworkInformation interface",
+        "alternateIds": [
+          "x2-navigatornetworkinformation-interface"
+        ],
+        "number": "2"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-networkinformationsavedata",
@@ -40,9 +67,13 @@
         "id": "navigatornetworkinformation-interface",
         "href": "https://wicg.github.io/savedata/#navigatornetworkinformation-interface",
         "title": "NavigatorNetworkInformation interface",
+        "alternateIds": [
+          "x2-navigatornetworkinformation-interface"
+        ],
         "number": "2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-networkinformationsavedata-savedata",
@@ -63,9 +94,13 @@
         "id": "navigatornetworkinformation-interface",
         "href": "https://wicg.github.io/savedata/#navigatornetworkinformation-interface",
         "title": "NavigatorNetworkInformation interface",
+        "alternateIds": [
+          "x2-navigatornetworkinformation-interface"
+        ],
         "number": "2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dfn-savedata",
@@ -82,9 +117,13 @@
         "id": "savedata-attribute",
         "href": "https://wicg.github.io/savedata/#savedata-attribute",
         "title": "saveData attribute",
+        "alternateIds": [
+          "x2-1-savedata-attribute"
+        ],
         "number": "2.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dfn-save-data",
@@ -101,9 +140,13 @@
         "id": "save-data-request-header-field",
         "href": "https://wicg.github.io/savedata/#save-data-request-header-field",
         "title": "Save-Data Request Header Field",
+        "alternateIds": [
+          "x2-1-1-save-data-request-header-field"
+        ],
         "number": "2.1.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dfn-steps-to-update-the-user-preference",
@@ -120,9 +163,13 @@
         "id": "handling-changes-to-the-user-preference",
         "href": "https://wicg.github.io/savedata/#handling-changes-to-the-user-preference",
         "title": "Handling changes to the user preference",
+        "alternateIds": [
+          "x2-2-handling-changes-to-the-user-preference"
+        ],
         "number": "2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-user-agent",
@@ -139,9 +186,13 @@
         "id": "conformance",
         "href": "https://wicg.github.io/savedata/#conformance",
         "title": "Conformance",
+        "alternateIds": [
+          "x6-conformance"
+        ],
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

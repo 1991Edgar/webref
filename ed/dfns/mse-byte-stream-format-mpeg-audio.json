@@ -19,9 +19,13 @@
         "id": "mpeg-audio-frames",
         "href": "https://w3c.github.io/mse-byte-stream-format-mpeg-audio/#mpeg-audio-frames",
         "title": "MPEG Audio Frames",
+        "alternateIds": [
+          "x3-mpeg-audio-frames"
+        ],
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-metadata-frames",
@@ -38,9 +42,13 @@
         "id": "mpeg-metadata",
         "href": "https://w3c.github.io/mse-byte-stream-format-mpeg-audio/#mpeg-metadata",
         "title": "Metadata Frames",
+        "alternateIds": [
+          "x4-metadata-frames"
+        ],
         "number": "4"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dfn-icecast-header",
@@ -57,9 +65,13 @@
         "id": "icecast",
         "href": "https://w3c.github.io/mse-byte-stream-format-mpeg-audio/#icecast",
         "title": "Icecast headers",
+        "alternateIds": [
+          "x4-1-icecast-headers"
+        ],
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

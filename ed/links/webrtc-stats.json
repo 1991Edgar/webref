@@ -6,7 +6,6 @@
   "links": {
     "rawlinks": {
       "http://www.webrtc.org/experiments/rtp-hdrext/corruption-detection": {},
-      "https://datatracker.ietf.org/doc/html/bcp14": {},
       "https://datatracker.ietf.org/doc/html/draft-alvestrand-rmcat-remb-03": {},
       "https://datatracker.ietf.org/doc/html/draft-holmer-rmcat-transport-wide-cc-extensions-01": {},
       "https://datatracker.ietf.org/doc/html/draft-ietf-xrblock-rtcweb-rtcp-xr-metrics": {},
@@ -25,6 +24,7 @@
         ]
       },
       "https://github.com/w3c/webrtc-stats/issues": {},
+      "https://github.com/web-platform-tests/wpt/tree/master/protocol/candidate-exchange.html": {},
       "https://infra.spec.whatwg.org/": {},
       "https://w3c.github.io/mediacapture-main/": {
         "anchors": [
@@ -50,28 +50,34 @@
           "tls-parameters-4"
         ]
       },
+      "https://www.iso.org/standard/63637.html": {},
       "https://www.itu.int/rec/T-REC-G.168/en": {},
-      "https://www.rfc-editor.org/rfc/rfc2032": {},
-      "https://www.rfc-editor.org/rfc/rfc2119": {},
-      "https://www.rfc-editor.org/rfc/rfc3550": {},
-      "https://www.rfc-editor.org/rfc/rfc3611": {},
-      "https://www.rfc-editor.org/rfc/rfc3890": {},
-      "https://www.rfc-editor.org/rfc/rfc4572": {},
-      "https://www.rfc-editor.org/rfc/rfc4585": {},
-      "https://www.rfc-editor.org/rfc/rfc4587": {},
-      "https://www.rfc-editor.org/rfc/rfc5104": {},
-      "https://www.rfc-editor.org/rfc/rfc5226": {},
-      "https://www.rfc-editor.org/rfc/rfc5245": {},
-      "https://www.rfc-editor.org/rfc/rfc5764": {},
-      "https://www.rfc-editor.org/rfc/rfc6184": {},
-      "https://www.rfc-editor.org/rfc/rfc6347": {},
-      "https://www.rfc-editor.org/rfc/rfc6386": {},
-      "https://www.rfc-editor.org/rfc/rfc6464": {},
-      "https://www.rfc-editor.org/rfc/rfc7002": {},
-      "https://www.rfc-editor.org/rfc/rfc7004": {},
-      "https://www.rfc-editor.org/rfc/rfc7656": {},
-      "https://www.rfc-editor.org/rfc/rfc7675": {},
-      "https://www.rfc-editor.org/rfc/rfc8174": {},
+      "https://www.rfc-editor.org/info/bcp14": {},
+      "https://www.rfc-editor.org/info/rfc2032/": {},
+      "https://www.rfc-editor.org/info/rfc2119/": {},
+      "https://www.rfc-editor.org/info/rfc3168/": {},
+      "https://www.rfc-editor.org/info/rfc3550/": {},
+      "https://www.rfc-editor.org/info/rfc3611/": {},
+      "https://www.rfc-editor.org/info/rfc3890/": {},
+      "https://www.rfc-editor.org/info/rfc4572/": {},
+      "https://www.rfc-editor.org/info/rfc4585/": {},
+      "https://www.rfc-editor.org/info/rfc4587/": {},
+      "https://www.rfc-editor.org/info/rfc5104/": {},
+      "https://www.rfc-editor.org/info/rfc5226/": {},
+      "https://www.rfc-editor.org/info/rfc5245/": {},
+      "https://www.rfc-editor.org/info/rfc5764/": {},
+      "https://www.rfc-editor.org/info/rfc6184/": {},
+      "https://www.rfc-editor.org/info/rfc6347/": {},
+      "https://www.rfc-editor.org/info/rfc6386/": {},
+      "https://www.rfc-editor.org/info/rfc6464/": {},
+      "https://www.rfc-editor.org/info/rfc7002/": {},
+      "https://www.rfc-editor.org/info/rfc7004/": {},
+      "https://www.rfc-editor.org/info/rfc7656/": {},
+      "https://www.rfc-editor.org/info/rfc7675/": {},
+      "https://www.rfc-editor.org/info/rfc8174/": {},
+      "https://www.rfc-editor.org/info/rfc8829/": {},
+      "https://www.rfc-editor.org/info/rfc8888/": {},
+      "https://www.rfc-editor.org/info/rfc9331/": {},
       "https://www.rfc-editor.org/rfc/rfc8829": {
         "anchors": [
           "section-5.8"
@@ -100,12 +106,13 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://infra.spec.whatwg.org/": {
         "anchors": [
-          "map-exists"
+          "map-exists",
+          "implementation-defined"
         ]
       },
       "https://webidl.spec.whatwg.org/": {
@@ -123,8 +130,8 @@
       },
       "https://www.w3.org/TR/hr-time-3/": {
         "anchors": [
-          "dom-domhighrestimestamp",
-          "dom-performance",
+          "typedefdef-domhighrestimestamp",
+          "performance",
           "dom-performance-timeorigin",
           "dom-performance-now"
         ]
@@ -154,6 +161,7 @@
           "dom-rtcrtpencodingparameters-active",
           "dom-rtptransceiver-mid",
           "dom-rtcrtpcodingparameters-rid",
+          "dom-rtcrtpsendparameters-encodings",
           "dom-rtcdatachannelstate-open",
           "dom-rtcdatachannelstate-connecting",
           "dom-rtcdatachannelstate-closing",

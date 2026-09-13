@@ -31,6 +31,8 @@
         ]
       },
       "https://drafts.csswg.org/css-backgrounds/": {},
+      "https://drafts.csswg.org/css-borders-4/": {},
+      "https://drafts.csswg.org/css-box-4/": {},
       "https://drafts.csswg.org/css-break-4/": {
         "anchors": [
           "break-margins"
@@ -44,18 +46,6 @@
       },
       "https://drafts.csswg.org/css-display-4/": {},
       "https://drafts.csswg.org/css-display/": {},
-      "https://drafts.csswg.org/css-flexbox-1/": {
-        "anchors": [
-          "visibility-collapse"
-        ]
-      },
-      "https://drafts.csswg.org/css-grid-1/": {
-        "anchors": [
-          "auto-repeat"
-        ]
-      },
-      "https://drafts.csswg.org/css-grid-2/": {},
-      "https://drafts.csswg.org/css-grid/": {},
       "https://drafts.csswg.org/css-logical-1/": {
         "anchors": [
           "margin-properties",
@@ -80,7 +70,7 @@
       "https://github.com/w3c/csswg-drafts/issues/8547": {},
       "https://lists.w3.org/Archives/Public/public-css-archive/": {},
       "https://lists.w3.org/Archives/Public/www-style/": {},
-      "https://svgwg.org/svg2-draft/": {},
+      "https://w3c.github.io/svgwg/svg2-draft/": {},
       "https://www.w3.org/TR/2018/WD-css3-box-20180731/": {},
       "https://www.w3.org/TR/2022/WD-css-box-4-20221103/": {},
       "https://www.w3.org/TR/2024/WD-css-box-4-20240401/": {},
@@ -136,16 +126,20 @@
           "animation-type"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://drafts.csswg.org/css-backgrounds-3/": {
         "anchors": [
-          "propdef-border",
           "propdef-background",
-          "propdef-border-radius",
           "propdef-background-clip",
           "propdef-background-origin"
+        ]
+      },
+      "https://drafts.csswg.org/css-borders-4/": {
+        "anchors": [
+          "propdef-border",
+          "propdef-border-radius"
         ]
       },
       "https://drafts.csswg.org/css-break-4/": {
@@ -174,26 +168,8 @@
           "block-layout",
           "internal-table-element",
           "block-container",
-          "block-level",
+          "in-flow",
           "inline-level"
-        ]
-      },
-      "https://drafts.csswg.org/css-flexbox-1/": {
-        "anchors": [
-          "flex-container",
-          "flex-item",
-          "flex-line",
-          "main-axis",
-          "cross-axis",
-          "collapsed-flex-item"
-        ]
-      },
-      "https://drafts.csswg.org/css-grid-2/": {
-        "anchors": [
-          "grid-container",
-          "grid-item",
-          "grid-track",
-          "collapsed-grid-track"
         ]
       },
       "https://drafts.csswg.org/css-multicol-2/": {
@@ -237,20 +213,20 @@
           "physical",
           "flow-relative",
           "logical-width",
-          "inline-axis",
           "writing-mode"
         ]
       },
-      "https://svgwg.org/svg2-draft/coords.html": {
+      "https://w3c.github.io/svgwg/svg2-draft/coords.html": {
         "anchors": [
+          "TermCanvas",
           "TermObjectBoundingBox",
           "TermStrokeBoundingBox",
           "TermSVGViewport"
         ]
       },
-      "https://www.w3.org/TR/CSS21/intro.html": {
+      "https://www.w3.org/TR/css-box-4/": {
         "anchors": [
-          "canvas"
+          "valdef-margin-trim-inline"
         ]
       }
     }

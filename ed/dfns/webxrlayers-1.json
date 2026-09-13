@@ -23,7 +23,8 @@
         "title": "Initialization",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "enumdef-xrlayerlayout",
@@ -42,7 +43,8 @@
         "title": "XRLayerLayout",
         "number": "3.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrlayerlayout-default",
@@ -59,11 +61,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrlayerlayouttype",
+        "href": "https://immersive-web.github.io/layers/#xrlayerlayouttype",
+        "title": "XRLayerLayout",
+        "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrlayerlayout-mono",
@@ -80,11 +84,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrlayerlayouttype",
+        "href": "https://immersive-web.github.io/layers/#xrlayerlayouttype",
+        "title": "XRLayerLayout",
+        "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrlayerlayout-stereo",
@@ -101,11 +107,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrlayerlayouttype",
+        "href": "https://immersive-web.github.io/layers/#xrlayerlayouttype",
+        "title": "XRLayerLayout",
+        "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrlayerlayout-stereo-left-right",
@@ -122,11 +130,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrlayerlayouttype",
+        "href": "https://immersive-web.github.io/layers/#xrlayerlayouttype",
+        "title": "XRLayerLayout",
+        "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrlayerlayout-stereo-top-bottom",
@@ -143,11 +153,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrlayerlayouttype",
+        "href": "https://immersive-web.github.io/layers/#xrlayerlayouttype",
+        "title": "XRLayerLayout",
+        "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "enumdef-xrlayerquality",
@@ -166,7 +178,8 @@
         "title": "XRLayerQuality",
         "number": "3.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrlayerquality-default",
@@ -183,11 +196,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrlayerqualitytype",
+        "href": "https://immersive-web.github.io/layers/#xrlayerqualitytype",
+        "title": "XRLayerQuality",
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrlayerquality-text-optimized",
@@ -204,11 +219,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrlayerqualitytype",
+        "href": "https://immersive-web.github.io/layers/#xrlayerqualitytype",
+        "title": "XRLayerQuality",
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrlayerquality-graphics-optimized",
@@ -225,11 +242,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrlayerqualitytype",
+        "href": "https://immersive-web.github.io/layers/#xrlayerqualitytype",
+        "title": "XRLayerQuality",
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrcompositionlayer",
@@ -248,7 +267,8 @@
         "title": "XRCompositionLayer",
         "number": "3.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrcompositionlayer-destroy",
@@ -264,11 +284,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrcompositionlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrcompositionlayertype",
+        "title": "XRCompositionLayer",
+        "number": "3.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrcompositionlayer-layout",
@@ -284,11 +306,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrcompositionlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrcompositionlayertype",
+        "title": "XRCompositionLayer",
+        "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrcompositionlayer-blendtexturesourcealpha",
@@ -304,11 +328,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrcompositionlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrcompositionlayertype",
+        "title": "XRCompositionLayer",
+        "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrcompositionlayer-forcemonopresentation",
@@ -324,11 +350,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrcompositionlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrcompositionlayertype",
+        "title": "XRCompositionLayer",
+        "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrcompositionlayer-opacity",
@@ -344,11 +372,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrcompositionlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrcompositionlayertype",
+        "title": "XRCompositionLayer",
+        "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrcompositionlayer-needsredraw",
@@ -364,11 +394,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrcompositionlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrcompositionlayertype",
+        "title": "XRCompositionLayer",
+        "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrcompositionlayer-miplevels",
@@ -384,11 +416,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrcompositionlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrcompositionlayertype",
+        "title": "XRCompositionLayer",
+        "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrcompositionlayer-quality",
@@ -404,11 +438,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrcompositionlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrcompositionlayertype",
+        "title": "XRCompositionLayer",
+        "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "the-underlying-resources-of-a-layer-are-lost",
@@ -422,17 +458,61 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrcompositionlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrcompositionlayertype",
+        "title": "XRCompositionLayer",
+        "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "intialize-a-composition-layer",
-      "href": "https://immersive-web.github.io/layers/#intialize-a-composition-layer",
+      "id": "xrcompositionlayer-destroyed",
+      "href": "https://immersive-web.github.io/layers/#xrcompositionlayer-destroyed",
       "linkingText": [
-        "intialize a composition layer"
+        "destroyed"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "XRCompositionLayer"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "xrcompositionlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrcompositionlayertype",
+        "title": "XRCompositionLayer",
+        "number": "3.4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "destroy-the-resources-for-a-layer",
+      "href": "https://immersive-web.github.io/layers/#destroy-the-resources-for-a-layer",
+      "linkingText": [
+        "destroy the resources for a layer"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "xrcompositionlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrcompositionlayertype",
+        "title": "XRCompositionLayer",
+        "number": "3.4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "initialize-a-composition-layer",
+      "href": "https://immersive-web.github.io/layers/#initialize-a-composition-layer",
+      "linkingText": [
+        "initialize a composition layer"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -440,11 +520,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrcompositionlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrcompositionlayertype",
+        "title": "XRCompositionLayer",
+        "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrcompositionlayer-context",
@@ -460,11 +542,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrcompositionlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrcompositionlayertype",
+        "title": "XRCompositionLayer",
+        "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrcompositionlayer-media",
@@ -480,11 +564,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrcompositionlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrcompositionlayertype",
+        "title": "XRCompositionLayer",
+        "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrcompositionlayer-session",
@@ -500,11 +586,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrcompositionlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrcompositionlayertype",
+        "title": "XRCompositionLayer",
+        "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "setting-the-space-on-a-layer",
@@ -518,11 +606,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrcompositionlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrcompositionlayertype",
+        "title": "XRCompositionLayer",
+        "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrcompositionlayer-isstatic",
@@ -538,11 +628,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrcompositionlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrcompositionlayertype",
+        "title": "XRCompositionLayer",
+        "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrprojectionlayer",
@@ -561,7 +653,8 @@
         "title": "XRProjectionLayer",
         "number": "3.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrprojectionlayer-texturewidth",
@@ -577,11 +670,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrprojectionlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrprojectionlayertype",
+        "title": "XRProjectionLayer",
+        "number": "3.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrprojectionlayer-textureheight",
@@ -597,11 +692,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrprojectionlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrprojectionlayertype",
+        "title": "XRProjectionLayer",
+        "number": "3.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrprojectionlayer-texturearraylength",
@@ -617,11 +714,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrprojectionlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrprojectionlayertype",
+        "title": "XRProjectionLayer",
+        "number": "3.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrprojectionlayer-fixedfoveation",
@@ -637,11 +736,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrprojectionlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrprojectionlayertype",
+        "title": "XRProjectionLayer",
+        "number": "3.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrprojectionlayer-ignoredepthvalues",
@@ -657,11 +758,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrprojectionlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrprojectionlayertype",
+        "title": "XRProjectionLayer",
+        "number": "3.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrprojectionlayer-deltapose",
@@ -677,11 +780,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrprojectionlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrprojectionlayertype",
+        "title": "XRProjectionLayer",
+        "number": "3.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrquadlayer",
@@ -700,7 +805,8 @@
         "title": "XRQuadLayer",
         "number": "3.6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrquadlayer-transform",
@@ -716,11 +822,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrquadlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrquadlayertype",
+        "title": "XRQuadLayer",
+        "number": "3.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrquadlayer-space",
@@ -736,11 +844,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrquadlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrquadlayertype",
+        "title": "XRQuadLayer",
+        "number": "3.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrquadlayer-width",
@@ -756,11 +866,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrquadlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrquadlayertype",
+        "title": "XRQuadLayer",
+        "number": "3.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrquadlayer-height",
@@ -776,11 +888,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrquadlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrquadlayertype",
+        "title": "XRQuadLayer",
+        "number": "3.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "initialize-a-quad-layer",
@@ -794,11 +908,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrquadlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrquadlayertype",
+        "title": "XRQuadLayer",
+        "number": "3.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrquadlayer-onredraw",
@@ -814,11 +930,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrquadlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrquadlayertype",
+        "title": "XRQuadLayer",
+        "number": "3.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrcylinderlayer",
@@ -837,7 +955,8 @@
         "title": "XRCylinderLayer",
         "number": "3.7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrcylinderlayer-transform",
@@ -853,11 +972,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrcylinderayertype",
+        "href": "https://immersive-web.github.io/layers/#xrcylinderayertype",
+        "title": "XRCylinderLayer",
+        "number": "3.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrcylinderlayer-space",
@@ -873,11 +994,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrcylinderayertype",
+        "href": "https://immersive-web.github.io/layers/#xrcylinderayertype",
+        "title": "XRCylinderLayer",
+        "number": "3.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrcylinderlayer-radius",
@@ -893,11 +1016,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrcylinderayertype",
+        "href": "https://immersive-web.github.io/layers/#xrcylinderayertype",
+        "title": "XRCylinderLayer",
+        "number": "3.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrcylinderlayer-centralangle",
@@ -913,11 +1038,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrcylinderayertype",
+        "href": "https://immersive-web.github.io/layers/#xrcylinderayertype",
+        "title": "XRCylinderLayer",
+        "number": "3.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrcylinderlayer-aspectratio",
@@ -933,11 +1060,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrcylinderayertype",
+        "href": "https://immersive-web.github.io/layers/#xrcylinderayertype",
+        "title": "XRCylinderLayer",
+        "number": "3.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "initialize-a-cylinder-layer",
@@ -951,11 +1080,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrcylinderayertype",
+        "href": "https://immersive-web.github.io/layers/#xrcylinderayertype",
+        "title": "XRCylinderLayer",
+        "number": "3.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrcylinderlayer-onredraw",
@@ -971,11 +1102,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrcylinderayertype",
+        "href": "https://immersive-web.github.io/layers/#xrcylinderayertype",
+        "title": "XRCylinderLayer",
+        "number": "3.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrequirectlayer",
@@ -994,7 +1127,8 @@
         "title": "XREquirectLayer",
         "number": "3.8"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrequirectlayer-space",
@@ -1010,11 +1144,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrequirectlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrequirectlayertype",
+        "title": "XREquirectLayer",
+        "number": "3.8"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrequirectlayer-transform",
@@ -1030,11 +1166,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrequirectlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrequirectlayertype",
+        "title": "XREquirectLayer",
+        "number": "3.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrequirectlayer-radius",
@@ -1050,11 +1188,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrequirectlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrequirectlayertype",
+        "title": "XREquirectLayer",
+        "number": "3.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrequirectlayer-centralhorizontalangle",
@@ -1070,11 +1210,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrequirectlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrequirectlayertype",
+        "title": "XREquirectLayer",
+        "number": "3.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrequirectlayer-upperverticalangle",
@@ -1090,11 +1232,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrequirectlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrequirectlayertype",
+        "title": "XREquirectLayer",
+        "number": "3.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrequirectlayer-lowerverticalangle",
@@ -1110,11 +1254,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrequirectlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrequirectlayertype",
+        "title": "XREquirectLayer",
+        "number": "3.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "initialize-a-equirect-layer",
@@ -1128,11 +1274,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrequirectlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrequirectlayertype",
+        "title": "XREquirectLayer",
+        "number": "3.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrequirectlayer-onredraw",
@@ -1148,11 +1296,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrequirectlayertype",
+        "href": "https://immersive-web.github.io/layers/#xrequirectlayertype",
+        "title": "XREquirectLayer",
+        "number": "3.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrcubelayer",
@@ -1171,7 +1321,8 @@
         "title": "XRCubeLayer",
         "number": "3.9"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrcubelayer-orientation",
@@ -1187,11 +1338,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xcubelayertype",
+        "href": "https://immersive-web.github.io/layers/#xcubelayertype",
+        "title": "XRCubeLayer",
+        "number": "3.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrcubelayer-space",
@@ -1207,11 +1360,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xcubelayertype",
+        "href": "https://immersive-web.github.io/layers/#xcubelayertype",
+        "title": "XRCubeLayer",
+        "number": "3.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrcubelayer-onredraw",
@@ -1227,11 +1382,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xcubelayertype",
+        "href": "https://immersive-web.github.io/layers/#xcubelayertype",
+        "title": "XRCubeLayer",
+        "number": "3.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrsubimage",
@@ -1250,7 +1407,8 @@
         "title": "XRSubImage",
         "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrsubimage-viewport",
@@ -1266,11 +1424,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrsubimagetype",
+        "href": "https://immersive-web.github.io/layers/#xrsubimagetype",
+        "title": "XRSubImage",
+        "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrwebglsubimage",
@@ -1289,7 +1449,8 @@
         "title": "XRWebGLSubImage",
         "number": "5.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrwebglsubimage-colortexture",
@@ -1305,11 +1466,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrwebglsubimagetype",
+        "href": "https://immersive-web.github.io/layers/#xrwebglsubimagetype",
+        "title": "XRWebGLSubImage",
+        "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrwebglsubimage-depthstenciltexture",
@@ -1325,11 +1488,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrwebglsubimagetype",
+        "href": "https://immersive-web.github.io/layers/#xrwebglsubimagetype",
+        "title": "XRWebGLSubImage",
+        "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrwebglsubimage-motionvectortexture",
@@ -1345,11 +1510,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrwebglsubimagetype",
+        "href": "https://immersive-web.github.io/layers/#xrwebglsubimagetype",
+        "title": "XRWebGLSubImage",
+        "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrwebglsubimage-imageindex",
@@ -1365,11 +1532,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrwebglsubimagetype",
+        "href": "https://immersive-web.github.io/layers/#xrwebglsubimagetype",
+        "title": "XRWebGLSubImage",
+        "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrwebglsubimage-colortexturewidth",
@@ -1385,51 +1554,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrwebglsubimagetype",
+        "href": "https://immersive-web.github.io/layers/#xrwebglsubimagetype",
+        "title": "XRWebGLSubImage",
+        "number": "5.2"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dom-xrwebglsubimage-depthstenciltextureheight",
-      "href": "https://immersive-web.github.io/layers/#dom-xrwebglsubimage-depthstenciltextureheight",
-      "linkingText": [
-        "depthStencilTextureHeight"
-      ],
-      "localLinkingText": [],
-      "type": "attribute",
-      "for": [
-        "XRWebGLSubImage"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dom-xrwebglsubimage-depthstenciltexturewidth",
-      "href": "https://immersive-web.github.io/layers/#dom-xrwebglsubimage-depthstenciltexturewidth",
-      "linkingText": [
-        "depthStencilTextureWidth"
-      ],
-      "localLinkingText": [],
-      "type": "attribute",
-      "for": [
-        "XRWebGLSubImage"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
-      },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrwebglsubimage-colortextureheight",
@@ -1445,17 +1576,19 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrwebglsubimagetype",
+        "href": "https://immersive-web.github.io/layers/#xrwebglsubimagetype",
+        "title": "XRWebGLSubImage",
+        "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "dom-xrwebglsubimage-motionvectortexturewidth",
-      "href": "https://immersive-web.github.io/layers/#dom-xrwebglsubimage-motionvectortexturewidth",
+      "id": "dom-xrwebglsubimage-depthstenciltexturewidth",
+      "href": "https://immersive-web.github.io/layers/#dom-xrwebglsubimage-depthstenciltexturewidth",
       "linkingText": [
-        "motionVectorTextureWidth"
+        "depthStencilTextureWidth"
       ],
       "localLinkingText": [],
       "type": "attribute",
@@ -1465,17 +1598,19 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrwebglsubimagetype",
+        "href": "https://immersive-web.github.io/layers/#xrwebglsubimagetype",
+        "title": "XRWebGLSubImage",
+        "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "dom-xrwebglsubimage-motionvectortextureheight",
-      "href": "https://immersive-web.github.io/layers/#dom-xrwebglsubimage-motionvectortextureheight",
+      "id": "dom-xrwebglsubimage-depthstenciltextureheight",
+      "href": "https://immersive-web.github.io/layers/#dom-xrwebglsubimage-depthstenciltextureheight",
       "linkingText": [
-        "motionVectorTextureHeight"
+        "depthStencilTextureHeight"
       ],
       "localLinkingText": [],
       "type": "attribute",
@@ -1485,11 +1620,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrwebglsubimagetype",
+        "href": "https://immersive-web.github.io/layers/#xrwebglsubimagetype",
+        "title": "XRWebGLSubImage",
+        "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "enumdef-xrtexturetype",
@@ -1508,7 +1645,8 @@
         "title": "XRTextureType",
         "number": "5.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrtexturetype-texture",
@@ -1525,11 +1663,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrtexturetype",
+        "href": "https://immersive-web.github.io/layers/#xrtexturetype",
+        "title": "XRTextureType",
+        "number": "5.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrtexturetype-texture-array",
@@ -1546,11 +1686,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrtexturetype",
+        "href": "https://immersive-web.github.io/layers/#xrtexturetype",
+        "title": "XRTextureType",
+        "number": "5.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "opaque-texture",
@@ -1569,7 +1711,8 @@
         "title": "Opaque textures",
         "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dictdef-xrprojectionlayerinit",
@@ -1588,7 +1731,8 @@
         "title": "XRProjectionLayerInit",
         "number": "6.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrprojectionlayerinit-texturetype",
@@ -1604,11 +1748,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrprojectionlayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrprojectionlayerinittype",
+        "title": "XRProjectionLayerInit",
+        "number": "6.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrprojectionlayerinit-colorformat",
@@ -1624,11 +1770,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrprojectionlayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrprojectionlayerinittype",
+        "title": "XRProjectionLayerInit",
+        "number": "6.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "list-of-color-formats-for-projection-layers",
@@ -1642,11 +1790,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrprojectionlayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrprojectionlayerinittype",
+        "title": "XRProjectionLayerInit",
+        "number": "6.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrprojectionlayerinit-depthformat",
@@ -1662,11 +1812,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrprojectionlayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrprojectionlayerinittype",
+        "title": "XRProjectionLayerInit",
+        "number": "6.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "list-of-depth-formats-for-projection-layers",
@@ -1680,11 +1832,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrprojectionlayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrprojectionlayerinittype",
+        "title": "XRProjectionLayerInit",
+        "number": "6.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrprojectionlayerinit-scalefactor",
@@ -1700,11 +1854,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrprojectionlayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrprojectionlayerinittype",
+        "title": "XRProjectionLayerInit",
+        "number": "6.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrprojectionlayerinit-clearonaccess",
@@ -1720,11 +1876,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrprojectionlayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrprojectionlayerinittype",
+        "title": "XRProjectionLayerInit",
+        "number": "6.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dictdef-xrlayerinit",
@@ -1743,7 +1901,8 @@
         "title": "XRLayerInit",
         "number": "6.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrlayerinit-isstatic",
@@ -1759,11 +1918,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrlayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrlayerinittype",
+        "title": "XRLayerInit",
+        "number": "6.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrlayerinit-space",
@@ -1779,11 +1940,35 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrlayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrlayerinittype",
+        "title": "XRLayerInit",
+        "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-xrlayerinit-texturetype",
+      "href": "https://immersive-web.github.io/layers/#dom-xrlayerinit-texturetype",
+      "linkingText": [
+        "textureType"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "XRLayerInit"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "xrlayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrlayerinittype",
+        "title": "XRLayerInit",
+        "number": "6.4"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrlayerinit-colorformat",
@@ -1799,11 +1984,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrlayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrlayerinittype",
+        "title": "XRLayerInit",
+        "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "list-of-color-formats-for-non-projection-layers",
@@ -1817,11 +2004,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrlayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrlayerinittype",
+        "title": "XRLayerInit",
+        "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrlayerinit-depthformat",
@@ -1837,11 +2026,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrlayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrlayerinittype",
+        "title": "XRLayerInit",
+        "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "list-of-depth-formats-for-non-projection-layers",
@@ -1855,11 +2046,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrlayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrlayerinittype",
+        "title": "XRLayerInit",
+        "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrlayerinit-miplevels",
@@ -1875,11 +2068,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrlayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrlayerinittype",
+        "title": "XRLayerInit",
+        "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrlayerinit-viewpixelwidth",
@@ -1895,11 +2090,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrlayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrlayerinittype",
+        "title": "XRLayerInit",
+        "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrlayerinit-viewpixelheight",
@@ -1915,11 +2112,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrlayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrlayerinittype",
+        "title": "XRLayerInit",
+        "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrlayerinit-layout",
@@ -1935,11 +2134,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrlayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrlayerinittype",
+        "title": "XRLayerInit",
+        "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrlayerinit-clearonaccess",
@@ -1955,11 +2156,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrlayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrlayerinittype",
+        "title": "XRLayerInit",
+        "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dictdef-xrquadlayerinit",
@@ -1978,27 +2181,8 @@
         "title": "XRQuadLayerInit",
         "number": "6.5"
       },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-xrquadlayerinit-texturetype",
-      "href": "https://immersive-web.github.io/layers/#dom-xrquadlayerinit-texturetype",
-      "linkingText": [
-        "textureType"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "XRQuadLayerInit"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
-      },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrquadlayerinit-transform",
@@ -2014,11 +2198,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrquadlayerinit",
+        "href": "https://immersive-web.github.io/layers/#xrquadlayerinit",
+        "title": "XRQuadLayerInit",
+        "number": "6.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrquadlayerinit-width",
@@ -2034,11 +2220,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrquadlayerinit",
+        "href": "https://immersive-web.github.io/layers/#xrquadlayerinit",
+        "title": "XRQuadLayerInit",
+        "number": "6.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrquadlayerinit-height",
@@ -2054,11 +2242,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrquadlayerinit",
+        "href": "https://immersive-web.github.io/layers/#xrquadlayerinit",
+        "title": "XRQuadLayerInit",
+        "number": "6.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-xrcylinderlayerinit",
@@ -2077,27 +2267,8 @@
         "title": "XRCylinderLayerInit",
         "number": "6.6"
       },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-xrcylinderlayerinit-texturetype",
-      "href": "https://immersive-web.github.io/layers/#dom-xrcylinderlayerinit-texturetype",
-      "linkingText": [
-        "textureType"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "XRCylinderLayerInit"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
-      },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrcylinderlayerinit-transform",
@@ -2113,11 +2284,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrcylinderlayerinit",
+        "href": "https://immersive-web.github.io/layers/#xrcylinderlayerinit",
+        "title": "XRCylinderLayerInit",
+        "number": "6.6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrcylinderlayerinit-radius",
@@ -2133,11 +2306,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrcylinderlayerinit",
+        "href": "https://immersive-web.github.io/layers/#xrcylinderlayerinit",
+        "title": "XRCylinderLayerInit",
+        "number": "6.6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrcylinderlayerinit-centralangle",
@@ -2153,11 +2328,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrcylinderlayerinit",
+        "href": "https://immersive-web.github.io/layers/#xrcylinderlayerinit",
+        "title": "XRCylinderLayerInit",
+        "number": "6.6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrcylinderlayerinit-aspectratio",
@@ -2173,11 +2350,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrcylinderlayerinit",
+        "href": "https://immersive-web.github.io/layers/#xrcylinderlayerinit",
+        "title": "XRCylinderLayerInit",
+        "number": "6.6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-xrequirectlayerinit",
@@ -2196,27 +2375,8 @@
         "title": "XREquirectLayerInit",
         "number": "6.7"
       },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-xrequirectlayerinit-texturetype",
-      "href": "https://immersive-web.github.io/layers/#dom-xrequirectlayerinit-texturetype",
-      "linkingText": [
-        "textureType"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "XREquirectLayerInit"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
-      },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrequirectlayerinit-transform",
@@ -2232,11 +2392,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrequirectlayerinit",
+        "href": "https://immersive-web.github.io/layers/#xrequirectlayerinit",
+        "title": "XREquirectLayerInit",
+        "number": "6.7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrequirectlayerinit-radius",
@@ -2252,11 +2414,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrequirectlayerinit",
+        "href": "https://immersive-web.github.io/layers/#xrequirectlayerinit",
+        "title": "XREquirectLayerInit",
+        "number": "6.7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrequirectlayerinit-centralhorizontalangle",
@@ -2272,11 +2436,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrequirectlayerinit",
+        "href": "https://immersive-web.github.io/layers/#xrequirectlayerinit",
+        "title": "XREquirectLayerInit",
+        "number": "6.7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrequirectlayerinit-upperverticalangle",
@@ -2292,11 +2458,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrequirectlayerinit",
+        "href": "https://immersive-web.github.io/layers/#xrequirectlayerinit",
+        "title": "XREquirectLayerInit",
+        "number": "6.7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrequirectlayerinit-lowerverticalangle",
@@ -2312,11 +2480,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrequirectlayerinit",
+        "href": "https://immersive-web.github.io/layers/#xrequirectlayerinit",
+        "title": "XREquirectLayerInit",
+        "number": "6.7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-xrcubelayerinit",
@@ -2335,7 +2505,8 @@
         "title": "XRCubeLayerInit",
         "number": "6.8"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrcubelayerinit-orientation",
@@ -2351,11 +2522,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrcubelayerinit",
+        "href": "https://immersive-web.github.io/layers/#xrcubelayerinit",
+        "title": "XRCubeLayerInit",
+        "number": "6.8"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "xrwebglbinding",
@@ -2374,7 +2547,8 @@
         "title": "XRWebGLBinding",
         "number": "6.9"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrwebglbinding-xrwebglbinding-session-context-session",
@@ -2391,11 +2565,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrwebglbinding-xrwebglbinding-session-context-context",
@@ -2412,11 +2588,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrwebglbinding-createprojectionlayer-init-init",
@@ -2433,11 +2611,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrwebglbinding-createquadlayer-init-init",
@@ -2454,11 +2634,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrwebglbinding-createcylinderlayer-init-init",
@@ -2475,11 +2657,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrwebglbinding-createequirectlayer-init-init",
@@ -2496,11 +2680,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrwebglbinding-createcubelayer-init-init",
@@ -2517,11 +2703,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrwebglbinding-getsubimage-layer-frame-eye-layer",
@@ -2538,11 +2726,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrwebglbinding-getsubimage-layer-frame-eye-frame",
@@ -2559,11 +2749,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrwebglbinding-getsubimage-layer-frame-eye-eye",
@@ -2580,11 +2772,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrwebglbinding-getviewsubimage-layer-view-layer",
@@ -2600,11 +2794,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrwebglbinding-getviewsubimage-layer-view-view",
@@ -2620,11 +2816,57 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-xrwebglbinding-foveateboundtexture-target-fixed_foveation-target",
+      "href": "https://immersive-web.github.io/layers/#dom-xrwebglbinding-foveateboundtexture-target-fixed_foveation-target",
+      "linkingText": [
+        "target"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "XRWebGLBinding/foveateBoundTexture(target, fixed_foveation)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-xrwebglbinding-foveateboundtexture-target-fixed_foveation-fixed_foveation",
+      "href": "https://immersive-web.github.io/layers/#dom-xrwebglbinding-foveateboundtexture-target-fixed_foveation-fixed_foveation",
+      "linkingText": [
+        "fixed_foveation"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "XRWebGLBinding/foveateBoundTexture(target, fixed_foveation)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "xrwebglbinding-context",
@@ -2640,11 +2882,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrwebglbinding-session",
@@ -2660,11 +2904,35 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "xrwebglbinding-foveatedtextures",
+      "href": "https://immersive-web.github.io/layers/#xrwebglbinding-foveatedtextures",
+      "linkingText": [
+        "foveatedTextures"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "XRWebGLBinding"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "colortextures",
@@ -2678,11 +2946,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "depthstenciltextures",
@@ -2696,11 +2966,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "motionvectortextures",
@@ -2714,11 +2986,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrprojectionlayer-colortextures-for-secondary-views",
@@ -2734,11 +3008,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrprojectionlayer-depthstenciltextures-for-secondary-views",
@@ -2754,11 +3030,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrwebglbinding-xrwebglbinding",
@@ -2775,11 +3053,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrwebglbinding-nativeprojectionscalefactor",
@@ -2795,11 +3075,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrwebglbinding-usesdepthvalues",
@@ -2815,11 +3097,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "determine-the-layout-attribute",
@@ -2833,11 +3117,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "determine-the-maximum-scalefactor",
@@ -2851,11 +3137,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "allocate-color-textures-for-projection-layers",
@@ -2869,11 +3157,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "allocate-depth-textures-for-projection-layers",
@@ -2887,11 +3177,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "allocate-motion-vector-textures-for-projection-layers",
@@ -2905,11 +3197,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "allocate-the-color-textures-for-the-secondary-views",
@@ -2923,11 +3217,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "allocate-the-depth-textures-for-the-secondary-views",
@@ -2941,11 +3237,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "allocate-color-textures",
@@ -2959,11 +3257,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "allocate-depth-textures",
@@ -2977,11 +3277,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrwebglbinding-createprojectionlayer",
@@ -2998,11 +3300,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrwebglbinding-createquadlayer",
@@ -3019,11 +3323,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrwebglbinding-createcylinderlayer",
@@ -3040,11 +3346,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrwebglbinding-createequirectlayer",
@@ -3061,11 +3369,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrwebglbinding-createcubelayer",
@@ -3082,11 +3392,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "validate-the-state-of-the-xrwebglsubimage-creation-function",
@@ -3100,11 +3412,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "initialize-the-viewport",
@@ -3118,11 +3432,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrwebglbinding-getsubimage",
@@ -3139,11 +3455,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrwebglbinding-getviewsubimage",
@@ -3159,11 +3477,35 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-xrwebglbinding-foveateboundtexture",
+      "href": "https://immersive-web.github.io/layers/#dom-xrwebglbinding-foveateboundtexture",
+      "linkingText": [
+        "foveateBoundTexture(target, fixed_foveation)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "XRWebGLBinding"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "XRWebGLBindingtype",
+        "href": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "title": "XRWebGLBinding",
+        "number": "6.9"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dictdef-xrmedialayerinit",
@@ -3182,7 +3524,8 @@
         "title": "XRMediaLayerInit",
         "number": "7.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrmedialayerinit-space",
@@ -3198,11 +3541,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrmedialayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrmedialayerinittype",
+        "title": "XRMediaLayerInit",
+        "number": "7.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrmedialayerinit-layout",
@@ -3218,11 +3563,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrmedialayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrmedialayerinittype",
+        "title": "XRMediaLayerInit",
+        "number": "7.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrmedialayerinit-invertstereo",
@@ -3238,11 +3585,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrmedialayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrmedialayerinittype",
+        "title": "XRMediaLayerInit",
+        "number": "7.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dictdef-xrmediaquadlayerinit",
@@ -3261,7 +3610,8 @@
         "title": "XRMediaQuadLayerInit",
         "number": "7.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrmediaquadlayerinit-transform",
@@ -3277,11 +3627,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrmediaquadlayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrmediaquadlayerinittype",
+        "title": "XRMediaQuadLayerInit",
+        "number": "7.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrmediaquadlayerinit-width",
@@ -3297,11 +3649,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrmediaquadlayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrmediaquadlayerinittype",
+        "title": "XRMediaQuadLayerInit",
+        "number": "7.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrmediaquadlayerinit-height",
@@ -3317,11 +3671,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrmediaquadlayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrmediaquadlayerinittype",
+        "title": "XRMediaQuadLayerInit",
+        "number": "7.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-xrmediacylinderlayerinit",
@@ -3340,7 +3696,8 @@
         "title": "XRMediaCylinderLayerInit",
         "number": "7.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrmediacylinderlayerinit-transform",
@@ -3356,11 +3713,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrmediacylinderlayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrmediacylinderlayerinittype",
+        "title": "XRMediaCylinderLayerInit",
+        "number": "7.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrmediacylinderlayerinit-radius",
@@ -3376,11 +3735,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrmediacylinderlayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrmediacylinderlayerinittype",
+        "title": "XRMediaCylinderLayerInit",
+        "number": "7.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrmediacylinderlayerinit-centralangle",
@@ -3396,11 +3757,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrmediacylinderlayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrmediacylinderlayerinittype",
+        "title": "XRMediaCylinderLayerInit",
+        "number": "7.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrmediacylinderlayerinit-aspectratio",
@@ -3416,11 +3779,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrmediacylinderlayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrmediacylinderlayerinittype",
+        "title": "XRMediaCylinderLayerInit",
+        "number": "7.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-xrmediaequirectlayerinit",
@@ -3439,7 +3804,8 @@
         "title": "XRMediaEquirectLayerInit",
         "number": "7.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrmediaequirectlayerinit-transform",
@@ -3455,11 +3821,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrmediaequirectlayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrmediaequirectlayerinittype",
+        "title": "XRMediaEquirectLayerInit",
+        "number": "7.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrmediaequirectlayerinit-radius",
@@ -3475,11 +3843,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrmediaequirectlayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrmediaequirectlayerinittype",
+        "title": "XRMediaEquirectLayerInit",
+        "number": "7.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrmediaequirectlayerinit-centralhorizontalangle",
@@ -3495,11 +3865,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrmediaequirectlayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrmediaequirectlayerinittype",
+        "title": "XRMediaEquirectLayerInit",
+        "number": "7.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrmediaequirectlayerinit-upperverticalangle",
@@ -3515,11 +3887,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrmediaequirectlayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrmediaequirectlayerinittype",
+        "title": "XRMediaEquirectLayerInit",
+        "number": "7.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrmediaequirectlayerinit-lowerverticalangle",
@@ -3535,11 +3909,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrmediaequirectlayerinittype",
+        "href": "https://immersive-web.github.io/layers/#xrmediaequirectlayerinittype",
+        "title": "XRMediaEquirectLayerInit",
+        "number": "7.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "xrmediabinding",
@@ -3558,7 +3934,8 @@
         "title": "XRMediaBinding",
         "number": "7.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrmediabinding-xrmediabinding-session-session",
@@ -3575,11 +3952,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrmediabindingtype",
+        "href": "https://immersive-web.github.io/layers/#xrmediabindingtype",
+        "title": "XRMediaBinding",
+        "number": "7.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrmediabinding-createquadlayer-video-init-video",
@@ -3596,11 +3975,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrmediabindingtype",
+        "href": "https://immersive-web.github.io/layers/#xrmediabindingtype",
+        "title": "XRMediaBinding",
+        "number": "7.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrmediabinding-createquadlayer-video-init-init",
@@ -3617,11 +3998,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrmediabindingtype",
+        "href": "https://immersive-web.github.io/layers/#xrmediabindingtype",
+        "title": "XRMediaBinding",
+        "number": "7.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrmediabinding-createcylinderlayer-video-init-video",
@@ -3638,11 +4021,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrmediabindingtype",
+        "href": "https://immersive-web.github.io/layers/#xrmediabindingtype",
+        "title": "XRMediaBinding",
+        "number": "7.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrmediabinding-createcylinderlayer-video-init-init",
@@ -3659,11 +4044,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrmediabindingtype",
+        "href": "https://immersive-web.github.io/layers/#xrmediabindingtype",
+        "title": "XRMediaBinding",
+        "number": "7.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrmediabinding-createequirectlayer-video-init-video",
@@ -3680,11 +4067,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrmediabindingtype",
+        "href": "https://immersive-web.github.io/layers/#xrmediabindingtype",
+        "title": "XRMediaBinding",
+        "number": "7.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrmediabinding-createequirectlayer-video-init-init",
@@ -3701,11 +4090,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrmediabindingtype",
+        "href": "https://immersive-web.github.io/layers/#xrmediabindingtype",
+        "title": "XRMediaBinding",
+        "number": "7.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "xrmediabinding-session",
@@ -3721,11 +4112,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrmediabindingtype",
+        "href": "https://immersive-web.github.io/layers/#xrmediabindingtype",
+        "title": "XRMediaBinding",
+        "number": "7.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrmediabinding-xrmediabinding",
@@ -3742,11 +4135,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrmediabindingtype",
+        "href": "https://immersive-web.github.io/layers/#xrmediabindingtype",
+        "title": "XRMediaBinding",
+        "number": "7.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "calculate-the-aspect-ratio",
@@ -3760,11 +4155,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrmediabindingtype",
+        "href": "https://immersive-web.github.io/layers/#xrmediabindingtype",
+        "title": "XRMediaBinding",
+        "number": "7.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrmediabinding-createquadlayer",
@@ -3781,11 +4178,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrmediabindingtype",
+        "href": "https://immersive-web.github.io/layers/#xrmediabindingtype",
+        "title": "XRMediaBinding",
+        "number": "7.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrmediabinding-createcylinderlayer",
@@ -3802,11 +4201,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrmediabindingtype",
+        "href": "https://immersive-web.github.io/layers/#xrmediabindingtype",
+        "title": "XRMediaBinding",
+        "number": "7.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrmediabinding-createequirectlayer",
@@ -3823,11 +4224,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrmediabindingtype",
+        "href": "https://immersive-web.github.io/layers/#xrmediabindingtype",
+        "title": "XRMediaBinding",
+        "number": "7.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xrlayerevent",
@@ -3846,7 +4249,8 @@
         "title": "XRLayerEvent",
         "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrlayerevent-xrlayerevent",
@@ -3863,11 +4267,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrlayerevent-interface",
+        "href": "https://immersive-web.github.io/layers/#xrlayerevent-interface",
+        "title": "XRLayerEvent",
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrlayerevent-xrlayerevent-type-eventinitdict-type",
@@ -3884,11 +4290,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrlayerevent-interface",
+        "href": "https://immersive-web.github.io/layers/#xrlayerevent-interface",
+        "title": "XRLayerEvent",
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrlayerevent-xrlayerevent-type-eventinitdict-eventinitdict",
@@ -3905,11 +4313,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrlayerevent-interface",
+        "href": "https://immersive-web.github.io/layers/#xrlayerevent-interface",
+        "title": "XRLayerEvent",
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-xrlayereventinit",
@@ -3923,11 +4333,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrlayerevent-interface",
+        "href": "https://immersive-web.github.io/layers/#xrlayerevent-interface",
+        "title": "XRLayerEvent",
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrlayereventinit-layer",
@@ -3943,11 +4355,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrlayerevent-interface",
+        "href": "https://immersive-web.github.io/layers/#xrlayerevent-interface",
+        "title": "XRLayerEvent",
+        "number": "8.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-xrlayerevent-layer",
@@ -3963,11 +4377,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrlayerevent-interface",
+        "href": "https://immersive-web.github.io/layers/#xrlayerevent-interface",
+        "title": "XRLayerEvent",
+        "number": "8.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "eventdef-xrquadlayer-redraw",
@@ -3991,7 +4407,8 @@
         "title": "Event Types",
         "number": "8.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "feature-descriptor-depth-sorted-layers",
@@ -4012,7 +4429,8 @@
         "title": "Depth sorting between layers",
         "number": "9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "space-warp",
@@ -4030,7 +4448,8 @@
         "href": "https://immersive-web.github.io/layers/#spacewarp",
         "title": "10. Space warp"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "feature-descriptor-space-warp",
@@ -4046,11 +4465,69 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "spacewarp",
+        "href": "https://immersive-web.github.io/layers/#spacewarp",
+        "title": "10. Space warp"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "normalized-device-coordinates",
+      "href": "https://immersive-web.github.io/layers/#normalized-device-coordinates",
+      "linkingText": [
+        "Normalized Device Coordinates"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "spacewarp",
+        "href": "https://immersive-web.github.io/layers/#spacewarp",
+        "title": "10. Space warp"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "ndc",
+      "href": "https://immersive-web.github.io/layers/#ndc",
+      "linkingText": [
+        "NDC"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "spacewarp",
+        "href": "https://immersive-web.github.io/layers/#spacewarp",
+        "title": "10. Space warp"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "clip-space",
+      "href": "https://immersive-web.github.io/layers/#clip-space",
+      "linkingText": [
+        "clip space"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "spacewarp",
+        "href": "https://immersive-web.github.io/layers/#spacewarp",
+        "title": "10. Space warp"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-xrrenderstate-layers",
@@ -4071,7 +4548,8 @@
         "title": "XRRenderState changes",
         "number": "11.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "layers-initialize-the-render-state",
@@ -4087,11 +4565,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrrenderstatechanges",
+        "href": "https://immersive-web.github.io/layers/#xrrenderstatechanges",
+        "title": "XRRenderState changes",
+        "number": "11.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "layers-update-the-pending-layers-state",
@@ -4112,7 +4592,8 @@
         "title": "updateRenderState changes",
         "number": "11.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "recommended-webgl-color-texture-resolution",
@@ -4131,7 +4612,8 @@
         "title": "XRView changes",
         "number": "11.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "recommended-motion-vector-texture-resolution",
@@ -4145,11 +4627,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrviewchanges",
+        "href": "https://immersive-web.github.io/layers/#xrviewchanges",
+        "title": "XRView changes",
+        "number": "11.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "recommended-webgl-depth-texture-resolution",
@@ -4163,11 +4647,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://immersive-web.github.io/layers/#title",
-        "title": "WebXR Layers API Level 1"
+        "id": "xrviewchanges",
+        "href": "https://immersive-web.github.io/layers/#xrviewchanges",
+        "title": "XRView changes",
+        "number": "11.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "check-the-layers-state",
@@ -4186,7 +4672,52 @@
         "title": "Animation frames changes",
         "number": "11.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-xrsession-maxrenderlayers",
+      "href": "https://immersive-web.github.io/layers/#dom-xrsession-maxrenderlayers",
+      "linkingText": [
+        "maxRenderLayers"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "XRSession"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "xrsessionchanges",
+        "href": "https://immersive-web.github.io/layers/#xrsessionchanges",
+        "title": "XRSession changes",
+        "number": "11.6"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "xrsession-bindings",
+      "href": "https://immersive-web.github.io/layers/#xrsession-bindings",
+      "linkingText": [
+        "bindings"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "XRSession"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "xrsessionchanges",
+        "href": "https://immersive-web.github.io/layers/#xrsessionchanges",
+        "title": "XRSession changes",
+        "number": "11.6"
+      },
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

@@ -19,9 +19,13 @@
         "id": "definitions",
         "href": "https://www.w3.org/TR/mediacapture-region/#definitions",
         "title": "Definitions",
+        "alternateIds": [
+          "x2-definitions"
+        ],
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-browser",
@@ -38,9 +42,13 @@
         "id": "definitions",
         "href": "https://www.w3.org/TR/mediacapture-region/#definitions",
         "title": "Definitions",
+        "alternateIds": [
+          "x2-definitions"
+        ],
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-tagging",
@@ -57,9 +65,13 @@
         "id": "solution-overview",
         "href": "https://www.w3.org/TR/mediacapture-region/#solution-overview",
         "title": "Solution Overview",
+        "alternateIds": [
+          "x4-solution-overview"
+        ],
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-crop-states",
@@ -76,9 +88,13 @@
         "id": "solution-overview",
         "href": "https://www.w3.org/TR/mediacapture-region/#solution-overview",
         "title": "Solution Overview",
+        "alternateIds": [
+          "x4-solution-overview"
+        ],
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-cropped",
@@ -95,9 +111,13 @@
         "id": "solution-overview",
         "href": "https://www.w3.org/TR/mediacapture-region/#solution-overview",
         "title": "Solution Overview",
+        "alternateIds": [
+          "x4-solution-overview"
+        ],
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-uncropped",
@@ -114,9 +134,13 @@
         "id": "solution-overview",
         "href": "https://www.w3.org/TR/mediacapture-region/#solution-overview",
         "title": "Solution Overview",
+        "alternateIds": [
+          "x4-solution-overview"
+        ],
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-croptarget-production",
@@ -133,9 +157,13 @@
         "id": "produce-crop-target",
         "href": "https://www.w3.org/TR/mediacapture-region/#produce-crop-target",
         "title": "CropTarget Production",
+        "alternateIds": [
+          "x5-croptarget-production"
+        ],
         "number": "5"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-croptarget",
@@ -152,9 +180,13 @@
         "id": "crop-target",
         "href": "https://www.w3.org/TR/mediacapture-region/#crop-target",
         "title": "CropTarget Definition",
+        "alternateIds": [
+          "x5-2-croptarget-definition"
+        ],
         "number": "5.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-croptarget-fromelement",
@@ -178,9 +210,13 @@
         "id": "crop-target",
         "href": "https://www.w3.org/TR/mediacapture-region/#crop-target",
         "title": "CropTarget Definition",
+        "alternateIds": [
+          "x5-2-croptarget-definition"
+        ],
         "number": "5.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-valid-croptarget",
@@ -197,9 +233,13 @@
         "id": "crop-target",
         "href": "https://www.w3.org/TR/mediacapture-region/#crop-target",
         "title": "CropTarget Definition",
+        "alternateIds": [
+          "x5-2-croptarget-definition"
+        ],
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-create-a-croptarget",
@@ -216,9 +256,13 @@
         "id": "crop-target",
         "href": "https://www.w3.org/TR/mediacapture-region/#crop-target",
         "title": "CropTarget Definition",
+        "alternateIds": [
+          "x5-2-croptarget-definition"
+        ],
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-element",
@@ -237,9 +281,13 @@
         "id": "crop-target",
         "href": "https://www.w3.org/TR/mediacapture-region/#crop-target",
         "title": "CropTarget Definition",
+        "alternateIds": [
+          "x5-2-croptarget-definition"
+        ],
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-cropping-mechanism",
@@ -256,9 +304,13 @@
         "id": "cropping-a-track",
         "href": "https://www.w3.org/TR/mediacapture-region/#cropping-a-track",
         "title": "Cropping Mechanism",
+        "alternateIds": [
+          "x6-cropping-mechanism"
+        ],
         "number": "6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-browsercapturemediastreamtrack",
@@ -275,9 +327,13 @@
         "id": "browser-capture-media-stream-track",
         "href": "https://www.w3.org/TR/mediacapture-region/#browser-capture-media-stream-track",
         "title": "BrowserCaptureMediaStreamTrack",
+        "alternateIds": [
+          "x6-1-browsercapturemediastreamtrack"
+        ],
         "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-browsercapturemediastreamtrack-cropto",
@@ -301,9 +357,13 @@
         "id": "browser-capture-media-stream-track",
         "href": "https://www.w3.org/TR/mediacapture-region/#browser-capture-media-stream-track",
         "title": "BrowserCaptureMediaStreamTrack",
+        "alternateIds": [
+          "x6-1-browsercapturemediastreamtrack"
+        ],
         "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-browsercapturemediastreamtrack-clone",
@@ -326,9 +386,13 @@
         "id": "browser-capture-media-stream-track",
         "href": "https://www.w3.org/TR/mediacapture-region/#browser-capture-media-stream-track",
         "title": "BrowserCaptureMediaStreamTrack",
+        "alternateIds": [
+          "x6-1-browsercapturemediastreamtrack"
+        ],
         "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-potential-crop-target",
@@ -345,9 +409,13 @@
         "id": "crop-session-definitions",
         "href": "https://www.w3.org/TR/mediacapture-region/#crop-session-definitions",
         "title": "Crop-Session Definitions",
+        "alternateIds": [
+          "x6-2-1-crop-session-definitions"
+        ],
         "number": "6.2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-crop-session-target",
@@ -364,9 +432,13 @@
         "id": "crop-session-definitions",
         "href": "https://www.w3.org/TR/mediacapture-region/#crop-session-definitions",
         "title": "Crop-Session Definitions",
+        "alternateIds": [
+          "x6-2-1-crop-session-definitions"
+        ],
         "number": "6.2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-empty-crop-session-target",
@@ -383,9 +455,13 @@
         "id": "empty-crop-target",
         "href": "https://www.w3.org/TR/mediacapture-region/#empty-crop-target",
         "title": "Empty Crop-Target",
+        "alternateIds": [
+          "x6-2-2-1-empty-crop-target"
+        ],
         "number": "6.2.2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-disconnected-crop-session-target",
@@ -402,9 +478,13 @@
         "id": "disconnected-crop-target",
         "href": "https://www.w3.org/TR/mediacapture-region/#disconnected-crop-target",
         "title": "Disconnected Crop-Session Target",
+        "alternateIds": [
+          "x6-2-2-2-disconnected-crop-session-target"
+        ],
         "number": "6.2.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

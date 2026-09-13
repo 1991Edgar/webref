@@ -6,11 +6,7 @@
   "links": {
     "rawlinks": {
       "http://accessibility.linuxfoundation.org/a11yspecs/ia2/docs/html/": {},
-      "https://datatracker.ietf.org/doc/html/bcp14": {},
-      "https://developer.apple.com/documentation/appkit/nsaccessibility": {},
       "https://developer.apple.com/reference/appkit/nsaccessibility": {},
-      "https://developer.gnome.org/atk/stable/": {},
-      "https://docs.microsoft.com/en-us/windows/win32/winauto/ui-automation-specification": {},
       "https://dom.spec.whatwg.org/": {
         "anchors": [
           "concept-tree-child"
@@ -26,7 +22,6 @@
       "https://github.com/carmacleod": {},
       "https://github.com/cookiecrook": {},
       "https://github.com/dandclark": {},
-      "https://github.com/daniel-montalvo": {},
       "https://github.com/deniak": {},
       "https://github.com/dontcallmedom": {},
       "https://github.com/einSelbst": {},
@@ -39,14 +34,12 @@
       "https://github.com/nschonni": {},
       "https://github.com/pkra": {},
       "https://github.com/plehegar": {},
-      "https://github.com/rahimabdi": {},
-      "https://github.com/sidvishnoi": {},
       "https://github.com/siusin": {},
       "https://github.com/spectranaut": {},
       "https://github.com/stevefaulkner": {},
       "https://github.com/vikas-parashar": {},
       "https://github.com/w3c/aria/issues/1662": {},
-      "https://github.com/w3c/aria/issues/1915": {},
+      "https://github.com/w3c/aria/pull/2354/": {},
       "https://github.com/w3c/html-aam/commits/gh-pages": {},
       "https://github.com/w3c/html-aam/issues/106": {},
       "https://github.com/w3c/html-aam/issues/115": {},
@@ -126,377 +119,7 @@
       "https://github.com/w3c/html-aam/pull/516": {},
       "https://github.com/ylafon": {},
       "https://github.com/zcorpan": {},
-      "https://gnome.pages.gitlab.gnome.org/at-spi2-core/libatspi/": {},
       "https://gnome.pages.gitlab.gnome.org/atk/": {},
-      "https://html.spec.whatwg.org/multipage/": {},
-      "https://html.spec.whatwg.org/multipage/canvas.html": {
-        "anchors": [
-          "attr-canvas-height",
-          "attr-canvas-width"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/custom-elements.html": {
-        "anchors": [
-          "custom-elements-face-example",
-          "form-associated-custom-element",
-          "attr-face-readonly"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/dnd.html": {
-        "anchors": [
-          "the-draggable-attribute"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/dom.html": {
-        "anchors": [
-          "sectioning-content",
-          "classes",
-          "the-dir-attribute",
-          "the-id-attribute",
-          "attr-lang",
-          "attr-slot",
-          "the-style-attribute",
-          "attr-title",
-          "attr-translate"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/edits.html": {
-        "anchors": [
-          "attr-mod-cite",
-          "attr-mod-datetime"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/embedded-content-other.html": {
-        "anchors": [
-          "mathml",
-          "svg-0",
-          "attr-dim-height",
-          "attr-dim-width"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/embedded-content.html": {
-        "anchors": [
-          "attr-img-alt",
-          "attr-img-crossorigin",
-          "attr-img-decoding",
-          "attr-img-fetchpriority",
-          "attr-img-ismap",
-          "attr-source-media",
-          "attr-img-referrerpolicy",
-          "attr-img-sizes",
-          "attr-source-sizes",
-          "attr-img-src",
-          "attr-source-src",
-          "attr-img-srcset",
-          "attr-source-srcset",
-          "attr-source-type"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html": {
-        "anchors": [
-          "concept-fe-checked",
-          "attr-fs-action",
-          "attr-fe-autocomplete",
-          "attr-fe-dirname",
-          "attr-fe-disabled",
-          "attr-fs-enctype",
-          "attr-fae-form",
-          "attr-fs-formaction",
-          "attr-fs-formenctype",
-          "attr-fs-formmethod",
-          "attr-fs-formnovalidate",
-          "attr-fs-formtarget",
-          "attr-fs-method",
-          "attr-fe-name",
-          "attr-fs-novalidate",
-          "constraint-validation",
-          "attr-fs-target"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/form-elements.html": {
-        "anchors": [
-          "concept-select-option-list",
-          "concept-option-selectedness",
-          "attr-select-multiple",
-          "attr-select-size",
-          "attr-textarea-cols",
-          "attr-optgroup-disabled",
-          "attr-option-disabled",
-          "attr-fieldset-disabled",
-          "attr-output-for",
-          "attr-meter-high",
-          "attr-optgroup-label",
-          "attr-option-label",
-          "attr-meter-low",
-          "attr-meter-max",
-          "attr-progress-max",
-          "attr-textarea-maxlength",
-          "attr-meter-min",
-          "attr-textarea-minlength",
-          "attr-meter-optimum",
-          "attr-textarea-placeholder",
-          "attr-textarea-readonly",
-          "attr-select-required",
-          "attr-textarea-required",
-          "attr-textarea-rows",
-          "attr-option-selected",
-          "attr-button-type",
-          "attr-button-value",
-          "attr-option-value",
-          "attr-meter-value",
-          "attr-progress-value",
-          "attr-textarea-wrap"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/forms.html": {
-        "anchors": [
-          "category-label",
-          "attr-form-accept-charset",
-          "attr-form-autocomplete",
-          "attr-label-for",
-          "attr-form-name",
-          "concept-submit-button"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/grouping-content.html": {
-        "anchors": [
-          "attr-blockquote-cite",
-          "attr-ol-reversed",
-          "attr-ol-start",
-          "attr-ol-type",
-          "attr-li-value"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/iframe-embed-object.html": {
-        "anchors": [
-          "attr-iframe-allow",
-          "attr-iframe-allowfullscreen",
-          "attr-object-data",
-          "attr-iframe-name",
-          "attr-object-name",
-          "attr-iframe-referrerpolicy",
-          "attr-iframe-sandbox",
-          "attr-embed-src",
-          "attr-iframe-src",
-          "attr-iframe-srcdoc",
-          "attr-embed-type",
-          "attr-object-type"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/image-maps.html": {
-        "anchors": [
-          "attr-area-alt",
-          "attr-area-coords",
-          "attr-map-name",
-          "attr-area-shape",
-          "attr-hyperlink-usemap"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/infrastructure.html": {
-        "anchors": [
-          "html-elements"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/input.html": {
-        "anchors": [
-          "attr-input-type",
-          "button-state-(type=button)",
-          "checkbox-state-(type=checkbox)",
-          "dom-input-indeterminate",
-          "color-state-(type=color)",
-          "date-state-(type=date)",
-          "local-date-and-time-state-(type=datetime-local)",
-          "email-state-(type=email)",
-          "concept-input-list",
-          "file-upload-state-(type=file)",
-          "hidden-state-(type=hidden)",
-          "image-button-state-(type=image)",
-          "month-state-(type=month)",
-          "number-state-(type=number)",
-          "password-state-(type=password)",
-          "radio-button-state-(type=radio)",
-          "radio-button-group",
-          "range-state-(type=range)",
-          "reset-button-state-(type=reset)",
-          "text-(type=text)-state-and-search-state-(type=search)",
-          "submit-button-state-(type=submit)",
-          "telephone-state-(type=tel)",
-          "url-state-(type=url)",
-          "attr-input-list",
-          "time-state-(type=time)",
-          "week-state-(type=week)",
-          "attr-input-accept",
-          "attr-input-alt",
-          "attr-input-checked",
-          "attr-input-max",
-          "attr-input-maxlength",
-          "attr-input-min",
-          "attr-input-minlength",
-          "attr-input-multiple",
-          "attr-input-pattern",
-          "attr-input-placeholder",
-          "attr-input-readonly",
-          "attr-input-required",
-          "concept-input-required",
-          "attr-input-size",
-          "attr-input-src",
-          "attr-input-step",
-          "attr-input-value"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/interaction.html": {
-        "anchors": [
-          "the-accesskey-attribute",
-          "attr-autocapitalize",
-          "attr-fe-autofocus",
-          "attr-contenteditable",
-          "attr-enterkeyhint",
-          "the-hidden-attribute",
-          "the-inert-attribute",
-          "inert",
-          "modal-dialogs-and-inert-subtrees",
-          "attr-spellcheck",
-          "attr-tabindex"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/interactive-elements.html": {
-        "anchors": [
-          "attr-details-open",
-          "attr-dialog-open"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/links.html": {
-        "anchors": [
-          "attr-hyperlink-href",
-          "attr-hyperlink-download",
-          "attr-hyperlink-hreflang",
-          "ping",
-          "attr-hyperlink-referrerpolicy",
-          "attr-hyperlink-rel",
-          "attr-hyperlink-target",
-          "attr-hyperlink-type"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/media.html": {
-        "anchors": [
-          "attr-media-controls",
-          "attr-media-autoplay",
-          "attr-media-crossorigin",
-          "attr-track-default",
-          "attr-track-kind",
-          "attr-track-label",
-          "attr-media-loop",
-          "attr-media-muted",
-          "attr-video-playsinline",
-          "attr-video-poster",
-          "attr-media-preload",
-          "attr-media-src",
-          "attr-track-src",
-          "attr-track-srclang"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/microdata.html": {
-        "anchors": [
-          "attr-itemid",
-          "attr-itemprop",
-          "attr-itemref",
-          "attr-itemscope",
-          "attr-itemtype"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/obsolete.html": {
-        "anchors": [
-          "menuitem",
-          "attr-menu-type"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/popover.html": {
-        "anchors": [
-          "attr-popover",
-          "the-popover-attribute",
-          "attr-popovertarget",
-          "attr-popovertargetaction"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/scripting.html": {
-        "anchors": [
-          "the-script-element",
-          "attr-script-async",
-          "attr-script-defer",
-          "attr-script-crossorigin",
-          "attr-script-fetchpriority",
-          "attr-slot-name",
-          "attr-script-nomodule",
-          "attr-script-referrerpolicy",
-          "attr-script-src",
-          "attr-script-type"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/sections.html": {
-        "anchors": [
-          "the-h1,-h2,-h3,-h4,-h5,-and-h6-elements"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/semantics.html": {
-        "anchors": [
-          "attr-link-as",
-          "attr-link-blocking",
-          "attr-style-media",
-          "attr-meta-charset",
-          "attr-link-color",
-          "attr-meta-content",
-          "attr-link-crossorigin",
-          "attr-link-fetchpriority",
-          "attr-link-href",
-          "attr-link-hreflang",
-          "attr-meta-http-equiv",
-          "attr-link-media",
-          "attr-meta-media",
-          "attr-meta-name",
-          "attr-link-referrerpolicy",
-          "attr-link-rel",
-          "attr-link-sizes",
-          "attr-base-target",
-          "attr-link-title",
-          "attr-style-title",
-          "attr-link-type"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/tables.html": {
-        "anchors": [
-          "column-header",
-          "row-header",
-          "column-group-header",
-          "row-group-header",
-          "attr-th-abbr",
-          "attr-tdth-colspan",
-          "attr-tdth-headers",
-          "attr-tdth-rowspan",
-          "attr-th-scope",
-          "attr-col-span",
-          "attr-colgroup-span"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/text-level-semantics.html": {
-        "anchors": [
-          "attr-q-cite",
-          "attr-time-datetime",
-          "attr-abbr-title",
-          "attr-dfn-title",
-          "attr-data-value",
-          "the-sub-and-sup-elements"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/urls-and-fetching.html": {
-        "anchors": [
-          "attr-nonce"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/webappapis.html": {
-        "anchors": [
-          "event-handler-content-attributes"
-        ]
-      },
       "https://infra.spec.whatwg.org/": {
         "anchors": [
           "implementation-defined"
@@ -528,17 +151,12 @@
           "do-not-expose-use-of-assistive-tech"
         ]
       },
-      "https://wiki.linuxfoundation.org/accessibility/iaccessible2/": {},
-      "https://www.rfc-editor.org/rfc/rfc2119": {},
-      "https://www.rfc-editor.org/rfc/rfc8174": {},
+      "https://www.rfc-editor.org/info/bcp14": {},
       "https://www.w3.org/2019/webapps/": {},
       "https://www.w3.org/TR/": {},
       "https://www.w3.org/TR/accname-1.2/": {
         "anchors": [
-          "dfn-accessible-name",
-          "dfn-accessible-description",
-          "mapping_additional_nd_te",
-          "mapping_additional_nd_description"
+          "mapping_additional_nd_te"
         ]
       },
       "https://www.w3.org/TR/core-aam-1.1/": {
@@ -549,14 +167,12 @@
       },
       "https://www.w3.org/TR/core-aam-1.2/": {
         "anchors": [
-          "intro_aapi",
           "mapping_general",
           "mapping_conflicts",
           "mapping_nodirect",
           "role-map-generic",
           "ariaRoleDescription",
           "role-map-link",
-          "roleMappingComputedRole",
           "role-map-group",
           "role-map-article",
           "role-map-complementary",
@@ -578,14 +194,15 @@
           "role-map-emphasis",
           "role-map-figure",
           "role-map-contentinfo",
+          "role-map-sectionfooter",
           "role-map-form",
           "role-map-form-nameless",
           "role-map-heading",
           "ariaLevel",
           "role-map-banner",
+          "role-map-sectionheader",
           "role-map-paragraph",
           "role-map-separator",
-          "role-map-document",
           "role-map-image",
           "role-map-img",
           "role-map-none",
@@ -629,44 +246,33 @@
           "role-map-rowheader",
           "role-map-time",
           "role-map-row",
+          "ariaAutocompleteNone",
           "ariaAutocompleteInlineListBoth",
           "ariaCheckedFalse",
           "ariaColSpan",
+          "ariaExpandedTrue",
+          "ariaExpandedFalse",
+          "ariaExpandedUndefined",
+          "ariaDetails",
           "ariaDisabledTrue",
           "ariaHiddenTrue",
-          "ariaExpandedTrue",
           "ariaModalTrue",
           "ariaHiddenFalse",
           "ariaModalFalse",
           "ariaInvalidTrue",
           "ariaInvalidFalse",
           "ariaPlaceholder",
-          "ariaExpandedFalse",
-          "ariaExpandedUndefined",
-          "ariaDetails",
           "ariaReadonlyTrue",
           "ariaRequiredTrue",
           "ariaRowSpan",
           "ariaInvalidSpellingGrammar",
           "focus_state_event_table",
-          "event-aria-label",
-          "event-aria-describedby"
+          "ariaValueText"
         ]
       },
       "https://www.w3.org/TR/fingerprinting-guidance/": {
         "anchors": [
           "active-0"
-        ]
-      },
-      "https://www.w3.org/TR/html5/": {},
-      "https://www.w3.org/TR/svg-aam-1.0/": {},
-      "https://www.w3.org/TR/wai-aria-1.1/": {},
-      "https://www.w3.org/TR/wai-aria-1.2/": {
-        "anchors": [
-          "aria-multiselectable",
-          "aria-label",
-          "aria-labelledby",
-          "aria-describedby"
         ]
       },
       "https://www.w3.org/WAI/ARIA/": {},
@@ -682,225 +288,12 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {
+      "https://www.w3.org/policies/process/20250818/": {
         "anchors": [
           "recs-and-notes"
         ]
       }
     },
-    "autolinks": {
-      "https://dom.spec.whatwg.org/": {
-        "anchors": [
-          "concept-element",
-          "concept-node"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/canvas.html": {
-        "anchors": [
-          "canvas"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/custom-elements.html": {
-        "anchors": [
-          "autonomous-custom-element"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/edits.html": {
-        "anchors": [
-          "the-del-element",
-          "the-ins-element"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/embedded-content.html": {
-        "anchors": [
-          "the-img-element",
-          "the-picture-element",
-          "the-source-element"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html": {
-        "anchors": [
-          "form-owner"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/form-elements.html": {
-        "anchors": [
-          "the-button-element",
-          "the-datalist-element",
-          "the-fieldset-element",
-          "the-legend-element",
-          "the-meter-element",
-          "the-optgroup-element",
-          "the-option-element",
-          "the-output-element",
-          "the-progress-element",
-          "the-select-element",
-          "the-textarea-element"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/forms.html": {
-        "anchors": [
-          "the-form-element",
-          "the-label-element"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/grouping-content.html": {
-        "anchors": [
-          "the-blockquote-element",
-          "the-dd-element",
-          "the-div-element",
-          "the-dl-element",
-          "the-dt-element",
-          "the-figcaption-element",
-          "the-figure-element",
-          "the-main-element",
-          "the-hr-element",
-          "the-li-element",
-          "the-ol-element",
-          "menus",
-          "the-ul-element",
-          "the-p-element",
-          "the-pre-element",
-          "the-search-element"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/iframe-embed-object.html": {
-        "anchors": [
-          "the-embed-element",
-          "the-iframe-element",
-          "the-object-element"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/image-maps.html": {
-        "anchors": [
-          "the-area-element",
-          "the-map-element"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/input.html": {
-        "anchors": [
-          "the-input-element"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/interactive-elements.html": {
-        "anchors": [
-          "the-details-element",
-          "the-dialog-element",
-          "the-summary-element"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/links.html": {
-        "anchors": [
-          "hyperlink"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/media.html": {
-        "anchors": [
-          "audio",
-          "the-track-element",
-          "video"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/obsolete.html": {
-        "anchors": [
-          "dir",
-          "param"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/scripting.html": {
-        "anchors": [
-          "the-noscript-element",
-          "the-slot-element",
-          "the-template-element"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/sections.html": {
-        "anchors": [
-          "the-address-element",
-          "the-article-element",
-          "the-aside-element",
-          "the-body-element",
-          "the-footer-element",
-          "the-header-element",
-          "the-hgroup-element",
-          "the-nav-element",
-          "the-section-element"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/semantics.html": {
-        "anchors": [
-          "the-base-element",
-          "the-head-element",
-          "the-html-element",
-          "the-link-element",
-          "meta",
-          "the-style-element",
-          "the-title-element"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/tables.html": {
-        "anchors": [
-          "the-caption-element",
-          "the-col-element",
-          "the-colgroup-element",
-          "the-table-element",
-          "the-tbody-element",
-          "the-td-element",
-          "the-tfoot-element",
-          "the-th-element",
-          "the-thead-element",
-          "the-tr-element"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/text-level-semantics.html": {
-        "anchors": [
-          "the-a-element",
-          "the-abbr-element",
-          "the-b-element",
-          "the-bdi-element",
-          "the-bdo-element",
-          "the-br-element",
-          "the-cite-element",
-          "the-code-element",
-          "the-data-element",
-          "the-dfn-element",
-          "the-em-element",
-          "the-i-element",
-          "the-kbd-element",
-          "the-mark-element",
-          "the-q-element",
-          "the-rp-element",
-          "the-rt-element",
-          "the-ruby-element",
-          "the-s-element",
-          "the-samp-element",
-          "the-small-element",
-          "the-span-element",
-          "the-strong-element",
-          "the-sub-element",
-          "the-sup-element",
-          "the-time-element",
-          "the-u-element",
-          "the-var-element",
-          "the-wbr-element"
-        ]
-      },
-      "https://infra.spec.whatwg.org/": {
-        "anchors": [
-          "user-agent"
-        ]
-      },
-      "https://www.w3.org/TR/wai-aria/": {
-        "anchors": [
-          "dfn-accessibility-api",
-          "dfn-role",
-          "dfn-state",
-          "dfn-property",
-          "dfn-accessibility-tree",
-          "dfn-accessible-object",
-          "dfn-widget"
-        ]
-      }
-    }
+    "autolinks": {}
   }
 }

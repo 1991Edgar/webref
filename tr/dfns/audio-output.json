@@ -21,9 +21,13 @@
         "id": "htmlmediaelement-extensions",
         "href": "https://www.w3.org/TR/audio-output/#htmlmediaelement-extensions",
         "title": "HTMLMediaElement Extensions",
+        "alternateIds": [
+          "x2-htmlmediaelement-extensions"
+        ],
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-htmlmediaelement-sinkid",
@@ -45,7 +49,8 @@
         "href": "https://www.w3.org/TR/audio-output/#attributes",
         "title": "Attributes"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-htmlmediaelement-setsinkid",
@@ -70,7 +75,8 @@
         "href": "https://www.w3.org/TR/audio-output/#methods",
         "title": "Methods"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-unavailable",
@@ -87,9 +93,13 @@
         "id": "algorithms-sink-unavailable",
         "href": "https://www.w3.org/TR/audio-output/#algorithms-sink-unavailable",
         "title": "Sink no longer available",
+        "alternateIds": [
+          "x2-1-1-sink-no-longer-available"
+        ],
         "number": "2.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mediadevices-selectaudiooutput",
@@ -114,7 +124,8 @@
         "href": "https://www.w3.org/TR/audio-output/#methods-0",
         "title": "Methods"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-audiooutputoptions",
@@ -132,7 +143,8 @@
         "href": "https://www.w3.org/TR/audio-output/#dictionary-audiooutputoptions-members",
         "title": "Dictionary AudioOutputOptions Members"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-audiooutputoptions-deviceid",
@@ -152,7 +164,8 @@
         "href": "https://www.w3.org/TR/audio-output/#dictionary-audiooutputoptions-members",
         "title": "Dictionary AudioOutputOptions Members"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-explicitlygrantedaudiooutputdevices",
@@ -171,9 +184,13 @@
         "id": "privacy-obtaining-consent",
         "href": "https://www.w3.org/TR/audio-output/#privacy-obtaining-consent",
         "title": "Obtaining Consent",
+        "alternateIds": [
+          "x4-2-obtaining-consent"
+        ],
         "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-speaker-selection",
@@ -190,9 +207,13 @@
         "id": "permissions-policy-integration-0",
         "href": "https://www.w3.org/TR/audio-output/#permissions-policy-integration-0",
         "title": "Permissions Policy Integration",
+        "alternateIds": [
+          "permissions-policy-integration"
+        ],
         "number": "4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-user-agent",
@@ -209,9 +230,13 @@
         "id": "conformance",
         "href": "https://www.w3.org/TR/audio-output/#conformance",
         "title": "Conformance",
+        "alternateIds": [
+          "x5-conformance"
+        ],
         "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

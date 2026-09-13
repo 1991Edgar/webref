@@ -10,7 +10,6 @@
       "http://www.unicode.org/versions/Unicode14.0.0/": {},
       "https://datatracker.ietf.org/doc/html/rfc2119": {},
       "https://dl.acm.org/doi/10.1145/1289971.1289983": {},
-      "https://drafts.csswg.org/css-tables-3/": {},
       "https://github.com/KhronosGroup/Vulkan-MemoryModel/blob/master/alloy/spirv.als": {},
       "https://github.com/gpuweb/gpuweb/issues": {},
       "https://gpuweb.github.io/gpuweb/": {
@@ -21,6 +20,7 @@
           "plain-color-formats",
           "gpuexternaltexture",
           "limits",
+          "per-sample-shading",
           "primitive-clipping",
           "coordinate-systems",
           "compute-pass-encoder-dispatch",
@@ -29,11 +29,11 @@
           "sample-masking",
           "gpupipelinelayout",
           "fragment-processing",
+          "gpuadapter",
           "GPUSamplerDescriptor",
           "texture-format-caps"
         ]
       },
-      "https://infra.spec.whatwg.org/": {},
       "https://inria.hal.science/inria-00070503": {},
       "https://lists.w3.org/Archives/Public/public-gpu/": {},
       "https://tc39.es/ecma262/multipage/": {},
@@ -53,29 +53,20 @@
           "memory-model"
         ]
       },
-      "https://www.unicode.org/reports/tr14/tr14-53.html": {},
-      "https://www.unicode.org/reports/tr31/tr31-41.html": {},
-      "https://www.w3.org/Consortium/Patent-Policy/": {
+      "https://www.unicode.org/reports/tr14/tr14-55.html": {},
+      "https://www.unicode.org/reports/tr31/tr31-43.html": {},
+      "https://www.w3.org/TR/": {},
+      "https://www.w3.org/groups/wg/gpu": {},
+      "https://www.w3.org/groups/wg/gpu/ipr/": {},
+      "https://www.w3.org/policies/patent-policy/": {
         "anchors": [
+          "def-essential",
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/TR/": {},
-      "https://www.w3.org/groups/wg/gpu": {},
-      "https://www.w3.org/groups/wg/gpu/ipr": {},
-      "https://www.w3.org/policies/patent-policy/": {
-        "anchors": [
-          "def-essential"
-        ]
-      },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
-      "https://drafts.csswg.org/css-tables-3/": {
-        "anchors": [
-          "originate"
-        ]
-      },
       "https://gpuweb.github.io/gpuweb/": {
         "anchors": [
           "gpu-command",
@@ -86,8 +77,12 @@
           "dom-gpucompilationinfo-messages",
           "gpucompilationinfo",
           "dom-supported-limits-maxcomputeworkgroupstoragesize",
+          "dom-supported-limits-maximmediatesize",
           "gpufeaturename",
           "gpudevice",
+          "subgroups",
+          "dom-gpufeaturename-primitive-index",
+          "dom-gpufeaturename-subgroup-size-control",
           "gpuwgsllanguagefeatures",
           "gpu",
           "gpubuffer",
@@ -110,35 +105,42 @@
           "dom-gputextureviewdimension-cube-array",
           "dictdef-gputexturebindinglayout",
           "dom-gpudevice-createbindgrouplayout",
+          "dom-gpubindingcommandsmixin-setimmediates",
+          "dom-gpupipelinelayoutdescriptor-immediatesize",
           "lose-the-device",
+          "dom-gpuadapterinfo-subgroupmaxsize",
+          "dom-gpuadapterinfo-subgroupminsize",
+          "framebuffer",
+          "rasterizationpoint",
           "front-facing",
+          "gpucomputepassencoder",
           "clip-position",
           "clip-space-coordinates",
           "ndc",
-          "rasterizationpoint",
           "dom-renderstate-viewport-slot",
           "rasterizationpoint-destination",
           "fragmentdestination-position",
           "rasterizationpoint-depth",
           "rasterizationpoint-perspectivedivisor",
-          "framebuffer",
+          "primitive-restart-value",
           "dom-gpumultisamplestate-count",
+          "rasterizationpoint-coveragemask",
           "shader-output-mask",
           "abstract-opdef-validating-inter-stage-interfaces",
-          "binding-resource-type",
-          "binding-type",
           "binding-member",
-          "dictdef-gpubufferbinding",
+          "binding-type",
           "dom-gpubindgrouplayoutentry-buffer",
+          "enumdef-gpubufferbindingtype",
           "dom-gpubufferbindingtype-uniform",
           "dom-gpubufferbindingtype-storage",
           "dom-gpubufferbindingtype-read-only-storage",
           "dom-gpubindgrouplayoutentry-sampler",
+          "enumdef-gpusamplerbindingtype",
           "dom-gpusamplerbindingtype-filtering",
           "dom-gpusamplerbindingtype-non-filtering",
           "dom-gpusamplerbindingtype-comparison",
-          "gputextureview",
           "dom-gpubindgrouplayoutentry-texture",
+          "enumdef-gputexturesampletype",
           "dom-gputexturesampletype-float",
           "dom-gputexturesampletype-unfilterable-float",
           "dom-gputexturesampletype-sint",
@@ -149,15 +151,12 @@
           "dom-gpustoragetextureaccess-write-only",
           "dom-gpustoragetextureaccess-read-write",
           "dom-gpustoragetextureaccess-read-only",
-          "gpuexternaltexture",
           "dom-gpubindgrouplayoutentry-externaltexture",
           "abstract-opdef-validating-gpuprogrammablestage",
-          "abstract-opdef-effective-buffer-binding-size"
-        ]
-      },
-      "https://infra.spec.whatwg.org/": {
-        "anchors": [
-          "struct"
+          "dom-gpubindgroupentry-resource",
+          "abstract-opdef-get-as-buffer-binding",
+          "abstract-opdef-effective-buffer-binding-size",
+          "dom-gputextureviewdescriptor-swizzle"
         ]
       },
       "https://www.khronos.org/registry/vulkan/specs/1.2-extensions/html/vkspec.html": {

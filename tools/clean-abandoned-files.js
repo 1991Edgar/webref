@@ -15,7 +15,11 @@ function checkDir(path, index) {
   const dir = fs.readdirSync(path);
   for (let filename of dir) {
     const subdir = path.split("/")[1];
-    if (!index.results.find(spec => spec[subdir] === subdir + "/" + filename)) {
+    const fullname = subdir + "/" + filename
+    if (!index.results.find(spec =>
+          spec[subdir] === fullname ||
+          (Array.isArray(spec[subdir]) &&
+            spec[subdir].find(extract => extract.file === fullname)))) {
       fs.unlinkSync(path + "/" + filename);
     }
   }

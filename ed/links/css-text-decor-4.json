@@ -40,19 +40,20 @@
       "https://drafts.csswg.org/css-fonts-4/": {},
       "https://drafts.csswg.org/css-inline-3/": {},
       "https://drafts.csswg.org/css-overflow-3/": {},
+      "https://drafts.csswg.org/css-position-3/": {},
       "https://drafts.csswg.org/css-pseudo-4/": {},
       "https://drafts.csswg.org/css-ruby-1/": {},
       "https://drafts.csswg.org/css-syntax/": {},
       "https://drafts.csswg.org/css-text-3/": {},
       "https://drafts.csswg.org/css-text-4/": {},
       "https://drafts.csswg.org/css-text-decor-3/": {},
-      "https://drafts.csswg.org/css-text-decor-4/": {},
       "https://drafts.csswg.org/css-ui-4/": {},
       "https://drafts.csswg.org/css-values-3/": {},
       "https://drafts.csswg.org/css-values-4/": {},
       "https://drafts.csswg.org/css-writing-modes-4/": {},
       "https://drafts.csswg.org/css2/": {},
-      "https://drafts.fxtf.org/fill-stroke/": {},
+      "https://drafts.csswg.org/fill-stroke/": {},
+      "https://drafts.csswg.org/selectors/": {},
       "https://github.com/adobe-fonts/kenten-generic": {},
       "https://github.com/w3c/alreq/issues/86": {},
       "https://github.com/w3c/csswg-drafts/issues": {},
@@ -75,15 +76,15 @@
       "https://lists.w3.org/Archives/Public/www-style/": {},
       "https://lists.w3.org/Archives/Public/www-style/2017Feb/0049.html": {},
       "https://lists.w3.org/Archives/Public/www-style/2017Feb/0069.html": {},
-      "https://www.unicode.org/reports/tr11/tr11-43.html": {},
-      "https://www.unicode.org/reports/tr15/tr15-56.html": {},
+      "https://www.unicode.org/reports/tr11/tr11-44.html": {},
+      "https://www.unicode.org/reports/tr15/tr15-57.html": {},
       "https://www.unicode.org/reports/tr24/": {
         "anchors": [
           "Usage_Model"
         ]
       },
-      "https://www.unicode.org/reports/tr24/tr24-38.html": {},
-      "https://www.unicode.org/reports/tr44/tr44-34.html": {},
+      "https://www.unicode.org/reports/tr24/tr24-39.html": {},
+      "https://www.unicode.org/reports/tr44/tr44-36.html": {},
       "https://www.w3.org/TR/2020/WD-css-text-decor-4-20200506/": {},
       "https://www.w3.org/TR/2022/WD-css-text-decor-4-20220504/": {},
       "https://www.w3.org/TR/CSS/": {},
@@ -167,11 +168,12 @@
           "animation-type"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://drafts.csswg.org/css-backgrounds-3/": {
         "anchors": [
+          "typedef-line-width",
           "typedef-shadow",
           "box-shadow-none",
           "propdef-box-shadow",
@@ -219,6 +221,7 @@
           "inline-formatting-context",
           "anonymous",
           "inline-level",
+          "out-of-flow",
           "non-replaced",
           "atomic-inline",
           "propdef-visibility",
@@ -235,7 +238,6 @@
       },
       "https://drafts.csswg.org/css-inline-3/": {
         "anchors": [
-          "valdef-alignment-baseline-baseline",
           "propdef-vertical-align"
         ]
       },
@@ -243,6 +245,11 @@
         "anchors": [
           "scrollable-overflow-region",
           "ink-overflow"
+        ]
+      },
+      "https://drafts.csswg.org/css-position-3/": {
+        "anchors": [
+          "relative-position"
         ]
       },
       "https://drafts.csswg.org/css-pseudo-4/": {
@@ -270,7 +277,8 @@
           "content-language",
           "word-separator",
           "propdef-letter-spacing",
-          "propdef-word-spacing"
+          "propdef-word-spacing",
+          "unicode-general-category"
         ]
       },
       "https://drafts.csswg.org/css-ui-4/": {
@@ -284,8 +292,6 @@
           "comb-one",
           "comb-any",
           "typedef-length-percentage",
-          "length-value",
-          "percentage-value",
           "mult-num-range",
           "string-value",
           "comb-all",
@@ -304,25 +310,20 @@
           "writing-mode"
         ]
       },
-      "https://drafts.fxtf.org/fill-stroke-3/": {
+      "https://drafts.csswg.org/css2/": {
+        "anchors": [
+          "valdef-vertical-align-baseline"
+        ]
+      },
+      "https://drafts.csswg.org/fill-stroke-3/": {
         "anchors": [
           "propdef-stroke",
           "propdef-fill"
         ]
       },
-      "https://www.w3.org/TR/CSS21/selector.html": {
+      "https://drafts.csswg.org/selectors-4/": {
         "anchors": [
-          "x22"
-        ]
-      },
-      "https://www.w3.org/TR/CSS21/visuren.html": {
-        "anchors": [
-          "x34"
-        ]
-      },
-      "https://www.w3.org/TR/css-text-decor-4/": {
-        "anchors": [
-          "propdef-text-decoration-skip-inset"
+          "pseudo-element"
         ]
       }
     }

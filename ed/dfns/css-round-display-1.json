@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Round Display Level 1",
+    "title": "CSS Round Display Module Level 1",
     "url": "https://drafts.csswg.org/css-round-display-1/"
   },
   "dfns": [
@@ -23,7 +23,8 @@
         "title": "The shape media feature",
         "number": "3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-media-shape-rect",
@@ -44,7 +45,8 @@
         "title": "The shape media feature",
         "number": "3.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-media-shape-round",
@@ -65,28 +67,28 @@
         "title": "The shape media feature",
         "number": "3.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
-      "id": "descdef-viewport-viewport-fit",
-      "href": "https://drafts.csswg.org/css-round-display-1/#descdef-viewport-viewport-fit",
+      "id": "viewport-fit",
+      "href": "https://drafts.csswg.org/css-round-display-1/#viewport-fit",
       "linkingText": [
         "viewport-fit"
       ],
       "localLinkingText": [],
-      "type": "descriptor",
-      "for": [
-        "@viewport"
-      ],
+      "type": "dfn",
+      "for": [],
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "viewport-fit-descriptor",
-        "href": "https://drafts.csswg.org/css-round-display-1/#viewport-fit-descriptor",
-        "title": "The viewport-fit descriptor",
+        "id": "viewport-fit-property",
+        "href": "https://drafts.csswg.org/css-round-display-1/#viewport-fit-property",
+        "title": "The viewport-fit property",
         "number": "4.1"
       },
-      "definedIn": "table"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-viewport-fit-auto",
@@ -102,12 +104,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "viewport-fit-descriptor",
-        "href": "https://drafts.csswg.org/css-round-display-1/#viewport-fit-descriptor",
-        "title": "The viewport-fit descriptor",
+        "id": "viewport-fit-property",
+        "href": "https://drafts.csswg.org/css-round-display-1/#viewport-fit-property",
+        "title": "The viewport-fit property",
         "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-viewport-fit-contain",
@@ -123,12 +126,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "viewport-fit-descriptor",
-        "href": "https://drafts.csswg.org/css-round-display-1/#viewport-fit-descriptor",
-        "title": "The viewport-fit descriptor",
+        "id": "viewport-fit-property",
+        "href": "https://drafts.csswg.org/css-round-display-1/#viewport-fit-property",
+        "title": "The viewport-fit property",
         "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-viewport-fit-cover",
@@ -144,12 +148,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "viewport-fit-descriptor",
-        "href": "https://drafts.csswg.org/css-round-display-1/#viewport-fit-descriptor",
-        "title": "The viewport-fit descriptor",
+        "id": "viewport-fit-property",
+        "href": "https://drafts.csswg.org/css-round-display-1/#viewport-fit-property",
+        "title": "The viewport-fit property",
         "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-shape-inside",
@@ -168,7 +173,8 @@
         "title": "The shape-inside property",
         "number": "5.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "propdef-border-boundary",
@@ -187,7 +193,8 @@
         "title": "The border-boundary property",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     }
   ]
 }

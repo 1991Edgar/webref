@@ -7,13 +7,10 @@
     "rawlinks": {
       "http://www.cie.co.at/publications/colorimetry-4th-edition": {},
       "http://www.color.org/specification/ICC.1-2022-05.pdf": {},
-      "http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=57421": {},
       "http://www.libpng.org/pub/png/": {},
       "http://www.libpng.org/pub/png/book/sources.html": {},
       "http://www.libpng.org/pub/png/libpng.html": {},
       "http://www.libpng.org/pub/png/pngbook.html": {},
-      "https://colorusage.arc.nasa.gov/lum_and_chrom.php": {},
-      "https://datatracker.ietf.org/doc/html/bcp14": {},
       "https://dl.acm.org/doi/10.1145/248210.248212": {},
       "https://dl.acm.org/doi/abs/10.1145/146443.146479": {},
       "https://doi.org/10.5594/SMPTE.RP2077.2013": {},
@@ -36,7 +33,7 @@
       "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9508136": {},
       "https://poynton.ca/ColorFAQ.html": {},
       "https://poynton.ca/GammaFAQ.html": {},
-      "https://shop.cta.tech/products/hdr-static-metadata-extensions": {},
+      "https://shop.cta.tech/products/cta-861-3": {},
       "https://standards.globalspec.com/std/1284890/smpte-rp-177": {},
       "https://standards.globalspec.com/std/892300/SMPTE%20ST%20170M": {},
       "https://tech.ebu.ch/docs/r/r103.pdf": {},
@@ -50,6 +47,7 @@
       "https://www.iso.org/standard/4777.html": {},
       "https://www.iso.org/standard/54754.html": {},
       "https://www.iso.org/standard/74528.html": {},
+      "https://www.iso.org/standard/75163.html": {},
       "https://www.itu.int/ITU-T/recommendations/rec.aspx?rec=14652": {},
       "https://www.itu.int/dms_pub/itu-r/opb/rep/R-REP-BT.2390-11-2023-PDF-E.pdf": {},
       "https://www.itu.int/rec/R-REC-BT.2020": {},
@@ -59,6 +57,7 @@
       "https://www.itu.int/rec/T-REC-V.42-200203-I/en": {},
       "https://www.loc.gov/preservation/digital/formats/fdd/fdd000022.shtml": {},
       "https://www.rfc-editor.org/info/bcp13": {},
+      "https://www.rfc-editor.org/info/bcp14": {},
       "https://www.rfc-editor.org/rfc/rfc1123": {},
       "https://www.rfc-editor.org/rfc/rfc1950": {},
       "https://www.rfc-editor.org/rfc/rfc1951": {},
@@ -82,19 +81,18 @@
       "https://www.w3.org/TR/2022/WD-png-3-20221025/": {},
       "https://www.w3.org/TR/2023/CR-png-3-20230921/": {},
       "https://www.w3.org/TR/2023/WD-png-3-20230720/": {},
+      "https://www.w3.org/TR/2024/CRD-png-3-20240718/": {},
+      "https://www.w3.org/TR/2025/CR-png-3-20250313/": {},
+      "https://www.w3.org/TR/2025/CRD-png-3-20250121/": {},
+      "https://www.w3.org/TR/2025/PR-png-3-20250515/": {},
       "https://www.w3.org/TR/PNG/": {},
       "https://www.w3.org/TR/REC-png-961001": {},
-      "https://www.w3.org/TR/i18n-glossary/": {
-        "anchors": [
-          "dfn-legacy-character-encodings",
-          "dfn-code-point"
-        ]
-      },
       "https://www.w3.org/TR/png/": {},
       "https://www.w3.org/groups/wg/png": {},
       "https://www.w3.org/groups/wg/png/ipr": {},
       "https://www.w3.org/policies/patent-policy/": {
         "anchors": [
+          "sec-Requirements",
           "def-essential",
           "sec-Disclosure"
         ]
@@ -106,6 +104,13 @@
       },
       "https://www.zlib.net/": {}
     },
-    "autolinks": {}
+    "autolinks": {
+      "https://www.w3.org/TR/i18n-glossary/": {
+        "anchors": [
+          "dfn-legacy-character-encodings",
+          "dfn-code-point"
+        ]
+      }
+    }
   }
 }

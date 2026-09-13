@@ -1,13 +1,13 @@
 {
   "spec": {
-    "title": "CSS Writing Modes Level 4",
+    "title": "CSS Writing Modes Module Level 4",
     "url": "https://drafts.csswg.org/css-writing-modes-4/"
   },
   "refs": {
     "normative": [
       {
-        "name": "CSS-ALIGN-3",
-        "url": "https://drafts.csswg.org/css-align/"
+        "name": "CSS-BORDERS-4",
+        "url": "https://drafts.csswg.org/css-borders-4/"
       },
       {
         "name": "CSS-BOX-4",
@@ -34,12 +34,20 @@
         "url": "https://drafts.csswg.org/css-display-4/"
       },
       {
+        "name": "CSS-GAPS-1",
+        "url": "https://drafts.csswg.org/css-gaps-1/"
+      },
+      {
         "name": "CSS-IMAGES-3",
         "url": "https://drafts.csswg.org/css-images-3/"
       },
       {
         "name": "CSS-INLINE-3",
         "url": "https://drafts.csswg.org/css-inline-3/"
+      },
+      {
+        "name": "CSS-MASKING-1",
+        "url": "https://drafts.csswg.org/css-masking-1/"
       },
       {
         "name": "CSS-MULTICOL-2",
@@ -50,16 +58,8 @@
         "url": "https://drafts.csswg.org/css-overflow-3/"
       },
       {
-        "name": "CSS-SHAPES-1",
-        "url": "https://drafts.csswg.org/css-shapes/"
-      },
-      {
         "name": "CSS-SPEECH-1",
         "url": "https://drafts.csswg.org/css-speech-1/"
-      },
-      {
-        "name": "CSS-TABLES-3",
-        "url": "https://drafts.csswg.org/css-tables-3/"
       },
       {
         "name": "CSS-TEXT-3",
@@ -83,10 +83,6 @@
       },
       {
         "name": "CSS2",
-        "url": "https://drafts.csswg.org/css2/"
-      },
-      {
-        "name": "CSS22",
         "url": "https://drafts.csswg.org/css2/"
       },
       {
@@ -123,7 +119,7 @@
       },
       {
         "name": "RFC6919",
-        "url": "https://www.rfc-editor.org/rfc/rfc6919"
+        "url": "https://www.rfc-editor.org/info/rfc6919/"
       },
       {
         "name": "SVG11",
@@ -131,19 +127,19 @@
       },
       {
         "name": "UAX11",
-        "url": "https://www.unicode.org/reports/tr11/tr11-43.html"
+        "url": "https://www.unicode.org/reports/tr11/tr11-44.html"
       },
       {
         "name": "UAX24",
-        "url": "https://www.unicode.org/reports/tr24/tr24-38.html"
+        "url": "https://www.unicode.org/reports/tr24/tr24-39.html"
       },
       {
         "name": "UAX50",
-        "url": "https://www.unicode.org/reports/tr50/tr50-31.html"
+        "url": "https://www.unicode.org/reports/tr50/tr50-33.html"
       },
       {
         "name": "UAX9",
-        "url": "https://www.unicode.org/reports/tr9/tr9-50.html"
+        "url": "https://www.unicode.org/reports/tr9/tr9-51.html"
       },
       {
         "name": "UNICODE",
@@ -165,7 +161,11 @@
       },
       {
         "name": "CSS-FLEXBOX-1",
-        "url": "https://drafts.csswg.org/css-flexbox-1/"
+        "url": "https://drafts.csswg.org/css-flexbox/"
+      },
+      {
+        "name": "CSS-FLEXBOX-2",
+        "url": "https://drafts.csswg.org/css-flexbox-2/"
       },
       {
         "name": "CSS-FONTS-4",

@@ -19,9 +19,13 @@
         "id": "definitions",
         "href": "https://wicg.github.io/netinfo/#definitions",
         "title": "Definitions",
+        "alternateIds": [
+          "x3-definitions"
+        ],
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-mbit-s",
@@ -39,9 +43,13 @@
         "id": "definitions",
         "href": "https://wicg.github.io/netinfo/#definitions",
         "title": "Definitions",
+        "alternateIds": [
+          "x3-definitions"
+        ],
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-connection-type",
@@ -59,9 +67,13 @@
         "id": "underlying-connection-technology",
         "href": "https://wicg.github.io/netinfo/#underlying-connection-technology",
         "title": "Underlying connection technology",
+        "alternateIds": [
+          "x4-1-underlying-connection-technology"
+        ],
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-connectiontype-bluetooth",
@@ -80,9 +92,13 @@
         "id": "underlying-connection-technology",
         "href": "https://wicg.github.io/netinfo/#underlying-connection-technology",
         "title": "Underlying connection technology",
+        "alternateIds": [
+          "x4-1-underlying-connection-technology"
+        ],
         "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-connectiontype-cellular",
@@ -101,9 +117,13 @@
         "id": "underlying-connection-technology",
         "href": "https://wicg.github.io/netinfo/#underlying-connection-technology",
         "title": "Underlying connection technology",
+        "alternateIds": [
+          "x4-1-underlying-connection-technology"
+        ],
         "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-connectiontype-ethernet",
@@ -122,9 +142,13 @@
         "id": "underlying-connection-technology",
         "href": "https://wicg.github.io/netinfo/#underlying-connection-technology",
         "title": "Underlying connection technology",
+        "alternateIds": [
+          "x4-1-underlying-connection-technology"
+        ],
         "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-connectiontype-none",
@@ -143,9 +167,13 @@
         "id": "underlying-connection-technology",
         "href": "https://wicg.github.io/netinfo/#underlying-connection-technology",
         "title": "Underlying connection technology",
+        "alternateIds": [
+          "x4-1-underlying-connection-technology"
+        ],
         "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-connectiontype-mixed",
@@ -164,9 +192,13 @@
         "id": "underlying-connection-technology",
         "href": "https://wicg.github.io/netinfo/#underlying-connection-technology",
         "title": "Underlying connection technology",
+        "alternateIds": [
+          "x4-1-underlying-connection-technology"
+        ],
         "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-connectiontype-other",
@@ -185,9 +217,13 @@
         "id": "underlying-connection-technology",
         "href": "https://wicg.github.io/netinfo/#underlying-connection-technology",
         "title": "Underlying connection technology",
+        "alternateIds": [
+          "x4-1-underlying-connection-technology"
+        ],
         "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-connectiontype-unknown",
@@ -206,9 +242,13 @@
         "id": "underlying-connection-technology",
         "href": "https://wicg.github.io/netinfo/#underlying-connection-technology",
         "title": "Underlying connection technology",
+        "alternateIds": [
+          "x4-1-underlying-connection-technology"
+        ],
         "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-connectiontype-wifi",
@@ -227,9 +267,13 @@
         "id": "underlying-connection-technology",
         "href": "https://wicg.github.io/netinfo/#underlying-connection-technology",
         "title": "Underlying connection technology",
+        "alternateIds": [
+          "x4-1-underlying-connection-technology"
+        ],
         "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-connectiontype-wimax",
@@ -248,9 +292,13 @@
         "id": "underlying-connection-technology",
         "href": "https://wicg.github.io/netinfo/#underlying-connection-technology",
         "title": "Underlying connection technology",
+        "alternateIds": [
+          "x4-1-underlying-connection-technology"
+        ],
         "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-connectiontype",
@@ -267,9 +315,13 @@
         "id": "connectiontype-enum",
         "href": "https://wicg.github.io/netinfo/#connectiontype-enum",
         "title": "ConnectionType enum",
+        "alternateIds": [
+          "x4-2-connectiontype-enum"
+        ],
         "number": "4.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dfn-effective-connection-type",
@@ -287,9 +339,13 @@
         "id": "effective-connection-types",
         "href": "https://wicg.github.io/netinfo/#effective-connection-types",
         "title": "Effective connection types",
+        "alternateIds": [
+          "x4-3-effective-connection-types"
+        ],
         "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-table-of-effective-connection-types",
@@ -306,9 +362,13 @@
         "id": "effective-connection-types",
         "href": "https://wicg.github.io/netinfo/#effective-connection-types",
         "title": "Effective connection types",
+        "alternateIds": [
+          "x4-3-effective-connection-types"
+        ],
         "number": "4.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-effectiveconnectiontype-slow-2g",
@@ -327,9 +387,13 @@
         "id": "effective-connection-types",
         "href": "https://wicg.github.io/netinfo/#effective-connection-types",
         "title": "Effective connection types",
+        "alternateIds": [
+          "x4-3-effective-connection-types"
+        ],
         "number": "4.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-effectiveconnectiontype-2g",
@@ -348,9 +412,13 @@
         "id": "effective-connection-types",
         "href": "https://wicg.github.io/netinfo/#effective-connection-types",
         "title": "Effective connection types",
+        "alternateIds": [
+          "x4-3-effective-connection-types"
+        ],
         "number": "4.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-effectiveconnectiontype-3g",
@@ -369,9 +437,13 @@
         "id": "effective-connection-types",
         "href": "https://wicg.github.io/netinfo/#effective-connection-types",
         "title": "Effective connection types",
+        "alternateIds": [
+          "x4-3-effective-connection-types"
+        ],
         "number": "4.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-effectiveconnectiontype-4g",
@@ -390,9 +462,13 @@
         "id": "effective-connection-types",
         "href": "https://wicg.github.io/netinfo/#effective-connection-types",
         "title": "Effective connection types",
+        "alternateIds": [
+          "x4-3-effective-connection-types"
+        ],
         "number": "4.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-effectiveconnectiontype",
@@ -409,9 +485,13 @@
         "id": "effectiveconnectiontype-enum",
         "href": "https://wicg.github.io/netinfo/#effectiveconnectiontype-enum",
         "title": "EffectiveConnectionType enum",
+        "alternateIds": [
+          "x4-4-effectiveconnectiontype-enum"
+        ],
         "number": "4.4"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-navigatornetworkinformation",
@@ -428,9 +508,13 @@
         "id": "navigatornetworkinformation-interface",
         "href": "https://wicg.github.io/netinfo/#navigatornetworkinformation-interface",
         "title": "NavigatorNetworkInformation interface",
+        "alternateIds": [
+          "x5-navigatornetworkinformation-interface"
+        ],
         "number": "5"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-navigatornetworkinformation-connection",
@@ -451,9 +535,13 @@
         "id": "connection-attribute",
         "href": "https://wicg.github.io/netinfo/#connection-attribute",
         "title": "connection attribute",
+        "alternateIds": [
+          "x5-1-connection-attribute"
+        ],
         "number": "5.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-networkinformation",
@@ -470,9 +558,13 @@
         "id": "networkinformation-interface",
         "href": "https://wicg.github.io/netinfo/#networkinformation-interface",
         "title": "NetworkInformation interface",
+        "alternateIds": [
+          "x6-networkinformation-interface"
+        ],
         "number": "6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-megabit",
@@ -491,9 +583,13 @@
         "id": "networkinformation-interface",
         "href": "https://wicg.github.io/netinfo/#networkinformation-interface",
         "title": "NetworkInformation interface",
+        "alternateIds": [
+          "x6-networkinformation-interface"
+        ],
         "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-millisecond",
@@ -512,9 +608,13 @@
         "id": "networkinformation-interface",
         "href": "https://wicg.github.io/netinfo/#networkinformation-interface",
         "title": "NetworkInformation interface",
+        "alternateIds": [
+          "x6-networkinformation-interface"
+        ],
         "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-networkinformation-type",
@@ -535,9 +635,13 @@
         "id": "type-attribute",
         "href": "https://wicg.github.io/netinfo/#type-attribute",
         "title": "type attribute",
+        "alternateIds": [
+          "x6-1-type-attribute"
+        ],
         "number": "6.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-networkinformation-effectivetype",
@@ -558,9 +662,13 @@
         "id": "effectivetype-attribute",
         "href": "https://wicg.github.io/netinfo/#effectivetype-attribute",
         "title": "effectiveType attribute",
+        "alternateIds": [
+          "x6-2-effectivetype-attribute"
+        ],
         "number": "6.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dfn-ect",
@@ -577,9 +685,13 @@
         "id": "ect-request-header-field",
         "href": "https://wicg.github.io/netinfo/#ect-request-header-field",
         "title": "ECT Request Header Field",
+        "alternateIds": [
+          "x6-2-1-ect-request-header-field"
+        ],
         "number": "6.2.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-networkinformation-downlinkmax",
@@ -600,9 +712,13 @@
         "id": "downlinkmax-attribute",
         "href": "https://wicg.github.io/netinfo/#downlinkmax-attribute",
         "title": "downlinkMax attribute",
+        "alternateIds": [
+          "x6-3-downlinkmax-attribute"
+        ],
         "number": "6.3"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dfn-upper-bound-on-the-downlink-speed-of-the-first-network-hop",
@@ -619,9 +735,13 @@
         "id": "downlinkmax-attribute",
         "href": "https://wicg.github.io/netinfo/#downlinkmax-attribute",
         "title": "downlinkMax attribute",
+        "alternateIds": [
+          "x6-3-downlinkmax-attribute"
+        ],
         "number": "6.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-networkinformation-onchange",
@@ -642,9 +762,13 @@
         "id": "onchange-attribute",
         "href": "https://wicg.github.io/netinfo/#onchange-attribute",
         "title": "onchange attribute",
+        "alternateIds": [
+          "x6-4-onchange-attribute"
+        ],
         "number": "6.4"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-networkinformation-downlink",
@@ -665,9 +789,13 @@
         "id": "downlink-attribute",
         "href": "https://wicg.github.io/netinfo/#downlink-attribute",
         "title": "downlink attribute",
+        "alternateIds": [
+          "x6-5-downlink-attribute"
+        ],
         "number": "6.5"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-networkinformation-rtt",
@@ -688,9 +816,13 @@
         "id": "rtt-attribute",
         "href": "https://wicg.github.io/netinfo/#rtt-attribute",
         "title": "rtt attribute",
+        "alternateIds": [
+          "x6-6-rtt-attribute"
+        ],
         "number": "6.6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dfn-millisecond",
@@ -708,9 +840,13 @@
         "id": "rtt-attribute",
         "href": "https://wicg.github.io/netinfo/#rtt-attribute",
         "title": "rtt attribute",
+        "alternateIds": [
+          "x6-6-rtt-attribute"
+        ],
         "number": "6.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-underlying-connection-technology",
@@ -727,9 +863,13 @@
         "id": "underlying-connection-technology-0",
         "href": "https://wicg.github.io/netinfo/#underlying-connection-technology-0",
         "title": "Underlying connection technology",
+        "alternateIds": [
+          "x6-7-underlying-connection-technology"
+        ],
         "number": "6.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-downlinkmax-for-an-available-interface",
@@ -746,9 +886,13 @@
         "id": "underlying-connection-technology-0",
         "href": "https://wicg.github.io/netinfo/#underlying-connection-technology-0",
         "title": "Underlying connection technology",
+        "alternateIds": [
+          "x6-7-underlying-connection-technology"
+        ],
         "number": "6.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-table-of-maximum-downlink-speeds",
@@ -765,9 +909,13 @@
         "id": "underlying-connection-technology-0",
         "href": "https://wicg.github.io/netinfo/#underlying-connection-technology-0",
         "title": "Underlying connection technology",
+        "alternateIds": [
+          "x6-7-underlying-connection-technology"
+        ],
         "number": "6.7"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-steps-to-update-the-connection-values",
@@ -784,9 +932,13 @@
         "id": "handling-changes-to-the-underlying-connection",
         "href": "https://wicg.github.io/netinfo/#handling-changes-to-the-underlying-connection",
         "title": "Handling changes to the underlying connection",
+        "alternateIds": [
+          "x6-7-1-handling-changes-to-the-underlying-connection"
+        ],
         "number": "6.7.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-user-agent",
@@ -803,9 +955,13 @@
         "id": "conformance",
         "href": "https://wicg.github.io/netinfo/#conformance",
         "title": "Conformance",
+        "alternateIds": [
+          "x6-10-conformance"
+        ],
         "number": "6.10"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

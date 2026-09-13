@@ -26,7 +26,10 @@
       "id": "toc",
       "href": "https://w3c.github.io/at-driver/#toc",
       "level": 2,
-      "title": "Table of Contents"
+      "title": "Table of Contents",
+      "alternateIds": [
+        "contents"
+      ]
     },
     {
       "id": "intro",
@@ -281,10 +284,10 @@
       "number": "7.3.3"
     },
     {
-      "id": "module-interaction-presskeys",
-      "href": "https://w3c.github.io/at-driver/#module-interaction-presskeys",
+      "id": "module-interaction-userintent",
+      "href": "https://w3c.github.io/at-driver/#module-interaction-userintent",
       "level": 5,
-      "title": "The interaction.pressKeys Command",
+      "title": "The interaction.userIntent Command",
       "number": "7.3.3.1"
     },
     {
@@ -321,6 +324,13 @@
       "level": 2,
       "title": "Schemas",
       "number": "A"
+    },
+    {
+      "id": "example-session",
+      "href": "https://w3c.github.io/at-driver/#example-session",
+      "level": 2,
+      "title": "Example Session",
+      "number": "B"
     },
     {
       "id": "w3c-conformance",
@@ -374,7 +384,25 @@
       "id": "informative",
       "href": "https://w3c.github.io/at-driver/#informative",
       "level": 3,
-      "title": "Informative References"
+      "title": "Non-Normative References"
+    },
+    {
+      "id": "cddl-index",
+      "href": "https://w3c.github.io/at-driver/#cddl-index",
+      "level": 2,
+      "title": "CDDL Index"
+    },
+    {
+      "id": "cddl-index-cddl-module-remote-end-definition",
+      "href": "https://w3c.github.io/at-driver/#cddl-index-cddl-module-remote-end-definition",
+      "level": 3,
+      "title": "Remote end definition"
+    },
+    {
+      "id": "cddl-index-cddl-module-local-end-definition",
+      "href": "https://w3c.github.io/at-driver/#cddl-index-cddl-module-local-end-definition",
+      "level": 3,
+      "title": "Local end definition"
     },
     {
       "id": "issues-index",

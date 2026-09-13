@@ -5,6 +5,29 @@
   },
   "dfns": [
     {
+      "id": "dfn-boolean",
+      "href": "https://www.w3.org/TR/mathml4/#dfn-boolean",
+      "linkingText": [
+        "boolean"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "syntax-notation-used-in-the-mathml-specification",
+        "href": "https://www.w3.org/TR/mathml4/#syntax-notation-used-in-the-mathml-specification",
+        "title": "Syntax notation used in the MathML specification",
+        "alternateIds": [
+          "fund_syntax_notation"
+        ],
+        "number": "2.1.5.1"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
       "id": "dfn-unsigned-integer",
       "href": "https://www.w3.org/TR/mathml4/#dfn-unsigned-integer",
       "linkingText": [
@@ -19,9 +42,13 @@
         "id": "syntax-notation-used-in-the-mathml-specification",
         "href": "https://www.w3.org/TR/mathml4/#syntax-notation-used-in-the-mathml-specification",
         "title": "Syntax notation used in the MathML specification",
+        "alternateIds": [
+          "fund_syntax_notation"
+        ],
         "number": "2.1.5.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-positive-integer",
@@ -38,9 +65,13 @@
         "id": "syntax-notation-used-in-the-mathml-specification",
         "href": "https://www.w3.org/TR/mathml4/#syntax-notation-used-in-the-mathml-specification",
         "title": "Syntax notation used in the MathML specification",
+        "alternateIds": [
+          "fund_syntax_notation"
+        ],
         "number": "2.1.5.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-integer",
@@ -57,28 +88,13 @@
         "id": "syntax-notation-used-in-the-mathml-specification",
         "href": "https://www.w3.org/TR/mathml4/#syntax-notation-used-in-the-mathml-specification",
         "title": "Syntax notation used in the MathML specification",
+        "alternateIds": [
+          "fund_syntax_notation"
+        ],
         "number": "2.1.5.1"
       },
-      "definedIn": "table"
-    },
-    {
-      "id": "dfn-unsigned-number",
-      "href": "https://www.w3.org/TR/mathml4/#dfn-unsigned-number",
-      "linkingText": [
-        "unsigned-number"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "syntax-notation-used-in-the-mathml-specification",
-        "href": "https://www.w3.org/TR/mathml4/#syntax-notation-used-in-the-mathml-specification",
-        "title": "Syntax notation used in the MathML specification",
-        "number": "2.1.5.1"
-      },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-number",
@@ -95,9 +111,36 @@
         "id": "syntax-notation-used-in-the-mathml-specification",
         "href": "https://www.w3.org/TR/mathml4/#syntax-notation-used-in-the-mathml-specification",
         "title": "Syntax notation used in the MathML specification",
+        "alternateIds": [
+          "fund_syntax_notation"
+        ],
         "number": "2.1.5.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dfn-unsigned-number",
+      "href": "https://www.w3.org/TR/mathml4/#dfn-unsigned-number",
+      "linkingText": [
+        "unsigned-number"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "syntax-notation-used-in-the-mathml-specification",
+        "href": "https://www.w3.org/TR/mathml4/#syntax-notation-used-in-the-mathml-specification",
+        "title": "Syntax notation used in the MathML specification",
+        "alternateIds": [
+          "fund_syntax_notation"
+        ],
+        "number": "2.1.5.1"
+      },
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-character",
@@ -114,9 +157,13 @@
         "id": "syntax-notation-used-in-the-mathml-specification",
         "href": "https://www.w3.org/TR/mathml4/#syntax-notation-used-in-the-mathml-specification",
         "title": "Syntax notation used in the MathML specification",
+        "alternateIds": [
+          "fund_syntax_notation"
+        ],
         "number": "2.1.5.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-string",
@@ -133,9 +180,13 @@
         "id": "syntax-notation-used-in-the-mathml-specification",
         "href": "https://www.w3.org/TR/mathml4/#syntax-notation-used-in-the-mathml-specification",
         "title": "Syntax notation used in the MathML specification",
+        "alternateIds": [
+          "fund_syntax_notation"
+        ],
         "number": "2.1.5.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-length",
@@ -152,9 +203,13 @@
         "id": "syntax-notation-used-in-the-mathml-specification",
         "href": "https://www.w3.org/TR/mathml4/#syntax-notation-used-in-the-mathml-specification",
         "title": "Syntax notation used in the MathML specification",
+        "alternateIds": [
+          "fund_syntax_notation"
+        ],
         "number": "2.1.5.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-color",
@@ -171,9 +226,13 @@
         "id": "syntax-notation-used-in-the-mathml-specification",
         "href": "https://www.w3.org/TR/mathml4/#syntax-notation-used-in-the-mathml-specification",
         "title": "Syntax notation used in the MathML specification",
+        "alternateIds": [
+          "fund_syntax_notation"
+        ],
         "number": "2.1.5.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-id",
@@ -190,9 +249,13 @@
         "id": "syntax-notation-used-in-the-mathml-specification",
         "href": "https://www.w3.org/TR/mathml4/#syntax-notation-used-in-the-mathml-specification",
         "title": "Syntax notation used in the MathML specification",
+        "alternateIds": [
+          "fund_syntax_notation"
+        ],
         "number": "2.1.5.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-idref",
@@ -209,9 +272,13 @@
         "id": "syntax-notation-used-in-the-mathml-specification",
         "href": "https://www.w3.org/TR/mathml4/#syntax-notation-used-in-the-mathml-specification",
         "title": "Syntax notation used in the MathML specification",
+        "alternateIds": [
+          "fund_syntax_notation"
+        ],
         "number": "2.1.5.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-uri",
@@ -228,9 +295,13 @@
         "id": "syntax-notation-used-in-the-mathml-specification",
         "href": "https://www.w3.org/TR/mathml4/#syntax-notation-used-in-the-mathml-specification",
         "title": "Syntax notation used in the MathML specification",
+        "alternateIds": [
+          "fund_syntax_notation"
+        ],
         "number": "2.1.5.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dfn-namedspace",
@@ -247,9 +318,13 @@
         "id": "length-valued-attributes",
         "href": "https://www.w3.org/TR/mathml4/#length-valued-attributes",
         "title": "Length Valued Attributes",
+        "alternateIds": [
+          "fund_units"
+        ],
         "number": "2.1.5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-pseudo-units",
@@ -266,9 +341,13 @@
         "id": "length-valued-attributes",
         "href": "https://www.w3.org/TR/mathml4/#length-valued-attributes",
         "title": "Length Valued Attributes",
+        "alternateIds": [
+          "fund_units"
+        ],
         "number": "2.1.5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-embellished-operator",
@@ -285,9 +364,13 @@
         "id": "exception-for-embellished-operators",
         "href": "https://www.w3.org/TR/mathml4/#exception-for-embellished-operators",
         "title": "Exception for embellished operators",
-        "number": "3.2.5.6.3"
+        "alternateIds": [
+          "x3-2-6-6-3-exception-for-embellished-operators"
+        ],
+        "number": "3.2.6.6.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-axis",
@@ -304,9 +387,13 @@
         "id": "attributes-23",
         "href": "https://www.w3.org/TR/mathml4/#attributes-23",
         "title": "Attributes",
+        "alternateIds": [
+          "presm_mtable_attrs"
+        ],
         "number": "3.5.1.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "contm_cn",
@@ -323,9 +410,13 @@
         "id": "numbers-cn",
         "href": "https://www.w3.org/TR/mathml4/#numbers-cn",
         "title": "Numbers <cn>",
+        "alternateIds": [
+          "contm_cn_sec"
+        ],
         "number": "4.2.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_sep",
@@ -342,9 +433,13 @@
         "id": "rendering-cn-sep-represented-numbers",
         "href": "https://www.w3.org/TR/mathml4/#rendering-cn-sep-represented-numbers",
         "title": "Rendering <cn>,<sep/>-Represented Numbers",
+        "alternateIds": [
+          "contm_rendering_numbers"
+        ],
         "number": "4.2.1.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_ci",
@@ -361,9 +456,13 @@
         "id": "content-identifiers-ci",
         "href": "https://www.w3.org/TR/mathml4/#content-identifiers-ci",
         "title": "Content Identifiers <ci>",
+        "alternateIds": [
+          "contm_ci_sec"
+        ],
         "number": "4.2.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_csymbol",
@@ -380,9 +479,13 @@
         "id": "content-symbols-csymbol",
         "href": "https://www.w3.org/TR/mathml4/#content-symbols-csymbol",
         "title": "Content Symbols <csymbol>",
+        "alternateIds": [
+          "contm_csymbol_sec"
+        ],
         "number": "4.2.3"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_cs",
@@ -399,9 +502,13 @@
         "id": "string-literals-cs",
         "href": "https://www.w3.org/TR/mathml4/#string-literals-cs",
         "title": "String Literals <cs>",
+        "alternateIds": [
+          "contm_cs_sec"
+        ],
         "number": "4.2.4"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_apply",
@@ -418,9 +525,13 @@
         "id": "function-application-apply",
         "href": "https://www.w3.org/TR/mathml4/#function-application-apply",
         "title": "Function Application <apply>",
+        "alternateIds": [
+          "contm_apply_sec"
+        ],
         "number": "4.2.5"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_bind",
@@ -437,9 +548,13 @@
         "id": "bindings-and-bound-variables-bind-and-bvar",
         "href": "https://www.w3.org/TR/mathml4/#bindings-and-bound-variables-bind-and-bvar",
         "title": "Bindings and Bound Variables <bind> and <bvar>",
+        "alternateIds": [
+          "contm_binding"
+        ],
         "number": "4.2.6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_bvar",
@@ -456,9 +571,13 @@
         "id": "bindings-and-bound-variables-bind-and-bvar",
         "href": "https://www.w3.org/TR/mathml4/#bindings-and-bound-variables-bind-and-bvar",
         "title": "Bindings and Bound Variables <bind> and <bvar>",
+        "alternateIds": [
+          "contm_binding"
+        ],
         "number": "4.2.6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_share",
@@ -475,9 +594,13 @@
         "id": "structure-sharing-share",
         "href": "https://www.w3.org/TR/mathml4/#structure-sharing-share",
         "title": "Structure Sharing <share>",
+        "alternateIds": [
+          "contm_sharing"
+        ],
         "number": "4.2.7"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_cerror",
@@ -494,9 +617,13 @@
         "id": "error-markup-cerror",
         "href": "https://www.w3.org/TR/mathml4/#error-markup-cerror",
         "title": "Error Markup <cerror>",
+        "alternateIds": [
+          "contm_cerror_sec"
+        ],
         "number": "4.2.9"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_cbytes",
@@ -513,9 +640,13 @@
         "id": "encoded-bytes-cbytes",
         "href": "https://www.w3.org/TR/mathml4/#encoded-bytes-cbytes",
         "title": "Encoded Bytes <cbytes>",
+        "alternateIds": [
+          "contm_cbytes_sec"
+        ],
         "number": "4.2.10"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_domainofapplication",
@@ -532,9 +663,13 @@
         "id": "uses-of-domainofapplication-interval-condition-lowlimit-and-uplimit",
         "href": "https://www.w3.org/TR/mathml4/#uses-of-domainofapplication-interval-condition-lowlimit-and-uplimit",
         "title": "Uses of <domainofapplication>, <interval>, <condition>, <lowlimit> and <uplimit>",
+        "alternateIds": [
+          "contm_domainofapplication_qualifier"
+        ],
         "number": "4.3.3.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_interval_qualifier",
@@ -553,9 +688,13 @@
         "id": "uses-of-domainofapplication-interval-condition-lowlimit-and-uplimit",
         "href": "https://www.w3.org/TR/mathml4/#uses-of-domainofapplication-interval-condition-lowlimit-and-uplimit",
         "title": "Uses of <domainofapplication>, <interval>, <condition>, <lowlimit> and <uplimit>",
+        "alternateIds": [
+          "contm_domainofapplication_qualifier"
+        ],
         "number": "4.3.3.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_condition",
@@ -572,9 +711,13 @@
         "id": "uses-of-domainofapplication-interval-condition-lowlimit-and-uplimit",
         "href": "https://www.w3.org/TR/mathml4/#uses-of-domainofapplication-interval-condition-lowlimit-and-uplimit",
         "title": "Uses of <domainofapplication>, <interval>, <condition>, <lowlimit> and <uplimit>",
+        "alternateIds": [
+          "contm_domainofapplication_qualifier"
+        ],
         "number": "4.3.3.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_lowlimit",
@@ -591,9 +734,13 @@
         "id": "uses-of-domainofapplication-interval-condition-lowlimit-and-uplimit",
         "href": "https://www.w3.org/TR/mathml4/#uses-of-domainofapplication-interval-condition-lowlimit-and-uplimit",
         "title": "Uses of <domainofapplication>, <interval>, <condition>, <lowlimit> and <uplimit>",
+        "alternateIds": [
+          "contm_domainofapplication_qualifier"
+        ],
         "number": "4.3.3.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_uplimit",
@@ -610,9 +757,13 @@
         "id": "uses-of-domainofapplication-interval-condition-lowlimit-and-uplimit",
         "href": "https://www.w3.org/TR/mathml4/#uses-of-domainofapplication-interval-condition-lowlimit-and-uplimit",
         "title": "Uses of <domainofapplication>, <interval>, <condition>, <lowlimit> and <uplimit>",
+        "alternateIds": [
+          "contm_domainofapplication_qualifier"
+        ],
         "number": "4.3.3.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_degree",
@@ -629,9 +780,13 @@
         "id": "uses-of-degree",
         "href": "https://www.w3.org/TR/mathml4/#uses-of-degree",
         "title": "Uses of <degree>",
+        "alternateIds": [
+          "contm_degree_sec"
+        ],
         "number": "4.3.3.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_plus",
@@ -648,9 +803,13 @@
         "id": "n-ary-arithmetic-operators-plus-times-gcd-lcm",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-arithmetic-operators-plus-times-gcd-lcm",
         "title": "N-ary Arithmetic Operators: <plus/>, <times/>, <gcd/>, <lcm/>",
+        "alternateIds": [
+          "contm_nary_arith"
+        ],
         "number": "4.3.5.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_times",
@@ -667,9 +826,13 @@
         "id": "n-ary-arithmetic-operators-plus-times-gcd-lcm",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-arithmetic-operators-plus-times-gcd-lcm",
         "title": "N-ary Arithmetic Operators: <plus/>, <times/>, <gcd/>, <lcm/>",
+        "alternateIds": [
+          "contm_nary_arith"
+        ],
         "number": "4.3.5.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_gcd",
@@ -686,9 +849,13 @@
         "id": "n-ary-arithmetic-operators-plus-times-gcd-lcm",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-arithmetic-operators-plus-times-gcd-lcm",
         "title": "N-ary Arithmetic Operators: <plus/>, <times/>, <gcd/>, <lcm/>",
+        "alternateIds": [
+          "contm_nary_arith"
+        ],
         "number": "4.3.5.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_lcm",
@@ -705,9 +872,13 @@
         "id": "n-ary-arithmetic-operators-plus-times-gcd-lcm",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-arithmetic-operators-plus-times-gcd-lcm",
         "title": "N-ary Arithmetic Operators: <plus/>, <times/>, <gcd/>, <lcm/>",
+        "alternateIds": [
+          "contm_nary_arith"
+        ],
         "number": "4.3.5.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_sum",
@@ -724,9 +895,13 @@
         "id": "n-ary-sum-sum",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-sum-sum",
         "title": "N-ary Sum <sum/>",
+        "alternateIds": [
+          "contm_sum_sec"
+        ],
         "number": "4.3.5.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_product",
@@ -743,9 +918,13 @@
         "id": "n-ary-product-product",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-product-product",
         "title": "N-ary Product <product/>",
+        "alternateIds": [
+          "contm_product_sec"
+        ],
         "number": "4.3.5.3"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_compose",
@@ -762,9 +941,13 @@
         "id": "n-ary-functional-operators-compose",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-functional-operators-compose",
         "title": "N-ary Functional Operators: <compose/>",
+        "alternateIds": [
+          "contm_nary_functional"
+        ],
         "number": "4.3.5.4"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_and",
@@ -781,9 +964,13 @@
         "id": "n-ary-logical-operators-and-or-xor",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-logical-operators-and-or-xor",
         "title": "N-ary Logical Operators: <and/>, <or/>, <xor/>",
+        "alternateIds": [
+          "contm_nary_logical"
+        ],
         "number": "4.3.5.5"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_or",
@@ -800,9 +987,13 @@
         "id": "n-ary-logical-operators-and-or-xor",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-logical-operators-and-or-xor",
         "title": "N-ary Logical Operators: <and/>, <or/>, <xor/>",
+        "alternateIds": [
+          "contm_nary_logical"
+        ],
         "number": "4.3.5.5"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_xor",
@@ -819,9 +1010,13 @@
         "id": "n-ary-logical-operators-and-or-xor",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-logical-operators-and-or-xor",
         "title": "N-ary Logical Operators: <and/>, <or/>, <xor/>",
+        "alternateIds": [
+          "contm_nary_logical"
+        ],
         "number": "4.3.5.5"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_selector",
@@ -838,9 +1033,13 @@
         "id": "n-ary-linear-algebra-operators-selector",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-linear-algebra-operators-selector",
         "title": "N-ary Linear Algebra Operators: <selector/>",
+        "alternateIds": [
+          "contm_nary_linalg"
+        ],
         "number": "4.3.5.6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_union",
@@ -857,9 +1056,13 @@
         "id": "n-ary-set-operators-union-intersect-cartesianproduct",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-set-operators-union-intersect-cartesianproduct",
         "title": "N-ary Set Operators: <union/>, <intersect/>, <cartesianproduct/>",
+        "alternateIds": [
+          "contm_nary_set"
+        ],
         "number": "4.3.5.7"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_intersect",
@@ -876,9 +1079,13 @@
         "id": "n-ary-set-operators-union-intersect-cartesianproduct",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-set-operators-union-intersect-cartesianproduct",
         "title": "N-ary Set Operators: <union/>, <intersect/>, <cartesianproduct/>",
+        "alternateIds": [
+          "contm_nary_set"
+        ],
         "number": "4.3.5.7"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_cartesianproduct",
@@ -895,9 +1102,13 @@
         "id": "n-ary-set-operators-union-intersect-cartesianproduct",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-set-operators-union-intersect-cartesianproduct",
         "title": "N-ary Set Operators: <union/>, <intersect/>, <cartesianproduct/>",
+        "alternateIds": [
+          "contm_nary_set"
+        ],
         "number": "4.3.5.7"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_vector",
@@ -914,9 +1125,13 @@
         "id": "n-ary-matrix-constructors-vector-matrix-matrixrow",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-matrix-constructors-vector-matrix-matrixrow",
         "title": "N-ary Matrix Constructors: <vector/>, <matrix/>, <matrixrow/>",
+        "alternateIds": [
+          "contm_nary_construct_matrix"
+        ],
         "number": "4.3.5.8"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_matrix",
@@ -933,9 +1148,13 @@
         "id": "n-ary-matrix-constructors-vector-matrix-matrixrow",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-matrix-constructors-vector-matrix-matrixrow",
         "title": "N-ary Matrix Constructors: <vector/>, <matrix/>, <matrixrow/>",
+        "alternateIds": [
+          "contm_nary_construct_matrix"
+        ],
         "number": "4.3.5.8"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_matrixrow",
@@ -952,9 +1171,13 @@
         "id": "n-ary-matrix-constructors-vector-matrix-matrixrow",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-matrix-constructors-vector-matrix-matrixrow",
         "title": "N-ary Matrix Constructors: <vector/>, <matrix/>, <matrixrow/>",
+        "alternateIds": [
+          "contm_nary_construct_matrix"
+        ],
         "number": "4.3.5.8"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_set",
@@ -971,9 +1194,13 @@
         "id": "n-ary-set-theoretic-constructors-set-list",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-set-theoretic-constructors-set-list",
         "title": "N-ary Set Theoretic Constructors: <set>, <list>",
+        "alternateIds": [
+          "contm_nary_construct_set"
+        ],
         "number": "4.3.5.9"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_list",
@@ -990,9 +1217,13 @@
         "id": "n-ary-set-theoretic-constructors-set-list",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-set-theoretic-constructors-set-list",
         "title": "N-ary Set Theoretic Constructors: <set>, <list>",
+        "alternateIds": [
+          "contm_nary_construct_set"
+        ],
         "number": "4.3.5.9"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_eq",
@@ -1009,9 +1240,13 @@
         "id": "n-ary-arithmetic-relations-eq-gt-lt-geq-leq",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-arithmetic-relations-eq-gt-lt-geq-leq",
         "title": "N-ary Arithmetic Relations: <eq/>, <gt/>, <lt/>, <geq/>, <leq/>",
+        "alternateIds": [
+          "contm_nary_reln"
+        ],
         "number": "4.3.5.10"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_gt",
@@ -1028,9 +1263,13 @@
         "id": "n-ary-arithmetic-relations-eq-gt-lt-geq-leq",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-arithmetic-relations-eq-gt-lt-geq-leq",
         "title": "N-ary Arithmetic Relations: <eq/>, <gt/>, <lt/>, <geq/>, <leq/>",
+        "alternateIds": [
+          "contm_nary_reln"
+        ],
         "number": "4.3.5.10"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_lt",
@@ -1047,9 +1286,13 @@
         "id": "n-ary-arithmetic-relations-eq-gt-lt-geq-leq",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-arithmetic-relations-eq-gt-lt-geq-leq",
         "title": "N-ary Arithmetic Relations: <eq/>, <gt/>, <lt/>, <geq/>, <leq/>",
+        "alternateIds": [
+          "contm_nary_reln"
+        ],
         "number": "4.3.5.10"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_geq",
@@ -1066,9 +1309,13 @@
         "id": "n-ary-arithmetic-relations-eq-gt-lt-geq-leq",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-arithmetic-relations-eq-gt-lt-geq-leq",
         "title": "N-ary Arithmetic Relations: <eq/>, <gt/>, <lt/>, <geq/>, <leq/>",
+        "alternateIds": [
+          "contm_nary_reln"
+        ],
         "number": "4.3.5.10"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_leq",
@@ -1085,9 +1332,13 @@
         "id": "n-ary-arithmetic-relations-eq-gt-lt-geq-leq",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-arithmetic-relations-eq-gt-lt-geq-leq",
         "title": "N-ary Arithmetic Relations: <eq/>, <gt/>, <lt/>, <geq/>, <leq/>",
+        "alternateIds": [
+          "contm_nary_reln"
+        ],
         "number": "4.3.5.10"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_subset",
@@ -1104,9 +1355,13 @@
         "id": "n-ary-set-theoretic-relations-subset-prsubset",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-set-theoretic-relations-subset-prsubset",
         "title": "N-ary Set Theoretic Relations: <subset/>, <prsubset/>",
+        "alternateIds": [
+          "contm_nary_set_reln"
+        ],
         "number": "4.3.5.11"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_prsubset",
@@ -1123,9 +1378,13 @@
         "id": "n-ary-set-theoretic-relations-subset-prsubset",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-set-theoretic-relations-subset-prsubset",
         "title": "N-ary Set Theoretic Relations: <subset/>, <prsubset/>",
+        "alternateIds": [
+          "contm_nary_set_reln"
+        ],
         "number": "4.3.5.11"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_min",
@@ -1142,9 +1401,13 @@
         "id": "n-ary-unary-arithmetic-operators-min-max",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-unary-arithmetic-operators-min-max",
         "title": "N-ary/Unary Arithmetic Operators: <min/>, <max/>",
+        "alternateIds": [
+          "contm_nary_unary_minmax"
+        ],
         "number": "4.3.5.12"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_max",
@@ -1161,9 +1424,13 @@
         "id": "n-ary-unary-arithmetic-operators-min-max",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-unary-arithmetic-operators-min-max",
         "title": "N-ary/Unary Arithmetic Operators: <min/>, <max/>",
+        "alternateIds": [
+          "contm_nary_unary_minmax"
+        ],
         "number": "4.3.5.12"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_mean",
@@ -1180,9 +1447,13 @@
         "id": "n-ary-unary-statistical-operators-mean-median-mode-sdev-variance",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-unary-statistical-operators-mean-median-mode-sdev-variance",
         "title": "N-ary/Unary Statistical Operators: <mean/>, <median/>, <mode/>, <sdev/>, <variance/>",
+        "alternateIds": [
+          "contm_nary_unary_stats"
+        ],
         "number": "4.3.5.13"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_median",
@@ -1199,9 +1470,13 @@
         "id": "n-ary-unary-statistical-operators-mean-median-mode-sdev-variance",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-unary-statistical-operators-mean-median-mode-sdev-variance",
         "title": "N-ary/Unary Statistical Operators: <mean/>, <median/>, <mode/>, <sdev/>, <variance/>",
+        "alternateIds": [
+          "contm_nary_unary_stats"
+        ],
         "number": "4.3.5.13"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_mode",
@@ -1218,9 +1493,13 @@
         "id": "n-ary-unary-statistical-operators-mean-median-mode-sdev-variance",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-unary-statistical-operators-mean-median-mode-sdev-variance",
         "title": "N-ary/Unary Statistical Operators: <mean/>, <median/>, <mode/>, <sdev/>, <variance/>",
+        "alternateIds": [
+          "contm_nary_unary_stats"
+        ],
         "number": "4.3.5.13"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_sdev",
@@ -1237,9 +1516,13 @@
         "id": "n-ary-unary-statistical-operators-mean-median-mode-sdev-variance",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-unary-statistical-operators-mean-median-mode-sdev-variance",
         "title": "N-ary/Unary Statistical Operators: <mean/>, <median/>, <mode/>, <sdev/>, <variance/>",
+        "alternateIds": [
+          "contm_nary_unary_stats"
+        ],
         "number": "4.3.5.13"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_variance",
@@ -1256,9 +1539,13 @@
         "id": "n-ary-unary-statistical-operators-mean-median-mode-sdev-variance",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-unary-statistical-operators-mean-median-mode-sdev-variance",
         "title": "N-ary/Unary Statistical Operators: <mean/>, <median/>, <mode/>, <sdev/>, <variance/>",
+        "alternateIds": [
+          "contm_nary_unary_stats"
+        ],
         "number": "4.3.5.13"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_quotient",
@@ -1275,9 +1562,13 @@
         "id": "binary-arithmetic-operators-quotient-divide-minus-power-rem-root",
         "href": "https://www.w3.org/TR/mathml4/#binary-arithmetic-operators-quotient-divide-minus-power-rem-root",
         "title": "Binary Arithmetic Operators: <quotient/>, <divide/>, <minus/>, <power/>, <rem/>, <root/>",
+        "alternateIds": [
+          "contm_binary_arith"
+        ],
         "number": "4.3.6.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_divide",
@@ -1294,9 +1585,13 @@
         "id": "binary-arithmetic-operators-quotient-divide-minus-power-rem-root",
         "href": "https://www.w3.org/TR/mathml4/#binary-arithmetic-operators-quotient-divide-minus-power-rem-root",
         "title": "Binary Arithmetic Operators: <quotient/>, <divide/>, <minus/>, <power/>, <rem/>, <root/>",
+        "alternateIds": [
+          "contm_binary_arith"
+        ],
         "number": "4.3.6.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_minus_binary",
@@ -1315,9 +1610,13 @@
         "id": "binary-arithmetic-operators-quotient-divide-minus-power-rem-root",
         "href": "https://www.w3.org/TR/mathml4/#binary-arithmetic-operators-quotient-divide-minus-power-rem-root",
         "title": "Binary Arithmetic Operators: <quotient/>, <divide/>, <minus/>, <power/>, <rem/>, <root/>",
+        "alternateIds": [
+          "contm_binary_arith"
+        ],
         "number": "4.3.6.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_power",
@@ -1334,9 +1633,13 @@
         "id": "binary-arithmetic-operators-quotient-divide-minus-power-rem-root",
         "href": "https://www.w3.org/TR/mathml4/#binary-arithmetic-operators-quotient-divide-minus-power-rem-root",
         "title": "Binary Arithmetic Operators: <quotient/>, <divide/>, <minus/>, <power/>, <rem/>, <root/>",
+        "alternateIds": [
+          "contm_binary_arith"
+        ],
         "number": "4.3.6.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_rem",
@@ -1353,9 +1656,13 @@
         "id": "binary-arithmetic-operators-quotient-divide-minus-power-rem-root",
         "href": "https://www.w3.org/TR/mathml4/#binary-arithmetic-operators-quotient-divide-minus-power-rem-root",
         "title": "Binary Arithmetic Operators: <quotient/>, <divide/>, <minus/>, <power/>, <rem/>, <root/>",
+        "alternateIds": [
+          "contm_binary_arith"
+        ],
         "number": "4.3.6.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_root_binary",
@@ -1374,9 +1681,13 @@
         "id": "binary-arithmetic-operators-quotient-divide-minus-power-rem-root",
         "href": "https://www.w3.org/TR/mathml4/#binary-arithmetic-operators-quotient-divide-minus-power-rem-root",
         "title": "Binary Arithmetic Operators: <quotient/>, <divide/>, <minus/>, <power/>, <rem/>, <root/>",
+        "alternateIds": [
+          "contm_binary_arith"
+        ],
         "number": "4.3.6.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_implies",
@@ -1393,9 +1704,13 @@
         "id": "binary-logical-operators-implies-equivalent",
         "href": "https://www.w3.org/TR/mathml4/#binary-logical-operators-implies-equivalent",
         "title": "Binary Logical Operators: <implies/>, <equivalent/>",
+        "alternateIds": [
+          "contm_binary_logical"
+        ],
         "number": "4.3.6.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_equivalent",
@@ -1412,9 +1727,13 @@
         "id": "binary-logical-operators-implies-equivalent",
         "href": "https://www.w3.org/TR/mathml4/#binary-logical-operators-implies-equivalent",
         "title": "Binary Logical Operators: <implies/>, <equivalent/>",
+        "alternateIds": [
+          "contm_binary_logical"
+        ],
         "number": "4.3.6.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_neq",
@@ -1431,9 +1750,13 @@
         "id": "binary-relations-neq-approx-factorof-tendsto",
         "href": "https://www.w3.org/TR/mathml4/#binary-relations-neq-approx-factorof-tendsto",
         "title": "Binary Relations: <neq/>, <approx/>, <factorof/>, <tendsto/>",
+        "alternateIds": [
+          "contm_binary_reln"
+        ],
         "number": "4.3.6.3"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_approx",
@@ -1450,9 +1773,13 @@
         "id": "binary-relations-neq-approx-factorof-tendsto",
         "href": "https://www.w3.org/TR/mathml4/#binary-relations-neq-approx-factorof-tendsto",
         "title": "Binary Relations: <neq/>, <approx/>, <factorof/>, <tendsto/>",
+        "alternateIds": [
+          "contm_binary_reln"
+        ],
         "number": "4.3.6.3"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_factorof",
@@ -1469,9 +1796,13 @@
         "id": "binary-relations-neq-approx-factorof-tendsto",
         "href": "https://www.w3.org/TR/mathml4/#binary-relations-neq-approx-factorof-tendsto",
         "title": "Binary Relations: <neq/>, <approx/>, <factorof/>, <tendsto/>",
+        "alternateIds": [
+          "contm_binary_reln"
+        ],
         "number": "4.3.6.3"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_tendsto",
@@ -1488,9 +1819,13 @@
         "id": "binary-relations-neq-approx-factorof-tendsto",
         "href": "https://www.w3.org/TR/mathml4/#binary-relations-neq-approx-factorof-tendsto",
         "title": "Binary Relations: <neq/>, <approx/>, <factorof/>, <tendsto/>",
+        "alternateIds": [
+          "contm_binary_reln"
+        ],
         "number": "4.3.6.3"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_vectorproduct",
@@ -1507,9 +1842,13 @@
         "id": "binary-linear-algebra-operators-vectorproduct-scalarproduct-outerproduct",
         "href": "https://www.w3.org/TR/mathml4/#binary-linear-algebra-operators-vectorproduct-scalarproduct-outerproduct",
         "title": "Binary Linear Algebra Operators: <vectorproduct/>, <scalarproduct/>, <outerproduct/>",
+        "alternateIds": [
+          "contm_binary_linalg"
+        ],
         "number": "4.3.6.4"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_scalarproduct",
@@ -1526,9 +1865,13 @@
         "id": "binary-linear-algebra-operators-vectorproduct-scalarproduct-outerproduct",
         "href": "https://www.w3.org/TR/mathml4/#binary-linear-algebra-operators-vectorproduct-scalarproduct-outerproduct",
         "title": "Binary Linear Algebra Operators: <vectorproduct/>, <scalarproduct/>, <outerproduct/>",
+        "alternateIds": [
+          "contm_binary_linalg"
+        ],
         "number": "4.3.6.4"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_outerproduct",
@@ -1545,9 +1888,13 @@
         "id": "binary-linear-algebra-operators-vectorproduct-scalarproduct-outerproduct",
         "href": "https://www.w3.org/TR/mathml4/#binary-linear-algebra-operators-vectorproduct-scalarproduct-outerproduct",
         "title": "Binary Linear Algebra Operators: <vectorproduct/>, <scalarproduct/>, <outerproduct/>",
+        "alternateIds": [
+          "contm_binary_linalg"
+        ],
         "number": "4.3.6.4"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_in",
@@ -1564,9 +1911,13 @@
         "id": "binary-set-operators-in-notin-notsubset-notprsubset-setdiff",
         "href": "https://www.w3.org/TR/mathml4/#binary-set-operators-in-notin-notsubset-notprsubset-setdiff",
         "title": "Binary Set Operators: <in/>, <notin/>, <notsubset/>, <notprsubset/>, <setdiff/>",
+        "alternateIds": [
+          "contm_binary_set"
+        ],
         "number": "4.3.6.5"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_notin",
@@ -1583,9 +1934,13 @@
         "id": "binary-set-operators-in-notin-notsubset-notprsubset-setdiff",
         "href": "https://www.w3.org/TR/mathml4/#binary-set-operators-in-notin-notsubset-notprsubset-setdiff",
         "title": "Binary Set Operators: <in/>, <notin/>, <notsubset/>, <notprsubset/>, <setdiff/>",
+        "alternateIds": [
+          "contm_binary_set"
+        ],
         "number": "4.3.6.5"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_notsubset",
@@ -1602,9 +1957,13 @@
         "id": "binary-set-operators-in-notin-notsubset-notprsubset-setdiff",
         "href": "https://www.w3.org/TR/mathml4/#binary-set-operators-in-notin-notsubset-notprsubset-setdiff",
         "title": "Binary Set Operators: <in/>, <notin/>, <notsubset/>, <notprsubset/>, <setdiff/>",
+        "alternateIds": [
+          "contm_binary_set"
+        ],
         "number": "4.3.6.5"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_notprsubset",
@@ -1621,9 +1980,13 @@
         "id": "binary-set-operators-in-notin-notsubset-notprsubset-setdiff",
         "href": "https://www.w3.org/TR/mathml4/#binary-set-operators-in-notin-notsubset-notprsubset-setdiff",
         "title": "Binary Set Operators: <in/>, <notin/>, <notsubset/>, <notprsubset/>, <setdiff/>",
+        "alternateIds": [
+          "contm_binary_set"
+        ],
         "number": "4.3.6.5"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_setdiff",
@@ -1640,9 +2003,13 @@
         "id": "binary-set-operators-in-notin-notsubset-notprsubset-setdiff",
         "href": "https://www.w3.org/TR/mathml4/#binary-set-operators-in-notin-notsubset-notprsubset-setdiff",
         "title": "Binary Set Operators: <in/>, <notin/>, <notsubset/>, <notprsubset/>, <setdiff/>",
+        "alternateIds": [
+          "contm_binary_set"
+        ],
         "number": "4.3.6.5"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_not",
@@ -1659,9 +2026,13 @@
         "id": "unary-logical-operators-not",
         "href": "https://www.w3.org/TR/mathml4/#unary-logical-operators-not",
         "title": "Unary Logical Operators: <not/>",
+        "alternateIds": [
+          "contm_unary_logical"
+        ],
         "number": "4.3.7.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_factorial",
@@ -1678,9 +2049,13 @@
         "id": "unary-arithmetic-operators-factorial-abs-conjugate-arg-real-imaginary-floor-ceiling-exp-minus-root",
         "href": "https://www.w3.org/TR/mathml4/#unary-arithmetic-operators-factorial-abs-conjugate-arg-real-imaginary-floor-ceiling-exp-minus-root",
         "title": "Unary Arithmetic Operators: <factorial/>, <abs/>, <conjugate/>, <arg/>, <real/>, <imaginary/>, <floor/>, <ceiling/>, <exp/>, <minus/>, <root/>",
+        "alternateIds": [
+          "contm_unary_arith"
+        ],
         "number": "4.3.7.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_abs",
@@ -1697,9 +2072,13 @@
         "id": "unary-arithmetic-operators-factorial-abs-conjugate-arg-real-imaginary-floor-ceiling-exp-minus-root",
         "href": "https://www.w3.org/TR/mathml4/#unary-arithmetic-operators-factorial-abs-conjugate-arg-real-imaginary-floor-ceiling-exp-minus-root",
         "title": "Unary Arithmetic Operators: <factorial/>, <abs/>, <conjugate/>, <arg/>, <real/>, <imaginary/>, <floor/>, <ceiling/>, <exp/>, <minus/>, <root/>",
+        "alternateIds": [
+          "contm_unary_arith"
+        ],
         "number": "4.3.7.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_conjugate",
@@ -1716,9 +2095,13 @@
         "id": "unary-arithmetic-operators-factorial-abs-conjugate-arg-real-imaginary-floor-ceiling-exp-minus-root",
         "href": "https://www.w3.org/TR/mathml4/#unary-arithmetic-operators-factorial-abs-conjugate-arg-real-imaginary-floor-ceiling-exp-minus-root",
         "title": "Unary Arithmetic Operators: <factorial/>, <abs/>, <conjugate/>, <arg/>, <real/>, <imaginary/>, <floor/>, <ceiling/>, <exp/>, <minus/>, <root/>",
+        "alternateIds": [
+          "contm_unary_arith"
+        ],
         "number": "4.3.7.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_arg",
@@ -1735,9 +2118,13 @@
         "id": "unary-arithmetic-operators-factorial-abs-conjugate-arg-real-imaginary-floor-ceiling-exp-minus-root",
         "href": "https://www.w3.org/TR/mathml4/#unary-arithmetic-operators-factorial-abs-conjugate-arg-real-imaginary-floor-ceiling-exp-minus-root",
         "title": "Unary Arithmetic Operators: <factorial/>, <abs/>, <conjugate/>, <arg/>, <real/>, <imaginary/>, <floor/>, <ceiling/>, <exp/>, <minus/>, <root/>",
+        "alternateIds": [
+          "contm_unary_arith"
+        ],
         "number": "4.3.7.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_real",
@@ -1754,9 +2141,13 @@
         "id": "unary-arithmetic-operators-factorial-abs-conjugate-arg-real-imaginary-floor-ceiling-exp-minus-root",
         "href": "https://www.w3.org/TR/mathml4/#unary-arithmetic-operators-factorial-abs-conjugate-arg-real-imaginary-floor-ceiling-exp-minus-root",
         "title": "Unary Arithmetic Operators: <factorial/>, <abs/>, <conjugate/>, <arg/>, <real/>, <imaginary/>, <floor/>, <ceiling/>, <exp/>, <minus/>, <root/>",
+        "alternateIds": [
+          "contm_unary_arith"
+        ],
         "number": "4.3.7.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_imaginary",
@@ -1773,9 +2164,13 @@
         "id": "unary-arithmetic-operators-factorial-abs-conjugate-arg-real-imaginary-floor-ceiling-exp-minus-root",
         "href": "https://www.w3.org/TR/mathml4/#unary-arithmetic-operators-factorial-abs-conjugate-arg-real-imaginary-floor-ceiling-exp-minus-root",
         "title": "Unary Arithmetic Operators: <factorial/>, <abs/>, <conjugate/>, <arg/>, <real/>, <imaginary/>, <floor/>, <ceiling/>, <exp/>, <minus/>, <root/>",
+        "alternateIds": [
+          "contm_unary_arith"
+        ],
         "number": "4.3.7.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_floor",
@@ -1792,9 +2187,13 @@
         "id": "unary-arithmetic-operators-factorial-abs-conjugate-arg-real-imaginary-floor-ceiling-exp-minus-root",
         "href": "https://www.w3.org/TR/mathml4/#unary-arithmetic-operators-factorial-abs-conjugate-arg-real-imaginary-floor-ceiling-exp-minus-root",
         "title": "Unary Arithmetic Operators: <factorial/>, <abs/>, <conjugate/>, <arg/>, <real/>, <imaginary/>, <floor/>, <ceiling/>, <exp/>, <minus/>, <root/>",
+        "alternateIds": [
+          "contm_unary_arith"
+        ],
         "number": "4.3.7.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_ceiling",
@@ -1811,9 +2210,13 @@
         "id": "unary-arithmetic-operators-factorial-abs-conjugate-arg-real-imaginary-floor-ceiling-exp-minus-root",
         "href": "https://www.w3.org/TR/mathml4/#unary-arithmetic-operators-factorial-abs-conjugate-arg-real-imaginary-floor-ceiling-exp-minus-root",
         "title": "Unary Arithmetic Operators: <factorial/>, <abs/>, <conjugate/>, <arg/>, <real/>, <imaginary/>, <floor/>, <ceiling/>, <exp/>, <minus/>, <root/>",
+        "alternateIds": [
+          "contm_unary_arith"
+        ],
         "number": "4.3.7.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_exp",
@@ -1830,9 +2233,13 @@
         "id": "unary-arithmetic-operators-factorial-abs-conjugate-arg-real-imaginary-floor-ceiling-exp-minus-root",
         "href": "https://www.w3.org/TR/mathml4/#unary-arithmetic-operators-factorial-abs-conjugate-arg-real-imaginary-floor-ceiling-exp-minus-root",
         "title": "Unary Arithmetic Operators: <factorial/>, <abs/>, <conjugate/>, <arg/>, <real/>, <imaginary/>, <floor/>, <ceiling/>, <exp/>, <minus/>, <root/>",
+        "alternateIds": [
+          "contm_unary_arith"
+        ],
         "number": "4.3.7.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_minus_unary",
@@ -1851,9 +2258,13 @@
         "id": "unary-arithmetic-operators-factorial-abs-conjugate-arg-real-imaginary-floor-ceiling-exp-minus-root",
         "href": "https://www.w3.org/TR/mathml4/#unary-arithmetic-operators-factorial-abs-conjugate-arg-real-imaginary-floor-ceiling-exp-minus-root",
         "title": "Unary Arithmetic Operators: <factorial/>, <abs/>, <conjugate/>, <arg/>, <real/>, <imaginary/>, <floor/>, <ceiling/>, <exp/>, <minus/>, <root/>",
+        "alternateIds": [
+          "contm_unary_arith"
+        ],
         "number": "4.3.7.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_root_unary",
@@ -1872,9 +2283,13 @@
         "id": "unary-arithmetic-operators-factorial-abs-conjugate-arg-real-imaginary-floor-ceiling-exp-minus-root",
         "href": "https://www.w3.org/TR/mathml4/#unary-arithmetic-operators-factorial-abs-conjugate-arg-real-imaginary-floor-ceiling-exp-minus-root",
         "title": "Unary Arithmetic Operators: <factorial/>, <abs/>, <conjugate/>, <arg/>, <real/>, <imaginary/>, <floor/>, <ceiling/>, <exp/>, <minus/>, <root/>",
+        "alternateIds": [
+          "contm_unary_arith"
+        ],
         "number": "4.3.7.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_determinant",
@@ -1891,9 +2306,13 @@
         "id": "unary-linear-algebra-operators-determinant-transpose",
         "href": "https://www.w3.org/TR/mathml4/#unary-linear-algebra-operators-determinant-transpose",
         "title": "Unary Linear Algebra Operators: <determinant/>, <transpose/>",
+        "alternateIds": [
+          "contm_unary_linalg"
+        ],
         "number": "4.3.7.3"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_transpose",
@@ -1910,9 +2329,13 @@
         "id": "unary-linear-algebra-operators-determinant-transpose",
         "href": "https://www.w3.org/TR/mathml4/#unary-linear-algebra-operators-determinant-transpose",
         "title": "Unary Linear Algebra Operators: <determinant/>, <transpose/>",
+        "alternateIds": [
+          "contm_unary_linalg"
+        ],
         "number": "4.3.7.3"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_inverse",
@@ -1929,9 +2352,13 @@
         "id": "unary-functional-operators-inverse-ident-domain-codomain-image-ln",
         "href": "https://www.w3.org/TR/mathml4/#unary-functional-operators-inverse-ident-domain-codomain-image-ln",
         "title": "Unary Functional Operators: <inverse/>, <ident/>, <domain/>, <codomain/>, <image/>, <ln/>,",
+        "alternateIds": [
+          "contm_unary_functional"
+        ],
         "number": "4.3.7.4"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_ident",
@@ -1948,9 +2375,13 @@
         "id": "unary-functional-operators-inverse-ident-domain-codomain-image-ln",
         "href": "https://www.w3.org/TR/mathml4/#unary-functional-operators-inverse-ident-domain-codomain-image-ln",
         "title": "Unary Functional Operators: <inverse/>, <ident/>, <domain/>, <codomain/>, <image/>, <ln/>,",
+        "alternateIds": [
+          "contm_unary_functional"
+        ],
         "number": "4.3.7.4"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_domain",
@@ -1967,9 +2398,13 @@
         "id": "unary-functional-operators-inverse-ident-domain-codomain-image-ln",
         "href": "https://www.w3.org/TR/mathml4/#unary-functional-operators-inverse-ident-domain-codomain-image-ln",
         "title": "Unary Functional Operators: <inverse/>, <ident/>, <domain/>, <codomain/>, <image/>, <ln/>,",
+        "alternateIds": [
+          "contm_unary_functional"
+        ],
         "number": "4.3.7.4"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_codomain",
@@ -1986,9 +2421,13 @@
         "id": "unary-functional-operators-inverse-ident-domain-codomain-image-ln",
         "href": "https://www.w3.org/TR/mathml4/#unary-functional-operators-inverse-ident-domain-codomain-image-ln",
         "title": "Unary Functional Operators: <inverse/>, <ident/>, <domain/>, <codomain/>, <image/>, <ln/>,",
+        "alternateIds": [
+          "contm_unary_functional"
+        ],
         "number": "4.3.7.4"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_image",
@@ -2005,9 +2444,13 @@
         "id": "unary-functional-operators-inverse-ident-domain-codomain-image-ln",
         "href": "https://www.w3.org/TR/mathml4/#unary-functional-operators-inverse-ident-domain-codomain-image-ln",
         "title": "Unary Functional Operators: <inverse/>, <ident/>, <domain/>, <codomain/>, <image/>, <ln/>,",
+        "alternateIds": [
+          "contm_unary_functional"
+        ],
         "number": "4.3.7.4"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_ln",
@@ -2024,9 +2467,13 @@
         "id": "unary-functional-operators-inverse-ident-domain-codomain-image-ln",
         "href": "https://www.w3.org/TR/mathml4/#unary-functional-operators-inverse-ident-domain-codomain-image-ln",
         "title": "Unary Functional Operators: <inverse/>, <ident/>, <domain/>, <codomain/>, <image/>, <ln/>,",
+        "alternateIds": [
+          "contm_unary_functional"
+        ],
         "number": "4.3.7.4"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_card",
@@ -2043,9 +2490,13 @@
         "id": "unary-set-operators-card",
         "href": "https://www.w3.org/TR/mathml4/#unary-set-operators-card",
         "title": "Unary Set Operators: <card/>",
+        "alternateIds": [
+          "contm_unary_set"
+        ],
         "number": "4.3.7.5"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_sin",
@@ -2062,9 +2513,13 @@
         "id": "unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "href": "https://www.w3.org/TR/mathml4/#unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "title": "Unary Elementary Operators: <sin/>, <cos/>, <tan/>, <sec/>, <csc/>, <cot/>, <sinh/>, <cosh/>, <tanh/>, <sech/>, <csch/>, <coth/>, <arcsin/>, <arccos/>, <arctan/>, <arccosh/>, <arccot/>, <arccoth/>, <arccsc/>, <arccsch/>, <arcsec/>, <arcsech/>, <arcsinh/>, <arctanh/>",
+        "alternateIds": [
+          "contm_unary_elementary"
+        ],
         "number": "4.3.7.6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_cos",
@@ -2081,9 +2536,13 @@
         "id": "unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "href": "https://www.w3.org/TR/mathml4/#unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "title": "Unary Elementary Operators: <sin/>, <cos/>, <tan/>, <sec/>, <csc/>, <cot/>, <sinh/>, <cosh/>, <tanh/>, <sech/>, <csch/>, <coth/>, <arcsin/>, <arccos/>, <arctan/>, <arccosh/>, <arccot/>, <arccoth/>, <arccsc/>, <arccsch/>, <arcsec/>, <arcsech/>, <arcsinh/>, <arctanh/>",
+        "alternateIds": [
+          "contm_unary_elementary"
+        ],
         "number": "4.3.7.6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_tan",
@@ -2100,9 +2559,13 @@
         "id": "unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "href": "https://www.w3.org/TR/mathml4/#unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "title": "Unary Elementary Operators: <sin/>, <cos/>, <tan/>, <sec/>, <csc/>, <cot/>, <sinh/>, <cosh/>, <tanh/>, <sech/>, <csch/>, <coth/>, <arcsin/>, <arccos/>, <arctan/>, <arccosh/>, <arccot/>, <arccoth/>, <arccsc/>, <arccsch/>, <arcsec/>, <arcsech/>, <arcsinh/>, <arctanh/>",
+        "alternateIds": [
+          "contm_unary_elementary"
+        ],
         "number": "4.3.7.6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_sec",
@@ -2119,9 +2582,13 @@
         "id": "unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "href": "https://www.w3.org/TR/mathml4/#unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "title": "Unary Elementary Operators: <sin/>, <cos/>, <tan/>, <sec/>, <csc/>, <cot/>, <sinh/>, <cosh/>, <tanh/>, <sech/>, <csch/>, <coth/>, <arcsin/>, <arccos/>, <arctan/>, <arccosh/>, <arccot/>, <arccoth/>, <arccsc/>, <arccsch/>, <arcsec/>, <arcsech/>, <arcsinh/>, <arctanh/>",
+        "alternateIds": [
+          "contm_unary_elementary"
+        ],
         "number": "4.3.7.6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_csc",
@@ -2138,9 +2605,13 @@
         "id": "unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "href": "https://www.w3.org/TR/mathml4/#unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "title": "Unary Elementary Operators: <sin/>, <cos/>, <tan/>, <sec/>, <csc/>, <cot/>, <sinh/>, <cosh/>, <tanh/>, <sech/>, <csch/>, <coth/>, <arcsin/>, <arccos/>, <arctan/>, <arccosh/>, <arccot/>, <arccoth/>, <arccsc/>, <arccsch/>, <arcsec/>, <arcsech/>, <arcsinh/>, <arctanh/>",
+        "alternateIds": [
+          "contm_unary_elementary"
+        ],
         "number": "4.3.7.6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_cot",
@@ -2157,9 +2628,13 @@
         "id": "unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "href": "https://www.w3.org/TR/mathml4/#unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "title": "Unary Elementary Operators: <sin/>, <cos/>, <tan/>, <sec/>, <csc/>, <cot/>, <sinh/>, <cosh/>, <tanh/>, <sech/>, <csch/>, <coth/>, <arcsin/>, <arccos/>, <arctan/>, <arccosh/>, <arccot/>, <arccoth/>, <arccsc/>, <arccsch/>, <arcsec/>, <arcsech/>, <arcsinh/>, <arctanh/>",
+        "alternateIds": [
+          "contm_unary_elementary"
+        ],
         "number": "4.3.7.6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_sinh",
@@ -2176,9 +2651,13 @@
         "id": "unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "href": "https://www.w3.org/TR/mathml4/#unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "title": "Unary Elementary Operators: <sin/>, <cos/>, <tan/>, <sec/>, <csc/>, <cot/>, <sinh/>, <cosh/>, <tanh/>, <sech/>, <csch/>, <coth/>, <arcsin/>, <arccos/>, <arctan/>, <arccosh/>, <arccot/>, <arccoth/>, <arccsc/>, <arccsch/>, <arcsec/>, <arcsech/>, <arcsinh/>, <arctanh/>",
+        "alternateIds": [
+          "contm_unary_elementary"
+        ],
         "number": "4.3.7.6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_cosh",
@@ -2195,9 +2674,13 @@
         "id": "unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "href": "https://www.w3.org/TR/mathml4/#unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "title": "Unary Elementary Operators: <sin/>, <cos/>, <tan/>, <sec/>, <csc/>, <cot/>, <sinh/>, <cosh/>, <tanh/>, <sech/>, <csch/>, <coth/>, <arcsin/>, <arccos/>, <arctan/>, <arccosh/>, <arccot/>, <arccoth/>, <arccsc/>, <arccsch/>, <arcsec/>, <arcsech/>, <arcsinh/>, <arctanh/>",
+        "alternateIds": [
+          "contm_unary_elementary"
+        ],
         "number": "4.3.7.6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_tanh",
@@ -2214,9 +2697,13 @@
         "id": "unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "href": "https://www.w3.org/TR/mathml4/#unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "title": "Unary Elementary Operators: <sin/>, <cos/>, <tan/>, <sec/>, <csc/>, <cot/>, <sinh/>, <cosh/>, <tanh/>, <sech/>, <csch/>, <coth/>, <arcsin/>, <arccos/>, <arctan/>, <arccosh/>, <arccot/>, <arccoth/>, <arccsc/>, <arccsch/>, <arcsec/>, <arcsech/>, <arcsinh/>, <arctanh/>",
+        "alternateIds": [
+          "contm_unary_elementary"
+        ],
         "number": "4.3.7.6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_sech",
@@ -2233,9 +2720,13 @@
         "id": "unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "href": "https://www.w3.org/TR/mathml4/#unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "title": "Unary Elementary Operators: <sin/>, <cos/>, <tan/>, <sec/>, <csc/>, <cot/>, <sinh/>, <cosh/>, <tanh/>, <sech/>, <csch/>, <coth/>, <arcsin/>, <arccos/>, <arctan/>, <arccosh/>, <arccot/>, <arccoth/>, <arccsc/>, <arccsch/>, <arcsec/>, <arcsech/>, <arcsinh/>, <arctanh/>",
+        "alternateIds": [
+          "contm_unary_elementary"
+        ],
         "number": "4.3.7.6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_csch",
@@ -2252,9 +2743,13 @@
         "id": "unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "href": "https://www.w3.org/TR/mathml4/#unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "title": "Unary Elementary Operators: <sin/>, <cos/>, <tan/>, <sec/>, <csc/>, <cot/>, <sinh/>, <cosh/>, <tanh/>, <sech/>, <csch/>, <coth/>, <arcsin/>, <arccos/>, <arctan/>, <arccosh/>, <arccot/>, <arccoth/>, <arccsc/>, <arccsch/>, <arcsec/>, <arcsech/>, <arcsinh/>, <arctanh/>",
+        "alternateIds": [
+          "contm_unary_elementary"
+        ],
         "number": "4.3.7.6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_coth",
@@ -2271,9 +2766,13 @@
         "id": "unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "href": "https://www.w3.org/TR/mathml4/#unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "title": "Unary Elementary Operators: <sin/>, <cos/>, <tan/>, <sec/>, <csc/>, <cot/>, <sinh/>, <cosh/>, <tanh/>, <sech/>, <csch/>, <coth/>, <arcsin/>, <arccos/>, <arctan/>, <arccosh/>, <arccot/>, <arccoth/>, <arccsc/>, <arccsch/>, <arcsec/>, <arcsech/>, <arcsinh/>, <arctanh/>",
+        "alternateIds": [
+          "contm_unary_elementary"
+        ],
         "number": "4.3.7.6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_arcsin",
@@ -2290,9 +2789,13 @@
         "id": "unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "href": "https://www.w3.org/TR/mathml4/#unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "title": "Unary Elementary Operators: <sin/>, <cos/>, <tan/>, <sec/>, <csc/>, <cot/>, <sinh/>, <cosh/>, <tanh/>, <sech/>, <csch/>, <coth/>, <arcsin/>, <arccos/>, <arctan/>, <arccosh/>, <arccot/>, <arccoth/>, <arccsc/>, <arccsch/>, <arcsec/>, <arcsech/>, <arcsinh/>, <arctanh/>",
+        "alternateIds": [
+          "contm_unary_elementary"
+        ],
         "number": "4.3.7.6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_arccos",
@@ -2309,9 +2812,13 @@
         "id": "unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "href": "https://www.w3.org/TR/mathml4/#unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "title": "Unary Elementary Operators: <sin/>, <cos/>, <tan/>, <sec/>, <csc/>, <cot/>, <sinh/>, <cosh/>, <tanh/>, <sech/>, <csch/>, <coth/>, <arcsin/>, <arccos/>, <arctan/>, <arccosh/>, <arccot/>, <arccoth/>, <arccsc/>, <arccsch/>, <arcsec/>, <arcsech/>, <arcsinh/>, <arctanh/>",
+        "alternateIds": [
+          "contm_unary_elementary"
+        ],
         "number": "4.3.7.6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_arctan",
@@ -2328,9 +2835,13 @@
         "id": "unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "href": "https://www.w3.org/TR/mathml4/#unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "title": "Unary Elementary Operators: <sin/>, <cos/>, <tan/>, <sec/>, <csc/>, <cot/>, <sinh/>, <cosh/>, <tanh/>, <sech/>, <csch/>, <coth/>, <arcsin/>, <arccos/>, <arctan/>, <arccosh/>, <arccot/>, <arccoth/>, <arccsc/>, <arccsch/>, <arcsec/>, <arcsech/>, <arcsinh/>, <arctanh/>",
+        "alternateIds": [
+          "contm_unary_elementary"
+        ],
         "number": "4.3.7.6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_arccosh",
@@ -2347,9 +2858,13 @@
         "id": "unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "href": "https://www.w3.org/TR/mathml4/#unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "title": "Unary Elementary Operators: <sin/>, <cos/>, <tan/>, <sec/>, <csc/>, <cot/>, <sinh/>, <cosh/>, <tanh/>, <sech/>, <csch/>, <coth/>, <arcsin/>, <arccos/>, <arctan/>, <arccosh/>, <arccot/>, <arccoth/>, <arccsc/>, <arccsch/>, <arcsec/>, <arcsech/>, <arcsinh/>, <arctanh/>",
+        "alternateIds": [
+          "contm_unary_elementary"
+        ],
         "number": "4.3.7.6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_arccot",
@@ -2366,9 +2881,13 @@
         "id": "unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "href": "https://www.w3.org/TR/mathml4/#unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "title": "Unary Elementary Operators: <sin/>, <cos/>, <tan/>, <sec/>, <csc/>, <cot/>, <sinh/>, <cosh/>, <tanh/>, <sech/>, <csch/>, <coth/>, <arcsin/>, <arccos/>, <arctan/>, <arccosh/>, <arccot/>, <arccoth/>, <arccsc/>, <arccsch/>, <arcsec/>, <arcsech/>, <arcsinh/>, <arctanh/>",
+        "alternateIds": [
+          "contm_unary_elementary"
+        ],
         "number": "4.3.7.6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_arccoth",
@@ -2385,9 +2904,13 @@
         "id": "unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "href": "https://www.w3.org/TR/mathml4/#unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "title": "Unary Elementary Operators: <sin/>, <cos/>, <tan/>, <sec/>, <csc/>, <cot/>, <sinh/>, <cosh/>, <tanh/>, <sech/>, <csch/>, <coth/>, <arcsin/>, <arccos/>, <arctan/>, <arccosh/>, <arccot/>, <arccoth/>, <arccsc/>, <arccsch/>, <arcsec/>, <arcsech/>, <arcsinh/>, <arctanh/>",
+        "alternateIds": [
+          "contm_unary_elementary"
+        ],
         "number": "4.3.7.6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_arccsc",
@@ -2404,9 +2927,13 @@
         "id": "unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "href": "https://www.w3.org/TR/mathml4/#unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "title": "Unary Elementary Operators: <sin/>, <cos/>, <tan/>, <sec/>, <csc/>, <cot/>, <sinh/>, <cosh/>, <tanh/>, <sech/>, <csch/>, <coth/>, <arcsin/>, <arccos/>, <arctan/>, <arccosh/>, <arccot/>, <arccoth/>, <arccsc/>, <arccsch/>, <arcsec/>, <arcsech/>, <arcsinh/>, <arctanh/>",
+        "alternateIds": [
+          "contm_unary_elementary"
+        ],
         "number": "4.3.7.6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_arccsch",
@@ -2423,9 +2950,13 @@
         "id": "unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "href": "https://www.w3.org/TR/mathml4/#unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "title": "Unary Elementary Operators: <sin/>, <cos/>, <tan/>, <sec/>, <csc/>, <cot/>, <sinh/>, <cosh/>, <tanh/>, <sech/>, <csch/>, <coth/>, <arcsin/>, <arccos/>, <arctan/>, <arccosh/>, <arccot/>, <arccoth/>, <arccsc/>, <arccsch/>, <arcsec/>, <arcsech/>, <arcsinh/>, <arctanh/>",
+        "alternateIds": [
+          "contm_unary_elementary"
+        ],
         "number": "4.3.7.6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_arcsec",
@@ -2442,9 +2973,13 @@
         "id": "unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "href": "https://www.w3.org/TR/mathml4/#unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "title": "Unary Elementary Operators: <sin/>, <cos/>, <tan/>, <sec/>, <csc/>, <cot/>, <sinh/>, <cosh/>, <tanh/>, <sech/>, <csch/>, <coth/>, <arcsin/>, <arccos/>, <arctan/>, <arccosh/>, <arccot/>, <arccoth/>, <arccsc/>, <arccsch/>, <arcsec/>, <arcsech/>, <arcsinh/>, <arctanh/>",
+        "alternateIds": [
+          "contm_unary_elementary"
+        ],
         "number": "4.3.7.6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_arcsech",
@@ -2461,9 +2996,13 @@
         "id": "unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "href": "https://www.w3.org/TR/mathml4/#unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "title": "Unary Elementary Operators: <sin/>, <cos/>, <tan/>, <sec/>, <csc/>, <cot/>, <sinh/>, <cosh/>, <tanh/>, <sech/>, <csch/>, <coth/>, <arcsin/>, <arccos/>, <arctan/>, <arccosh/>, <arccot/>, <arccoth/>, <arccsc/>, <arccsch/>, <arcsec/>, <arcsech/>, <arcsinh/>, <arctanh/>",
+        "alternateIds": [
+          "contm_unary_elementary"
+        ],
         "number": "4.3.7.6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_arcsinh",
@@ -2480,9 +3019,13 @@
         "id": "unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "href": "https://www.w3.org/TR/mathml4/#unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "title": "Unary Elementary Operators: <sin/>, <cos/>, <tan/>, <sec/>, <csc/>, <cot/>, <sinh/>, <cosh/>, <tanh/>, <sech/>, <csch/>, <coth/>, <arcsin/>, <arccos/>, <arctan/>, <arccosh/>, <arccot/>, <arccoth/>, <arccsc/>, <arccsch/>, <arcsec/>, <arcsech/>, <arcsinh/>, <arctanh/>",
+        "alternateIds": [
+          "contm_unary_elementary"
+        ],
         "number": "4.3.7.6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_arctanh",
@@ -2499,9 +3042,13 @@
         "id": "unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "href": "https://www.w3.org/TR/mathml4/#unary-elementary-operators-sin-cos-tan-sec-csc-cot-sinh-cosh-tanh-sech-csch-coth-arcsin-arccos-arctan-arccosh-arccot-arccoth-arccsc-arccsch-arcsec-arcsech-arcsinh-arctanh",
         "title": "Unary Elementary Operators: <sin/>, <cos/>, <tan/>, <sec/>, <csc/>, <cot/>, <sinh/>, <cosh/>, <tanh/>, <sech/>, <csch/>, <coth/>, <arcsin/>, <arccos/>, <arctan/>, <arccosh/>, <arccot/>, <arccoth/>, <arccsc/>, <arccsch/>, <arcsec/>, <arcsech/>, <arcsinh/>, <arctanh/>",
+        "alternateIds": [
+          "contm_unary_elementary"
+        ],
         "number": "4.3.7.6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_divergence",
@@ -2518,9 +3065,13 @@
         "id": "unary-vector-calculus-operators-divergence-grad-curl-laplacian",
         "href": "https://www.w3.org/TR/mathml4/#unary-vector-calculus-operators-divergence-grad-curl-laplacian",
         "title": "Unary Vector Calculus Operators: <divergence/>, <grad/>, <curl/>, <laplacian/>",
+        "alternateIds": [
+          "contm_unary_veccalc"
+        ],
         "number": "4.3.7.7"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_grad",
@@ -2537,9 +3088,13 @@
         "id": "unary-vector-calculus-operators-divergence-grad-curl-laplacian",
         "href": "https://www.w3.org/TR/mathml4/#unary-vector-calculus-operators-divergence-grad-curl-laplacian",
         "title": "Unary Vector Calculus Operators: <divergence/>, <grad/>, <curl/>, <laplacian/>",
+        "alternateIds": [
+          "contm_unary_veccalc"
+        ],
         "number": "4.3.7.7"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_curl",
@@ -2556,9 +3111,13 @@
         "id": "unary-vector-calculus-operators-divergence-grad-curl-laplacian",
         "href": "https://www.w3.org/TR/mathml4/#unary-vector-calculus-operators-divergence-grad-curl-laplacian",
         "title": "Unary Vector Calculus Operators: <divergence/>, <grad/>, <curl/>, <laplacian/>",
+        "alternateIds": [
+          "contm_unary_veccalc"
+        ],
         "number": "4.3.7.7"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_laplacian",
@@ -2575,9 +3134,13 @@
         "id": "unary-vector-calculus-operators-divergence-grad-curl-laplacian",
         "href": "https://www.w3.org/TR/mathml4/#unary-vector-calculus-operators-divergence-grad-curl-laplacian",
         "title": "Unary Vector Calculus Operators: <divergence/>, <grad/>, <curl/>, <laplacian/>",
+        "alternateIds": [
+          "contm_unary_veccalc"
+        ],
         "number": "4.3.7.7"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_moment",
@@ -2594,9 +3157,13 @@
         "id": "moment-moment-momentabout",
         "href": "https://www.w3.org/TR/mathml4/#moment-moment-momentabout",
         "title": "Moment <moment/>, <momentabout>",
+        "alternateIds": [
+          "contm_moment_sec"
+        ],
         "number": "4.3.7.8"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_momentabout",
@@ -2613,9 +3180,13 @@
         "id": "moment-moment-momentabout",
         "href": "https://www.w3.org/TR/mathml4/#moment-moment-momentabout",
         "title": "Moment <moment/>, <momentabout>",
+        "alternateIds": [
+          "contm_moment_sec"
+        ],
         "number": "4.3.7.8"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_log",
@@ -2632,9 +3203,13 @@
         "id": "logarithm-log-logbase",
         "href": "https://www.w3.org/TR/mathml4/#logarithm-log-logbase",
         "title": "Logarithm <log/> , <logbase>",
+        "alternateIds": [
+          "contm_log_sec"
+        ],
         "number": "4.3.7.9"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_logbase",
@@ -2651,9 +3226,13 @@
         "id": "logarithm-log-logbase",
         "href": "https://www.w3.org/TR/mathml4/#logarithm-log-logbase",
         "title": "Logarithm <log/> , <logbase>",
+        "alternateIds": [
+          "contm_log_sec"
+        ],
         "number": "4.3.7.9"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_int",
@@ -2670,9 +3249,13 @@
         "id": "integral-int",
         "href": "https://www.w3.org/TR/mathml4/#integral-int",
         "title": "Integral <int/>",
+        "alternateIds": [
+          "contm_int_sec"
+        ],
         "number": "4.3.8.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_diff",
@@ -2689,9 +3272,13 @@
         "id": "differentiation-diff",
         "href": "https://www.w3.org/TR/mathml4/#differentiation-diff",
         "title": "Differentiation <diff/>",
+        "alternateIds": [
+          "contm_diff_sec"
+        ],
         "number": "4.3.8.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_partialdiff",
@@ -2708,9 +3295,13 @@
         "id": "partial-differentiation-partialdiff",
         "href": "https://www.w3.org/TR/mathml4/#partial-differentiation-partialdiff",
         "title": "Partial Differentiation <partialdiff/>",
+        "alternateIds": [
+          "contm_partialdiff_sec"
+        ],
         "number": "4.3.8.3"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_exponentiale",
@@ -2727,9 +3318,13 @@
         "id": "arithmetic-constants-exponentiale-imaginaryi-notanumber-true-false-pi-eulergamma-infinity",
         "href": "https://www.w3.org/TR/mathml4/#arithmetic-constants-exponentiale-imaginaryi-notanumber-true-false-pi-eulergamma-infinity",
         "title": "Arithmetic Constants: <exponentiale/>, <imaginaryi/>, <notanumber/>, <true/>, <false/>, <pi/>, <eulergamma/>, <infinity/>",
+        "alternateIds": [
+          "contm_constant_arith"
+        ],
         "number": "4.3.9.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_imaginaryi",
@@ -2746,9 +3341,13 @@
         "id": "arithmetic-constants-exponentiale-imaginaryi-notanumber-true-false-pi-eulergamma-infinity",
         "href": "https://www.w3.org/TR/mathml4/#arithmetic-constants-exponentiale-imaginaryi-notanumber-true-false-pi-eulergamma-infinity",
         "title": "Arithmetic Constants: <exponentiale/>, <imaginaryi/>, <notanumber/>, <true/>, <false/>, <pi/>, <eulergamma/>, <infinity/>",
+        "alternateIds": [
+          "contm_constant_arith"
+        ],
         "number": "4.3.9.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_notanumber",
@@ -2765,9 +3364,13 @@
         "id": "arithmetic-constants-exponentiale-imaginaryi-notanumber-true-false-pi-eulergamma-infinity",
         "href": "https://www.w3.org/TR/mathml4/#arithmetic-constants-exponentiale-imaginaryi-notanumber-true-false-pi-eulergamma-infinity",
         "title": "Arithmetic Constants: <exponentiale/>, <imaginaryi/>, <notanumber/>, <true/>, <false/>, <pi/>, <eulergamma/>, <infinity/>",
+        "alternateIds": [
+          "contm_constant_arith"
+        ],
         "number": "4.3.9.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_true",
@@ -2784,9 +3387,13 @@
         "id": "arithmetic-constants-exponentiale-imaginaryi-notanumber-true-false-pi-eulergamma-infinity",
         "href": "https://www.w3.org/TR/mathml4/#arithmetic-constants-exponentiale-imaginaryi-notanumber-true-false-pi-eulergamma-infinity",
         "title": "Arithmetic Constants: <exponentiale/>, <imaginaryi/>, <notanumber/>, <true/>, <false/>, <pi/>, <eulergamma/>, <infinity/>",
+        "alternateIds": [
+          "contm_constant_arith"
+        ],
         "number": "4.3.9.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_false",
@@ -2803,9 +3410,13 @@
         "id": "arithmetic-constants-exponentiale-imaginaryi-notanumber-true-false-pi-eulergamma-infinity",
         "href": "https://www.w3.org/TR/mathml4/#arithmetic-constants-exponentiale-imaginaryi-notanumber-true-false-pi-eulergamma-infinity",
         "title": "Arithmetic Constants: <exponentiale/>, <imaginaryi/>, <notanumber/>, <true/>, <false/>, <pi/>, <eulergamma/>, <infinity/>",
+        "alternateIds": [
+          "contm_constant_arith"
+        ],
         "number": "4.3.9.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_pi",
@@ -2822,9 +3433,13 @@
         "id": "arithmetic-constants-exponentiale-imaginaryi-notanumber-true-false-pi-eulergamma-infinity",
         "href": "https://www.w3.org/TR/mathml4/#arithmetic-constants-exponentiale-imaginaryi-notanumber-true-false-pi-eulergamma-infinity",
         "title": "Arithmetic Constants: <exponentiale/>, <imaginaryi/>, <notanumber/>, <true/>, <false/>, <pi/>, <eulergamma/>, <infinity/>",
+        "alternateIds": [
+          "contm_constant_arith"
+        ],
         "number": "4.3.9.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_eulergamma",
@@ -2841,9 +3456,13 @@
         "id": "arithmetic-constants-exponentiale-imaginaryi-notanumber-true-false-pi-eulergamma-infinity",
         "href": "https://www.w3.org/TR/mathml4/#arithmetic-constants-exponentiale-imaginaryi-notanumber-true-false-pi-eulergamma-infinity",
         "title": "Arithmetic Constants: <exponentiale/>, <imaginaryi/>, <notanumber/>, <true/>, <false/>, <pi/>, <eulergamma/>, <infinity/>",
+        "alternateIds": [
+          "contm_constant_arith"
+        ],
         "number": "4.3.9.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_infinity",
@@ -2860,9 +3479,13 @@
         "id": "arithmetic-constants-exponentiale-imaginaryi-notanumber-true-false-pi-eulergamma-infinity",
         "href": "https://www.w3.org/TR/mathml4/#arithmetic-constants-exponentiale-imaginaryi-notanumber-true-false-pi-eulergamma-infinity",
         "title": "Arithmetic Constants: <exponentiale/>, <imaginaryi/>, <notanumber/>, <true/>, <false/>, <pi/>, <eulergamma/>, <infinity/>",
+        "alternateIds": [
+          "contm_constant_arith"
+        ],
         "number": "4.3.9.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_integers",
@@ -2879,9 +3502,13 @@
         "id": "set-theory-constants-integers-reals-rationals-naturalnumbers-complexes-primes-emptyset",
         "href": "https://www.w3.org/TR/mathml4/#set-theory-constants-integers-reals-rationals-naturalnumbers-complexes-primes-emptyset",
         "title": "Set Theory Constants: <integers/>, <reals/>, <rationals/>, <naturalnumbers/>, <complexes/>, <primes/>, <emptyset/>",
+        "alternateIds": [
+          "contm_constant_set"
+        ],
         "number": "4.3.9.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_reals",
@@ -2898,9 +3525,13 @@
         "id": "set-theory-constants-integers-reals-rationals-naturalnumbers-complexes-primes-emptyset",
         "href": "https://www.w3.org/TR/mathml4/#set-theory-constants-integers-reals-rationals-naturalnumbers-complexes-primes-emptyset",
         "title": "Set Theory Constants: <integers/>, <reals/>, <rationals/>, <naturalnumbers/>, <complexes/>, <primes/>, <emptyset/>",
+        "alternateIds": [
+          "contm_constant_set"
+        ],
         "number": "4.3.9.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_rationals",
@@ -2917,9 +3548,13 @@
         "id": "set-theory-constants-integers-reals-rationals-naturalnumbers-complexes-primes-emptyset",
         "href": "https://www.w3.org/TR/mathml4/#set-theory-constants-integers-reals-rationals-naturalnumbers-complexes-primes-emptyset",
         "title": "Set Theory Constants: <integers/>, <reals/>, <rationals/>, <naturalnumbers/>, <complexes/>, <primes/>, <emptyset/>",
+        "alternateIds": [
+          "contm_constant_set"
+        ],
         "number": "4.3.9.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_naturalnumbers",
@@ -2936,9 +3571,13 @@
         "id": "set-theory-constants-integers-reals-rationals-naturalnumbers-complexes-primes-emptyset",
         "href": "https://www.w3.org/TR/mathml4/#set-theory-constants-integers-reals-rationals-naturalnumbers-complexes-primes-emptyset",
         "title": "Set Theory Constants: <integers/>, <reals/>, <rationals/>, <naturalnumbers/>, <complexes/>, <primes/>, <emptyset/>",
+        "alternateIds": [
+          "contm_constant_set"
+        ],
         "number": "4.3.9.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_complexes",
@@ -2955,9 +3594,13 @@
         "id": "set-theory-constants-integers-reals-rationals-naturalnumbers-complexes-primes-emptyset",
         "href": "https://www.w3.org/TR/mathml4/#set-theory-constants-integers-reals-rationals-naturalnumbers-complexes-primes-emptyset",
         "title": "Set Theory Constants: <integers/>, <reals/>, <rationals/>, <naturalnumbers/>, <complexes/>, <primes/>, <emptyset/>",
+        "alternateIds": [
+          "contm_constant_set"
+        ],
         "number": "4.3.9.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_primes",
@@ -2974,9 +3617,13 @@
         "id": "set-theory-constants-integers-reals-rationals-naturalnumbers-complexes-primes-emptyset",
         "href": "https://www.w3.org/TR/mathml4/#set-theory-constants-integers-reals-rationals-naturalnumbers-complexes-primes-emptyset",
         "title": "Set Theory Constants: <integers/>, <reals/>, <rationals/>, <naturalnumbers/>, <complexes/>, <primes/>, <emptyset/>",
+        "alternateIds": [
+          "contm_constant_set"
+        ],
         "number": "4.3.9.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_emptyset",
@@ -2993,9 +3640,13 @@
         "id": "set-theory-constants-integers-reals-rationals-naturalnumbers-complexes-primes-emptyset",
         "href": "https://www.w3.org/TR/mathml4/#set-theory-constants-integers-reals-rationals-naturalnumbers-complexes-primes-emptyset",
         "title": "Set Theory Constants: <integers/>, <reals/>, <rationals/>, <naturalnumbers/>, <complexes/>, <primes/>, <emptyset/>",
+        "alternateIds": [
+          "contm_constant_set"
+        ],
         "number": "4.3.9.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_forall",
@@ -3012,9 +3663,13 @@
         "id": "quantifiers-forall-exists",
         "href": "https://www.w3.org/TR/mathml4/#quantifiers-forall-exists",
         "title": "Quantifiers: <forall/>, <exists/>",
+        "alternateIds": [
+          "contm_quantifier"
+        ],
         "number": "4.3.10.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_exists",
@@ -3031,9 +3686,13 @@
         "id": "quantifiers-forall-exists",
         "href": "https://www.w3.org/TR/mathml4/#quantifiers-forall-exists",
         "title": "Quantifiers: <forall/>, <exists/>",
+        "alternateIds": [
+          "contm_quantifier"
+        ],
         "number": "4.3.10.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_lambda",
@@ -3050,9 +3709,13 @@
         "id": "lambda-lambda",
         "href": "https://www.w3.org/TR/mathml4/#lambda-lambda",
         "title": "Lambda <lambda>",
+        "alternateIds": [
+          "contm_lambda_sec"
+        ],
         "number": "4.3.10.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_interval_constructor",
@@ -3071,9 +3734,13 @@
         "id": "interval-interval",
         "href": "https://www.w3.org/TR/mathml4/#interval-interval",
         "title": "Interval <interval>",
+        "alternateIds": [
+          "contm_interval_sec"
+        ],
         "number": "4.3.10.3"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_limit",
@@ -3090,9 +3757,13 @@
         "id": "limits-limit",
         "href": "https://www.w3.org/TR/mathml4/#limits-limit",
         "title": "Limits <limit/>",
+        "alternateIds": [
+          "contm_limit_sec"
+        ],
         "number": "4.3.10.4"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_piecewise",
@@ -3109,9 +3780,13 @@
         "id": "piecewise-declaration-piecewise-piece-otherwise",
         "href": "https://www.w3.org/TR/mathml4/#piecewise-declaration-piecewise-piece-otherwise",
         "title": "Piecewise declaration <piecewise>, <piece>, <otherwise>",
+        "alternateIds": [
+          "contm_piecewise_sec"
+        ],
         "number": "4.3.10.5"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_piece",
@@ -3128,9 +3803,13 @@
         "id": "piecewise-declaration-piecewise-piece-otherwise",
         "href": "https://www.w3.org/TR/mathml4/#piecewise-declaration-piecewise-piece-otherwise",
         "title": "Piecewise declaration <piecewise>, <piece>, <otherwise>",
+        "alternateIds": [
+          "contm_piecewise_sec"
+        ],
         "number": "4.3.10.5"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "contm_otherwise",
@@ -3147,9 +3826,13 @@
         "id": "piecewise-declaration-piecewise-piece-otherwise",
         "href": "https://www.w3.org/TR/mathml4/#piecewise-declaration-piecewise-piece-otherwise",
         "title": "Piecewise declaration <piecewise>, <piece>, <otherwise>",
+        "alternateIds": [
+          "contm_piecewise_sec"
+        ],
         "number": "4.3.10.5"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dfn-intent",
@@ -3166,9 +3849,13 @@
         "id": "annotating-mathml-intent",
         "href": "https://www.w3.org/TR/mathml4/#annotating-mathml-intent",
         "title": "Annotating MathML: intent",
+        "alternateIds": [
+          "mixing_intent"
+        ],
         "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "intent_concept-or-literal",
@@ -3185,9 +3872,13 @@
         "id": "the-grammar-for-intent",
         "href": "https://www.w3.org/TR/mathml4/#the-grammar-for-intent",
         "title": "The Grammar for intent",
+        "alternateIds": [
+          "mixing_intent_grammar"
+        ],
         "number": "5.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "intent_concept",
@@ -3204,9 +3895,13 @@
         "id": "the-grammar-for-intent",
         "href": "https://www.w3.org/TR/mathml4/#the-grammar-for-intent",
         "title": "The Grammar for intent",
+        "alternateIds": [
+          "mixing_intent_grammar"
+        ],
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "intent_literal",
@@ -3223,9 +3918,13 @@
         "id": "the-grammar-for-intent",
         "href": "https://www.w3.org/TR/mathml4/#the-grammar-for-intent",
         "title": "The Grammar for intent",
+        "alternateIds": [
+          "mixing_intent_grammar"
+        ],
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "intent_number",
@@ -3244,9 +3943,13 @@
         "id": "the-grammar-for-intent",
         "href": "https://www.w3.org/TR/mathml4/#the-grammar-for-intent",
         "title": "The Grammar for intent",
+        "alternateIds": [
+          "mixing_intent_grammar"
+        ],
         "number": "5.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "intent_reference",
@@ -3263,9 +3966,13 @@
         "id": "the-grammar-for-intent",
         "href": "https://www.w3.org/TR/mathml4/#the-grammar-for-intent",
         "title": "The Grammar for intent",
+        "alternateIds": [
+          "mixing_intent_grammar"
+        ],
         "number": "5.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "intent_application",
@@ -3284,9 +3991,13 @@
         "id": "the-grammar-for-intent",
         "href": "https://www.w3.org/TR/mathml4/#the-grammar-for-intent",
         "title": "The Grammar for intent",
+        "alternateIds": [
+          "mixing_intent_grammar"
+        ],
         "number": "5.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "intent_property",
@@ -3303,9 +4014,36 @@
         "id": "the-grammar-for-intent",
         "href": "https://www.w3.org/TR/mathml4/#the-grammar-for-intent",
         "title": "The Grammar for intent",
+        "alternateIds": [
+          "mixing_intent_grammar"
+        ],
         "number": "5.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "intent_property_list",
+      "href": "https://www.w3.org/TR/mathml4/#intent_property_list",
+      "linkingText": [
+        "self-property-list"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-grammar-for-intent",
+        "href": "https://www.w3.org/TR/mathml4/#the-grammar-for-intent",
+        "title": "The Grammar for intent",
+        "alternateIds": [
+          "mixing_intent_grammar"
+        ],
+        "number": "5.1"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-intent-concept-dictionary",
@@ -3322,9 +4060,13 @@
         "id": "intent-concept-dictionaries",
         "href": "https://www.w3.org/TR/mathml4/#intent-concept-dictionaries",
         "title": "Intent Concept Dictionaries",
+        "alternateIds": [
+          "mixing_intent_dictionaries"
+        ],
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "intent-core",
@@ -3341,9 +4083,13 @@
         "id": "intent-concept-dictionaries",
         "href": "https://www.w3.org/TR/mathml4/#intent-concept-dictionaries",
         "title": "Intent Concept Dictionaries",
+        "alternateIds": [
+          "mixing_intent_dictionaries"
+        ],
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "intent-open",
@@ -3360,15 +4106,19 @@
         "id": "intent-concept-dictionaries",
         "href": "https://www.w3.org/TR/mathml4/#intent-concept-dictionaries",
         "title": "Intent Concept Dictionaries",
+        "alternateIds": [
+          "mixing_intent_dictionaries"
+        ],
         "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "intent-core-properties",
       "href": "https://www.w3.org/TR/mathml4/#intent-core-properties",
       "linkingText": [
-        "Core properties"
+        "Properties list"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -3379,28 +4129,13 @@
         "id": "intent-properties",
         "href": "https://www.w3.org/TR/mathml4/#intent-properties",
         "title": "Intent Properties",
+        "alternateIds": [
+          "mixing_intent_properties"
+        ],
         "number": "5.3"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "intent-open-properties",
-      "href": "https://www.w3.org/TR/mathml4/#intent-open-properties",
-      "linkingText": [
-        "Open properties"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "intent-properties",
-        "href": "https://www.w3.org/TR/mathml4/#intent-properties",
-        "title": "Intent Properties",
-        "number": "5.3"
-      },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "intent_supported_concept",
@@ -3417,9 +4152,13 @@
         "id": "using-intent-concepts-and-properties",
         "href": "https://www.w3.org/TR/mathml4/#using-intent-concepts-and-properties",
         "title": "Using Intent Concepts and Properties",
+        "alternateIds": [
+          "intent_using"
+        ],
         "number": "5.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "intent_unsupported_concept",
@@ -3436,9 +4175,36 @@
         "id": "using-intent-concepts-and-properties",
         "href": "https://www.w3.org/TR/mathml4/#using-intent-concepts-and-properties",
         "title": "Using Intent Concepts and Properties",
+        "alternateIds": [
+          "intent_using"
+        ],
         "number": "5.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-self-properties",
+      "href": "https://www.w3.org/TR/mathml4/#dfn-self-properties",
+      "linkingText": [
+        "self-properties"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "interpretation-of-self-properties",
+        "href": "https://www.w3.org/TR/mathml4/#interpretation-of-self-properties",
+        "title": "Interpretation of self-properties",
+        "alternateIds": [
+          "mixing_intent_self_properties"
+        ],
+        "number": "5.5.3"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rewrite-diff",
@@ -3455,9 +4221,13 @@
         "id": "derivatives",
         "href": "https://www.w3.org/TR/mathml4/#derivatives",
         "title": "Derivatives",
+        "alternateIds": [
+          "contm_p2s_deriv"
+        ],
         "number": "F.2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rewrite-nthdiff",
@@ -3474,9 +4244,13 @@
         "id": "derivatives",
         "href": "https://www.w3.org/TR/mathml4/#derivatives",
         "title": "Derivatives",
+        "alternateIds": [
+          "contm_p2s_deriv"
+        ],
         "number": "F.2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rewrite-partialdiffdegree",
@@ -3493,9 +4267,13 @@
         "id": "derivatives",
         "href": "https://www.w3.org/TR/mathml4/#derivatives",
         "title": "Derivatives",
+        "alternateIds": [
+          "contm_p2s_deriv"
+        ],
         "number": "F.2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rewrite-int",
@@ -3512,9 +4290,13 @@
         "id": "integrals",
         "href": "https://www.w3.org/TR/mathml4/#integrals",
         "title": "Integrals",
+        "alternateIds": [
+          "contm_p2s_int"
+        ],
         "number": "F.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rewrite-defint",
@@ -3531,9 +4313,13 @@
         "id": "integrals",
         "href": "https://www.w3.org/TR/mathml4/#integrals",
         "title": "Integrals",
+        "alternateIds": [
+          "contm_p2s_int"
+        ],
         "number": "F.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rewrite-defint-limits",
@@ -3550,9 +4336,13 @@
         "id": "integrals",
         "href": "https://www.w3.org/TR/mathml4/#integrals",
         "title": "Integrals",
+        "alternateIds": [
+          "contm_p2s_int"
+        ],
         "number": "F.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rewrite-tendsto",
@@ -3569,9 +4359,13 @@
         "id": "limits",
         "href": "https://www.w3.org/TR/mathml4/#limits",
         "title": "Limits",
+        "alternateIds": [
+          "contm_p2s_limit"
+        ],
         "number": "F.2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rewrite-limits-condition",
@@ -3588,9 +4382,13 @@
         "id": "limits",
         "href": "https://www.w3.org/TR/mathml4/#limits",
         "title": "Limits",
+        "alternateIds": [
+          "contm_p2s_limit"
+        ],
         "number": "F.2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rewrite-interval-qualifier",
@@ -3607,9 +4405,13 @@
         "id": "intervals",
         "href": "https://www.w3.org/TR/mathml4/#intervals",
         "title": "Intervals",
+        "alternateIds": [
+          "contm_p2s_intv"
+        ],
         "number": "F.3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rewrite-condition",
@@ -3626,9 +4428,13 @@
         "id": "multiple-conditions",
         "href": "https://www.w3.org/TR/mathml4/#multiple-conditions",
         "title": "Multiple conditions",
+        "alternateIds": [
+          "contm_p2s_conds"
+        ],
         "number": "F.3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rewrite-n-ary-setlist-domainofapplication",
@@ -3645,9 +4451,13 @@
         "id": "sets-and-lists",
         "href": "https://www.w3.org/TR/mathml4/#sets-and-lists",
         "title": "Sets and Lists",
+        "alternateIds": [
+          "contm_p2s_sets"
+        ],
         "number": "F.4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rewrite-lambda",
@@ -3664,9 +4474,13 @@
         "id": "lambda-expressions",
         "href": "https://www.w3.org/TR/mathml4/#lambda-expressions",
         "title": "Lambda expressions",
+        "alternateIds": [
+          "contm_p2s_lambda"
+        ],
         "number": "F.4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rewrite-lambda-domainofapplication",
@@ -3683,9 +4497,13 @@
         "id": "lambda-expressions",
         "href": "https://www.w3.org/TR/mathml4/#lambda-expressions",
         "title": "Lambda expressions",
+        "alternateIds": [
+          "contm_p2s_lambda"
+        ],
         "number": "F.4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rewrite-n-ary-unary-set",
@@ -3702,9 +4520,13 @@
         "id": "n-ary-unary-operators",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-unary-operators",
         "title": "N-ary/unary operators",
+        "alternateIds": [
+          "contm_p2s_minmax"
+        ],
         "number": "F.5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rewrite-n-ary-unary-domainofapplication",
@@ -3721,9 +4543,13 @@
         "id": "n-ary-unary-operators",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-unary-operators",
         "title": "N-ary/unary operators",
+        "alternateIds": [
+          "contm_p2s_minmax"
+        ],
         "number": "F.5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rewrite-n-ary-unary-single",
@@ -3740,9 +4566,13 @@
         "id": "n-ary-unary-operators",
         "href": "https://www.w3.org/TR/mathml4/#n-ary-unary-operators",
         "title": "N-ary/unary operators",
+        "alternateIds": [
+          "contm_p2s_minmax"
+        ],
         "number": "F.5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rewrite-quantifier",
@@ -3759,9 +4589,13 @@
         "id": "quantifiers",
         "href": "https://www.w3.org/TR/mathml4/#quantifiers",
         "title": "Quantifiers",
+        "alternateIds": [
+          "contm_p2s_quant"
+        ],
         "number": "F.5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rewrite-restriction",
@@ -3778,9 +4612,13 @@
         "id": "restricted-function",
         "href": "https://www.w3.org/TR/mathml4/#restricted-function",
         "title": "Restricted function",
+        "alternateIds": [
+          "contm_p2s_restr"
+        ],
         "number": "F.6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rewrite-n-ary-relations",
@@ -3797,9 +4635,13 @@
         "id": "predicate-on-list",
         "href": "https://www.w3.org/TR/mathml4/#predicate-on-list",
         "title": "Predicate on list",
+        "alternateIds": [
+          "contm_p2s_pol"
+        ],
         "number": "F.6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rewrite-n-ary-relations-bvar",
@@ -3816,9 +4658,13 @@
         "id": "predicate-on-list",
         "href": "https://www.w3.org/TR/mathml4/#predicate-on-list",
         "title": "Predicate on list",
+        "alternateIds": [
+          "contm_p2s_pol"
+        ],
         "number": "F.6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rewrite-n-ary-domainofapplication",
@@ -3835,9 +4681,13 @@
         "id": "apply-to-list",
         "href": "https://www.w3.org/TR/mathml4/#apply-to-list",
         "title": "Apply to list",
+        "alternateIds": [
+          "contm_p2s_atl"
+        ],
         "number": "F.6.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rewrite-apply-bvar-domainofapplication",
@@ -3854,9 +4704,13 @@
         "id": "such-that",
         "href": "https://www.w3.org/TR/mathml4/#such-that",
         "title": "Such that",
+        "alternateIds": [
+          "contm_p2s_st"
+        ],
         "number": "F.6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rewrite-cn-sep",
@@ -3873,9 +4727,13 @@
         "id": "numbers-0",
         "href": "https://www.w3.org/TR/mathml4/#numbers-0",
         "title": "Numbers",
+        "alternateIds": [
+          "contm_p2s_cn"
+        ],
         "number": "F.7.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rewrite-cn-based_integer",
@@ -3892,9 +4750,13 @@
         "id": "numbers-0",
         "href": "https://www.w3.org/TR/mathml4/#numbers-0",
         "title": "Numbers",
+        "alternateIds": [
+          "contm_p2s_cn"
+        ],
         "number": "F.7.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rewrite-cn-constant",
@@ -3911,9 +4773,13 @@
         "id": "numbers-0",
         "href": "https://www.w3.org/TR/mathml4/#numbers-0",
         "title": "Numbers",
+        "alternateIds": [
+          "contm_p2s_cn"
+        ],
         "number": "F.7.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rewrite-cn-presentation-mathml",
@@ -3930,9 +4796,13 @@
         "id": "token-presentation",
         "href": "https://www.w3.org/TR/mathml4/#token-presentation",
         "title": "Token presentation",
+        "alternateIds": [
+          "contm_p2s_ci"
+        ],
         "number": "F.7.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rewrite-ci-presentation-mathml",
@@ -3949,9 +4819,13 @@
         "id": "token-presentation",
         "href": "https://www.w3.org/TR/mathml4/#token-presentation",
         "title": "Token presentation",
+        "alternateIds": [
+          "contm_p2s_ci"
+        ],
         "number": "F.7.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rewrite-element",
@@ -3968,9 +4842,13 @@
         "id": "rewrite-operators",
         "href": "https://www.w3.org/TR/mathml4/#rewrite-operators",
         "title": "Rewrite operators",
+        "alternateIds": [
+          "contm_p2s_op"
+        ],
         "number": "F.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rewrite-ci-type-annotation",
@@ -3987,9 +4865,13 @@
         "id": "rewrite-the-type-attribute",
         "href": "https://www.w3.org/TR/mathml4/#rewrite-the-type-attribute",
         "title": "Rewrite the type attribute",
+        "alternateIds": [
+          "contm_p2s_att_type"
+        ],
         "number": "F.9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rewrite-csymbol-type-annotation",
@@ -4006,9 +4888,13 @@
         "id": "rewrite-the-type-attribute",
         "href": "https://www.w3.org/TR/mathml4/#rewrite-the-type-attribute",
         "title": "Rewrite the type attribute",
+        "alternateIds": [
+          "contm_p2s_att_type"
+        ],
         "number": "F.9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rewrite-attributes",
@@ -4025,9 +4911,13 @@
         "id": "rewrite-attributes-0",
         "href": "https://www.w3.org/TR/mathml4/#rewrite-attributes-0",
         "title": "Rewrite attributes",
+        "alternateIds": [
+          "contm_p2s_att_att"
+        ],
         "number": "F.9.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

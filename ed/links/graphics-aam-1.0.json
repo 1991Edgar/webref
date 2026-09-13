@@ -1,12 +1,10 @@
 {
   "spec": {
     "title": "Graphics Accessibility API Mappings",
-    "url": "https://w3c.github.io/graphics-aam/"
+    "url": "https://w3c.github.io/aria/graphics-aam/"
   },
   "links": {
     "rawlinks": {
-      "http://www.rfc-editor.org/rfc/rfc2119.txt": {},
-      "https://datatracker.ietf.org/doc/html/bcp14": {},
       "https://github.com/boggydigital": {},
       "https://github.com/cookiecrook": {},
       "https://github.com/daniel-montalvo": {},
@@ -20,13 +18,12 @@
       "https://infra.spec.whatwg.org/": {},
       "https://lists.w3.org/Archives/Public/public-aria/": {},
       "https://w3c.github.io/aria/": {},
-      "https://w3c.github.io/core-aam/": {
+      "https://w3c.github.io/aria/core-aam/": {
         "anchors": [
           "mapping_general",
           "mapping_conflicts",
           "mapping_nodirect",
-          "roleMappingGeneralRules",
-          "roleMappingComputedRole"
+          "roleMappingGeneralRules"
         ]
       },
       "https://w3c.github.io/graphics-aam": {},
@@ -37,23 +34,27 @@
           "graphics-symbol"
         ]
       },
-      "https://www.rfc-editor.org/rfc/rfc2119": {},
-      "https://www.rfc-editor.org/rfc/rfc8174": {},
+      "https://www.rfc-editor.org/info/bcp14": {},
+      "https://www.rfc-editor.org/info/rfc2119/": {},
+      "https://www.rfc-editor.org/info/rfc8174/": {},
       "https://www.w3.org/Graphics/SVG/WG/": {},
       "https://www.w3.org/TR/": {},
       "https://www.w3.org/TR/2016/WD-graphics-aam-1.0-20160908/": {},
       "https://www.w3.org/TR/SVG/": {},
       "https://www.w3.org/TR/accname-1.1/": {},
       "https://www.w3.org/TR/accname-aam-1.1/": {},
-      "https://www.w3.org/TR/core-aam-1.1/": {},
+      "https://www.w3.org/TR/core-aam-1.1/": {
+        "anchors": [
+          "roleMappingComputedRole"
+        ]
+      },
       "https://www.w3.org/TR/graphics-aria-1.0/": {},
       "https://www.w3.org/TR/html52/": {},
       "https://www.w3.org/TR/svg-aam-1.0/": {},
       "https://www.w3.org/TR/wai-aria-1.1/": {},
-      "https://www.w3.org/TR/wai-aria-practices-1.1/": {},
-      "https://www.w3.org/TR/wai-aria-practices/": {},
       "https://www.w3.org/TR/wai-aria/": {},
       "https://www.w3.org/WAI/ARIA/": {},
+      "https://www.w3.org/WAI/ARIA/apg/": {},
       "https://www.w3.org/WAI/PF/svg-a11y-tf/": {},
       "https://www.w3.org/WAI/intro/aria.php": {},
       "https://www.w3.org/groups/wg/aria": {},
@@ -64,7 +65,7 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://infra.spec.whatwg.org/": {
@@ -72,11 +73,15 @@
           "user-agent"
         ]
       },
+      "https://www.w3.org/TR/wai-aria-1.3/": {
+        "anchors": [
+          "dfn-role"
+        ]
+      },
       "https://www.w3.org/TR/wai-aria/": {
         "anchors": [
           "dfn-accessibility-api",
-          "dfn-assistive-technologies",
-          "dfn-role",
+          "assistive-technology",
           "dfn-state",
           "dfn-property"
         ]

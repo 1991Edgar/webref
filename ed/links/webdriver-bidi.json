@@ -6,10 +6,13 @@
   "links": {
     "rawlinks": {
       "https://console.spec.whatwg.org/": {},
-      "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-cookie-same-site": {},
+      "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-rfc6265bis": {},
       "https://dom.spec.whatwg.org/": {},
       "https://drafts.css-houdini.org/css-paint-api-1/": {},
+      "https://drafts.csswg.org/css-color-adjust-1/": {},
+      "https://drafts.csswg.org/css-overflow-3/": {},
       "https://drafts.csswg.org/css-values-3/": {},
+      "https://drafts.csswg.org/css-viewport/": {},
       "https://drafts.csswg.org/css2/": {},
       "https://drafts.csswg.org/cssom-view-1/": {
         "anchors": [
@@ -17,14 +20,15 @@
         ]
       },
       "https://drafts.csswg.org/cssom-view/": {},
+      "https://drafts.csswg.org/geometry/": {},
       "https://drafts.csswg.org/mediaqueries-5/": {},
       "https://drafts.csswg.org/selectors/": {},
-      "https://drafts.fxtf.org/geometry/": {},
       "https://encoding.spec.whatwg.org/": {},
       "https://fetch.spec.whatwg.org/": {},
       "https://fs.spec.whatwg.org/": {},
       "https://fullscreen.spec.whatwg.org/": {},
       "https://github.com/w3c/webdriver-bidi/issues": {},
+      "https://github.com/w3c/webdriver-bidi/issues/1131": {},
       "https://github.com/w3c/webdriver-bidi/issues/170": {},
       "https://github.com/w3c/webdriver-bidi/issues/508": {},
       "https://html.spec.whatwg.org/multipage/": {},
@@ -35,23 +39,56 @@
       "https://lists.w3.org/Archives/Public/public-browser-tools-testing/": {},
       "https://mimesniff.spec.whatwg.org/": {},
       "https://tc39.es/ecma262/multipage/": {},
+      "https://tc39.es/ecma402/": {},
       "https://url.spec.whatwg.org/": {},
       "https://urlpattern.spec.whatwg.org/": {},
       "https://w3c.github.io/ServiceWorker/": {},
+      "https://w3c.github.io/accname/": {},
+      "https://w3c.github.io/core-aam/": {},
+      "https://w3c.github.io/geolocation/": {},
       "https://w3c.github.io/hr-time/": {},
+      "https://w3c.github.io/mediacapture-screen-share/": {},
       "https://w3c.github.io/resource-timing/": {},
+      "https://w3c.github.io/screen-orientation/": {},
+      "https://w3c.github.io/touch-events/": {},
       "https://w3c.github.io/webdriver/": {},
+      "https://w3c.github.io/webtransport/": {},
       "https://webaudio.github.io/web-audio-api/": {},
-      "https://webbluetoothcg.github.io/web-bluetooth/": {},
+      "https://webbluetoothcg.github.io/web-bluetooth/": {
+        "anchors": [
+          "automated-testing"
+        ]
+      },
       "https://webidl.spec.whatwg.org/": {},
+      "https://websockets.spec.whatwg.org/": {},
+      "https://wicg.github.io/nav-speculation/prefetch.html": {
+        "anchors": [
+          "automated-testing"
+        ]
+      },
+      "https://wicg.github.io/ua-client-hints/": {
+        "anchors": [
+          "automation"
+        ]
+      },
       "https://www.jsonrpc.org/specification": {},
-      "https://www.rfc-editor.org/rfc/rfc4648": {},
-      "https://www.rfc-editor.org/rfc/rfc6455": {},
-      "https://www.rfc-editor.org/rfc/rfc8610": {},
-      "https://www.rfc-editor.org/rfc/rfc9562": {},
+      "https://www.rfc-editor.org/info/rfc4648/": {},
+      "https://www.rfc-editor.org/info/rfc5280/": {},
+      "https://www.rfc-editor.org/info/rfc6455/": {},
+      "https://www.rfc-editor.org/info/rfc8610/": {},
+      "https://www.rfc-editor.org/info/rfc9562/": {},
       "https://www.unicode.org/versions/latest/": {},
       "https://www.w3.org/TR/": {},
-      "https://www.w3.org/TR/permissions/": {},
+      "https://www.w3.org/TR/digital-credentials/": {
+        "anchors": [
+          "automated-testing"
+        ]
+      },
+      "https://www.w3.org/TR/permissions/": {
+        "anchors": [
+          "automation-webdriver-bidi"
+        ]
+      },
       "https://www.w3.org/groups/wg/browser-tools-testing/": {},
       "https://www.w3.org/groups/wg/browser-tools-testing/ipr/": {},
       "https://www.w3.org/policies/patent-policy/": {
@@ -60,7 +97,7 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://console.spec.whatwg.org/": {
@@ -70,9 +107,19 @@
           "printer"
         ]
       },
+      "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-rfc6265bis-20.html": {
+        "anchors": [
+          "cookie-lifetime-limits"
+        ]
+      },
       "https://datatracker.ietf.org/doc/html/rfc4648": {
         "anchors": [
           "section-4"
+        ]
+      },
+      "https://datatracker.ietf.org/doc/html/rfc5280": {
+        "anchors": [
+          "section-6.1.3"
         ]
       },
       "https://datatracker.ietf.org/doc/html/rfc6455": {
@@ -106,9 +153,8 @@
           "dom-xpathresult-snapshotitem",
           "documentfragment",
           "concept-tree-child",
-          "boundary-point-node",
-          "concept-document-origin",
           "concept-node",
+          "concept-document-origin",
           "node",
           "nodelist",
           "htmlcollection",
@@ -118,7 +164,8 @@
           "concept-element-attribute",
           "concept-attribute-qualified-name",
           "concept-attribute-value",
-          "concept-element-shadow-root"
+          "concept-element-shadow-root",
+          "concept-element"
         ]
       },
       "https://drafts.css-houdini.org/css-paint-api-1/": {
@@ -126,9 +173,28 @@
           "paintworkletglobalscope"
         ]
       },
+      "https://drafts.csswg.org/css-color-adjust-1/": {
+        "anchors": [
+          "forced-colors-mode",
+          "enumdef-forcedcolorsmodeautomationtheme",
+          "set-emulated-forced-colors-theme-data"
+        ]
+      },
+      "https://drafts.csswg.org/css-overflow-3/": {
+        "anchors": [
+          "classic-scrollbars",
+          "overlay-scrollbars"
+        ]
+      },
       "https://drafts.csswg.org/css-values-3/": {
         "anchors": [
           "absolute-lengths"
+        ]
+      },
+      "https://drafts.csswg.org/css-viewport/": {
+        "anchors": [
+          "visual-viewport",
+          "layout-viewport"
         ]
       },
       "https://drafts.csswg.org/css2/": {
@@ -145,23 +211,29 @@
       "https://drafts.csswg.org/cssom-view/": {
         "anchors": [
           "web-exposed-screen-area",
-          "visual-viewport",
           "dom-visualviewport-pageleft",
           "dom-visualviewport-pagetop",
           "dom-element-scrollheight",
           "dom-element-scrollwidth",
-          "layout-viewport",
-          "evaluate-media-queries-and-report-changes"
+          "evaluate-media-queries-and-report-changes",
+          "web-exposed-available-screen-area"
+        ]
+      },
+      "https://drafts.csswg.org/geometry-1/": {
+        "anchors": [
+          "domrectreadonly"
         ]
       },
       "https://drafts.csswg.org/mediaqueries-4/": {
         "anchors": [
-          "resolution"
+          "media-type",
+          "resolution",
+          "typedef-mf-name"
         ]
       },
       "https://drafts.csswg.org/mediaqueries-5/": {
         "anchors": [
-          "media-type"
+          "media-feature"
         ]
       },
       "https://drafts.csswg.org/selectors-4/": {
@@ -169,11 +241,6 @@
           "parse-a-selector",
           "match-a-selector-against-a-tree",
           "scoping-root"
-        ]
-      },
-      "https://drafts.fxtf.org/geometry-1/": {
-        "anchors": [
-          "domrectreadonly"
         ]
       },
       "https://drafts.fxtf.org/geometry/": {
@@ -194,16 +261,21 @@
       "https://fetch.spec.whatwg.org/": {
         "anchors": [
           "concept-request",
-          "concept-request-url",
           "concept-response",
-          "concept-response-status",
-          "concept-response-status-message",
           "concept-header-list",
-          "header-value",
-          "concept-response-header-list",
-          "concept-request-window",
-          "concept-request-redirect-count",
+          "concept-body",
           "concept-request-client",
+          "concept-request-body",
+          "concept-body-clone",
+          "concept-response-status",
+          "redirect-status",
+          "response-body-info",
+          "fetch-timing-info-encoded-body-size",
+          "body-fully-read",
+          "concept-request-url",
+          "concept-response-status-message",
+          "concept-response-header-list",
+          "concept-request-redirect-count",
           "fetch-timing-info",
           "fetch-timing-info-final-connection-timing-info",
           "connection-timing-info",
@@ -220,22 +292,20 @@
           "fetch-timing-info-final-network-response-start-time",
           "fetch-timing-info-end-time",
           "concept-header",
+          "header-value",
           "request-initiator-type",
           "concept-request-method",
-          "concept-request-body",
-          "concept-body",
           "concept-body-total-bytes",
           "concept-request-header-list",
           "concept-request-destination",
-          "response-body-info",
           "fetch-timing-info-decoded-body-size",
           "connection-timing-info-alpn-negotiated-protocol",
           "concept-response-url",
           "concept-response-cache-state",
-          "fetch-timing-info-encoded-body-size",
           "concept-network-error",
           "concept-response-body",
-          "byte-sequence-as-a-body"
+          "byte-sequence-as-a-body",
+          "concept-header-list-set"
         ]
       },
       "https://fs.spec.whatwg.org/": {
@@ -286,6 +356,7 @@
           "dom-canvas-height",
           "2d-context-creation-algorithm",
           "concept-canvas-2d",
+          "output-bitmap",
           "a-serialisation-of-the-bitmap-as-a-file"
         ]
       },
@@ -296,18 +367,20 @@
       },
       "https://html.spec.whatwg.org/multipage/document-sequences.html": {
         "anchors": [
-          "top-level-traversable",
+          "navigables",
           "nav-top",
+          "top-level-traversable",
           "node-navigable",
           "nav-window",
-          "navigables",
           "child-navigable",
           "nav-parent",
           "nav-document",
           "close-a-top-level-traversable",
           "system-visibility-state",
           "creating-a-new-top-level-traversable",
+          "nav-container",
           "descendant-navigables",
+          "browsing-context",
           "tn-session-history-traversal-queue",
           "tn-current-session-history-step",
           "nav-bc",
@@ -365,6 +438,7 @@
           "concept-document-window",
           "dom-document-defaultview",
           "window-navigable",
+          "blocking-webtransport",
           "windowproxy",
           "set-up-a-window-environment-settings-object"
         ]
@@ -385,6 +459,7 @@
           "realm-execution-context",
           "concept-script-base-url",
           "queue-a-task",
+          "concept-relevant-realm",
           "concept-settings-object-global",
           "concept-settings-object-time-origin",
           "api-base-url",
@@ -396,7 +471,6 @@
           "concept-settings-object-origin",
           "creating-a-classic-script",
           "concept-environment-execution-ready-flag",
-          "concept-relevant-realm",
           "worker-event-loop-2",
           "responsible-event-loop",
           "environment-settings-object's-realm",
@@ -438,40 +512,46 @@
       "https://infra.spec.whatwg.org/": {
         "anchors": [
           "ordered-map",
-          "list",
-          "ordered-set",
+          "struct",
+          "struct-item",
           "map-exists",
-          "list-contain",
-          "implementation-defined",
+          "ordered-set",
           "set-append",
+          "list-iterate",
+          "list-append",
+          "list",
+          "list-contain",
+          "iteration-continue",
+          "set-intersection",
+          "list-empty",
+          "iteration-break",
+          "implementation-defined",
           "assert",
           "scalar-value-string",
           "parse-a-json-string-to-an-infra-value",
           "serialize-an-infra-value-to-json-bytes",
-          "map-size",
-          "list-iterate",
           "list-remove",
           "map-getting-the-values",
-          "list-empty",
+          "map-remove",
           "map-clear",
-          "list-clone",
           "convert-a-json-derived-javascript-value-to-an-infra-value",
+          "set-union",
+          "set-create",
+          "set-difference",
           "map-sort-in-ascending-order",
-          "list-append",
-          "iteration-break",
+          "list-clone",
+          "set-equal",
+          "map-set",
+          "byte-sequence",
           "forgiving-base64-encode",
           "list-size",
           "list-extend",
-          "iteration-continue",
           "code-point-substring",
           "string-is",
-          "map-set",
-          "map-remove",
-          "struct",
+          "byte-sequence-length",
           "byte-lowercase",
           "byte-case-insensitive",
           "tuple",
-          "byte-sequence",
           "forgiving-base64-decode",
           "code-unit-substring",
           "string-length",
@@ -482,10 +562,8 @@
           "ascii-digit",
           "string-starts-with",
           "map-is-empty",
-          "struct-item",
           "map-clone",
-          "string-concatenate",
-          "set-intersection"
+          "string-concatenate"
         ]
       },
       "https://mimesniff.spec.whatwg.org/": {
@@ -499,11 +577,14 @@
           "sec-code-realms",
           "sec-time-values-and-time-range",
           "sec-undefined-value",
+          "sec-systemtimezoneidentifier",
+          "current-realm",
+          "sec-istimezoneoffsetstring",
+          "sec-availablenamedtimezoneidentifiers",
           "sec-null-value",
           "sec-completion-record-specification-type",
           "sec-iscallable",
           "sec-call",
-          "current-realm",
           "sec-createbuiltinfunction",
           "sec-createarrayfromlist",
           "sec-date-time-string-format",
@@ -536,6 +617,13 @@
           "sec-primitive-value"
         ]
       },
+      "https://tc39.es/ecma402/": {
+        "anchors": [
+          "finite",
+          "integral-number",
+          "sec-isstructurallyvalidlanguagetag"
+        ]
+      },
       "https://url.spec.whatwg.org/": {
         "anchors": [
           "concept-url-serializer",
@@ -558,7 +646,7 @@
       },
       "https://w3c.github.io/hr-time/": {
         "anchors": [
-          "dfn-get-time-origin-timestamp"
+          "get-time-origin-timestamp"
         ]
       },
       "https://w3c.github.io/resource-timing/": {
@@ -568,15 +656,16 @@
       },
       "https://w3c.github.io/webdriver/": {
         "anchors": [
+          "errors",
+          "dfn-error-code",
+          "dfn-invalid-argument",
+          "dfn-try",
           "dfn-local-ends",
           "dfn-remote-ends",
-          "dfn-sessions",
+          "dfn-webdriver-session",
           "dfn-active-sessions",
           "dfn-remote-end-steps",
-          "dfn-error-code",
           "dfn-success",
-          "errors",
-          "dfn-invalid-argument",
           "dfn-session-id",
           "dfn-intermediary-nodes",
           "dfn-endpoint-node",
@@ -586,8 +675,8 @@
           "dfn-getting-properties",
           "dfn-set-a-property",
           "dfn-http-session",
+          "dfn-proxy-configuration",
           "dfn-webdriver-active-flag",
-          "dfn-try",
           "dfn-additional-webdriver-capability",
           "dfn-additional-capability-deserialization-algorithm",
           "dfn-matched-capability-serialization-algorithm",
@@ -596,6 +685,7 @@
           "dfn-capabilities-processing",
           "dfn-create-a-session",
           "dfn-unsupported-operation",
+          "dfn-accept-insecure-tls",
           "dfn-window-handles",
           "dfn-no-such-frame",
           "dfn-unknown-error",
@@ -627,7 +717,13 @@
           "dfn-dispatch-actions",
           "dfn-input-cancel-list",
           "dfn-dispatch-tick-actions",
-          "dfn-reset-the-input-state"
+          "dfn-reset-the-input-state",
+          "dfn-user-prompt-handler"
+        ]
+      },
+      "https://w3c.github.io/webtransport/": {
+        "anchors": [
+          "webtransport-cleanup"
         ]
       },
       "https://webaudio.github.io/web-audio-api/": {
@@ -644,15 +740,20 @@
           "dfn-platform-object"
         ]
       },
+      "https://websockets.spec.whatwg.org/": {
+        "anchors": [
+          "websocket"
+        ]
+      },
+      "https://www.rfc-editor.org/info/rfc8610/": {
+        "anchors": [
+          "appendix-D"
+        ]
+      },
       "https://www.unicode.org/versions/Unicode15.0.0/ch03.pdf": {
         "anchors": [
           "G34078",
           "G34944"
-        ]
-      },
-      "https://www.w3.org/TR/CSS21/intro.html": {
-        "anchors": [
-          "canvas"
         ]
       },
       "https://www.w3.org/TR/accname-1.2/": {
@@ -663,6 +764,33 @@
       "https://www.w3.org/TR/core-aam-1.2/": {
         "anchors": [
           "roleMappingComputedRole"
+        ]
+      },
+      "https://www.w3.org/TR/geolocation/": {
+        "anchors": [
+          "dfn-set-emulated-position-data",
+          "dom-geolocationpositionerror",
+          "dom-geolocationpositionerror-position_unavailable"
+        ]
+      },
+      "https://www.w3.org/TR/screen-capture/": {
+        "anchors": [
+          "dfn-browser",
+          "dfn-display-surface"
+        ]
+      },
+      "https://www.w3.org/TR/screen-orientation": {
+        "anchors": [
+          "dom-screenorientation",
+          "dfn-current-orientation-angle",
+          "dfn-current-orientation-type",
+          "dfn-screen-orientation-values-lists",
+          "dfn-screen-orientation-change-steps"
+        ]
+      },
+      "https://www.w3.org/community/reports/touchevents/CG-FINAL-touch-events-20240704/": {
+        "anchors": [
+          "conditionally-exposing-legacy-touch-event-apis"
         ]
       },
       "https://www.w3.org/policies/patent-policy/": {}

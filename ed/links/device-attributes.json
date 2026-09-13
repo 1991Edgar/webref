@@ -6,11 +6,13 @@
   "links": {
     "rawlinks": {
       "http://www.w3.org/community/": {},
+      "https://datatracker.ietf.org/doc/html/rfc2119": {},
       "https://dom.spec.whatwg.org/": {},
-      "https://heycam.github.io/webidl/": {},
       "https://html.spec.whatwg.org/multipage/": {},
       "https://support.google.com/a/topic/2413312": {},
-      "https://tools.ietf.org/html/rfc2119": {},
+      "https://w3c.github.io/permissions/": {},
+      "https://w3c.github.io/webappsec-permissions-policy/": {},
+      "https://webidl.spec.whatwg.org/": {},
       "https://wicg.github.io/WebApiDevice/managed_config": {},
       "https://www.rfc-editor.org/rfc/rfc7258": {},
       "https://www.w3.org/community/about/agreements/cla/": {},
@@ -20,21 +22,6 @@
       "https://dom.spec.whatwg.org/": {
         "anchors": [
           "eventtarget"
-        ]
-      },
-      "https://heycam.github.io/webidl/": {
-        "anchors": [
-          "SecureContext",
-          "Exposed",
-          "idl-promise",
-          "idl-DOMString",
-          "a-new-promise",
-          "this",
-          "reject",
-          "notallowederror",
-          "idl-DOMException",
-          "idl-undefined",
-          "resolve"
         ]
       },
       "https://html.spec.whatwg.org/multipage/infrastructure.html": {
@@ -47,6 +34,32 @@
           "queue-a-global-task",
           "concept-relevant-global",
           "secure-context"
+        ]
+      },
+      "https://w3c.github.io/permissions/": {
+        "anchors": [
+          "dfn-powerful-feature",
+          "dfn-name"
+        ]
+      },
+      "https://w3c.github.io/webappsec-permissions-policy/": {
+        "anchors": [
+          "policy-controlled-feature"
+        ]
+      },
+      "https://webidl.spec.whatwg.org/": {
+        "anchors": [
+          "SecureContext",
+          "Exposed",
+          "idl-promise",
+          "idl-DOMString",
+          "a-new-promise",
+          "this",
+          "reject",
+          "notallowederror",
+          "idl-DOMException",
+          "idl-undefined",
+          "resolve"
         ]
       }
     }

@@ -1,0 +1,2154 @@
+{
+  "spec": {
+    "title": "CBOR-LD 1.0",
+    "url": "https://www.w3.org/TR/cbor-ld-10/"
+  },
+  "algorithms": [
+    {
+      "html": "Registration requests must be in the form of pull requests raised against the CBOR-LD Registry\nvia a fork of the repository. These requests must include:",
+      "rationale": "reject",
+      "steps": [
+        {
+          "html": "The registry entry ID requested,"
+        },
+        {
+          "html": "The use case for the registry entry,"
+        },
+        {
+          "html": "A <code>.yml</code> file added to the <code>tables</code> directory, with the Registry Entry ID requested as the filename,\nwhich specifies the technical content of the registry entry. If this file does not conform with the\nexpected file format, requests may be rejected without explanation."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a map <code>typeTable</code>, an integer <code>registryEntryId</code>, and a JSON-LD\ndocument <code>jsonldDocument</code> as inputs, and returns a hexadecimal string <code>cborldBytes</code>.",
+      "rationale": "set",
+      "steps": [
+        {
+          "html": "Set <code>prefix</code> to the result of passing <code>registryEntryId</code> to\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#get-cbor-tag-structure-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.6.1 </bdi>Get CBOR Tag Structure Algorithm</a>."
+        },
+        {
+          "html": "Set <code>state</code> to an empty map."
+        },
+        {
+          "html": "If the registry entry associated with <code>registryEntryId</code> requires semantic compression:",
+          "rationale": "set",
+          "steps": [
+            {
+              "html": "Set <code>state.strategy</code> to \"compression\"."
+            },
+            {
+              "html": "Set <code>state.typeTable</code> to <code>typeTable</code>."
+            },
+            {
+              "html": "Set <code>state.registryEntryId</code> to <code>registryEntryId</code>."
+            },
+            {
+              "html": "Set <code>state</code> to the result of passing <code>state</code> to\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#initialize-conversion-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.2.1 </bdi>Initialize Conversion Algorithm</a>."
+            },
+            {
+              "html": "Set <code>output</code> to the result of passing <code>state</code> and <code>jsonldDocument</code>\nas <code>inputDocuments</code> to <a href=\"https://www.w3.org/TR/cbor-ld-10/#convert-document-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.2.2 </bdi>Convert Document Algorithm</a>."
+            },
+            {
+              "html": "Set <code>suffix</code> to the CBOR encoding of <code>output</code>."
+            }
+          ]
+        },
+        {
+          "html": "Otherwise, set <code>suffix</code> to the CBOR encoding of <code>jsonldDocument</code>."
+        },
+        {
+          "html": "Set <code>cborldBytes</code> to a hexidecimal encoding of <code>prefix</code> prepended to <code>suffix</code>."
+        },
+        {
+          "html": "Return <code>cborldBytes</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a CBOR-LD payload <code>cborldBytes</code>, and returns a JSON-LD document <code>jsonldDocument</code>.",
+      "rationale": "set",
+      "steps": [
+        {
+          "html": "Set <code>state</code> to an empty map."
+        },
+        {
+          "html": "Set <code>result</code> to the result of passing <code>cborldBytes</code> to\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#get-registry-entry-id-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.6.2 </bdi>Get Registry Entry ID Algorithm</a>."
+        },
+        {
+          "html": "Set <code>state</code>.<code>registryEntryId</code> to <code>result</code>.<code>registryEntryId</code> and <code>suffix</code> to <code>result</code>.<code>suffix</code>."
+        },
+        {
+          "html": "If the registry entry associated with <code>state</code>.<code>registryEntryId</code> uses semantic compression:",
+          "rationale": "set",
+          "steps": [
+            {
+              "html": "Set <code>state.strategy</code> to \"decompression\"."
+            },
+            {
+              "html": "For each entry <em><code>type</code>: <code>map</code></em> in the <code>typeTables</code> array in the CBOR-LD Varint Registry Entry\nassociated with <code>registryEntryId</code>, add that entry to <code>state</code>.<code>typeTable</code>, and set the value of <code>type</code>\nin <code>state</code>.<code>reverseTypeTable</code> to <code>inverseMap</code>, where <code>inverseMap</code> is <code>map</code> with the mapping inverted."
+            },
+            {
+              "html": "Set <code>state</code> to the result of passing <code>state</code> to\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#initialize-conversion-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.2.1 </bdi>Initialize Conversion Algorithm</a>."
+            },
+            {
+              "html": "Set <code>input</code> to the result of decoding <code>suffix</code> from bytes to a map."
+            },
+            {
+              "html": "Set <code>jsonldDocument</code> to the result of passing <code>state</code> and <code>input</code> as <code>inputDocuments</code>\nto <a href=\"https://www.w3.org/TR/cbor-ld-10/#convert-document-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.2.2 </bdi>Convert Document Algorithm</a>."
+            }
+          ]
+        },
+        {
+          "html": "Otherwise, set <code>jsonldDocument</code> to the result of decoding <code>suffix</code> from bytes to a map."
+        },
+        {
+          "html": "Return <code>jsonldDocument</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes and returns a map <code>state</code>.",
+      "rationale": "set",
+      "steps": [
+        {
+          "html": "Set <code>state</code> to the result of passing <code>state</code> to\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#initialize-context-loader-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.4.1 </bdi>Initialize Context Loader Algorithm</a>."
+        },
+        {
+          "html": "Set <code>state.initialActiveContext</code> to the result of passing empty maps <code>termMap</code> and\n<code>previousActiveContext</code> to <a href=\"https://www.w3.org/TR/cbor-ld-10/#initialize-active-context-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.3.1 </bdi>Initialize Active Context Algorithm</a>."
+        },
+        {
+          "html": "Set <code>state.typesEncodedAsBytes</code> to an empty set."
+        },
+        {
+          "html": "Add \"none\", \"http://www.w3.org/2001/XMLSchema#date\", \"http://www.w3.org/2001/XMLSchema#dateTime\",\nand \"url\" to <code>state.typesEncodedAsBytes</code>."
+        },
+        {
+          "html": "Return <code>state</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a map <code>state</code> and a map or array of\nmaps <code>inputDocuments</code>, and returns a map or\narray of maps <code>outputMaps</code>, respectively.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "If <code>inputDocuments</code> is  an array, set <code>inputs</code> to <code>inputDocuments</code>. Otherwise, set <code>inputs</code>\nto <code>[inputDocuments]</code>."
+        },
+        {
+          "html": "Set <code>outputMaps</code> to an empty array."
+        },
+        {
+          "html": "For <code>input</code> in <code>inputs</code>:",
+          "rationale": "set",
+          "steps": [
+            {
+              "html": "Set <code>output</code> to an empty map."
+            },
+            {
+              "html": "Set <code>result</code> to the result of passing <code>state</code>, <code>input</code>, <code>output</code>, and\n<code>state.initialActiveContext</code> as <code>activeContext</code> to\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#general-conversion-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.2.3 </bdi>General Conversion Algorithm</a>."
+            },
+            {
+              "html": "Add <code>result.output</code> to <code>outputMaps</code>."
+            },
+            {
+              "html": "Set <code>state</code> to <code>result.state</code>."
+            }
+          ]
+        },
+        {
+          "html": "If <code>inputDocuments</code> is an array, return <code>outputMaps</code>. Otherwise, return the\nfirst element of <code>outputMaps</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes maps <code>input</code>, <code>output</code>, <code>state</code>, and <code>activeContext</code>\nas inputs, and returns a map containing maps <code>state</code> and <code>output</code>.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "If <code>state.strategy</code> is set to \"compression\":",
+          "rationale": "set",
+          "steps": [
+            {
+              "html": "Set <code>contextConversionResult</code> to the result of\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#convert-contexts-for-compression-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.2.5.1 </bdi>Convert Contexts for Compression Algorithm</a>, passing\n<code>state</code>, <code>activeContext</code>, <code>input</code>, and <code>output</code>."
+            },
+            {
+              "html": "Set <code>activeContext</code> to <code>contextConversionResult.activeContext</code>, <code>output</code>\nto <code>contextConversionResult.output</code>, and <code>state</code> to <code>contextConversionResult.state</code>."
+            }
+          ]
+        },
+        {
+          "html": "Otherwise, set <code>activeContext</code> to\n<code>result.activeContext</code>, <code>output</code> to <code>result.output</code>, and <code>state</code> to <code>result.state</code> of <code>result</code> resulting from\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#convert-contexts-for-decompression-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.2.6.1 </bdi>Convert Contexts for Decompression Algorithm</a>, passing <code>state</code>,\n<code>activeContext</code>, <code>input</code>, and <code>output</code>."
+        },
+        {
+          "html": "If <code>state.strategy</code> is set to \"compression\", set\n<code>objectTypes</code> to the result of\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#get-object-types-for-compression-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.2.5.4 </bdi>Get Object Types for Compression Algorithm</a>, passing <code>activeContext</code>, and <code>input</code>."
+        },
+        {
+          "html": "Otherwise, set <code>objectTypes</code> to the result of\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#get-object-types-for-decompression-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.2.6.4 </bdi>Get Object Types for Decompression Algorithm</a>,\npassing <code>state</code>, <code>activeContext</code>, and <code>input</code>."
+        },
+        {
+          "html": "Set <code>activeContext</code> to the result of passing <code>activeContext</code> and <code>objectTypes</code> to\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#apply-type-scoped-contexts-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.3.4 </bdi>Apply Type Scoped Contexts Algorithm</a>."
+        },
+        {
+          "html": "If <code>state.strategy</code> is set to \"compression\", set\n<code>termEntries</code> to the result of\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#get-input-entries-for-compression-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.2.5.3 </bdi>Get Input Entries for Compression Algorithm</a>, passing <code>state</code>,\n<code>input</code>, and <code>activeContext</code>."
+        },
+        {
+          "html": "Otherwise, set\n<code>termEntries</code> to the result of\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#get-input-entries-for-decompression-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.2.6.3 </bdi>Get Input Entries for Decompression Algorithm</a>,\npassing <code>state</code>, <code>input</code>, output, and <code>activeContext</code>."
+        },
+        {
+          "html": "For <code>[termInfo, value]</code> in <code>termEntries</code>:",
+          "rationale": "set",
+          "steps": [
+            {
+              "html": "Set <code>term</code> to <code>termInfo.term</code>."
+            },
+            {
+              "html": "Set <code>valueActiveContext</code> to the result of passing <code>activeContext</code> and <code>term</code> to\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#apply-property-scoped-contexts-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.3.3 </bdi>Apply Property Scoped Contexts Algorithm</a>."
+            },
+            {
+              "html": "Set <code>plural</code> to the value of <code>termInfo.plural</code> and <code>termType</code> to the value of <code>@type</code>\nin <code>termInfo.def</code>."
+            },
+            {
+              "html": "If <code>plural</code> is set to <code>true</code>, set <code>values</code> to the value of <code>value</code>. Otherwise, set <code>values</code> to\nan array containing the value of <code>value</code> as a single element."
+            },
+            {
+              "html": "Set <code>outputs</code> to an empty array."
+            },
+            {
+              "html": "For <code>unconvertedValue</code> in <code>values</code>:",
+              "rationale": "set",
+              "steps": [
+                {
+                  "html": "Set <code>result</code> to the result of <a href=\"https://www.w3.org/TR/cbor-ld-10/#convert-value-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.2.4 </bdi>Convert Value Algorithm</a>,\npassing <code>state</code>, <code>termType</code>, <code>unconvertedValue</code> as <code>value</code>, and <code>valueActiveContext</code>\nas <code>activeContext</code>."
+                },
+                {
+                  "html": "Set <code>state</code> to <code>result.state</code> and add <code>result.output</code> to <code>outputs</code>."
+                }
+              ]
+            },
+            {
+              "html": "If <code>plural</code> is set to <code>true</code>, set <code>outputValues</code> to <code>outputs</code>. Otherwise, set <code>outputValues</code>\nto the first element of <code>outputs</code>."
+            },
+            {
+              "html": "If <code>state.strategy</code> is set to \"compression\", set the value of <code>termInfo.termId</code> to map to\n<code>outputValues</code> in <code>output</code>. Otherwise, set the value of <code>termInfo.term</code> to map to <code>outputValues</code>\nin <code>output</code>."
+            }
+          ]
+        },
+        {
+          "html": "Set <code>result</code> to be an empty map."
+        },
+        {
+          "html": "Set <code>result.state</code> to <code>state</code> and <code>result.output</code> to <code>output</code>."
+        },
+        {
+          "html": "Return <code>result</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes maps <code>state</code>, <code>activeContext</code>, <code>termInfo</code>, and values <code>value</code> and <code>termType</code>.\nIt returns a <code>result</code> object containing maps <code>state</code> and <code>output</code>.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "If <code>value</code> is <code>null</code>, return <code>null</code>."
+        },
+        {
+          "html": "If <code>state</code>.<code>strategy</code> is set to \"compression\", set <code>output</code> to the result of passing <code>state</code>, <code>termType</code>,\n<code>termInfo</code>, and <code>value</code> to <a href=\"https://www.w3.org/TR/cbor-ld-10/#convert-value-for-compression-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.2.5.2 </bdi>Convert Value for Compression Algorithm</a>."
+        },
+        {
+          "html": "Otherwise, set <code>output</code> to the result of passing <code>state</code>, <code>termType</code>,\n<code>termInfo</code>, and <code>value</code> to <a href=\"https://www.w3.org/TR/cbor-ld-10/#convert-value-for-decompression-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.2.6.2 </bdi>Convert Value for Decompression Algorithm</a>."
+        },
+        {
+          "html": "If <code>output</code> is defined, return <code>result</code>, a map contatining <code>state</code> and <code>output</code>."
+        },
+        {
+          "html": "If <code>value</code> is an array:",
+          "rationale": "set",
+          "steps": [
+            {
+              "html": "Set <code>outputs</code> to be an empty array."
+            },
+            {
+              "html": "For <code>element</code> of <code>value</code>:",
+              "rationale": "let",
+              "steps": [
+                {
+                  "html": "Let <code>result</code> be the result of <a href=\"https://www.w3.org/TR/cbor-ld-10/#convert-value-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.2.4 </bdi>Convert Value Algorithm</a>, passing <code>activeContext</code>, <code>state</code>,\n<code>termInfo</code>, <code>termType</code>, and <code>element</code> as <code>value</code>. Set <code>state</code> to <code>result</code>.<code>state</code> and add <code>result</code>.<code>output</code>\nto <code>outputs</code>."
+                }
+              ]
+            },
+            {
+              "html": "Set <code>result</code> to be an empty map. Set <code>result</code>.<code>state</code> to <code>state</code> and <code>result</code>.<code>output</code> to <code>outputs</code>."
+            },
+            {
+              "html": "Return <code>result</code>."
+            }
+          ]
+        },
+        {
+          "html": "Set <code>output</code> to an empty map."
+        },
+        {
+          "html": "Set <code>result</code> to the result of <a href=\"https://www.w3.org/TR/cbor-ld-10/#general-conversion-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.2.3 </bdi>General Conversion Algorithm</a>, passing <code>state</code>,\n<code>activeContext</code>, <code>value</code> as <code>input</code>, and <code>output</code>."
+        },
+        {
+          "html": "Return <code>result</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes maps <code>state</code>, <code>activeContext</code>, <code>input</code>, and <code>output</code>,\nand returns a map <code>result</code> containing maps <code>output</code>, <code>state</code>, and <code>activeContext</code>.",
+      "rationale": "set",
+      "steps": [
+        {
+          "html": "Set <code>applyEmbeddedResult</code> to the result of <a href=\"https://www.w3.org/TR/cbor-ld-10/#apply-embedded-contexts-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.3.2 </bdi>Apply Embedded Contexts Algorithm</a>,\npassing <code>state</code>, <code>activeContext</code>, and <code>input</code>."
+        },
+        {
+          "html": "Set <code>activeContext</code> to <code>applyEmbeddedResult.activeContext</code> and <code>state</code> to\n<code>applyEmbeddedResult.state</code>."
+        },
+        {
+          "html": "If \"@context\" does not have an entry in <code>input</code>:",
+          "rationale": "set",
+          "steps": [
+            {
+              "html": "Set <code>result</code> to an empty map."
+            },
+            {
+              "html": "Set <code>result.state</code> to <code>state</code> and <code>result.activeContext</code> to <code>activeContext</code>."
+            },
+            {
+              "html": "Return <code>result</code>."
+            }
+          ]
+        },
+        {
+          "html": "Set <code>context</code> to the value of \"@context\" in <code>input</code>."
+        },
+        {
+          "html": "Set <code>encodedContexts</code> to an empty array."
+        },
+        {
+          "html": "If <code>context</code> is an array, set <code>isArray</code> to <code>true</code> and <code>contexts</code> to <code>context</code>.\nOtherwise, set <code>isArray</code> to <code>false</code> and <code>contexts</code> to <code>[context]</code>."
+        },
+        {
+          "html": "For <code>contextValue</code> in <code>contexts</code>:",
+          "rationale": "set",
+          "steps": [
+            {
+              "html": "Set <code>encoderData</code> to the result of <a href=\"https://www.w3.org/TR/cbor-ld-10/#create-context-encoder\" class=\"sec-ref\"><bdi class=\"secno\">6.5.1.1 </bdi>Create Context Encoder</a>, passing\n<code>state.typeTable</code> and <code>contextValue</code>."
+            },
+            {
+              "html": "If <code>encoderData</code> is an empty map, add <code>contextValue</code> to <code>encodedContexts</code>."
+            },
+            {
+              "html": "Otherwise, add the value of <code>encoderData</code> to <code>encodedContexts</code>."
+            }
+          ]
+        },
+        {
+          "html": "If <code>isArray</code> is <code>true</code>, set <code>id</code> to the value of \"@context\" in <code>state.keywordsMap</code> plus 1\nand set the value of <code>id</code> in <code>output</code> to <code>encodedContexts</code>."
+        },
+        {
+          "html": "Otherwise, set <code>id</code> to the value of \"@context\" in <code>state.keywordsMap</code> and set the value of\n<code>id</code> in <code>output</code> to the first element of <code>encodedContexts</code>."
+        },
+        {
+          "html": "Set <code>result.output</code> to <code>output</code>, <code>result.state</code> to <code>state</code>, and <code>result.activeContext</code>\nto <code>activeContext</code>."
+        },
+        {
+          "html": "Return <code>result</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes maps <code>state</code> and <code>termInfo</code>, and values <code>valueToEncode</code> and <code>termType</code>,\nand returns a map <code>encoderData</code>.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "If <code>valueToEncode</code> is an object, return."
+        },
+        {
+          "html": "Otherwise, set <code>result</code> to the result of <a href=\"https://www.w3.org/TR/cbor-ld-10/#create-value-encoder\" class=\"sec-ref\"><bdi class=\"secno\">6.5.2.1 </bdi>Create Value Encoder</a>, passing\n<code>state</code>, <code>termInfo</code>, <code>valueToToEncode</code>, and <code>termType</code>."
+        },
+        {
+          "html": "Return <code>result</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes maps <code>state</code>, <code>activeContext</code>, and <code>input</code>, and returns an array <code>entries</code>.",
+      "rationale": "initialize",
+      "steps": [
+        {
+          "html": "Initialize <code>entries</code> as an empty array."
+        },
+        {
+          "html": "Set an array <code>keys</code> to the keys of <code>input</code>, sorted lexicographically."
+        },
+        {
+          "html": "For <code>key</code> in <code>keys</code>:",
+          "rationale": "if",
+          "steps": [
+            {
+              "html": "If <code>key</code> is \"@context\", continue."
+            },
+            {
+              "html": "Set <code>value</code> to the value of <code>key</code> in <code>input</code>."
+            },
+            {
+              "html": "If <code>value</code> is an array, set <code>plural</code> to <code>true</code>. Otherwise, set <code>plural</code> to <code>false</code>."
+            },
+            {
+              "html": "If <code>key</code> does not have an entry in <code>state</code>.<code>termToId</code>, set <code>termId</code> to <code>key</code>."
+            },
+            {
+              "html": "Otherwise, if <code>plural</code> is <code>true</code>, set <code>termId</code> to the value of <code>key</code> in <code>state</code>.<code>termToId</code> plus 1."
+            },
+            {
+              "html": "Otherwise, set <code>termId</code> to the value of <code>key</code> in <code>state</code>.<code>termToId</code>."
+            },
+            {
+              "html": "If <code>activeContext</code>.<code>termMap</code> has an entry for <code>key</code>, set <code>definition</code> to the value of <code>key</code> in\n<code>activeContext</code>.<code>termMap</code>. Otherwise, set <code>definition</code> to an empty map."
+            },
+            {
+              "html": "Set <code>entryTerm</code> to be a new map."
+            },
+            {
+              "html": "Set the value of \"term\" in <code>entryTerm</code> to be the value of <code>key</code>. Set the value of \"def\" in <code>entryTerm</code> to be the value of <code>definition</code>. Add <code>termId</code>, and <code>plural</code>\nto <code>entryTerm</code>."
+            },
+            {
+              "html": "Create an array <code>entry</code> with two elements, <code>entryTerm</code> and <code>value</code>."
+            },
+            {
+              "html": "Add <code>entry</code> to <code>entries</code>."
+            }
+          ]
+        },
+        {
+          "html": "Return <code>entries</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes maps <code>activeContext</code> and <code>input</code>, and returns a set\n<code>objectTypes</code>.",
+      "rationale": "set",
+      "steps": [
+        {
+          "html": "Set <code>objectTypes</code> to be an empty set."
+        },
+        {
+          "html": "For <code>term</code> in <code>activeContext</code>.<code>typeTerms</code>:",
+          "rationale": "if",
+          "steps": [
+            {
+              "html": "If <code>term</code> has an entry in <code>input</code>:",
+              "rationale": "set",
+              "steps": [
+                {
+                  "html": "Set <code>types</code> to the value of <code>term</code> in <code>input</code>."
+                },
+                {
+                  "html": "Add each value in <code>types</code> to <code>objectTypes</code>."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "html": "Return <code>objectTypes</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes maps <code>state</code>, <code>activeContext</code>, <code>input</code>, and <code>output</code>, and returns a map\n<code>result</code> containing maps <code>output</code>, <code>state</code>, and <code>activeContext</code>.",
+      "rationale": "set",
+      "steps": [
+        {
+          "html": "Set <code>decoderData</code> to the result of <a href=\"https://www.w3.org/TR/cbor-ld-10/#create-context-decoder\" class=\"sec-ref\"><bdi class=\"secno\">6.5.1.3 </bdi>Create Context Decoder</a>, passing <code>state</code>.<code>reverseTypeTable</code>."
+        },
+        {
+          "html": "Set <code>contextTermId</code> to the value of \"@context\" in <code>state</code>.<code>keywordsMap</code>."
+        },
+        {
+          "html": "If <code>contextTermId</code> has an entry in <code>input</code>, set the value of\n\"@context\" in <code>output</code> to the result of <a href=\"https://www.w3.org/TR/cbor-ld-10/#decode-context\" class=\"sec-ref\"><bdi class=\"secno\">6.5.1.4 </bdi>Decode Context</a>, passing <code>decoderData</code> and\nthe value of <code>contextTermId</code> in <code>input</code> as <code>value</code>."
+        },
+        {
+          "html": "Set <code>contextTermIdPlural</code> to the value of <code>contextTermId</code> plus 1."
+        },
+        {
+          "html": "If <code>contextTermIdPlural</code> has an entry in <code>input</code>:",
+          "rationale": "if",
+          "steps": [
+            {
+              "html": "If <code>contextTermId</code> also had an entry in <code>input</code> during the previous check, throw an\n<code>ERR_INVALID_ENCODED_CONTEXT</code> error."
+            },
+            {
+              "html": "Set <code>encodedContexts</code> to be the value of <code>contextTermIdPlural</code> in <code>input</code>. If <code>encodedContexts</code> is\nnot an array, throw an <code>ERR_INVALID_ENCODED_CONTEXT</code> error."
+            },
+            {
+              "html": "Set <code>contexts</code> to be an empty array."
+            },
+            {
+              "html": "For each <code>valueToDecode</code> in <code>encodedContexts</code>, add the result of passing <code>decoderData</code> and <code>valueToDecode</code>\nas <code>value</code> to <a href=\"https://www.w3.org/TR/cbor-ld-10/#decode-context\" class=\"sec-ref\"><bdi class=\"secno\">6.5.1.4 </bdi>Decode Context</a> to <code>contexts</code>."
+            },
+            {
+              "html": "Set the value of \"@context\" in <code>output</code> to <code>contexts</code>."
+            }
+          ]
+        },
+        {
+          "html": "Set <code>embeddedContextResult</code> to the result of <a href=\"https://www.w3.org/TR/cbor-ld-10/#apply-embedded-contexts-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.3.2 </bdi>Apply Embedded Contexts Algorithm</a>, passing\n<code>activeContext</code>, <code>output</code> as <code>input</code>, and <code>state</code>."
+        },
+        {
+          "html": "Set <code>result</code> to <code>embeddedContextResult</code> and <code>result.output</code> to <code>output</code>. Return <code>result</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes maps <code>state</code> and <code>termInfo</code>, and values <code>termType</code> and <code>valueToDecode</code>, and returns a value\n<code>decodedValue</code>.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "If <code>value</code> is a map, return."
+        },
+        {
+          "html": "Set <code>decoderData</code> to the result of <a href=\"https://www.w3.org/TR/cbor-ld-10/#create-value-decoder\" class=\"sec-ref\"><bdi class=\"secno\">6.5.2.3 </bdi>Create Value Decoder</a>, passing <code>valueToDecode</code>,\n<code>state</code>, <code>termInfo</code>, and <code>termType</code>."
+        },
+        {
+          "html": "Set <code>decodedValue</code> to the result of <a href=\"https://www.w3.org/TR/cbor-ld-10/#decode-value\" class=\"sec-ref\"><bdi class=\"secno\">6.5.2.4 </bdi>Decode Value</a>, passing <code>decoderData</code>."
+        },
+        {
+          "html": "Return <code>decodedValue</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes maps <code>state</code>, <code>activeContext</code>, and <code>input</code>, and returns an array\n<code>entries</code>.",
+      "rationale": "initialize",
+      "steps": [
+        {
+          "html": "Initialize <code>entries</code> to an empty array."
+        },
+        {
+          "html": "For key-value pair <code>key</code> and <code>value</code> in <code>input</code>:",
+          "rationale": "if",
+          "steps": [
+            {
+              "html": "If <code>key</code> is the value of \"@context\" in <code>state</code>.<code>keywordsMap</code> or that value plus 1, continue."
+            },
+            {
+              "html": "Otherwise, if <code>key</code> is a string, set <code>plural</code> to false and <code>term</code> to <code>key</code>."
+            },
+            {
+              "html": "Otherwise:",
+              "rationale": "if",
+              "steps": [
+                {
+                  "html": "If <code>key</code> is odd, set <code>plural</code> to true. Otherwise, set <code>plural</code> to false."
+                },
+                {
+                  "html": "If <code>plural</code> is <code>true</code>, set <code>term</code> to the value of <code>key</code> minus 1 in <code>state</code>.<code>idToTerm</code>.\nIf that value does not have an entry, throw an error <code>ERR_UNKNOWN_CBORLD_TERM_ID</code>."
+                },
+                {
+                  "html": "Otherwise, set <code>term</code> to the value of <code>key</code> in <code>state</code>.<code>idToTerm</code>. If that value does not have\nan entry, throw an error <code>ERR_UNKNOWN_CBORLD_TERM_ID</code>."
+                }
+              ]
+            },
+            {
+              "html": "Set <code>definition</code> to the value of <code>term</code> in <code>activeContext</code>.<code>termMap</code>."
+            },
+            {
+              "html": "Set <code>entryTerm</code> to be a new map."
+            },
+            {
+              "html": "Set the value of \"termId\" in <code>entryTerm</code> to be the value of <code>key</code>. Set the value of \"def\" in <code>entryTerm</code> to be the value of <code>definition</code>. Add <code>term</code>, and <code>plural</code>\nto <code>entryTerm</code>."
+            },
+            {
+              "html": "Create an array <code>entry</code> with two elements, <code>entryTerm</code> and <code>value</code>."
+            },
+            {
+              "html": "Add <code>entry</code> to <code>entries</code>."
+            }
+          ]
+        },
+        {
+          "html": "Sort <code>entries</code> by the value of <code>term</code> in each element of <code>entries</code>."
+        },
+        {
+          "html": "Return <code>entries</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes maps <code>state</code>, <code>activeContext</code>, <code>input</code> as inputs, and\nreturns a set <code>objectTypes</code>.",
+      "rationale": "set",
+      "steps": [
+        {
+          "html": "Set <code>objectTypes</code> to be an empty set."
+        },
+        {
+          "html": "For <code>term</code> in <code>activeContext</code>.<code>typeTerms</code>:",
+          "rationale": "if",
+          "steps": [
+            {
+              "html": "If <code>term</code> does not have an entry in <code>state</code>.<code>termToId</code>, set <code>termId</code> to <code>term</code>."
+            },
+            {
+              "html": "Otherwise, set <code>termId</code> to the value of <code>term</code> in <code>state</code>.<code>termToId</code>."
+            },
+            {
+              "html": "If neither <code>termId</code> nor <code>termId</code> plus 1 are present in <code>input</code>, continue."
+            },
+            {
+              "html": "Otherwise, if <code>termId</code> is present in <code>input</code>, set <code>value</code> to the value of <code>termId</code> in <code>input</code>."
+            },
+            {
+              "html": "Otherwise, set <code>value</code> to the value of <code>termId</code> plus 1 in <code>input</code>."
+            },
+            {
+              "html": "If <code>key</code> is a string, set <code>plural</code> to false and <code>term</code> to <code>key</code>."
+            },
+            {
+              "html": "Otherwise:",
+              "rationale": "if",
+              "steps": [
+                {
+                  "html": "If <code>key</code> is odd, set <code>plural</code> to true. Otherwise, set <code>plural</code> to false."
+                },
+                {
+                  "html": "If <code>plural</code> is <code>true</code>, set <code>term</code> to the value of <code>id</code> minus 1 in <code>state</code>.<code>idToTerm</code>.\nIf that value does not have an entry, throw an error <code>ERR_UNKNOWN_CBORLD_TERM_ID</code>."
+                },
+                {
+                  "html": "Otherwise, set <code>term</code> to the value of <code>id</code> in <code>state</code>.<code>idToTerm</code>. If that value does not have\nan entry, throw an error <code>ERR_UNKNOWN_CBORLD_TERM_ID</code>."
+                }
+              ]
+            },
+            {
+              "html": "Set <code>definition</code> to the value of <code>term</code> in <code>activeContext</code>.<code>termMap</code>."
+            },
+            {
+              "html": "Set <code>termInfo</code> to be a new map."
+            },
+            {
+              "html": "Set the value of \"def\" in <code>entryTerm</code> to be the value of <code>definition</code>. Add <code>term</code>, <code>termId</code>, and <code>plural</code> to <code>termInfo</code>."
+            },
+            {
+              "html": "If <code>value</code> is not an array, set <code>values</code> to be an array containing as a single element <code>value</code>.\nOtherwise, set <code>values</code> to the value of <code>value</code>."
+            },
+            {
+              "html": "For each <code>value</code> in <code>values</code>:",
+              "rationale": "set",
+              "steps": [
+                {
+                  "html": "Set <code>decoderData</code> to the result of <a href=\"https://www.w3.org/TR/cbor-ld-10/#create-value-decoder\" class=\"sec-ref\"><bdi class=\"secno\">6.5.2.3 </bdi>Create Value Decoder</a>, passing <code>value</code>,\n<code>termInfo</code>, <code>state</code>, and \"@vocab\" as <code>termType</code>."
+                },
+                {
+                  "html": "If <code>decoderData</code> exists, add the result of <a href=\"https://www.w3.org/TR/cbor-ld-10/#decode-value\" class=\"sec-ref\"><bdi class=\"secno\">6.5.2.4 </bdi>Decode Value</a>, passing <code>decoderData</code>, to `objectTypes."
+                },
+                {
+                  "html": "Otherwise, add <code>value</code> to <code>objectTypes</code>."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "html": "Return <code>objectTypes</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes maps <code>previousActiveContext</code> and <code>termMap</code>,\nand returns a map <code>activeContext</code>. It updates the active context\nin use and finds all aliases for <code>'@type'</code>.",
+      "rationale": "set",
+      "steps": [
+        {
+          "html": "Set <code>activeContext</code> to a new map."
+        },
+        {
+          "html": "Set <code>activeContext.previousActiveContext</code> to <code>previousActiveContext</code>."
+        },
+        {
+          "html": "Set <code>activeContext.termMap</code> to <code>termMap</code>."
+        },
+        {
+          "html": "Set <code>activeContext.typeTerms</code> to the array <code>['@type']</code>."
+        },
+        {
+          "html": "For <code>[term, def]</code> in <code>termMap</code>:",
+          "rationale": "if",
+          "steps": [
+            {
+              "html": "If the value of \"@id\" in <code>def</code> is \"@type\", add <code>term</code> to <code>activeContext.typeTerms</code>."
+            }
+          ]
+        },
+        {
+          "html": "Return <code>activeContext</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes maps <code>state</code>, <code>activeContext</code>, and <code>input</code> as inputs, and\nreturns a map <code>result</code> containing maps <code>state</code> and <code>activeContext</code>.",
+      "rationale": "set",
+      "steps": [
+        {
+          "html": "Set <code>termMapUpdateResult</code> to the result of passing <code>state</code>, <code>activeContext.termMap</code> as\n<code>activeTermMap</code>, and the value of '@context' in <code>input</code> as <code>contexts</code> to\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#update-term-map-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.3.5 </bdi>Update Term Map Algorithm</a>."
+        },
+        {
+          "html": "Set <code>state</code> to <code>termMapUpdateResult.state</code>."
+        },
+        {
+          "html": "Set <code>termMap</code> to <code>termMapUpdateResult.activeTermMap</code>."
+        },
+        {
+          "html": "Set <code>newActiveContext</code> to the result of <a href=\"https://www.w3.org/TR/cbor-ld-10/#initialize-active-context-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.3.1 </bdi>Initialize Active Context Algorithm</a>,\npassing <code>termMap</code> and <code>activeContext</code> as <code>previousActiveContext</code>."
+        },
+        {
+          "html": "Set <code>result</code> to be a new map, and set <code>result.activeContext</code> to <code>newActiveContext</code> and\n<code>result.state</code> to <code>state</code>."
+        },
+        {
+          "html": "Return <code>result</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes maps <code>state</code>, <code>activeContext</code>, and a string <code>term</code> as inputs and\nreturns a map <code>result</code> containing maps <code>state</code> and <code>activeContext</code>.",
+      "rationale": "set",
+      "steps": [
+        {
+          "html": "Set <code>revertedTermMap</code> to the result of <a href=\"https://www.w3.org/TR/cbor-ld-10/#revert-term-map-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.3.6 </bdi>Revert Term Map Algorithm</a>,\npassing <code>activeContext</code>."
+        },
+        {
+          "html": "Set <code>termDef</code> to the value of <code>term</code> in <code>activeContext.termMap</code>. Set <code>contexts</code> to the value of\n\"@context\" in <code>termDef</code>."
+        },
+        {
+          "html": "Set <code>termMapUpdateResult</code> to the result of passing <code>state</code>, <code>revertedTermMap</code> as\n<code>activeTermMap</code>, <code>true</code> as <code>propertyScope</code>, and <code>contexts</code> to\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#update-term-map-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.3.5 </bdi>Update Term Map Algorithm</a>."
+        },
+        {
+          "html": "Set <code>state</code> to <code>termMapUpdateResult.state</code>."
+        },
+        {
+          "html": "Set <code>termMap</code> to <code>termMapUpdateResult.activeTermMap</code>."
+        },
+        {
+          "html": "Set <code>newActiveContext</code> to the result of <a href=\"https://www.w3.org/TR/cbor-ld-10/#initialize-active-context-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.3.1 </bdi>Initialize Active Context Algorithm</a>,\npassing <code>termMap</code> and <code>activeContext</code> as <code>previousActiveContext</code>."
+        },
+        {
+          "html": "Set <code>result</code> to be a new map, and set <code>result.activeContext</code> to <code>newActiveContext</code> and\n<code>result.state</code> to <code>state</code>."
+        },
+        {
+          "html": "Return <code>result</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes maps <code>state</code>, <code>activeContext</code> ,and a set <code>objectTypes</code> as inputs, and\nreturns a map <code>result</code> containing maps <code>state</code> and <code>activeContext</code>.",
+      "rationale": "set",
+      "steps": [
+        {
+          "html": "Set <code>objectTypesSorted</code> to an empty array."
+        },
+        {
+          "html": "Lexicographically sort the elements of <code>objectTypes</code> and add the elements to\n<code>objectTypesSorted</code> in order."
+        },
+        {
+          "html": "Set <code>newTermMap</code> to <code>activeContext.termMap</code>."
+        },
+        {
+          "html": "For <code>type</code> in <code>objectTypesSorted</code>:",
+          "rationale": "set",
+          "steps": [
+            {
+              "html": "Set <code>typeDef</code> to the value of <code>type</code> in <code>newTermMap</code>. Set <code>contexts</code> to the value of\n\"@context\" in <code>typeDef</code>."
+            },
+            {
+              "html": "Set <code>termMapUpdateResult</code> to the result of passing <code>state</code>, <code>newTermMap</code> as\n<code>activeTermMap</code>, <code>contexts</code>, and <code>true</code> as <code>typeScope</code> to\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#update-term-map-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.3.5 </bdi>Update Term Map Algorithm</a>."
+            },
+            {
+              "html": "Set <code>state</code> to <code>termMapUpdateResult.state</code> and <code>newTermMap</code> to\n<code>termMapUpdateResult.activeTermMap</code>."
+            }
+          ]
+        },
+        {
+          "html": "Set <code>newActiveContext</code> to the result of <a href=\"https://www.w3.org/TR/cbor-ld-10/#initialize-active-context-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.3.1 </bdi>Initialize Active Context Algorithm</a>,\npassing <code>newTermMap</code> as <code>termMap</code> and <code>activeContext</code> as <code>previousActiveContext</code>."
+        },
+        {
+          "html": "Set <code>result</code> to be a new map, and set <code>result.activeContext</code> to <code>newActiveContext</code> and\n<code>result.state</code> to <code>state</code>."
+        },
+        {
+          "html": "Return <code>result</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes maps <code>state</code>, <code>activeTermMap</code>, and value <code>contexts</code> as well as booleans <code>typeScope</code>\nand <code>propertyScope</code>, both of which default to <code>false</code> if not provided, as inputs. It returns maps <code>state</code>\nand <code>activeTermMap</code>.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "If <code>contexts</code> is not an array, set <code>contexts</code> to be an array with the previous value of <code>contexts</code>\nas its sole element."
+        },
+        {
+          "html": "Set <code>allowProtectedOverride</code> to the value of <code>propertyScope</code>."
+        },
+        {
+          "html": "Set <code>propagateDefault</code> to the negation of the value of <code>typeScope</code>."
+        },
+        {
+          "html": "For <code>contextIdentifier</code> in <code>contexts</code>:",
+          "rationale": "set",
+          "steps": [
+            {
+              "html": "Set <code>loadResult</code> to the result of <a href=\"https://www.w3.org/TR/cbor-ld-10/#load-context-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.4.2 </bdi>Load Context Algorithm</a>, passing <code>state</code> and\n<code>contextIdentifier</code>."
+            },
+            {
+              "html": "Set <code>entry</code> to <code>loadResult</code>.<code>entry</code>, <code>context</code> to <code>entry</code>.<code>context</code>, and <code>state</code> to <code>loadResult</code>.<code>state</code>."
+            },
+            {
+              "html": "If <code>@propagate</code> appears in <code>context</code>, set <code>propagate</code> to the value of <code>@propagate</code> in <code>context</code>.\nOtherwise, set <code>propagate</code> to the value of <code>propagateDefault</code>."
+            },
+            {
+              "html": "Set <code>newTermMap</code> to be an empty map. For [<code>key</code>, <code>value</code>] in <code>entry</code>.<code>termMap</code>:",
+              "rationale": "set",
+              "steps": [
+                {
+                  "html": "Shallow copy the contents of <code>value</code> into a new map <code>newValue</code> and add <code>propagate</code>\nto <code>newValue</code>."
+                },
+                {
+                  "html": "Set the value of <code>key</code> in <code>newTermMap</code> to <code>newValue</code>."
+                }
+              ]
+            },
+            {
+              "html": "For [<code>term</code>, <code>activeDef</code>] in <code>activeTermMap</code>:",
+              "rationale": "let",
+              "steps": [
+                {
+                  "html": "Let <code>def</code> be the value of <code>term</code> in <code>newTermMap</code>."
+                },
+                {
+                  "html": "If <code>def</code> is defined:",
+                  "rationale": "if",
+                  "steps": [
+                    {
+                      "html": "If the value of <code>protected</code> in <code>activeDef</code> is <code>true</code>:",
+                      "rationale": "if",
+                      "steps": [
+                        {
+                          "html": "If <code>allowProtectedOverride</code> is set to <code>false</code> and <code>def</code> is not identical to <code>activeDef</code>,\nthrow an error <code>ERR_PROTECTED_TERM_REDEFINITION</code>."
+                        },
+                        {
+                          "html": "Otherwise, set the value of <code>term</code> in <code>newTermMap</code> to a map containing the values from <code>activeDef</code>\nand <code>propagate</code> set to the value of <code>def</code>.<code>propagate</code>."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "html": "Otherwise, if <code>term</code> appears in <code>context</code>, set the value of <code>term</code> in <code>newTermMap</code> to\na map containing all values from <code>activeDef</code>."
+                }
+              ]
+            },
+            {
+              "html": "Set the value of <code>activeTermMap</code> to the value of <code>newTermMap</code>."
+            }
+          ]
+        },
+        {
+          "html": "Set <code>result</code> to be an empty map."
+        },
+        {
+          "html": "Set <code>result</code>.<code>state</code> to <code>state</code> and <code>result</code>.<code>activeTermMap</code> to <code>activeTermMap</code>."
+        },
+        {
+          "html": "Return <code>result</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes as input a map <code>activeContext</code>, and returns a map\n<code>newTermMap</code>.",
+      "rationale": "set",
+      "steps": [
+        {
+          "html": "Set <code>newTermMap</code> to an empty map."
+        },
+        {
+          "html": "Set <code>nonPropagatingTerms</code> to an empty array."
+        },
+        {
+          "html": "For <code>[term, def]</code> in <code>activeContext</code>:",
+          "rationale": "if",
+          "steps": [
+            {
+              "html": "If <code>def.propagate</code> is set to <code>false</code>, add <code>term</code> to <code>nonPropagatingTerms</code>\nand proceed to the next iteration of this loop."
+            },
+            {
+              "html": "Otherwise, set the value of <code>term</code> in <code>newTermMap</code> to <code>def</code>."
+            }
+          ]
+        },
+        {
+          "html": "For <code>term</code> in <code>nonPropagatingTerms</code>:",
+          "rationale": "set",
+          "steps": [
+            {
+              "html": "Set <code>currentContext</code> to <code>activeContext.previousActiveContext</code>."
+            },
+            {
+              "html": "Set <code>def</code> to the value of <code>term</code> in <code>currentContext.termMap</code>."
+            },
+            {
+              "html": "While <code>def</code> is not undefined and <code>def.propagate</code> is set to <code>false</code>:",
+              "rationale": "set",
+              "steps": [
+                {
+                  "html": "Set <code>currentContext</code> to <code>activeContext.previousActiveContext</code>."
+                },
+                {
+                  "html": "Set <code>def</code> to the value of <code>term</code> in <code>currentContext.termMap</code>."
+                }
+              ]
+            },
+            {
+              "html": "If <code>def</code> is not undefined, set the value of <code>term</code> in <code>newTermMap</code> to <code>def</code>."
+            }
+          ]
+        },
+        {
+          "html": "Return <code>newTermMap</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes and returns a map <code>state</code>.",
+      "rationale": "set",
+      "steps": [
+        {
+          "html": "Set <code>state.contextMap</code> to a new map."
+        },
+        {
+          "html": "Set <code>state.nextTermId</code> to 100."
+        },
+        {
+          "html": "Set <code>state.keywordsMap</code> to the following map of JSON-LD keywords to their associated\ninteger values:\n            <pre class=\"nohighlight\">{\n  '@context' =&gt; 0,\n  '@type' =&gt; 2,\n  '@id' =&gt; 4,\n  '@value' =&gt; 6,\n  '@direction' =&gt; 8,\n  '@graph' =&gt; 10,\n  '@included' =&gt; 12,\n  '@index' =&gt; 14,\n  '@json' =&gt; 16,\n  '@language' =&gt; 18,\n  '@list' =&gt; 20,\n  '@nest' =&gt; 22,\n  '@reverse' =&gt; 24,\n  '@base' =&gt; 26,\n  '@container' =&gt; 28,\n  '@default' =&gt; 30,\n  '@embed' =&gt; 32,\n  '@explicit' =&gt; 34,\n  '@none' =&gt; 36,\n  '@omitDefault' =&gt; 38,\n  '@prefix' =&gt; 40,\n  '@preserve' =&gt; 42,\n  '@protected' =&gt; 44,\n  '@requireAll' =&gt; 46,\n  '@set' =&gt; 48,\n  '@version' =&gt; 50,\n  '@vocab' =&gt; 52,\n  '@propagate' =&gt; 54\n}</pre>"
+        },
+        {
+          "html": "Add each entry in <code>state.keywordsMap</code> to <code>state.termToId</code>."
+        },
+        {
+          "html": "If <code>state.strategy</code> is set to \"decompression\", set <code>state.idToTerm</code> to the reverse map\nof <code>state.termToId</code> (i.e., a map from integers to JSON-LD keywords)."
+        },
+        {
+          "html": "Return <code>state</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a map <code>state</code> and a context map or URL <code>contextIdentifier</code>, and returns\n<code>result</code>, a map containing maps <code>state</code> and <code>entry</code>.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "If <code>state.contextMap</code> has an entry for <code>contextIdentifier</code>:",
+          "rationale": "initialize",
+          "steps": [
+            {
+              "html": "Initialize <code>result</code> to an empty map."
+            },
+            {
+              "html": "Set <code>result.state</code> to <code>state</code>."
+            },
+            {
+              "html": "Set <code>result.entry</code> to the value of <code>contextIdentifier</code> in <code>state.contextMap</code>."
+            },
+            {
+              "html": "Return <code>result</code>."
+            }
+          ]
+        },
+        {
+          "html": "If <code>context</code> is a string:",
+          "rationale": "fetch",
+          "steps": [
+            {
+              "html": "Fetch the associated context object and set <code>context</code> to the value\nof \"@context\" in that object."
+            },
+            {
+              "html": "Set <code>contextUrl</code> to the value of <code>contextIdentifier</code>."
+            }
+          ]
+        },
+        {
+          "html": "Otherwise, set <code>context</code> to <code>contextIdentifier</code>."
+        },
+        {
+          "html": "Set <code>result</code> to the result of <a href=\"https://www.w3.org/TR/cbor-ld-10/#add-context-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.4.3 </bdi>Add Context Algorithm</a>, passing\n<code>state</code>, <code>context</code>, and <code>contextUrl</code> if set."
+        },
+        {
+          "html": "Return <code>result</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a map <code>state</code>, a context object <code>context</code>, and a context URL <code>contextUrl</code>,\nand returns <code>result</code>, a map containing maps <code>state</code> and <code>entry</code>.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "If <code>context</code> has an entry \"@import\":",
+          "rationale": "set",
+          "steps": [
+            {
+              "html": "Set <code>importUrl</code> to the value of \"@import\" in `context."
+            },
+            {
+              "html": "If <code>state.contextMap</code> does not have an entry for <code>importUrl</code>:",
+              "rationale": "fetch",
+              "steps": [
+                {
+                  "html": "Fetch the context object associated with <code>importUrl</code> and set <code>importContext</code> to the value of\n\"@context\" in that object."
+                },
+                {
+                  "html": "Set <code>importedContextAdditionResult</code> to the result of <a href=\"https://www.w3.org/TR/cbor-ld-10/#add-context-algorithm\" class=\"sec-ref\"><bdi class=\"secno\">6.4.3 </bdi>Add Context Algorithm</a>,\npassing <code>state</code>, <code>importContext</code> as <code>context</code>, and <code>importUrl</code> as <code>contextUrl</code>."
+                },
+                {
+                  "html": "Set <code>state</code> to <code>importedContextAdditionResult.state</code> and <code>importEntry</code> to\n<code>importedContextAdditionResult.entry</code>."
+                }
+              ]
+            },
+            {
+              "html": "Otherwise, set <code>importEntry</code> to the value of <code>importUrl</code> in <code>state.contextMap</code>."
+            },
+            {
+              "html": "Set <code>context</code> to a map containing all entries from <code>context</code> as well as <code>importEntry.context</code>."
+            }
+          ]
+        },
+        {
+          "html": "Set <code>termMap</code> to an empty map."
+        },
+        {
+          "html": "Set <code>entry</code> to be an object containing <code>context</code> and <code>termMap</code>."
+        },
+        {
+          "html": "Set <code>sortedTerms</code> to the result of sorting the keys in <code>context</code> in lexicographic order."
+        },
+        {
+          "html": "Set <code>isProtected</code> to <code>true</code> if \"@protected\" has an entry in <code>context</code> and <code>false</code> otherwise."
+        },
+        {
+          "html": "For <code>term</code> in <code>sortedTerms</code>:",
+          "rationale": "if",
+          "steps": [
+            {
+              "html": "If <code>term</code> has an entry in <code>state.keywordsMap</code>, proceed to the next iteration of this loop."
+            },
+            {
+              "html": "Set <code>definition</code> to the value of <code>term</code> in <code>context</code>."
+            },
+            {
+              "html": "If <code>definition</code> is <code>null</code>, proceed to the next iteration of this loop."
+            },
+            {
+              "html": "If <code>definition</code> is a string:",
+              "rationale": "set",
+              "steps": [
+                {
+                  "html": "Set <code>newDefinition</code> to an empty map."
+                },
+                {
+                  "html": "Set the value of \"@id\" in <code>newDefinition</code> to <code>definition</code>."
+                },
+                {
+                  "html": "Set the value of <code>definition</code> to <code>newDefinition</code>."
+                }
+              ]
+            },
+            {
+              "html": "Set the value of <code>protected</code> in <code>definition</code> to <code>isProtected</code>."
+            },
+            {
+              "html": "Set the value of <code>term</code> in <code>termMap</code> to <code>definition</code>."
+            },
+            {
+              "html": "If <code>term</code> does not have an entry in <code>state.termToId</code>:",
+              "rationale": "set",
+              "steps": [
+                {
+                  "html": "Set <code>termId</code> to <code>state.nextTermId</code>."
+                },
+                {
+                  "html": "Increment <code>state.nextTermId</code> by 2."
+                },
+                {
+                  "html": "Set the value of <code>term</code> in <code>state.termToId</code> to <code>termId</code>."
+                },
+                {
+                  "html": "Set the value of <code>termId</code> in <code>state.idToTerm</code> to <code>term</code>."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "html": "If <code>contextUrl</code> is defined, set the value of <code>contextUrl</code> in\n<code>state.contextMap</code> to <code>entry</code>."
+        },
+        {
+          "html": "Otherwise, set the value of <code>context</code> in <code>state.contextMap</code>\nto <code>entry</code>."
+        },
+        {
+          "html": "Set <code>result</code> to be an empty map."
+        },
+        {
+          "html": "Set <code>result.state</code> to <code>state</code> and <code>result.entry</code> to <code>entry</code>."
+        },
+        {
+          "html": "Return <code>result</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a map <code>typeTable</code> and a value <code>contextValue</code> and\nreturns a map <code>encoderData</code>.",
+      "rationale": "initialize",
+      "steps": [
+        {
+          "html": "Initialize <code>encoderData</code> to an empty map."
+        },
+        {
+          "html": "If <code>contextValue</code> is not a string, return."
+        },
+        {
+          "html": "Otherwise, set <code>contextTable</code> to the value of \"context\" in <code>typeTable</code>."
+        },
+        {
+          "html": "Set <code>encoderData.context</code> to <code>contextValue</code> and <code>encoderData.contextTable</code> to\n<code>contextTable</code>."
+        },
+        {
+          "html": "Return <code>encoderData</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a map <code>encoderData</code>, and returns CBOR binary data.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "If <code>encoderData</code>.<code>context</code> has an entry in <code>encoderData</code>.<code>contextTable</code>, return a CBOR encoding\nof the value of <code>encoderData</code>.<code>context</code> in <code>encoderData</code> as a Major Type 0 (unsigned integer) object."
+        },
+        {
+          "html": "Otherwise, return a CBOR encoding of the value of <code>encoderData</code>.<code>context</code> as a Major Type 3\n(text string) object."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a map <code>reverseTypeTable</code>, and\nreturns a map <code>encoderData</code>.",
+      "rationale": "set",
+      "steps": [
+        {
+          "html": "Set <code>reverseContextTable</code> to the value of \"context\" in <code>reverseTypeTable</code>."
+        },
+        {
+          "html": "Initialize <code>decoderData</code> to an empty map."
+        },
+        {
+          "html": "Set <code>decoderData</code>.<code>reverseContextTable</code> to the value of <code>reverseContextTable</code> and\nreturn <code>decoderData</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a map <code>decoderData</code> and a value <code>value</code>, and returns a value.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "If <code>value</code> is not a number, return <code>value</code>."
+        },
+        {
+          "html": "Otherwise, if <code>decoderData</code>.<code>reverseContextTable</code> has an entry for <code>value</code>, return\nthe value of that entry."
+        },
+        {
+          "html": "Otherwise, throw an error <code>ERR_UNDEFINED_COMPRESSED_CONTEXT</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes maps <code>state</code> and <code>termInfo</code>, and values\n<code>termType</code> and <code>valueToEncode</code>, and returns a map <code>encoderData</code> or <code>valueToEncode</code>.",
+      "rationale": "set",
+      "steps": [
+        {
+          "html": "Set <code>isUrl</code> to <code>false</code>."
+        },
+        {
+          "html": "If <code>termInfo.term</code> is \"@id\" or \"@type\", set <code>isUrl</code> to <code>true</code>."
+        },
+        {
+          "html": "If the value of \"@id\" in <code>termInfo.def</code> is \"@id\" or \"@type\", set\n<code>isUrl</code> to true."
+        },
+        {
+          "html": "If <code>termType</code> is \"@id\" or \"@vocab\", set <code>isUrl</code> to <code>true</code>."
+        },
+        {
+          "html": "If <code>isUrl</code> is <code>true</code>, set <code>tableType</code> to \"url\"."
+        },
+        {
+          "html": "Otherwise, if <code>termType</code> is defined, set <code>tableType</code> to <code>termType</code>."
+        },
+        {
+          "html": "Otherwise, set <code>tableType</code> to \"none\"."
+        },
+        {
+          "html": "If <code>state.typeTable</code> has an entry for <code>tableType</code>:",
+          "rationale": "set",
+          "steps": [
+            {
+              "html": "Set <code>subTable</code> to the value of <code>tableType</code> in <code>state.typeTable</code>."
+            },
+            {
+              "html": "If <code>subTable</code> has an entry for <code>valueToEncode</code>:",
+              "rationale": "set",
+              "steps": [
+                {
+                  "html": "Set <code>intValue</code> to the value of <code>valueToEncode</code> in <code>subTable</code>. Set <code>includeSign</code> to <code>false</code>."
+                },
+                {
+                  "html": "If <code>state</code>.<code>typesEncodedAsBytes</code> has an entry for <code>tableType</code>, set <code>convertToBytes</code> to <code>true</code>.\nOtherwise, set <code>convertToBytes</code> to <code>false</code>."
+                }
+              ]
+            },
+            {
+              "html": "Otherwise, if <code>tableType</code> is not \"none\" and <code>valueToEncode</code> is an integer:",
+              "rationale": "set",
+              "steps": [
+                {
+                  "html": "Set <code>intValue</code> to the value of <code>valueToEncode</code>."
+                },
+                {
+                  "html": "Set <code>convertToBytes</code> and <code>includeSign</code> to <code>true</code>."
+                }
+              ]
+            },
+            {
+              "html": "If <code>intValue</code> is defined:",
+              "rationale": "initialize",
+              "steps": [
+                {
+                  "html": "Initialize <code>encoderData</code> to an empty map."
+                },
+                {
+                  "html": "Set <code>encoderData</code>.<code>intValue</code> to the value of <code>intValue</code>, <code>encoderData</code>.<code>convertToBytes</code> to\nthe value of <code>convertToBytes</code>, and <code>encoderData</code>.<code>includeSign</code> to the value of <code>includeSign</code>."
+                },
+                {
+                  "html": "Return <code>encoderData</code>."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "html": "If <code>tableType</code> has an entry in <code>state.processingModeTypeEncoders</code>, set <code>encoderData</code> to the result of\ncalling the <code>Create Encoder</code> algorithm associated with that entry's codec."
+        },
+        {
+          "html": "If <code>encoderData</code> is defined, return <code>encoderData</code>."
+        },
+        {
+          "html": "Return <code>valueToEncode</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a map <code>encoderData</code>, and returns CBOR binary data.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "If <code>encoderData</code>.<code>convertToBytes</code> is <code>true</code>:",
+          "rationale": "set",
+          "steps": [
+            {
+              "html": "Set <code>bytes</code> to the result of converting <code>intValue</code> to bytes, using the value of <code>includeSign</code> to\ndetermine whether the binary representation of the integer should be signed or unsigned."
+            },
+            {
+              "html": "Return a CBOR encoding of <code>bytes</code> as a Major Type 2 (byte string) object."
+            }
+          ]
+        },
+        {
+          "html": "Otherwise, return a CBOR encoding of <code>intValue</code> as a Major Type 0 (unsigned integer) object."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes maps <code>state</code> and <code>termInfo</code>, and values\n<code>termType</code> and <code>valueToDecode</code>, and returns a map <code>decoderData</code>.",
+      "rationale": "set",
+      "steps": [
+        {
+          "html": "Set <code>isUrl</code> to <code>false</code>."
+        },
+        {
+          "html": "If <code>termInfo.term</code> is \"@id\" or \"@type\", set <code>isUrl</code> to <code>true</code>."
+        },
+        {
+          "html": "If the value of \"@id\" in <code>termInfo.def</code> is \"@id\" or \"@type\", set\n<code>isUrl</code> to <code>true</code>."
+        },
+        {
+          "html": "If <code>termType</code> is \"@id\" or \"@vocab\", set <code>isUrl</code> to <code>true</code>."
+        },
+        {
+          "html": "If <code>isUrl</code> is <code>true</code>, set <code>tableType</code> to \"url\"."
+        },
+        {
+          "html": "Otherwise, if <code>termType</code> is defined, set <code>tableType</code> to <code>termType</code>."
+        },
+        {
+          "html": "Otherwise, set <code>tableType</code> to \"none\"."
+        },
+        {
+          "html": "If <code>state.reverseTypeTable</code> has an entry for <code>tableType</code>:",
+          "rationale": "set",
+          "steps": [
+            {
+              "html": "Set <code>subTable</code> to the value of <code>tableType</code> in <code>state.reverseTypeTable</code>."
+            },
+            {
+              "html": "Set <code>useTable</code> to <code>false</code>."
+            },
+            {
+              "html": "If <code>valueToDecode</code> is a byte array and <code>state</code>.<code>typesEncodedAsBytes</code> has an entry\nfor <code>tableType</code>:",
+              "rationale": "set",
+              "steps": [
+                {
+                  "html": "Set <code>useTable</code> to <code>true</code>."
+                },
+                {
+                  "html": "Set <code>intValue</code> to the unsigned integer conversion of the <code>valueToDecode</code> bytes."
+                }
+              ]
+            },
+            {
+              "html": "Otherwise, if <code>valueToDecode</code> is an integer and <code>state</code>.<code>typesEncodedAsBytes</code> does not\nhave an entry for <code>tableType</code>:",
+              "rationale": "set",
+              "steps": [
+                {
+                  "html": "Set <code>useTable</code> to <code>true</code>."
+                },
+                {
+                  "html": "Set <code>intValue</code> to <code>valueToDecode</code>."
+                }
+              ]
+            },
+            {
+              "html": "If <code>useTable</code> is <code>true</code>:",
+              "rationale": "if",
+              "steps": [
+                {
+                  "html": "If <code>intValue</code> is not in <code>subTable</code>, throw an error <code>ERR_UNKNOWN_COMPRESSED_VALUE</code>."
+                },
+                {
+                  "html": "Otherwise, set <code>decoded</code> to the value of <code>intValue</code> in <code>subTable</code>."
+                }
+              ]
+            },
+            {
+              "html": "Otherwise, if <code>valueToDecode</code> is a byte array and <code>tableType</code> is not \"none\", set\n<code>decoded</code> to the integer conversion of <code>valueToDecode</code>."
+            },
+            {
+              "html": "If <code>decoded</code> is defined, initialize <code>decoderData</code> to an empty map, set <code>decoderData</code>.<code>decoded</code> to\nthe value of <code>decoded</code>, and return <code>decoderData</code>."
+            }
+          ]
+        },
+        {
+          "html": "If <code>tableType</code> has an entry in <code>state.processingModeTypeDecoders</code>, set <code>DecoderData</code> to the result of\ncalling the <code>Create Decoder</code> algorithm associated with that entry's codec."
+        },
+        {
+          "html": "If <code>decoderData</code> is defined, return <code>decoderData</code>."
+        },
+        {
+          "html": "Otherwise, if <code>valueToDecode</code> is not an array, initialize <code>decoderData</code> to an empty map, set\n<code>decoderData</code>.<code>decoded</code> to <code>valueToDecode</code>, and return <code>decoderData</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a map <code>decoderData</code>, and returns a value.",
+      "rationale": "return",
+      "steps": [
+        {
+          "html": "Return <code>decoderData</code>.<code>decoded</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a map <code>state</code>, a map <code>termInfo</code>,\nand a string <code>valueToEncode</code>, and returns either an encoder object\nor <code>undefined</code>.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "If <code>valueToEncode</code> is not a string, throw an\n<code>ERR_UNSUPPORTED_JSON_TYPE</code> error."
+        },
+        {
+          "html": "Set <code>termId</code> to the result of looking up\n<code>valueToEncode</code> in <code>state.termToId</code>."
+        },
+        {
+          "html": "If <code>termId</code> is an integer, return an encoder that, when\ninvoked via <a href=\"https://www.w3.org/TR/cbor-ld-10/#encode-url\" class=\"sec-ref\"><bdi class=\"secno\">6.5.3.3 </bdi>Encode URL</a>, encodes <code>termId</code> as\na Major Type 0 (unsigned integer) CBOR item."
+        },
+        {
+          "html": "Attempt to parse <code>valueToEncode</code> as a URL.\nIf parsing fails (i.e., the value is not a valid URL), return\n<code>undefined</code>."
+        },
+        {
+          "html": "Set <code>prefix</code> to the entry in the <a href=\"https://www.w3.org/TR/cbor-ld-10/#dfn-url-prefix-table\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-url-prefix-table-2\">URL Prefix Table</a>\nsuch that <code>valueToEncode</code> starts with <code>prefix</code> and\nthe remainder of <code>valueToEncode</code> following <code>prefix</code>\ndoes not contain a \"<code>:</code>\" (U+003A COLON) character. If no such\nentry exists, return <code>undefined</code> (meaning, no compression is\npossible for this URL)."
+        },
+        {
+          "html": "If <code>prefix</code> is \"<code>https://</code>\" or\n\"<code>http://</code>\", return the result of\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#create-http-url-encoder\" class=\"sec-ref\"><bdi class=\"secno\">6.5.3.6.1 </bdi>Create HTTP URL Encoder</a> passing\n<code>valueToEncode</code>."
+        },
+        {
+          "html": "If <code>prefix</code> is \"<code>urn:uuid:</code>\", return the result of\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#create-uuid-urn-encoder\" class=\"sec-ref\"><bdi class=\"secno\">6.5.3.7.1 </bdi>Create UUID URN Encoder</a> passing\n<code>valueToEncode</code>."
+        },
+        {
+          "html": "If <code>prefix</code> is \"<code>data:</code>\", return the result of\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#create-data-url-encoder\" class=\"sec-ref\"><bdi class=\"secno\">6.5.3.8.1 </bdi>Create Data URL Encoder</a> passing\n<code>valueToEncode</code>."
+        },
+        {
+          "html": "If <code>prefix</code> is \"<code>did:v1:nym:</code>\" or\n\"<code>did:key:</code>\", return the result of\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#create-base58-did-url-encoder\" class=\"sec-ref\"><bdi class=\"secno\">6.5.3.9.1 </bdi>Create Base58 DID URL Encoder</a> passing\n<code>valueToEncode</code>."
+        },
+        {
+          "html": "Return <code>undefined</code> (meaning, no compression&nbsp;is possible for this URL)."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes an encoder object produced by\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#create-url-encoder\" class=\"sec-ref\"><bdi class=\"secno\">6.5.3.2 </bdi>Create URL Encoder</a>, and returns CBOR binary data.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "If the encoder was created for a term-ID match (step 3 of\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#create-url-encoder\" class=\"sec-ref\"><bdi class=\"secno\">6.5.3.2 </bdi>Create URL Encoder</a>), return a CBOR encoding of\n<code>termId</code> as a Major Type 0 (unsigned integer) object."
+        },
+        {
+          "html": "Otherwise, invoke the <code>encode</code> method of the appropriate\nprefix-specific sub-encoder and return the resulting CBOR binary data."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a map <code>state</code>, a map <code>termInfo</code>,\nand a value <code>valueToDecode</code>, and returns a decoder object or\n<code>undefined</code>.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "If <code>valueToDecode</code> is a string, return <code>undefined</code>\n(meaning, value is already an uncompressed URL string; pass through)."
+        },
+        {
+          "html": "If <code>valueToDecode</code> is an array:",
+          "rationale": "set",
+          "steps": [
+            {
+              "html": "Set <code>prefixId</code> to the first element of\n<code>valueToDecode</code>."
+            },
+            {
+              "html": "Set <code>prefix</code> to the value corresponding to <code>prefixId</code>\nin the <a href=\"https://www.w3.org/TR/cbor-ld-10/#dfn-url-prefix-reverse-table\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-url-prefix-reverse-table-1\">URL Prefix Reverse Table</a>."
+            },
+            {
+              "html": "If <code>prefix</code> is \"<code>http://</code>\" or\n\"<code>https://</code>\", set <code>decoder</code> to the result of\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#create-http-url-decoder\" class=\"sec-ref\"><bdi class=\"secno\">6.5.3.6.3 </bdi>Create HTTP URL Decoder</a> passing\n<code>valueToDecode</code>."
+            },
+            {
+              "html": "Otherwise, if <code>prefix</code> is \"<code>urn:uuid:</code>\", set\n<code>decoder</code> to the result of\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#create-uuid-urn-decoder\" class=\"sec-ref\"><bdi class=\"secno\">6.5.3.7.3 </bdi>Create UUID URN Decoder</a> passing\n<code>valueToDecode</code>."
+            },
+            {
+              "html": "Otherwise, if <code>prefix</code> is \"<code>data:</code>\", set\n<code>decoder</code> to the result of\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#create-data-url-decoder\" class=\"sec-ref\"><bdi class=\"secno\">6.5.3.8.3 </bdi>Create Data URL Decoder</a> passing\n<code>valueToDecode</code>."
+            },
+            {
+              "html": "Otherwise, if <code>prefix</code> is \"<code>did:v1:nym:</code>\" or\n\"<code>did:key:</code>\", set <code>decoder</code> to the result of\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#create-base58-did-url-decoder\" class=\"sec-ref\"><bdi class=\"secno\">6.5.3.9.4 </bdi>Create Base58 DID URL Decoder</a> passing\n<code>valueToDecode</code>."
+            },
+            {
+              "html": "If <code>prefix</code> did not match any of the above (including when\n<code>prefixId</code> has no entry in the\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#dfn-url-prefix-reverse-table\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-url-prefix-reverse-table-2\">URL Prefix Reverse Table</a>), or if <code>decoder</code> is\n<code>undefined</code> (meaning, the sub-decoder rejected the shape of\n<code>valueToDecode</code>), throw an\n<code>ERR_UNKNOWN_COMPRESSED_VALUE</code> error."
+            },
+            {
+              "html": "Return <code>decoder</code>."
+            }
+          ]
+        },
+        {
+          "html": "If <code>valueToDecode</code> is an integer, set <code>term</code> to the\nresult of looking up <code>valueToDecode</code> in\n<code>state.idToTerm</code> and return a decoder whose\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#decode-url\" class=\"sec-ref\"><bdi class=\"secno\">6.5.3.5 </bdi>Decode URL</a> invocation returns <code>term</code>."
+        },
+        {
+          "html": "Return <code>undefined</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a decoder object produced by\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#create-url-decoder\" class=\"sec-ref\"><bdi class=\"secno\">6.5.3.4 </bdi>Create URL Decoder</a>, and returns a string value.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "If the decoder was created for an integer term-ID value (step 3 of\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#create-url-decoder\" class=\"sec-ref\"><bdi class=\"secno\">6.5.3.4 </bdi>Create URL Decoder</a>), return the associated\n<code>term</code> string."
+        },
+        {
+          "html": "Otherwise, invoke the <code>decode</code> method of the appropriate\nprefix-specific sub-decoder and return the resulting string."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a string <code>value</code>, and returns an\nencoder object or <code>undefined</code>.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "If <code>value</code> starts with <code>\"https://\"</code>, set\n<code>prefix</code> to <code>\"https://\"</code>."
+        },
+        {
+          "html": "Otherwise, if <code>value</code> starts with <code>\"http://\"</code>, set\n<code>prefix</code> to <code>\"http://\"</code>."
+        },
+        {
+          "html": "Otherwise, return <code>undefined</code>."
+        },
+        {
+          "html": "Return an encoder object containing <code>value</code> and\n<code>prefix</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes an encoder object from\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#create-http-url-encoder\" class=\"sec-ref\"><bdi class=\"secno\">6.5.3.6.1 </bdi>Create HTTP URL Encoder</a>, and returns CBOR binary data.",
+      "rationale": "set",
+      "steps": [
+        {
+          "html": "Set <code>prefixId</code> to the value of <code>encoderData.prefix</code>\nin the <a href=\"https://www.w3.org/TR/cbor-ld-10/#dfn-url-prefix-table\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-url-prefix-table-4\">URL Prefix Table</a>."
+        },
+        {
+          "html": "Set <code>rest</code> to the substring of <code>encoderData.value</code>\nbeginning after <code>encoderData.prefix</code>."
+        },
+        {
+          "html": "Return a CBOR encoding of a two-element array\n<code>[prefixId, rest]</code>: Major Type 4 (array) containing a\nMajor Type 0 (unsigned integer) item followed by a Major Type 3\n(text string) item."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a CBOR array <code>valueToDecode</code>, and\nreturns a decoder object or <code>undefined</code>.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "If <code>valueToDecode</code> has exactly two elements and the second\nelement is a text string:",
+          "rationale": "set",
+          "steps": [
+            {
+              "html": "Set <code>prefix</code> to the value of <code>valueToDecode[0]</code>\nin the <a href=\"https://www.w3.org/TR/cbor-ld-10/#dfn-url-prefix-reverse-table\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-url-prefix-reverse-table-3\">URL Prefix Reverse Table</a>."
+            },
+            {
+              "html": "Return a decoder object containing <code>prefix</code>."
+            }
+          ]
+        },
+        {
+          "html": "Otherwise, return <code>undefined</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a decoder object from\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#create-http-url-decoder\" class=\"sec-ref\"><bdi class=\"secno\">6.5.3.6.3 </bdi>Create HTTP URL Decoder</a> and a CBOR array\n<code>valueToDecode</code>, and returns a string.",
+      "rationale": "return",
+      "steps": [
+        {
+          "html": "Return the concatenation of <code>decoderData.prefix</code> and\n<code>valueToDecode[1]</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a string <code>value</code>, and returns an encoder\nobject or <code>undefined</code>.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "If <code>value</code> does not start with <code>\"urn:uuid:\"</code>,\nreturn <code>undefined</code>."
+        },
+        {
+          "html": "Return an encoder object containing <code>value</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes an encoder object, and returns CBOR binary data.",
+      "rationale": "set",
+      "steps": [
+        {
+          "html": "Set <code>prefixId</code> to <code>3</code> (the entry for\n<code>\"urn:uuid:\"</code> in the <a href=\"https://www.w3.org/TR/cbor-ld-10/#dfn-url-prefix-table\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-url-prefix-table-5\">URL Prefix Table</a>)."
+        },
+        {
+          "html": "Set <code>rest</code> to the substring of <code>encoderData.value</code>\nbeginning after <code>\"urn:uuid:\"</code>."
+        },
+        {
+          "html": "If <code>rest</code> contains no uppercase characters (i.e., it is\nequal to its lowercase form):",
+          "rationale": "set",
+          "steps": [
+            {
+              "html": "Set <code>uuidBytes</code> to the 16-byte binary representation of the\nUUID obtained by parsing <code>rest</code> according to\n[<cite><a class=\"bibref\" data-link-type=\"biblio\" href=\"https://www.w3.org/TR/cbor-ld-10/#bib-rfc4122\" title=\"A Universally Unique IDentifier (UUID) URN Namespace\">RFC4122</a></cite>]. If <code>rest</code> cannot be parsed as a valid UUID, an\nerror is thrown and encoding fails."
+            },
+            {
+              "html": "Return a CBOR encoding of a two-element array\n<code>[3, uuidBytes]</code>: Major Type 4 (array) containing a\nMajor Type 0 (unsigned integer) item followed by a Major Type 2\n(byte string) item of length 16."
+            }
+          ]
+        },
+        {
+          "html": "Otherwise, return a CBOR encoding of a two-element array\n<code>[3, rest]</code>: Major Type 4 (array) containing a\nMajor Type 0 (unsigned integer) item followed by a Major Type 3\n(text string) item."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a CBOR array <code>valueToDecode</code>, and returns\na decoder object or <code>undefined</code>.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "If <code>valueToDecode</code> has exactly two elements, and the second\nelement is either a byte string or a text string, return a decoder object."
+        },
+        {
+          "html": "Otherwise, return <code>undefined</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a decoder object and a CBOR array\n<code>valueToDecode</code>, and returns a string.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "If <code>valueToDecode[1]</code> is a text string, set <code>uuid</code>\nto <code>valueToDecode[1]</code>."
+        },
+        {
+          "html": "Otherwise, set <code>uuid</code> to the UUID string representation of the\n16-byte binary value <code>valueToDecode[1]</code> per [<cite><a class=\"bibref\" data-link-type=\"biblio\" href=\"https://www.w3.org/TR/cbor-ld-10/#bib-rfc4122\" title=\"A Universally Unique IDentifier (UUID) URN Namespace\">RFC4122</a></cite>]\n(lowercase, hyphen-delimited form)."
+        },
+        {
+          "html": "Return the concatenation of <code>\"urn:uuid:\"</code> and\n<code>uuid</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a string <code>value</code>, and returns an encoder\nobject or <code>undefined</code>.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "If <code>value</code> does not start with <code>\"data:\"</code>, return\n<code>undefined</code>."
+        },
+        {
+          "html": "Attempt to match <code>value</code> against the regular expression\n<code>^data:(?&lt;mediatype&gt;.*);base64,(?&lt;data&gt;.*)$</code>,\nwhere each <code>.*</code> is greedy (i.e., if the string\n\"<code>;base64,</code>\" occurs more than once, the\n<code>mediatype</code> group extends to the last occurrence)."
+        },
+        {
+          "html": "If the match succeeds:",
+          "rationale": "set",
+          "steps": [
+            {
+              "html": "Set <code>data</code> to the value of the <code>data</code> capture\ngroup."
+            },
+            {
+              "html": "Verify round-trip integrity: decode <code>data</code> from base64 and\nre-encode to base64. If the result equals <code>data</code>, return an\nencoder object with <code>value</code> and <code>base64</code> set to\n<code>true</code>."
+            }
+          ]
+        },
+        {
+          "html": "Return an encoder object with <code>value</code> and <code>base64</code>\nset to <code>false</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes an encoder object from\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#create-data-url-encoder\" class=\"sec-ref\"><bdi class=\"secno\">6.5.3.8.1 </bdi>Create Data URL Encoder</a>, and returns CBOR binary data.",
+      "rationale": "set",
+      "steps": [
+        {
+          "html": "Set <code>prefixId</code> to <code>4</code> (the entry for\n<code>\"data:\"</code> in the <a href=\"https://www.w3.org/TR/cbor-ld-10/#dfn-url-prefix-table\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-url-prefix-table-6\">URL Prefix Table</a>)."
+        },
+        {
+          "html": "If <code>encoderData.base64</code> is <code>true</code>:",
+          "rationale": "parse",
+          "steps": [
+            {
+              "html": "Parse <code>encoderData.value</code> to extract <code>mediatype</code>\n(the substring between <code>\"data:\"</code> and <code>\";base64,\"</code>)\nand <code>dataBytes</code> (the binary decoding of the base64 data\nportion)."
+            },
+            {
+              "html": "Return a CBOR encoding of a three-element array\n<code>[prefixId, mediatype, dataBytes]</code>: Major Type 4 (array)\ncontaining a Major Type 0 integer, a Major Type 3 text string, and a\nMajor Type 2 byte string."
+            }
+          ]
+        },
+        {
+          "html": "Otherwise:",
+          "rationale": "set",
+          "steps": [
+            {
+              "html": "Set <code>rest</code> to the substring of <code>encoderData.value</code>\nbeginning after <code>\"data:\"</code>."
+            },
+            {
+              "html": "Return a CBOR encoding of a two-element array\n<code>[prefixId, rest]</code>: Major Type 4 (array) containing a\nMajor Type 0 integer and a Major Type 3 text string."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a CBOR array <code>valueToDecode</code>, and returns\na decoder object or <code>undefined</code>.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "If <code>valueToDecode</code> has exactly three elements, the second\nelement is a text string, and the third element is a byte string, return\na decoder object (base64 mode)."
+        },
+        {
+          "html": "Otherwise, if <code>valueToDecode</code> has exactly two elements and\nthe second element is a text string, return a decoder object\n(non-base64 mode)."
+        },
+        {
+          "html": "Otherwise, return <code>undefined</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a decoder object and a CBOR array\n<code>valueToDecode</code>, and returns a string.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "If <code>valueToDecode</code> has three elements (base64 mode):",
+          "rationale": "set",
+          "steps": [
+            {
+              "html": "Set <code>mediatype</code> to <code>valueToDecode[1]</code>."
+            },
+            {
+              "html": "Set <code>encodedData</code> to the base64 encoding of the byte string\n<code>valueToDecode[2]</code>."
+            },
+            {
+              "html": "Return the concatenation of <code>\"data:\"</code>,\n<code>mediatype</code>, <code>\";base64,\"</code>, and\n<code>encodedData</code>."
+            }
+          ]
+        },
+        {
+          "html": "Otherwise (non-base64 mode), return the concatenation of\n<code>\"data:\"</code> and <code>valueToDecode[1]</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a string <code>value</code>, and returns an\nencoder object or <code>undefined</code>.",
+      "rationale": "for",
+      "steps": [
+        {
+          "html": "For each <code>[prefix, prefixId]</code> pair in the\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#dfn-url-prefix-table\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-url-prefix-table-8\">URL Prefix Table</a> where the prefix starts with\n<code>\"did:\"</code>:",
+          "rationale": "if",
+          "steps": [
+            {
+              "html": "If <code>value</code> starts with <code>prefix</code>, return an encoder\nobject containing <code>value</code>, <code>prefix</code>, and\n<code>prefixId</code>."
+            }
+          ]
+        },
+        {
+          "html": "Return <code>undefined</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes an encoder object from\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#create-base58-did-url-encoder\" class=\"sec-ref\"><bdi class=\"secno\">6.5.3.9.1 </bdi>Create Base58 DID URL Encoder</a>, and returns CBOR binary\ndata.",
+      "rationale": "set",
+      "steps": [
+        {
+          "html": "Set <code>suffix</code> to the substring of <code>encoderData.value</code>\nbeginning after <code>encoderData.prefix</code>."
+        },
+        {
+          "html": "Split <code>suffix</code> on the first occurrence of <code>'#'</code>\nto produce <code>authority</code> and, if present,\n<code>fragment</code>."
+        },
+        {
+          "html": "Set <code>authorityEncoded</code> to the result of applying the\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#dfn-multibase-base58-to-cbor-token\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-multibase-base58-to-cbor-token-1\">Multibase Base58 to CBOR Token</a> algorithm to\n<code>authority</code>."
+        },
+        {
+          "html": "Initialize <code>entries</code> to\n<code>[encoderData.prefixId, authorityEncoded]</code>."
+        },
+        {
+          "html": "If <code>fragment</code> is defined:",
+          "rationale": "set",
+          "steps": [
+            {
+              "html": "Set <code>fragmentEncoded</code> to the result of applying the\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#dfn-multibase-base58-to-cbor-token\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-multibase-base58-to-cbor-token-2\">Multibase Base58 to CBOR Token</a> algorithm to\n<code>fragment</code>."
+            },
+            {
+              "html": "Append <code>fragmentEncoded</code> to <code>entries</code>."
+            }
+          ]
+        },
+        {
+          "html": "Return a CBOR encoding of <code>entries</code> as a Major Type 4\n(array)."
+        }
+      ]
+    },
+    {
+      "name": "Multibase Base58 to CBOR Token",
+      "href": "https://www.w3.org/TR/cbor-ld-10/#dfn-multibase-base58-to-cbor-token",
+      "html": "The <dfn id=\"dfn-multibase-base58-to-cbor-token\" tabindex=\"0\" aria-haspopup=\"dialog\" data-dfn-type=\"dfn\">Multibase Base58 to CBOR Token</dfn> algorithm takes a string\n<code>str</code> and returns either a Major Type 2 (byte string) CBOR\ntoken (if the value is a base58btc multibase string) or a Major Type 3\n(text string) CBOR token.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "If <code>str</code> starts with <code>'z'</code>:",
+          "rationale": "set",
+          "steps": [
+            {
+              "html": "Set <code>decoded</code> to the result of decoding the base58btc content\nof <code>str</code> (i.e. <code>str[1:]</code>)."
+            },
+            {
+              "html": "If decoding succeeds, return a Major Type 2 (byte string) CBOR token\nfor <code>decoded</code>."
+            }
+          ]
+        },
+        {
+          "html": "Return a Major Type 3 (text string) CBOR token for <code>str</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a CBOR array <code>valueToDecode</code>, and returns\na decoder object or <code>undefined</code>.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "If <code>valueToDecode</code> has exactly two or three elements:",
+          "rationale": "set",
+          "steps": [
+            {
+              "html": "Set <code>prefix</code> to the value of <code>valueToDecode[0]</code>\nin the <a href=\"https://www.w3.org/TR/cbor-ld-10/#dfn-url-prefix-reverse-table\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-url-prefix-reverse-table-4\">URL Prefix Reverse Table</a>."
+            },
+            {
+              "html": "Return a decoder object containing <code>prefix</code>."
+            }
+          ]
+        },
+        {
+          "html": "Otherwise, return <code>undefined</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a decoder object from\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#create-base58-did-url-decoder\" class=\"sec-ref\"><bdi class=\"secno\">6.5.3.9.4 </bdi>Create Base58 DID URL Decoder</a> and a CBOR array\n<code>valueToDecode</code>, and returns a string.",
+      "rationale": "set",
+      "steps": [
+        {
+          "html": "Set <code>url</code> to <code>decoderData.prefix</code>."
+        },
+        {
+          "html": "If <code>valueToDecode[1]</code> is a byte string, append\n<code>'z'</code> followed by the base58btc encoding of\n<code>valueToDecode[1]</code> to <code>url</code>."
+        },
+        {
+          "html": "Otherwise, append <code>valueToDecode[1]</code> to <code>url</code>."
+        },
+        {
+          "html": "If <code>valueToDecode</code> has more than two elements:",
+          "rationale": "if",
+          "steps": [
+            {
+              "html": "If <code>valueToDecode[2]</code> is a byte string, append\n<code>\"#z\"</code> followed by the base58btc encoding of\n<code>valueToDecode[2]</code> to <code>url</code>."
+            },
+            {
+              "html": "Otherwise, append <code>\"#\"</code> followed by\n<code>valueToDecode[2]</code> to <code>url</code>."
+            }
+          ]
+        },
+        {
+          "html": "Return <code>url</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a string <code>value</code>, and returns an encoder\nobject or <code>undefined</code>.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "If <code>value</code> contains the character <code>'T'</code> (indicating\na time component), return <code>undefined</code> (this value is\ncompressed instead by the <a href=\"https://www.w3.org/TR/cbor-ld-10/#xsd-datetime-codec\">XSD DateTime\nCodec</a>)."
+        },
+        {
+          "html": "Set <code>parsed</code> to the result of parsing <code>value</code> as\nan ISO 8601 date string, expressed as the number of milliseconds since\nthe Unix epoch."
+        },
+        {
+          "html": "If <code>parsed</code> is not a valid number, return\n<code>undefined</code>."
+        },
+        {
+          "html": "Return an encoder object containing <code>value</code> and\n<code>parsed</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes an encoder object from\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#create-xsd-date-encoder\" class=\"sec-ref\"><bdi class=\"secno\">6.5.4.1 </bdi>Create XSD Date Encoder</a>, and returns CBOR binary data.",
+      "rationale": "set",
+      "steps": [
+        {
+          "html": "Set <code>secondsSinceEpoch</code> to\n<code>floor(encoderData.parsed / 1000)</code>."
+        },
+        {
+          "html": "Set <code>reconstituted</code> to the ISO 8601 string for the instant\n<code>secondsSinceEpoch × 1000</code> milliseconds since the Unix\nepoch."
+        },
+        {
+          "html": "Set <code>expectedDate</code> to the substring of\n<code>reconstituted</code> preceding the first occurrence of\n<code>'T'</code>."
+        },
+        {
+          "html": "If <code>encoderData.value</code> is not equal to\n<code>expectedDate</code>, the compression would be lossy. Return a CBOR\nencoding of <code>encoderData.value</code> as a Major Type 3 (text\nstring) object."
+        },
+        {
+          "html": "If <code>secondsSinceEpoch</code> is greater than or equal to\n<code>0</code>, return a CBOR encoding of\n<code>secondsSinceEpoch</code> as a Major Type 0 (unsigned integer)\nobject."
+        },
+        {
+          "html": "Otherwise, return a CBOR encoding of <code>secondsSinceEpoch</code>\nas a Major Type 1 (negative integer) object."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a value <code>valueToDecode</code>, and returns a\ndecoder object or <code>undefined</code>.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "If <code>valueToDecode</code> is an integer (positive, negative, or\nzero), return a decoder object."
+        },
+        {
+          "html": "Otherwise, return <code>undefined</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a decoder object and an integer value\n<code>value</code>, and returns a string.",
+      "rationale": "set",
+      "steps": [
+        {
+          "html": "Set <code>dateString</code> to the ISO 8601 string for the instant\n<code>value * 1000</code> milliseconds since the Unix epoch."
+        },
+        {
+          "html": "Return the substring of <code>dateString</code> preceding the first\noccurrence of <code>'T'</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a string <code>value</code>, and returns an encoder\nobject or <code>undefined</code>.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "If <code>value</code> does not contain the character <code>'T'</code>,\nreturn <code>undefined</code> (this value is compressed instead by the\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#xsd-date-codec\">XSD Date Codec</a>)."
+        },
+        {
+          "html": "Set <code>parsed</code> to the result of parsing <code>value</code> as an\nISO 8601 datetime string, expressed as the number of milliseconds since\nthe Unix epoch."
+        },
+        {
+          "html": "If <code>parsed</code> is not a valid number, return\n<code>undefined</code>."
+        },
+        {
+          "html": "Return an encoder object containing <code>value</code> and\n<code>parsed</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes an encoder object from\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#create-xsd-datetime-encoder\" class=\"sec-ref\"><bdi class=\"secno\">6.5.5.1 </bdi>Create XSD DateTime Encoder</a>, and returns CBOR binary\ndata.",
+      "rationale": "set",
+      "steps": [
+        {
+          "html": "Set <code>secondsSinceEpoch</code> to\n<code>floor(encoderData.parsed / 1000)</code>."
+        },
+        {
+          "html": "If <code>encoderData.value</code> does not contain the character\n<code>'.'</code> (no millisecond component):",
+          "rationale": "set",
+          "steps": [
+            {
+              "html": "Set <code>expectedDate</code> to the ISO 8601 string for the instant\n<code>secondsSinceEpoch * 1000</code> milliseconds since the Unix\nepoch, with the substring <code>\".000Z\"</code> replaced by\n<code>\"Z\"</code>."
+            },
+            {
+              "html": "If <code>encoderData.value</code> is not equal to\n<code>expectedDate</code>, the compression would be lossy. Return a\nCBOR encoding of <code>encoderData.value</code> as a Major Type 3\n(text string) object."
+            },
+            {
+              "html": "If <code>secondsSinceEpoch</code> is greater than or equal to\n<code>0</code>, return a CBOR encoding of\n<code>secondsSinceEpoch</code> as a Major Type 0 (unsigned integer)\nobject."
+            },
+            {
+              "html": "Otherwise, return a CBOR encoding of <code>secondsSinceEpoch</code> as\na Major Type 1 (negative integer) object."
+            }
+          ]
+        },
+        {
+          "html": "Otherwise (millisecond component is present):",
+          "rationale": "set",
+          "steps": [
+            {
+              "html": "Set <code>millisecondIndex</code> to the index of the first\n<code>'.'</code> in <code>encoderData.value</code>."
+            },
+            {
+              "html": "Set <code>milliseconds</code> to the integer value of the digits of\n<code>encoderData.value</code> beginning at position\n<code>millisecondIndex + 1</code>."
+            },
+            {
+              "html": "Set <code>expectedDate</code> to the ISO 8601 string for the instant\n<code>secondsSinceEpoch * 1000 + milliseconds</code> milliseconds\nsince the Unix epoch."
+            },
+            {
+              "html": "If <code>encoderData.value</code> is not equal to\n<code>expectedDate</code>, the compression would be lossy. Return a\nCBOR encoding of <code>encoderData.value</code> as a Major Type 3\n(text string) object."
+            },
+            {
+              "html": "Return a CBOR encoding of the two-element array\n<code>[secondsSinceEpoch, milliseconds]</code>: Major Type 4 (array)\ncontaining two Major Type 0 (unsigned integer) items."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a value <code>valueToDecode</code>, and returns a\ndecoder object or <code>undefined</code>.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "If <code>valueToDecode</code> is an integer, return a decoder object."
+        },
+        {
+          "html": "If <code>valueToDecode</code> is an array of exactly two elements where\nboth elements are numbers, return a decoder object."
+        },
+        {
+          "html": "Otherwise, return <code>undefined</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a decoder object and a value <code>value</code>\n(either an integer or a two-element array of integers), and returns a\nstring.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "If <code>value</code> is an integer:",
+          "rationale": "set",
+          "steps": [
+            {
+              "html": "Set <code>instantMs</code> to <code>value * 1000</code>."
+            },
+            {
+              "html": "Set <code>dateString</code> to the ISO 8601 string for the instant\n<code>instantMs</code> milliseconds since the Unix epoch."
+            },
+            {
+              "html": "Return <code>dateString</code> with the substring <code>\".000Z\"</code>\nreplaced by <code>\"Z\"</code>."
+            }
+          ]
+        },
+        {
+          "html": "Otherwise (<code>value</code> is a two-element array):",
+          "rationale": "set",
+          "steps": [
+            {
+              "html": "Set <code>instantMs</code> to\n<code>value[0] * 1000 + value[1]</code>."
+            },
+            {
+              "html": "Return <code>instantMs</code>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a value <code>value</code>, and returns an encoder\nobject or <code>undefined</code>.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "If <code>value</code> is not a string, return <code>undefined</code>."
+        },
+        {
+          "html": "If the first character of <code>value</code> is <code>'z'</code>,\n<code>'u'</code>, or <code>'M'</code>, return an encoder object\ncontaining <code>value</code>."
+        },
+        {
+          "html": "Otherwise, return <code>undefined</code> (unsupported multibase\nencoding)."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes an encoder object from\n<a href=\"https://www.w3.org/TR/cbor-ld-10/#create-multibase-encoder\" class=\"sec-ref\"><bdi class=\"secno\">6.5.6.1 </bdi>Create Multibase Encoder</a>, and returns CBOR binary data.",
+      "rationale": "set",
+      "steps": [
+        {
+          "html": "Set <code>prefixChar</code> to the first character of\n<code>encoderData.value</code>."
+        },
+        {
+          "html": "Set <code>prefixByte</code> to the <a href=\"https://www.w3.org/TR/cbor-ld-10/#dfn-multibase-prefix-byte\" class=\"internalDFN\" data-link-type=\"dfn\" id=\"ref-for-dfn-multibase-prefix-byte-2\">Multibase Prefix Byte</a>\ncorresponding to <code>prefixChar</code>."
+        },
+        {
+          "html": "Set <code>content</code> to the substring of\n<code>encoderData.value</code> beginning after the first character."
+        },
+        {
+          "html": "If <code>prefixChar</code> is <code>'z'</code>, set\n<code>suffixBytes</code> to the base58btc decoding of\n<code>content</code>."
+        },
+        {
+          "html": "Otherwise, if <code>prefixChar</code> is <code>'u'</code>, set\n<code>suffixBytes</code> to the base64url decoding of\n<code>content</code>."
+        },
+        {
+          "html": "Otherwise (<code>prefixChar</code> is <code>'M'</code>), set\n<code>suffixBytes</code> to the base64pad decoding of\n<code>content</code>."
+        },
+        {
+          "html": "Set <code>bytes</code> to a byte array of length\n<code>1 + length(suffixBytes)</code>, with the first byte set to\n<code>prefixByte</code> and the remaining bytes set to\n<code>suffixBytes</code>."
+        },
+        {
+          "html": "Return a CBOR encoding of <code>bytes</code> as a Major Type 2 (byte\nstring) object."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a value <code>valueToDecode</code>, and returns a\ndecoder object or <code>undefined</code>.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "If <code>valueToDecode</code> is not a byte string, return\n<code>undefined</code>."
+        },
+        {
+          "html": "If the first byte of <code>valueToDecode</code> is <code>0x7a</code>,\n<code>0x75</code>, or <code>0x4d</code>, return a decoder object."
+        },
+        {
+          "html": "Otherwise, return <code>undefined</code> (unsupported multibase\nprefix byte)."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes a decoder object and a byte string\n<code>value</code>, and returns a string.",
+      "rationale": "set",
+      "steps": [
+        {
+          "html": "Set <code>prefixByte</code> to the first byte of <code>value</code>."
+        },
+        {
+          "html": "Set <code>suffix</code> to the remaining bytes of <code>value</code>\n(i.e., all bytes after the first)."
+        },
+        {
+          "html": "If <code>prefixByte</code> is <code>0x7a</code> (<code>'z'</code>):",
+          "rationale": "return",
+          "steps": [
+            {
+              "html": "Return the concatenation of <code>\"z\"</code> and the base58btc encoding\nof <code>suffix</code>."
+            }
+          ]
+        },
+        {
+          "html": "If <code>prefixByte</code> is <code>0x75</code> (<code>'u'</code>):",
+          "rationale": "return",
+          "steps": [
+            {
+              "html": "Return the concatenation of <code>\"u\"</code> and the base64url encoding\n(no padding) of <code>suffix</code>."
+            }
+          ]
+        },
+        {
+          "html": "If <code>prefixByte</code> is <code>0x4d</code> (<code>'M'</code>):",
+          "rationale": "return",
+          "steps": [
+            {
+              "html": "Return the concatenation of <code>\"M\"</code> and the base64pad encoding\nof <code>suffix</code>."
+            }
+          ]
+        },
+        {
+          "html": "Otherwise, return <code>value</code>."
+        }
+      ]
+    },
+    {
+      "rationale": "set",
+      "steps": [
+        {
+          "html": "Set <code>registryEntryBytes</code> to the CBOR encoding of <code>registryEntryID</code>"
+        },
+        {
+          "html": "Set <code>prefix</code> to the result of appending <code>registryEntryBytes</code> to the end\nof the bytestring <code>0xD9CB1D82</code>."
+        },
+        {
+          "html": "Return <code>prefix</code>."
+        }
+      ]
+    },
+    {
+      "html": "This algorithm takes an encoded CBOR-LD payload <code>cborldBytes</code> as input, and returns\n<code>suffix</code>, the main data to be decoded, as well as the <code>registryEntryId</code> value that\nshould be used to decompress <code>suffix</code>.",
+      "rationale": "if",
+      "steps": [
+        {
+          "html": "If the CBOR tag on <code>cborldbytes</code> is not <code>0xCB1D</code> (tag value 51997),\nthrow an <code>ERR_NON_CBOR_LD_TAG</code> error."
+        },
+        {
+          "html": "If the tagged item is not an array of two elements where the first is a CBOR integer,\nthrow an <code>ERR_INVALID_PAYLOAD_STRUCTURE</code> error."
+        },
+        {
+          "html": "Set the value of <code>registryEntryId</code> to the value of the integer at index 0 of the tagged\narray."
+        },
+        {
+          "html": "Set the value of <code>suffix</code> to the value of the second element of the array."
+        },
+        {
+          "html": "Set <code>result</code> to be an empty map."
+        },
+        {
+          "html": "Set <code>result</code>.<code>suffix</code> to the value of <code>suffix</code> and <code>result</code>.<code>registryEntryId</code> to\nthe value of <code>registryEntryId</code>."
+        },
+        {
+          "html": "Return <code>result</code>."
+        }
+      ]
+    }
+  ]
+}

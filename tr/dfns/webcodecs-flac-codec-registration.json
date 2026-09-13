@@ -23,7 +23,8 @@
         "title": "AudioEncoderConfig extensions",
         "number": "5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dictdef-flacencoderconfig",
@@ -42,7 +43,8 @@
         "title": "FlacEncoderConfig",
         "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-flacencoderconfig-blocksize",
@@ -58,11 +60,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webcodecs-flac-codec-registration/#title",
-        "title": "FLAC WebCodecs Registration"
+        "id": "flac-encoder-config",
+        "href": "https://www.w3.org/TR/webcodecs-flac-codec-registration/#flac-encoder-config",
+        "title": "FlacEncoderConfig",
+        "number": "5.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-flacencoderconfig-compresslevel",
@@ -78,11 +82,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/webcodecs-flac-codec-registration/#title",
-        "title": "FLAC WebCodecs Registration"
+        "id": "flac-encoder-config",
+        "href": "https://www.w3.org/TR/webcodecs-flac-codec-registration/#flac-encoder-config",
+        "title": "FlacEncoderConfig",
+        "number": "5.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     }
   ]
 }

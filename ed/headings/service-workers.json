@@ -26,7 +26,10 @@
       "id": "toc",
       "href": "https://w3c.github.io/ServiceWorker/#toc",
       "level": 2,
-      "title": "Table of Contents"
+      "title": "Table of Contents",
+      "alternateIds": [
+        "contents"
+      ]
     },
     {
       "id": "motivations",
@@ -996,8 +999,8 @@
       "title": "Try Activate"
     },
     {
-      "id": "setup-serviceworkerglobalscope",
-      "href": "https://w3c.github.io/ServiceWorker/#setup-serviceworkerglobalscope",
+      "id": "setup-serviceworkerglobalscope-algorithm",
+      "href": "https://w3c.github.io/ServiceWorker/#setup-serviceworkerglobalscope-algorithm",
       "level": 3,
       "title": "Setup ServiceWorkerGlobalScope"
     },
@@ -1048,6 +1051,18 @@
       "href": "https://w3c.github.io/ServiceWorker/#match-router-condition-algorithm",
       "level": 3,
       "title": "Match Router Condition"
+    },
+    {
+      "id": "check-router-registration-limit-algorithm",
+      "href": "https://w3c.github.io/ServiceWorker/#check-router-registration-limit-algorithm",
+      "level": 3,
+      "title": "Check Router Registration Limit"
+    },
+    {
+      "id": "count-router-inner-conditions-algorithm",
+      "href": "https://w3c.github.io/ServiceWorker/#count-router-inner-conditions-algorithm",
+      "level": 3,
+      "title": "Count Router Inner Conditions"
     },
     {
       "id": "get-router-source-algorithm",
@@ -1289,7 +1304,7 @@
       "id": "informative",
       "href": "https://w3c.github.io/ServiceWorker/#informative",
       "level": 3,
-      "title": "Informative References"
+      "title": "Non-Normative References"
     },
     {
       "id": "idl-index",

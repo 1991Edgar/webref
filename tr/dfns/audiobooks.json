@@ -20,7 +20,8 @@
         "href": "https://www.w3.org/TR/audiobooks/#abstract",
         "title": "Abstract"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-file-name",
@@ -38,9 +39,13 @@
         "id": "audio-terminology",
         "href": "https://www.w3.org/TR/audiobooks/#audio-terminology",
         "title": "Terminology",
+        "alternateIds": [
+          "x2-terminology"
+        ],
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-primary-entry-page",
@@ -57,9 +62,13 @@
         "id": "audio-pep",
         "href": "https://www.w3.org/TR/audiobooks/#audio-pep",
         "title": "Primary Entry Page",
+        "alternateIds": [
+          "x4-1-primary-entry-page"
+        ],
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-publication-type",
@@ -76,9 +85,13 @@
         "id": "audio-type",
         "href": "https://www.w3.org/TR/audiobooks/#audio-type",
         "title": "Publication Type",
+        "alternateIds": [
+          "x5-5-publication-type"
+        ],
         "number": "5.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-creator",
@@ -95,9 +108,13 @@
         "id": "audio-creators",
         "href": "https://www.w3.org/TR/audiobooks/#audio-creators",
         "title": "Creators",
+        "alternateIds": [
+          "x5-6-1-creators"
+        ],
         "number": "5.6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-duration",
@@ -114,28 +131,13 @@
         "id": "audio-duration",
         "href": "https://www.w3.org/TR/audiobooks/#audio-duration",
         "title": "Duration",
+        "alternateIds": [
+          "x5-6-2-duration"
+        ],
         "number": "5.6.2"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-default-reading-order",
-      "href": "https://www.w3.org/TR/audiobooks/#dfn-default-reading-order",
-      "linkingText": [
-        "default reading order"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "audio-readingorder",
-        "href": "https://www.w3.org/TR/audiobooks/#audio-readingorder",
-        "title": "Default Reading Order",
-        "number": "5.7"
-      },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-resource-list",
@@ -152,9 +154,13 @@
         "id": "audio-resourcelist",
         "href": "https://www.w3.org/TR/audiobooks/#audio-resourcelist",
         "title": "Resource List",
+        "alternateIds": [
+          "x5-8-resource-list"
+        ],
         "number": "5.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

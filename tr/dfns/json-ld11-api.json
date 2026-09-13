@@ -19,9 +19,13 @@
         "id": "typographical-conventions",
         "href": "https://www.w3.org/TR/json-ld11-api/#typographical-conventions",
         "title": "Typographical conventions",
+        "alternateIds": [
+          "x1-3-typographical-conventions"
+        ],
         "number": "1.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-internal-representation",
@@ -40,7 +44,8 @@
         "href": "https://www.w3.org/TR/json-ld11-api/#json-ld-specific-term-definitions",
         "title": "JSON-LD Specific Term Definitions"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-json-ld-processor",
@@ -60,7 +65,8 @@
         "href": "https://www.w3.org/TR/json-ld11-api/#json-ld-specific-term-definitions",
         "title": "JSON-LD Specific Term Definitions"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-active-graph",
@@ -77,9 +83,13 @@
         "id": "algorithm-terms",
         "href": "https://www.w3.org/TR/json-ld11-api/#algorithm-terms",
         "title": "Algorithm Terms",
+        "alternateIds": [
+          "x1-4-1-algorithm-terms"
+        ],
         "number": "1.4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-active-property",
@@ -96,9 +106,13 @@
         "id": "algorithm-terms",
         "href": "https://www.w3.org/TR/json-ld11-api/#algorithm-terms",
         "title": "Algorithm Terms",
+        "alternateIds": [
+          "x1-4-1-algorithm-terms"
+        ],
         "number": "1.4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-add-value",
@@ -115,9 +129,13 @@
         "id": "algorithm-terms",
         "href": "https://www.w3.org/TR/json-ld11-api/#algorithm-terms",
         "title": "Algorithm Terms",
+        "alternateIds": [
+          "x1-4-1-algorithm-terms"
+        ],
         "number": "1.4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-iri-compacting",
@@ -134,9 +152,13 @@
         "id": "algorithm-terms",
         "href": "https://www.w3.org/TR/json-ld11-api/#algorithm-terms",
         "title": "Algorithm Terms",
+        "alternateIds": [
+          "x1-4-1-algorithm-terms"
+        ],
         "number": "1.4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-iri-expanding",
@@ -153,9 +175,13 @@
         "id": "algorithm-terms",
         "href": "https://www.w3.org/TR/json-ld11-api/#algorithm-terms",
         "title": "Algorithm Terms",
+        "alternateIds": [
+          "x1-4-1-algorithm-terms"
+        ],
         "number": "1.4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-json-ld-input",
@@ -172,9 +198,13 @@
         "id": "algorithm-terms",
         "href": "https://www.w3.org/TR/json-ld11-api/#algorithm-terms",
         "title": "Algorithm Terms",
+        "alternateIds": [
+          "x1-4-1-algorithm-terms"
+        ],
         "number": "1.4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-expanded",
@@ -193,9 +223,13 @@
         "id": "expansion",
         "href": "https://www.w3.org/TR/json-ld11-api/#expansion",
         "title": "Expansion",
+        "alternateIds": [
+          "x2-1-expansion"
+        ],
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-compact",
@@ -216,9 +250,13 @@
         "id": "compaction",
         "href": "https://www.w3.org/TR/json-ld11-api/#compaction",
         "title": "Compaction",
+        "alternateIds": [
+          "x2-2-compaction"
+        ],
         "number": "2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-flattened",
@@ -236,9 +274,13 @@
         "id": "flattening",
         "href": "https://www.w3.org/TR/json-ld11-api/#flattening",
         "title": "Flattening",
+        "alternateIds": [
+          "x2-3-flattening"
+        ],
         "number": "2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-rdf-serializers-deserializers",
@@ -256,9 +298,13 @@
         "id": "conformance",
         "href": "https://www.w3.org/TR/json-ld11-api/#conformance",
         "title": "Conformance",
+        "alternateIds": [
+          "x3-conformance"
+        ],
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-context-base-iri",
@@ -275,9 +321,13 @@
         "id": "context-processing-algorithm",
         "href": "https://www.w3.org/TR/json-ld11-api/#context-processing-algorithm",
         "title": "Context Processing Algorithm",
+        "alternateIds": [
+          "x4-1-context-processing-algorithm"
+        ],
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-original-base-url",
@@ -294,9 +344,13 @@
         "id": "context-processing-algorithm",
         "href": "https://www.w3.org/TR/json-ld11-api/#context-processing-algorithm",
         "title": "Context Processing Algorithm",
+        "alternateIds": [
+          "x4-1-context-processing-algorithm"
+        ],
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-context-inverse",
@@ -313,9 +367,13 @@
         "id": "context-processing-algorithm",
         "href": "https://www.w3.org/TR/json-ld11-api/#context-processing-algorithm",
         "title": "Context Processing Algorithm",
+        "alternateIds": [
+          "x4-1-context-processing-algorithm"
+        ],
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-previous-context",
@@ -332,9 +390,13 @@
         "id": "context-processing-algorithm",
         "href": "https://www.w3.org/TR/json-ld11-api/#context-processing-algorithm",
         "title": "Context Processing Algorithm",
+        "alternateIds": [
+          "x4-1-context-processing-algorithm"
+        ],
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-iri-mapping",
@@ -351,9 +413,13 @@
         "id": "context-processing-algorithm",
         "href": "https://www.w3.org/TR/json-ld11-api/#context-processing-algorithm",
         "title": "Context Processing Algorithm",
+        "alternateIds": [
+          "x4-1-context-processing-algorithm"
+        ],
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-prefix-flag",
@@ -370,9 +436,13 @@
         "id": "context-processing-algorithm",
         "href": "https://www.w3.org/TR/json-ld11-api/#context-processing-algorithm",
         "title": "Context Processing Algorithm",
+        "alternateIds": [
+          "x4-1-context-processing-algorithm"
+        ],
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-protected",
@@ -389,9 +459,13 @@
         "id": "context-processing-algorithm",
         "href": "https://www.w3.org/TR/json-ld11-api/#context-processing-algorithm",
         "title": "Context Processing Algorithm",
+        "alternateIds": [
+          "x4-1-context-processing-algorithm"
+        ],
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-reverse-property",
@@ -408,9 +482,13 @@
         "id": "context-processing-algorithm",
         "href": "https://www.w3.org/TR/json-ld11-api/#context-processing-algorithm",
         "title": "Context Processing Algorithm",
+        "alternateIds": [
+          "x4-1-context-processing-algorithm"
+        ],
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-base-url",
@@ -427,9 +505,13 @@
         "id": "context-processing-algorithm",
         "href": "https://www.w3.org/TR/json-ld11-api/#context-processing-algorithm",
         "title": "Context Processing Algorithm",
+        "alternateIds": [
+          "x4-1-context-processing-algorithm"
+        ],
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-container-mapping",
@@ -446,9 +528,13 @@
         "id": "context-processing-algorithm",
         "href": "https://www.w3.org/TR/json-ld11-api/#context-processing-algorithm",
         "title": "Context Processing Algorithm",
+        "alternateIds": [
+          "x4-1-context-processing-algorithm"
+        ],
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-direction-mapping",
@@ -465,9 +551,13 @@
         "id": "context-processing-algorithm",
         "href": "https://www.w3.org/TR/json-ld11-api/#context-processing-algorithm",
         "title": "Context Processing Algorithm",
+        "alternateIds": [
+          "x4-1-context-processing-algorithm"
+        ],
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-index-mapping",
@@ -484,9 +574,13 @@
         "id": "context-processing-algorithm",
         "href": "https://www.w3.org/TR/json-ld11-api/#context-processing-algorithm",
         "title": "Context Processing Algorithm",
+        "alternateIds": [
+          "x4-1-context-processing-algorithm"
+        ],
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-language-mapping",
@@ -503,9 +597,13 @@
         "id": "context-processing-algorithm",
         "href": "https://www.w3.org/TR/json-ld11-api/#context-processing-algorithm",
         "title": "Context Processing Algorithm",
+        "alternateIds": [
+          "x4-1-context-processing-algorithm"
+        ],
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-nest-value",
@@ -522,9 +620,13 @@
         "id": "context-processing-algorithm",
         "href": "https://www.w3.org/TR/json-ld11-api/#context-processing-algorithm",
         "title": "Context Processing Algorithm",
+        "alternateIds": [
+          "x4-1-context-processing-algorithm"
+        ],
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-type-mapping",
@@ -541,9 +643,13 @@
         "id": "context-processing-algorithm",
         "href": "https://www.w3.org/TR/json-ld11-api/#context-processing-algorithm",
         "title": "Context Processing Algorithm",
+        "alternateIds": [
+          "x4-1-context-processing-algorithm"
+        ],
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-keyword-alias",
@@ -560,9 +666,13 @@
         "id": "context-processing-algorithm",
         "href": "https://www.w3.org/TR/json-ld11-api/#context-processing-algorithm",
         "title": "Context Processing Algorithm",
+        "alternateIds": [
+          "x4-1-context-processing-algorithm"
+        ],
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-inverse-context",
@@ -579,9 +689,13 @@
         "id": "inverse-context-creation",
         "href": "https://www.w3.org/TR/json-ld11-api/#inverse-context-creation",
         "title": "Inverse Context Creation",
+        "alternateIds": [
+          "x4-3-inverse-context-creation"
+        ],
         "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-expanded-form",
@@ -598,9 +712,13 @@
         "id": "value-expansion",
         "href": "https://www.w3.org/TR/json-ld11-api/#value-expansion",
         "title": "Value Expansion",
+        "alternateIds": [
+          "x5-3-value-expansion"
+        ],
         "number": "5.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-compact-form",
@@ -618,9 +736,13 @@
         "id": "value-compaction",
         "href": "https://www.w3.org/TR/json-ld11-api/#value-compaction",
         "title": "Value Compaction",
+        "alternateIds": [
+          "x6-3-value-compaction"
+        ],
         "number": "6.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-well-formed",
@@ -637,28 +759,13 @@
         "id": "deserialize-json-ld-to-rdf-algorithm",
         "href": "https://www.w3.org/TR/json-ld11-api/#deserialize-json-ld-to-rdf-algorithm",
         "title": "Deserialize JSON-LD to RDF Algorithm",
+        "alternateIds": [
+          "x8-1-deserialize-json-ld-to-rdf-algorithm"
+        ],
         "number": "8.1"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-lexical-form",
-      "href": "https://www.w3.org/TR/json-ld11-api/#dfn-lexical-form",
-      "linkingText": [
-        "lexical form"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "serialize-rdf-as-json-ld-algorithm",
-        "href": "https://www.w3.org/TR/json-ld11-api/#serialize-rdf-as-json-ld-algorithm",
-        "title": "Serialize RDF as JSON-LD Algorithm",
-        "number": "8.4"
-      },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-canonical-lexical-form",
@@ -675,9 +782,13 @@
         "id": "data-round-tripping",
         "href": "https://www.w3.org/TR/json-ld11-api/#data-round-tripping",
         "title": "Data Round Tripping",
+        "alternateIds": [
+          "x8-6-data-round-tripping"
+        ],
         "number": "8.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-jsonldprocessor",
@@ -694,9 +805,13 @@
         "id": "the-jsonldprocessor-interface",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldprocessor-interface",
         "title": "The JsonLdProcessor Interface",
+        "alternateIds": [
+          "x9-1-the-jsonldprocessor-interface"
+        ],
         "number": "9.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-jsonld",
@@ -715,9 +830,13 @@
         "id": "the-jsonldprocessor-interface",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldprocessor-interface",
         "title": "The JsonLdProcessor Interface",
+        "alternateIds": [
+          "x9-1-the-jsonldprocessor-interface"
+        ],
         "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-jsonldprocessor-constructor",
@@ -740,9 +859,13 @@
         "id": "the-jsonldprocessor-interface",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldprocessor-interface",
         "title": "The JsonLdProcessor Interface",
+        "alternateIds": [
+          "x9-1-the-jsonldprocessor-interface"
+        ],
         "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-jsonldprocessor-compact",
@@ -768,9 +891,13 @@
         "id": "the-jsonldprocessor-interface",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldprocessor-interface",
         "title": "The JsonLdProcessor Interface",
+        "alternateIds": [
+          "x9-1-the-jsonldprocessor-interface"
+        ],
         "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-jsonldprocessor-compact-input",
@@ -787,9 +914,13 @@
         "id": "the-jsonldprocessor-interface",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldprocessor-interface",
         "title": "The JsonLdProcessor Interface",
+        "alternateIds": [
+          "x9-1-the-jsonldprocessor-interface"
+        ],
         "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-jsonldprocessor-compact-context",
@@ -806,9 +937,13 @@
         "id": "the-jsonldprocessor-interface",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldprocessor-interface",
         "title": "The JsonLdProcessor Interface",
+        "alternateIds": [
+          "x9-1-the-jsonldprocessor-interface"
+        ],
         "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-jsonldprocessor-compact-options",
@@ -825,9 +960,13 @@
         "id": "the-jsonldprocessor-interface",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldprocessor-interface",
         "title": "The JsonLdProcessor Interface",
+        "alternateIds": [
+          "x9-1-the-jsonldprocessor-interface"
+        ],
         "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonldprocessor-expand",
@@ -852,9 +991,13 @@
         "id": "the-jsonldprocessor-interface",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldprocessor-interface",
         "title": "The JsonLdProcessor Interface",
+        "alternateIds": [
+          "x9-1-the-jsonldprocessor-interface"
+        ],
         "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-jsonldprocessor-expand-input",
@@ -871,9 +1014,13 @@
         "id": "the-jsonldprocessor-interface",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldprocessor-interface",
         "title": "The JsonLdProcessor Interface",
+        "alternateIds": [
+          "x9-1-the-jsonldprocessor-interface"
+        ],
         "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-jsonldprocessor-expand-options",
@@ -890,9 +1037,13 @@
         "id": "the-jsonldprocessor-interface",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldprocessor-interface",
         "title": "The JsonLdProcessor Interface",
+        "alternateIds": [
+          "x9-1-the-jsonldprocessor-interface"
+        ],
         "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonldprocessor-flatten",
@@ -918,9 +1069,13 @@
         "id": "the-jsonldprocessor-interface",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldprocessor-interface",
         "title": "The JsonLdProcessor Interface",
+        "alternateIds": [
+          "x9-1-the-jsonldprocessor-interface"
+        ],
         "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-jsonldprocessor-flatten-input",
@@ -937,9 +1092,13 @@
         "id": "the-jsonldprocessor-interface",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldprocessor-interface",
         "title": "The JsonLdProcessor Interface",
+        "alternateIds": [
+          "x9-1-the-jsonldprocessor-interface"
+        ],
         "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-jsonldprocessor-flatten-context",
@@ -956,9 +1115,13 @@
         "id": "the-jsonldprocessor-interface",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldprocessor-interface",
         "title": "The JsonLdProcessor Interface",
+        "alternateIds": [
+          "x9-1-the-jsonldprocessor-interface"
+        ],
         "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-jsonldprocessor-flatten-options",
@@ -975,9 +1138,13 @@
         "id": "the-jsonldprocessor-interface",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldprocessor-interface",
         "title": "The JsonLdProcessor Interface",
+        "alternateIds": [
+          "x9-1-the-jsonldprocessor-interface"
+        ],
         "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonldprocessor-fromrdf",
@@ -1002,9 +1169,13 @@
         "id": "the-jsonldprocessor-interface",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldprocessor-interface",
         "title": "The JsonLdProcessor Interface",
+        "alternateIds": [
+          "x9-1-the-jsonldprocessor-interface"
+        ],
         "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-jsonldprocessor-fromrdf-input",
@@ -1021,9 +1192,13 @@
         "id": "the-jsonldprocessor-interface",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldprocessor-interface",
         "title": "The JsonLdProcessor Interface",
+        "alternateIds": [
+          "x9-1-the-jsonldprocessor-interface"
+        ],
         "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-jsonldprocessor-fromrdf-options",
@@ -1040,9 +1215,13 @@
         "id": "the-jsonldprocessor-interface",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldprocessor-interface",
         "title": "The JsonLdProcessor Interface",
+        "alternateIds": [
+          "x9-1-the-jsonldprocessor-interface"
+        ],
         "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonldprocessor-tordf",
@@ -1067,9 +1246,13 @@
         "id": "the-jsonldprocessor-interface",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldprocessor-interface",
         "title": "The JsonLdProcessor Interface",
+        "alternateIds": [
+          "x9-1-the-jsonldprocessor-interface"
+        ],
         "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-jsonldprocessor-tordf-input",
@@ -1086,9 +1269,13 @@
         "id": "the-jsonldprocessor-interface",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldprocessor-interface",
         "title": "The JsonLdProcessor Interface",
+        "alternateIds": [
+          "x9-1-the-jsonldprocessor-interface"
+        ],
         "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-jsonldprocessor-tordf-options",
@@ -1105,9 +1292,13 @@
         "id": "the-jsonldprocessor-interface",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldprocessor-interface",
         "title": "The JsonLdProcessor Interface",
+        "alternateIds": [
+          "x9-1-the-jsonldprocessor-interface"
+        ],
         "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonldrecord",
@@ -1124,9 +1315,13 @@
         "id": "the-jsonldprocessor-interface",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldprocessor-interface",
         "title": "The JsonLdProcessor Interface",
+        "alternateIds": [
+          "x9-1-the-jsonldprocessor-interface"
+        ],
         "number": "9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-jsonldinput",
@@ -1143,9 +1338,13 @@
         "id": "the-jsonldprocessor-interface",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldprocessor-interface",
         "title": "The JsonLdProcessor Interface",
+        "alternateIds": [
+          "x9-1-the-jsonldprocessor-interface"
+        ],
         "number": "9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-jsonldcontext",
@@ -1162,9 +1361,13 @@
         "id": "the-jsonldprocessor-interface",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldprocessor-interface",
         "title": "The JsonLdProcessor Interface",
+        "alternateIds": [
+          "x9-1-the-jsonldprocessor-interface"
+        ],
         "number": "9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-rdfdataset",
@@ -1181,9 +1384,13 @@
         "id": "rdf-dataset-interfaces",
         "href": "https://www.w3.org/TR/json-ld11-api/#rdf-dataset-interfaces",
         "title": "RDF Dataset Interfaces",
+        "alternateIds": [
+          "x9-2-rdf-dataset-interfaces"
+        ],
         "number": "9.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-rdfdataset-constructor",
@@ -1206,9 +1413,13 @@
         "id": "rdf-dataset-interfaces",
         "href": "https://www.w3.org/TR/json-ld11-api/#rdf-dataset-interfaces",
         "title": "RDF Dataset Interfaces",
+        "alternateIds": [
+          "x9-2-rdf-dataset-interfaces"
+        ],
         "number": "9.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-rdfdataset-add",
@@ -1232,9 +1443,13 @@
         "id": "rdf-dataset-interfaces",
         "href": "https://www.w3.org/TR/json-ld11-api/#rdf-dataset-interfaces",
         "title": "RDF Dataset Interfaces",
+        "alternateIds": [
+          "x9-2-rdf-dataset-interfaces"
+        ],
         "number": "9.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-rdfdataset-add-graphname",
@@ -1251,9 +1466,13 @@
         "id": "rdf-dataset-interfaces",
         "href": "https://www.w3.org/TR/json-ld11-api/#rdf-dataset-interfaces",
         "title": "RDF Dataset Interfaces",
+        "alternateIds": [
+          "x9-2-rdf-dataset-interfaces"
+        ],
         "number": "9.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-rdfdataset-add-graph",
@@ -1270,9 +1489,13 @@
         "id": "rdf-dataset-interfaces",
         "href": "https://www.w3.org/TR/json-ld11-api/#rdf-dataset-interfaces",
         "title": "RDF Dataset Interfaces",
+        "alternateIds": [
+          "x9-2-rdf-dataset-interfaces"
+        ],
         "number": "9.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rdfdataset-defaultgraph",
@@ -1293,9 +1516,13 @@
         "id": "rdf-dataset-interfaces",
         "href": "https://www.w3.org/TR/json-ld11-api/#rdf-dataset-interfaces",
         "title": "RDF Dataset Interfaces",
+        "alternateIds": [
+          "x9-2-rdf-dataset-interfaces"
+        ],
         "number": "9.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-iterable",
@@ -1314,9 +1541,13 @@
         "id": "rdf-dataset-interfaces",
         "href": "https://www.w3.org/TR/json-ld11-api/#rdf-dataset-interfaces",
         "title": "RDF Dataset Interfaces",
+        "alternateIds": [
+          "x9-2-rdf-dataset-interfaces"
+        ],
         "number": "9.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rdfgraph",
@@ -1333,9 +1564,13 @@
         "id": "rdf-dataset-interfaces",
         "href": "https://www.w3.org/TR/json-ld11-api/#rdf-dataset-interfaces",
         "title": "RDF Dataset Interfaces",
+        "alternateIds": [
+          "x9-2-rdf-dataset-interfaces"
+        ],
         "number": "9.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-rdfgraph-constructor",
@@ -1358,9 +1593,13 @@
         "id": "rdf-dataset-interfaces",
         "href": "https://www.w3.org/TR/json-ld11-api/#rdf-dataset-interfaces",
         "title": "RDF Dataset Interfaces",
+        "alternateIds": [
+          "x9-2-rdf-dataset-interfaces"
+        ],
         "number": "9.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-rdfgraph-add",
@@ -1384,9 +1623,13 @@
         "id": "rdf-dataset-interfaces",
         "href": "https://www.w3.org/TR/json-ld11-api/#rdf-dataset-interfaces",
         "title": "RDF Dataset Interfaces",
+        "alternateIds": [
+          "x9-2-rdf-dataset-interfaces"
+        ],
         "number": "9.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-rdfgraph-add-triple",
@@ -1403,9 +1646,13 @@
         "id": "rdf-dataset-interfaces",
         "href": "https://www.w3.org/TR/json-ld11-api/#rdf-dataset-interfaces",
         "title": "RDF Dataset Interfaces",
+        "alternateIds": [
+          "x9-2-rdf-dataset-interfaces"
+        ],
         "number": "9.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-iterable-0",
@@ -1424,9 +1671,13 @@
         "id": "rdf-dataset-interfaces",
         "href": "https://www.w3.org/TR/json-ld11-api/#rdf-dataset-interfaces",
         "title": "RDF Dataset Interfaces",
+        "alternateIds": [
+          "x9-2-rdf-dataset-interfaces"
+        ],
         "number": "9.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rdftriple",
@@ -1443,9 +1694,13 @@
         "id": "rdf-dataset-interfaces",
         "href": "https://www.w3.org/TR/json-ld11-api/#rdf-dataset-interfaces",
         "title": "RDF Dataset Interfaces",
+        "alternateIds": [
+          "x9-2-rdf-dataset-interfaces"
+        ],
         "number": "9.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-rdftriple-constructor",
@@ -1468,9 +1723,13 @@
         "id": "rdf-dataset-interfaces",
         "href": "https://www.w3.org/TR/json-ld11-api/#rdf-dataset-interfaces",
         "title": "RDF Dataset Interfaces",
+        "alternateIds": [
+          "x9-2-rdf-dataset-interfaces"
+        ],
         "number": "9.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-rdftriple-subject",
@@ -1491,9 +1750,13 @@
         "id": "rdf-dataset-interfaces",
         "href": "https://www.w3.org/TR/json-ld11-api/#rdf-dataset-interfaces",
         "title": "RDF Dataset Interfaces",
+        "alternateIds": [
+          "x9-2-rdf-dataset-interfaces"
+        ],
         "number": "9.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rdftriple-predicate",
@@ -1514,9 +1777,13 @@
         "id": "rdf-dataset-interfaces",
         "href": "https://www.w3.org/TR/json-ld11-api/#rdf-dataset-interfaces",
         "title": "RDF Dataset Interfaces",
+        "alternateIds": [
+          "x9-2-rdf-dataset-interfaces"
+        ],
         "number": "9.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rdftriple-object",
@@ -1537,9 +1804,13 @@
         "id": "rdf-dataset-interfaces",
         "href": "https://www.w3.org/TR/json-ld11-api/#rdf-dataset-interfaces",
         "title": "RDF Dataset Interfaces",
+        "alternateIds": [
+          "x9-2-rdf-dataset-interfaces"
+        ],
         "number": "9.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rdfliteral",
@@ -1556,9 +1827,13 @@
         "id": "rdf-dataset-interfaces",
         "href": "https://www.w3.org/TR/json-ld11-api/#rdf-dataset-interfaces",
         "title": "RDF Dataset Interfaces",
+        "alternateIds": [
+          "x9-2-rdf-dataset-interfaces"
+        ],
         "number": "9.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-rdfliteral-constructor",
@@ -1581,9 +1856,13 @@
         "id": "rdf-dataset-interfaces",
         "href": "https://www.w3.org/TR/json-ld11-api/#rdf-dataset-interfaces",
         "title": "RDF Dataset Interfaces",
+        "alternateIds": [
+          "x9-2-rdf-dataset-interfaces"
+        ],
         "number": "9.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-rdfliteral-value",
@@ -1604,9 +1883,13 @@
         "id": "rdf-dataset-interfaces",
         "href": "https://www.w3.org/TR/json-ld11-api/#rdf-dataset-interfaces",
         "title": "RDF Dataset Interfaces",
+        "alternateIds": [
+          "x9-2-rdf-dataset-interfaces"
+        ],
         "number": "9.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rdfliteral-datatype",
@@ -1627,9 +1910,13 @@
         "id": "rdf-dataset-interfaces",
         "href": "https://www.w3.org/TR/json-ld11-api/#rdf-dataset-interfaces",
         "title": "RDF Dataset Interfaces",
+        "alternateIds": [
+          "x9-2-rdf-dataset-interfaces"
+        ],
         "number": "9.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-rdfliteral-language",
@@ -1650,9 +1937,13 @@
         "id": "rdf-dataset-interfaces",
         "href": "https://www.w3.org/TR/json-ld11-api/#rdf-dataset-interfaces",
         "title": "RDF Dataset Interfaces",
+        "alternateIds": [
+          "x9-2-rdf-dataset-interfaces"
+        ],
         "number": "9.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonldoptions",
@@ -1669,9 +1960,13 @@
         "id": "the-jsonldoptions-type",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldoptions-type",
         "title": "The JsonLdOptions Type",
+        "alternateIds": [
+          "x9-3-the-jsonldoptions-type"
+        ],
         "number": "9.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-jsonldoptions-base",
@@ -1690,9 +1985,13 @@
         "id": "the-jsonldoptions-type",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldoptions-type",
         "title": "The JsonLdOptions Type",
+        "alternateIds": [
+          "x9-3-the-jsonldoptions-type"
+        ],
         "number": "9.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonldoptions-compactarrays",
@@ -1711,9 +2010,13 @@
         "id": "the-jsonldoptions-type",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldoptions-type",
         "title": "The JsonLdOptions Type",
+        "alternateIds": [
+          "x9-3-the-jsonldoptions-type"
+        ],
         "number": "9.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonldoptions-compacttorelative",
@@ -1732,9 +2035,13 @@
         "id": "the-jsonldoptions-type",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldoptions-type",
         "title": "The JsonLdOptions Type",
+        "alternateIds": [
+          "x9-3-the-jsonldoptions-type"
+        ],
         "number": "9.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonldoptions-documentloader",
@@ -1753,9 +2060,13 @@
         "id": "the-jsonldoptions-type",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldoptions-type",
         "title": "The JsonLdOptions Type",
+        "alternateIds": [
+          "x9-3-the-jsonldoptions-type"
+        ],
         "number": "9.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonldoptions-expandcontext",
@@ -1774,9 +2085,13 @@
         "id": "the-jsonldoptions-type",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldoptions-type",
         "title": "The JsonLdOptions Type",
+        "alternateIds": [
+          "x9-3-the-jsonldoptions-type"
+        ],
         "number": "9.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonldoptions-extractallscripts",
@@ -1795,9 +2110,13 @@
         "id": "the-jsonldoptions-type",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldoptions-type",
         "title": "The JsonLdOptions Type",
+        "alternateIds": [
+          "x9-3-the-jsonldoptions-type"
+        ],
         "number": "9.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonldoptions-frameexpansion",
@@ -1816,9 +2135,13 @@
         "id": "the-jsonldoptions-type",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldoptions-type",
         "title": "The JsonLdOptions Type",
+        "alternateIds": [
+          "x9-3-the-jsonldoptions-type"
+        ],
         "number": "9.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonldoptions-ordered",
@@ -1837,9 +2160,13 @@
         "id": "the-jsonldoptions-type",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldoptions-type",
         "title": "The JsonLdOptions Type",
+        "alternateIds": [
+          "x9-3-the-jsonldoptions-type"
+        ],
         "number": "9.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonldoptions-processingmode",
@@ -1858,9 +2185,13 @@
         "id": "the-jsonldoptions-type",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldoptions-type",
         "title": "The JsonLdOptions Type",
+        "alternateIds": [
+          "x9-3-the-jsonldoptions-type"
+        ],
         "number": "9.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonldoptions-producegeneralizedrdf",
@@ -1879,9 +2210,13 @@
         "id": "the-jsonldoptions-type",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldoptions-type",
         "title": "The JsonLdOptions Type",
+        "alternateIds": [
+          "x9-3-the-jsonldoptions-type"
+        ],
         "number": "9.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonldoptions-rdfdirection",
@@ -1900,9 +2235,13 @@
         "id": "the-jsonldoptions-type",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldoptions-type",
         "title": "The JsonLdOptions Type",
+        "alternateIds": [
+          "x9-3-the-jsonldoptions-type"
+        ],
         "number": "9.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonldoptions-usenativetypes",
@@ -1921,9 +2260,13 @@
         "id": "the-jsonldoptions-type",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldoptions-type",
         "title": "The JsonLdOptions Type",
+        "alternateIds": [
+          "x9-3-the-jsonldoptions-type"
+        ],
         "number": "9.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonldoptions-userdftype",
@@ -1942,9 +2285,13 @@
         "id": "the-jsonldoptions-type",
         "href": "https://www.w3.org/TR/json-ld11-api/#the-jsonldoptions-type",
         "title": "The JsonLdOptions Type",
+        "alternateIds": [
+          "x9-3-the-jsonldoptions-type"
+        ],
         "number": "9.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-loaddocumentcallback",
@@ -1961,9 +2308,13 @@
         "id": "loaddocumentcallback",
         "href": "https://www.w3.org/TR/json-ld11-api/#loaddocumentcallback",
         "title": "LoadDocumentCallback",
+        "alternateIds": [
+          "x9-4-1-loaddocumentcallback"
+        ],
         "number": "9.4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-url",
@@ -1982,9 +2333,13 @@
         "id": "loaddocumentcallback",
         "href": "https://www.w3.org/TR/json-ld11-api/#loaddocumentcallback",
         "title": "LoadDocumentCallback",
+        "alternateIds": [
+          "x9-4-1-loaddocumentcallback"
+        ],
         "number": "9.4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-loaddocumentcallback-options",
@@ -2001,9 +2356,13 @@
         "id": "loaddocumentcallback",
         "href": "https://www.w3.org/TR/json-ld11-api/#loaddocumentcallback",
         "title": "LoadDocumentCallback",
+        "alternateIds": [
+          "x9-4-1-loaddocumentcallback"
+        ],
         "number": "9.4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-loaddocumentoptions",
@@ -2020,9 +2379,13 @@
         "id": "loaddocumentoptions",
         "href": "https://www.w3.org/TR/json-ld11-api/#loaddocumentoptions",
         "title": "LoadDocumentOptions",
+        "alternateIds": [
+          "x9-4-2-loaddocumentoptions"
+        ],
         "number": "9.4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-loaddocumentoptions-extractallscripts",
@@ -2041,9 +2404,13 @@
         "id": "loaddocumentoptions",
         "href": "https://www.w3.org/TR/json-ld11-api/#loaddocumentoptions",
         "title": "LoadDocumentOptions",
+        "alternateIds": [
+          "x9-4-2-loaddocumentoptions"
+        ],
         "number": "9.4.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-loaddocumentoptions-profile",
@@ -2062,9 +2429,13 @@
         "id": "loaddocumentoptions",
         "href": "https://www.w3.org/TR/json-ld11-api/#loaddocumentoptions",
         "title": "LoadDocumentOptions",
+        "alternateIds": [
+          "x9-4-2-loaddocumentoptions"
+        ],
         "number": "9.4.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-loaddocumentoptions-requestprofile",
@@ -2083,9 +2454,13 @@
         "id": "loaddocumentoptions",
         "href": "https://www.w3.org/TR/json-ld11-api/#loaddocumentoptions",
         "title": "LoadDocumentOptions",
+        "alternateIds": [
+          "x9-4-2-loaddocumentoptions"
+        ],
         "number": "9.4.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-remotedocument",
@@ -2102,9 +2477,13 @@
         "id": "remotedocument",
         "href": "https://www.w3.org/TR/json-ld11-api/#remotedocument",
         "title": "RemoteDocument",
+        "alternateIds": [
+          "x9-4-3-remotedocument"
+        ],
         "number": "9.4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-remotedocument-constructor",
@@ -2127,9 +2506,13 @@
         "id": "remotedocument",
         "href": "https://www.w3.org/TR/json-ld11-api/#remotedocument",
         "title": "RemoteDocument",
+        "alternateIds": [
+          "x9-4-3-remotedocument"
+        ],
         "number": "9.4.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-remotedocument-contenttype",
@@ -2150,9 +2533,13 @@
         "id": "remotedocument",
         "href": "https://www.w3.org/TR/json-ld11-api/#remotedocument",
         "title": "RemoteDocument",
+        "alternateIds": [
+          "x9-4-3-remotedocument"
+        ],
         "number": "9.4.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-remotedocument-contexturl",
@@ -2173,9 +2560,13 @@
         "id": "remotedocument",
         "href": "https://www.w3.org/TR/json-ld11-api/#remotedocument",
         "title": "RemoteDocument",
+        "alternateIds": [
+          "x9-4-3-remotedocument"
+        ],
         "number": "9.4.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-remotedocument-document",
@@ -2196,9 +2587,13 @@
         "id": "remotedocument",
         "href": "https://www.w3.org/TR/json-ld11-api/#remotedocument",
         "title": "RemoteDocument",
+        "alternateIds": [
+          "x9-4-3-remotedocument"
+        ],
         "number": "9.4.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-remotedocument-documenturl",
@@ -2219,9 +2614,13 @@
         "id": "remotedocument",
         "href": "https://www.w3.org/TR/json-ld11-api/#remotedocument",
         "title": "RemoteDocument",
+        "alternateIds": [
+          "x9-4-3-remotedocument"
+        ],
         "number": "9.4.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-remotedocument-profile",
@@ -2242,9 +2641,13 @@
         "id": "remotedocument",
         "href": "https://www.w3.org/TR/json-ld11-api/#remotedocument",
         "title": "RemoteDocument",
+        "alternateIds": [
+          "x9-4-3-remotedocument"
+        ],
         "number": "9.4.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-html-script-extraction",
@@ -2261,9 +2664,13 @@
         "id": "html-content-algorithms",
         "href": "https://www.w3.org/TR/json-ld11-api/#html-content-algorithms",
         "title": "HTML Content Algorithms",
+        "alternateIds": [
+          "x9-5-html-content-algorithms"
+        ],
         "number": "9.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-json-ld-script-element",
@@ -2280,9 +2687,13 @@
         "id": "extract-script-content",
         "href": "https://www.w3.org/TR/json-ld11-api/#extract-script-content",
         "title": "Extract Script Content Algorithm",
+        "alternateIds": [
+          "x9-5-2-extract-script-content-algorithm"
+        ],
         "number": "9.5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-jsonlderror",
@@ -2299,9 +2710,13 @@
         "id": "jsonlderror",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderror",
         "title": "JsonLdError",
+        "alternateIds": [
+          "x9-6-1-jsonlderror"
+        ],
         "number": "9.6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-jsonlderror-code",
@@ -2320,9 +2735,13 @@
         "id": "jsonlderror",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderror",
         "title": "JsonLdError",
+        "alternateIds": [
+          "x9-6-1-jsonlderror"
+        ],
         "number": "9.6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderror-message",
@@ -2341,9 +2760,13 @@
         "id": "jsonlderror",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderror",
         "title": "JsonLdError",
+        "alternateIds": [
+          "x9-6-1-jsonlderror"
+        ],
         "number": "9.6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode",
@@ -2360,9 +2783,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-colliding-keywords",
@@ -2381,9 +2808,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-conflicting-indexes",
@@ -2402,9 +2833,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-context-overflow",
@@ -2423,9 +2858,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-cyclic-iri-mapping",
@@ -2444,9 +2883,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-@id-value",
@@ -2465,9 +2908,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-@import-value",
@@ -2486,9 +2933,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-@included-value",
@@ -2507,9 +2958,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-@index-value",
@@ -2528,9 +2983,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-@nest-value",
@@ -2549,9 +3008,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-@prefix-value",
@@ -2570,9 +3033,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-@propagate-value",
@@ -2591,9 +3058,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-@protected-value",
@@ -2612,9 +3083,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-@reverse-value",
@@ -2633,9 +3108,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-@version-value",
@@ -2654,9 +3133,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-base-direction",
@@ -2675,9 +3158,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-base-iri",
@@ -2696,9 +3183,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-container-mapping",
@@ -2717,9 +3208,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-context-entry",
@@ -2738,9 +3233,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-context-nullification",
@@ -2759,9 +3258,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-default-language",
@@ -2780,9 +3283,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-iri-mapping",
@@ -2801,9 +3308,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-json-literal",
@@ -2822,9 +3333,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-keyword-alias",
@@ -2843,9 +3358,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-language-map-value",
@@ -2864,9 +3383,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-language-mapping",
@@ -2885,9 +3408,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-language-tagged-string",
@@ -2906,9 +3433,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-language-tagged-value",
@@ -2927,9 +3458,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-local-context",
@@ -2948,9 +3483,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-remote-context",
@@ -2969,9 +3508,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-reverse-property",
@@ -2990,9 +3533,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-reverse-property-map",
@@ -3011,9 +3558,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-reverse-property-value",
@@ -3032,9 +3583,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-scoped-context",
@@ -3053,9 +3608,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-script-element",
@@ -3074,9 +3633,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-set-or-list-object",
@@ -3095,9 +3658,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-term-definition",
@@ -3116,9 +3683,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-type-mapping",
@@ -3137,9 +3708,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-type-value",
@@ -3158,9 +3733,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-typed-value",
@@ -3179,9 +3758,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-value-object",
@@ -3200,9 +3783,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-value-object-value",
@@ -3221,9 +3808,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-invalid-vocab-mapping",
@@ -3242,9 +3833,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-iri-confused-with-prefix",
@@ -3263,9 +3858,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-keyword-redefinition",
@@ -3284,9 +3883,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-loading-document-failed",
@@ -3305,9 +3908,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-loading-remote-context-failed",
@@ -3326,9 +3933,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-multiple-context-link-headers",
@@ -3347,9 +3958,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-processing-mode-conflict",
@@ -3368,9 +3983,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-jsonlderrorcode-protected-term-redefinition",
@@ -3389,9 +4008,13 @@
         "id": "jsonlderrorcode",
         "href": "https://www.w3.org/TR/json-ld11-api/#jsonlderrorcode",
         "title": "JsonLdErrorCode",
+        "alternateIds": [
+          "x9-6-2-jsonlderrorcode"
+        ],
         "number": "9.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     }
   ]
 }

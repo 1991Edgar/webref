@@ -73,7 +73,7 @@
       "href": "https://www.w3.org/TR/css-align-3/#propdef-place-content",
       "value": "<'align-content'> <'justify-content'>?",
       "initial": "normal",
-      "appliesTo": "block containers, flex containers, and grid containers",
+      "appliesTo": "see individual properties",
       "inherited": "no",
       "percentages": "n/a",
       "computedValue": "see individual properties",
@@ -87,7 +87,7 @@
     {
       "name": "justify-self",
       "href": "https://www.w3.org/TR/css-align-3/#propdef-justify-self",
-      "value": "auto | normal | stretch | <baseline-position> | <overflow-position>? [ <self-position> | left | right ]",
+      "value": "auto | <overflow-position>? [ normal | <self-position> | left | right ] | stretch | <baseline-position>",
       "initial": "auto",
       "appliesTo": "block-level boxes, absolutely-positioned boxes, and grid items",
       "inherited": "no",
@@ -140,7 +140,7 @@
     {
       "name": "align-self",
       "href": "https://www.w3.org/TR/css-align-3/#propdef-align-self",
-      "value": "auto | normal | stretch | <baseline-position> | <overflow-position>? <self-position>",
+      "value": "auto | <overflow-position>? [ normal | <self-position> ]| stretch | <baseline-position>",
       "initial": "auto",
       "appliesTo": "flex items, grid items, and absolutely-positioned boxes",
       "inherited": "no",
@@ -165,7 +165,7 @@
         },
         {
           "name": "stretch",
-          "prose": "As defined for justify-self in § 6.1 Inline-Axis (or Main-Axis) Alignment: the justify-self property.",
+          "prose": "As defined for justify-self in § 6.1 Inline-Axis (or Main-Axis) Self-Alignment: the justify-self property.",
           "href": "https://www.w3.org/TR/css-align-3/#valdef-align-self-stretch",
           "type": "value",
           "value": "stretch"
@@ -181,7 +181,7 @@
       "href": "https://www.w3.org/TR/css-align-3/#propdef-place-self",
       "value": "<'align-self'> <'justify-self'>?",
       "initial": "auto",
-      "appliesTo": "block-level boxes, absolutely-positioned boxes, and grid items",
+      "appliesTo": "see individual properties",
       "inherited": "no",
       "percentages": "n/a",
       "computedValue": "see individual properties",
@@ -234,7 +234,7 @@
     {
       "name": "align-items",
       "href": "https://www.w3.org/TR/css-align-3/#propdef-align-items",
-      "value": "normal | stretch | <baseline-position> | [ <overflow-position>? <self-position> ]",
+      "value": "normal | stretch | <baseline-position> | <overflow-position>? <self-position>",
       "initial": "normal",
       "appliesTo": "all elements",
       "inherited": "no",
@@ -277,7 +277,7 @@
       "values": [
         {
           "name": "normal",
-          "prose": "The normal represents a used value of 1em on multi-column containers, and a used value of 0px in all other contexts.",
+          "prose": "The value normal represents a used value of 1em on multi-column containers, and a used value of 0px in all other contexts.",
           "href": "https://www.w3.org/TR/css-align-3/#valdef-row-gap-normal",
           "type": "value",
           "value": "normal"
@@ -302,7 +302,7 @@
       "values": [
         {
           "name": "normal",
-          "prose": "The normal represents a used value of 1em on multi-column containers, and a used value of 0px in all other contexts.",
+          "prose": "The value normal represents a used value of 1em on multi-column containers, and a used value of 0px in all other contexts.",
           "href": "https://www.w3.org/TR/css-align-3/#valdef-row-gap-normal",
           "type": "value",
           "value": "normal"
@@ -327,7 +327,7 @@
       "values": [
         {
           "name": "normal",
-          "prose": "The normal represents a used value of 1em on multi-column containers, and a used value of 0px in all other contexts.",
+          "prose": "The value normal represents a used value of 1em on multi-column containers, and a used value of 0px in all other contexts.",
           "href": "https://www.w3.org/TR/css-align-3/#valdef-row-gap-normal",
           "type": "value",
           "value": "normal"
@@ -340,6 +340,7 @@
     {
       "name": "grid-row-gap",
       "href": "https://www.w3.org/TR/css-align-3/#propdef-grid-row-gap",
+      "legacyAliasOf": "row-gap",
       "styleDeclaration": [
         "grid-row-gap",
         "gridRowGap"
@@ -348,6 +349,7 @@
     {
       "name": "grid-column-gap",
       "href": "https://www.w3.org/TR/css-align-3/#propdef-grid-column-gap",
+      "legacyAliasOf": "column-gap",
       "styleDeclaration": [
         "grid-column-gap",
         "gridColumnGap"
@@ -356,6 +358,7 @@
     {
       "name": "grid-gap",
       "href": "https://www.w3.org/TR/css-align-3/#propdef-grid-gap",
+      "legacyAliasOf": "gap",
       "styleDeclaration": [
         "grid-gap",
         "gridGap"
@@ -486,11 +489,25 @@
           "value": "first baseline"
         },
         {
+          "name": "first",
+          "prose": "Specifies participation in first-baseline alignment: aligns the alignment baseline of the box’s first baseline set with the corresponding baseline of its baseline-sharing group. See § 9.3 Aligning Boxes by Baseline for more details. The fallback alignment for first baseline is safe self-start (for self-alignment) or safe start (for content-distribution).",
+          "href": "https://www.w3.org/TR/css-align-3/#valdef-justify-self-first-baseline",
+          "type": "value",
+          "value": "first"
+        },
+        {
           "name": "last baseline",
           "prose": "Specifies participation in last-baseline alignment: aligns the alignment baseline of the box’s last baseline set with the corresponding baseline of its baseline-sharing group.̣ See § 9.3 Aligning Boxes by Baseline for more details. The fallback alignment for last baseline is safe self-end (for self-alignment) or safe end (for content-distribution).",
           "href": "https://www.w3.org/TR/css-align-3/#valdef-justify-self-last-baseline",
           "type": "value",
           "value": "last baseline"
+        },
+        {
+          "name": "last",
+          "prose": "Specifies participation in last-baseline alignment: aligns the alignment baseline of the box’s last baseline set with the corresponding baseline of its baseline-sharing group.̣ See § 9.3 Aligning Boxes by Baseline for more details. The fallback alignment for last baseline is safe self-end (for self-alignment) or safe end (for content-distribution).",
+          "href": "https://www.w3.org/TR/css-align-3/#valdef-justify-self-last-baseline",
+          "type": "value",
+          "value": "last"
         }
       ]
     },
@@ -502,7 +519,7 @@
       "values": [
         {
           "name": "space-between",
-          "prose": "The alignment subjects are evenly distributed in the alignment container. The first alignment subject is placed flush with the start edge of the alignment container, the last alignment subject is placed flush with the end edge of the alignment container, and the remaining alignment subjects are distributed so that the spacing between any two adjacent alignment subjects is the same. The default fallback alignment for this value is flex-start. (For layout modes other than flex layout, flex-start is identical to start.)",
+          "prose": "The alignment subjects are evenly distributed in the alignment container. The first alignment subject is placed flush with the start edge of the alignment container, the last alignment subject is placed flush with the end edge of the alignment container, and the remaining alignment subjects are distributed so that the spacing between any two adjacent alignment subjects is the same. The default fallback alignment for this value is safe flex-start. (For layout modes other than flex layout, flex-start is identical to start.)",
           "href": "https://www.w3.org/TR/css-align-3/#valdef-align-content-space-between",
           "type": "value",
           "value": "space-between"
@@ -538,7 +555,7 @@
       "values": [
         {
           "name": "safe",
-          "prose": "If the size of the alignment subject overflows the alignment container, the alignment subject is instead aligned as if the alignment mode were start.",
+          "prose": "If the size of the alignment subject overflows the alignment container, the alignment subject is instead aligned as if the alignment mode were flex-start.",
           "href": "https://www.w3.org/TR/css-align-3/#valdef-overflow-position-safe",
           "type": "value",
           "value": "safe"

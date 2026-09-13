@@ -5,14 +5,15 @@
   },
   "dfns": [
     {
-      "id": "dom-webassembly-compilestreaming-source-source",
-      "href": "https://www.w3.org/TR/wasm-web-api-2/#dom-webassembly-compilestreaming-source-source",
+      "id": "dom-webassembly-compilestreaming-source-options-source",
+      "href": "https://www.w3.org/TR/wasm-web-api-2/#dom-webassembly-compilestreaming-source-options-source",
       "linkingText": [
         "source"
       ],
       "localLinkingText": [],
       "type": "argument",
       "for": [
+        "WebAssembly/compileStreaming(source, options)",
         "WebAssembly/compileStreaming(source)"
       ],
       "access": "public",
@@ -23,17 +24,42 @@
         "title": "Streaming Module Compilation and Instantiation",
         "number": "2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
-      "id": "dom-webassembly-instantiatestreaming-source-importobject-source",
-      "href": "https://www.w3.org/TR/wasm-web-api-2/#dom-webassembly-instantiatestreaming-source-importobject-source",
+      "id": "dom-webassembly-compilestreaming-source-options-options",
+      "href": "https://www.w3.org/TR/wasm-web-api-2/#dom-webassembly-compilestreaming-source-options-options",
+      "linkingText": [
+        "options"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "WebAssembly/compileStreaming(source, options)",
+        "WebAssembly/compileStreaming(source)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "streaming-modules",
+        "href": "https://www.w3.org/TR/wasm-web-api-2/#streaming-modules",
+        "title": "Streaming Module Compilation and Instantiation",
+        "number": "2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-webassembly-instantiatestreaming-source-importobject-options-source",
+      "href": "https://www.w3.org/TR/wasm-web-api-2/#dom-webassembly-instantiatestreaming-source-importobject-options-source",
       "linkingText": [
         "source"
       ],
       "localLinkingText": [],
       "type": "argument",
       "for": [
+        "WebAssembly/instantiateStreaming(source, importObject, options)",
         "WebAssembly/instantiateStreaming(source, importObject)",
         "WebAssembly/instantiateStreaming(source)"
       ],
@@ -45,17 +71,19 @@
         "title": "Streaming Module Compilation and Instantiation",
         "number": "2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
-      "id": "dom-webassembly-instantiatestreaming-source-importobject-importobject",
-      "href": "https://www.w3.org/TR/wasm-web-api-2/#dom-webassembly-instantiatestreaming-source-importobject-importobject",
+      "id": "dom-webassembly-instantiatestreaming-source-importobject-options-importobject",
+      "href": "https://www.w3.org/TR/wasm-web-api-2/#dom-webassembly-instantiatestreaming-source-importobject-options-importobject",
       "linkingText": [
         "importObject"
       ],
       "localLinkingText": [],
       "type": "argument",
       "for": [
+        "WebAssembly/instantiateStreaming(source, importObject, options)",
         "WebAssembly/instantiateStreaming(source, importObject)",
         "WebAssembly/instantiateStreaming(source)"
       ],
@@ -67,12 +95,38 @@
         "title": "Streaming Module Compilation and Instantiation",
         "number": "2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-webassembly-instantiatestreaming-source-importobject-options-options",
+      "href": "https://www.w3.org/TR/wasm-web-api-2/#dom-webassembly-instantiatestreaming-source-importobject-options-options",
+      "linkingText": [
+        "options"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "WebAssembly/instantiateStreaming(source, importObject, options)",
+        "WebAssembly/instantiateStreaming(source, importObject)",
+        "WebAssembly/instantiateStreaming(source)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "streaming-modules",
+        "href": "https://www.w3.org/TR/wasm-web-api-2/#streaming-modules",
+        "title": "Streaming Module Compilation and Instantiation",
+        "number": "2"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webassembly-compilestreaming",
       "href": "https://www.w3.org/TR/wasm-web-api-2/#dom-webassembly-compilestreaming",
       "linkingText": [
+        "compileStreaming(source, options)",
         "compileStreaming(source)"
       ],
       "localLinkingText": [],
@@ -88,12 +142,14 @@
         "title": "Streaming Module Compilation and Instantiation",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-webassembly-instantiatestreaming",
       "href": "https://www.w3.org/TR/wasm-web-api-2/#dom-webassembly-instantiatestreaming",
       "linkingText": [
+        "instantiateStreaming(source, importObject, options)",
         "instantiateStreaming(source, importObject)",
         "instantiateStreaming(source)"
       ],
@@ -110,7 +166,8 @@
         "title": "Streaming Module Compilation and Instantiation",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "compile-a-potential-webassembly-response",
@@ -129,7 +186,8 @@
         "title": "Streaming Module Compilation and Instantiation",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

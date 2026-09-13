@@ -1,0 +1,54 @@
+{
+  "spec": {
+    "title": "Quantum-Resistant Cryptosuites v1.0",
+    "url": "https://w3c.github.io/vc-di-quantum-resistant/"
+  },
+  "dfns": [
+    {
+      "id": "dfn-conforming-proof",
+      "href": "https://w3c.github.io/vc-di-quantum-resistant/#dfn-conforming-proof",
+      "linkingText": [
+        "conforming proof"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "conformance",
+        "href": "https://w3c.github.io/vc-di-quantum-resistant/#conformance",
+        "title": "Conformance",
+        "alternateIds": [
+          "x1-2-conformance"
+        ],
+        "number": "1.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-conforming-processor",
+      "href": "https://w3c.github.io/vc-di-quantum-resistant/#dfn-conforming-processor",
+      "linkingText": [
+        "conforming processor"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "conformance",
+        "href": "https://w3c.github.io/vc-di-quantum-resistant/#conformance",
+        "title": "Conformance",
+        "alternateIds": [
+          "x1-2-conformance"
+        ],
+        "number": "1.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    }
+  ]
+}

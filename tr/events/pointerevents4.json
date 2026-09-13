@@ -146,6 +146,138 @@
       ],
       "bubbles": true,
       "cancelable": false
+    },
+    {
+      "type": "auxclick",
+      "interface": "PointerEvent",
+      "bubbles": true,
+      "cancelable": true,
+      "src": {
+        "format": "event table",
+        "href": "https://www.w3.org/TR/pointerevents4/#auxclick"
+      },
+      "href": "https://www.w3.org/TR/pointerevents4/#dfn-auxclick"
+    },
+    {
+      "type": "click",
+      "interface": "PointerEvent",
+      "bubbles": true,
+      "cancelable": true,
+      "src": {
+        "format": "event table",
+        "href": "https://www.w3.org/TR/pointerevents4/#click"
+      },
+      "href": "https://www.w3.org/TR/pointerevents4/#dfn-click"
+    },
+    {
+      "type": "contextmenu",
+      "interface": "PointerEvent",
+      "bubbles": true,
+      "cancelable": true,
+      "src": {
+        "format": "event table",
+        "href": "https://www.w3.org/TR/pointerevents4/#contextmenu"
+      },
+      "href": "https://www.w3.org/TR/pointerevents4/#dfn-contextmenu"
+    },
+    {
+      "type": "dblclick",
+      "interface": "MouseEvent",
+      "bubbles": true,
+      "cancelable": true,
+      "src": {
+        "format": "event table",
+        "href": "https://www.w3.org/TR/pointerevents4/#dblclick"
+      },
+      "href": "https://www.w3.org/TR/pointerevents4/#dfn-dblclick"
+    },
+    {
+      "type": "mousedown",
+      "interface": "MouseEvent",
+      "bubbles": true,
+      "cancelable": true,
+      "src": {
+        "format": "event table",
+        "href": "https://www.w3.org/TR/pointerevents4/#mousedown"
+      },
+      "href": "https://www.w3.org/TR/pointerevents4/#dfn-mousedown"
+    },
+    {
+      "type": "mouseenter",
+      "interface": "MouseEvent",
+      "bubbles": false,
+      "cancelable": false,
+      "src": {
+        "format": "event table",
+        "href": "https://www.w3.org/TR/pointerevents4/#mouseenter"
+      },
+      "href": "https://www.w3.org/TR/pointerevents4/#dfn-mouseenter"
+    },
+    {
+      "type": "mouseleave",
+      "interface": "MouseEvent",
+      "bubbles": false,
+      "cancelable": false,
+      "src": {
+        "format": "event table",
+        "href": "https://www.w3.org/TR/pointerevents4/#mouseleave"
+      },
+      "href": "https://www.w3.org/TR/pointerevents4/#dfn-mouseleave"
+    },
+    {
+      "type": "mousemove",
+      "interface": "MouseEvent",
+      "bubbles": true,
+      "cancelable": true,
+      "src": {
+        "format": "event table",
+        "href": "https://www.w3.org/TR/pointerevents4/#mousemove"
+      },
+      "href": "https://www.w3.org/TR/pointerevents4/#dfn-mousemove"
+    },
+    {
+      "type": "mouseout",
+      "interface": "MouseEvent",
+      "bubbles": true,
+      "cancelable": true,
+      "src": {
+        "format": "event table",
+        "href": "https://www.w3.org/TR/pointerevents4/#mouseout"
+      },
+      "href": "https://www.w3.org/TR/pointerevents4/#dfn-mouseout"
+    },
+    {
+      "type": "mouseover",
+      "interface": "MouseEvent",
+      "bubbles": true,
+      "cancelable": true,
+      "src": {
+        "format": "event table",
+        "href": "https://www.w3.org/TR/pointerevents4/#mouseover"
+      },
+      "href": "https://www.w3.org/TR/pointerevents4/#dfn-mouseover"
+    },
+    {
+      "type": "mouseup",
+      "interface": "MouseEvent",
+      "bubbles": true,
+      "cancelable": true,
+      "src": {
+        "format": "event table",
+        "href": "https://www.w3.org/TR/pointerevents4/#mouseup"
+      },
+      "href": "https://www.w3.org/TR/pointerevents4/#dfn-mouseup"
+    },
+    {
+      "type": "wheel",
+      "interface": "WheelEvent",
+      "bubbles": true,
+      "cancelable": false,
+      "src": {
+        "format": "event table",
+        "href": "https://www.w3.org/TR/pointerevents4/#wheel"
+      },
+      "href": "https://www.w3.org/TR/pointerevents4/#dfn-wheel"
     }
   ]
 }

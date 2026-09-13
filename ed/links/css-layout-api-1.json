@@ -36,7 +36,7 @@
       "https://drafts.csswg.org/css-cascade-5/": {},
       "https://drafts.csswg.org/css-display-4/": {},
       "https://drafts.csswg.org/css-display/": {},
-      "https://drafts.csswg.org/css-flexbox-1/": {},
+      "https://drafts.csswg.org/css-flexbox-2/": {},
       "https://drafts.csswg.org/css-grid-2/": {},
       "https://drafts.csswg.org/css-inline-3/": {},
       "https://drafts.csswg.org/css-multicol/": {},
@@ -56,7 +56,7 @@
       "https://drafts.csswg.org/css-writing-modes-4/": {},
       "https://drafts.csswg.org/css2/": {},
       "https://drafts.csswg.org/cssom/": {},
-      "https://github.com/w3c/css-houdini-drafts/blob/master/css-layout-api/EXPLAINER.md": {},
+      "https://github.com/w3c/css-houdini-drafts/blob/main/css-layout-api/EXPLAINER.md": {},
       "https://github.com/w3c/css-houdini-drafts/issues": {},
       "https://html.spec.whatwg.org/multipage/": {},
       "https://html.spec.whatwg.org/multipage/worklets.html": {
@@ -78,7 +78,7 @@
           "comb-one"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://dom.spec.whatwg.org/": {
@@ -140,7 +140,7 @@
           "flow-layout"
         ]
       },
-      "https://drafts.csswg.org/css-flexbox-1/": {
+      "https://drafts.csswg.org/css-flexbox-2/": {
         "anchors": [
           "flex-container"
         ]
@@ -217,6 +217,7 @@
       },
       "https://drafts.csswg.org/css2/": {
         "anchors": [
+          "propdef-z-index",
           "valdef-z-index-auto"
         ]
       },
@@ -312,11 +313,6 @@
       "https://www.w3.org/TR/CSS21/visudet.html": {
         "anchors": [
           "static-position"
-        ]
-      },
-      "https://www.w3.org/TR/CSS21/visuren.html": {
-        "anchors": [
-          "propdef-z-index"
         ]
       }
     }

@@ -24,9 +24,11 @@
       "http://www.w3.org/TR/css-grid-2/": {},
       "https://datatracker.ietf.org/doc/html/rfc2119": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Masonry_Layout": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/align-tracks": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows": {},
-      "https://drafts.csswg.org/css-align": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/justify-tracks": {},
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/masonry-auto-flow": {},
       "https://drafts.csswg.org/css-align-3/": {
         "anchors": [
           "content-distribution"
@@ -36,8 +38,14 @@
       "https://drafts.csswg.org/css-box-4/": {},
       "https://drafts.csswg.org/css-break-4/": {},
       "https://drafts.csswg.org/css-cascade-5/": {},
-      "https://drafts.csswg.org/css-display-4/": {},
-      "https://drafts.csswg.org/css-flexbox-1/": {},
+      "https://drafts.csswg.org/css-display-4/": {
+        "anchors": [
+          "order-accessibility"
+        ]
+      },
+      "https://drafts.csswg.org/css-flexbox-2/": {},
+      "https://drafts.csswg.org/css-flexbox/": {},
+      "https://drafts.csswg.org/css-gaps-1/": {},
       "https://drafts.csswg.org/css-grid-1/": {
         "anchors": [
           "abspos-items"
@@ -46,16 +54,18 @@
       "https://drafts.csswg.org/css-grid-2/": {
         "anchors": [
           "order-accessibility",
-          "track-sizing",
+          "algo-init",
+          "algo-content",
           "subgrids",
           "algo-track-sizing",
+          "auto-placement-algo",
           "intrinsic-sizes",
           "gutters",
           "alignment"
         ]
       },
-      "https://drafts.csswg.org/css-grid/": {},
       "https://drafts.csswg.org/css-multicol/": {},
+      "https://drafts.csswg.org/css-position-3/": {},
       "https://drafts.csswg.org/css-sizing-3/": {},
       "https://drafts.csswg.org/css-values-3/": {},
       "https://drafts.csswg.org/css-values-4/": {},
@@ -68,15 +78,33 @@
           "issuecomment-2071279204"
         ]
       },
+      "https://github.com/w3c/csswg-drafts/issues/10275": {},
       "https://github.com/w3c/csswg-drafts/issues/10854": {},
-      "https://github.com/w3c/csswg-drafts/issues/10869": {},
-      "https://github.com/w3c/csswg-drafts/issues/10883": {},
+      "https://github.com/w3c/csswg-drafts/issues/10884": {},
       "https://github.com/w3c/csswg-drafts/issues/10915": {},
+      "https://github.com/w3c/csswg-drafts/issues/10926": {},
+      "https://github.com/w3c/csswg-drafts/issues/11480": {},
+      "https://github.com/w3c/csswg-drafts/issues/12022": {},
+      "https://github.com/w3c/csswg-drafts/issues/12803": {},
+      "https://github.com/w3c/csswg-drafts/issues/12899": {},
+      "https://github.com/w3c/csswg-drafts/issues/12918": {},
+      "https://github.com/w3c/csswg-drafts/issues/14153": {},
+      "https://github.com/w3c/csswg-drafts/issues/14154": {},
+      "https://github.com/w3c/csswg-drafts/issues/3071": {},
       "https://github.com/w3c/csswg-drafts/issues/4650": {},
-      "https://github.com/w3c/csswg-drafts/issues/9326": {},
+      "https://github.com/w3c/csswg-drafts/issues/9321": {},
+      "https://github.com/w3c/csswg-drafts/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22topic%3A%20masonry%22": {},
       "https://lists.w3.org/Archives/Public/public-css-archive/": {},
       "https://lists.w3.org/Archives/Public/www-style/": {},
-      "https://www.w3.org/TR/2024/WD-css-grid-3-20240919/": {},
+      "https://martinfowler.com/bliki/TwoHardThings.html": {},
+      "https://www.w3.org/TR/2025/WD-css-grid-3-20250917/": {
+        "anchors": [
+          "recent-changes"
+        ]
+      },
+      "https://www.w3.org/TR/2025/WD-css-grid-3-20251216/": {},
+      "https://www.w3.org/TR/2025/WD-css-grid-3-20251223/": {},
+      "https://www.w3.org/TR/2026/WD-css-grid-3-20260121/": {},
       "https://www.w3.org/TR/CSS/": {},
       "https://www.w3.org/TR/CSS2/about.html": {
         "anchors": [
@@ -91,14 +119,8 @@
           "computed"
         ]
       },
-      "https://www.w3.org/TR/css-flexbox-1/": {
-        "anchors": [
-          "order-accessibility"
-        ]
-      },
       "https://www.w3.org/TR/css-grid-2/": {
         "anchors": [
-          "grid-auto-flow-property",
           "subgrid-item-contribution"
         ]
       },
@@ -123,17 +145,21 @@
           "animation-type"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://drafts.csswg.org/css-align-3/": {
         "anchors": [
           "baseline-sharing-group",
           "baseline-alignment",
-          "propdef-grid-gap",
-          "alignment-subject",
           "propdef-align-content",
           "propdef-justify-content",
+          "propdef-align-self",
+          "propdef-justify-self",
+          "propdef-align-items",
+          "propdef-justify-items",
+          "box-alignment-properties",
+          "alignment-subject",
           "valdef-self-position-start",
           "valdef-self-position-center",
           "valdef-self-position-end",
@@ -141,12 +167,15 @@
           "valdef-align-content-stretch",
           "distributed-alignment",
           "fallback-alignment",
+          "self-alignment-properties",
+          "alignment-container",
           "alignment-baseline"
         ]
       },
       "https://drafts.csswg.org/css-box-4/": {
         "anchors": [
           "content-box",
+          "outer-edge",
           "margin-box"
         ]
       },
@@ -158,71 +187,78 @@
       },
       "https://drafts.csswg.org/css-cascade-5/": {
         "anchors": [
+          "initial-value",
           "used-value",
-          "shorthand-property",
-          "computed-value"
+          "shorthand-property"
         ]
       },
       "https://drafts.csswg.org/css-display-4/": {
         "anchors": [
           "propdef-display",
           "blockify",
+          "propdef-order",
           "propdef-reading-flow",
           "block-level",
-          "flow-layout",
           "inline-level",
+          "independent-formatting-context",
+          "order-modified-document-order",
           "containing-block"
         ]
       },
-      "https://drafts.csswg.org/css-flexbox-1/": {
+      "https://drafts.csswg.org/css-flexbox-2/": {
         "anchors": [
           "flex-layout"
+        ]
+      },
+      "https://drafts.csswg.org/css-gaps-1/": {
+        "anchors": [
+          "funcdef-repeat-line-color-repeat",
+          "propdef-grid-gap",
+          "propdef-row-gap",
+          "propdef-column-gap",
+          "propdef-gap"
         ]
       },
       "https://drafts.csswg.org/css-grid-2/": {
         "anchors": [
           "grid-layout",
+          "auto-placement",
+          "propdef-grid-template-columns",
           "grid-item",
           "grid-container",
           "grid-track",
           "definite-grid-position",
-          "propdef-grid-template-columns",
-          "propdef-grid-template-rows",
+          "subgrid",
           "valdef-grid-template-rows-none",
-          "grid-item-placement-algorithm",
+          "propdef-grid-template-rows",
+          "propdef-grid-auto-flow",
           "explicit-grid",
           "implicit-grid",
           "propdef-grid-auto-rows",
           "propdef-grid-auto-columns",
-          "typedef-track-list",
-          "typedef-line-name-list",
-          "computed-track-list",
-          "typedef-auto-track-list",
+          "min-track-sizing-function",
+          "max-track-sizing-function",
           "typedef-line-names",
           "typedef-track-size",
-          "typedef-track-repeat",
-          "typedef-auto-repeat",
-          "propdef-grid-template-areas",
-          "valdef-repeat-auto-fill",
-          "valdef-repeat-auto-fit",
-          "valdef-grid-template-columns-auto",
-          "funcdef-repeat",
-          "subgrid",
-          "valdef-grid-template-none",
-          "valdef-grid-template-areas-none",
           "automatic-grid-position",
+          "collapsed-grid-track",
+          "valdef-repeat-auto-fit",
+          "valdef-repeat-auto-fill",
+          "parent-grid",
           "grid-placement-property",
-          "propdef-grid-column-start",
-          "propdef-grid-column-end",
-          "propdef-grid-column",
-          "grid-area",
-          "propdef-grid",
-          "propdef-grid-template"
+          "valdef-grid-auto-flow-dense",
+          "grid-area"
+        ]
+      },
+      "https://drafts.csswg.org/css-position-3/": {
+        "anchors": [
+          "propdef-position"
         ]
       },
       "https://drafts.csswg.org/css-sizing-3/": {
         "anchors": [
           "available",
+          "definite",
           "outer-size",
           "max-content",
           "min-content",
@@ -234,10 +270,9 @@
         "anchors": [
           "css-wide-keywords",
           "comb-one",
-          "comb-any",
+          "comb-comma",
           "mult-opt",
-          "mult-zero-plus",
-          "string-value",
+          "mult-one-plus",
           "typedef-length-percentage"
         ]
       },
@@ -250,22 +285,13 @@
         "anchors": [
           "block-axis",
           "inline-axis",
-          "block-start",
-          "block-end",
-          "inline-start",
-          "inline-end",
+          "css-start",
           "writing-mode"
         ]
       },
-      "https://www.w3.org/TR/css-flexbox-1/": {
+      "https://www.w3.org/TR/CSS2/visuren.html": {
         "anchors": [
-          "propdef-order",
-          "order-modified-document-order"
-        ]
-      },
-      "https://www.w3.org/TR/css-grid-2/": {
-        "anchors": [
-          "collapsed-track"
+          "x34"
         ]
       }
     }

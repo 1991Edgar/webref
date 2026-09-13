@@ -21,7 +21,8 @@
         "title": "Overview of Alignment Properties",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "alignment-subject",
@@ -40,7 +41,8 @@
         "title": "Alignment Terminology",
         "number": "3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "alignment-container",
@@ -54,11 +56,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "terms",
+        "href": "https://www.w3.org/TR/css-align-3/#terms",
+        "title": "Alignment Terminology",
+        "number": "3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "fallback-alignment",
@@ -72,11 +76,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "terms",
+        "href": "https://www.w3.org/TR/css-align-3/#terms",
+        "title": "Alignment Terminology",
+        "number": "3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "positional-alignment",
@@ -95,7 +101,8 @@
         "title": "Positional Alignment: the center, start, end, self-start, self-end, flex-start, flex-end, left, and right keywords",
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-self-position-center",
@@ -116,11 +123,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "positional-values",
+        "href": "https://www.w3.org/TR/css-align-3/#positional-values",
+        "title": "Positional Alignment: the center, start, end, self-start, self-end, flex-start, flex-end, left, and right keywords",
+        "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-self-position-start",
@@ -141,11 +150,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "positional-values",
+        "href": "https://www.w3.org/TR/css-align-3/#positional-values",
+        "title": "Positional Alignment: the center, start, end, self-start, self-end, flex-start, flex-end, left, and right keywords",
+        "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-self-position-end",
@@ -166,11 +177,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "positional-values",
+        "href": "https://www.w3.org/TR/css-align-3/#positional-values",
+        "title": "Positional Alignment: the center, start, end, self-start, self-end, flex-start, flex-end, left, and right keywords",
+        "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-self-position-self-start",
@@ -188,11 +201,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "positional-values",
+        "href": "https://www.w3.org/TR/css-align-3/#positional-values",
+        "title": "Positional Alignment: the center, start, end, self-start, self-end, flex-start, flex-end, left, and right keywords",
+        "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-self-position-self-end",
@@ -210,11 +225,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "positional-values",
+        "href": "https://www.w3.org/TR/css-align-3/#positional-values",
+        "title": "Positional Alignment: the center, start, end, self-start, self-end, flex-start, flex-end, left, and right keywords",
+        "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-self-position-flex-start",
@@ -235,11 +252,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "positional-values",
+        "href": "https://www.w3.org/TR/css-align-3/#positional-values",
+        "title": "Positional Alignment: the center, start, end, self-start, self-end, flex-start, flex-end, left, and right keywords",
+        "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-self-position-flex-end",
@@ -260,11 +279,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "positional-values",
+        "href": "https://www.w3.org/TR/css-align-3/#positional-values",
+        "title": "Positional Alignment: the center, start, end, self-start, self-end, flex-start, flex-end, left, and right keywords",
+        "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-justify-content-left",
@@ -282,11 +303,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "positional-values",
+        "href": "https://www.w3.org/TR/css-align-3/#positional-values",
+        "title": "Positional Alignment: the center, start, end, self-start, self-end, flex-start, flex-end, left, and right keywords",
+        "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-justify-content-right",
@@ -304,11 +327,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "positional-values",
+        "href": "https://www.w3.org/TR/css-align-3/#positional-values",
+        "title": "Positional Alignment: the center, start, end, self-start, self-end, flex-start, flex-end, left, and right keywords",
+        "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "typedef-self-position",
@@ -322,11 +347,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "positional-values",
+        "href": "https://www.w3.org/TR/css-align-3/#positional-values",
+        "title": "Positional Alignment: the center, start, end, self-start, self-end, flex-start, flex-end, left, and right keywords",
+        "number": "4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedef-content-position",
@@ -340,11 +367,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "positional-values",
+        "href": "https://www.w3.org/TR/css-align-3/#positional-values",
+        "title": "Positional Alignment: the center, start, end, self-start, self-end, flex-start, flex-end, left, and right keywords",
+        "number": "4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "baseline-alignment",
@@ -363,7 +392,8 @@
         "title": "Baseline Alignment: the baseline keyword and first/last modifiers",
         "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "typedef-baseline-position",
@@ -377,11 +407,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "baseline-values",
+        "href": "https://www.w3.org/TR/css-align-3/#baseline-values",
+        "title": "Baseline Alignment: the baseline keyword and first/last modifiers",
+        "number": "4.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "baseline-alignment-preference",
@@ -395,11 +427,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "baseline-values",
+        "href": "https://www.w3.org/TR/css-align-3/#baseline-values",
+        "title": "Baseline Alignment: the baseline keyword and first/last modifiers",
+        "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-justify-self-baseline",
@@ -420,11 +454,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "baseline-values",
+        "href": "https://www.w3.org/TR/css-align-3/#baseline-values",
+        "title": "Baseline Alignment: the baseline keyword and first/last modifiers",
+        "number": "4.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-justify-self-first-baseline",
@@ -446,11 +482,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "baseline-values",
+        "href": "https://www.w3.org/TR/css-align-3/#baseline-values",
+        "title": "Baseline Alignment: the baseline keyword and first/last modifiers",
+        "number": "4.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "first-baseline-alignment",
@@ -464,11 +502,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "baseline-values",
+        "href": "https://www.w3.org/TR/css-align-3/#baseline-values",
+        "title": "Baseline Alignment: the baseline keyword and first/last modifiers",
+        "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-justify-self-last-baseline",
@@ -490,11 +530,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "baseline-values",
+        "href": "https://www.w3.org/TR/css-align-3/#baseline-values",
+        "title": "Baseline Alignment: the baseline keyword and first/last modifiers",
+        "number": "4.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "last-baseline-alignment",
@@ -508,11 +550,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "baseline-values",
+        "href": "https://www.w3.org/TR/css-align-3/#baseline-values",
+        "title": "Baseline Alignment: the baseline keyword and first/last modifiers",
+        "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "distributed-alignment",
@@ -531,7 +575,8 @@
         "title": "Distributed Alignment: the stretch, space-between, space-around, and space-evenly keywords",
         "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-align-content-space-between",
@@ -549,11 +594,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "distribution-values",
+        "href": "https://www.w3.org/TR/css-align-3/#distribution-values",
+        "title": "Distributed Alignment: the stretch, space-between, space-around, and space-evenly keywords",
+        "number": "4.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-align-content-space-around",
@@ -571,11 +618,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "distribution-values",
+        "href": "https://www.w3.org/TR/css-align-3/#distribution-values",
+        "title": "Distributed Alignment: the stretch, space-between, space-around, and space-evenly keywords",
+        "number": "4.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-align-content-space-evenly",
@@ -593,11 +642,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "distribution-values",
+        "href": "https://www.w3.org/TR/css-align-3/#distribution-values",
+        "title": "Distributed Alignment: the stretch, space-between, space-around, and space-evenly keywords",
+        "number": "4.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-align-content-stretch",
@@ -615,11 +666,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "distribution-values",
+        "href": "https://www.w3.org/TR/css-align-3/#distribution-values",
+        "title": "Distributed Alignment: the stretch, space-between, space-around, and space-evenly keywords",
+        "number": "4.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "typedef-content-distribution",
@@ -633,11 +686,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "distribution-values",
+        "href": "https://www.w3.org/TR/css-align-3/#distribution-values",
+        "title": "Distributed Alignment: the stretch, space-between, space-around, and space-evenly keywords",
+        "number": "4.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "overflow-alignment",
@@ -656,7 +711,8 @@
         "title": "Overflow Alignment: the safe and unsafe keywords and scroll safety limits",
         "number": "4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "typedef-overflow-position",
@@ -670,11 +726,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "overflow-values",
+        "href": "https://www.w3.org/TR/css-align-3/#overflow-values",
+        "title": "Overflow Alignment: the safe and unsafe keywords and scroll safety limits",
+        "number": "4.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "valdef-overflow-position-safe",
@@ -690,11 +748,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "overflow-values",
+        "href": "https://www.w3.org/TR/css-align-3/#overflow-values",
+        "title": "Overflow Alignment: the safe and unsafe keywords and scroll safety limits",
+        "number": "4.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-overflow-position-unsafe",
@@ -710,11 +770,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "overflow-values",
+        "href": "https://www.w3.org/TR/css-align-3/#overflow-values",
+        "title": "Overflow Alignment: the safe and unsafe keywords and scroll safety limits",
+        "number": "4.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "content-distribute",
@@ -734,7 +796,8 @@
         "title": "Content Distribution: Aligning a Box’s Contents Within Itself",
         "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "content-distribution-properties",
@@ -748,11 +811,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "content-distribution",
+        "href": "https://www.w3.org/TR/css-align-3/#content-distribution",
+        "title": "Content Distribution: Aligning a Box’s Contents Within Itself",
+        "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-align-content",
@@ -771,7 +836,8 @@
         "title": "The justify-content and align-content Properties",
         "number": "5.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "propdef-justify-content",
@@ -790,7 +856,8 @@
         "title": "The justify-content and align-content Properties",
         "number": "5.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-justify-content-normal",
@@ -812,7 +879,8 @@
         "title": "The justify-content and align-content Properties",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-place-content",
@@ -831,7 +899,8 @@
         "title": "Content-Distribution Shorthand: the place-content property",
         "number": "5.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "baseline-content-alignment",
@@ -852,7 +921,8 @@
         "title": "Baseline Content-Alignment",
         "number": "5.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "coordinated-self-alignment-preference",
@@ -866,11 +936,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "baseline-align-content",
+        "href": "https://www.w3.org/TR/css-align-3/#baseline-align-content",
+        "title": "Baseline Content-Alignment",
+        "number": "5.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "self-align",
@@ -889,7 +961,8 @@
         "title": "Self-Alignment: Aligning the Box Within Its Parent",
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "self-alignment-properties",
@@ -903,11 +976,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "self-alignment",
+        "href": "https://www.w3.org/TR/css-align-3/#self-alignment",
+        "title": "Self-Alignment: Aligning the Box Within Its Parent",
+        "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-justify-self",
@@ -923,10 +998,11 @@
       "heading": {
         "id": "justify-self-property",
         "href": "https://www.w3.org/TR/css-align-3/#justify-self-property",
-        "title": "Inline-Axis (or Main-Axis) Alignment: the justify-self property",
+        "title": "Inline-Axis (or Main-Axis) Self-Alignment: the justify-self property",
         "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-justify-self-auto",
@@ -944,10 +1020,11 @@
       "heading": {
         "id": "justify-self-property",
         "href": "https://www.w3.org/TR/css-align-3/#justify-self-property",
-        "title": "Inline-Axis (or Main-Axis) Alignment: the justify-self property",
+        "title": "Inline-Axis (or Main-Axis) Self-Alignment: the justify-self property",
         "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-justify-self-normal",
@@ -965,10 +1042,11 @@
       "heading": {
         "id": "justify-self-property",
         "href": "https://www.w3.org/TR/css-align-3/#justify-self-property",
-        "title": "Inline-Axis (or Main-Axis) Alignment: the justify-self property",
+        "title": "Inline-Axis (or Main-Axis) Self-Alignment: the justify-self property",
         "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-justify-self-stretch",
@@ -984,11 +1062,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "justify-self-property",
+        "href": "https://www.w3.org/TR/css-align-3/#justify-self-property",
+        "title": "Inline-Axis (or Main-Axis) Self-Alignment: the justify-self property",
+        "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-align-self",
@@ -1004,10 +1084,11 @@
       "heading": {
         "id": "align-self-property",
         "href": "https://www.w3.org/TR/css-align-3/#align-self-property",
-        "title": "Block-Axis (or Cross-Axis) Alignment: the align-self property",
+        "title": "Block-Axis (or Cross-Axis) Self-Alignment: the align-self property",
         "number": "6.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-align-self-auto",
@@ -1025,10 +1106,11 @@
       "heading": {
         "id": "align-self-property",
         "href": "https://www.w3.org/TR/css-align-3/#align-self-property",
-        "title": "Block-Axis (or Cross-Axis) Alignment: the align-self property",
+        "title": "Block-Axis (or Cross-Axis) Self-Alignment: the align-self property",
         "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-align-self-normal",
@@ -1046,10 +1128,11 @@
       "heading": {
         "id": "align-self-property",
         "href": "https://www.w3.org/TR/css-align-3/#align-self-property",
-        "title": "Block-Axis (or Cross-Axis) Alignment: the align-self property",
+        "title": "Block-Axis (or Cross-Axis) Self-Alignment: the align-self property",
         "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "valdef-align-self-stretch",
@@ -1065,11 +1148,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "align-self-property",
+        "href": "https://www.w3.org/TR/css-align-3/#align-self-property",
+        "title": "Block-Axis (or Cross-Axis) Self-Alignment: the align-self property",
+        "number": "6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-place-self",
@@ -1088,7 +1173,8 @@
         "title": "Self-Alignment Shorthand: the place-self property",
         "number": "6.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "baseline-self-alignment",
@@ -1109,7 +1195,8 @@
         "title": "Baseline Self-Alignment",
         "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-justify-items",
@@ -1125,10 +1212,11 @@
       "heading": {
         "id": "justify-items-property",
         "href": "https://www.w3.org/TR/css-align-3/#justify-items-property",
-        "title": "Inline-Axis (or Main-Axis) Alignment: the justify-items property",
+        "title": "Inline-Axis (or Main-Axis) Default Alignment: the justify-items property",
         "number": "7.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "valdef-justify-items-legacy",
@@ -1146,10 +1234,11 @@
       "heading": {
         "id": "justify-items-property",
         "href": "https://www.w3.org/TR/css-align-3/#justify-items-property",
-        "title": "Inline-Axis (or Main-Axis) Alignment: the justify-items property",
+        "title": "Inline-Axis (or Main-Axis) Default Alignment: the justify-items property",
         "number": "7.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-align-items",
@@ -1165,10 +1254,11 @@
       "heading": {
         "id": "align-items-property",
         "href": "https://www.w3.org/TR/css-align-3/#align-items-property",
-        "title": "Block-Axis (or Cross-Axis) Alignment: the align-items property",
+        "title": "Block-Axis (or Cross-Axis) Default Alignment: the align-items property",
         "number": "7.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "propdef-place-items",
@@ -1184,10 +1274,11 @@
       "heading": {
         "id": "place-items-property",
         "href": "https://www.w3.org/TR/css-align-3/#place-items-property",
-        "title": "Self-Alignment Shorthand: the place-items property",
+        "title": "Default Alignment Shorthand: the place-items property",
         "number": "7.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "propdef-row-gap",
@@ -1206,7 +1297,8 @@
         "title": "Row and Column Gutters: the row-gap and column-gap properties",
         "number": "8.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "propdef-column-gap",
@@ -1225,7 +1317,8 @@
         "title": "Row and Column Gutters: the row-gap and column-gap properties",
         "number": "8.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "gutter",
@@ -1244,7 +1337,8 @@
         "title": "Row and Column Gutters: the row-gap and column-gap properties",
         "number": "8.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-row-gap-normal",
@@ -1262,11 +1356,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "column-row-gap",
+        "href": "https://www.w3.org/TR/css-align-3/#column-row-gap",
+        "title": "Row and Column Gutters: the row-gap and column-gap properties",
+        "number": "8.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "propdef-gap",
@@ -1285,7 +1381,8 @@
         "title": "Gap Shorthand: the gap property",
         "number": "8.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "propdef-grid-row-gap",
@@ -1304,7 +1401,8 @@
         "title": "Legacy Gap Properties: the grid-row-gap, grid-column-gap, and grid-gap properties",
         "number": "8.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-grid-column-gap",
@@ -1318,11 +1416,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "gap-legacy",
+        "href": "https://www.w3.org/TR/css-align-3/#gap-legacy",
+        "title": "Legacy Gap Properties: the grid-row-gap, grid-column-gap, and grid-gap properties",
+        "number": "8.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-grid-gap",
@@ -1336,11 +1436,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "gap-legacy",
+        "href": "https://www.w3.org/TR/css-align-3/#gap-legacy",
+        "title": "Legacy Gap Properties: the grid-row-gap, grid-column-gap, and grid-gap properties",
+        "number": "8.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "baseline-set",
@@ -1359,7 +1461,8 @@
         "title": "Baseline Alignment Details",
         "number": "9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "first-baseline-set",
@@ -1379,7 +1482,8 @@
         "title": "Determining the Baselines of a Box",
         "number": "9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "last-baseline-set",
@@ -1394,11 +1498,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "baseline-export",
+        "href": "https://www.w3.org/TR/css-align-3/#baseline-export",
+        "title": "Determining the Baselines of a Box",
+        "number": "9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "alignment-baseline",
@@ -1412,11 +1518,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "baseline-export",
+        "href": "https://www.w3.org/TR/css-align-3/#baseline-export",
+        "title": "Determining the Baselines of a Box",
+        "number": "9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "generate-baselines",
@@ -1433,11 +1541,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "baseline-export",
+        "href": "https://www.w3.org/TR/css-align-3/#baseline-export",
+        "title": "Determining the Baselines of a Box",
+        "number": "9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "synthesize-baseline",
@@ -1455,11 +1565,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "baseline-export",
+        "href": "https://www.w3.org/TR/css-align-3/#baseline-export",
+        "title": "Determining the Baselines of a Box",
+        "number": "9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "baseline-sharing-group",
@@ -1478,7 +1590,8 @@
         "title": "Baseline Alignment Grouping",
         "number": "9.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "shared-alignment-context",
@@ -1493,11 +1606,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "baseline-terms",
+        "href": "https://www.w3.org/TR/css-align-3/#baseline-terms",
+        "title": "Baseline Alignment Grouping",
+        "number": "9.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "compatible-baseline-alignment-preferences",
@@ -1511,11 +1626,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/css-align-3/#title",
-        "title": "CSS Box Alignment Module Level 3"
+        "id": "baseline-terms",
+        "href": "https://www.w3.org/TR/css-align-3/#baseline-terms",
+        "title": "Baseline Alignment Grouping",
+        "number": "9.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "static-position-rectangle",
@@ -1534,7 +1651,8 @@
         "title": "Static Position Terminology",
         "number": "A"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

@@ -21,7 +21,8 @@
         "title": "Changes to Document",
         "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-storageaccesstypes-all",
@@ -42,7 +43,8 @@
         "title": "Changes to Document",
         "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-storageaccesstypes-cookies",
@@ -63,7 +65,8 @@
         "title": "Changes to Document",
         "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-storageaccesstypes-sessionstorage",
@@ -84,7 +87,8 @@
         "title": "Changes to Document",
         "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-storageaccesstypes-localstorage",
@@ -105,7 +109,8 @@
         "title": "Changes to Document",
         "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-storageaccesstypes-indexeddb",
@@ -126,7 +131,8 @@
         "title": "Changes to Document",
         "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-storageaccesstypes-locks",
@@ -147,7 +153,8 @@
         "title": "Changes to Document",
         "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-storageaccesstypes-caches",
@@ -168,7 +175,8 @@
         "title": "Changes to Document",
         "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-storageaccesstypes-getdirectory",
@@ -189,7 +197,8 @@
         "title": "Changes to Document",
         "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-storageaccesstypes-estimate",
@@ -210,7 +219,8 @@
         "title": "Changes to Document",
         "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-storageaccesstypes-createobjecturl",
@@ -231,7 +241,8 @@
         "title": "Changes to Document",
         "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-storageaccesstypes-revokeobjecturl",
@@ -252,7 +263,8 @@
         "title": "Changes to Document",
         "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-storageaccesstypes-broadcastchannel",
@@ -273,7 +285,8 @@
         "title": "Changes to Document",
         "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-storageaccesstypes-sharedworker",
@@ -294,7 +307,8 @@
         "title": "Changes to Document",
         "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "storageaccesshandle",
@@ -313,7 +327,8 @@
         "title": "Changes to Document",
         "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-storageaccesshandle-createobjecturl-obj-obj",
@@ -334,7 +349,8 @@
         "title": "Changes to Document",
         "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-storageaccesshandle-revokeobjecturl-url-url",
@@ -355,7 +371,8 @@
         "title": "Changes to Document",
         "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-storageaccesshandle-broadcastchannel-name-name",
@@ -376,7 +393,8 @@
         "title": "Changes to Document",
         "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-storageaccesshandle-sharedworker-scripturl-options-scripturl",
@@ -398,7 +416,8 @@
         "title": "Changes to Document",
         "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-storageaccesshandle-sharedworker-scripturl-options-options",
@@ -420,7 +439,8 @@
         "title": "Changes to Document",
         "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-document-requeststorageaccess-types-types",
@@ -431,7 +451,8 @@
       "localLinkingText": [],
       "type": "argument",
       "for": [
-        "Document/requestStorageAccess(types)"
+        "Document/requestStorageAccess(types)",
+        "Document/requestStorageAccess()"
       ],
       "access": "public",
       "informative": false,
@@ -441,7 +462,8 @@
         "title": "Changes to Document",
         "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "storageaccesshandle-types",
@@ -462,7 +484,8 @@
         "title": "Changes to Document",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-document-hasunpartitionedcookieaccess",
@@ -483,13 +506,15 @@
         "title": "Changes to Document",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-document-requeststorageaccess",
       "href": "https://privacycg.github.io/saa-non-cookie-storage/#dom-document-requeststorageaccess",
       "linkingText": [
-        "requestStorageAccess(types)"
+        "requestStorageAccess(types)",
+        "requestStorageAccess()"
       ],
       "localLinkingText": [],
       "type": "method",
@@ -504,7 +529,8 @@
         "title": "Changes to Document",
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "request-storage-access",
@@ -523,7 +549,8 @@
         "title": "Changes to requestStorageAccess()",
         "number": "2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-storageaccesshandle-sessionstorage",
@@ -544,7 +571,8 @@
         "title": "Web storage",
         "number": "2.3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-storageaccesshandle-localstorage",
@@ -565,7 +593,8 @@
         "title": "Web storage",
         "number": "2.3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-storageaccesshandle-indexeddb",
@@ -586,7 +615,8 @@
         "title": "Indexed Database API",
         "number": "2.3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-storageaccesshandle-locks",
@@ -607,7 +637,8 @@
         "title": "Web Locks API",
         "number": "2.3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-storageaccesshandle-caches",
@@ -628,7 +659,8 @@
         "title": "Cache Storage",
         "number": "2.3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-storageaccesshandle-getdirectory",
@@ -649,7 +681,8 @@
         "title": "File System",
         "number": "2.3.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-storageaccesshandle-estimate",
@@ -670,7 +703,8 @@
         "title": "Storage Manager",
         "number": "2.3.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-storageaccesshandle-createobjecturl",
@@ -691,7 +725,8 @@
         "title": "File API",
         "number": "2.3.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-storageaccesshandle-revokeobjecturl",
@@ -712,7 +747,8 @@
         "title": "File API",
         "number": "2.3.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-storageaccesshandle-broadcastchannel",
@@ -733,7 +769,8 @@
         "title": "Broadcast Channel",
         "number": "2.3.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "enumdef-samesitecookiestype",
@@ -752,7 +789,8 @@
         "title": "Shared Workers",
         "number": "2.3.9"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-samesitecookiestype-all",
@@ -773,7 +811,8 @@
         "title": "Shared Workers",
         "number": "2.3.9"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-samesitecookiestype-none",
@@ -794,26 +833,8 @@
         "title": "Shared Workers",
         "number": "2.3.9"
       },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dictdef-sharedworkeroptions",
-      "href": "https://privacycg.github.io/saa-non-cookie-storage/#dictdef-sharedworkeroptions",
-      "linkingText": [
-        "SharedWorkerOptions"
-      ],
-      "localLinkingText": [],
-      "type": "dictionary",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "shared-worker",
-        "href": "https://privacycg.github.io/saa-non-cookie-storage/#shared-worker",
-        "title": "Shared Workers",
-        "number": "2.3.9"
-      },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-sharedworkeroptions-samesitecookies",
@@ -834,7 +855,8 @@
         "title": "Shared Workers",
         "number": "2.3.9"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "sharedworkerglobalscope-samesitecookies",
@@ -855,7 +877,8 @@
         "title": "Shared Workers",
         "number": "2.3.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-storageaccesshandle-sharedworker",
@@ -877,7 +900,8 @@
         "title": "Shared Workers",
         "number": "2.3.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

@@ -23,7 +23,8 @@
         "title": "WebTransport session",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "underlying-connection",
@@ -42,7 +43,8 @@
         "title": "WebTransport session",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "session-send-a-datagram",
@@ -63,7 +65,8 @@
         "title": "WebTransport session",
         "number": "3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "session-receive-a-datagram",
@@ -84,7 +87,8 @@
         "title": "WebTransport session",
         "number": "3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "session-create-an-outgoing-unidirectional-stream",
@@ -105,7 +109,8 @@
         "title": "WebTransport session",
         "number": "3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "session-create-a-bidirectional-stream",
@@ -126,7 +131,8 @@
         "title": "WebTransport session",
         "number": "3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "session-receive-an-incoming-unidirectional-stream",
@@ -147,7 +153,8 @@
         "title": "WebTransport session",
         "number": "3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "session-receive-a-bidirectional-stream",
@@ -168,47 +175,8 @@
         "title": "WebTransport session",
         "number": "3.1"
       },
-      "definedIn": "table"
-    },
-    {
-      "id": "session-establish",
-      "href": "https://w3c.github.io/webtransport/#session-establish",
-      "linkingText": [
-        "establish"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "session"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "webtransport-session",
-        "href": "https://w3c.github.io/webtransport/#webtransport-session",
-        "title": "WebTransport session",
-        "number": "3.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "connect-stream",
-      "href": "https://w3c.github.io/webtransport/#connect-stream",
-      "linkingText": [
-        "CONNECT stream"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "webtransport-session",
-        "href": "https://w3c.github.io/webtransport/#webtransport-session",
-        "title": "WebTransport session",
-        "number": "3.1"
-      },
-      "definedIn": "prose"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "session-draining",
@@ -229,7 +197,8 @@
         "title": "WebTransport session",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "session-terminate",
@@ -250,7 +219,8 @@
         "title": "WebTransport session",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "session-terminated",
@@ -271,49 +241,8 @@
         "title": "WebTransport session",
         "number": "3.1"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "session-signal-drain_webtransport_session",
-      "href": "https://w3c.github.io/webtransport/#session-signal-drain_webtransport_session",
-      "linkingText": [
-        "DRAIN_WEBTRANSPORT_SESSION"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "session-signal"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "webtransport-session",
-        "href": "https://w3c.github.io/webtransport/#webtransport-session",
-        "title": "WebTransport session",
-        "number": "3.1"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "session-signal-goaway",
-      "href": "https://w3c.github.io/webtransport/#session-signal-goaway",
-      "linkingText": [
-        "GOAWAY"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "session-signal"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "webtransport-session",
-        "href": "https://w3c.github.io/webtransport/#webtransport-session",
-        "title": "WebTransport session",
-        "number": "3.1"
-      },
-      "definedIn": "table"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "protocol-webtransport-stream",
@@ -334,7 +263,8 @@
         "title": "WebTransport stream",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "stream-incoming-unidirectional",
@@ -355,7 +285,8 @@
         "title": "WebTransport stream",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "stream-outgoing-unidirectional",
@@ -376,7 +307,8 @@
         "title": "WebTransport stream",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "stream-bidirectional",
@@ -397,7 +329,8 @@
         "title": "WebTransport stream",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "stream-send",
@@ -418,7 +351,8 @@
         "title": "WebTransport stream",
         "number": "3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "stream-receive",
@@ -439,13 +373,14 @@
         "title": "WebTransport stream",
         "number": "3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
-      "id": "stream-send-stop_sending",
-      "href": "https://w3c.github.io/webtransport/#stream-send-stop_sending",
+      "id": "stream-abort-receiving",
+      "href": "https://w3c.github.io/webtransport/#stream-abort-receiving",
       "linkingText": [
-        "send STOP_SENDING"
+        "abort receiving"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -460,13 +395,14 @@
         "title": "WebTransport stream",
         "number": "3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
-      "id": "stream-reset",
-      "href": "https://w3c.github.io/webtransport/#stream-reset",
+      "id": "stream-abort-sending",
+      "href": "https://w3c.github.io/webtransport/#stream-abort-sending",
       "linkingText": [
-        "reset"
+        "abort sending"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -481,13 +417,14 @@
         "title": "WebTransport stream",
         "number": "3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
-      "id": "stream-signal-stop_sending",
-      "href": "https://w3c.github.io/webtransport/#stream-signal-stop_sending",
+      "id": "stream-signal-receiving-aborted",
+      "href": "https://w3c.github.io/webtransport/#stream-signal-receiving-aborted",
       "linkingText": [
-        "STOP_SENDING"
+        "receiving aborted"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -502,13 +439,14 @@
         "title": "WebTransport stream",
         "number": "3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
-      "id": "stream-signal-reset_stream",
-      "href": "https://w3c.github.io/webtransport/#stream-signal-reset_stream",
+      "id": "stream-signal-sending-aborted",
+      "href": "https://w3c.github.io/webtransport/#stream-signal-sending-aborted",
       "linkingText": [
-        "RESET_STREAM"
+        "sending aborted"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -523,7 +461,8 @@
         "title": "WebTransport stream",
         "number": "3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "stream-signal-flow-control",
@@ -544,7 +483,243 @@
         "title": "WebTransport stream",
         "number": "3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "webtransportdatagramswritable",
+      "href": "https://w3c.github.io/webtransport/#webtransportdatagramswritable",
+      "linkingText": [
+        "WebTransportDatagramsWritable"
+      ],
+      "localLinkingText": [],
+      "type": "interface",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "datagram-writable",
+        "href": "https://w3c.github.io/webtransport/#datagram-writable",
+        "title": "WebTransportDatagramsWritable Interface",
+        "number": "4"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-webtransportdatagramswritable-outgoingdatagramsqueue-slot",
+      "href": "https://w3c.github.io/webtransport/#dom-webtransportdatagramswritable-outgoingdatagramsqueue-slot",
+      "linkingText": [
+        "[[OutgoingDatagramsQueue]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "WebTransportDatagramsWritable"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "datagram-writable-internal-slots",
+        "href": "https://w3c.github.io/webtransport/#datagram-writable-internal-slots",
+        "title": "Internal slots",
+        "number": "4.1"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dom-webtransportdatagramswritable-transport-slot",
+      "href": "https://w3c.github.io/webtransport/#dom-webtransportdatagramswritable-transport-slot",
+      "linkingText": [
+        "[[Transport]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "WebTransportDatagramsWritable"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "datagram-writable-internal-slots",
+        "href": "https://w3c.github.io/webtransport/#datagram-writable-internal-slots",
+        "title": "Internal slots",
+        "number": "4.1"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dom-webtransportdatagramswritable-sendgroup-slot",
+      "href": "https://w3c.github.io/webtransport/#dom-webtransportdatagramswritable-sendgroup-slot",
+      "linkingText": [
+        "[[SendGroup]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "WebTransportDatagramsWritable"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "datagram-writable-internal-slots",
+        "href": "https://w3c.github.io/webtransport/#datagram-writable-internal-slots",
+        "title": "Internal slots",
+        "number": "4.1"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dom-webtransportdatagramswritable-sendorder-slot",
+      "href": "https://w3c.github.io/webtransport/#dom-webtransportdatagramswritable-sendorder-slot",
+      "linkingText": [
+        "[[SendOrder]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "WebTransportDatagramsWritable"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "datagram-writable-internal-slots",
+        "href": "https://w3c.github.io/webtransport/#datagram-writable-internal-slots",
+        "title": "Internal slots",
+        "number": "4.1"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "webtransportdatagramswritable-create",
+      "href": "https://w3c.github.io/webtransport/#webtransportdatagramswritable-create",
+      "linkingText": [
+        "create",
+        "creating"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "WebTransportDatagramsWritable"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "datagram-writable-internal-slots",
+        "href": "https://w3c.github.io/webtransport/#datagram-writable-internal-slots",
+        "title": "Internal slots",
+        "number": "4.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-webtransportdatagramswritable-sendgroup",
+      "href": "https://w3c.github.io/webtransport/#dom-webtransportdatagramswritable-sendgroup",
+      "linkingText": [
+        "sendGroup"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "WebTransportDatagramsWritable"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "datagram-writable-attributes",
+        "href": "https://w3c.github.io/webtransport/#datagram-writable-attributes",
+        "title": "Attributes",
+        "number": "4.2"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-webtransportdatagramswritable-sendorder",
+      "href": "https://w3c.github.io/webtransport/#dom-webtransportdatagramswritable-sendorder",
+      "linkingText": [
+        "sendOrder"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "WebTransportDatagramsWritable"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "datagram-writable-attributes",
+        "href": "https://w3c.github.io/webtransport/#datagram-writable-attributes",
+        "title": "Attributes",
+        "number": "4.2"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "writedatagrams",
+      "href": "https://w3c.github.io/webtransport/#writedatagrams",
+      "linkingText": [
+        "writeDatagrams"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "datagram-writable-procedures",
+        "href": "https://w3c.github.io/webtransport/#datagram-writable-procedures",
+        "title": "Procedures",
+        "number": "4.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "senddatagrams",
+      "href": "https://w3c.github.io/webtransport/#senddatagrams",
+      "linkingText": [
+        "sendDatagrams"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "datagram-writable-procedures",
+        "href": "https://w3c.github.io/webtransport/#datagram-writable-procedures",
+        "title": "Procedures",
+        "number": "4.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "send-order-rules",
+      "href": "https://w3c.github.io/webtransport/#send-order-rules",
+      "linkingText": [
+        "send-order rules"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "datagram-writable-procedures",
+        "href": "https://w3c.github.io/webtransport/#datagram-writable-procedures",
+        "title": "Procedures",
+        "number": "4.3"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webtransportdatagramduplexstream",
@@ -558,12 +733,58 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "duplex-stream",
-        "href": "https://w3c.github.io/webtransport/#duplex-stream",
+        "id": "datagram-duplex-stream",
+        "href": "https://w3c.github.io/webtransport/#datagram-duplex-stream",
         "title": "WebTransportDatagramDuplexStream Interface",
-        "number": "4"
+        "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-webtransportdatagramduplexstream-createwritable-options-options",
+      "href": "https://w3c.github.io/webtransport/#dom-webtransportdatagramduplexstream-createwritable-options-options",
+      "linkingText": [
+        "options"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "WebTransportDatagramDuplexStream/createWritable(options)",
+        "WebTransportDatagramDuplexStream/createWritable()"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "datagram-duplex-stream",
+        "href": "https://w3c.github.io/webtransport/#datagram-duplex-stream",
+        "title": "WebTransportDatagramDuplexStream Interface",
+        "number": "5"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-webtransportdatagramduplexstream-transport-slot",
+      "href": "https://w3c.github.io/webtransport/#dom-webtransportdatagramduplexstream-transport-slot",
+      "linkingText": [
+        "[[Transport]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "WebTransportDatagramDuplexStream"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "datagram-duplex-stream-internal-slots",
+        "href": "https://w3c.github.io/webtransport/#datagram-duplex-stream-internal-slots",
+        "title": "Internal slots",
+        "number": "5.1"
+      },
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-webtransportdatagramduplexstream-readable-slot",
@@ -579,18 +800,19 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "datagramduplexstream-internal-slots",
-        "href": "https://w3c.github.io/webtransport/#datagramduplexstream-internal-slots",
+        "id": "datagram-duplex-stream-internal-slots",
+        "href": "https://w3c.github.io/webtransport/#datagram-duplex-stream-internal-slots",
         "title": "Internal slots",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
-      "id": "dom-webtransportdatagramduplexstream-writable-slot",
-      "href": "https://w3c.github.io/webtransport/#dom-webtransportdatagramduplexstream-writable-slot",
+      "id": "dom-webtransportdatagramduplexstream-readabletype-slot",
+      "href": "https://w3c.github.io/webtransport/#dom-webtransportdatagramduplexstream-readabletype-slot",
       "linkingText": [
-        "[[Writable]]"
+        "[[ReadableType]]"
       ],
       "localLinkingText": [],
       "type": "attribute",
@@ -600,12 +822,35 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "datagramduplexstream-internal-slots",
-        "href": "https://w3c.github.io/webtransport/#datagramduplexstream-internal-slots",
+        "id": "datagram-duplex-stream-internal-slots",
+        "href": "https://w3c.github.io/webtransport/#datagram-duplex-stream-internal-slots",
         "title": "Internal slots",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dom-webtransportdatagramduplexstream-writables-slot",
+      "href": "https://w3c.github.io/webtransport/#dom-webtransportdatagramduplexstream-writables-slot",
+      "linkingText": [
+        "[[Writables]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "WebTransportDatagramDuplexStream"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "datagram-duplex-stream-internal-slots",
+        "href": "https://w3c.github.io/webtransport/#datagram-duplex-stream-internal-slots",
+        "title": "Internal slots",
+        "number": "5.1"
+      },
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-webtransportdatagramduplexstream-incomingdatagramsqueue-slot",
@@ -621,12 +866,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "datagramduplexstream-internal-slots",
-        "href": "https://w3c.github.io/webtransport/#datagramduplexstream-internal-slots",
+        "id": "datagram-duplex-stream-internal-slots",
+        "href": "https://w3c.github.io/webtransport/#datagram-duplex-stream-internal-slots",
         "title": "Internal slots",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-webtransportdatagramduplexstream-incomingdatagramspullpromise-slot",
@@ -642,18 +888,19 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "datagramduplexstream-internal-slots",
-        "href": "https://w3c.github.io/webtransport/#datagramduplexstream-internal-slots",
+        "id": "datagram-duplex-stream-internal-slots",
+        "href": "https://w3c.github.io/webtransport/#datagram-duplex-stream-internal-slots",
         "title": "Internal slots",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
-      "id": "dom-webtransportdatagramduplexstream-incomingdatagramshighwatermark-slot",
-      "href": "https://w3c.github.io/webtransport/#dom-webtransportdatagramduplexstream-incomingdatagramshighwatermark-slot",
+      "id": "dom-webtransportdatagramduplexstream-incomingmaxbuffereddatagrams-slot",
+      "href": "https://w3c.github.io/webtransport/#dom-webtransportdatagramduplexstream-incomingmaxbuffereddatagrams-slot",
       "linkingText": [
-        "[[IncomingDatagramsHighWaterMark]]"
+        "[[IncomingMaxBufferedDatagrams]]"
       ],
       "localLinkingText": [],
       "type": "attribute",
@@ -663,12 +910,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "datagramduplexstream-internal-slots",
-        "href": "https://w3c.github.io/webtransport/#datagramduplexstream-internal-slots",
+        "id": "datagram-duplex-stream-internal-slots",
+        "href": "https://w3c.github.io/webtransport/#datagram-duplex-stream-internal-slots",
         "title": "Internal slots",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-webtransportdatagramduplexstream-incomingdatagramsexpirationduration-slot",
@@ -684,18 +932,19 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "datagramduplexstream-internal-slots",
-        "href": "https://w3c.github.io/webtransport/#datagramduplexstream-internal-slots",
+        "id": "datagram-duplex-stream-internal-slots",
+        "href": "https://w3c.github.io/webtransport/#datagram-duplex-stream-internal-slots",
         "title": "Internal slots",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
-      "id": "dom-webtransportdatagramduplexstream-outgoingdatagramsqueue-slot",
-      "href": "https://w3c.github.io/webtransport/#dom-webtransportdatagramduplexstream-outgoingdatagramsqueue-slot",
+      "id": "dom-webtransportdatagramduplexstream-outgoingmaxbuffereddatagrams-slot",
+      "href": "https://w3c.github.io/webtransport/#dom-webtransportdatagramduplexstream-outgoingmaxbuffereddatagrams-slot",
       "linkingText": [
-        "[[OutgoingDatagramsQueue]]"
+        "[[OutgoingMaxBufferedDatagrams]]"
       ],
       "localLinkingText": [],
       "type": "attribute",
@@ -705,33 +954,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "datagramduplexstream-internal-slots",
-        "href": "https://w3c.github.io/webtransport/#datagramduplexstream-internal-slots",
+        "id": "datagram-duplex-stream-internal-slots",
+        "href": "https://w3c.github.io/webtransport/#datagram-duplex-stream-internal-slots",
         "title": "Internal slots",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "table"
-    },
-    {
-      "id": "dom-webtransportdatagramduplexstream-outgoingdatagramshighwatermark-slot",
-      "href": "https://w3c.github.io/webtransport/#dom-webtransportdatagramduplexstream-outgoingdatagramshighwatermark-slot",
-      "linkingText": [
-        "[[OutgoingDatagramsHighWaterMark]]"
-      ],
-      "localLinkingText": [],
-      "type": "attribute",
-      "for": [
-        "WebTransportDatagramDuplexStream"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "datagramduplexstream-internal-slots",
-        "href": "https://w3c.github.io/webtransport/#datagramduplexstream-internal-slots",
-        "title": "Internal slots",
-        "number": "4.1"
-      },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-webtransportdatagramduplexstream-outgoingdatagramsexpirationduration-slot",
@@ -747,12 +976,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "datagramduplexstream-internal-slots",
-        "href": "https://w3c.github.io/webtransport/#datagramduplexstream-internal-slots",
+        "id": "datagram-duplex-stream-internal-slots",
+        "href": "https://w3c.github.io/webtransport/#datagram-duplex-stream-internal-slots",
         "title": "Internal slots",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-webtransportdatagramduplexstream-outgoingmaxdatagramsize-slot",
@@ -768,12 +998,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "datagramduplexstream-internal-slots",
-        "href": "https://w3c.github.io/webtransport/#datagramduplexstream-internal-slots",
+        "id": "datagram-duplex-stream-internal-slots",
+        "href": "https://w3c.github.io/webtransport/#datagram-duplex-stream-internal-slots",
         "title": "Internal slots",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "webtransportdatagramduplexstream-create",
@@ -790,54 +1021,36 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "datagramduplexstream-internal-slots",
-        "href": "https://w3c.github.io/webtransport/#datagramduplexstream-internal-slots",
+        "id": "datagram-duplex-stream-internal-slots",
+        "href": "https://w3c.github.io/webtransport/#datagram-duplex-stream-internal-slots",
         "title": "Internal slots",
-        "number": "4.1"
+        "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "webtransportdatagramduplexstream-create-readable",
-      "href": "https://w3c.github.io/webtransport/#webtransportdatagramduplexstream-create-readable",
+      "id": "dom-webtransportdatagramduplexstream-createwritable",
+      "href": "https://w3c.github.io/webtransport/#dom-webtransportdatagramduplexstream-createwritable",
       "linkingText": [
-        "readable"
+        "createWritable(options)",
+        "createWritable()"
       ],
       "localLinkingText": [],
-      "type": "dfn",
+      "type": "method",
       "for": [
-        "WebTransportDatagramDuplexStream/create"
+        "WebTransportDatagramDuplexStream"
       ],
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "datagramduplexstream-internal-slots",
-        "href": "https://w3c.github.io/webtransport/#datagramduplexstream-internal-slots",
-        "title": "Internal slots",
-        "number": "4.1"
+        "id": "datagram-duplex-stream-methods",
+        "href": "https://w3c.github.io/webtransport/#datagram-duplex-stream-methods",
+        "title": "Methods",
+        "number": "5.2"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "webtransportdatagramduplexstream-create-writable",
-      "href": "https://w3c.github.io/webtransport/#webtransportdatagramduplexstream-create-writable",
-      "linkingText": [
-        "writable"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "WebTransportDatagramDuplexStream/create"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "datagramduplexstream-internal-slots",
-        "href": "https://w3c.github.io/webtransport/#datagramduplexstream-internal-slots",
-        "title": "Internal slots",
-        "number": "4.1"
-      },
-      "definedIn": "prose"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportdatagramduplexstream-readable",
@@ -856,30 +1069,10 @@
         "id": "datagram-duplex-stream-attributes",
         "href": "https://w3c.github.io/webtransport/#datagram-duplex-stream-attributes",
         "title": "Attributes",
-        "number": "4.2"
+        "number": "5.3"
       },
-      "definedIn": "dt"
-    },
-    {
-      "id": "dom-webtransportdatagramduplexstream-writable",
-      "href": "https://w3c.github.io/webtransport/#dom-webtransportdatagramduplexstream-writable",
-      "linkingText": [
-        "writable"
-      ],
-      "localLinkingText": [],
-      "type": "attribute",
-      "for": [
-        "WebTransportDatagramDuplexStream"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "datagram-duplex-stream-attributes",
-        "href": "https://w3c.github.io/webtransport/#datagram-duplex-stream-attributes",
-        "title": "Attributes",
-        "number": "4.2"
-      },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportdatagramduplexstream-incomingmaxage",
@@ -898,9 +1091,10 @@
         "id": "datagram-duplex-stream-attributes",
         "href": "https://w3c.github.io/webtransport/#datagram-duplex-stream-attributes",
         "title": "Attributes",
-        "number": "4.2"
+        "number": "5.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportdatagramduplexstream-maxdatagramsize",
@@ -919,9 +1113,10 @@
         "id": "datagram-duplex-stream-attributes",
         "href": "https://w3c.github.io/webtransport/#datagram-duplex-stream-attributes",
         "title": "Attributes",
-        "number": "4.2"
+        "number": "5.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportdatagramduplexstream-outgoingmaxage",
@@ -940,15 +1135,16 @@
         "id": "datagram-duplex-stream-attributes",
         "href": "https://w3c.github.io/webtransport/#datagram-duplex-stream-attributes",
         "title": "Attributes",
-        "number": "4.2"
+        "number": "5.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
-      "id": "dom-webtransportdatagramduplexstream-incominghighwatermark",
-      "href": "https://w3c.github.io/webtransport/#dom-webtransportdatagramduplexstream-incominghighwatermark",
+      "id": "dom-webtransportdatagramduplexstream-incomingmaxbuffereddatagrams",
+      "href": "https://w3c.github.io/webtransport/#dom-webtransportdatagramduplexstream-incomingmaxbuffereddatagrams",
       "linkingText": [
-        "incomingHighWaterMark"
+        "incomingMaxBufferedDatagrams"
       ],
       "localLinkingText": [],
       "type": "attribute",
@@ -961,15 +1157,16 @@
         "id": "datagram-duplex-stream-attributes",
         "href": "https://w3c.github.io/webtransport/#datagram-duplex-stream-attributes",
         "title": "Attributes",
-        "number": "4.2"
+        "number": "5.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
-      "id": "dom-webtransportdatagramduplexstream-outgoinghighwatermark",
-      "href": "https://w3c.github.io/webtransport/#dom-webtransportdatagramduplexstream-outgoinghighwatermark",
+      "id": "dom-webtransportdatagramduplexstream-outgoingmaxbuffereddatagrams",
+      "href": "https://w3c.github.io/webtransport/#dom-webtransportdatagramduplexstream-outgoingmaxbuffereddatagrams",
       "linkingText": [
-        "outgoingHighWaterMark"
+        "outgoingMaxBufferedDatagrams"
       ],
       "localLinkingText": [],
       "type": "attribute",
@@ -982,9 +1179,10 @@
         "id": "datagram-duplex-stream-attributes",
         "href": "https://w3c.github.io/webtransport/#datagram-duplex-stream-attributes",
         "title": "Attributes",
-        "number": "4.2"
+        "number": "5.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "pulldatagrams",
@@ -1001,9 +1199,10 @@
         "id": "datagram-duplex-stream-procedures",
         "href": "https://w3c.github.io/webtransport/#datagram-duplex-stream-procedures",
         "title": "Procedures",
-        "number": "4.3"
+        "number": "5.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "receivedatagrams",
@@ -1020,47 +1219,10 @@
         "id": "datagram-duplex-stream-procedures",
         "href": "https://w3c.github.io/webtransport/#datagram-duplex-stream-procedures",
         "title": "Procedures",
-        "number": "4.3"
+        "number": "5.4"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "writedatagrams",
-      "href": "https://w3c.github.io/webtransport/#writedatagrams",
-      "linkingText": [
-        "writeDatagrams"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "datagram-duplex-stream-procedures",
-        "href": "https://w3c.github.io/webtransport/#datagram-duplex-stream-procedures",
-        "title": "Procedures",
-        "number": "4.3"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "senddatagrams",
-      "href": "https://w3c.github.io/webtransport/#senddatagrams",
-      "linkingText": [
-        "sendDatagrams"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "datagram-duplex-stream-procedures",
-        "href": "https://w3c.github.io/webtransport/#datagram-duplex-stream-procedures",
-        "title": "Procedures",
-        "number": "4.3"
-      },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webtransport",
@@ -1077,9 +1239,10 @@
         "id": "web-transport",
         "href": "https://w3c.github.io/webtransport/#web-transport",
         "title": "WebTransport Interface",
-        "number": "5"
+        "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webtransport-webtransport",
@@ -1101,9 +1264,10 @@
         "id": "web-transport",
         "href": "https://w3c.github.io/webtransport/#web-transport",
         "title": "WebTransport Interface",
-        "number": "5"
+        "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webtransport-webtransport-url-options-url",
@@ -1125,9 +1289,10 @@
         "id": "web-transport",
         "href": "https://w3c.github.io/webtransport/#web-transport",
         "title": "WebTransport Interface",
-        "number": "5"
+        "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webtransport-webtransport-url-options-options",
@@ -1149,9 +1314,76 @@
         "id": "web-transport",
         "href": "https://w3c.github.io/webtransport/#web-transport",
         "title": "WebTransport Interface",
-        "number": "5"
+        "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-webtransport-exportkeyingmaterial-label-context-outputlength-label",
+      "href": "https://w3c.github.io/webtransport/#dom-webtransport-exportkeyingmaterial-label-context-outputlength-label",
+      "linkingText": [
+        "label"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "WebTransport/exportKeyingMaterial(label, context, outputLength)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "web-transport",
+        "href": "https://w3c.github.io/webtransport/#web-transport",
+        "title": "WebTransport Interface",
+        "number": "6"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-webtransport-exportkeyingmaterial-label-context-outputlength-context",
+      "href": "https://w3c.github.io/webtransport/#dom-webtransport-exportkeyingmaterial-label-context-outputlength-context",
+      "linkingText": [
+        "context"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "WebTransport/exportKeyingMaterial(label, context, outputLength)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "web-transport",
+        "href": "https://w3c.github.io/webtransport/#web-transport",
+        "title": "WebTransport Interface",
+        "number": "6"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-webtransport-exportkeyingmaterial-label-context-outputlength-outputlength",
+      "href": "https://w3c.github.io/webtransport/#dom-webtransport-exportkeyingmaterial-label-context-outputlength-outputlength",
+      "linkingText": [
+        "outputLength"
+      ],
+      "localLinkingText": [],
+      "type": "argument",
+      "for": [
+        "WebTransport/exportKeyingMaterial(label, context, outputLength)"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "web-transport",
+        "href": "https://w3c.github.io/webtransport/#web-transport",
+        "title": "WebTransport Interface",
+        "number": "6"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webtransport-close-closeinfo-closeinfo",
@@ -1171,9 +1403,10 @@
         "id": "web-transport",
         "href": "https://w3c.github.io/webtransport/#web-transport",
         "title": "WebTransport Interface",
-        "number": "5"
+        "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webtransport-createbidirectionalstream-options-options",
@@ -1193,9 +1426,10 @@
         "id": "web-transport",
         "href": "https://w3c.github.io/webtransport/#web-transport",
         "title": "WebTransport Interface",
-        "number": "5"
+        "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webtransport-createunidirectionalstream-options-options",
@@ -1215,9 +1449,10 @@
         "id": "web-transport",
         "href": "https://w3c.github.io/webtransport/#web-transport",
         "title": "WebTransport Interface",
-        "number": "5"
+        "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "enumdef-webtransportreliabilitymode",
@@ -1234,9 +1469,10 @@
         "id": "web-transport",
         "href": "https://w3c.github.io/webtransport/#web-transport",
         "title": "WebTransport Interface",
-        "number": "5"
+        "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webtransportreliabilitymode-pending",
@@ -1255,9 +1491,10 @@
         "id": "web-transport",
         "href": "https://w3c.github.io/webtransport/#web-transport",
         "title": "WebTransport Interface",
-        "number": "5"
+        "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webtransportreliabilitymode-reliable-only",
@@ -1276,9 +1513,10 @@
         "id": "web-transport",
         "href": "https://w3c.github.io/webtransport/#web-transport",
         "title": "WebTransport Interface",
-        "number": "5"
+        "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webtransportreliabilitymode-supports-unreliable",
@@ -1297,9 +1535,10 @@
         "id": "web-transport",
         "href": "https://w3c.github.io/webtransport/#web-transport",
         "title": "WebTransport Interface",
-        "number": "5"
+        "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webtransport-sendstreams-slot",
@@ -1318,9 +1557,10 @@
         "id": "webtransport-internal-slots",
         "href": "https://w3c.github.io/webtransport/#webtransport-internal-slots",
         "title": "Internal slots",
-        "number": "5.1"
+        "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-webtransport-receivestreams-slot",
@@ -1339,9 +1579,10 @@
         "id": "webtransport-internal-slots",
         "href": "https://w3c.github.io/webtransport/#webtransport-internal-slots",
         "title": "Internal slots",
-        "number": "5.1"
+        "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-webtransport-incomingbidirectionalstreams-slot",
@@ -1360,9 +1601,10 @@
         "id": "webtransport-internal-slots",
         "href": "https://w3c.github.io/webtransport/#webtransport-internal-slots",
         "title": "Internal slots",
-        "number": "5.1"
+        "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-webtransport-incomingunidirectionalstreams-slot",
@@ -1381,9 +1623,10 @@
         "id": "webtransport-internal-slots",
         "href": "https://w3c.github.io/webtransport/#webtransport-internal-slots",
         "title": "Internal slots",
-        "number": "5.1"
+        "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-webtransport-state-slot",
@@ -1402,9 +1645,10 @@
         "id": "webtransport-internal-slots",
         "href": "https://w3c.github.io/webtransport/#webtransport-internal-slots",
         "title": "Internal slots",
-        "number": "5.1"
+        "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-webtransport-ready-slot",
@@ -1423,9 +1667,10 @@
         "id": "webtransport-internal-slots",
         "href": "https://w3c.github.io/webtransport/#webtransport-internal-slots",
         "title": "Internal slots",
-        "number": "5.1"
+        "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-webtransport-reliability-slot",
@@ -1444,9 +1689,10 @@
         "id": "webtransport-internal-slots",
         "href": "https://w3c.github.io/webtransport/#webtransport-internal-slots",
         "title": "Internal slots",
-        "number": "5.1"
+        "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-webtransport-congestioncontrol-slot",
@@ -1465,9 +1711,10 @@
         "id": "webtransport-internal-slots",
         "href": "https://w3c.github.io/webtransport/#webtransport-internal-slots",
         "title": "Internal slots",
-        "number": "5.1"
+        "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-webtransport-anticipatedconcurrentincomingunidirectionalstreams-slot",
@@ -1486,9 +1733,10 @@
         "id": "webtransport-internal-slots",
         "href": "https://w3c.github.io/webtransport/#webtransport-internal-slots",
         "title": "Internal slots",
-        "number": "5.1"
+        "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-webtransport-anticipatedconcurrentincomingbidirectionalstreams-slot",
@@ -1507,9 +1755,32 @@
         "id": "webtransport-internal-slots",
         "href": "https://w3c.github.io/webtransport/#webtransport-internal-slots",
         "title": "Internal slots",
-        "number": "5.1"
+        "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dom-webtransport-responseheaders-slot",
+      "href": "https://w3c.github.io/webtransport/#dom-webtransport-responseheaders-slot",
+      "linkingText": [
+        "[[ResponseHeaders]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "WebTransport"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "webtransport-internal-slots",
+        "href": "https://w3c.github.io/webtransport/#webtransport-internal-slots",
+        "title": "Internal slots",
+        "number": "6.1"
+      },
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-webtransport-protocol-slot",
@@ -1528,9 +1799,10 @@
         "id": "webtransport-internal-slots",
         "href": "https://w3c.github.io/webtransport/#webtransport-internal-slots",
         "title": "Internal slots",
-        "number": "5.1"
+        "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-webtransport-closed-slot",
@@ -1549,9 +1821,10 @@
         "id": "webtransport-internal-slots",
         "href": "https://w3c.github.io/webtransport/#webtransport-internal-slots",
         "title": "Internal slots",
-        "number": "5.1"
+        "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-webtransport-draining-slot",
@@ -1570,9 +1843,10 @@
         "id": "webtransport-internal-slots",
         "href": "https://w3c.github.io/webtransport/#webtransport-internal-slots",
         "title": "Internal slots",
-        "number": "5.1"
+        "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-webtransport-datagrams-slot",
@@ -1591,9 +1865,10 @@
         "id": "webtransport-internal-slots",
         "href": "https://w3c.github.io/webtransport/#webtransport-internal-slots",
         "title": "Internal slots",
-        "number": "5.1"
+        "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-webtransport-session-slot",
@@ -1612,15 +1887,60 @@
         "id": "webtransport-internal-slots",
         "href": "https://w3c.github.io/webtransport/#webtransport-internal-slots",
         "title": "Internal slots",
-        "number": "5.1"
+        "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
-      "id": "initialize-webtransport-over-http",
-      "href": "https://w3c.github.io/webtransport/#initialize-webtransport-over-http",
+      "id": "dom-webtransport-newconnection-slot",
+      "href": "https://w3c.github.io/webtransport/#dom-webtransport-newconnection-slot",
       "linkingText": [
-        "initialize WebTransport over HTTP"
+        "[[NewConnection]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "WebTransport"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "webtransport-internal-slots",
+        "href": "https://w3c.github.io/webtransport/#webtransport-internal-slots",
+        "title": "Internal slots",
+        "number": "6.1"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dom-webtransport-requireunreliable-slot",
+      "href": "https://w3c.github.io/webtransport/#dom-webtransport-requireunreliable-slot",
+      "linkingText": [
+        "[[RequireUnreliable]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "WebTransport"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "webtransport-internal-slots",
+        "href": "https://w3c.github.io/webtransport/#webtransport-internal-slots",
+        "title": "Internal slots",
+        "number": "6.1"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "pseudo-header",
+      "href": "https://w3c.github.io/webtransport/#pseudo-header",
+      "linkingText": [
+        "pseudo-header"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1631,9 +1951,92 @@
         "id": "webtransport-constructor",
         "href": "https://w3c.github.io/webtransport/#webtransport-constructor",
         "title": "Constructor",
-        "number": "5.2"
+        "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "obtain-a-webtransport-connection",
+      "href": "https://w3c.github.io/webtransport/#obtain-a-webtransport-connection",
+      "linkingText": [
+        "obtain a WebTransport connection"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "webtransport-constructor",
+        "href": "https://w3c.github.io/webtransport/#webtransport-constructor",
+        "title": "Constructor",
+        "number": "6.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "process-a-webtransport-fetch-response",
+      "href": "https://w3c.github.io/webtransport/#process-a-webtransport-fetch-response",
+      "linkingText": [
+        "process a WebTransport fetch response"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "webtransport-constructor",
+        "href": "https://w3c.github.io/webtransport/#webtransport-constructor",
+        "title": "Constructor",
+        "number": "6.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "session-establish",
+      "href": "https://w3c.github.io/webtransport/#session-establish",
+      "linkingText": [
+        "establish"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "session"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "webtransport-constructor",
+        "href": "https://w3c.github.io/webtransport/#webtransport-constructor",
+        "title": "Constructor",
+        "number": "6.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "connect-stream",
+      "href": "https://w3c.github.io/webtransport/#connect-stream",
+      "linkingText": [
+        "CONNECT stream"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "webtransport-constructor",
+        "href": "https://w3c.github.io/webtransport/#webtransport-constructor",
+        "title": "Constructor",
+        "number": "6.2"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "pullbidirectionalstream",
@@ -1650,9 +2053,10 @@
         "id": "webtransport-constructor",
         "href": "https://w3c.github.io/webtransport/#webtransport-constructor",
         "title": "Constructor",
-        "number": "5.2"
+        "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "pullunidirectionalstream",
@@ -1669,9 +2073,10 @@
         "id": "webtransport-constructor",
         "href": "https://w3c.github.io/webtransport/#webtransport-constructor",
         "title": "Constructor",
-        "number": "5.2"
+        "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-webtransport-ready",
@@ -1690,9 +2095,10 @@
         "id": "webtransport-attributes",
         "href": "https://w3c.github.io/webtransport/#webtransport-attributes",
         "title": "Attributes",
-        "number": "5.3"
+        "number": "6.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransport-closed",
@@ -1711,9 +2117,10 @@
         "id": "webtransport-attributes",
         "href": "https://w3c.github.io/webtransport/#webtransport-attributes",
         "title": "Attributes",
-        "number": "5.3"
+        "number": "6.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransport-draining",
@@ -1732,9 +2139,10 @@
         "id": "webtransport-attributes",
         "href": "https://w3c.github.io/webtransport/#webtransport-attributes",
         "title": "Attributes",
-        "number": "5.3"
+        "number": "6.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransport-datagrams",
@@ -1753,9 +2161,10 @@
         "id": "webtransport-attributes",
         "href": "https://w3c.github.io/webtransport/#webtransport-attributes",
         "title": "Attributes",
-        "number": "5.3"
+        "number": "6.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransport-incomingbidirectionalstreams",
@@ -1774,9 +2183,10 @@
         "id": "webtransport-attributes",
         "href": "https://w3c.github.io/webtransport/#webtransport-attributes",
         "title": "Attributes",
-        "number": "5.3"
+        "number": "6.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransport-incomingunidirectionalstreams",
@@ -1795,9 +2205,10 @@
         "id": "webtransport-attributes",
         "href": "https://w3c.github.io/webtransport/#webtransport-attributes",
         "title": "Attributes",
-        "number": "5.3"
+        "number": "6.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransport-reliability",
@@ -1816,9 +2227,10 @@
         "id": "webtransport-attributes",
         "href": "https://w3c.github.io/webtransport/#webtransport-attributes",
         "title": "Attributes",
-        "number": "5.3"
+        "number": "6.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransport-congestioncontrol",
@@ -1837,9 +2249,10 @@
         "id": "webtransport-attributes",
         "href": "https://w3c.github.io/webtransport/#webtransport-attributes",
         "title": "Attributes",
-        "number": "5.3"
+        "number": "6.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransport-supportsreliableonly",
@@ -1858,9 +2271,10 @@
         "id": "webtransport-attributes",
         "href": "https://w3c.github.io/webtransport/#webtransport-attributes",
         "title": "Attributes",
-        "number": "5.3"
+        "number": "6.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransport-anticipatedconcurrentincomingunidirectionalstreams",
@@ -1879,9 +2293,10 @@
         "id": "webtransport-attributes",
         "href": "https://w3c.github.io/webtransport/#webtransport-attributes",
         "title": "Attributes",
-        "number": "5.3"
+        "number": "6.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransport-anticipatedconcurrentincomingbidirectionalstreams",
@@ -1900,9 +2315,32 @@
         "id": "webtransport-attributes",
         "href": "https://w3c.github.io/webtransport/#webtransport-attributes",
         "title": "Attributes",
-        "number": "5.3"
+        "number": "6.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-webtransport-responseheaders",
+      "href": "https://w3c.github.io/webtransport/#dom-webtransport-responseheaders",
+      "linkingText": [
+        "responseHeaders"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "WebTransport"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "webtransport-attributes",
+        "href": "https://w3c.github.io/webtransport/#webtransport-attributes",
+        "title": "Attributes",
+        "number": "6.3"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransport-protocol",
@@ -1921,9 +2359,10 @@
         "id": "webtransport-attributes",
         "href": "https://w3c.github.io/webtransport/#webtransport-attributes",
         "title": "Attributes",
-        "number": "5.3"
+        "number": "6.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransport-close",
@@ -1943,9 +2382,10 @@
         "id": "webtransport-methods",
         "href": "https://w3c.github.io/webtransport/#webtransport-methods",
         "title": "Methods",
-        "number": "5.4"
+        "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransport-getstats",
@@ -1964,9 +2404,32 @@
         "id": "webtransport-methods",
         "href": "https://w3c.github.io/webtransport/#webtransport-methods",
         "title": "Methods",
-        "number": "5.4"
+        "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-webtransport-exportkeyingmaterial",
+      "href": "https://w3c.github.io/webtransport/#dom-webtransport-exportkeyingmaterial",
+      "linkingText": [
+        "exportKeyingMaterial(label, context, outputLength)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "WebTransport"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "webtransport-methods",
+        "href": "https://w3c.github.io/webtransport/#webtransport-methods",
+        "title": "Methods",
+        "number": "6.4"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransport-createbidirectionalstream",
@@ -1986,9 +2449,10 @@
         "id": "webtransport-methods",
         "href": "https://w3c.github.io/webtransport/#webtransport-methods",
         "title": "Methods",
-        "number": "5.4"
+        "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransport-createunidirectionalstream",
@@ -2008,9 +2472,10 @@
         "id": "webtransport-methods",
         "href": "https://w3c.github.io/webtransport/#webtransport-methods",
         "title": "Methods",
-        "number": "5.4"
+        "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransport-createsendgroup",
@@ -2029,9 +2494,10 @@
         "id": "webtransport-methods",
         "href": "https://w3c.github.io/webtransport/#webtransport-methods",
         "title": "Methods",
-        "number": "5.4"
+        "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webtransport-cleanup",
@@ -2050,9 +2516,10 @@
         "id": "webtransport-procedures",
         "href": "https://w3c.github.io/webtransport/#webtransport-procedures",
         "title": "Procedures",
-        "number": "5.5"
+        "number": "6.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webtransport-queue-a-network-task",
@@ -2071,9 +2538,10 @@
         "id": "webtransport-procedures",
         "href": "https://w3c.github.io/webtransport/#webtransport-procedures",
         "title": "Procedures",
-        "number": "5.5"
+        "number": "6.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "context-cleanup-steps",
@@ -2084,15 +2552,16 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "web-transport-context-cleanup-steps",
         "href": "https://w3c.github.io/webtransport/#web-transport-context-cleanup-steps",
         "title": "Context cleanup steps",
-        "number": "5.7"
+        "number": "6.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dictdef-webtransporthash",
@@ -2109,9 +2578,10 @@
         "id": "web-transport-configuration",
         "href": "https://w3c.github.io/webtransport/#web-transport-configuration",
         "title": "Configuration",
-        "number": "5.9"
+        "number": "6.9"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webtransporthash-algorithm",
@@ -2130,9 +2600,10 @@
         "id": "web-transport-configuration",
         "href": "https://w3c.github.io/webtransport/#web-transport-configuration",
         "title": "Configuration",
-        "number": "5.9"
+        "number": "6.9"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webtransporthash-value",
@@ -2151,9 +2622,10 @@
         "id": "web-transport-configuration",
         "href": "https://w3c.github.io/webtransport/#web-transport-configuration",
         "title": "Configuration",
-        "number": "5.9"
+        "number": "6.9"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "enumdef-webtransportcongestioncontrol",
@@ -2170,9 +2642,10 @@
         "id": "web-transport-configuration",
         "href": "https://w3c.github.io/webtransport/#web-transport-configuration",
         "title": "Configuration",
-        "number": "5.9"
+        "number": "6.9"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webtransportcongestioncontrol-default",
@@ -2191,9 +2664,10 @@
         "id": "web-transport-configuration",
         "href": "https://w3c.github.io/webtransport/#web-transport-configuration",
         "title": "Configuration",
-        "number": "5.9"
+        "number": "6.9"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webtransportcongestioncontrol-throughput",
@@ -2212,9 +2686,10 @@
         "id": "web-transport-configuration",
         "href": "https://w3c.github.io/webtransport/#web-transport-configuration",
         "title": "Configuration",
-        "number": "5.9"
+        "number": "6.9"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webtransportcongestioncontrol-low-latency",
@@ -2233,9 +2708,10 @@
         "id": "web-transport-configuration",
         "href": "https://w3c.github.io/webtransport/#web-transport-configuration",
         "title": "Configuration",
-        "number": "5.9"
+        "number": "6.9"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-webtransportoptions",
@@ -2252,9 +2728,10 @@
         "id": "web-transport-configuration",
         "href": "https://w3c.github.io/webtransport/#web-transport-configuration",
         "title": "Configuration",
-        "number": "5.9"
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-webtransportoptions-allowpooling",
@@ -2273,9 +2750,10 @@
         "id": "web-transport-configuration",
         "href": "https://w3c.github.io/webtransport/#web-transport-configuration",
         "title": "Configuration",
-        "number": "5.9"
+        "number": "6.9"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportoptions-requireunreliable",
@@ -2294,9 +2772,32 @@
         "id": "web-transport-configuration",
         "href": "https://w3c.github.io/webtransport/#web-transport-configuration",
         "title": "Configuration",
-        "number": "5.9"
+        "number": "6.9"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-webtransportoptions-headers",
+      "href": "https://w3c.github.io/webtransport/#dom-webtransportoptions-headers",
+      "linkingText": [
+        "headers"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "WebTransportOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "web-transport-configuration",
+        "href": "https://w3c.github.io/webtransport/#web-transport-configuration",
+        "title": "Configuration",
+        "number": "6.9"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportoptions-servercertificatehashes",
@@ -2315,9 +2816,10 @@
         "id": "web-transport-configuration",
         "href": "https://w3c.github.io/webtransport/#web-transport-configuration",
         "title": "Configuration",
-        "number": "5.9"
+        "number": "6.9"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportoptions-congestioncontrol",
@@ -2336,9 +2838,10 @@
         "id": "web-transport-configuration",
         "href": "https://w3c.github.io/webtransport/#web-transport-configuration",
         "title": "Configuration",
-        "number": "5.9"
+        "number": "6.9"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportoptions-anticipatedconcurrentincomingunidirectionalstreams",
@@ -2357,9 +2860,10 @@
         "id": "web-transport-configuration",
         "href": "https://w3c.github.io/webtransport/#web-transport-configuration",
         "title": "Configuration",
-        "number": "5.9"
+        "number": "6.9"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportoptions-anticipatedconcurrentincomingbidirectionalstreams",
@@ -2378,9 +2882,10 @@
         "id": "web-transport-configuration",
         "href": "https://w3c.github.io/webtransport/#web-transport-configuration",
         "title": "Configuration",
-        "number": "5.9"
+        "number": "6.9"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportoptions-protocols",
@@ -2399,9 +2904,10 @@
         "id": "web-transport-configuration",
         "href": "https://w3c.github.io/webtransport/#web-transport-configuration",
         "title": "Configuration",
-        "number": "5.9"
+        "number": "6.9"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "protocol-names",
@@ -2418,9 +2924,32 @@
         "id": "web-transport-configuration",
         "href": "https://w3c.github.io/webtransport/#web-transport-configuration",
         "title": "Configuration",
-        "number": "5.9"
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-webtransportoptions-datagramsreadabletype",
+      "href": "https://w3c.github.io/webtransport/#dom-webtransportoptions-datagramsreadabletype",
+      "linkingText": [
+        "datagramsReadableType"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "WebTransportOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "web-transport-configuration",
+        "href": "https://w3c.github.io/webtransport/#web-transport-configuration",
+        "title": "Configuration",
+        "number": "6.9"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "compute-a-certificate-hash",
@@ -2437,9 +2966,10 @@
         "id": "web-transport-configuration",
         "href": "https://w3c.github.io/webtransport/#web-transport-configuration",
         "title": "Configuration",
-        "number": "5.9"
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "verify-a-certificate-hash",
@@ -2450,15 +2980,16 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "web-transport-configuration",
         "href": "https://w3c.github.io/webtransport/#web-transport-configuration",
         "title": "Configuration",
-        "number": "5.9"
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "custom-certificate-requirements",
@@ -2469,15 +3000,16 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "web-transport-configuration",
         "href": "https://w3c.github.io/webtransport/#web-transport-configuration",
         "title": "Configuration",
-        "number": "5.9"
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "allowed-public-key-algorithms",
@@ -2494,9 +3026,10 @@
         "id": "web-transport-configuration",
         "href": "https://w3c.github.io/webtransport/#web-transport-configuration",
         "title": "Configuration",
-        "number": "5.9"
+        "number": "6.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dictdef-webtransportcloseinfo",
@@ -2513,9 +3046,10 @@
         "id": "web-transport-close-info",
         "href": "https://w3c.github.io/webtransport/#web-transport-close-info",
         "title": "WebTransportCloseInfo Dictionary",
-        "number": "5.10"
+        "number": "6.10"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-webtransportcloseinfo-closecode",
@@ -2534,9 +3068,10 @@
         "id": "web-transport-close-info",
         "href": "https://w3c.github.io/webtransport/#web-transport-close-info",
         "title": "WebTransportCloseInfo Dictionary",
-        "number": "5.10"
+        "number": "6.10"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportcloseinfo-reason",
@@ -2555,9 +3090,94 @@
         "id": "web-transport-close-info",
         "href": "https://w3c.github.io/webtransport/#web-transport-close-info",
         "title": "WebTransportCloseInfo Dictionary",
-        "number": "5.10"
+        "number": "6.10"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dictdef-webtransportsendoptions",
+      "href": "https://w3c.github.io/webtransport/#dictdef-webtransportsendoptions",
+      "linkingText": [
+        "WebTransportSendOptions"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "send-options",
+        "href": "https://w3c.github.io/webtransport/#send-options",
+        "title": "WebTransportSendOptions Dictionary",
+        "number": "6.11"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-webtransportsendoptions-sendgroup",
+      "href": "https://w3c.github.io/webtransport/#dom-webtransportsendoptions-sendgroup",
+      "linkingText": [
+        "sendGroup"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "WebTransportSendOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "send-options",
+        "href": "https://w3c.github.io/webtransport/#send-options",
+        "title": "WebTransportSendOptions Dictionary",
+        "number": "6.11"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-webtransportsendoptions-sendorder",
+      "href": "https://w3c.github.io/webtransport/#dom-webtransportsendoptions-sendorder",
+      "linkingText": [
+        "sendOrder"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "WebTransportSendOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "send-options",
+        "href": "https://w3c.github.io/webtransport/#send-options",
+        "title": "WebTransportSendOptions Dictionary",
+        "number": "6.11"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "strict-ordering",
+      "href": "https://w3c.github.io/webtransport/#strict-ordering",
+      "linkingText": [
+        "strict ordering"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "send-options",
+        "href": "https://w3c.github.io/webtransport/#send-options",
+        "title": "WebTransportSendOptions Dictionary",
+        "number": "6.11"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dictdef-webtransportsendstreamoptions",
@@ -2574,70 +3194,10 @@
         "id": "uni-stream-options",
         "href": "https://w3c.github.io/webtransport/#uni-stream-options",
         "title": "WebTransportSendStreamOptions Dictionary",
-        "number": "5.11"
+        "number": "6.12"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dom-webtransportsendstreamoptions-sendgroup",
-      "href": "https://w3c.github.io/webtransport/#dom-webtransportsendstreamoptions-sendgroup",
-      "linkingText": [
-        "sendGroup"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "WebTransportSendStreamOptions"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "uni-stream-options",
-        "href": "https://w3c.github.io/webtransport/#uni-stream-options",
-        "title": "WebTransportSendStreamOptions Dictionary",
-        "number": "5.11"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "dom-webtransportsendstreamoptions-sendorder",
-      "href": "https://w3c.github.io/webtransport/#dom-webtransportsendstreamoptions-sendorder",
-      "linkingText": [
-        "sendOrder"
-      ],
-      "localLinkingText": [],
-      "type": "dict-member",
-      "for": [
-        "WebTransportSendStreamOptions"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "uni-stream-options",
-        "href": "https://w3c.github.io/webtransport/#uni-stream-options",
-        "title": "WebTransportSendStreamOptions Dictionary",
-        "number": "5.11"
-      },
-      "definedIn": "dt"
-    },
-    {
-      "id": "strict-ordering",
-      "href": "https://w3c.github.io/webtransport/#strict-ordering",
-      "linkingText": [
-        "strict ordering"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "uni-stream-options",
-        "href": "https://w3c.github.io/webtransport/#uni-stream-options",
-        "title": "WebTransportSendStreamOptions Dictionary",
-        "number": "5.11"
-      },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-webtransportsendstreamoptions-waituntilavailable",
@@ -2656,9 +3216,10 @@
         "id": "uni-stream-options",
         "href": "https://w3c.github.io/webtransport/#uni-stream-options",
         "title": "WebTransportSendStreamOptions Dictionary",
-        "number": "5.11"
+        "number": "6.12"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dictdef-webtransportconnectionstats",
@@ -2675,9 +3236,30 @@
         "id": "web-transport-connection-stats",
         "href": "https://w3c.github.io/webtransport/#web-transport-connection-stats",
         "title": "WebTransportConnectionStats Dictionary",
-        "number": "5.12"
+        "number": "6.13"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "pooled-connection-stat",
+      "href": "https://w3c.github.io/webtransport/#pooled-connection-stat",
+      "linkingText": [
+        "pooled connection stat"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "web-transport-connection-stats",
+        "href": "https://w3c.github.io/webtransport/#web-transport-connection-stats",
+        "title": "WebTransportConnectionStats Dictionary",
+        "number": "6.13"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-webtransportconnectionstats-datagrams",
@@ -2696,9 +3278,10 @@
         "id": "web-transport-connection-stats",
         "href": "https://w3c.github.io/webtransport/#web-transport-connection-stats",
         "title": "WebTransportConnectionStats Dictionary",
-        "number": "5.12"
+        "number": "6.13"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webtransportconnectionstats-bytessent",
@@ -2717,9 +3300,54 @@
         "id": "web-transport-connection-stats",
         "href": "https://w3c.github.io/webtransport/#web-transport-connection-stats",
         "title": "WebTransportConnectionStats Dictionary",
-        "number": "5.12"
+        "number": "6.13"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-webtransportconnectionstats-bytessentoverhead",
+      "href": "https://w3c.github.io/webtransport/#dom-webtransportconnectionstats-bytessentoverhead",
+      "linkingText": [
+        "bytesSentOverhead"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "WebTransportConnectionStats"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "web-transport-connection-stats",
+        "href": "https://w3c.github.io/webtransport/#web-transport-connection-stats",
+        "title": "WebTransportConnectionStats Dictionary",
+        "number": "6.13"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-webtransportconnectionstats-bytesacknowledged",
+      "href": "https://w3c.github.io/webtransport/#dom-webtransportconnectionstats-bytesacknowledged",
+      "linkingText": [
+        "bytesAcknowledged"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "WebTransportConnectionStats"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "web-transport-connection-stats",
+        "href": "https://w3c.github.io/webtransport/#web-transport-connection-stats",
+        "title": "WebTransportConnectionStats Dictionary",
+        "number": "6.13"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportconnectionstats-packetssent",
@@ -2738,9 +3366,10 @@
         "id": "web-transport-connection-stats",
         "href": "https://w3c.github.io/webtransport/#web-transport-connection-stats",
         "title": "WebTransportConnectionStats Dictionary",
-        "number": "5.12"
+        "number": "6.13"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportconnectionstats-byteslost",
@@ -2759,9 +3388,10 @@
         "id": "web-transport-connection-stats",
         "href": "https://w3c.github.io/webtransport/#web-transport-connection-stats",
         "title": "WebTransportConnectionStats Dictionary",
-        "number": "5.12"
+        "number": "6.13"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportconnectionstats-packetslost",
@@ -2780,9 +3410,10 @@
         "id": "web-transport-connection-stats",
         "href": "https://w3c.github.io/webtransport/#web-transport-connection-stats",
         "title": "WebTransportConnectionStats Dictionary",
-        "number": "5.12"
+        "number": "6.13"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportconnectionstats-bytesreceived",
@@ -2801,9 +3432,10 @@
         "id": "web-transport-connection-stats",
         "href": "https://w3c.github.io/webtransport/#web-transport-connection-stats",
         "title": "WebTransportConnectionStats Dictionary",
-        "number": "5.12"
+        "number": "6.13"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportconnectionstats-packetsreceived",
@@ -2822,9 +3454,10 @@
         "id": "web-transport-connection-stats",
         "href": "https://w3c.github.io/webtransport/#web-transport-connection-stats",
         "title": "WebTransportConnectionStats Dictionary",
-        "number": "5.12"
+        "number": "6.13"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportconnectionstats-smoothedrtt",
@@ -2843,9 +3476,10 @@
         "id": "web-transport-connection-stats",
         "href": "https://w3c.github.io/webtransport/#web-transport-connection-stats",
         "title": "WebTransportConnectionStats Dictionary",
-        "number": "5.12"
+        "number": "6.13"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportconnectionstats-rttvariation",
@@ -2864,9 +3498,10 @@
         "id": "web-transport-connection-stats",
         "href": "https://w3c.github.io/webtransport/#web-transport-connection-stats",
         "title": "WebTransportConnectionStats Dictionary",
-        "number": "5.12"
+        "number": "6.13"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportconnectionstats-minrtt",
@@ -2885,9 +3520,10 @@
         "id": "web-transport-connection-stats",
         "href": "https://w3c.github.io/webtransport/#web-transport-connection-stats",
         "title": "WebTransportConnectionStats Dictionary",
-        "number": "5.12"
+        "number": "6.13"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportconnectionstats-estimatedsendrate",
@@ -2906,9 +3542,10 @@
         "id": "web-transport-connection-stats",
         "href": "https://w3c.github.io/webtransport/#web-transport-connection-stats",
         "title": "WebTransportConnectionStats Dictionary",
-        "number": "5.12"
+        "number": "6.13"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportconnectionstats-atsendcapacity",
@@ -2927,9 +3564,10 @@
         "id": "web-transport-connection-stats",
         "href": "https://w3c.github.io/webtransport/#web-transport-connection-stats",
         "title": "WebTransportConnectionStats Dictionary",
-        "number": "5.12"
+        "number": "6.13"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dictdef-webtransportdatagramstats",
@@ -2946,9 +3584,10 @@
         "id": "web-transport-datagram-stats",
         "href": "https://w3c.github.io/webtransport/#web-transport-datagram-stats",
         "title": "WebTransportDatagramStats Dictionary",
-        "number": "5.13"
+        "number": "6.14"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-webtransportdatagramstats-droppedincoming",
@@ -2967,9 +3606,10 @@
         "id": "web-transport-datagram-stats",
         "href": "https://w3c.github.io/webtransport/#web-transport-datagram-stats",
         "title": "WebTransportDatagramStats Dictionary",
-        "number": "5.13"
+        "number": "6.14"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportdatagramstats-expiredincoming",
@@ -2988,9 +3628,10 @@
         "id": "web-transport-datagram-stats",
         "href": "https://w3c.github.io/webtransport/#web-transport-datagram-stats",
         "title": "WebTransportDatagramStats Dictionary",
-        "number": "5.13"
+        "number": "6.14"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportdatagramstats-expiredoutgoing",
@@ -3009,9 +3650,10 @@
         "id": "web-transport-datagram-stats",
         "href": "https://w3c.github.io/webtransport/#web-transport-datagram-stats",
         "title": "WebTransportDatagramStats Dictionary",
-        "number": "5.13"
+        "number": "6.14"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportdatagramstats-lostoutgoing",
@@ -3030,9 +3672,10 @@
         "id": "web-transport-datagram-stats",
         "href": "https://w3c.github.io/webtransport/#web-transport-datagram-stats",
         "title": "WebTransportDatagramStats Dictionary",
-        "number": "5.13"
+        "number": "6.14"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webtransportsendstream",
@@ -3049,9 +3692,10 @@
         "id": "send-stream",
         "href": "https://w3c.github.io/webtransport/#send-stream",
         "title": "Interface WebTransportSendStream",
-        "number": "6"
+        "number": "7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webtransportsendstream-sendgroup",
@@ -3070,9 +3714,10 @@
         "id": "send-stream-attributes",
         "href": "https://w3c.github.io/webtransport/#send-stream-attributes",
         "title": "Attributes",
-        "number": "6.1"
+        "number": "7.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportsendstream-sendorder",
@@ -3091,9 +3736,10 @@
         "id": "send-stream-attributes",
         "href": "https://w3c.github.io/webtransport/#send-stream-attributes",
         "title": "Attributes",
-        "number": "6.1"
+        "number": "7.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportsendstream-getstats",
@@ -3112,9 +3758,10 @@
         "id": "send-stream-methods",
         "href": "https://w3c.github.io/webtransport/#send-stream-methods",
         "title": "Methods",
-        "number": "6.2"
+        "number": "7.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportsendstream-getwriter",
@@ -3133,9 +3780,10 @@
         "id": "send-stream-methods",
         "href": "https://w3c.github.io/webtransport/#send-stream-methods",
         "title": "Methods",
-        "number": "6.2"
+        "number": "7.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportsendstream-internalstream-slot",
@@ -3154,9 +3802,10 @@
         "id": "send-stream-internal-slots",
         "href": "https://w3c.github.io/webtransport/#send-stream-internal-slots",
         "title": "Internal Slots",
-        "number": "6.3"
+        "number": "7.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-webtransportsendstream-pendingoperation-slot",
@@ -3175,9 +3824,10 @@
         "id": "send-stream-internal-slots",
         "href": "https://w3c.github.io/webtransport/#send-stream-internal-slots",
         "title": "Internal Slots",
-        "number": "6.3"
+        "number": "7.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-webtransportsendstream-transport-slot",
@@ -3196,9 +3846,10 @@
         "id": "send-stream-internal-slots",
         "href": "https://w3c.github.io/webtransport/#send-stream-internal-slots",
         "title": "Internal Slots",
-        "number": "6.3"
+        "number": "7.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-webtransportsendstream-sendgroup-slot",
@@ -3217,9 +3868,10 @@
         "id": "send-stream-internal-slots",
         "href": "https://w3c.github.io/webtransport/#send-stream-internal-slots",
         "title": "Internal Slots",
-        "number": "6.3"
+        "number": "7.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-webtransportsendstream-sendorder-slot",
@@ -3238,9 +3890,10 @@
         "id": "send-stream-internal-slots",
         "href": "https://w3c.github.io/webtransport/#send-stream-internal-slots",
         "title": "Internal Slots",
-        "number": "6.3"
+        "number": "7.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-webtransportsendstream-atomicwriterequests-slot",
@@ -3259,9 +3912,76 @@
         "id": "send-stream-internal-slots",
         "href": "https://w3c.github.io/webtransport/#send-stream-internal-slots",
         "title": "Internal Slots",
-        "number": "6.3"
+        "number": "7.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dom-webtransportsendstream-insidesynchronousatomicwrite-slot",
+      "href": "https://w3c.github.io/webtransport/#dom-webtransportsendstream-insidesynchronousatomicwrite-slot",
+      "linkingText": [
+        "[[InsideSynchronousAtomicWrite]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "WebTransportSendStream"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "send-stream-internal-slots",
+        "href": "https://w3c.github.io/webtransport/#send-stream-internal-slots",
+        "title": "Internal Slots",
+        "number": "7.3"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dom-webtransportsendstream-byteswritten-slot",
+      "href": "https://w3c.github.io/webtransport/#dom-webtransportsendstream-byteswritten-slot",
+      "linkingText": [
+        "[[BytesWritten]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "WebTransportSendStream"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "send-stream-internal-slots",
+        "href": "https://w3c.github.io/webtransport/#send-stream-internal-slots",
+        "title": "Internal Slots",
+        "number": "7.3"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dom-webtransportsendstream-committedoffset-slot",
+      "href": "https://w3c.github.io/webtransport/#dom-webtransportsendstream-committedoffset-slot",
+      "linkingText": [
+        "[[CommittedOffset]]"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "WebTransportSendStream"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "send-stream-internal-slots",
+        "href": "https://w3c.github.io/webtransport/#send-stream-internal-slots",
+        "title": "Internal Slots",
+        "number": "7.3"
+      },
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "webtransportsendstream-create",
@@ -3281,9 +4001,10 @@
         "id": "send-stream-procedures",
         "href": "https://w3c.github.io/webtransport/#send-stream-procedures",
         "title": "Procedures",
-        "number": "6.4"
+        "number": "7.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webtransportsendstream-write",
@@ -3302,9 +4023,10 @@
         "id": "send-stream-procedures",
         "href": "https://w3c.github.io/webtransport/#send-stream-procedures",
         "title": "Procedures",
-        "number": "6.4"
+        "number": "7.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webtransportsendstream-close",
@@ -3323,9 +4045,10 @@
         "id": "send-stream-procedures",
         "href": "https://w3c.github.io/webtransport/#send-stream-procedures",
         "title": "Procedures",
-        "number": "6.4"
+        "number": "7.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webtransportsendstream-abort",
@@ -3344,9 +4067,10 @@
         "id": "send-stream-procedures",
         "href": "https://w3c.github.io/webtransport/#send-stream-procedures",
         "title": "Procedures",
-        "number": "6.4"
+        "number": "7.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webtransportsendstream-abort-all-atomic-write-requests",
@@ -3365,9 +4089,10 @@
         "id": "send-stream-procedures",
         "href": "https://w3c.github.io/webtransport/#send-stream-procedures",
         "title": "Procedures",
-        "number": "6.4"
+        "number": "7.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dictdef-webtransportsendstreamstats",
@@ -3384,9 +4109,10 @@
         "id": "send-stream-stats",
         "href": "https://w3c.github.io/webtransport/#send-stream-stats",
         "title": "WebTransportSendStreamStats Dictionary",
-        "number": "6.6"
+        "number": "7.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-webtransportsendstreamstats-byteswritten",
@@ -3405,9 +4131,10 @@
         "id": "send-stream-stats",
         "href": "https://w3c.github.io/webtransport/#send-stream-stats",
         "title": "WebTransportSendStreamStats Dictionary",
-        "number": "6.6"
+        "number": "7.6"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportsendstreamstats-bytessent",
@@ -3426,9 +4153,10 @@
         "id": "send-stream-stats",
         "href": "https://w3c.github.io/webtransport/#send-stream-stats",
         "title": "WebTransportSendStreamStats Dictionary",
-        "number": "6.6"
+        "number": "7.6"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportsendstreamstats-bytesacknowledged",
@@ -3447,9 +4175,10 @@
         "id": "send-stream-stats",
         "href": "https://w3c.github.io/webtransport/#send-stream-stats",
         "title": "WebTransportSendStreamStats Dictionary",
-        "number": "6.6"
+        "number": "7.6"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "grouped",
@@ -3466,15 +4195,16 @@
         "id": "sendGroup",
         "href": "https://w3c.github.io/webtransport/#sendGroup",
         "title": "Interface WebTransportSendGroup",
-        "number": "7"
+        "number": "8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "ungrouped",
-      "href": "https://w3c.github.io/webtransport/#ungrouped",
+      "id": "null-sendgroup",
+      "href": "https://w3c.github.io/webtransport/#null-sendgroup",
       "linkingText": [
-        "ungrouped"
+        "null sendGroup"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -3485,9 +4215,10 @@
         "id": "sendGroup",
         "href": "https://w3c.github.io/webtransport/#sendGroup",
         "title": "Interface WebTransportSendGroup",
-        "number": "7"
+        "number": "8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webtransportsendgroup",
@@ -3504,9 +4235,10 @@
         "id": "sendGroup",
         "href": "https://w3c.github.io/webtransport/#sendGroup",
         "title": "Interface WebTransportSendGroup",
-        "number": "7"
+        "number": "8"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webtransportsendgroup-getstats",
@@ -3525,9 +4257,10 @@
         "id": "sendGroup-methods",
         "href": "https://w3c.github.io/webtransport/#sendGroup-methods",
         "title": "Methods",
-        "number": "7.1"
+        "number": "8.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportsendgroup-transport-slot",
@@ -3546,9 +4279,10 @@
         "id": "sendGroup-internal-slots",
         "href": "https://w3c.github.io/webtransport/#sendGroup-internal-slots",
         "title": "Internal Slots",
-        "number": "7.2"
+        "number": "8.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "webtransportsendgroup-create",
@@ -3568,9 +4302,10 @@
         "id": "sendGroup-procedures",
         "href": "https://w3c.github.io/webtransport/#sendGroup-procedures",
         "title": "Procedures",
-        "number": "7.3"
+        "number": "8.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webtransportreceivestream",
@@ -3587,9 +4322,10 @@
         "id": "receive-stream",
         "href": "https://w3c.github.io/webtransport/#receive-stream",
         "title": "Interface WebTransportReceiveStream",
-        "number": "8"
+        "number": "9"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webtransportreceivestream-getstats",
@@ -3608,9 +4344,10 @@
         "id": "receive-stream-methods",
         "href": "https://w3c.github.io/webtransport/#receive-stream-methods",
         "title": "Methods",
-        "number": "8.1"
+        "number": "9.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportreceivestream-internalstream-slot",
@@ -3629,9 +4366,10 @@
         "id": "receive-stream-internal-slots",
         "href": "https://w3c.github.io/webtransport/#receive-stream-internal-slots",
         "title": "Internal Slots",
-        "number": "8.2"
+        "number": "9.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-webtransportreceivestream-transport-slot",
@@ -3650,9 +4388,10 @@
         "id": "receive-stream-internal-slots",
         "href": "https://w3c.github.io/webtransport/#receive-stream-internal-slots",
         "title": "Internal Slots",
-        "number": "8.2"
+        "number": "9.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "webtransportreceivestream-create",
@@ -3672,9 +4411,10 @@
         "id": "receive-stream-procedures",
         "href": "https://w3c.github.io/webtransport/#receive-stream-procedures",
         "title": "Procedures",
-        "number": "8.3"
+        "number": "9.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webtransportreceivestream-pull-bytes",
@@ -3693,9 +4433,10 @@
         "id": "receive-stream-procedures",
         "href": "https://w3c.github.io/webtransport/#receive-stream-procedures",
         "title": "Procedures",
-        "number": "8.3"
+        "number": "9.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webtransportreceivestream-cancel",
@@ -3714,9 +4455,10 @@
         "id": "receive-stream-procedures",
         "href": "https://w3c.github.io/webtransport/#receive-stream-procedures",
         "title": "Procedures",
-        "number": "8.3"
+        "number": "9.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dictdef-webtransportreceivestreamstats",
@@ -3733,9 +4475,10 @@
         "id": "receive-stream-stats",
         "href": "https://w3c.github.io/webtransport/#receive-stream-stats",
         "title": "WebTransportReceiveStreamStats Dictionary",
-        "number": "8.5"
+        "number": "9.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-webtransportreceivestreamstats-bytesreceived",
@@ -3754,9 +4497,10 @@
         "id": "receive-stream-stats",
         "href": "https://w3c.github.io/webtransport/#receive-stream-stats",
         "title": "WebTransportReceiveStreamStats Dictionary",
-        "number": "8.5"
+        "number": "9.5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportreceivestreamstats-bytesread",
@@ -3775,9 +4519,10 @@
         "id": "receive-stream-stats",
         "href": "https://w3c.github.io/webtransport/#receive-stream-stats",
         "title": "WebTransportReceiveStreamStats Dictionary",
-        "number": "8.5"
+        "number": "9.5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webtransportbidirectionalstream",
@@ -3793,10 +4538,10 @@
       "heading": {
         "id": "bidirectional-stream",
         "href": "https://w3c.github.io/webtransport/#bidirectional-stream",
-        "title": "Interface WebTransportBidirectionalStream",
-        "number": "9"
+        "title": "10. Interface WebTransportBidirectionalStream"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webtransportbidirectionalstream-readable-slot",
@@ -3815,9 +4560,10 @@
         "id": "bidirectional-stream-internal-slots",
         "href": "https://w3c.github.io/webtransport/#bidirectional-stream-internal-slots",
         "title": "Internal slots",
-        "number": "9.1"
+        "number": "10.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-webtransportbidirectionalstream-writable-slot",
@@ -3836,9 +4582,10 @@
         "id": "bidirectional-stream-internal-slots",
         "href": "https://w3c.github.io/webtransport/#bidirectional-stream-internal-slots",
         "title": "Internal slots",
-        "number": "9.1"
+        "number": "10.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-webtransportbidirectionalstream-transport-slot",
@@ -3857,9 +4604,10 @@
         "id": "bidirectional-stream-internal-slots",
         "href": "https://w3c.github.io/webtransport/#bidirectional-stream-internal-slots",
         "title": "Internal slots",
-        "number": "9.1"
+        "number": "10.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-webtransportbidirectionalstream-readable",
@@ -3878,9 +4626,10 @@
         "id": "bidirectional-stream-attributes",
         "href": "https://w3c.github.io/webtransport/#bidirectional-stream-attributes",
         "title": "Attributes",
-        "number": "9.2"
+        "number": "10.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransportbidirectionalstream-writable",
@@ -3899,9 +4648,10 @@
         "id": "bidirectional-stream-attributes",
         "href": "https://w3c.github.io/webtransport/#bidirectional-stream-attributes",
         "title": "Attributes",
-        "number": "9.2"
+        "number": "10.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "bidirectionalstream-create",
@@ -3920,9 +4670,10 @@
         "id": "bidirectional-stream-procedures",
         "href": "https://w3c.github.io/webtransport/#bidirectional-stream-procedures",
         "title": "Procedures",
-        "number": "9.3"
+        "number": "10.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webtransportwriter",
@@ -3938,9 +4689,10 @@
       "heading": {
         "id": "web-transport-writer-interface",
         "href": "https://w3c.github.io/webtransport/#web-transport-writer-interface",
-        "title": "10. WebTransportWriter Interface"
+        "title": "11. WebTransportWriter Interface"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webtransportwriter-atomicwrite-chunk-chunk",
@@ -3959,9 +4711,10 @@
       "heading": {
         "id": "web-transport-writer-interface",
         "href": "https://w3c.github.io/webtransport/#web-transport-writer-interface",
-        "title": "10. WebTransportWriter Interface"
+        "title": "11. WebTransportWriter Interface"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webtransportwriter-atomicwrite",
@@ -3981,9 +4734,32 @@
         "id": "web-transport-writer-methods",
         "href": "https://w3c.github.io/webtransport/#web-transport-writer-methods",
         "title": "Methods",
-        "number": "10.1"
+        "number": "11.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dom-webtransportwriter-commit",
+      "href": "https://w3c.github.io/webtransport/#dom-webtransportwriter-commit",
+      "linkingText": [
+        "commit()"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "WebTransportWriter"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "web-transport-writer-methods",
+        "href": "https://w3c.github.io/webtransport/#web-transport-writer-methods",
+        "title": "Methods",
+        "number": "11.1"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webtransportwriter-create",
@@ -4003,9 +4779,10 @@
         "id": "web-transport-writer-procedures",
         "href": "https://w3c.github.io/webtransport/#web-transport-writer-procedures",
         "title": "Procedures",
-        "number": "10.2"
+        "number": "11.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webtransporterror",
@@ -4021,9 +4798,10 @@
       "heading": {
         "id": "web-transport-error-interface",
         "href": "https://w3c.github.io/webtransport/#web-transport-error-interface",
-        "title": "11. WebTransportError Interface"
+        "title": "12. WebTransportError Interface"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-webtransporterror-webtransporterror-message-options-message",
@@ -4046,9 +4824,10 @@
       "heading": {
         "id": "web-transport-error-interface",
         "href": "https://w3c.github.io/webtransport/#web-transport-error-interface",
-        "title": "11. WebTransportError Interface"
+        "title": "12. WebTransportError Interface"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webtransporterror-webtransporterror-message-options-options",
@@ -4071,9 +4850,10 @@
       "heading": {
         "id": "web-transport-error-interface",
         "href": "https://w3c.github.io/webtransport/#web-transport-error-interface",
-        "title": "11. WebTransportError Interface"
+        "title": "12. WebTransportError Interface"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-webtransporterroroptions",
@@ -4089,9 +4869,10 @@
       "heading": {
         "id": "web-transport-error-interface",
         "href": "https://w3c.github.io/webtransport/#web-transport-error-interface",
-        "title": "11. WebTransportError Interface"
+        "title": "12. WebTransportError Interface"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webtransporterroroptions-source",
@@ -4109,9 +4890,10 @@
       "heading": {
         "id": "web-transport-error-interface",
         "href": "https://w3c.github.io/webtransport/#web-transport-error-interface",
-        "title": "11. WebTransportError Interface"
+        "title": "12. WebTransportError Interface"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webtransporterroroptions-streamerrorcode",
@@ -4129,9 +4911,10 @@
       "heading": {
         "id": "web-transport-error-interface",
         "href": "https://w3c.github.io/webtransport/#web-transport-error-interface",
-        "title": "11. WebTransportError Interface"
+        "title": "12. WebTransportError Interface"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "enumdef-webtransporterrorsource",
@@ -4147,9 +4930,10 @@
       "heading": {
         "id": "web-transport-error-interface",
         "href": "https://w3c.github.io/webtransport/#web-transport-error-interface",
-        "title": "11. WebTransportError Interface"
+        "title": "12. WebTransportError Interface"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webtransporterrorsource-stream",
@@ -4167,9 +4951,10 @@
       "heading": {
         "id": "web-transport-error-interface",
         "href": "https://w3c.github.io/webtransport/#web-transport-error-interface",
-        "title": "11. WebTransportError Interface"
+        "title": "12. WebTransportError Interface"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webtransporterrorsource-session",
@@ -4187,9 +4972,10 @@
       "heading": {
         "id": "web-transport-error-interface",
         "href": "https://w3c.github.io/webtransport/#web-transport-error-interface",
-        "title": "11. WebTransportError Interface"
+        "title": "12. WebTransportError Interface"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-webtransporterror-source-slot",
@@ -4208,9 +4994,10 @@
         "id": "web-transport-error-internal-slots",
         "href": "https://w3c.github.io/webtransport/#web-transport-error-internal-slots",
         "title": "Internal slots",
-        "number": "11.1"
+        "number": "12.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-webtransporterror-streamerrorcode-slot",
@@ -4229,9 +5016,10 @@
         "id": "web-transport-error-internal-slots",
         "href": "https://w3c.github.io/webtransport/#web-transport-error-internal-slots",
         "title": "Internal slots",
-        "number": "11.1"
+        "number": "12.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-webtransporterror-webtransporterror",
@@ -4255,9 +5043,10 @@
         "id": "web-transport-error-constructor1",
         "href": "https://w3c.github.io/webtransport/#web-transport-error-constructor1",
         "title": "Constructor",
-        "number": "11.2"
+        "number": "12.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-webtransporterror-source",
@@ -4276,9 +5065,10 @@
         "id": "web-transport-error-attributes",
         "href": "https://w3c.github.io/webtransport/#web-transport-error-attributes",
         "title": "Attributes",
-        "number": "11.3"
+        "number": "12.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-webtransporterror-streamerrorcode",
@@ -4297,9 +5087,10 @@
         "id": "web-transport-error-attributes",
         "href": "https://w3c.github.io/webtransport/#web-transport-error-attributes",
         "title": "Attributes",
-        "number": "11.3"
+        "number": "12.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     }
   ]
 }

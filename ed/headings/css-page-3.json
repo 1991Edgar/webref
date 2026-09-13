@@ -26,7 +26,10 @@
       "id": "toc",
       "href": "https://drafts.csswg.org/css-page-3/#toc",
       "level": 2,
-      "title": "Table of Contents"
+      "title": "Table of Contents",
+      "alternateIds": [
+        "contents"
+      ]
     },
     {
       "id": "intro",
@@ -302,6 +305,13 @@
       "number": "7.5"
     },
     {
+      "id": "page-margin-safety",
+      "href": "https://drafts.csswg.org/css-page-3/#page-margin-safety",
+      "level": 3,
+      "title": "Staying within the printable area: the page-margin-safety property",
+      "number": "7.6"
+    },
+    {
       "id": "page-breaks",
       "href": "https://drafts.csswg.org/css-page-3/#page-breaks",
       "level": 2,
@@ -349,10 +359,16 @@
       "number": "B"
     },
     {
-      "id": "priv-sec",
-      "href": "https://drafts.csswg.org/css-page-3/#priv-sec",
+      "id": "privacy",
+      "href": "https://drafts.csswg.org/css-page-3/#privacy",
       "level": 2,
-      "title": "Privacy and Security Considerations"
+      "title": "Privacy Considerations"
+    },
+    {
+      "id": "security",
+      "href": "https://drafts.csswg.org/css-page-3/#security",
+      "level": 2,
+      "title": "Security Considerations"
     },
     {
       "id": "changes",
@@ -436,7 +452,7 @@
       "id": "informative",
       "href": "https://drafts.csswg.org/css-page-3/#informative",
       "level": 3,
-      "title": "Informative References"
+      "title": "Non-Normative References"
     },
     {
       "id": "property-index",

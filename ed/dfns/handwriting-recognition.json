@@ -19,9 +19,10 @@
         "id": "introduction-handwriting",
         "href": "https://wicg.github.io/handwriting-recognition/#introduction-handwriting",
         "title": "Definitions",
-        "number": "2"
+        "number": "1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "stroke",
@@ -38,9 +39,10 @@
         "id": "introduction-handwriting",
         "href": "https://wicg.github.io/handwriting-recognition/#introduction-handwriting",
         "title": "Definitions",
-        "number": "2"
+        "number": "1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "point",
@@ -57,9 +59,10 @@
         "id": "introduction-handwriting",
         "href": "https://wicg.github.io/handwriting-recognition/#introduction-handwriting",
         "title": "Definitions",
-        "number": "2"
+        "number": "1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "transcription",
@@ -76,9 +79,10 @@
         "id": "introduction-handwriting",
         "href": "https://wicg.github.io/handwriting-recognition/#introduction-handwriting",
         "title": "Definitions",
-        "number": "2"
+        "number": "1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "handwriting-recognizer",
@@ -95,9 +99,10 @@
         "id": "introduction-handwriting",
         "href": "https://wicg.github.io/handwriting-recognition/#introduction-handwriting",
         "title": "Definitions",
-        "number": "2"
+        "number": "1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "convert-data-format",
@@ -114,9 +119,10 @@
         "id": "introduction-handwriting",
         "href": "https://wicg.github.io/handwriting-recognition/#introduction-handwriting",
         "title": "Definitions",
-        "number": "2"
+        "number": "1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "segmentation",
@@ -133,9 +139,10 @@
         "id": "introduction-handwriting",
         "href": "https://wicg.github.io/handwriting-recognition/#introduction-handwriting",
         "title": "Definitions",
-        "number": "2"
+        "number": "1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "handwriting-recognition-task-source",
@@ -152,9 +159,10 @@
         "id": "api-idioms",
         "href": "https://wicg.github.io/handwriting-recognition/#api-idioms",
         "title": "API Idioms",
-        "number": "3"
+        "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "queues-a-handwriting-recognition-api-task",
@@ -171,15 +179,16 @@
         "id": "api-idioms",
         "href": "https://wicg.github.io/handwriting-recognition/#api-idioms",
         "title": "API Idioms",
-        "number": "3"
+        "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "api-query",
       "href": "https://wicg.github.io/handwriting-recognition/#api-query",
       "linkingText": [
-        "4. Feature Query"
+        "Feature Query"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -192,9 +201,10 @@
         "id": "api-query",
         "href": "https://wicg.github.io/handwriting-recognition/#api-query",
         "title": "Feature Query",
-        "number": "4"
+        "number": "3"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-navigator-queryhandwritingrecognizer",
@@ -213,9 +223,10 @@
         "id": "api-query",
         "href": "https://wicg.github.io/handwriting-recognition/#api-query",
         "title": "Feature Query",
-        "number": "4"
+        "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-navigator-queryhandwritingrecognizer-constraint-constraint",
@@ -234,9 +245,10 @@
         "id": "api-query",
         "href": "https://wicg.github.io/handwriting-recognition/#api-query",
         "title": "Feature Query",
-        "number": "4"
+        "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-handwritingmodelconstraint",
@@ -253,9 +265,10 @@
         "id": "api-query",
         "href": "https://wicg.github.io/handwriting-recognition/#api-query",
         "title": "Feature Query",
-        "number": "4"
+        "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritingmodelconstraint-languages",
@@ -274,9 +287,10 @@
         "id": "api-query",
         "href": "https://wicg.github.io/handwriting-recognition/#api-query",
         "title": "Feature Query",
-        "number": "4"
+        "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-handwritingrecognizerqueryresult",
@@ -293,9 +307,10 @@
         "id": "api-query",
         "href": "https://wicg.github.io/handwriting-recognition/#api-query",
         "title": "Feature Query",
-        "number": "4"
+        "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritingrecognizerqueryresult-textalternatives",
@@ -314,9 +329,10 @@
         "id": "api-query",
         "href": "https://wicg.github.io/handwriting-recognition/#api-query",
         "title": "Feature Query",
-        "number": "4"
+        "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritingrecognizerqueryresult-textsegmentation",
@@ -335,9 +351,10 @@
         "id": "api-query",
         "href": "https://wicg.github.io/handwriting-recognition/#api-query",
         "title": "Feature Query",
-        "number": "4"
+        "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritingrecognizerqueryresult-hints",
@@ -356,9 +373,10 @@
         "id": "api-query",
         "href": "https://wicg.github.io/handwriting-recognition/#api-query",
         "title": "Feature Query",
-        "number": "4"
+        "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-handwritinghintsqueryresult",
@@ -375,9 +393,10 @@
         "id": "api-query",
         "href": "https://wicg.github.io/handwriting-recognition/#api-query",
         "title": "Feature Query",
-        "number": "4"
+        "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritinghintsqueryresult-recognitiontype",
@@ -396,9 +415,10 @@
         "id": "api-query",
         "href": "https://wicg.github.io/handwriting-recognition/#api-query",
         "title": "Feature Query",
-        "number": "4"
+        "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritinghintsqueryresult-inputtype",
@@ -417,9 +437,10 @@
         "id": "api-query",
         "href": "https://wicg.github.io/handwriting-recognition/#api-query",
         "title": "Feature Query",
-        "number": "4"
+        "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritinghintsqueryresult-textcontext",
@@ -438,9 +459,10 @@
         "id": "api-query",
         "href": "https://wicg.github.io/handwriting-recognition/#api-query",
         "title": "Feature Query",
-        "number": "4"
+        "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritinghintsqueryresult-alternatives",
@@ -459,9 +481,10 @@
         "id": "api-query",
         "href": "https://wicg.github.io/handwriting-recognition/#api-query",
         "title": "Feature Query",
-        "number": "4"
+        "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "enumdef-handwritingrecognitiontype",
@@ -478,9 +501,10 @@
         "id": "api-query",
         "href": "https://wicg.github.io/handwriting-recognition/#api-query",
         "title": "Feature Query",
-        "number": "4"
+        "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritingrecognitiontype-text",
@@ -499,9 +523,10 @@
         "id": "api-query",
         "href": "https://wicg.github.io/handwriting-recognition/#api-query",
         "title": "Feature Query",
-        "number": "4"
+        "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritingrecognitiontype-per-character",
@@ -520,9 +545,10 @@
         "id": "api-query",
         "href": "https://wicg.github.io/handwriting-recognition/#api-query",
         "title": "Feature Query",
-        "number": "4"
+        "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "enumdef-handwritinginputtype",
@@ -539,9 +565,10 @@
         "id": "api-query",
         "href": "https://wicg.github.io/handwriting-recognition/#api-query",
         "title": "Feature Query",
-        "number": "4"
+        "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritinginputtype-mouse",
@@ -560,9 +587,10 @@
         "id": "api-query",
         "href": "https://wicg.github.io/handwriting-recognition/#api-query",
         "title": "Feature Query",
-        "number": "4"
+        "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritinginputtype-stylus",
@@ -581,9 +609,10 @@
         "id": "api-query",
         "href": "https://wicg.github.io/handwriting-recognition/#api-query",
         "title": "Feature Query",
-        "number": "4"
+        "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritinginputtype-touch",
@@ -602,9 +631,10 @@
         "id": "api-query",
         "href": "https://wicg.github.io/handwriting-recognition/#api-query",
         "title": "Feature Query",
-        "number": "4"
+        "number": "3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "queryhandwritingrecognizer-constraint",
@@ -621,15 +651,16 @@
         "id": "api-query-handwriting-recognizer",
         "href": "https://wicg.github.io/handwriting-recognition/#api-query-handwriting-recognizer",
         "title": "queryHandwritingRecognizer(constraint)",
-        "number": "4.1"
+        "number": "3.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "create-a-handwriting-recognizer",
       "href": "https://wicg.github.io/handwriting-recognition/#create-a-handwriting-recognizer",
       "linkingText": [
-        "5. Create a handwriting recognizer"
+        "Create a handwriting recognizer"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -642,9 +673,10 @@
         "id": "create-a-handwriting-recognizer",
         "href": "https://wicg.github.io/handwriting-recognition/#create-a-handwriting-recognizer",
         "title": "Create a handwriting recognizer",
-        "number": "5"
+        "number": "4"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dom-navigator-createhandwritingrecognizer",
@@ -663,9 +695,10 @@
         "id": "create-a-handwriting-recognizer",
         "href": "https://wicg.github.io/handwriting-recognition/#create-a-handwriting-recognizer",
         "title": "Create a handwriting recognizer",
-        "number": "5"
+        "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-navigator-createhandwritingrecognizer-constraint-constraint",
@@ -684,9 +717,10 @@
         "id": "create-a-handwriting-recognizer",
         "href": "https://wicg.github.io/handwriting-recognition/#create-a-handwriting-recognizer",
         "title": "Create a handwriting recognizer",
-        "number": "5"
+        "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "createhandwritingrecognizer-constraint",
@@ -703,9 +737,10 @@
         "id": "api-create-handwriting-recognizer",
         "href": "https://wicg.github.io/handwriting-recognition/#api-create-handwriting-recognizer",
         "title": "createHandwritingRecognizer(constraint) method",
-        "number": "5.1"
+        "number": "4.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "handwritingrecognizer",
@@ -722,9 +757,10 @@
         "id": "handwriting-recognizer-object",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-recognizer-object",
         "title": "HandwritingRecognizer object",
-        "number": "6.1"
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritingrecognizer-startdrawing",
@@ -744,9 +780,10 @@
         "id": "handwriting-recognizer-object",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-recognizer-object",
         "title": "HandwritingRecognizer object",
-        "number": "6.1"
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritingrecognizer-startdrawing-hints-hints",
@@ -766,9 +803,10 @@
         "id": "handwriting-recognizer-object",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-recognizer-object",
         "title": "HandwritingRecognizer object",
-        "number": "6.1"
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritingrecognizer-finish",
@@ -787,9 +825,10 @@
         "id": "handwriting-recognizer-object",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-recognizer-object",
         "title": "HandwritingRecognizer object",
-        "number": "6.1"
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-handwritinghints",
@@ -806,9 +845,10 @@
         "id": "handwriting-recognizer-object",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-recognizer-object",
         "title": "HandwritingRecognizer object",
-        "number": "6.1"
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritinghints-recognitiontype",
@@ -827,9 +867,10 @@
         "id": "handwriting-recognizer-object",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-recognizer-object",
         "title": "HandwritingRecognizer object",
-        "number": "6.1"
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritinghints-inputtype",
@@ -848,9 +889,10 @@
         "id": "handwriting-recognizer-object",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-recognizer-object",
         "title": "HandwritingRecognizer object",
-        "number": "6.1"
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritinghints-textcontext",
@@ -869,9 +911,10 @@
         "id": "handwriting-recognizer-object",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-recognizer-object",
         "title": "HandwritingRecognizer object",
-        "number": "6.1"
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritinghints-alternatives",
@@ -890,9 +933,10 @@
         "id": "handwriting-recognizer-object",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-recognizer-object",
         "title": "HandwritingRecognizer object",
-        "number": "6.1"
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "handwritingrecognizer-active",
@@ -911,9 +955,10 @@
         "id": "handwriting-recognizer-object",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-recognizer-object",
         "title": "HandwritingRecognizer object",
-        "number": "6.1"
+        "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "startdrawing-hints",
@@ -930,9 +975,10 @@
         "id": "handwriting-recognizer-create-drawing",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-recognizer-create-drawing",
         "title": "startDrawing(hints)",
-        "number": "6.2"
+        "number": "5.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "handwritingdrawing-strokes",
@@ -951,9 +997,10 @@
         "id": "handwriting-recognizer-create-drawing",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-recognizer-create-drawing",
         "title": "startDrawing(hints)",
-        "number": "6.2"
+        "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "handwritingdrawing-recognizer",
@@ -972,9 +1019,10 @@
         "id": "handwriting-recognizer-create-drawing",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-recognizer-create-drawing",
         "title": "startDrawing(hints)",
-        "number": "6.2"
+        "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "finish",
@@ -991,9 +1039,10 @@
         "id": "handwriting-recognizer-finish",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-recognizer-finish",
         "title": "finish()",
-        "number": "6.3"
+        "number": "5.3"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "handwritingdrawing",
@@ -1010,9 +1059,10 @@
         "id": "handwriting-drawing",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-drawing",
         "title": "Build a HandwritingDrawing",
-        "number": "7"
+        "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritingdrawing-addstroke",
@@ -1031,9 +1081,10 @@
         "id": "handwriting-drawing",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-drawing",
         "title": "Build a HandwritingDrawing",
-        "number": "7"
+        "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritingdrawing-addstroke-stroke-stroke",
@@ -1052,9 +1103,10 @@
         "id": "handwriting-drawing",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-drawing",
         "title": "Build a HandwritingDrawing",
-        "number": "7"
+        "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritingdrawing-removestroke",
@@ -1073,9 +1125,10 @@
         "id": "handwriting-drawing",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-drawing",
         "title": "Build a HandwritingDrawing",
-        "number": "7"
+        "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritingdrawing-removestroke-stroke-stroke",
@@ -1094,9 +1147,10 @@
         "id": "handwriting-drawing",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-drawing",
         "title": "Build a HandwritingDrawing",
-        "number": "7"
+        "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritingdrawing-clear",
@@ -1115,9 +1169,10 @@
         "id": "handwriting-drawing",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-drawing",
         "title": "Build a HandwritingDrawing",
-        "number": "7"
+        "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritingdrawing-getstrokes",
@@ -1136,9 +1191,10 @@
         "id": "handwriting-drawing",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-drawing",
         "title": "Build a HandwritingDrawing",
-        "number": "7"
+        "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritingdrawing-getprediction",
@@ -1157,9 +1213,10 @@
         "id": "handwriting-drawing",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-drawing",
         "title": "Build a HandwritingDrawing",
-        "number": "7"
+        "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "handwritingstroke",
@@ -1176,9 +1233,10 @@
         "id": "handwriting-drawing",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-drawing",
         "title": "Build a HandwritingDrawing",
-        "number": "7"
+        "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritingstroke-handwritingstroke",
@@ -1198,9 +1256,10 @@
         "id": "handwriting-drawing",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-drawing",
         "title": "Build a HandwritingDrawing",
-        "number": "7"
+        "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritingstroke-addpoint",
@@ -1219,9 +1278,10 @@
         "id": "handwriting-drawing",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-drawing",
         "title": "Build a HandwritingDrawing",
-        "number": "7"
+        "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritingstroke-addpoint-point-point",
@@ -1240,9 +1300,10 @@
         "id": "handwriting-drawing",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-drawing",
         "title": "Build a HandwritingDrawing",
-        "number": "7"
+        "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritingstroke-getpoints",
@@ -1261,9 +1322,10 @@
         "id": "handwriting-drawing",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-drawing",
         "title": "Build a HandwritingDrawing",
-        "number": "7"
+        "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritingstroke-clear",
@@ -1282,9 +1344,10 @@
         "id": "handwriting-drawing",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-drawing",
         "title": "Build a HandwritingDrawing",
-        "number": "7"
+        "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-handwritingpoint",
@@ -1301,9 +1364,10 @@
         "id": "handwriting-drawing",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-drawing",
         "title": "Build a HandwritingDrawing",
-        "number": "7"
+        "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritingpoint-x",
@@ -1322,9 +1386,10 @@
         "id": "handwriting-drawing",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-drawing",
         "title": "Build a HandwritingDrawing",
-        "number": "7"
+        "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritingpoint-y",
@@ -1343,9 +1408,10 @@
         "id": "handwriting-drawing",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-drawing",
         "title": "Build a HandwritingDrawing",
-        "number": "7"
+        "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritingpoint-t",
@@ -1364,9 +1430,10 @@
         "id": "handwriting-drawing",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-drawing",
         "title": "Build a HandwritingDrawing",
-        "number": "7"
+        "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "handwritingstroke-points",
@@ -1385,9 +1452,10 @@
         "id": "handwriting-stroke",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-stroke",
         "title": "HandwritingStroke",
-        "number": "7.1"
+        "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dictdef-handwritingprediction",
@@ -1404,9 +1472,10 @@
         "id": "handwriting-prediction",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-prediction",
         "title": "HandwritingPrediction attributes",
-        "number": "8.2"
+        "number": "7.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritingprediction-text",
@@ -1425,9 +1494,10 @@
         "id": "handwriting-prediction",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-prediction",
         "title": "HandwritingPrediction attributes",
-        "number": "8.2"
+        "number": "7.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritingprediction-segmentationresult",
@@ -1446,9 +1516,10 @@
         "id": "handwriting-prediction",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-prediction",
         "title": "HandwritingPrediction attributes",
-        "number": "8.2"
+        "number": "7.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-handwritingsegment",
@@ -1465,9 +1536,10 @@
         "id": "handwriting-prediction",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-prediction",
         "title": "HandwritingPrediction attributes",
-        "number": "8.2"
+        "number": "7.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritingsegment-grapheme",
@@ -1486,9 +1558,10 @@
         "id": "handwriting-prediction",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-prediction",
         "title": "HandwritingPrediction attributes",
-        "number": "8.2"
+        "number": "7.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritingsegment-beginindex",
@@ -1507,9 +1580,10 @@
         "id": "handwriting-prediction",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-prediction",
         "title": "HandwritingPrediction attributes",
-        "number": "8.2"
+        "number": "7.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritingsegment-endindex",
@@ -1528,9 +1602,10 @@
         "id": "handwriting-prediction",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-prediction",
         "title": "HandwritingPrediction attributes",
-        "number": "8.2"
+        "number": "7.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritingsegment-drawingsegments",
@@ -1549,9 +1624,10 @@
         "id": "handwriting-prediction",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-prediction",
         "title": "HandwritingPrediction attributes",
-        "number": "8.2"
+        "number": "7.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-handwritingdrawingsegment",
@@ -1568,9 +1644,10 @@
         "id": "handwriting-prediction",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-prediction",
         "title": "HandwritingPrediction attributes",
-        "number": "8.2"
+        "number": "7.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritingdrawingsegment-strokeindex",
@@ -1589,9 +1666,10 @@
         "id": "handwriting-prediction",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-prediction",
         "title": "HandwritingPrediction attributes",
-        "number": "8.2"
+        "number": "7.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritingdrawingsegment-beginpointindex",
@@ -1610,9 +1688,10 @@
         "id": "handwriting-prediction",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-prediction",
         "title": "HandwritingPrediction attributes",
-        "number": "8.2"
+        "number": "7.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-handwritingdrawingsegment-endpointindex",
@@ -1631,9 +1710,10 @@
         "id": "handwriting-prediction",
         "href": "https://wicg.github.io/handwriting-recognition/#handwriting-prediction",
         "title": "HandwritingPrediction attributes",
-        "number": "8.2"
+        "number": "7.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     }
   ]
 }

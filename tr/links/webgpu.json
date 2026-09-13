@@ -65,31 +65,31 @@
       "https://www.khronos.org/registry/webgl/specs/latest/1.0/": {},
       "https://www.khronos.org/webgl/": {},
       "https://www.vusec.net/projects/glitch/": {},
-      "https://www.w3.org/Consortium/Patent-Policy/": {
-        "anchors": [
-          "sec-Disclosure"
-        ]
-      },
       "https://www.w3.org/TR/": {},
       "https://www.w3.org/TR/WGSL/": {
         "anchors": [
-          "alignment-and-size"
+          "alignment-and-size",
+          "dpdxFine-builtin",
+          "dpdyFine-builtin",
+          "fwidthFine-builtin"
         ]
       },
+      "https://www.w3.org/TR/css-color-4/": {},
       "https://www.w3.org/TR/hr-time-3/": {},
       "https://www.w3.org/TR/i18n-glossary/": {},
       "https://www.w3.org/TR/mediaqueries-5/": {},
       "https://www.w3.org/TR/service-workers/": {},
       "https://www.w3.org/TR/webcodecs/": {},
       "https://www.w3.org/TR/webxr/": {},
-      "https://www.w3.org/groups/wg/gpu": {},
-      "https://www.w3.org/groups/wg/gpu/ipr": {},
+      "https://www.w3.org/groups/wg/gpu/": {},
+      "https://www.w3.org/groups/wg/gpu/ipr/": {},
       "https://www.w3.org/policies/patent-policy/": {
         "anchors": [
-          "def-essential"
+          "def-essential",
+          "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {
+      "https://www.w3.org/policies/process/20250818/": {
         "anchors": [
           "recs-and-notes"
         ]
@@ -111,6 +111,7 @@
           "built-in-values-position",
           "address-spaces-workgroup",
           "language-extension",
+          "subgroup-size",
           "pipeline-overridable",
           "floating-point-conversion",
           "texturesamplelevel",
@@ -121,6 +122,9 @@
           "program-error",
           "uncategorized-error",
           "line-break",
+          "store-type",
+          "roundup",
+          "sizeof",
           "identifier-comparison",
           "pipeline-overridable-constant-identifier-string",
           "pipeline-constant-id",
@@ -129,23 +133,30 @@
           "type-depth-texture",
           "pipeline-overridable-constant-default-value",
           "pipeline-creation-error",
-          "store-type",
           "runtime-sized",
-          "sizeof",
+          "mintypesize",
           "interface-of-a-shader",
-          "roundup",
           "pipeline-creation",
           "built-in-values-sample_mask",
           "shader-stage-output",
           "built-in-values-frag_depth",
+          "shader-stage-input",
+          "built-in-values-sample_index",
+          "interpolation",
+          "interpolation-type-linear",
+          "interpolation-type-flat",
           "built-in-values-clip_distances",
           "input-output-locations",
           "built-in-values",
-          "interpolation",
           "use-dual-source-blending",
           "scalar-types",
+          "built-in-values-vertex_index",
+          "built-in-values-instance_index",
           "indeterminate-values",
           "differences-from-ieee754",
+          "accessible-slots",
+          "built-in-values-workgroup_index",
+          "built-in-values-global_invocation_index",
           "invalid-memory-reference",
           "64-bit-integer",
           "built-in-values-num_workgroups",
@@ -156,17 +167,19 @@
           "sync-builtin-functions",
           "shader-execution-end",
           "channel-formats",
-          "interpolation-type-flat",
-          "interpolation-type-linear",
           "interpolation-type-perspective",
           "built-in-output-value",
           "interpolation-type",
           "interpolate-attr",
-          "shader-stage-input",
           "f16",
           "extension-f16",
           "extension-clip_distances",
-          "extension-dual_source_blending"
+          "extension-dual_source_blending",
+          "extension-subgroups",
+          "built-in-values-primitive_index",
+          "extension-primitive_index",
+          "subgroup-size-attr",
+          "extension-subgroup_size_control"
         ]
       },
       "https://html.spec.whatwg.org/multipage/canvas.html": {
@@ -174,13 +187,12 @@
           "the-image-argument-is-not-origin-clean",
           "concept-canvas-origin-clean",
           "predefinedcolorspace",
+          "dom-predefinedcolorspace-srgb",
+          "dom-predefinedcolorspace-display-p3",
           "dom-canvasrenderingcontext2dsettings-colorspace",
           "check-the-usability-of-the-image-argument",
-          "imagedata",
           "htmlcanvaselement",
           "offscreencanvas",
-          "dom-imagedata-width",
-          "dom-imagedata-height",
           "canvasrenderingcontext2d",
           "dom-canvas-width",
           "dom-canvas-height",
@@ -188,7 +200,6 @@
           "dom-canvas-getcontext",
           "dom-offscreencanvas-getcontext",
           "dom-offscreencanvas-transfertoimagebitmap",
-          "dom-predefinedcolorspace-srgb",
           "offscreencanvas-placeholder",
           "dom-context-2d-drawimage",
           "dom-canvas-todataurl",
@@ -212,8 +223,11 @@
           "dom-imagebitmapoptions-premultiplyalpha",
           "dom-imagebitmapoptions-colorspaceconversion",
           "dom-animationframeprovider-requestanimationframe",
+          "imagedata",
           "dom-imagebitmap-width",
-          "dom-imagebitmap-height"
+          "dom-imagebitmap-height",
+          "dom-imagedata-width",
+          "dom-imagedata-height"
         ]
       },
       "https://html.spec.whatwg.org/multipage/media.html": {
@@ -267,13 +281,15 @@
           "list",
           "list-append",
           "ordered-set",
+          "set-extend",
           "list-contain",
           "set-append",
-          "list-get-the-indices",
-          "list-empty",
           "list-size",
           "list-iterate",
+          "list-empty",
+          "list-get-the-indices",
           "list-is-empty",
+          "byte-sequence",
           "map-remove",
           "iteration-continue",
           "stack",
@@ -283,6 +299,13 @@
           "map-clear",
           "byte-sequence-length",
           "list-item"
+        ]
+      },
+      "https://registry.khronos.org/DataFormat/specs/1.3/dataformat.1.3.html": {
+        "anchors": [
+          "_compressed_texture_image_formats",
+          "ETC2",
+          "ASTC"
         ]
       },
       "https://registry.khronos.org/vulkan/specs/1.3/html/vkspec.html": {},
@@ -295,6 +318,11 @@
           "sec-createbytedatablock",
           "sec-properties-of-the-arraybuffer-instances",
           "sec-detacharraybuffer"
+        ]
+      },
+      "https://tc39.es/ecma262/multipage/indexed-collections.html": {
+        "anchors": [
+          "sec-typedarray-objects"
         ]
       },
       "https://w3c.github.io/string-meta/": {
@@ -349,6 +377,7 @@
           "domexception-message",
           "NewObject",
           "AllowSharedBufferSource",
+          "AllowShared",
           "idl-Uint32Array",
           "dfn-get-buffer-source-copy",
           "idl-DataView",
@@ -367,7 +396,15 @@
       },
       "https://www.w3.org/TR/WGSL/": {
         "anchors": [
-          "interpolation-sampling"
+          "interpolation-sampling",
+          "interpolation-sampling-either",
+          "interpolation-sampling-sample"
+        ]
+      },
+      "https://www.w3.org/TR/css-color-4/": {
+        "anchors": [
+          "valdef-color-srgb",
+          "valdef-color-srgb-linear"
         ]
       },
       "https://www.w3.org/TR/hr-time-3/": {
@@ -383,7 +420,8 @@
       },
       "https://www.w3.org/TR/mediaqueries-5/": {
         "anchors": [
-          "descdef-media-dynamic-range"
+          "descdef-media-dynamic-range",
+          "valdef-media-dynamic-range-high"
         ]
       },
       "https://www.w3.org/TR/service-workers/": {

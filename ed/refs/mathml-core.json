@@ -6,6 +6,10 @@
   "refs": {
     "normative": [
       {
+        "name": "BIDI",
+        "url": "https://www.unicode.org/reports/tr9/tr9-51.html"
+      },
+      {
         "name": "css-align-3",
         "url": "https://www.w3.org/TR/css-align-3/"
       },
@@ -63,11 +67,11 @@
       },
       {
         "name": "CSS2",
-        "url": "https://www.w3.org/TR/CSS21/"
+        "url": "https://www.w3.org/TR/CSS2/"
       },
       {
-        "name": "CSS22",
-        "url": "https://www.w3.org/TR/CSS22/"
+        "name": "CSSOM",
+        "url": "https://www.w3.org/TR/cssom-1/"
       },
       {
         "name": "DOM",
@@ -78,16 +82,16 @@
         "url": "https://html.spec.whatwg.org/multipage/"
       },
       {
-        "name": "infra",
+        "name": "INFRA",
         "url": "https://infra.spec.whatwg.org/"
       },
       {
         "name": "OPEN-FONT-FORMAT",
-        "url": "http://standards.iso.org/ittf/PubliclyAvailableStandards/c052136_ISO_IEC_14496-22_2009%28E%29.zip"
+        "url": "https://www.iso.org/standard/74461.html"
       },
       {
         "name": "RFC2119",
-        "url": "https://www.rfc-editor.org/rfc/rfc2119"
+        "url": "https://www.rfc-editor.org/info/rfc2119/"
       },
       {
         "name": "SELECT",
@@ -96,6 +100,10 @@
       {
         "name": "SVG",
         "url": "https://www.w3.org/TR/SVG/"
+      },
+      {
+        "name": "URL",
+        "url": "https://url.spec.whatwg.org/"
       },
       {
         "name": "webidl",

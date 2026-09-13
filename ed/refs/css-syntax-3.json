@@ -59,7 +59,7 @@
       },
       {
         "name": "HTML",
-        "url": "https://html.spec.whatwg.org/multipage/"
+        "url": "http://whatwg.org/html"
       },
       {
         "name": "INFRA",
@@ -79,6 +79,10 @@
       }
     ],
     "informative": [
+      {
+        "name": "CSS-CASCADE-6",
+        "url": "https://drafts.csswg.org/css-cascade-6/"
+      },
       {
         "name": "CSS-COLOR-4",
         "url": "https://drafts.csswg.org/css-color-4/"

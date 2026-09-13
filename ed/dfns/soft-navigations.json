@@ -1,14 +1,950 @@
 {
   "spec": {
-    "title": "Soft Navigations",
+    "title": "Soft Navigations and Interaction Contentful Paint",
     "url": "https://wicg.github.io/soft-navigations/"
   },
   "dfns": [
     {
-      "id": "softnavigationentry",
-      "href": "https://wicg.github.io/soft-navigations/#softnavigationentry",
+      "id": "navigation-id",
+      "href": "https://wicg.github.io/soft-navigations/#navigation-id",
       "linkingText": [
-        "SoftNavigationEntry"
+        "navigation id"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-nav-id",
+        "href": "https://wicg.github.io/soft-navigations/#sec-nav-id",
+        "title": "Navigation ID",
+        "number": "2.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "window-current-navigation-id",
+      "href": "https://wicg.github.io/soft-navigations/#window-current-navigation-id",
+      "linkingText": [
+        "current navigation id"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Window"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-nav-id",
+        "href": "https://wicg.github.io/soft-navigations/#sec-nav-id",
+        "title": "Navigation ID",
+        "number": "2.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "window-navigation-count",
+      "href": "https://wicg.github.io/soft-navigations/#window-navigation-count",
+      "linkingText": [
+        "navigation count"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Window"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-nav-id",
+        "href": "https://wicg.github.io/soft-navigations/#sec-nav-id",
+        "title": "Navigation ID",
+        "number": "2.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "window-initial-navigation-id-value",
+      "href": "https://wicg.github.io/soft-navigations/#window-initial-navigation-id-value",
+      "linkingText": [
+        "initial navigation id value"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Window"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-nav-id",
+        "href": "https://wicg.github.io/soft-navigations/#sec-nav-id",
+        "title": "Navigation ID",
+        "number": "2.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "window-navigation-id-increment",
+      "href": "https://wicg.github.io/soft-navigations/#window-navigation-id-increment",
+      "linkingText": [
+        "navigation id increment"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Window"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-nav-id",
+        "href": "https://wicg.github.io/soft-navigations/#sec-nav-id",
+        "title": "Navigation ID",
+        "number": "2.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "increment-the-current-navigation-id",
+      "href": "https://wicg.github.io/soft-navigations/#increment-the-current-navigation-id",
+      "linkingText": [
+        "increment the current navigation id"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-nav-id",
+        "href": "https://wicg.github.io/soft-navigations/#sec-nav-id",
+        "title": "Navigation ID",
+        "number": "2.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-performanceentry-navigationid",
+      "href": "https://wicg.github.io/soft-navigations/#dom-performanceentry-navigationid",
+      "linkingText": [
+        "navigationId"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "PerformanceEntry"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-pe-extension",
+        "href": "https://wicg.github.io/soft-navigations/#sec-pe-extension",
+        "title": "The PerformanceEntry extension",
+        "number": "2.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "performanceentry-navigation-id",
+      "href": "https://wicg.github.io/soft-navigations/#performanceentry-navigation-id",
+      "linkingText": [
+        "navigation id"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "PerformanceEntry"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-pe-extension",
+        "href": "https://wicg.github.io/soft-navigations/#sec-pe-extension",
+        "title": "The PerformanceEntry extension",
+        "number": "2.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "interactioncontext-interactioncontext",
+      "href": "https://wicg.github.io/soft-navigations/#interactioncontext-interactioncontext",
+      "linkingText": [
+        "InteractionContext"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "InteractionContext"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-interaction",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interaction",
+        "title": "The InteractionContext struct",
+        "number": "3.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "interactioncontext-id",
+      "href": "https://wicg.github.io/soft-navigations/#interactioncontext-id",
+      "linkingText": [
+        "id"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "InteractionContext"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-interaction",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interaction",
+        "title": "The InteractionContext struct",
+        "number": "3.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "interactioncontext-context-document",
+      "href": "https://wicg.github.io/soft-navigations/#interactioncontext-context-document",
+      "linkingText": [
+        "context document"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "InteractionContext"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-interaction",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interaction",
+        "title": "The InteractionContext struct",
+        "number": "3.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "interactioncontext-start-time",
+      "href": "https://wicg.github.io/soft-navigations/#interactioncontext-start-time",
+      "linkingText": [
+        "start time"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "InteractionContext"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-interaction",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interaction",
+        "title": "The InteractionContext struct",
+        "number": "3.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "interactioncontext-navigation-type",
+      "href": "https://wicg.github.io/soft-navigations/#interactioncontext-navigation-type",
+      "linkingText": [
+        "navigation type"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "InteractionContext"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-interaction",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interaction",
+        "title": "The InteractionContext struct",
+        "number": "3.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "interactioncontext-first-url-value",
+      "href": "https://wicg.github.io/soft-navigations/#interactioncontext-first-url-value",
+      "linkingText": [
+        "first URL value"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "InteractionContext"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-interaction",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interaction",
+        "title": "The InteractionContext struct",
+        "number": "3.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "interactioncontext-first-url-update-timestamp",
+      "href": "https://wicg.github.io/soft-navigations/#interactioncontext-first-url-update-timestamp",
+      "linkingText": [
+        "first URL update timestamp"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "InteractionContext"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-interaction",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interaction",
+        "title": "The InteractionContext struct",
+        "number": "3.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "interactioncontext-first-scroll-timestamp",
+      "href": "https://wicg.github.io/soft-navigations/#interactioncontext-first-scroll-timestamp",
+      "linkingText": [
+        "first scroll timestamp"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "InteractionContext"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-interaction",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interaction",
+        "title": "The InteractionContext struct",
+        "number": "3.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "interactioncontext-first-input-timestamp",
+      "href": "https://wicg.github.io/soft-navigations/#interactioncontext-first-input-timestamp",
+      "linkingText": [
+        "first input timestamp"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "InteractionContext"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-interaction",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interaction",
+        "title": "The InteractionContext struct",
+        "number": "3.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "interactioncontext-first-contentful-paint",
+      "href": "https://wicg.github.io/soft-navigations/#interactioncontext-first-contentful-paint",
+      "linkingText": [
+        "first contentful paint"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "InteractionContext"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-interaction",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interaction",
+        "title": "The InteractionContext struct",
+        "number": "3.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "interactioncontext-largest-contentful-paint",
+      "href": "https://wicg.github.io/soft-navigations/#interactioncontext-largest-contentful-paint",
+      "linkingText": [
+        "largest contentful paint"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "InteractionContext"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-interaction",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interaction",
+        "title": "The InteractionContext struct",
+        "number": "3.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "interactioncontext-current-largest-contentful-paint-candidate",
+      "href": "https://wicg.github.io/soft-navigations/#interactioncontext-current-largest-contentful-paint-candidate",
+      "linkingText": [
+        "current largest contentful paint candidate"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "InteractionContext"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-interaction",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interaction",
+        "title": "The InteractionContext struct",
+        "number": "3.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "interactioncontext-last-url-value",
+      "href": "https://wicg.github.io/soft-navigations/#interactioncontext-last-url-value",
+      "linkingText": [
+        "last URL value"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "InteractionContext"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-interaction",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interaction",
+        "title": "The InteractionContext struct",
+        "number": "3.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "interactioncontext-emitted",
+      "href": "https://wicg.github.io/soft-navigations/#interactioncontext-emitted",
+      "linkingText": [
+        "emitted"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "InteractionContext"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-interaction",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interaction",
+        "title": "The InteractionContext struct",
+        "number": "3.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "get-the-current-interaction-context",
+      "href": "https://wicg.github.io/soft-navigations/#get-the-current-interaction-context",
+      "linkingText": [
+        "get the current interaction context"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-infra-algos",
+        "href": "https://wicg.github.io/soft-navigations/#sec-infra-algos",
+        "title": "Infrastructure Algorithms",
+        "number": "3.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "get-or-create-the-context-for-an-interaction",
+      "href": "https://wicg.github.io/soft-navigations/#get-or-create-the-context-for-an-interaction",
+      "linkingText": [
+        "get or create the context for an interaction"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-infra-algos",
+        "href": "https://wicg.github.io/soft-navigations/#sec-infra-algos",
+        "title": "Infrastructure Algorithms",
+        "number": "3.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "update-the-interaction-contexts-for-an-event",
+      "href": "https://wicg.github.io/soft-navigations/#update-the-interaction-contexts-for-an-event",
+      "linkingText": [
+        "update the interaction contexts for an event"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-infra-algos",
+        "href": "https://wicg.github.io/soft-navigations/#sec-infra-algos",
+        "title": "Infrastructure Algorithms",
+        "number": "3.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "set-the-current-interaction-context-for-event-dispatch",
+      "href": "https://wicg.github.io/soft-navigations/#set-the-current-interaction-context-for-event-dispatch",
+      "linkingText": [
+        "set the current interaction context for event dispatch"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-infra-algos",
+        "href": "https://wicg.github.io/soft-navigations/#sec-infra-algos",
+        "title": "Infrastructure Algorithms",
+        "number": "3.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "unset-the-current-interaction-context-after-event-dispatch",
+      "href": "https://wicg.github.io/soft-navigations/#unset-the-current-interaction-context-after-event-dispatch",
+      "linkingText": [
+        "unset the current interaction context after event dispatch"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-infra-algos",
+        "href": "https://wicg.github.io/soft-navigations/#sec-infra-algos",
+        "title": "Infrastructure Algorithms",
+        "number": "3.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "interactioncontentfulpaint",
+      "href": "https://wicg.github.io/soft-navigations/#interactioncontentfulpaint",
+      "linkingText": [
+        "InteractionContentfulPaint"
+      ],
+      "localLinkingText": [],
+      "type": "interface",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-interaction-contentful-paint-interface",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interaction-contentful-paint-interface",
+        "title": "The InteractionContentfulPaint interface",
+        "number": "4.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-interactioncontentfulpaint-largestcontentfulpaint",
+      "href": "https://wicg.github.io/soft-navigations/#dom-interactioncontentfulpaint-largestcontentfulpaint",
+      "linkingText": [
+        "largestContentfulPaint"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "InteractionContentfulPaint"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-interaction-contentful-paint-interface",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interaction-contentful-paint-interface",
+        "title": "The InteractionContentfulPaint interface",
+        "number": "4.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-interactioncontentfulpaint-interactionid",
+      "href": "https://wicg.github.io/soft-navigations/#dom-interactioncontentfulpaint-interactionid",
+      "linkingText": [
+        "interactionId"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "InteractionContentfulPaint"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-interaction-contentful-paint-interface",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interaction-contentful-paint-interface",
+        "title": "The InteractionContentfulPaint interface",
+        "number": "4.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-interactioncontentfulpaint-tojson",
+      "href": "https://wicg.github.io/soft-navigations/#dom-interactioncontentfulpaint-tojson",
+      "linkingText": [
+        "toJSON()"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "InteractionContentfulPaint"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-interaction-contentful-paint-interface",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interaction-contentful-paint-interface",
+        "title": "The InteractionContentfulPaint interface",
+        "number": "4.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "interactioncontentfulpaint-context",
+      "href": "https://wicg.github.io/soft-navigations/#interactioncontentfulpaint-context",
+      "linkingText": [
+        "context"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "InteractionContentfulPaint"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-interaction-contentful-paint-interface",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interaction-contentful-paint-interface",
+        "title": "The InteractionContentfulPaint interface",
+        "number": "4.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "interactioncontentfulpaint-largest-contentful-paint",
+      "href": "https://wicg.github.io/soft-navigations/#interactioncontentfulpaint-largest-contentful-paint",
+      "linkingText": [
+        "largest contentful paint"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "InteractionContentfulPaint"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-interaction-contentful-paint-interface",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interaction-contentful-paint-interface",
+        "title": "The InteractionContentfulPaint interface",
+        "number": "4.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "create-an-interaction-contentful-paint-entry",
+      "href": "https://wicg.github.io/soft-navigations/#create-an-interaction-contentful-paint-entry",
+      "linkingText": [
+        "create an interaction contentful paint entry"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-interaction-contentful-paint-algos",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interaction-contentful-paint-algos",
+        "title": "Interaction Contentful Paint Algorithms",
+        "number": "4.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "process-a-new-attributed-contentful-paint-candidate",
+      "href": "https://wicg.github.io/soft-navigations/#process-a-new-attributed-contentful-paint-candidate",
+      "linkingText": [
+        "process a new attributed contentful paint candidate"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-interaction-contentful-paint-algos",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interaction-contentful-paint-algos",
+        "title": "Interaction Contentful Paint Algorithms",
+        "number": "4.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "report-interaction-contentful-paints-and-soft-navigations",
+      "href": "https://wicg.github.io/soft-navigations/#report-interaction-contentful-paints-and-soft-navigations",
+      "linkingText": [
+        "report interaction contentful paints and soft navigations"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-interaction-contentful-paint-algos",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interaction-contentful-paint-algos",
+        "title": "Interaction Contentful Paint Algorithms",
+        "number": "4.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "interactionpainttimingnodestate-interactionpainttimingnodestate",
+      "href": "https://wicg.github.io/soft-navigations/#interactionpainttimingnodestate-interactionpainttimingnodestate",
+      "linkingText": [
+        "InteractionPaintTimingNodeState"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "InteractionPaintTimingNodeState"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-interaction-contentful-paint-attribution",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interaction-contentful-paint-attribution",
+        "title": "Interaction Contentful Paint Attribution",
+        "number": "4.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "interactionpainttimingnodestate-context",
+      "href": "https://wicg.github.io/soft-navigations/#interactionpainttimingnodestate-context",
+      "linkingText": [
+        "context"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "InteractionPaintTimingNodeState"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-interaction-contentful-paint-attribution",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interaction-contentful-paint-attribution",
+        "title": "Interaction Contentful Paint Attribution",
+        "number": "4.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "interactionpainttimingnodestate-modification-id",
+      "href": "https://wicg.github.io/soft-navigations/#interactionpainttimingnodestate-modification-id",
+      "linkingText": [
+        "modification id"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "InteractionPaintTimingNodeState"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-interaction-contentful-paint-attribution",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interaction-contentful-paint-attribution",
+        "title": "Interaction Contentful Paint Attribution",
+        "number": "4.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "more-recent-than",
+      "href": "https://wicg.github.io/soft-navigations/#more-recent-than",
+      "linkingText": [
+        "more recent than"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-interaction-contentful-paint-attribution",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interaction-contentful-paint-attribution",
+        "title": "Interaction Contentful Paint Attribution",
+        "number": "4.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "get-the-paint-attribution-interaction-context",
+      "href": "https://wicg.github.io/soft-navigations/#get-the-paint-attribution-interaction-context",
+      "linkingText": [
+        "get the paint attribution interaction context"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-interaction-contentful-paint-attribution",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interaction-contentful-paint-attribution",
+        "title": "Interaction Contentful Paint Attribution",
+        "number": "4.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "record-a-node-as-modified-for-interaction-paint-timing",
+      "href": "https://wicg.github.io/soft-navigations/#record-a-node-as-modified-for-interaction-paint-timing",
+      "linkingText": [
+        "record a node as modified for interaction paint timing"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-interaction-contentful-paint-attribution",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interaction-contentful-paint-attribution",
+        "title": "Interaction Contentful Paint Attribution",
+        "number": "4.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "update-the-interaction-context-for-a-document-and-its-descendants",
+      "href": "https://wicg.github.io/soft-navigations/#update-the-interaction-context-for-a-document-and-its-descendants",
+      "linkingText": [
+        "update the interaction context for a document and its descendants"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-interaction-contentful-paint-attribution",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interaction-contentful-paint-attribution",
+        "title": "Interaction Contentful Paint Attribution",
+        "number": "4.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "update-the-interaction-context-for-a-node-and-its-descendants",
+      "href": "https://wicg.github.io/soft-navigations/#update-the-interaction-context-for-a-node-and-its-descendants",
+      "linkingText": [
+        "update the interaction context for a node and its descendants"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-interaction-contentful-paint-attribution",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interaction-contentful-paint-attribution",
+        "title": "Interaction Contentful Paint Attribution",
+        "number": "4.3"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "performancesoftnavigation",
+      "href": "https://wicg.github.io/soft-navigations/#performancesoftnavigation",
+      "linkingText": [
+        "PerformanceSoftNavigation"
       ],
       "localLinkingText": [],
       "type": "interface",
@@ -18,16 +954,147 @@
       "heading": {
         "id": "sec-interface",
         "href": "https://wicg.github.io/soft-navigations/#sec-interface",
-        "title": "The SoftNavigationEntry interface",
-        "number": "2"
+        "title": "The PerformanceSoftNavigation interface",
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
-      "id": "check-soft-navigation",
-      "href": "https://wicg.github.io/soft-navigations/#check-soft-navigation",
+      "id": "dom-performancesoftnavigation-navigationtype",
+      "href": "https://wicg.github.io/soft-navigations/#dom-performancesoftnavigation-navigationtype",
       "linkingText": [
-        "check soft navigation"
+        "navigationType"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "PerformanceSoftNavigation"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-interface",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interface",
+        "title": "The PerformanceSoftNavigation interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-performancesoftnavigation-interactionid",
+      "href": "https://wicg.github.io/soft-navigations/#dom-performancesoftnavigation-interactionid",
+      "linkingText": [
+        "interactionId"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "PerformanceSoftNavigation"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-interface",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interface",
+        "title": "The PerformanceSoftNavigation interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-performancesoftnavigation-getlargestinteractioncontentfulpaint",
+      "href": "https://wicg.github.io/soft-navigations/#dom-performancesoftnavigation-getlargestinteractioncontentfulpaint",
+      "linkingText": [
+        "getLargestInteractionContentfulPaint()"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "PerformanceSoftNavigation"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-interface",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interface",
+        "title": "The PerformanceSoftNavigation interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-performancesoftnavigation-tojson",
+      "href": "https://wicg.github.io/soft-navigations/#dom-performancesoftnavigation-tojson",
+      "linkingText": [
+        "toJSON()"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "PerformanceSoftNavigation"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-interface",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interface",
+        "title": "The PerformanceSoftNavigation interface",
+        "number": "5.1"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "performancesoftnavigation-context",
+      "href": "https://wicg.github.io/soft-navigations/#performancesoftnavigation-context",
+      "linkingText": [
+        "context"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "PerformanceSoftNavigation"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-interface",
+        "href": "https://wicg.github.io/soft-navigations/#sec-interface",
+        "title": "The PerformanceSoftNavigation interface",
+        "number": "5.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "soft-navigation",
+      "href": "https://wicg.github.io/soft-navigations/#soft-navigation",
+      "linkingText": [
+        "soft navigation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "sec-soft-nav-algos",
+        "href": "https://wicg.github.io/soft-navigations/#sec-soft-nav-algos",
+        "title": "Soft Navigation Algorithms",
+        "number": "5.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "evaluate-soft-navigation-emission",
+      "href": "https://wicg.github.io/soft-navigations/#evaluate-soft-navigation-emission",
+      "linkingText": [
+        "evaluate soft navigation emission"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -35,12 +1102,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "sec-algos",
-        "href": "https://wicg.github.io/soft-navigations/#sec-algos",
-        "title": "Algorithms",
-        "number": "3"
+        "id": "sec-soft-nav-algos",
+        "href": "https://wicg.github.io/soft-navigations/#sec-soft-nav-algos",
+        "title": "Soft Navigation Algorithms",
+        "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "create-a-soft-navigation-entry",
@@ -54,18 +1122,19 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "sec-entry",
-        "href": "https://wicg.github.io/soft-navigations/#sec-entry",
-        "title": "Soft navigation entry",
-        "number": "3.1"
+        "id": "sec-soft-nav-algos",
+        "href": "https://wicg.github.io/soft-navigations/#sec-soft-nav-algos",
+        "title": "Soft Navigation Algorithms",
+        "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "emit-soft-navigation-entry",
-      "href": "https://wicg.github.io/soft-navigations/#emit-soft-navigation-entry",
+      "id": "emit-a-soft-navigation-entry",
+      "href": "https://wicg.github.io/soft-navigations/#emit-a-soft-navigation-entry",
       "linkingText": [
-        "emit soft navigation entry"
+        "emit a soft navigation entry"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -73,17 +1142,19 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/soft-navigations/#title",
-        "title": "Soft Navigations"
+        "id": "sec-soft-nav-algos",
+        "href": "https://wicg.github.io/soft-navigations/#sec-soft-nav-algos",
+        "title": "Soft Navigation Algorithms",
+        "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "interaction-data",
-      "href": "https://wicg.github.io/soft-navigations/#interaction-data",
+      "id": "process-a-same-document-commit",
+      "href": "https://wicg.github.io/soft-navigations/#process-a-same-document-commit",
       "linkingText": [
-        "Interaction data"
+        "process a same document commit"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -91,210 +1162,19 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "sec-interaction",
-        "href": "https://wicg.github.io/soft-navigations/#sec-interaction",
-        "title": "Interaction",
-        "number": "3.2"
+        "id": "sec-soft-nav-algos",
+        "href": "https://wicg.github.io/soft-navigations/#sec-soft-nav-algos",
+        "title": "Soft Navigation Algorithms",
+        "number": "5.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "interaction-data-url",
-      "href": "https://wicg.github.io/soft-navigations/#interaction-data-url",
+      "id": "document-interaction-id-to-interaction-context",
+      "href": "https://wicg.github.io/soft-navigations/#document-interaction-id-to-interaction-context",
       "linkingText": [
-        "url"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "interaction data"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/soft-navigations/#title",
-        "title": "Soft Navigations"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "interaction-data-start-time",
-      "href": "https://wicg.github.io/soft-navigations/#interaction-data-start-time",
-      "linkingText": [
-        "start time"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "interaction data"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/soft-navigations/#title",
-        "title": "Soft Navigations"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "interaction-data-same-document-commit",
-      "href": "https://wicg.github.io/soft-navigations/#interaction-data-same-document-commit",
-      "linkingText": [
-        "same document commit"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "interaction data"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/soft-navigations/#title",
-        "title": "Soft Navigations"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "interaction-data-contentful-paint",
-      "href": "https://wicg.github.io/soft-navigations/#interaction-data-contentful-paint",
-      "linkingText": [
-        "contentful paint"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "interaction data"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/soft-navigations/#title",
-        "title": "Soft Navigations"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "interaction-data-emitted",
-      "href": "https://wicg.github.io/soft-navigations/#interaction-data-emitted",
-      "linkingText": [
-        "emitted"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "interaction data"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/soft-navigations/#title",
-        "title": "Soft Navigations"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "get-current-interaction-data",
-      "href": "https://wicg.github.io/soft-navigations/#get-current-interaction-data",
-      "linkingText": [
-        "get current interaction data"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/soft-navigations/#title",
-        "title": "Soft Navigations"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "handle-event-callback",
-      "href": "https://wicg.github.io/soft-navigations/#handle-event-callback",
-      "linkingText": [
-        "handle event callback"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/soft-navigations/#title",
-        "title": "Soft Navigations"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "terminate-event-callback-handling",
-      "href": "https://wicg.github.io/soft-navigations/#terminate-event-callback-handling",
-      "linkingText": [
-        "terminate event callback handling"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/soft-navigations/#title",
-        "title": "Soft Navigations"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "check-soft-navigation-same-document-commit",
-      "href": "https://wicg.github.io/soft-navigations/#check-soft-navigation-same-document-commit",
-      "linkingText": [
-        "check soft navigation same document commit"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "sec-same-document-commit",
-        "href": "https://wicg.github.io/soft-navigations/#sec-same-document-commit",
-        "title": "Same document commit",
-        "number": "3.3"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "check-soft-navigation-contentful-paint",
-      "href": "https://wicg.github.io/soft-navigations/#check-soft-navigation-contentful-paint",
-      "linkingText": [
-        "check soft navigation contentful paint"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "sec-contentful-paint",
-        "href": "https://wicg.github.io/soft-navigations/#sec-contentful-paint",
-        "title": "Contentful paint",
-        "number": "3.4"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "document-potential-soft-navigation-task-ids",
-      "href": "https://wicg.github.io/soft-navigations/#document-potential-soft-navigation-task-ids",
-      "linkingText": [
-        "potential soft navigation task ids"
+        "interaction id to interaction context"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -307,15 +1187,16 @@
         "id": "sec-html-document",
         "href": "https://wicg.github.io/soft-navigations/#sec-html-document",
         "title": "Document",
-        "number": "4.1"
+        "number": "6.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "document-interaction-task-id-to-interaction-data",
-      "href": "https://wicg.github.io/soft-navigations/#document-interaction-task-id-to-interaction-data",
+      "id": "document-active-soft-navigation-candidate",
+      "href": "https://wicg.github.io/soft-navigations/#document-active-soft-navigation-candidate",
       "linkingText": [
-        "interaction task id to interaction data"
+        "active soft navigation candidate"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -325,17 +1206,19 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/soft-navigations/#title",
-        "title": "Soft Navigations"
+        "id": "sec-html-document",
+        "href": "https://wicg.github.io/soft-navigations/#sec-html-document",
+        "title": "Document",
+        "number": "6.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "document-task-id-to-interaction-task-id",
-      "href": "https://wicg.github.io/soft-navigations/#document-task-id-to-interaction-task-id",
+      "id": "document-current-modification-generation-id",
+      "href": "https://wicg.github.io/soft-navigations/#document-current-modification-generation-id",
       "linkingText": [
-        "task id to interaction task id"
+        "current modification generation id"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -345,17 +1228,19 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/soft-navigations/#title",
-        "title": "Soft Navigations"
+        "id": "sec-html-document",
+        "href": "https://wicg.github.io/soft-navigations/#sec-html-document",
+        "title": "Document",
+        "number": "6.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "document-last-interaction-task-id",
-      "href": "https://wicg.github.io/soft-navigations/#document-last-interaction-task-id",
+      "id": "document-last-modification-context",
+      "href": "https://wicg.github.io/soft-navigations/#document-last-modification-context",
       "linkingText": [
-        "last interaction task id"
+        "last modification context"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -365,77 +1250,85 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/soft-navigations/#title",
-        "title": "Soft Navigations"
+        "id": "sec-html-document",
+        "href": "https://wicg.github.io/soft-navigations/#sec-html-document",
+        "title": "Document",
+        "number": "6.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "node-appended-by-soft-navigation",
-      "href": "https://wicg.github.io/soft-navigations/#node-appended-by-soft-navigation",
+      "id": "document-marked-node-state",
+      "href": "https://wicg.github.io/soft-navigations/#document-marked-node-state",
       "linkingText": [
-        "appended by soft navigation"
+        "marked node state"
       ],
       "localLinkingText": [],
       "type": "dfn",
       "for": [
-        "node"
+        "document"
       ],
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "sec-html-node",
-        "href": "https://wicg.github.io/soft-navigations/#sec-html-node",
-        "title": "Node",
-        "number": "4.4"
+        "id": "sec-html-document",
+        "href": "https://wicg.github.io/soft-navigations/#sec-html-document",
+        "title": "Document",
+        "number": "6.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "concept-task-scope",
-      "href": "https://wicg.github.io/soft-navigations/#concept-task-scope",
+      "id": "document-propagated-node-state",
+      "href": "https://wicg.github.io/soft-navigations/#document-propagated-node-state",
       "linkingText": [
-        "task scope"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "sec-task-scope",
-        "href": "https://wicg.github.io/soft-navigations/#sec-task-scope",
-        "title": "Task scope",
-        "number": "6.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "task-scope-task",
-      "href": "https://wicg.github.io/soft-navigations/#task-scope-task",
-      "linkingText": [
-        "task"
+        "propagated node state"
       ],
       "localLinkingText": [],
       "type": "dfn",
       "for": [
-        "task scope"
+        "document"
       ],
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/soft-navigations/#title",
-        "title": "Soft Navigations"
+        "id": "sec-html-document",
+        "href": "https://wicg.github.io/soft-navigations/#sec-html-document",
+        "title": "Document",
+        "number": "6.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "create-a-task-scope",
-      "href": "https://wicg.github.io/soft-navigations/#create-a-task-scope",
+      "id": "document-is-interaction-paint-timing-dirty",
+      "href": "https://wicg.github.io/soft-navigations/#document-is-interaction-paint-timing-dirty",
       "linkingText": [
-        "create a task scope"
+        "is interaction paint timing dirty"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "document"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "sec-html-document",
+        "href": "https://wicg.github.io/soft-navigations/#sec-html-document",
+        "title": "Document",
+        "number": "6.1.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "get-the-next-interactionid",
+      "href": "https://wicg.github.io/soft-navigations/#get-the-next-interactionid",
+      "linkingText": [
+        "get the next interactionId"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -443,152 +1336,19 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/soft-navigations/#title",
-        "title": "Soft Navigations"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "tear-down-a-task-scope",
-      "href": "https://wicg.github.io/soft-navigations/#tear-down-a-task-scope",
-      "linkingText": [
-        "tear down a task scope"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/soft-navigations/#title",
-        "title": "Soft Navigations"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "check-ancestor-for-task",
-      "href": "https://wicg.github.io/soft-navigations/#check-ancestor-for-task",
-      "linkingText": [
-        "check ancestor for task"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "sec-is-ancestor",
-        "href": "https://wicg.github.io/soft-navigations/#sec-is-ancestor",
-        "title": "Is ancestor",
-        "number": "6.2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "check-ancestor-set-for-task",
-      "href": "https://wicg.github.io/soft-navigations/#check-ancestor-set-for-task",
-      "linkingText": [
-        "check ancestor set for task"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "sec-is-ancestor-in-set",
-        "href": "https://wicg.github.io/soft-navigations/#sec-is-ancestor-in-set",
-        "title": "Is ancestor in set",
+        "id": "sec-event-timing-integration",
+        "href": "https://wicg.github.io/soft-navigations/#sec-event-timing-integration",
+        "title": "Event Timing integration",
         "number": "6.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "get-current-task",
-      "href": "https://wicg.github.io/soft-navigations/#get-current-task",
+      "id": "reset-paint-tracking",
+      "href": "https://wicg.github.io/soft-navigations/#reset-paint-tracking",
       "linkingText": [
-        "get current task"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "sec-current-task",
-        "href": "https://wicg.github.io/soft-navigations/#sec-current-task",
-        "title": "Get current task",
-        "number": "6.3.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "get-current-task-id",
-      "href": "https://wicg.github.io/soft-navigations/#get-current-task-id",
-      "linkingText": [
-        "get current task id"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "sec-current-task-id",
-        "href": "https://wicg.github.io/soft-navigations/#sec-current-task-id",
-        "title": "Get current task ID",
-        "number": "6.3.2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "task-task-attribution-id",
-      "href": "https://wicg.github.io/soft-navigations/#task-task-attribution-id",
-      "linkingText": [
-        "task attribution ID"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "task"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "sec-task",
-        "href": "https://wicg.github.io/soft-navigations/#sec-task",
-        "title": "Task additions",
-        "number": "7.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "task-parent-task",
-      "href": "https://wicg.github.io/soft-navigations/#task-parent-task",
-      "linkingText": [
-        "parent task"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "task"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/soft-navigations/#title",
-        "title": "Soft Navigations"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "task-scope-stack",
-      "href": "https://wicg.github.io/soft-navigations/#task-scope-stack",
-      "linkingText": [
-        "task scope stack"
+        "reset paint tracking"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -596,60 +1356,19 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "sec-event-loop",
-        "href": "https://wicg.github.io/soft-navigations/#sec-event-loop",
-        "title": "Event Loop additions",
-        "number": "7.2"
+        "id": "sec-paint-timing-integration",
+        "href": "https://wicg.github.io/soft-navigations/#sec-paint-timing-integration",
+        "title": "Paint Timing integration",
+        "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "script-parent-task",
-      "href": "https://wicg.github.io/soft-navigations/#script-parent-task",
+      "id": "get-the-attribution-element",
+      "href": "https://wicg.github.io/soft-navigations/#get-the-attribution-element",
       "linkingText": [
-        "parent task"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "script"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "sec-script",
-        "href": "https://wicg.github.io/soft-navigations/#sec-script",
-        "title": "Script execution",
-        "number": "7.3"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "callback-function-parent-task",
-      "href": "https://wicg.github.io/soft-navigations/#callback-function-parent-task",
-      "linkingText": [
-        "parent task"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "callback function"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "sec-callbacks",
-        "href": "https://wicg.github.io/soft-navigations/#sec-callbacks",
-        "title": "Callbacks",
-        "number": "7.6"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "navigation-task",
-      "href": "https://wicg.github.io/soft-navigations/#navigation-task",
-      "linkingText": [
-        "navigation task"
+        "get the attribution element"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -657,12 +1376,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "sec-same-document-navigations",
-        "href": "https://wicg.github.io/soft-navigations/#sec-same-document-navigations",
-        "title": "Same-document navigations",
-        "number": "7.9"
+        "id": "sec-paint-timing-integration",
+        "href": "https://wicg.github.io/soft-navigations/#sec-paint-timing-integration",
+        "title": "Paint Timing integration",
+        "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

@@ -26,7 +26,10 @@
       "id": "toc",
       "href": "https://drafts.csswg.org/css-box-4/#toc",
       "level": 2,
-      "title": "Table of Contents"
+      "title": "Table of Contents",
+      "alternateIds": [
+        "contents"
+      ]
     },
     {
       "id": "intro",
@@ -111,20 +114,6 @@
       "level": 4,
       "title": "Trimming Block Container Content",
       "number": "3.3.1"
-    },
-    {
-      "id": "margin-trim-flex",
-      "href": "https://drafts.csswg.org/css-box-4/#margin-trim-flex",
-      "level": 4,
-      "title": "Trimming Flex Container Content",
-      "number": "3.3.2"
-    },
-    {
-      "id": "margin-trim-grid",
-      "href": "https://drafts.csswg.org/css-box-4/#margin-trim-grid",
-      "level": 4,
-      "title": "Trimming Grid Container Content",
-      "number": "3.3.3"
     },
     {
       "id": "paddings",
@@ -258,7 +247,7 @@
       "id": "informative",
       "href": "https://drafts.csswg.org/css-box-4/#informative",
       "level": 3,
-      "title": "Informative References"
+      "title": "Non-Normative References"
     },
     {
       "id": "property-index",

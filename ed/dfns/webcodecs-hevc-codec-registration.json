@@ -23,7 +23,8 @@
         "title": "VideoEncoderConfig extensions",
         "number": "5"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dictdef-hevcencoderconfig",
@@ -42,7 +43,8 @@
         "title": "HevcEncoderConfig",
         "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-hevcencoderconfig-format",
@@ -58,11 +60,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webcodecs/hevc_codec_registration.html#title",
-        "title": "HEVC (H.265) WebCodecs Registration"
+        "id": "hevc-encoder-config",
+        "href": "https://w3c.github.io/webcodecs/hevc_codec_registration.html#hevc-encoder-config",
+        "title": "HevcEncoderConfig",
+        "number": "5.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "enumdef-hevcbitstreamformat",
@@ -81,7 +85,8 @@
         "title": "HevcBitstreamFormat",
         "number": "5.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-hevcbitstreamformat-annexb",
@@ -98,11 +103,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webcodecs/hevc_codec_registration.html#title",
-        "title": "HEVC (H.265) WebCodecs Registration"
+        "id": "hevc-bitstream-format",
+        "href": "https://w3c.github.io/webcodecs/hevc_codec_registration.html#hevc-bitstream-format",
+        "title": "HevcBitstreamFormat",
+        "number": "5.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-hevcbitstreamformat-hevc",
@@ -119,11 +126,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webcodecs/hevc_codec_registration.html#title",
-        "title": "HEVC (H.265) WebCodecs Registration"
+        "id": "hevc-bitstream-format",
+        "href": "https://w3c.github.io/webcodecs/hevc_codec_registration.html#hevc-bitstream-format",
+        "title": "HevcBitstreamFormat",
+        "number": "5.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-videoencoderencodeoptions-hevc",
@@ -144,7 +153,8 @@
         "title": "VideoEncoderEncodeOptions extensions",
         "number": "6"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dictdef-videoencoderencodeoptionsforhevc",
@@ -163,7 +173,8 @@
         "title": "VideoEncoderEncodeOptionsForHevc",
         "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-videoencoderencodeoptionsforhevc-quantizer",
@@ -179,11 +190,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webcodecs/hevc_codec_registration.html#title",
-        "title": "HEVC (H.265) WebCodecs Registration"
+        "id": "hevc-encode-options",
+        "href": "https://w3c.github.io/webcodecs/hevc_codec_registration.html#hevc-encode-options",
+        "title": "VideoEncoderEncodeOptionsForHevc",
+        "number": "6.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     }
   ]
 }

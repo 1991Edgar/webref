@@ -7,14 +7,23 @@
     {
       "name": "font-family",
       "href": "https://drafts.csswg.org/css-fonts-4/#propdef-font-family",
-      "value": "[ <family-name> | <generic-family> ]#",
+      "value": "[ <font-family-name> | <generic-font-family> ]#",
       "initial": "depends on user agent",
       "appliesTo": "all elements and text",
       "inherited": "yes",
       "percentages": "n/a",
-      "computedValue": "list, each item a string and/or <generic-family> keywords",
+      "computedValue": "list, each item a string and/or <generic-font-family> keywords",
       "canonicalOrder": "per grammar",
       "animationType": "discrete",
+      "values": [
+        {
+          "name": "math",
+          "prose": "This font family is intended for use with mathematical expressions. Such fonts may include additional data (for example, the OpenType MATH table) to help with the hierarchical process of equation layout. In particular, they may contain stylistic and stretching glyph variants useful in setting mathematical equations.",
+          "href": "https://drafts.csswg.org/css-fonts-4/#valdef-font-family-math",
+          "type": "value",
+          "value": "math"
+        }
+      ],
       "styleDeclaration": [
         "font-family",
         "fontFamily"
@@ -155,14 +164,14 @@
     {
       "name": "font-style",
       "href": "https://drafts.csswg.org/css-fonts-4/#propdef-font-style",
-      "value": "normal | italic | oblique <angle [-90deg,90deg]>?",
+      "value": "normal | italic | left | right | oblique <angle [-90deg,90deg]>?",
       "initial": "normal",
       "appliesTo": "all elements and text",
       "inherited": "yes",
       "percentages": "n/a",
       "computedValue": "the keyword specified, plus angle in degrees if specified",
       "canonicalOrder": "per grammar",
-      "animationType": "by computed value type;normal animates as oblique 0deg",
+      "animationType": "by computed value type; normal animates as oblique 0deg",
       "values": [
         {
           "name": "normal",
@@ -173,10 +182,24 @@
         },
         {
           "name": "italic",
-          "prose": "Matches against a font that is labeled as an italic face, or an oblique face if one does not exist.",
+          "prose": "Matches against a font that is labeled as an italic face, or an oblique face if one does not exist. The angle and direction of slant is unspecified.",
           "href": "https://drafts.csswg.org/css-fonts-4/#valdef-font-style-italic",
           "type": "value",
           "value": "italic"
+        },
+        {
+          "name": "left",
+          "prose": "Matches against a font that is labeled as an italic face, with a positive (clockwise) slant; or an oblique face with positive slant, if one does not exist.",
+          "href": "https://drafts.csswg.org/css-fonts-4/#valdef-font-style-left",
+          "type": "value",
+          "value": "left"
+        },
+        {
+          "name": "right",
+          "prose": "Matches against a font that is labeled as an italic face, with a negative (counter-clockwise) slant; or an oblique face with negative slant, if one does not exist.",
+          "href": "https://drafts.csswg.org/css-fonts-4/#valdef-font-style-right",
+          "type": "value",
+          "value": "right"
         },
         {
           "name": "oblique <angle [-90deg,90deg]>?",
@@ -203,18 +226,6 @@
       "canonicalOrder": "per grammar",
       "animationType": "by computed value type",
       "values": [
-        {
-          "name": "<absolute-size>",
-          "value": "<absolute-size>",
-          "href": "https://drafts.csswg.org/css-fonts-4/#valdef-font-size-absolute-size",
-          "type": "value"
-        },
-        {
-          "name": "<relative-size>",
-          "value": "<relative-size>",
-          "href": "https://drafts.csswg.org/css-fonts-4/#valdef-font-size-relative-size",
-          "type": "value"
-        },
         {
           "name": "<length-percentage [0,∞]>",
           "prose": "A length value specifies an absolute font size (independent of the user agent’s font table). Negative lengths are invalid. A percentage value specifies an absolute font size relative to the parent element’s computed font-size. Negative percentages are invalid.",
@@ -270,7 +281,7 @@
     {
       "name": "font",
       "href": "https://drafts.csswg.org/css-fonts-4/#propdef-font",
-      "value": "[ [ <'font-style'> || <font-variant-css2> || <'font-weight'> || <font-width-css3> ]? <'font-size'> [ / <'line-height'> ]? <'font-family'># ] | <system-family-name>",
+      "value": "[ [ <'font-style'> || <font-variant-css2> || <'font-weight'> || <font-width-css3> ]? <'font-size'> [ / <'line-height'> ]? <'font-family'># ] | <system-font-family-name>",
       "initial": "see individual properties",
       "appliesTo": "all elements and text",
       "inherited": "yes",
@@ -362,7 +373,7 @@
     {
       "name": "font-synthesis-style",
       "href": "https://drafts.csswg.org/css-fonts-4/#propdef-font-synthesis-style",
-      "value": "auto | none",
+      "value": "auto | none | oblique-only",
       "initial": "auto",
       "appliesTo": "all elements and text",
       "inherited": "yes",
@@ -385,6 +396,13 @@
           "href": "https://drafts.csswg.org/css-fonts-4/#valdef-font-synthesis-style-none",
           "type": "value",
           "value": "none"
+        },
+        {
+          "name": "oblique-only",
+          "prose": "Synthesis of oblique faces is allowed, but they must not be used as fallback if italic is specified",
+          "href": "https://drafts.csswg.org/css-fonts-4/#valdef-font-synthesis-style-oblique-only",
+          "type": "value",
+          "value": "oblique-only"
         }
       ],
       "styleDeclaration": [
@@ -789,7 +807,7 @@
     {
       "name": "font-variant-alternates",
       "href": "https://drafts.csswg.org/css-fonts-4/#propdef-font-variant-alternates",
-      "value": "normal | [ stylistic(<feature-value-name>) || historical-forms || styleset(<feature-value-name>#) || character-variant(<feature-value-name>#) || swash(<feature-value-name>) || ornaments(<feature-value-name>) || annotation(<feature-value-name>) ]",
+      "value": "normal | [ stylistic(<font-feature-value-name>) || historical-forms || styleset(<font-feature-value-name>#) || character-variant(<font-feature-value-name>#) || swash(<font-feature-value-name>) || ornaments(<font-feature-value-name>) || annotation(<font-feature-value-name>) ]",
       "initial": "normal",
       "appliesTo": "all elements and text",
       "inherited": "yes",
@@ -945,7 +963,7 @@
     {
       "name": "font-variant",
       "href": "https://drafts.csswg.org/css-fonts-4/#propdef-font-variant",
-      "value": "normal | none | [ [ <common-lig-values> || <discretionary-lig-values> || <historical-lig-values> || <contextual-alt-values> ] || [ small-caps | all-small-caps | petite-caps | all-petite-caps | unicase | titling-caps ] || [ stylistic(<feature-value-name>) || historical-forms || styleset(<feature-value-name>#) || character-variant(<feature-value-name>#) || swash(<feature-value-name>) || ornaments(<feature-value-name>) || annotation(<feature-value-name>) ] || [ <numeric-figure-values> || <numeric-spacing-values> || <numeric-fraction-values> || ordinal || slashed-zero ] || [ <east-asian-variant-values> || <east-asian-width-values> || ruby ] || [ sub | super ] || [ text | emoji | unicode ] ]",
+      "value": "normal | none | [ [ <common-lig-values> || <discretionary-lig-values> || <historical-lig-values> || <contextual-alt-values> ] || [ small-caps | all-small-caps | petite-caps | all-petite-caps | unicase | titling-caps ] || [ stylistic(<font-feature-value-name>) || historical-forms || styleset(<font-feature-value-name>#) || character-variant(<font-feature-value-name>#) || swash(<font-feature-value-name>) || ornaments(<font-feature-value-name>) || annotation(<font-feature-value-name>) ] || [ <numeric-figure-values> || <numeric-spacing-values> || <numeric-fraction-values> || ordinal || slashed-zero ] || [ <east-asian-variant-values> || <east-asian-width-values> || ruby ] || [ sub | super ] || [ text | emoji | unicode ] ]",
       "initial": "normal",
       "appliesTo": "all elements and text",
       "inherited": "yes",
@@ -956,14 +974,14 @@
       "values": [
         {
           "name": "normal",
-          "prose": "The value normal resets all subproperties of font-variant to their initial value. The none value sets font-variant-ligatures to none and resets all other font feature properties to their initial value. Like other shorthands, using font-variant resets unspecified font-variant subproperties to their initial values.",
+          "prose": "The value normal resets all subproperties of font-variant to their initial value. The none value sets font-variant-ligatures to 'font-variant-ligatures/none' and resets all other font feature properties to their initial value. Like other shorthands, using font-variant resets unspecified font-variant subproperties to their initial values.",
           "href": "https://drafts.csswg.org/css-fonts-4/#font-variant-normal-value",
           "type": "value",
           "value": "normal"
         },
         {
           "name": "none",
-          "prose": "The value normal resets all subproperties of font-variant to their initial value. The none value sets font-variant-ligatures to none and resets all other font feature properties to their initial value. Like other shorthands, using font-variant resets unspecified font-variant subproperties to their initial values.",
+          "prose": "The value normal resets all subproperties of font-variant to their initial value. The none value sets font-variant-ligatures to 'font-variant-ligatures/none' and resets all other font feature properties to their initial value. Like other shorthands, using font-variant resets unspecified font-variant subproperties to their initial values.",
           "href": "https://drafts.csswg.org/css-fonts-4/#font-variant-none-value",
           "type": "value",
           "value": "none"
@@ -996,8 +1014,24 @@
         {
           "name": "<feature-tag-value>",
           "href": "https://drafts.csswg.org/css-fonts-4/#feature-tag-value",
-          "type": "value",
-          "value": "<opentype-tag> [ <integer [0,∞]> | on | off ]?"
+          "type": "type",
+          "value": "<opentype-tag> [ <integer [0,∞]> | on | off ]?",
+          "values": [
+            {
+              "name": "on",
+              "prose": "If present, a value indicates an index used for glyph selection. An <integer> value must be 0 or greater. A value of 0 indicates that the feature is disabled. For boolean features, a value of 1 enables the feature. For non-boolean features, a value of 1 or greater enables the feature and indicates the feature selection index. A value of on is synonymous with 1 and off is synonymous with 0. If the value is omitted, a value of 1 is assumed.",
+              "href": "https://drafts.csswg.org/css-fonts-4/#valdef-feature-tag-value-on",
+              "type": "value",
+              "value": "on"
+            },
+            {
+              "name": "off",
+              "prose": "If present, a value indicates an index used for glyph selection. An <integer> value must be 0 or greater. A value of 0 indicates that the feature is disabled. For boolean features, a value of 1 enables the feature. For non-boolean features, a value of 1 or greater enables the feature and indicates the feature selection index. A value of on is synonymous with 1 and off is synonymous with 0. If the value is omitted, a value of 1 is assumed.",
+              "href": "https://drafts.csswg.org/css-fonts-4/#valdef-feature-tag-value-off",
+              "type": "value",
+              "value": "off"
+            }
+          ]
         }
       ],
       "styleDeclaration": [
@@ -1065,7 +1099,7 @@
     {
       "name": "font-variation-settings",
       "href": "https://drafts.csswg.org/css-fonts-4/#propdef-font-variation-settings",
-      "value": "normal | [ <opentype-tag> <number>]#",
+      "value": "normal | [ <opentype-tag> <number> ]#",
       "initial": "normal",
       "appliesTo": "all elements and text",
       "inherited": "yes",
@@ -1116,12 +1150,6 @@
           "prose": "This value identifies an CSS-defined palette to use. Users can define a palette by using the @font-palette-values rule. If no applicable @font-palette-values rule is present, this value behaves as normal. <palette-identifier> is parsed as a <dashed-ident>.",
           "href": "https://drafts.csswg.org/css-fonts-4/#typedef-font-palette-palette-identifier",
           "type": "type"
-        },
-        {
-          "name": "<palette-mix()>",
-          "prose": "This value defines a position in the interpolation between two palette values, identified by <palette-identifier>, by the palette keywords normal, light, dark, or by another <palette-mix()> value. The glyphs of the font must be rendered with a palette that is created by interpolating for each palette color index between the matching color indices of the first and second palette specified as arguments, recursively resolving <palette-mix()> functions if needed. For each palette color, the interpolation follows the rules of the <color-mix()> function. Percentages are normalized according to CSS Color 5 § 3.1 Percentage Normalization.",
-          "href": "https://drafts.csswg.org/css-fonts-4/#typedef-font-palette-palette-mix",
-          "type": "type"
         }
       ],
       "styleDeclaration": [
@@ -1143,28 +1171,28 @@
       "values": [
         {
           "name": "normal",
-          "prose": "User agents can choose to draw a Presentation Participating Code Point in either emoji style or text style. User agents typically follow platform conventions when performing this decision.",
+          "prose": "User agents can choose to draw a Emoji Presentation Participating Code Point in either emoji style or text style. User agents typically follow platform conventions when performing this decision.",
           "href": "https://drafts.csswg.org/css-fonts-4/#valdef-font-variant-emoji-normal",
           "type": "value",
           "value": "normal"
         },
         {
           "name": "text",
-          "prose": "Code points are rendered as if U+FE0E VARIATION SELECTOR-15 was appended to every Presentation Participating Code Point.",
+          "prose": "Code points are rendered as if U+FE0E VARIATION SELECTOR-15 was appended to every Emoji Presentation Participating Code Point.",
           "href": "https://drafts.csswg.org/css-fonts-4/#valdef-font-variant-emoji-text",
           "type": "value",
           "value": "text"
         },
         {
           "name": "emoji",
-          "prose": "Code points are rendered as if U+FE0F VARIATION SELECTOR-16 was appended to every Presentation Participating Code Point.",
+          "prose": "Code points are rendered as if U+FE0F VARIATION SELECTOR-16 was appended to every Emoji Presentation Participating Code Point.",
           "href": "https://drafts.csswg.org/css-fonts-4/#valdef-font-variant-emoji-emoji",
           "type": "value",
           "value": "emoji"
         },
         {
           "name": "unicode",
-          "prose": "Code points are rendered in accordance with [UTS51] as either emoji-default, text-default, or text-only, depending on the values of the Emoji and Emoji_Presentation properties for each Presentation Participating Code Point. If present, FE0E VARIATION SELECTOR-15 and U+FE0F VARIATION SELECTOR-16 will override the default presentation of individual Presentation Participating Code Points.",
+          "prose": "Code points are rendered in accordance with [UTS51] as either emoji-default, text-default, or text-only, depending on the values of the Emoji and Emoji_Presentation properties for each Emoji Presentation Participating Code Point. If present, FE0E VARIATION SELECTOR-15 and U+FE0F VARIATION SELECTOR-16 will override the default presentation of individual Emoji Presentation Participating Code Points.",
           "href": "https://drafts.csswg.org/css-fonts-4/#valdef-font-variant-emoji-unicode",
           "type": "value",
           "value": "unicode"
@@ -1178,6 +1206,7 @@
     {
       "name": "font-stretch",
       "href": "https://drafts.csswg.org/css-fonts-4/#propdef-font-stretch",
+      "legacyAliasOf": "font-width",
       "styleDeclaration": [
         "font-stretch",
         "fontStretch"
@@ -1193,7 +1222,7 @@
           "name": "font-family",
           "href": "https://drafts.csswg.org/css-fonts-4/#descdef-font-face-font-family",
           "for": "@font-face",
-          "value": "<family-name>",
+          "value": "<font-family-name>",
           "initial": "N/A"
         },
         {
@@ -1201,13 +1230,33 @@
           "href": "https://drafts.csswg.org/css-fonts-4/#descdef-font-face-src",
           "for": "@font-face",
           "value": "<font-src-list>",
-          "initial": "N/A"
+          "initial": "N/A",
+          "values": [
+            {
+              "name": "format()",
+              "value": "format()",
+              "href": "https://drafts.csswg.org/css-fonts-4/#format()",
+              "type": "value"
+            },
+            {
+              "name": "tech()",
+              "value": "tech()",
+              "href": "https://drafts.csswg.org/css-fonts-4/#tech()",
+              "type": "value"
+            },
+            {
+              "name": "local()",
+              "value": "local()",
+              "href": "https://drafts.csswg.org/css-fonts-4/#local()",
+              "type": "value"
+            }
+          ]
         },
         {
           "name": "font-style",
           "href": "https://drafts.csswg.org/css-fonts-4/#descdef-font-face-font-style",
           "for": "@font-face",
-          "value": "auto | normal | italic | oblique [ <angle [-90deg,90deg]>{1,2} ]?",
+          "value": "auto | normal | italic | left | right | oblique [ <angle [-90deg,90deg]>{1,2} ]?",
           "initial": "auto"
         },
         {
@@ -1388,7 +1437,15 @@
           "value": "@annotation { <declaration-list> }"
         }
       ],
-      "value": "@font-feature-values <family-name># { <declaration-rule-list> }"
+      "value": "@font-feature-values <font-family-name># { <declaration-rule-list> }",
+      "values": [
+        {
+          "name": "<font-feature-value-type>",
+          "href": "https://drafts.csswg.org/css-fonts-4/#typedef-font-feature-values-font-feature-value-type",
+          "type": "type",
+          "value": "<@stylistic> | <@historical-forms> | <@styleset> | <@character-variant> | <@swash> | <@ornaments> | <@annotation>"
+        }
+      ]
     },
     {
       "name": "@font-palette-values",
@@ -1399,7 +1456,7 @@
           "name": "font-family",
           "href": "https://drafts.csswg.org/css-fonts-4/#descdef-font-palette-values-font-family",
           "for": "@font-palette-values",
-          "value": "<family-name>#",
+          "value": "<font-family-name>#",
           "initial": "N/A"
         },
         {
@@ -1424,10 +1481,11 @@
               "value": "dark"
             },
             {
-              "name": "<integer>",
+              "name": "<integer [0,∞]>",
               "prose": "Identifies a (zero-based) numerical palette index within the font.",
-              "href": "https://drafts.csswg.org/css-fonts-4/#typedef-base-palette-integer",
-              "type": "type"
+              "href": "https://drafts.csswg.org/css-fonts-4/#valdef-base-palette-integer-0",
+              "type": "value",
+              "value": "<integer [0,∞]>"
             }
           ]
         },
@@ -1445,24 +1503,24 @@
   "selectors": [],
   "values": [
     {
-      "name": "<family-name>",
+      "name": "<font-family-name>",
       "prose": "The name of a font family, such as Helvetica or Verdana in the previous example. This might be a locally-instaled font, or might be a web font.",
-      "href": "https://drafts.csswg.org/css-fonts-4/#family-name-value",
+      "href": "https://drafts.csswg.org/css-fonts-4/#font-family-name-value",
       "type": "type",
       "value": "<string> | <custom-ident>+"
     },
     {
-      "name": "<system-family-name>",
+      "name": "<system-font-family-name>",
       "prose": "A locally installed system font, whose use is subject to certain constraints. In particular, it may not be used with the font-family property, but can be used with the font shorthand. The following values refer to system fonts:",
-      "href": "https://drafts.csswg.org/css-fonts-4/#system-family-name-value",
+      "href": "https://drafts.csswg.org/css-fonts-4/#system-font-family-name-value",
       "type": "type",
       "value": "caption | icon | menu | message-box | small-caption | status-bar"
     },
     {
-      "name": "<generic-family>",
-      "href": "https://drafts.csswg.org/css-fonts-4/#typedef-generic-family",
+      "name": "<generic-font-family>",
+      "href": "https://drafts.csswg.org/css-fonts-4/#typedef-generic-font-family",
       "type": "type",
-      "value": "<generic-script-specific>| <generic-complete> | <generic-incomplete>",
+      "value": "<generic-font-script-specific>| <generic-font-complete> | <generic-font-incomplete>",
       "values": [
         {
           "name": "serif",
@@ -1501,17 +1559,10 @@
         },
         {
           "name": "system-ui",
-          "prose": "This generic font family lets text render with the default user interface font (which, as with all § 2.1.5 Generic font families may be a composite font) on the platform on which the UA is running. A cross-platform UA should use different fonts on its different supported platforms. The purpose of system-ui is to allow web content to integrate with the look and feel of the native OS. The precise font used will depend on factors such as Unicode coverage and the content language. As with other generic font families, the substitution of specific installed fonts for system-ui does not affect the computed style. <div id=\"system-text\" style=\"font-family: system-ui\"></div> ... window.getComputedStyle(document.getElementById(\"system-text\")).getPropertyValue(\"font-family\"); The script above should not have any knowledge of how system-ui is expanded to include a collection of system user interface fonts. In particular, the above script should yield a result of \"system-ui\" on every platform.",
+          "prose": "This generic font family lets text render with the default user interface font (which, as with all § 2.1.5 Generic font families, may be a composite font) on the platform on which the UA is running. A cross-platform UA should use different fonts on its different supported platforms. The purpose of system-ui is to allow web content to integrate with the look and feel of the native OS. This is useful for hybrid, web or cross-platform applications. The precise font(s) used will depend on factors such as platform support, platform language, locale settings, user preferences, Unicode coverage and the content language. UA may optionally choose to use the text rendering engine provided by the platform when using system-ui to match the appearance of the default user interface more closely. As with other generic font families, the substitution of specific installed fonts for system-ui does not affect the computed style. <div id=\"system-text\" style=\"font-family: system-ui\"></div> ... window.getComputedStyle(document.getElementById(\"system-text\")).getPropertyValue(\"font-family\"); The script above should not have any knowledge of how system-ui is expanded to include a collection of system user interface fonts. In particular, the above script should yield a result of \"system-ui\" on every platform.",
           "href": "https://drafts.csswg.org/css-fonts-4/#valdef-font-family-system-ui",
           "type": "value",
           "value": "system-ui"
-        },
-        {
-          "name": "math",
-          "prose": "This font family is intended for use with mathematical expressions. Such fonts may include additional data (for example, the OpenType MATH table) to help with the hierarchical process of equation layout. In particular, they may contain stylistic and stretching glyph variants useful in setting mathematical equations.",
-          "href": "https://drafts.csswg.org/css-fonts-4/#valdef-font-family-math",
-          "type": "value",
-          "value": "math"
         },
         {
           "name": "generic()",
@@ -1523,6 +1574,12 @@
           "name": "generic()",
           "value": "generic()",
           "href": "https://drafts.csswg.org/css-fonts-4/#valdef-font-family-generic-kai",
+          "type": "value"
+        },
+        {
+          "name": "generic()",
+          "value": "generic()",
+          "href": "https://drafts.csswg.org/css-fonts-4/#valdef-font-family-generic-khmer-mul",
           "type": "value"
         },
         {
@@ -1562,20 +1619,20 @@
       ]
     },
     {
-      "name": "<generic-script-specific>",
-      "href": "https://drafts.csswg.org/css-fonts-4/#typedef-generic-script-specific",
+      "name": "<generic-font-script-specific>",
+      "href": "https://drafts.csswg.org/css-fonts-4/#typedef-generic-font-script-specific",
       "type": "type",
-      "value": "generic(kai) | generic(fangsong) | generic(nastaliq)"
+      "value": "generic(fangsong) | generic(kai) | generic(khmer-mul) | generic(nastaliq)"
     },
     {
-      "name": "<generic-complete>",
-      "href": "https://drafts.csswg.org/css-fonts-4/#typedef-generic-complete",
+      "name": "<generic-font-complete>",
+      "href": "https://drafts.csswg.org/css-fonts-4/#typedef-generic-font-complete",
       "type": "type",
       "value": "serif | sans-serif | system-ui | cursive | fantasy | math | monospace"
     },
     {
-      "name": "<generic-incomplete>",
-      "href": "https://drafts.csswg.org/css-fonts-4/#typedef-generic-incomplete",
+      "name": "<generic-font-incomplete>",
+      "href": "https://drafts.csswg.org/css-fonts-4/#typedef-generic-font-incomplete",
       "type": "type",
       "value": "ui-serif | ui-sans-serif | ui-monospace | ui-rounded"
     },
@@ -1583,7 +1640,19 @@
       "name": "<font-weight-absolute>",
       "href": "https://drafts.csswg.org/css-fonts-4/#font-weight-absolute-values",
       "type": "type",
-      "value": "[normal | bold | <number [1,1000]>]"
+      "value": "[ normal | bold | <number [1,1000]> ]"
+    },
+    {
+      "name": "<absolute-size>",
+      "value": "[ xx-small | x-small | small | medium | large | x-large | xx-large | xxx-large ]",
+      "href": "https://drafts.csswg.org/css-fonts-4/#typedef-absolute-size",
+      "type": "type"
+    },
+    {
+      "name": "<relative-size>",
+      "value": "[ larger | smaller ]",
+      "href": "https://drafts.csswg.org/css-fonts-4/#typedef-relative-size",
+      "type": "type"
     },
     {
       "name": "<font-variant-css2>",
@@ -1607,31 +1676,114 @@
       "name": "<font-src>",
       "href": "https://drafts.csswg.org/css-fonts-4/#typedef-font-src",
       "type": "type",
-      "value": "<url> [ format(<font-format>)]? [ tech( <font-tech>#)]? | local(<family-name>)"
+      "value": "<url> [ format( <font-format> ) ]? [ tech( <font-tech># ) ]? | local( <font-family-name> )"
     },
     {
       "name": "<font-format>",
       "href": "https://drafts.csswg.org/css-fonts-4/#font-format-values",
       "type": "type",
-      "value": "[<string> | collection | embedded-opentype | opentype | svg | truetype | woff | woff2 ]"
+      "value": "[ <string> | collection | embedded-opentype | opentype | svg | truetype | woff | woff2 ]"
     },
     {
       "name": "<font-tech>",
       "href": "https://drafts.csswg.org/css-fonts-4/#font-tech-values",
       "type": "type",
-      "value": "[<font-features-tech> | <color-font-tech> | variations | palettes | incremental ]"
+      "value": "[ <font-features-tech> | <color-font-tech> | variations | palettes | incremental ]",
+      "values": [
+        {
+          "name": "variations",
+          "prose": "The variations tech refers to the support of font variations, commonly implemented in [OPENTYPE] with the avar, cvar, fvar, gvar, HVAR, MVAR, STAT, and VVAR tables, as well as in [AAT-FEATURES] using the avar, cvar, fvar, gvar tables. The section on § 2 Basic Font Properties as well as the section on § 8 Font Variation Properties describe properties that interact with these facilities.",
+          "href": "https://drafts.csswg.org/css-fonts-4/#valdef-font-tech-variations",
+          "type": "value",
+          "value": "variations"
+        },
+        {
+          "name": "palettes",
+          "prose": "The palettes tech refers to support for font palettes, commonly implemented in the [OPENTYPE] and [AAT-FEATURES] with the CPAL table. The section on § 9 Color Font Support describes properties that interact with these facilities.",
+          "href": "https://drafts.csswg.org/css-fonts-4/#valdef-font-tech-palettes",
+          "type": "value",
+          "value": "palettes"
+        },
+        {
+          "name": "incremental",
+          "prose": "The incremental tech refers to client support for incremental font transfer [IFT].",
+          "href": "https://drafts.csswg.org/css-fonts-4/#valdef-font-tech-incremental",
+          "type": "value",
+          "value": "incremental"
+        }
+      ]
     },
     {
       "name": "<font-features-tech>",
       "href": "https://drafts.csswg.org/css-fonts-4/#font-features-tech-values",
       "type": "type",
-      "value": "[features-opentype | features-aat | features-graphite]"
+      "value": "[ features-opentype | features-aat | features-graphite ]",
+      "values": [
+        {
+          "name": "features-opentype",
+          "prose": "The features-opentype, features-aat and features-graphite techs refer to support for font features, commonly implemented in [OPENTYPE] with the GSUB and the GPOS tables, as well as in [AAT-FEATURES] using the morx and kerx tables and [GRAPHITE] with the Silf, Glat , Gloc , Feat and Sill tables as documented in the Graphite Table Format. The section on § 6 Font Feature Properties describes properties that interact with these facilities.",
+          "href": "https://drafts.csswg.org/css-fonts-4/#valdef-font-features-tech-features-opentype",
+          "type": "value",
+          "value": "features-opentype"
+        },
+        {
+          "name": "features-aat",
+          "prose": "The features-opentype, features-aat and features-graphite techs refer to support for font features, commonly implemented in [OPENTYPE] with the GSUB and the GPOS tables, as well as in [AAT-FEATURES] using the morx and kerx tables and [GRAPHITE] with the Silf, Glat , Gloc , Feat and Sill tables as documented in the Graphite Table Format. The section on § 6 Font Feature Properties describes properties that interact with these facilities.",
+          "href": "https://drafts.csswg.org/css-fonts-4/#valdef-font-features-tech-features-aat",
+          "type": "value",
+          "value": "features-aat"
+        },
+        {
+          "name": "features-graphite",
+          "prose": "The features-opentype, features-aat and features-graphite techs refer to support for font features, commonly implemented in [OPENTYPE] with the GSUB and the GPOS tables, as well as in [AAT-FEATURES] using the morx and kerx tables and [GRAPHITE] with the Silf, Glat , Gloc , Feat and Sill tables as documented in the Graphite Table Format. The section on § 6 Font Feature Properties describes properties that interact with these facilities.",
+          "href": "https://drafts.csswg.org/css-fonts-4/#valdef-font-features-tech-features-graphite",
+          "type": "value",
+          "value": "features-graphite"
+        }
+      ]
     },
     {
       "name": "<color-font-tech>",
       "href": "https://drafts.csswg.org/css-fonts-4/#color-font-tech-values",
       "type": "type",
-      "value": "[color-COLRv0 | color-COLRv1 | color-SVG | color-sbix | color-CBDT ]"
+      "value": "[ color-COLRv0 | color-COLRv1 | color-SVG | color-sbix | color-CBDT ]",
+      "values": [
+        {
+          "name": "color-colrv0",
+          "prose": "The color-colrv0, color-colrv1, color-svg, color-sbix and color-cbdt technologies refers to various types of color font file technologies. Each one represents a table (COLR, SVG, sbix or CBDT) inside [OPENTYPE] or [AAT-FEATURES] fonts which must be supported to satisfy this requirement.",
+          "href": "https://drafts.csswg.org/css-fonts-4/#valdef-color-font-tech-color-colrv0",
+          "type": "value",
+          "value": "color-colrv0"
+        },
+        {
+          "name": "color-colrv1",
+          "prose": "The color-colrv0, color-colrv1, color-svg, color-sbix and color-cbdt technologies refers to various types of color font file technologies. Each one represents a table (COLR, SVG, sbix or CBDT) inside [OPENTYPE] or [AAT-FEATURES] fonts which must be supported to satisfy this requirement.",
+          "href": "https://drafts.csswg.org/css-fonts-4/#valdef-color-font-tech-color-colrv1",
+          "type": "value",
+          "value": "color-colrv1"
+        },
+        {
+          "name": "color-svg",
+          "prose": "The color-colrv0, color-colrv1, color-svg, color-sbix and color-cbdt technologies refers to various types of color font file technologies. Each one represents a table (COLR, SVG, sbix or CBDT) inside [OPENTYPE] or [AAT-FEATURES] fonts which must be supported to satisfy this requirement.",
+          "href": "https://drafts.csswg.org/css-fonts-4/#valdef-color-font-tech-color-svg",
+          "type": "value",
+          "value": "color-svg"
+        },
+        {
+          "name": "color-sbix",
+          "prose": "The color-colrv0, color-colrv1, color-svg, color-sbix and color-cbdt technologies refers to various types of color font file technologies. Each one represents a table (COLR, SVG, sbix or CBDT) inside [OPENTYPE] or [AAT-FEATURES] fonts which must be supported to satisfy this requirement.",
+          "href": "https://drafts.csswg.org/css-fonts-4/#valdef-color-font-tech-color-sbix",
+          "type": "value",
+          "value": "color-sbix"
+        },
+        {
+          "name": "color-cbdt",
+          "prose": "The color-colrv0, color-colrv1, color-svg, color-sbix and color-cbdt technologies refers to various types of color font file technologies. Each one represents a table (COLR, SVG, sbix or CBDT) inside [OPENTYPE] or [AAT-FEATURES] fonts which must be supported to satisfy this requirement.",
+          "href": "https://drafts.csswg.org/css-fonts-4/#valdef-color-font-tech-color-cbdt",
+          "type": "value",
+          "value": "color-cbdt"
+        }
+      ]
     },
     {
       "name": "<common-lig-values>",
@@ -1676,8 +1828,14 @@
       "value": "[ diagonal-fractions | stacked-fractions ]"
     },
     {
-      "name": "<feature-value-name>",
-      "href": "https://drafts.csswg.org/css-fonts-4/#feature-value-name-value",
+      "name": "<font-feature-index>",
+      "href": "https://drafts.csswg.org/css-fonts-4/#font-feature-index-value",
+      "type": "type",
+      "value": "<integer>"
+    },
+    {
+      "name": "<font-feature-value-name>",
+      "href": "https://drafts.csswg.org/css-fonts-4/#font-feature-value-name-value",
       "type": "type",
       "value": "<ident>"
     },
@@ -1704,15 +1862,10 @@
       "prose": "With the palette-mix() function defined as follows:",
       "href": "https://drafts.csswg.org/css-fonts-4/#funcdef-palette-mix",
       "type": "function",
-      "value": "palette-mix(<color-interpolation-method> , [ [normal | light | dark | <palette-identifier> | <palette-mix()> ] && <percentage [0,100]>? ]#{2})"
+      "value": "palette-mix( <color-interpolation-method>? , [ <'font-palette'> && <percentage [0,100]>? ]# )"
     }
   ],
   "warnings": [
-    {
-      "msg": "Missing definition",
-      "name": "font-feature-value-type",
-      "value": "<@stylistic> | <@historical-forms> | <@styleset> | <@character-variant> | <@swash> | <@ornaments> | <@annotation>"
-    },
     {
       "msg": "Dangling value",
       "name": "normal",

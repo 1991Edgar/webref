@@ -6,15 +6,38 @@
   "links": {
     "rawlinks": {
       "http://www.ecma-international.org/ecma-262/6.0/index.html": {},
-      "https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-http2/": {},
+      "https://datatracker.ietf.org/doc/html/draft-ietf-quic-reliable-stream-reset": {},
+      "https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-http2": {
+        "anchors": [
+          "section-9"
+        ]
+      },
+      "https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-http2/": {
+        "anchors": [
+          "section-3.1"
+        ]
+      },
+      "https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-http3": {
+        "anchors": [
+          "section-4.1",
+          "section-4.2",
+          "section-8"
+        ]
+      },
       "https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-http3/": {
         "anchors": [
-          "section-4.6",
+          "section-3.1",
           "section-4.3"
         ]
       },
-      "https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-overview": {},
-      "https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-overview-06": {
+      "https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-overview": {
+        "anchors": [
+          "section-4.1-2.2.1",
+          "section-4.1",
+          "section-6"
+        ]
+      },
+      "https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-overview-11": {
         "anchors": [
           "name-datagrams",
           "section-4.2-6.2.1",
@@ -28,17 +51,24 @@
           "section-4.3",
           "section-4.3-9.2.1",
           "section-4.3-9.4.1",
-          "section-4.3-9.8.1",
-          "section-4.3-9.6.1",
           "section-4.3-5"
         ]
       },
-      "https://datatracker.ietf.org/doc/html/rfc2119": {},
-      "https://datatracker.ietf.org/doc/html/rfc9221": {
+      "https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-overview-11.html": {
         "anchors": [
-          "section-3"
+          "section-4.3-9.8.1",
+          "section-4.3-9.6.1",
+          "section-4.3-11.4.1",
+          "section-4.3-11.2.1"
         ]
       },
+      "https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-overview-11/": {
+        "anchors": [
+          "section-4.1",
+          "section-3.1"
+        ]
+      },
+      "https://datatracker.ietf.org/doc/html/rfc2119": {},
       "https://datatracker.ietf.org/doc/html/rfc9308": {
         "anchors": [
           "section-4.4"
@@ -48,17 +78,25 @@
       "https://encoding.spec.whatwg.org/": {},
       "https://fetch.spec.whatwg.org/": {
         "anchors": [
+          "forbidden-request-header",
           "network-partition-keys"
         ]
       },
       "https://github.com/w3c/webtransport/": {},
       "https://github.com/w3c/webtransport/issues": {},
+      "https://html.spec.whatwg.org/": {
+        "anchors": [
+          "http-structured-header-list"
+        ]
+      },
       "https://html.spec.whatwg.org/multipage/": {},
       "https://html.spec.whatwg.org/multipage/interaction.html": {
         "anchors": [
           "focus"
         ]
       },
+      "https://httpwg.org/specs/rfc8441.html": {},
+      "https://httpwg.org/specs/rfc9220.html": {},
       "https://infra.spec.whatwg.org/": {
         "anchors": [
           "tracking-vector"
@@ -70,7 +108,7 @@
           "writablestream-inflightwriterequest",
           "writablestream-writerequests",
           "rs-transfer",
-          "default-writer-constructor",
+          "writablestreamdefaultwriter-stream",
           "example-manual-write-dont-await"
         ]
       },
@@ -88,67 +126,86 @@
       },
       "https://www.github.com/w3c/webtransport/issues/127": {},
       "https://www.github.com/whatwg/html/issues/6831": {},
-      "https://www.ietf.org/archive/id/draft-ietf-webtrans-overview-06.html": {
+      "https://www.ietf.org/archive/id/draft-ietf-webtrans-overview-11.html": {
         "anchors": [
           "section-4.1-2.4.1"
         ]
       },
-      "https://www.rfc-editor.org/rfc/rfc3279": {},
-      "https://www.rfc-editor.org/rfc/rfc5280": {},
-      "https://www.rfc-editor.org/rfc/rfc7301": {},
-      "https://www.rfc-editor.org/rfc/rfc8174": {},
-      "https://www.rfc-editor.org/rfc/rfc8422": {},
-      "https://www.rfc-editor.org/rfc/rfc8446": {},
-      "https://www.rfc-editor.org/rfc/rfc9000": {
+      "https://www.rfc-editor.org/info/rfc3279/": {},
+      "https://www.rfc-editor.org/info/rfc5280/": {},
+      "https://www.rfc-editor.org/info/rfc7301/": {},
+      "https://www.rfc-editor.org/info/rfc8174/": {},
+      "https://www.rfc-editor.org/info/rfc8441/": {
         "anchors": [
-          "section-19.11"
+          "section-3"
         ]
       },
+      "https://www.rfc-editor.org/info/rfc9000/": {
+        "anchors": [
+          "section-19.11",
+          "section-3.2"
+        ]
+      },
+      "https://www.rfc-editor.org/info/rfc9002/": {},
+      "https://www.rfc-editor.org/info/rfc9221/": {
+        "anchors": [
+          "section-3"
+        ]
+      },
+      "https://www.rfc-editor.org/info/rfc9308/": {},
+      "https://www.rfc-editor.org/info/rfc9525/": {},
+      "https://www.rfc-editor.org/info/rfc9846/": {},
       "https://www.rfc-editor.org/rfc/rfc9002": {
         "anchors": [
           "section-7",
           "section-5.3",
+          "section-5.2",
           "section-6.1"
         ]
       },
-      "https://www.rfc-editor.org/rfc/rfc9221": {},
-      "https://www.rfc-editor.org/rfc/rfc9308": {},
-      "https://www.rfc-editor.org/rfc/rfc9525": {},
+      "https://www.rfc-editor.org/rfc/rfc9220.html": {
+        "anchors": [
+          "section-3"
+        ]
+      },
+      "https://www.rfc-editor.org/rfc/rfc9846": {
+        "anchors": [
+          "section-7.3"
+        ]
+      },
       "https://www.w3.org/2001/tag/doc/unsanctioned-tracking/": {},
       "https://www.w3.org/2004/01/pp-impl/125908/status": {},
-      "https://www.w3.org/2023/Process-20231103/": {
-        "anchors": [
-          "recs-and-notes"
-        ]
-      },
-      "https://www.w3.org/Consortium/Patent-Policy/": {
-        "anchors": [
-          "def-essential",
-          "sec-Disclosure"
-        ]
-      },
       "https://www.w3.org/TR/": {},
       "https://www.w3.org/TR/CSP3/": {},
+      "https://www.w3.org/TR/CSS2/": {},
       "https://www.w3.org/TR/hr-time-3/": {},
-      "https://www.w3.org/TR/privacy-principles/": {
-        "anchors": [
-          "dfn-cross-site-recognition"
-        ]
-      },
       "https://www.w3.org/TR/string-meta/": {
         "anchors": [
           "firststrong"
         ]
       },
-      "https://www.w3.org/TR/webrtc/": {},
       "https://www.w3.org/community/ortc/": {},
-      "https://www.w3.org/groups/wg/webtransport": {}
+      "https://www.w3.org/groups/wg/webtransport": {},
+      "https://www.w3.org/policies/patent-policy/": {
+        "anchors": [
+          "sec-Requirements",
+          "def-essential",
+          "sec-Disclosure"
+        ]
+      },
+      "https://www.w3.org/policies/process/20250818/": {
+        "anchors": [
+          "recs-and-notes",
+          "dfn-wide-review",
+          "allow-new-features"
+        ]
+      }
     },
     "autolinks": {
       "http://www.ecma-international.org/ecma-262/6.0/index.html": {
         "anchors": [
-          "table-49",
-          "sec-promise-objects"
+          "sec-promise-objects",
+          "table-49"
         ]
       },
       "https://dom.spec.whatwg.org/": {
@@ -168,32 +225,43 @@
       "https://fetch.spec.whatwg.org/": {
         "anchors": [
           "concept-connection",
-          "http-origin",
-          "credentials",
+          "headers",
           "concept-request",
           "concept-request-url",
           "concept-request-client",
+          "request-service-workers-mode",
+          "concept-request-referrer",
+          "concept-request-mode",
+          "concept-request-credentials-mode",
+          "concept-request-cache-mode",
           "concept-request-policy-container",
           "concept-request-destination",
           "concept-request-origin",
-          "block-bad-port",
-          "determine-the-network-partition-key",
-          "concept-connection-obtain",
+          "request-webtransport-hash-list",
+          "concept-request-redirect-mode",
+          "concept-request-method",
+          "concept-headers-fill",
+          "concept-headers-header-list",
+          "concept-request-header-list",
+          "concept-headers-guard",
+          "concept-header-name",
+          "concept-headers-append",
+          "concept-header-list-set-structured-header",
           "concept-fetch",
-          "concept-body-stream"
-        ]
-      },
-      "https://heycam.github.io/webidl/": {
-        "anchors": [
-          "dfn-create-exception",
-          "domexception-name",
-          "domexception-message"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/browsers.html": {
-        "anchors": [
-          "concept-origin",
-          "ascii-serialisation-of-an-origin"
+          "fetch-useparallelqueue",
+          "process-response",
+          "network-partition-key",
+          "concept-fetch-record-request",
+          "concept-request-current-url",
+          "concept-connection-obtain",
+          "concept-response",
+          "concept-network-error",
+          "concept-response-header-list",
+          "concept-header-list-delete",
+          "typedefdef-headersinit",
+          "concept-body-stream",
+          "http-origin",
+          "dom-global-fetch"
         ]
       },
       "https://html.spec.whatwg.org/multipage/infrastructure.html": {
@@ -226,16 +294,21 @@
       },
       "https://infra.spec.whatwg.org/": {
         "anchors": [
-          "isomorphic-encode",
           "byte-sequence",
           "implementation-defined",
+          "ordered-set",
           "queue-dequeue",
           "queue-enqueue",
           "iteration-break",
-          "ordered-set",
-          "abort-when",
+          "list-is-empty",
+          "isomorphic-encode",
+          "ascii-lowercase",
           "code-unit-prefix",
           "byte-sequence-length",
+          "list",
+          "map-set",
+          "map-entry",
+          "abort-when",
           "queue",
           "list-iterate",
           "ascii-case-insensitive",
@@ -248,34 +321,38 @@
       },
       "https://streams.spec.whatwg.org/": {
         "anchors": [
-          "readablestream",
           "writablestream",
-          "high-water-mark",
+          "writablestream-set-up",
+          "writablestream-set-up-writealgorithm",
+          "default-writer-ready",
+          "writablestream-error",
+          "readablestream",
+          "enumdef-readablestreamtype",
           "readablestream-current-byob-request-view",
           "readablestream-pull-from-bytes",
           "readablestream-enqueue",
-          "default-writer-ready",
           "readablestream-set-up-with-byte-reading-support",
           "readablestream-set-up-with-byte-reading-support-pullalgorithm",
-          "readablestream-set-up-highwatermark",
-          "writablestream-set-up",
-          "writablestream-set-up-writealgorithm",
+          "readablestream-set-up-with-byte-reading-support-highwatermark",
           "readablestream-set-up",
           "readablestream-set-up-pullalgorithm",
-          "writablestream-error",
+          "readablestream-set-up-highwatermark",
           "readablestream-error",
           "readablestream-close",
           "writablestream-close",
           "readablestream-locked",
-          "ws-get-writer",
-          "writablestreamdefaultwriter",
+          "readable-byte-stream",
+          "readable-stream",
+          "dom-readablestreambyobreaderreadoptions-min",
           "writablestream-set-up-closealgorithm",
           "writablestream-set-up-abortalgorithm",
           "default-writer-write",
-          "readable-byte-stream",
           "byob-reader",
           "default-reader",
           "readablestream-set-up-with-byte-reading-support-cancelalgorithm",
+          "writablestreamdefaultwriter",
+          "writablestreamdefaultwriter-write-a-chunk",
+          "writablestreamdefaultwriter-set-up",
           "ws-abort",
           "ws-close",
           "default-writer-close",
@@ -297,34 +374,40 @@
         "anchors": [
           "Exposed",
           "SecureContext",
-          "idl-unsigned-long",
-          "idl-unrestricted-double",
+          "idl-long-long",
           "new",
           "this",
           "dfn-throw",
-          "exceptiondef-rangeerror",
-          "buffersource-byte-length",
+          "invalidstateerror",
+          "BufferSource",
           "a-promise-rejected-with",
-          "idl-DataView",
           "exceptiondef-typeerror",
           "a-promise-resolved-with",
+          "idl-unsigned-long",
+          "idl-unrestricted-double",
+          "exceptiondef-rangeerror",
+          "buffersource-byte-length",
+          "idl-DataView",
           "idl-Uint8Array",
-          "BufferSource",
           "idl-USVString",
           "idl-promise",
+          "NewObject",
           "idl-undefined",
           "EnforceRange",
           "idl-unsigned-short",
+          "SameObject",
+          "idl-DOMString",
           "idl-boolean",
           "syntaxerror",
           "notsupportederror",
+          "dfn-create-exception",
           "upon-fulfillment",
-          "invalidstateerror",
           "aborterror",
+          "dfn-dictionary-member",
           "quotaexceedederror",
-          "idl-DOMString",
+          "quotaexceedederror-requested",
+          "quotaexceedederror-quota",
           "idl-sequence",
-          "idl-long-long",
           "idl-unsigned-long-long",
           "buffersource-underlying-buffer",
           "idl-ArrayBuffer",
@@ -333,19 +416,34 @@
           "dfn-perform-steps-once-promise-is-settled",
           "idl-DOMException",
           "Clamp",
+          "domexception-name",
+          "domexception-message",
           "dom-domexception-code"
+        ]
+      },
+      "https://websockets.spec.whatwg.org/": {
+        "anchors": [
+          "websocket"
+        ]
+      },
+      "https://www.w3.org/TR/2025/STMT-privacy-principles-20250515/": {
+        "anchors": [
+          "dfn-cross-site-recognition"
         ]
       },
       "https://www.w3.org/TR/CSP3/": {
         "anchors": [
-          "report-for-request",
-          "should-block-request",
           "webrtc"
+        ]
+      },
+      "https://www.w3.org/TR/CSS2/conform.html": {
+        "anchors": [
+          "x0"
         ]
       },
       "https://www.w3.org/TR/hr-time-3/": {
         "anchors": [
-          "dom-domhighrestimestamp"
+          "typedefdef-domhighrestimestamp"
         ]
       }
     }

@@ -1,20 +1,38 @@
 {
   "spec": {
-    "title": "Soft Navigations",
+    "title": "Soft Navigations and Interaction Contentful Paint",
     "url": "https://wicg.github.io/soft-navigations/"
   },
   "links": {
     "rawlinks": {
       "http://www.w3.org/community/": {},
       "https://dom.spec.whatwg.org/": {},
-      "https://fetch.spec.whatwg.org/": {},
-      "https://github.com/kyraseevers/Partitioning-visited-links-history": {},
+      "https://drafts.csswg.org/css-display-4/": {},
+      "https://explainers-by-googlers.github.io/user-dictionary-leaks/": {},
+      "https://github.com/WICG/container-timing": {},
+      "https://github.com/explainers-by-googlers/Partitioning-visited-links-history": {},
+      "https://github.com/tc39/proposal-async-context": {},
+      "https://github.com/w3c/paint-timing/issues/126": {},
+      "https://github.com/w3c/performance-timeline/issues/182": {
+        "anchors": [
+          "issuecomment-4460611895"
+        ]
+      },
       "https://html.spec.whatwg.org/multipage/": {},
+      "https://html.spec.whatwg.org/multipage/nav-history-apis.html": {
+        "anchors": [
+          "shared-history-push/replace-steps"
+        ]
+      },
       "https://infra.spec.whatwg.org/": {},
+      "https://w3c.github.io/event-timing/": {},
       "https://w3c.github.io/hr-time/": {},
       "https://w3c.github.io/largest-contentful-paint/": {},
+      "https://w3c.github.io/navigation-timing/": {},
+      "https://w3c.github.io/paint-timing/": {},
       "https://w3c.github.io/performance-timeline/": {},
       "https://webidl.spec.whatwg.org/": {},
+      "https://www.w3.org/TR/navigation-timing/": {},
       "https://www.w3.org/community/about/agreements/cla/": {},
       "https://www.w3.org/community/wicg/": {}
     },
@@ -22,122 +40,135 @@
       "https://dom.spec.whatwg.org/": {
         "anchors": [
           "concept-document",
-          "eventtarget",
-          "concept-node-equals",
+          "concept-event",
+          "document",
           "concept-element",
-          "concept-event-dispatch",
-          "dom-event-istrusted",
-          "boundary-point-node",
+          "concept-node",
+          "concept-node-document",
+          "text",
+          "concept-tree-child",
+          "concept-document-url",
           "concept-node-insert",
-          "concept-node-document"
+          "concept-event-dispatch",
+          "element"
         ]
       },
-      "https://fetch.spec.whatwg.org/": {
+      "https://drafts.csswg.org/css-display-4/": {
         "anchors": [
-          "header-list-contains"
+          "containing-block"
         ]
       },
-      "https://html.spec.whatwg.org/C": {
+      "https://html.spec.whatwg.org/multipage/browsing-the-web.html": {
         "anchors": [
-          "top-level-traversable",
           "update-document-for-history-step-application",
-          "she-url",
-          "prepare-the-script-element",
-          "execute-the-script-element",
-          "timer-initialisation-steps",
-          "hostmakejobcallback",
-          "hostcalljobcallback",
-          "message-port-post-message-steps",
-          "tn-append-session-history-traversal-steps",
-          "tn-append-session-history-sync-nav-steps",
-          "apply-the-history-step",
-          "navigate-fragid"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/document-sequences.html": {
-        "anchors": [
-          "traversable-navigable"
+          "she-url"
         ]
       },
       "https://html.spec.whatwg.org/multipage/nav-history-apis.html": {
         "anchors": [
-          "concept-document-window"
+          "window",
+          "navigationtype",
+          "concept-document-window",
+          "dom-navigationtype-traverse",
+          "dom-navigationtype-push",
+          "dom-navigationtype-replace"
         ]
       },
       "https://html.spec.whatwg.org/multipage/webappapis.html": {
         "anchors": [
-          "concept-relevant-global",
           "global-object",
-          "concept-global-object-realm",
-          "concept-task",
-          "relevant-agent",
-          "concept-agent-event-loop",
-          "event-loop",
-          "concept-script",
-          "queue-a-task",
-          "clean-up-after-running-a-callback"
+          "concept-relevant-global",
+          "concept-global-object-realm"
         ]
       },
       "https://infra.spec.whatwg.org/": {
         "anchors": [
-          "string",
-          "ordered-set",
-          "ordered-map",
+          "64-bit-unsigned-integer",
           "struct",
           "struct-item",
+          "assert",
           "map-exists",
-          "set-append",
           "map-set",
-          "implementation-defined",
-          "stack-peek",
-          "stack"
+          "ordered-set",
+          "ordered-map",
+          "list-iterate",
+          "set-append",
+          "map-iterate",
+          "map-with-default",
+          "map-remove",
+          "string"
+        ]
+      },
+      "https://pr-preview.s3.amazonaws.com/mmocny/event-timing/pull/165.html": {
+        "anchors": [
+          "has-dispatched-input-event",
+          "performanceeventtiming-associated-event",
+          "dfn-interaction",
+          "window-interaction-count",
+          "window-initial-interactionid-value",
+          "window-interactionid-increment",
+          "initialize-and-record-event-timing-processing-start",
+          "record-event-timing-processing-end"
         ]
       },
       "https://w3c.github.io/event-timing/": {
         "anchors": [
-          "has-dispatched-input-event"
+          "dom-performanceeventtiming-interactionid",
+          "performanceeventtiming"
         ]
       },
       "https://w3c.github.io/hr-time/": {
         "anchors": [
-          "dom-domhighrestimestamp",
-          "dfn-current-high-resolution-time",
-          "dfn-duration"
+          "dfn-current-high-resolution-time"
         ]
       },
       "https://w3c.github.io/largest-contentful-paint/": {
         "anchors": [
-          "has-dispatched-scroll-event",
-          "potentially-add-a-largestcontentfulpaint-entry"
+          "largest-contentful-paint-candidate",
+          "largestcontentfulpaint",
+          "dom-largestcontentfulpaint-rendertime",
+          "create-a-largestcontentfulpaint-entry",
+          "compute-a-new-largest-contentful-paint-candidate",
+          "report-largest-contentful-paint"
+        ]
+      },
+      "https://w3c.github.io/navigation-timing/": {
+        "anchors": [
+          "performancenavigationtiming"
+        ]
+      },
+      "https://w3c.github.io/paint-timing/": {
+        "anchors": [
+          "paint-timing-mixin",
+          "paint-timing-info",
+          "default-paint-timestamp",
+          "pending-image-record",
+          "pending-image-record-element",
+          "exposed-for-paint-timing",
+          "timing-eligible",
+          "dom-painttimingmixin-presentationtime",
+          "mark-paint-timing"
         ]
       },
       "https://w3c.github.io/performance-timeline/": {
         "anchors": [
-          "dom-performanceentry",
+          "performanceentry",
+          "dfn-queue-a-performanceentry",
+          "dom-performanceentry-starttime",
           "dom-performanceentry-name",
           "dom-performanceentry-entrytype",
-          "dom-performanceentry-starttime",
           "dom-performanceentry-duration",
-          "dfn-queue-a-performanceentry",
-          "dfn-performance-entry-buffer"
+          "performance-entry-buffer"
         ]
       },
       "https://webidl.spec.whatwg.org/": {
         "anchors": [
           "Exposed",
-          "dfn-callback-function",
-          "invoke-a-callback-function",
-          "call-a-user-objects-operation"
-        ]
-      },
-      "https://www.w3.org/TR/css-view-transitions-1/": {
-        "anchors": [
-          "dom-document-startviewtransition"
-        ]
-      },
-      "https://www.w3.org/TR/paint-timing/": {
-        "anchors": [
-          "previously-reported-paints"
+          "idl-unsigned-long-long",
+          "this",
+          "Default",
+          "idl-object",
+          "default-tojson-steps"
         ]
       }
     }

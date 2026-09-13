@@ -1,15 +1,15 @@
 {
   "spec": {
     "title": "Verifiable Credential Data Integrity 1.0",
-    "url": "https://w3c.github.io/vc-data-integrity/"
+    "url": "https://www.w3.org/TR/vc-data-integrity/"
   },
   "links": {
     "rawlinks": {
       "https://datatracker.ietf.org/doc/draft-ietf-oauth-selective-disclosure-jwt/": {},
-      "https://datatracker.ietf.org/doc/html/bcp14": {},
       "https://datatracker.ietf.org/doc/html/draft-ietf-ohai-ohttp": {},
       "https://en.wikipedia.org/wiki/Binary-to-text_encoding": {},
       "https://en.wikipedia.org/wiki/Canonicalization": {},
+      "https://en.wikipedia.org/wiki/Commercial_National_Security_Algorithm_Suite": {},
       "https://en.wikipedia.org/wiki/Cryptographic_hash_function": {
         "anchors": [
           "SHA-3",
@@ -21,19 +21,23 @@
       "https://en.wikipedia.org/wiki/Group_signature": {},
       "https://en.wikipedia.org/wiki/Proof_of_knowledge": {},
       "https://en.wikipedia.org/wiki/Proof_of_stake": {},
+      "https://github.com/Anthony": {},
+      "https://github.com/Bob420": {},
+      "https://github.com/nightpool": {},
+      "https://github.com/silverpill": {},
+      "https://github.com/w3c/vc-data-integrity/issues/": {},
       "https://infra.spec.whatwg.org/": {
         "anchors": [
           "parse-json-bytes-to-a-javascript-value",
           "nulls"
         ]
       },
-      "https://media.defense.gov/2022/Sep/07/2003071834/-1/-1/0/CSA_CNSA_2.0_ALGORITHMS_.PDF": {},
+      "https://lists.w3.org/Archives/Public/public-vc-comments/": {},
       "https://mimesniff.spec.whatwg.org/": {},
       "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf": {},
       "https://url.spec.whatwg.org/": {},
-      "https://w3c-ccg.github.io/did-method-key/": {},
+      "https://w3c-ccg.github.io/did-key-spec/": {},
       "https://w3c-ccg.github.io/zcap-spec/": {},
-      "https://w3c.github.io/vc-data-integrity/implementations/": {},
       "https://w3c.github.io/vc-extensions/": {
         "anchors": [
           "securing-mechanisms"
@@ -41,6 +45,7 @@
       },
       "https://w3id.org/security": {},
       "https://www.ecma-international.org/publications-and-standards/standards/ecma-6/": {},
+      "https://www.rfc-editor.org/info/bcp14": {},
       "https://www.rfc-editor.org/rfc/rfc2119": {},
       "https://www.rfc-editor.org/rfc/rfc5280": {},
       "https://www.rfc-editor.org/rfc/rfc7517": {},
@@ -59,13 +64,14 @@
       "https://www.w3.org/TR/": {},
       "https://www.w3.org/TR/2022/WD-vc-data-integrity-20221110/": {},
       "https://www.w3.org/TR/2023/CR-vc-data-integrity-20231121/": {},
+      "https://www.w3.org/TR/2024/CR-vc-data-integrity-20241219/": {},
       "https://www.w3.org/TR/VC-DATA-MODEL-2.0": {
         "anchors": [
           "PARSING_ERROR"
         ]
       },
       "https://www.w3.org/TR/WebCryptoAPI/": {},
-      "https://www.w3.org/TR/controller-document/": {
+      "https://www.w3.org/TR/cid-1.0/": {
         "anchors": [
           "multibase-0",
           "multibase",
@@ -140,8 +146,7 @@
       },
       "https://www.w3.org/policies/process/20231103/": {
         "anchors": [
-          "recs-and-notes",
-          "dfn-wide-review"
+          "recs-and-notes"
         ]
       }
     },

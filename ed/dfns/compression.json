@@ -21,7 +21,8 @@
         "title": "Infrastructure",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "enumdef-compressionformat",
@@ -40,7 +41,30 @@
         "title": "Interface CompressionStream",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-compressionformat-brotli",
+      "href": "https://compression.spec.whatwg.org/#dom-compressionformat-brotli",
+      "linkingText": [
+        "\"brotli\""
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "CompressionFormat"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "compression-stream",
+        "href": "https://compression.spec.whatwg.org/#compression-stream",
+        "title": "Interface CompressionStream",
+        "number": "4"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-compressionformat-deflate",
@@ -61,7 +85,8 @@
         "title": "Interface CompressionStream",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-compressionformat-deflate-raw",
@@ -82,7 +107,8 @@
         "title": "Interface CompressionStream",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-compressionformat-gzip",
@@ -103,7 +129,8 @@
         "title": "Interface CompressionStream",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "compressionstream",
@@ -122,7 +149,8 @@
         "title": "Interface CompressionStream",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-compressionstream-compressionstream-format-format",
@@ -144,7 +172,8 @@
         "title": "Interface CompressionStream",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "compressionstream-format",
@@ -165,7 +194,8 @@
         "title": "Interface CompressionStream",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "compressionstream-context",
@@ -186,7 +216,8 @@
         "title": "Interface CompressionStream",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-compressionstream-compressionstream",
@@ -208,7 +239,8 @@
         "title": "Interface CompressionStream",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "compress-and-enqueue-a-chunk",
@@ -227,7 +259,8 @@
         "title": "Interface CompressionStream",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "compress-flush-and-enqueue",
@@ -246,7 +279,8 @@
         "title": "Interface CompressionStream",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "decompressionstream",
@@ -265,7 +299,8 @@
         "title": "Interface DecompressionStream",
         "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-decompressionstream-decompressionstream-format-format",
@@ -287,7 +322,8 @@
         "title": "Interface DecompressionStream",
         "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "decompressionstream-format",
@@ -308,7 +344,8 @@
         "title": "Interface DecompressionStream",
         "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "decompressionstream-context",
@@ -329,7 +366,8 @@
         "title": "Interface DecompressionStream",
         "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-decompressionstream-decompressionstream",
@@ -351,7 +389,8 @@
         "title": "Interface DecompressionStream",
         "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "decompress-and-enqueue-a-chunk",
@@ -370,7 +409,8 @@
         "title": "Interface DecompressionStream",
         "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "decompress-flush-and-enqueue",
@@ -389,7 +429,8 @@
         "title": "Interface DecompressionStream",
         "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

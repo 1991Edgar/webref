@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Functions and Mixins Module",
+    "title": "CSS Custom Functions and Mixins Module Level 1",
     "url": "https://drafts.csswg.org/css-mixins-1/"
   },
   "headings": [
@@ -8,7 +8,7 @@
       "id": "title",
       "href": "https://drafts.csswg.org/css-mixins-1/#title",
       "level": 1,
-      "title": "CSS Functions and Mixins Module"
+      "title": "CSS Custom Functions and Mixins Module Level 1"
     },
     {
       "id": "abstract",
@@ -26,7 +26,10 @@
       "id": "toc",
       "href": "https://drafts.csswg.org/css-mixins-1/#toc",
       "level": 2,
-      "title": "Table of Contents"
+      "title": "Table of Contents",
+      "alternateIds": [
+        "contents"
+      ]
     },
     {
       "id": "intro",
@@ -50,11 +53,32 @@
       "number": "2.1"
     },
     {
+      "id": "function-prelude",
+      "href": "https://drafts.csswg.org/css-mixins-1/#function-prelude",
+      "level": 4,
+      "title": "The Function Prelude",
+      "number": "2.1.1"
+    },
+    {
+      "id": "function-body",
+      "href": "https://drafts.csswg.org/css-mixins-1/#function-body",
+      "level": 4,
+      "title": "The Function Body",
+      "number": "2.1.2"
+    },
+    {
       "id": "the-result-descriptor",
       "href": "https://drafts.csswg.org/css-mixins-1/#the-result-descriptor",
       "level": 3,
       "title": "The result Descriptor",
       "number": "2.2"
+    },
+    {
+      "id": "args",
+      "href": "https://drafts.csswg.org/css-mixins-1/#args",
+      "level": 3,
+      "title": "Arguments & Local Variables",
+      "number": "2.3"
     },
     {
       "id": "using-custom-functions",
@@ -71,20 +95,6 @@
       "number": "3.1"
     },
     {
-      "id": "parameters",
-      "href": "https://drafts.csswg.org/css-mixins-1/#parameters",
-      "level": 3,
-      "title": "Parameters and Locals",
-      "number": "3.2"
-    },
-    {
-      "id": "cycles",
-      "href": "https://drafts.csswg.org/css-mixins-1/#cycles",
-      "level": 3,
-      "title": "Cycles",
-      "number": "3.3"
-    },
-    {
       "id": "execution-model",
       "href": "https://drafts.csswg.org/css-mixins-1/#execution-model",
       "level": 2,
@@ -99,11 +109,143 @@
       "number": "4.1"
     },
     {
+      "id": "defining-mixins",
+      "href": "https://drafts.csswg.org/css-mixins-1/#defining-mixins",
+      "level": 2,
+      "title": "Defining Mixins",
+      "number": "5"
+    },
+    {
+      "id": "mixin-rule",
+      "href": "https://drafts.csswg.org/css-mixins-1/#mixin-rule",
+      "level": 3,
+      "title": "The @mixin rule",
+      "number": "5.1"
+    },
+    {
+      "id": "mixin-prelude",
+      "href": "https://drafts.csswg.org/css-mixins-1/#mixin-prelude",
+      "level": 4,
+      "title": "The Mixin Prelude",
+      "number": "5.1.1"
+    },
+    {
+      "id": "mixin-body",
+      "href": "https://drafts.csswg.org/css-mixins-1/#mixin-body",
+      "level": 4,
+      "title": "The Mixin Body",
+      "number": "5.1.2"
+    },
+    {
+      "id": "mixin-args",
+      "href": "https://drafts.csswg.org/css-mixins-1/#mixin-args",
+      "level": 3,
+      "title": "Arguments and Local Variables",
+      "number": "5.2"
+    },
+    {
+      "id": "contents-rule",
+      "href": "https://drafts.csswg.org/css-mixins-1/#contents-rule",
+      "level": 3,
+      "title": "The @contents Rule",
+      "number": "5.3"
+    },
+    {
+      "id": "apply-rule",
+      "href": "https://drafts.csswg.org/css-mixins-1/#apply-rule",
+      "level": 3,
+      "title": "The @apply Rule",
+      "number": "5.4"
+    },
+    {
+      "id": "evaluating-mixins",
+      "href": "https://drafts.csswg.org/css-mixins-1/#evaluating-mixins",
+      "level": 3,
+      "title": "Evaluating Mixins",
+      "number": "5.5"
+    },
+    {
+      "id": "private",
+      "href": "https://drafts.csswg.org/css-mixins-1/#private",
+      "level": 2,
+      "title": "Private Custom Properties: the @private rule",
+      "number": "6"
+    },
+    {
       "id": "cssom",
       "href": "https://drafts.csswg.org/css-mixins-1/#cssom",
       "level": 2,
       "title": "CSSOM",
-      "number": "5"
+      "number": "7"
+    },
+    {
+      "id": "the-function-interface",
+      "href": "https://drafts.csswg.org/css-mixins-1/#the-function-interface",
+      "level": 3,
+      "title": "The CSSFunctionRule Interface",
+      "number": "7.1"
+    },
+    {
+      "id": "the-function-declarations-interface",
+      "href": "https://drafts.csswg.org/css-mixins-1/#the-function-declarations-interface",
+      "level": 3,
+      "title": "The CSSFunctionDeclarations Interface",
+      "number": "7.2"
+    },
+    {
+      "id": "the-mixin-interface",
+      "href": "https://drafts.csswg.org/css-mixins-1/#the-mixin-interface",
+      "level": 3,
+      "title": "The CSSMixinRule Interface",
+      "number": "7.3"
+    },
+    {
+      "id": "the-apply-block-interface",
+      "href": "https://drafts.csswg.org/css-mixins-1/#the-apply-block-interface",
+      "level": 3,
+      "title": "The CSSApplyBlockRule Interface",
+      "number": "7.4"
+    },
+    {
+      "id": "the-apply-statement-interface",
+      "href": "https://drafts.csswg.org/css-mixins-1/#the-apply-statement-interface",
+      "level": 3,
+      "title": "The CSSApplyStatementRule Interface",
+      "number": "7.5"
+    },
+    {
+      "id": "the-contents-block-interface",
+      "href": "https://drafts.csswg.org/css-mixins-1/#the-contents-block-interface",
+      "level": 3,
+      "title": "The CSSContentsBlockRule Interface",
+      "number": "7.6"
+    },
+    {
+      "id": "the-contents-statement-interface",
+      "href": "https://drafts.csswg.org/css-mixins-1/#the-contents-statement-interface",
+      "level": 3,
+      "title": "The CSSContentsStatementRule Interface",
+      "number": "7.7"
+    },
+    {
+      "id": "privacy",
+      "href": "https://drafts.csswg.org/css-mixins-1/#privacy",
+      "level": 2,
+      "title": "Privacy Considerations",
+      "number": "8"
+    },
+    {
+      "id": "security",
+      "href": "https://drafts.csswg.org/css-mixins-1/#security",
+      "level": 2,
+      "title": "Security Considerations",
+      "number": "9"
+    },
+    {
+      "id": "changes",
+      "href": "https://drafts.csswg.org/css-mixins-1/#changes",
+      "level": 2,
+      "title": "10. Changes"
     },
     {
       "id": "w3c-conformance",
@@ -170,6 +312,12 @@
       "href": "https://drafts.csswg.org/css-mixins-1/#normative",
       "level": 3,
       "title": "Normative References"
+    },
+    {
+      "id": "informative",
+      "href": "https://drafts.csswg.org/css-mixins-1/#informative",
+      "level": 3,
+      "title": "Non-Normative References"
     },
     {
       "id": "property-index",

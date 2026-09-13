@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "Temporal proposal",
+    "title": "Temporal",
     "url": "https://tc39.es/proposal-temporal/"
   },
   "links": {
@@ -12,19 +12,15 @@
           "naming"
         ]
       },
-      "https://datatracker.ietf.org/doc/html/draft-ietf-sedate-datetime-extended": {
+      "https://datatracker.ietf.org/doc/html/rfc9557": {
         "anchors": [
-          "section-3.1",
+          "name-abnf",
           "section-3.1-4"
         ]
       },
       "https://ecma-international.org/memento/codeofconduct.htm": {},
       "https://github.com/tc39/ecma402/commit/537afda7be28a443b79b3fd7e6c836a16ce4f75f": {},
-      "https://tc39.es/ecma-402/": {
-        "anchors": [
-          "sec-time-zone-names"
-        ]
-      },
+      "https://github.com/tc39/proposal-temporal": {},
       "https://tc39.es/ecma262/": {
         "anchors": [
           "sec-global-object",
@@ -45,9 +41,9 @@
           "%E2%84%A4",
           "sec-ecmascript-language-types",
           "sec-completion-record-specification-type",
-          "sec-object-type",
           "sec-properties-of-the-function-prototype-object",
           "sec-requireinternalslot",
+          "sec-getoptionsobject",
           "sec-get-o-p",
           "sec-list-and-record-specification-type",
           "assert",
@@ -71,6 +67,11 @@
           "sec-msfromtime",
           "mathematical-value",
           "sec-tobigint",
+          "interval",
+          "sec-parsetext",
+          "sec-stringtocodepoints",
+          "sec-syntactic-grammar",
+          "prod-MinuteSecond",
           "eqn-truncate",
           "safe-integer",
           "eqn-HoursPerDay",
@@ -88,18 +89,17 @@
           "sec-time-zone-identifier-record",
           "surrounding-agent",
           "implementation-defined",
-          "interval",
-          "sec-parsetext",
-          "sec-stringtocodepoints",
-          "sec-syntactic-grammar",
           "sec-algorithm-conventions-syntax-directed-operations",
           "sec-codepointstostring",
           "lexicographic-code-unit-order",
-          "list-concatenation",
-          "property-name",
-          "sec-tostring",
           "substring",
           "sec-stringtonumber",
+          "prod-NonZeroDigit",
+          "prod-DecimalDigit",
+          "property-key",
+          "property-name",
+          "list-concatenation",
+          "sec-tostring",
           "sec-makeday",
           "sec-makedate",
           "integral-number",
@@ -107,19 +107,19 @@
           "sec-weekday",
           "sec-ecmascript-language-types-number-type",
           "sec-expanded-years",
-          "prod-DecimalDigit",
           "prod-ASCIISign",
-          "prod-NonZeroDigit",
-          "prod-MinuteSecond",
           "prod-Hour",
           "prod-TimeSeparator",
           "prod-TemporalDecimalFraction",
           "prod-DecimalDigits",
           "sec-ecmascript-language-types-string-type",
           "ASCII-word-characters",
+          "sec-object-type",
+          "sec-well-known-intrinsic-objects",
           "eqn-min",
           "eqn-max",
           "sec-abstract-operations",
+          "sec-type-conversion",
           "sec-toboolean",
           "sec-maketime",
           "sec-timeclip",
@@ -132,9 +132,6 @@
           "sec-properties-of-the-date-constructor",
           "sec-date.now",
           "sec-properties-of-the-date-prototype-object",
-          "agent",
-          "sec-availablenamedtimezoneidentifiers",
-          "sec-createarrayfromlist",
           "sec-call",
           "sec-construct",
           "sec-arraycreate"
@@ -142,13 +139,10 @@
       },
       "https://tc39.es/ecma402/": {
         "anchors": [
+          "ecma262",
           "sup-availablenamedtimezoneidentifiers",
           "sec-canonicalizeuvalue",
           "sec-case-sensitivity-and-case-mapping",
-          "sec-availablecanonicalcollations",
-          "sec-availablecanonicalcurrencies",
-          "sec-availablecanonicalnumberingsystems",
-          "sec-availablecanonicalunits",
           "sec-abstract-operations",
           "sec-intl-datetimeformat-constructor",
           "sec-canonicalizelocalelist",
@@ -168,20 +162,26 @@
           "sec-intl-numberformat-constructor",
           "sec-partitionpattern",
           "sec-formatnumber",
+          "sec-implementation-dependencies",
           "table-datetimeformat-range-pattern-record",
           "datetimeformat-tolocaltime-record",
           "table-datetimeformat-tolocaltime-record",
           "sec-properties-of-intl-datetimeformat-prototype-object",
-          "legacy-constructor",
-          "sec-unwrapdatetimeformat",
-          "table-datetimeformat-resolvedoptions-properties",
           "sec-properties-of-intl-datetimeformat-instances",
           "sec-intl.datetimeformat.prototype.format",
-          "locale-sensitive-functions"
+          "sec-intl-durationformat-abstracts",
+          "table-partition-duration-format-pattern",
+          "sec-formatnumerichours",
+          "sec-formatnumericminutes",
+          "sec-formatnumericseconds",
+          "sec-nextunitfractional",
+          "sec-partitionnumberpattern",
+          "sec-listformatparts",
+          "sec-properties-of-intl-durationformat-prototype-object",
+          "locale-sensitive-functions",
+          "sec-intl-durationformat-constructor"
         ]
       },
-      "https://tc39.es/proposal-intl-duration-format/": {},
-      "https://tc39.es/proposal-intl-era-monthcode/": {},
       "https://tools.ietf.org/html/bcp47": {
         "anchors": [
           "section-2.1"
@@ -205,7 +205,6 @@
         ]
       },
       "https://www.iana.org/time-zones/": {},
-      "https://www.iso.org/glossary-for-iso-3166.html": {},
       "https://www.rfc-editor.org/rfc/rfc3339": {
         "anchors": [
           "appendix-A"

@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Round Display Level 1",
+    "title": "CSS Round Display Module Level 1",
     "url": "https://drafts.csswg.org/css-round-display-1/"
   },
   "links": {
@@ -8,6 +8,7 @@
       "http://lists.w3.org/Archives/Public/public-css-testsuite": {},
       "http://www.w3.org/Style/CSS/Test/": {},
       "http://www.w3.org/TR/2016/WD-css-round-display-1-20160301/": {},
+      "http://www.w3.org/TR/2016/WD-css-round-display-1-20161222/": {},
       "http://www.w3.org/TR/CSS/": {
         "anchors": [
           "future-proofing",
@@ -33,12 +34,18 @@
       "https://drafts.csswg.org/css-images-3/": {},
       "https://drafts.csswg.org/css-position-3/": {},
       "https://drafts.csswg.org/css-shapes-2/": {},
+      "https://drafts.csswg.org/css-shapes/": {},
       "https://drafts.csswg.org/css-values-3/": {},
       "https://drafts.csswg.org/css-values-4/": {},
+      "https://drafts.csswg.org/css-viewport/": {
+        "anchors": [
+          "viewport-meta"
+        ]
+      },
       "https://drafts.csswg.org/css2/": {},
       "https://drafts.csswg.org/mediaqueries-4/": {},
       "https://drafts.csswg.org/mediaqueries-5/": {},
-      "https://drafts.fxtf.org/motion-1/": {},
+      "https://drafts.csswg.org/motion-1/": {},
       "https://github.com/w3c/csswg-drafts/issues": {},
       "https://github.com/w3c/csswg-drafts/issues/214": {},
       "https://lists.w3.org/Archives/Public/public-css-archive/": {},
@@ -90,7 +97,7 @@
           "animation-type"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://drafts.csswg.org/css-conditional-3/": {
@@ -103,11 +110,21 @@
           "typedef-image"
         ]
       },
+      "https://drafts.csswg.org/css-shapes-1/": {
+        "anchors": [
+          "typedef-basic-shape"
+        ]
+      },
       "https://drafts.csswg.org/css-values-4/": {
         "anchors": [
           "css-wide-keywords",
           "comb-one",
           "comb-any"
+        ]
+      },
+      "https://drafts.csswg.org/css2/": {
+        "anchors": [
+          "value-def-uri"
         ]
       },
       "https://drafts.csswg.org/mediaqueries-5/": {
@@ -116,7 +133,7 @@
           "valdef-custom-media-false"
         ]
       },
-      "https://drafts.fxtf.org/motion-1/": {
+      "https://drafts.csswg.org/motion-1/": {
         "anchors": [
           "propdef-offset-path",
           "propdef-offset-distance",

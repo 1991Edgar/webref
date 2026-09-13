@@ -5,13 +5,17 @@
   },
   "links": {
     "rawlinks": {
+      "http://www.w3.org/TR/CSS2/selector.html": {
+        "anchors": [
+          "dynamic-pseudo-classes"
+        ]
+      },
       "http://www.w3.org/community/touchevents/": {},
       "https://compat.spec.whatwg.org/": {
         "anchors": [
           "touch-action"
         ]
       },
-      "https://datatracker.ietf.org/doc/html/bcp14": {},
       "https://developer.mozilla.org/en-US/docs/Web/API/Document/lostpointercapture_event": {},
       "https://developer.mozilla.org/en-US/docs/Web/API/Element": {},
       "https://developer.mozilla.org/en-US/docs/Web/API/Element/gotpointercapture_event": {},
@@ -43,14 +47,26 @@
       "https://developer.mozilla.org/en-US/docs/Web/API/PointerEvent/twist": {},
       "https://developer.mozilla.org/en-US/docs/Web/API/PointerEvent/width": {},
       "https://developer.mozilla.org/en-US/docs/Web/CSS/touch-action": {},
-      "https://dom.spec.whatwg.org/": {},
+      "https://dom.spec.whatwg.org/": {
+        "anchors": [
+          "eventtarget-activation-behavior",
+          "observing-event-listeners"
+        ]
+      },
       "https://github.com/w3c/pointerevents/commits": {},
+      "https://github.com/w3c/pointerevents/issues/100": {},
+      "https://github.com/w3c/pointerevents/issues/285": {},
       "https://github.com/w3c/pointerevents/pull/495": {},
       "https://html.spec.whatwg.org/multipage/": {
         "anchors": [
-          "drag-and-drop-processing-model"
+          "drag-and-drop-processing-model",
+          "inert",
+          "concept-fe-disabled",
+          "focusable-area",
+          "click-focusable"
         ]
       },
+      "https://infra.spec.whatwg.org/": {},
       "https://tc39.es/ecma262/multipage/": {
         "anchors": [
           "sec-math.round",
@@ -59,32 +75,47 @@
       },
       "https://w3c.github.io/touch-events/": {},
       "https://webidl.spec.whatwg.org/": {},
-      "https://www.rfc-editor.org/rfc/rfc2119": {},
-      "https://www.rfc-editor.org/rfc/rfc8174": {},
+      "https://www.rfc-editor.org/info/bcp14": {},
+      "https://www.rfc-editor.org/info/rfc2119/": {},
+      "https://www.rfc-editor.org/info/rfc8174/": {},
       "https://www.w3.org/TR/": {},
-      "https://www.w3.org/TR/CSS21/": {},
-      "https://www.w3.org/TR/WCAG/": {
+      "https://www.w3.org/TR/2024/WD-uievents-20240907/": {
+        "anchors": [
+          "acknowledgements-contributors"
+        ]
+      },
+      "https://www.w3.org/TR/CSS2/": {},
+      "https://www.w3.org/TR/WCAG22/": {
         "anchors": [
           "keyboard-accessible"
         ]
       },
-      "https://www.w3.org/TR/WCAG22/": {},
       "https://www.w3.org/TR/css-overflow-3/": {},
+      "https://www.w3.org/TR/css-position-3/": {},
       "https://www.w3.org/TR/cssom-view-1/": {},
-      "https://www.w3.org/TR/pointerevents/": {},
+      "https://www.w3.org/TR/html401/": {},
       "https://www.w3.org/TR/pointerevents3/": {},
-      "https://www.w3.org/TR/pointerlock/": {},
+      "https://www.w3.org/TR/pointerevents4/": {},
+      "https://www.w3.org/TR/pointerlock-2/": {},
       "https://www.w3.org/TR/touch-events/": {
         "anchors": [
           "mouse-events"
         ]
       },
+      "https://www.w3.org/TR/uievents-key/": {
+        "anchors": [
+          "keys-modifier"
+        ]
+      },
       "https://www.w3.org/TR/uievents/": {
         "anchors": [
-          "events-mouseevent-event-order",
-          "event-type-click",
-          "event-type-auxclick",
-          "event-type-contextmenu"
+          "keys-modifiers",
+          "legacy-event-initializers"
+        ]
+      },
+      "https://www.w3.org/TR/webdriver-bidi/": {
+        "anchors": [
+          "webdriver-bidi-emulated-max-touch-points"
         ]
       },
       "https://www.w3.org/groups/wg/pointer-events": {},
@@ -95,7 +126,7 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://dom.spec.whatwg.org/": {
@@ -106,18 +137,53 @@
           "element",
           "connected",
           "dom-eventinit-composed",
+          "concept-event-create",
+          "dom-event-target",
+          "concept-event-dispatch",
+          "event",
+          "event-target",
           "dom-event-cancelable",
           "dom-event-istrusted",
           "dom-event-timestamp",
           "dom-event-bubbles",
-          "dom-event-target",
           "callbackdef-eventlistener",
-          "dom-addeventlisteneroptions-passive"
+          "dom-addeventlisteneroptions-passive",
+          "canceled-flag",
+          "eventtarget",
+          "concept-tree-ancestor",
+          "dom-event-type",
+          "concept-tree-inclusive-ancestor",
+          "dom-event-composed",
+          "document-element",
+          "concept-event-listener",
+          "concept-document",
+          "dom-event-initevent"
         ]
       },
       "https://html.spec.whatwg.org/multipage/document-sequences.html": {
         "anchors": [
           "top-level-browsing-context"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/dom.html": {
+        "anchors": [
+          "the-body-element-2"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/indices.html": {
+        "anchors": [
+          "event-focus",
+          "event-blur"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/interaction.html": {
+        "anchors": [
+          "focusing-steps"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/nav-history-apis.html": {
+        "anchors": [
+          "window"
         ]
       },
       "https://html.spec.whatwg.org/multipage/system-state.html": {
@@ -135,6 +201,11 @@
           "event-handler-idl-attributes"
         ]
       },
+      "https://infra.spec.whatwg.org/": {
+        "anchors": [
+          "user-agent"
+        ]
+      },
       "https://webidl.spec.whatwg.org/": {
         "anchors": [
           "idl-long",
@@ -149,7 +220,16 @@
           "dfn-throw",
           "notfounderror",
           "idl-DOMException",
-          "invalidstateerror"
+          "invalidstateerror",
+          "idl-short",
+          "idl-unsigned-short",
+          "idl-unsigned-long"
+        ]
+      },
+      "https://www.w3.org/TR/CSS2/visuren.html": {
+        "anchors": [
+          "x43",
+          "x1"
         ]
       },
       "https://www.w3.org/TR/css-overflow-3/": {
@@ -157,17 +237,43 @@
           "scroll-container"
         ]
       },
-      "https://www.w3.org/TR/pointerlock/": {
+      "https://www.w3.org/TR/css-position-3/": {
+        "anchors": [
+          "positioned-box",
+          "paint-a-stacking-context"
+        ]
+      },
+      "https://www.w3.org/TR/cssom-view-1/": {
+        "anchors": [
+          "dom-document-elementfrompoint",
+          "dom-document-elementsfrompoint"
+        ]
+      },
+      "https://www.w3.org/TR/pointerlock-2/": {
         "anchors": [
           "dom-documentorshadowroot-pointerlockelement"
         ]
       },
       "https://www.w3.org/TR/uievents/": {
         "anchors": [
-          "dictdef-mouseeventinit",
-          "mouseevent",
           "dom-uievent-detail",
-          "dom-mouseeventinit-relatedtarget"
+          "dictdef-eventmodifierinit",
+          "uievent",
+          "un-initialized-value",
+          "keyboardevent",
+          "dom-keyboardevent-ctrlkey",
+          "dom-keyboardevent-shiftkey",
+          "dom-keyboardevent-altkey",
+          "dom-keyboardevent-metakey",
+          "default-action",
+          "focusout",
+          "dom-keyboardevent-getmodifierstate",
+          "initialize-a-uievent",
+          "initialize-pointerlock-attributes-for-mouseevent",
+          "key-modifier-state",
+          "set-pointerlock-attributes-for-mousemove",
+          "host-language",
+          "dom-uievent-view"
         ]
       }
     }

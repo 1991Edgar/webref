@@ -21,7 +21,8 @@
         "title": "WebUSB Platform Capability Descriptor",
         "number": "4.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "landing-page",
@@ -35,11 +36,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "webusb-platform-capability-descriptor",
+        "href": "https://wicg.github.io/webusb/#webusb-platform-capability-descriptor",
+        "title": "WebUSB Platform Capability Descriptor",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "get-url",
@@ -58,7 +61,8 @@
         "title": "Get URL",
         "number": "4.2.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "url-descriptor",
@@ -77,7 +81,8 @@
         "title": "URL Descriptor",
         "number": "4.3.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dictdef-usbdevicefilter",
@@ -96,7 +101,8 @@
         "title": "Device Enumeration",
         "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbdevicefilter-vendorid",
@@ -112,11 +118,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "enumeration",
+        "href": "https://wicg.github.io/webusb/#enumeration",
+        "title": "Device Enumeration",
+        "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbdevicefilter-productid",
@@ -132,11 +140,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "enumeration",
+        "href": "https://wicg.github.io/webusb/#enumeration",
+        "title": "Device Enumeration",
+        "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbdevicefilter-classcode",
@@ -152,11 +162,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "enumeration",
+        "href": "https://wicg.github.io/webusb/#enumeration",
+        "title": "Device Enumeration",
+        "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbdevicefilter-subclasscode",
@@ -172,11 +184,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "enumeration",
+        "href": "https://wicg.github.io/webusb/#enumeration",
+        "title": "Device Enumeration",
+        "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbdevicefilter-protocolcode",
@@ -192,11 +206,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "enumeration",
+        "href": "https://wicg.github.io/webusb/#enumeration",
+        "title": "Device Enumeration",
+        "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbdevicefilter-serialnumber",
@@ -212,11 +228,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "enumeration",
+        "href": "https://wicg.github.io/webusb/#enumeration",
+        "title": "Device Enumeration",
+        "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-usbdevicerequestoptions",
@@ -230,11 +248,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "enumeration",
+        "href": "https://wicg.github.io/webusb/#enumeration",
+        "title": "Device Enumeration",
+        "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbdevicerequestoptions-filters",
@@ -250,11 +270,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "enumeration",
+        "href": "https://wicg.github.io/webusb/#enumeration",
+        "title": "Device Enumeration",
+        "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbdevicerequestoptions-exclusionfilters",
@@ -270,11 +292,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "enumeration",
+        "href": "https://wicg.github.io/webusb/#enumeration",
+        "title": "Device Enumeration",
+        "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "usb",
@@ -288,11 +312,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "enumeration",
+        "href": "https://wicg.github.io/webusb/#enumeration",
+        "title": "Device Enumeration",
+        "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usb-onconnect",
@@ -308,11 +334,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "enumeration",
+        "href": "https://wicg.github.io/webusb/#enumeration",
+        "title": "Device Enumeration",
+        "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usb-ondisconnect",
@@ -328,51 +356,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "enumeration",
+        "href": "https://wicg.github.io/webusb/#enumeration",
+        "title": "Device Enumeration",
+        "number": "5"
       },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-usb-getdevices",
-      "href": "https://wicg.github.io/webusb/#dom-usb-getdevices",
-      "linkingText": [
-        "getDevices()"
-      ],
-      "localLinkingText": [],
-      "type": "method",
-      "for": [
-        "USB"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
-      },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dom-usb-requestdevice",
-      "href": "https://wicg.github.io/webusb/#dom-usb-requestdevice",
-      "linkingText": [
-        "requestDevice(options)"
-      ],
-      "localLinkingText": [],
-      "type": "method",
-      "for": [
-        "USB"
-      ],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
-      },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usb-requestdevice-options-options",
@@ -388,11 +378,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "enumeration",
+        "href": "https://wicg.github.io/webusb/#enumeration",
+        "title": "Device Enumeration",
+        "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-navigator-usb",
@@ -408,11 +400,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "enumeration",
+        "href": "https://wicg.github.io/webusb/#enumeration",
+        "title": "Device Enumeration",
+        "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-workernavigator-usb",
@@ -428,11 +422,33 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "enumeration",
+        "href": "https://wicg.github.io/webusb/#enumeration",
+        "title": "Device Enumeration",
+        "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "usb-task-source",
+      "href": "https://wicg.github.io/webusb/#usb-task-source",
+      "linkingText": [
+        "USB task source"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "enumeration",
+        "href": "https://wicg.github.io/webusb/#enumeration",
+        "title": "Device Enumeration",
+        "number": "5"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "match-a-device-filter",
@@ -446,11 +462,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "enumeration",
+        "href": "https://wicg.github.io/webusb/#enumeration",
+        "title": "Device Enumeration",
+        "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "matches-the-interface-filter",
@@ -464,11 +482,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "enumeration",
+        "href": "https://wicg.github.io/webusb/#enumeration",
+        "title": "Device Enumeration",
+        "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "is-not-a-valid-filter",
@@ -482,11 +502,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "enumeration",
+        "href": "https://wicg.github.io/webusb/#enumeration",
+        "title": "Device Enumeration",
+        "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "enumerate-all-devices-attached-to-the-system",
@@ -500,11 +522,57 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "enumeration",
+        "href": "https://wicg.github.io/webusb/#enumeration",
+        "title": "Device Enumeration",
+        "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-usb-getdevices",
+      "href": "https://wicg.github.io/webusb/#dom-usb-getdevices",
+      "linkingText": [
+        "getDevices()"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "USB"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "enumeration",
+        "href": "https://wicg.github.io/webusb/#enumeration",
+        "title": "Device Enumeration",
+        "number": "5"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-usb-requestdevice",
+      "href": "https://wicg.github.io/webusb/#dom-usb-requestdevice",
+      "linkingText": [
+        "requestDevice(options)"
+      ],
+      "localLinkingText": [],
+      "type": "method",
+      "for": [
+        "USB"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "enumeration",
+        "href": "https://wicg.github.io/webusb/#enumeration",
+        "title": "Device Enumeration",
+        "number": "5"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "request-the-usb-permission",
@@ -518,11 +586,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "enumeration",
+        "href": "https://wicg.github.io/webusb/#enumeration",
+        "title": "Device Enumeration",
+        "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "add-device-to-storage",
@@ -536,11 +606,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "enumeration",
+        "href": "https://wicg.github.io/webusb/#enumeration",
+        "title": "Device Enumeration",
+        "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "check-permissions-for-device",
@@ -554,11 +626,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "enumeration",
+        "href": "https://wicg.github.io/webusb/#enumeration",
+        "title": "Device Enumeration",
+        "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "remove-device-from-storage",
@@ -572,11 +646,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "enumeration",
+        "href": "https://wicg.github.io/webusb/#enumeration",
+        "title": "Device Enumeration",
+        "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dictdef-usbconnectioneventinit",
@@ -595,7 +671,8 @@
         "title": "Events",
         "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbconnectioneventinit-device",
@@ -611,11 +688,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "events",
+        "href": "https://wicg.github.io/webusb/#events",
+        "title": "Events",
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "usbconnectionevent",
@@ -629,11 +708,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "events",
+        "href": "https://wicg.github.io/webusb/#events",
+        "title": "Events",
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbconnectionevent-usbconnectionevent",
@@ -650,11 +731,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "events",
+        "href": "https://wicg.github.io/webusb/#events",
+        "title": "Events",
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbconnectionevent-usbconnectionevent-type-eventinitdict-type",
@@ -671,11 +754,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "events",
+        "href": "https://wicg.github.io/webusb/#events",
+        "title": "Events",
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbconnectionevent-usbconnectionevent-type-eventinitdict-eventinitdict",
@@ -692,11 +777,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "events",
+        "href": "https://wicg.github.io/webusb/#events",
+        "title": "Events",
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbconnectionevent-device",
@@ -712,11 +799,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "events",
+        "href": "https://wicg.github.io/webusb/#events",
+        "title": "Events",
+        "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "connect",
@@ -730,11 +819,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "events",
+        "href": "https://wicg.github.io/webusb/#events",
+        "title": "Events",
+        "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "disconnect",
@@ -748,11 +839,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "events",
+        "href": "https://wicg.github.io/webusb/#events",
+        "title": "Events",
+        "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "enumdef-usbtransferstatus",
@@ -771,7 +864,8 @@
         "title": "The USBDevice Interface",
         "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbtransferstatus-ok",
@@ -787,11 +881,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbtransferstatus-stall",
@@ -807,11 +903,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbtransferstatus-babble",
@@ -827,11 +925,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "usbintransferresult",
@@ -845,11 +945,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbintransferresult-usbintransferresult",
@@ -868,11 +970,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbintransferresult-usbintransferresult-status-data-status",
@@ -891,11 +995,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbintransferresult-usbintransferresult-status-data-data",
@@ -914,11 +1020,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbintransferresult-data",
@@ -934,11 +1042,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbintransferresult-status",
@@ -954,11 +1064,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "usbouttransferresult",
@@ -972,11 +1084,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbouttransferresult-usbouttransferresult",
@@ -995,11 +1109,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbouttransferresult-usbouttransferresult-status-byteswritten-status",
@@ -1018,11 +1134,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbouttransferresult-usbouttransferresult-status-byteswritten-byteswritten",
@@ -1041,11 +1159,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbouttransferresult-byteswritten",
@@ -1061,11 +1181,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbouttransferresult-status",
@@ -1081,11 +1203,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "usbisochronousintransferpacket",
@@ -1099,11 +1223,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbisochronousintransferpacket-usbisochronousintransferpacket",
@@ -1122,11 +1248,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbisochronousintransferpacket-usbisochronousintransferpacket-status-data-status",
@@ -1145,11 +1273,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbisochronousintransferpacket-usbisochronousintransferpacket-status-data-data",
@@ -1168,11 +1298,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbisochronousintransferpacket-data",
@@ -1188,11 +1320,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbisochronousintransferpacket-status",
@@ -1208,11 +1342,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "usbisochronousintransferresult",
@@ -1226,11 +1362,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbisochronousintransferresult-usbisochronousintransferresult",
@@ -1249,11 +1387,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbisochronousintransferresult-usbisochronousintransferresult-packets-data-packets",
@@ -1272,11 +1412,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbisochronousintransferresult-usbisochronousintransferresult-packets-data-data",
@@ -1295,11 +1437,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbisochronousintransferresult-data",
@@ -1315,11 +1459,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbisochronousintransferresult-packets",
@@ -1335,11 +1481,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "usbisochronousouttransferpacket",
@@ -1353,11 +1501,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbisochronousouttransferpacket-usbisochronousouttransferpacket",
@@ -1376,11 +1526,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbisochronousouttransferpacket-usbisochronousouttransferpacket-status-byteswritten-status",
@@ -1399,11 +1551,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbisochronousouttransferpacket-usbisochronousouttransferpacket-status-byteswritten-byteswritten",
@@ -1422,11 +1576,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbisochronousouttransferpacket-byteswritten",
@@ -1442,11 +1598,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbisochronousouttransferpacket-status",
@@ -1462,11 +1620,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "usbisochronousouttransferresult",
@@ -1480,11 +1640,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbisochronousouttransferresult-usbisochronousouttransferresult",
@@ -1501,11 +1663,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbisochronousouttransferresult-usbisochronousouttransferresult-packets-packets",
@@ -1522,11 +1686,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbisochronousouttransferresult-packets",
@@ -1542,11 +1708,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "usbdevice",
@@ -1560,11 +1728,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbdevice-selectconfiguration-configurationvalue-configurationvalue",
@@ -1580,11 +1750,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbdevice-claiminterface-interfacenumber-interfacenumber",
@@ -1600,11 +1772,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbdevice-releaseinterface-interfacenumber-interfacenumber",
@@ -1620,11 +1794,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbdevice-selectalternateinterface-interfacenumber-alternatesetting-interfacenumber",
@@ -1640,11 +1816,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbdevice-selectalternateinterface-interfacenumber-alternatesetting-alternatesetting",
@@ -1660,11 +1838,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbdevice-controltransferin-setup-length-setup",
@@ -1680,11 +1860,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbdevice-controltransferin-setup-length-length",
@@ -1700,11 +1882,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbdevice-controltransferout-setup-data-setup",
@@ -1721,11 +1905,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbdevice-controltransferout-setup-data-data",
@@ -1742,11 +1928,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbdevice-clearhalt-direction-endpointnumber-direction",
@@ -1762,11 +1950,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbdevice-clearhalt-direction-endpointnumber-endpointnumber",
@@ -1782,11 +1972,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbdevice-transferin-endpointnumber-length-endpointnumber",
@@ -1802,11 +1994,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbdevice-transferin-endpointnumber-length-length",
@@ -1822,11 +2016,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbdevice-transferout-endpointnumber-data-endpointnumber",
@@ -1842,11 +2038,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbdevice-transferout-endpointnumber-data-data",
@@ -1862,11 +2060,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbdevice-isochronoustransferin-endpointnumber-packetlengths-endpointnumber",
@@ -1882,11 +2082,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbdevice-isochronoustransferin-endpointnumber-packetlengths-packetlengths",
@@ -1902,11 +2104,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbdevice-isochronoustransferout-endpointnumber-data-packetlengths-endpointnumber",
@@ -1922,11 +2126,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbdevice-isochronoustransferout-endpointnumber-data-packetlengths-data",
@@ -1942,11 +2148,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbdevice-isochronoustransferout-endpointnumber-data-packetlengths-packetlengths",
@@ -1962,11 +2170,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbdevice-configurations-slot",
@@ -1982,11 +2192,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-usbdevice-configurationvalue-slot",
@@ -2002,11 +2214,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-usbdevice-selectedalternatesetting-slot",
@@ -2022,11 +2236,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-usbdevice-claimedinterface-slot",
@@ -2042,11 +2258,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "find-the-device-descriptor-for-the-connected-usb-device",
@@ -2060,11 +2278,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "find-a-list-of-configuration-descriptors-for-the-connected-usb-device",
@@ -2078,11 +2298,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "abort-transfers-currently-scheduled-on-an-interface",
@@ -2096,11 +2318,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "find-the-interface-index",
@@ -2114,11 +2338,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "find-the-alternate-index",
@@ -2132,11 +2358,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "find-the-current-configuration",
@@ -2150,11 +2378,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "find-the-endpoint",
@@ -2168,11 +2398,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "check-if-the-device-is-configured",
@@ -2186,11 +2418,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-interface",
+        "href": "https://wicg.github.io/webusb/#usbdevice-interface",
+        "title": "The USBDevice Interface",
+        "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-usbdevice-usbversionmajor",
@@ -2211,7 +2445,8 @@
         "title": "Attributes",
         "number": "6.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-usbdevice-usbversionminor",
@@ -2227,11 +2462,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-attributes",
+        "href": "https://wicg.github.io/webusb/#usbdevice-attributes",
+        "title": "Attributes",
+        "number": "6.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-usbdevice-usbversionsubminor",
@@ -2247,11 +2484,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-attributes",
+        "href": "https://wicg.github.io/webusb/#usbdevice-attributes",
+        "title": "Attributes",
+        "number": "6.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-usbdevice-deviceclass",
@@ -2267,11 +2506,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-attributes",
+        "href": "https://wicg.github.io/webusb/#usbdevice-attributes",
+        "title": "Attributes",
+        "number": "6.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-usbdevice-devicesubclass",
@@ -2287,11 +2528,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-attributes",
+        "href": "https://wicg.github.io/webusb/#usbdevice-attributes",
+        "title": "Attributes",
+        "number": "6.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-usbdevice-deviceprotocol",
@@ -2307,11 +2550,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-attributes",
+        "href": "https://wicg.github.io/webusb/#usbdevice-attributes",
+        "title": "Attributes",
+        "number": "6.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-usbdevice-vendorid",
@@ -2327,11 +2572,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-attributes",
+        "href": "https://wicg.github.io/webusb/#usbdevice-attributes",
+        "title": "Attributes",
+        "number": "6.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-usbdevice-productid",
@@ -2347,11 +2594,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-attributes",
+        "href": "https://wicg.github.io/webusb/#usbdevice-attributes",
+        "title": "Attributes",
+        "number": "6.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-usbdevice-deviceversionmajor",
@@ -2367,11 +2616,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-attributes",
+        "href": "https://wicg.github.io/webusb/#usbdevice-attributes",
+        "title": "Attributes",
+        "number": "6.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-usbdevice-deviceversionminor",
@@ -2387,11 +2638,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-attributes",
+        "href": "https://wicg.github.io/webusb/#usbdevice-attributes",
+        "title": "Attributes",
+        "number": "6.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-usbdevice-deviceversionsubminor",
@@ -2407,11 +2660,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-attributes",
+        "href": "https://wicg.github.io/webusb/#usbdevice-attributes",
+        "title": "Attributes",
+        "number": "6.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-usbdevice-manufacturername",
@@ -2427,11 +2682,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-attributes",
+        "href": "https://wicg.github.io/webusb/#usbdevice-attributes",
+        "title": "Attributes",
+        "number": "6.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-usbdevice-productname",
@@ -2447,11 +2704,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-attributes",
+        "href": "https://wicg.github.io/webusb/#usbdevice-attributes",
+        "title": "Attributes",
+        "number": "6.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-usbdevice-serialnumber",
@@ -2467,11 +2726,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-attributes",
+        "href": "https://wicg.github.io/webusb/#usbdevice-attributes",
+        "title": "Attributes",
+        "number": "6.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-usbdevice-configuration",
@@ -2487,11 +2748,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-attributes",
+        "href": "https://wicg.github.io/webusb/#usbdevice-attributes",
+        "title": "Attributes",
+        "number": "6.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-usbdevice-configurations",
@@ -2507,11 +2770,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-attributes",
+        "href": "https://wicg.github.io/webusb/#usbdevice-attributes",
+        "title": "Attributes",
+        "number": "6.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-usbdevice-opened",
@@ -2527,11 +2792,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-attributes",
+        "href": "https://wicg.github.io/webusb/#usbdevice-attributes",
+        "title": "Attributes",
+        "number": "6.1.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-usbdevice-open",
@@ -2552,7 +2819,8 @@
         "title": "Methods",
         "number": "6.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-usbdevice-close",
@@ -2568,11 +2836,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-methods",
+        "href": "https://wicg.github.io/webusb/#usbdevice-methods",
+        "title": "Methods",
+        "number": "6.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-usbdevice-forget",
@@ -2588,11 +2858,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-methods",
+        "href": "https://wicg.github.io/webusb/#usbdevice-methods",
+        "title": "Methods",
+        "number": "6.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-usbdevice-selectconfiguration",
@@ -2608,11 +2880,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-methods",
+        "href": "https://wicg.github.io/webusb/#usbdevice-methods",
+        "title": "Methods",
+        "number": "6.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-usbdevice-claiminterface",
@@ -2628,11 +2902,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-methods",
+        "href": "https://wicg.github.io/webusb/#usbdevice-methods",
+        "title": "Methods",
+        "number": "6.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-usbdevice-releaseinterface",
@@ -2648,11 +2924,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-methods",
+        "href": "https://wicg.github.io/webusb/#usbdevice-methods",
+        "title": "Methods",
+        "number": "6.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-usbdevice-selectalternateinterface",
@@ -2668,11 +2946,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-methods",
+        "href": "https://wicg.github.io/webusb/#usbdevice-methods",
+        "title": "Methods",
+        "number": "6.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-usbdevice-controltransferin",
@@ -2688,11 +2968,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-methods",
+        "href": "https://wicg.github.io/webusb/#usbdevice-methods",
+        "title": "Methods",
+        "number": "6.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-usbdevice-controltransferout",
@@ -2709,11 +2991,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-methods",
+        "href": "https://wicg.github.io/webusb/#usbdevice-methods",
+        "title": "Methods",
+        "number": "6.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-usbdevice-clearhalt",
@@ -2729,11 +3013,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-methods",
+        "href": "https://wicg.github.io/webusb/#usbdevice-methods",
+        "title": "Methods",
+        "number": "6.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-usbdevice-transferin",
@@ -2749,11 +3035,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-methods",
+        "href": "https://wicg.github.io/webusb/#usbdevice-methods",
+        "title": "Methods",
+        "number": "6.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-usbdevice-transferout",
@@ -2769,11 +3057,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-methods",
+        "href": "https://wicg.github.io/webusb/#usbdevice-methods",
+        "title": "Methods",
+        "number": "6.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-usbdevice-isochronoustransferin",
@@ -2789,11 +3079,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-methods",
+        "href": "https://wicg.github.io/webusb/#usbdevice-methods",
+        "title": "Methods",
+        "number": "6.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-usbdevice-isochronoustransferout",
@@ -2809,11 +3101,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-methods",
+        "href": "https://wicg.github.io/webusb/#usbdevice-methods",
+        "title": "Methods",
+        "number": "6.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-usbdevice-reset",
@@ -2829,11 +3123,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbdevice-methods",
+        "href": "https://wicg.github.io/webusb/#usbdevice-methods",
+        "title": "Methods",
+        "number": "6.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "enumdef-usbrequesttype",
@@ -2852,7 +3148,8 @@
         "title": "The USBControlTransferParameters Dictionary",
         "number": "6.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbrequesttype-standard",
@@ -2868,11 +3165,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbtransfers-dictionary",
+        "href": "https://wicg.github.io/webusb/#usbtransfers-dictionary",
+        "title": "The USBControlTransferParameters Dictionary",
+        "number": "6.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbrequesttype-class",
@@ -2888,11 +3187,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbtransfers-dictionary",
+        "href": "https://wicg.github.io/webusb/#usbtransfers-dictionary",
+        "title": "The USBControlTransferParameters Dictionary",
+        "number": "6.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbrequesttype-vendor",
@@ -2908,11 +3209,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbtransfers-dictionary",
+        "href": "https://wicg.github.io/webusb/#usbtransfers-dictionary",
+        "title": "The USBControlTransferParameters Dictionary",
+        "number": "6.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "enumdef-usbrecipient",
@@ -2926,11 +3229,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbtransfers-dictionary",
+        "href": "https://wicg.github.io/webusb/#usbtransfers-dictionary",
+        "title": "The USBControlTransferParameters Dictionary",
+        "number": "6.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbrecipient-device",
@@ -2946,11 +3251,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbtransfers-dictionary",
+        "href": "https://wicg.github.io/webusb/#usbtransfers-dictionary",
+        "title": "The USBControlTransferParameters Dictionary",
+        "number": "6.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbrecipient-interface",
@@ -2966,11 +3273,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbtransfers-dictionary",
+        "href": "https://wicg.github.io/webusb/#usbtransfers-dictionary",
+        "title": "The USBControlTransferParameters Dictionary",
+        "number": "6.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbrecipient-endpoint",
@@ -2986,11 +3295,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbtransfers-dictionary",
+        "href": "https://wicg.github.io/webusb/#usbtransfers-dictionary",
+        "title": "The USBControlTransferParameters Dictionary",
+        "number": "6.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbrecipient-other",
@@ -3006,11 +3317,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbtransfers-dictionary",
+        "href": "https://wicg.github.io/webusb/#usbtransfers-dictionary",
+        "title": "The USBControlTransferParameters Dictionary",
+        "number": "6.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-usbcontroltransferparameters",
@@ -3024,11 +3337,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbtransfers-dictionary",
+        "href": "https://wicg.github.io/webusb/#usbtransfers-dictionary",
+        "title": "The USBControlTransferParameters Dictionary",
+        "number": "6.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbcontroltransferparameters-index",
@@ -3044,11 +3359,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbtransfers-dictionary",
+        "href": "https://wicg.github.io/webusb/#usbtransfers-dictionary",
+        "title": "The USBControlTransferParameters Dictionary",
+        "number": "6.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "check-the-validity-of-the-control-transfer-parameters",
@@ -3062,11 +3379,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbtransfers-dictionary",
+        "href": "https://wicg.github.io/webusb/#usbtransfers-dictionary",
+        "title": "The USBControlTransferParameters Dictionary",
+        "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-usbcontroltransferparameters-requesttype",
@@ -3087,7 +3406,8 @@
         "title": "Members",
         "number": "6.2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-usbcontroltransferparameters-recipient",
@@ -3103,11 +3423,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbtransfers-members",
+        "href": "https://wicg.github.io/webusb/#usbtransfers-members",
+        "title": "Members",
+        "number": "6.2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-usbcontroltransferparameters-request",
@@ -3123,11 +3445,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbtransfers-members",
+        "href": "https://wicg.github.io/webusb/#usbtransfers-members",
+        "title": "Members",
+        "number": "6.2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-usbcontroltransferparameters-value",
@@ -3143,11 +3467,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbtransfers-members",
+        "href": "https://wicg.github.io/webusb/#usbtransfers-members",
+        "title": "Members",
+        "number": "6.2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "usbconfiguration",
@@ -3166,7 +3492,8 @@
         "title": "The USBConfiguration Interface",
         "number": "6.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbconfiguration-usbconfiguration-device-configurationvalue-device",
@@ -3183,11 +3510,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbconfiguration-interface",
+        "href": "https://wicg.github.io/webusb/#usbconfiguration-interface",
+        "title": "The USBConfiguration Interface",
+        "number": "6.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbconfiguration-usbconfiguration-device-configurationvalue-configurationvalue",
@@ -3204,11 +3533,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbconfiguration-interface",
+        "href": "https://wicg.github.io/webusb/#usbconfiguration-interface",
+        "title": "The USBConfiguration Interface",
+        "number": "6.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbconfiguration-device-slot",
@@ -3224,11 +3555,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbconfiguration-interface",
+        "href": "https://wicg.github.io/webusb/#usbconfiguration-interface",
+        "title": "The USBConfiguration Interface",
+        "number": "6.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-usbconfiguration-interfaces-slot",
@@ -3244,11 +3577,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbconfiguration-interface",
+        "href": "https://wicg.github.io/webusb/#usbconfiguration-interface",
+        "title": "The USBConfiguration Interface",
+        "number": "6.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-usbconfiguration-configurationvalue-slot",
@@ -3264,11 +3599,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbconfiguration-interface",
+        "href": "https://wicg.github.io/webusb/#usbconfiguration-interface",
+        "title": "The USBConfiguration Interface",
+        "number": "6.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "find-a-list-of-descriptors-for-a-configuration",
@@ -3282,11 +3619,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbconfiguration-interface",
+        "href": "https://wicg.github.io/webusb/#usbconfiguration-interface",
+        "title": "The USBConfiguration Interface",
+        "number": "6.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-usbconfiguration-usbconfiguration",
@@ -3308,7 +3647,8 @@
         "title": "Constructors",
         "number": "6.3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-usbconfiguration-configurationvalue",
@@ -3329,7 +3669,8 @@
         "title": "Attributes",
         "number": "6.3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-usbconfiguration-configurationname",
@@ -3345,11 +3686,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbconfiguration-attributes",
+        "href": "https://wicg.github.io/webusb/#usbconfiguration-attributes",
+        "title": "Attributes",
+        "number": "6.3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-usbconfiguration-interfaces",
@@ -3365,11 +3708,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbconfiguration-attributes",
+        "href": "https://wicg.github.io/webusb/#usbconfiguration-attributes",
+        "title": "Attributes",
+        "number": "6.3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "usbinterface",
@@ -3388,7 +3733,8 @@
         "title": "The USBInterface Interface",
         "number": "6.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbinterface-usbinterface-configuration-interfacenumber-configuration",
@@ -3405,11 +3751,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbinterface-interface",
+        "href": "https://wicg.github.io/webusb/#usbinterface-interface",
+        "title": "The USBInterface Interface",
+        "number": "6.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbinterface-usbinterface-configuration-interfacenumber-interfacenumber",
@@ -3426,11 +3774,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbinterface-interface",
+        "href": "https://wicg.github.io/webusb/#usbinterface-interface",
+        "title": "The USBInterface Interface",
+        "number": "6.4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbinterface-configuration-slot",
@@ -3446,11 +3796,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbinterface-interface",
+        "href": "https://wicg.github.io/webusb/#usbinterface-interface",
+        "title": "The USBInterface Interface",
+        "number": "6.4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-usbinterface-interfacenumber-slot",
@@ -3466,11 +3818,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbinterface-interface",
+        "href": "https://wicg.github.io/webusb/#usbinterface-interface",
+        "title": "The USBInterface Interface",
+        "number": "6.4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-usbinterface-alternates-slot",
@@ -3486,11 +3840,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbinterface-interface",
+        "href": "https://wicg.github.io/webusb/#usbinterface-interface",
+        "title": "The USBInterface Interface",
+        "number": "6.4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-usbinterface-isprotectedclass-slot",
@@ -3506,11 +3862,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbinterface-interface",
+        "href": "https://wicg.github.io/webusb/#usbinterface-interface",
+        "title": "The USBInterface Interface",
+        "number": "6.4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "has-a-protected-interface-class",
@@ -3524,11 +3882,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbinterface-interface",
+        "href": "https://wicg.github.io/webusb/#usbinterface-interface",
+        "title": "The USBInterface Interface",
+        "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "find-if-the-interface-is-claimed",
@@ -3542,11 +3902,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbinterface-interface",
+        "href": "https://wicg.github.io/webusb/#usbinterface-interface",
+        "title": "The USBInterface Interface",
+        "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "find-the-alternate-interface-for-the-current-alternate-setting",
@@ -3560,11 +3922,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbinterface-interface",
+        "href": "https://wicg.github.io/webusb/#usbinterface-interface",
+        "title": "The USBInterface Interface",
+        "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-usbinterface-usbinterface",
@@ -3586,7 +3950,8 @@
         "title": "Constructors",
         "number": "6.4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-usbinterface-interfacenumber",
@@ -3607,7 +3972,8 @@
         "title": "Attributes",
         "number": "6.4.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-usbinterface-alternate",
@@ -3623,11 +3989,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbinterface-attributes",
+        "href": "https://wicg.github.io/webusb/#usbinterface-attributes",
+        "title": "Attributes",
+        "number": "6.4.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-usbinterface-alternates",
@@ -3643,11 +4011,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbinterface-attributes",
+        "href": "https://wicg.github.io/webusb/#usbinterface-attributes",
+        "title": "Attributes",
+        "number": "6.4.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-usbinterface-claimed",
@@ -3663,11 +4033,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbinterface-attributes",
+        "href": "https://wicg.github.io/webusb/#usbinterface-attributes",
+        "title": "Attributes",
+        "number": "6.4.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "usbalternateinterface",
@@ -3686,7 +4058,8 @@
         "title": "The USBAlternateInterface Interface",
         "number": "6.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbalternateinterface-usbalternateinterface-deviceinterface-alternatesetting-deviceinterface",
@@ -3703,11 +4076,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbalternateinterface-interface",
+        "href": "https://wicg.github.io/webusb/#usbalternateinterface-interface",
+        "title": "The USBAlternateInterface Interface",
+        "number": "6.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbalternateinterface-usbalternateinterface-deviceinterface-alternatesetting-alternatesetting",
@@ -3724,11 +4099,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbalternateinterface-interface",
+        "href": "https://wicg.github.io/webusb/#usbalternateinterface-interface",
+        "title": "The USBAlternateInterface Interface",
+        "number": "6.5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbalternateinterface-interface-slot",
@@ -3744,11 +4121,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbalternateinterface-interface",
+        "href": "https://wicg.github.io/webusb/#usbalternateinterface-interface",
+        "title": "The USBAlternateInterface Interface",
+        "number": "6.5"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-usbalternateinterface-endpoints-slot",
@@ -3764,11 +4143,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbalternateinterface-interface",
+        "href": "https://wicg.github.io/webusb/#usbalternateinterface-interface",
+        "title": "The USBAlternateInterface Interface",
+        "number": "6.5"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-usbalternateinterface-alternatesetting-slot",
@@ -3784,11 +4165,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbalternateinterface-interface",
+        "href": "https://wicg.github.io/webusb/#usbalternateinterface-interface",
+        "title": "The USBAlternateInterface Interface",
+        "number": "6.5"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "find-a-list-of-endpoint-descriptors",
@@ -3802,11 +4185,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbalternateinterface-interface",
+        "href": "https://wicg.github.io/webusb/#usbalternateinterface-interface",
+        "title": "The USBAlternateInterface Interface",
+        "number": "6.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-usbalternateinterface-usbalternateinterface",
@@ -3828,7 +4213,8 @@
         "title": "Constructors",
         "number": "6.5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-usbalternateinterface-alternatesetting",
@@ -3849,7 +4235,8 @@
         "title": "Attributes",
         "number": "6.5.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-usbalternateinterface-interfaceclass",
@@ -3865,11 +4252,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbalternateinterface-attributes",
+        "href": "https://wicg.github.io/webusb/#usbalternateinterface-attributes",
+        "title": "Attributes",
+        "number": "6.5.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-usbalternateinterface-interfacesubclass",
@@ -3885,11 +4274,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbalternateinterface-attributes",
+        "href": "https://wicg.github.io/webusb/#usbalternateinterface-attributes",
+        "title": "Attributes",
+        "number": "6.5.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-usbalternateinterface-interfaceprotocol",
@@ -3905,11 +4296,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbalternateinterface-attributes",
+        "href": "https://wicg.github.io/webusb/#usbalternateinterface-attributes",
+        "title": "Attributes",
+        "number": "6.5.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-usbalternateinterface-interfacename",
@@ -3925,11 +4318,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbalternateinterface-attributes",
+        "href": "https://wicg.github.io/webusb/#usbalternateinterface-attributes",
+        "title": "Attributes",
+        "number": "6.5.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-usbalternateinterface-endpoints",
@@ -3945,11 +4340,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbalternateinterface-attributes",
+        "href": "https://wicg.github.io/webusb/#usbalternateinterface-attributes",
+        "title": "Attributes",
+        "number": "6.5.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "enumdef-usbdirection",
@@ -3968,7 +4365,8 @@
         "title": "The USBEndpoint Interface",
         "number": "6.6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbdirection-in",
@@ -3984,11 +4382,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbendpoint-interface",
+        "href": "https://wicg.github.io/webusb/#usbendpoint-interface",
+        "title": "The USBEndpoint Interface",
+        "number": "6.6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbdirection-out",
@@ -4004,11 +4404,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbendpoint-interface",
+        "href": "https://wicg.github.io/webusb/#usbendpoint-interface",
+        "title": "The USBEndpoint Interface",
+        "number": "6.6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "enumdef-usbendpointtype",
@@ -4022,11 +4424,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbendpoint-interface",
+        "href": "https://wicg.github.io/webusb/#usbendpoint-interface",
+        "title": "The USBEndpoint Interface",
+        "number": "6.6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbendpointtype-bulk",
@@ -4042,11 +4446,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbendpoint-interface",
+        "href": "https://wicg.github.io/webusb/#usbendpoint-interface",
+        "title": "The USBEndpoint Interface",
+        "number": "6.6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbendpointtype-interrupt",
@@ -4062,11 +4468,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbendpoint-interface",
+        "href": "https://wicg.github.io/webusb/#usbendpoint-interface",
+        "title": "The USBEndpoint Interface",
+        "number": "6.6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbendpointtype-isochronous",
@@ -4082,11 +4490,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbendpoint-interface",
+        "href": "https://wicg.github.io/webusb/#usbendpoint-interface",
+        "title": "The USBEndpoint Interface",
+        "number": "6.6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "usbendpoint",
@@ -4100,11 +4510,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbendpoint-interface",
+        "href": "https://wicg.github.io/webusb/#usbendpoint-interface",
+        "title": "The USBEndpoint Interface",
+        "number": "6.6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbendpoint-usbendpoint",
@@ -4121,11 +4533,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbendpoint-interface",
+        "href": "https://wicg.github.io/webusb/#usbendpoint-interface",
+        "title": "The USBEndpoint Interface",
+        "number": "6.6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbendpoint-usbendpoint-alternate-endpointnumber-direction-alternate",
@@ -4142,11 +4556,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbendpoint-interface",
+        "href": "https://wicg.github.io/webusb/#usbendpoint-interface",
+        "title": "The USBEndpoint Interface",
+        "number": "6.6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbendpoint-usbendpoint-alternate-endpointnumber-direction-endpointnumber",
@@ -4163,11 +4579,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbendpoint-interface",
+        "href": "https://wicg.github.io/webusb/#usbendpoint-interface",
+        "title": "The USBEndpoint Interface",
+        "number": "6.6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbendpoint-usbendpoint-alternate-endpointnumber-direction-direction",
@@ -4184,11 +4602,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbendpoint-interface",
+        "href": "https://wicg.github.io/webusb/#usbendpoint-interface",
+        "title": "The USBEndpoint Interface",
+        "number": "6.6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbendpoint-alternateinterface-slot",
@@ -4204,11 +4624,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbendpoint-interface",
+        "href": "https://wicg.github.io/webusb/#usbendpoint-interface",
+        "title": "The USBEndpoint Interface",
+        "number": "6.6"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-usbendpoint-endpointaddress-slot",
@@ -4224,11 +4646,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbendpoint-interface",
+        "href": "https://wicg.github.io/webusb/#usbendpoint-interface",
+        "title": "The USBEndpoint Interface",
+        "number": "6.6"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "find-the-endpoint-descriptor",
@@ -4242,11 +4666,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbendpoint-interface",
+        "href": "https://wicg.github.io/webusb/#usbendpoint-interface",
+        "title": "The USBEndpoint Interface",
+        "number": "6.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-endpointnumber-endpointnumber",
@@ -4267,7 +4693,8 @@
         "title": "Constructors",
         "number": "6.6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-usbendpoint-endpointnumber",
@@ -4288,7 +4715,8 @@
         "title": "Attributes",
         "number": "6.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-usbendpoint-direction",
@@ -4304,11 +4732,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbendpoint-attributes",
+        "href": "https://wicg.github.io/webusb/#usbendpoint-attributes",
+        "title": "Attributes",
+        "number": "6.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-usbendpoint-type",
@@ -4324,11 +4754,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbendpoint-attributes",
+        "href": "https://wicg.github.io/webusb/#usbendpoint-attributes",
+        "title": "Attributes",
+        "number": "6.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-usbendpoint-packetsize",
@@ -4344,11 +4776,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "usbendpoint-attributes",
+        "href": "https://wicg.github.io/webusb/#usbendpoint-attributes",
+        "title": "Attributes",
+        "number": "6.6.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dictdef-usbblocklistentry",
@@ -4367,7 +4801,8 @@
         "title": "The USB Blocklist",
         "number": "7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbblocklistentry-idvendor",
@@ -4383,11 +4818,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "blocklist",
+        "href": "https://wicg.github.io/webusb/#blocklist",
+        "title": "The USB Blocklist",
+        "number": "7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbblocklistentry-idproduct",
@@ -4403,11 +4840,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "blocklist",
+        "href": "https://wicg.github.io/webusb/#blocklist",
+        "title": "The USB Blocklist",
+        "number": "7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbblocklistentry-bcddevice",
@@ -4423,11 +4862,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "blocklist",
+        "href": "https://wicg.github.io/webusb/#blocklist",
+        "title": "The USB Blocklist",
+        "number": "7"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "parsing-the-blocklist",
@@ -4441,11 +4882,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "blocklist",
+        "href": "https://wicg.github.io/webusb/#blocklist",
+        "title": "The USB Blocklist",
+        "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "usb-blocklist",
@@ -4459,11 +4902,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "blocklist",
+        "href": "https://wicg.github.io/webusb/#blocklist",
+        "title": "The USB Blocklist",
+        "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "blocklisted",
@@ -4477,11 +4922,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "blocklist",
+        "href": "https://wicg.github.io/webusb/#blocklist",
+        "title": "The USB Blocklist",
+        "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-permissionname-usb",
@@ -4502,7 +4949,8 @@
         "title": "Permission API",
         "number": "8.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dictdef-usbpermissiondescriptor",
@@ -4521,7 +4969,8 @@
         "title": "Permission API",
         "number": "8.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbpermissiondescriptor-filters",
@@ -4537,11 +4986,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "permission-api",
+        "href": "https://wicg.github.io/webusb/#permission-api",
+        "title": "Permission API",
+        "number": "8.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbpermissiondescriptor-exclusionfilters",
@@ -4557,11 +5008,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "permission-api",
+        "href": "https://wicg.github.io/webusb/#permission-api",
+        "title": "Permission API",
+        "number": "8.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-allowedusbdevice",
@@ -4575,11 +5028,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "permission-api",
+        "href": "https://wicg.github.io/webusb/#permission-api",
+        "title": "Permission API",
+        "number": "8.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-allowedusbdevice-vendorid",
@@ -4595,11 +5050,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "permission-api",
+        "href": "https://wicg.github.io/webusb/#permission-api",
+        "title": "Permission API",
+        "number": "8.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-allowedusbdevice-productid",
@@ -4615,11 +5072,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "permission-api",
+        "href": "https://wicg.github.io/webusb/#permission-api",
+        "title": "Permission API",
+        "number": "8.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-allowedusbdevice-serialnumber",
@@ -4635,11 +5094,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "permission-api",
+        "href": "https://wicg.github.io/webusb/#permission-api",
+        "title": "Permission API",
+        "number": "8.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-usbpermissionstorage",
@@ -4653,11 +5114,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "permission-api",
+        "href": "https://wicg.github.io/webusb/#permission-api",
+        "title": "Permission API",
+        "number": "8.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbpermissionstorage-alloweddevices",
@@ -4673,11 +5136,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "permission-api",
+        "href": "https://wicg.github.io/webusb/#permission-api",
+        "title": "Permission API",
+        "number": "8.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-allowedusbdevice-devices-slot",
@@ -4693,11 +5158,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "permission-api",
+        "href": "https://wicg.github.io/webusb/#permission-api",
+        "title": "Permission API",
+        "number": "8.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "usbpermissionresult",
@@ -4711,11 +5178,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "permission-api",
+        "href": "https://wicg.github.io/webusb/#permission-api",
+        "title": "Permission API",
+        "number": "8.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-usbpermissionresult-devices",
@@ -4731,11 +5200,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "permission-api",
+        "href": "https://wicg.github.io/webusb/#permission-api",
+        "title": "Permission API",
+        "number": "8.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "descriptors",
@@ -4754,7 +5225,8 @@
         "title": "Terminology",
         "number": "9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "device-descriptor",
@@ -4768,11 +5240,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "terminology",
+        "href": "https://wicg.github.io/webusb/#terminology",
+        "title": "Terminology",
+        "number": "9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "configuration-descriptor",
@@ -4786,11 +5260,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "terminology",
+        "href": "https://wicg.github.io/webusb/#terminology",
+        "title": "Terminology",
+        "number": "9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "interface-descriptor",
@@ -4804,11 +5280,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "terminology",
+        "href": "https://wicg.github.io/webusb/#terminology",
+        "title": "Terminology",
+        "number": "9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "endpoint-descriptor",
@@ -4822,11 +5300,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "terminology",
+        "href": "https://wicg.github.io/webusb/#terminology",
+        "title": "Terminology",
+        "number": "9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "string-descriptor",
@@ -4840,11 +5320,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "terminology",
+        "href": "https://wicg.github.io/webusb/#terminology",
+        "title": "Terminology",
+        "number": "9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "binary-object-store",
@@ -4858,11 +5340,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "terminology",
+        "href": "https://wicg.github.io/webusb/#terminology",
+        "title": "Terminology",
+        "number": "9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "platform-descriptor",
@@ -4876,11 +5360,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "terminology",
+        "href": "https://wicg.github.io/webusb/#terminology",
+        "title": "Terminology",
+        "number": "9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "usb-device",
@@ -4894,11 +5380,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "terminology",
+        "href": "https://wicg.github.io/webusb/#terminology",
+        "title": "Terminology",
+        "number": "9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "vendor-id",
@@ -4912,11 +5400,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "terminology",
+        "href": "https://wicg.github.io/webusb/#terminology",
+        "title": "Terminology",
+        "number": "9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "product-id",
@@ -4930,11 +5420,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "terminology",
+        "href": "https://wicg.github.io/webusb/#terminology",
+        "title": "Terminology",
+        "number": "9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "serial-number",
@@ -4948,11 +5440,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "terminology",
+        "href": "https://wicg.github.io/webusb/#terminology",
+        "title": "Terminology",
+        "number": "9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "get-configuration",
@@ -4966,11 +5460,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "terminology",
+        "href": "https://wicg.github.io/webusb/#terminology",
+        "title": "Terminology",
+        "number": "9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "set-descriptor",
@@ -4984,11 +5480,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "terminology",
+        "href": "https://wicg.github.io/webusb/#terminology",
+        "title": "Terminology",
+        "number": "9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "get-descriptor",
@@ -5002,11 +5500,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "terminology",
+        "href": "https://wicg.github.io/webusb/#terminology",
+        "title": "Terminology",
+        "number": "9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "control-transfer",
@@ -5020,11 +5520,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "terminology",
+        "href": "https://wicg.github.io/webusb/#terminology",
+        "title": "Terminology",
+        "number": "9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "setup-stage",
@@ -5038,11 +5540,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "terminology",
+        "href": "https://wicg.github.io/webusb/#terminology",
+        "title": "Terminology",
+        "number": "9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "setup-packet",
@@ -5056,11 +5560,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "terminology",
+        "href": "https://wicg.github.io/webusb/#terminology",
+        "title": "Terminology",
+        "number": "9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "data-stage",
@@ -5074,11 +5580,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "terminology",
+        "href": "https://wicg.github.io/webusb/#terminology",
+        "title": "Terminology",
+        "number": "9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "status-stage",
@@ -5092,11 +5600,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "terminology",
+        "href": "https://wicg.github.io/webusb/#terminology",
+        "title": "Terminology",
+        "number": "9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "out-transfers",
@@ -5115,7 +5625,8 @@
         "title": "Transfers",
         "number": "10.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "in-transfers",
@@ -5129,11 +5640,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "appendix-transfers",
+        "href": "https://wicg.github.io/webusb/#appendix-transfers",
+        "title": "Transfers",
+        "number": "10.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "bulk-transfers",
@@ -5147,11 +5660,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "appendix-transfers",
+        "href": "https://wicg.github.io/webusb/#appendix-transfers",
+        "title": "Transfers",
+        "number": "10.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "interrupt-transfers",
@@ -5165,11 +5680,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "appendix-transfers",
+        "href": "https://wicg.github.io/webusb/#appendix-transfers",
+        "title": "Transfers",
+        "number": "10.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "isochronous-transfers",
@@ -5183,11 +5700,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "appendix-transfers",
+        "href": "https://wicg.github.io/webusb/#appendix-transfers",
+        "title": "Transfers",
+        "number": "10.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "default-endpoint",
@@ -5202,11 +5721,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://wicg.github.io/webusb/#title",
-        "title": "WebUSB API"
+        "id": "appendix-transfers",
+        "href": "https://wicg.github.io/webusb/#appendix-transfers",
+        "title": "Transfers",
+        "number": "10.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

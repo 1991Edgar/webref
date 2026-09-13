@@ -21,7 +21,8 @@
         "title": "Overview",
         "number": "1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "font-subset",
@@ -40,7 +41,8 @@
         "title": "Font Subset",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "font-subset-definition",
@@ -59,7 +61,8 @@
         "title": "Font Subset",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "font-patch",
@@ -78,7 +81,8 @@
         "title": "Font Patch",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "patch-format",
@@ -97,7 +101,8 @@
         "title": "Font Patch",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "patch-application-algorithm",
@@ -116,7 +121,8 @@
         "title": "Font Patch",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "patch-map",
@@ -135,7 +141,8 @@
         "title": "Patch Map",
         "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "patch-map-entries",
@@ -154,7 +161,8 @@
         "title": "Patch Map",
         "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "full-invalidation",
@@ -173,7 +181,8 @@
         "title": "Patch Invalidations",
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "partial-invalidation",
@@ -192,7 +201,8 @@
         "title": "Patch Invalidations",
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "no-invalidation",
@@ -211,7 +221,8 @@
         "title": "Patch Invalidations",
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "abstract-opdef-extend-an-incremental-font-subset",
@@ -228,9 +239,10 @@
         "id": "extend-font-subset",
         "href": "https://www.w3.org/TR/IFT/#extend-font-subset",
         "title": "Incremental Font Extension Algorithm",
-        "number": "4.2"
+        "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "abstract-opdef-check-entry-intersection",
@@ -247,9 +259,10 @@
         "id": "extend-font-subset",
         "href": "https://www.w3.org/TR/IFT/#extend-font-subset",
         "title": "Incremental Font Extension Algorithm",
-        "number": "4.2"
+        "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "abstract-opdef-load-patch-file",
@@ -266,9 +279,10 @@
         "id": "extend-font-subset",
         "href": "https://www.w3.org/TR/IFT/#extend-font-subset",
         "title": "Incremental Font Extension Algorithm",
-        "number": "4.2"
+        "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "abstract-opdef-handle-errors",
@@ -285,9 +299,30 @@
         "id": "extend-font-subset",
         "href": "https://www.w3.org/TR/IFT/#extend-font-subset",
         "title": "Incremental Font Extension Algorithm",
-        "number": "4.2"
+        "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "shaping-unit",
+      "href": "https://www.w3.org/TR/IFT/#shaping-unit",
+      "linkingText": [
+        "shaping unit"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "target-subset-definitions",
+        "href": "https://www.w3.org/TR/IFT/#target-subset-definitions",
+        "title": "Target Subset Definition",
+        "number": "4.5"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "abstract-opdef-fully-expand-a-font-subset",
@@ -304,9 +339,10 @@
         "id": "fully-expanding-a-font",
         "href": "https://www.w3.org/TR/IFT/#fully-expanding-a-font",
         "title": "Fully Expanding a Font",
-        "number": "4.3"
+        "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "format-1-patch-map",
@@ -323,9 +359,10 @@
         "id": "patch-map-format-1",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-1",
         "title": "Patch Map Table: Format 1",
-        "number": "5.2.1"
+        "number": "5.3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "format-1-patch-map-format",
@@ -344,9 +381,32 @@
         "id": "patch-map-format-1",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-1",
         "title": "Patch Map Table: Format 1",
-        "number": "5.2.1"
+        "number": "5.3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "format-1-patch-map-flags",
+      "href": "https://www.w3.org/TR/IFT/#format-1-patch-map-flags",
+      "linkingText": [
+        "flags"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Format 1 Patch Map"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "patch-map-format-1",
+        "href": "https://www.w3.org/TR/IFT/#patch-map-format-1",
+        "title": "Patch Map Table: Format 1",
+        "number": "5.3.1"
+      },
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "format-1-patch-map-compatibilityid",
@@ -365,15 +425,16 @@
         "id": "patch-map-format-1",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-1",
         "title": "Patch Map Table: Format 1",
-        "number": "5.2.1"
+        "number": "5.3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
-      "id": "format-1-patch-map-entrycount",
-      "href": "https://www.w3.org/TR/IFT/#format-1-patch-map-entrycount",
+      "id": "format-1-patch-map-maxentryindex",
+      "href": "https://www.w3.org/TR/IFT/#format-1-patch-map-maxentryindex",
       "linkingText": [
-        "entryCount"
+        "maxEntryIndex"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -386,9 +447,32 @@
         "id": "patch-map-format-1",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-1",
         "title": "Patch Map Table: Format 1",
-        "number": "5.2.1"
+        "number": "5.3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "format-1-patch-map-maxglyphmapentryindex",
+      "href": "https://www.w3.org/TR/IFT/#format-1-patch-map-maxglyphmapentryindex",
+      "linkingText": [
+        "maxGlyphMapEntryIndex"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Format 1 Patch Map"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "patch-map-format-1",
+        "href": "https://www.w3.org/TR/IFT/#patch-map-format-1",
+        "title": "Patch Map Table: Format 1",
+        "number": "5.3.1"
+      },
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "format-1-patch-map-glyphcount",
@@ -407,9 +491,32 @@
         "id": "patch-map-format-1",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-1",
         "title": "Patch Map Table: Format 1",
-        "number": "5.2.1"
+        "number": "5.3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "format-1-patch-map-featuremapoffset",
+      "href": "https://www.w3.org/TR/IFT/#format-1-patch-map-featuremapoffset",
+      "linkingText": [
+        "featureMapOffset"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Format 1 Patch Map"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "patch-map-format-1",
+        "href": "https://www.w3.org/TR/IFT/#patch-map-format-1",
+        "title": "Patch Map Table: Format 1",
+        "number": "5.3.1"
+      },
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "format-1-patch-map-appliedentriesbitmap",
@@ -428,15 +535,16 @@
         "id": "patch-map-format-1",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-1",
         "title": "Patch Map Table: Format 1",
-        "number": "5.2.1"
+        "number": "5.3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
-      "id": "format-1-patch-map-uritemplate",
-      "href": "https://www.w3.org/TR/IFT/#format-1-patch-map-uritemplate",
+      "id": "format-1-patch-map-urltemplate",
+      "href": "https://www.w3.org/TR/IFT/#format-1-patch-map-urltemplate",
       "linkingText": [
-        "uriTemplate"
+        "urlTemplate"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -449,15 +557,16 @@
         "id": "patch-map-format-1",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-1",
         "title": "Patch Map Table: Format 1",
-        "number": "5.2.1"
+        "number": "5.3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
-      "id": "format-1-patch-map-patchencoding",
-      "href": "https://www.w3.org/TR/IFT/#format-1-patch-map-patchencoding",
+      "id": "format-1-patch-map-patchformat",
+      "href": "https://www.w3.org/TR/IFT/#format-1-patch-map-patchformat",
       "linkingText": [
-        "patchEncoding"
+        "patchFormat"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -470,9 +579,54 @@
         "id": "patch-map-format-1",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-1",
         "title": "Patch Map Table: Format 1",
-        "number": "5.2.1"
+        "number": "5.3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "format-1-patch-map-cffcharstringsoffset",
+      "href": "https://www.w3.org/TR/IFT/#format-1-patch-map-cffcharstringsoffset",
+      "linkingText": [
+        "cffCharStringsOffset"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Format 1 Patch Map"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "patch-map-format-1",
+        "href": "https://www.w3.org/TR/IFT/#patch-map-format-1",
+        "title": "Patch Map Table: Format 1",
+        "number": "5.3.1"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "format-1-patch-map-cff2charstringsoffset",
+      "href": "https://www.w3.org/TR/IFT/#format-1-patch-map-cff2charstringsoffset",
+      "linkingText": [
+        "cff2CharStringsOffset"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Format 1 Patch Map"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "patch-map-format-1",
+        "href": "https://www.w3.org/TR/IFT/#patch-map-format-1",
+        "title": "Patch Map Table: Format 1",
+        "number": "5.3.1"
+      },
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "glyph-map",
@@ -489,9 +643,10 @@
         "id": "patch-map-format-1",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-1",
         "title": "Patch Map Table: Format 1",
-        "number": "5.2.1"
+        "number": "5.3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "glyph-map-firstmappedglyph",
@@ -510,9 +665,10 @@
         "id": "patch-map-format-1",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-1",
         "title": "Patch Map Table: Format 1",
-        "number": "5.2.1"
+        "number": "5.3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "glyph-map-entryindex",
@@ -531,9 +687,10 @@
         "id": "patch-map-format-1",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-1",
         "title": "Patch Map Table: Format 1",
-        "number": "5.2.1"
+        "number": "5.3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "feature-map",
@@ -550,9 +707,10 @@
         "id": "patch-map-format-1",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-1",
         "title": "Patch Map Table: Format 1",
-        "number": "5.2.1"
+        "number": "5.3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "feature-map-featurerecords",
@@ -571,9 +729,10 @@
         "id": "patch-map-format-1",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-1",
         "title": "Patch Map Table: Format 1",
-        "number": "5.2.1"
+        "number": "5.3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "feature-map-entrymaprecords",
@@ -592,9 +751,10 @@
         "id": "patch-map-format-1",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-1",
         "title": "Patch Map Table: Format 1",
-        "number": "5.2.1"
+        "number": "5.3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "featurerecord",
@@ -611,9 +771,10 @@
         "id": "patch-map-format-1",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-1",
         "title": "Patch Map Table: Format 1",
-        "number": "5.2.1"
+        "number": "5.3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "featurerecord-featuretag",
@@ -632,15 +793,16 @@
         "id": "patch-map-format-1",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-1",
         "title": "Patch Map Table: Format 1",
-        "number": "5.2.1"
+        "number": "5.3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
-      "id": "featurerecord-firstentryindex",
-      "href": "https://www.w3.org/TR/IFT/#featurerecord-firstentryindex",
+      "id": "featurerecord-firstnewentryindex",
+      "href": "https://www.w3.org/TR/IFT/#featurerecord-firstnewentryindex",
       "linkingText": [
-        "firstEntryIndex"
+        "firstNewEntryIndex"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -653,9 +815,10 @@
         "id": "patch-map-format-1",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-1",
         "title": "Patch Map Table: Format 1",
-        "number": "5.2.1"
+        "number": "5.3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "featurerecord-entrymapcount",
@@ -674,9 +837,10 @@
         "id": "patch-map-format-1",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-1",
         "title": "Patch Map Table: Format 1",
-        "number": "5.2.1"
+        "number": "5.3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "entrymaprecord",
@@ -693,9 +857,10 @@
         "id": "patch-map-format-1",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-1",
         "title": "Patch Map Table: Format 1",
-        "number": "5.2.1"
+        "number": "5.3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "entrymaprecord-firstentryindex",
@@ -714,9 +879,10 @@
         "id": "patch-map-format-1",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-1",
         "title": "Patch Map Table: Format 1",
-        "number": "5.2.1"
+        "number": "5.3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "entrymaprecord-lastentryindex",
@@ -735,9 +901,10 @@
         "id": "patch-map-format-1",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-1",
         "title": "Patch Map Table: Format 1",
-        "number": "5.2.1"
+        "number": "5.3.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "abstract-opdef-interpret-format-1-patch-map",
@@ -754,9 +921,10 @@
         "id": "interpreting-patch-map-format-1",
         "href": "https://www.w3.org/TR/IFT/#interpreting-patch-map-format-1",
         "title": "Interpreting Format 1",
-        "number": "5.2.1.1"
+        "number": "5.3.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "abstract-opdef-remove-entries-from-format-1-patch-map",
@@ -773,9 +941,10 @@
         "id": "remove-entries-format-1",
         "href": "https://www.w3.org/TR/IFT/#remove-entries-format-1",
         "title": "Remove Entries from Format 1",
-        "number": "5.2.1.2"
+        "number": "5.3.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "format-2-patch-map",
@@ -792,9 +961,10 @@
         "id": "patch-map-format-2",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-2",
         "title": "Patch Map Table: Format 2",
-        "number": "5.2.2"
+        "number": "5.3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "format-2-patch-map-format",
@@ -813,9 +983,32 @@
         "id": "patch-map-format-2",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-2",
         "title": "Patch Map Table: Format 2",
-        "number": "5.2.2"
+        "number": "5.3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "format-2-patch-map-flags",
+      "href": "https://www.w3.org/TR/IFT/#format-2-patch-map-flags",
+      "linkingText": [
+        "flags"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Format 2 Patch Map"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "patch-map-format-2",
+        "href": "https://www.w3.org/TR/IFT/#patch-map-format-2",
+        "title": "Patch Map Table: Format 2",
+        "number": "5.3.2"
+      },
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "format-2-patch-map-compatibilityid",
@@ -834,15 +1027,16 @@
         "id": "patch-map-format-2",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-2",
         "title": "Patch Map Table: Format 2",
-        "number": "5.2.2"
+        "number": "5.3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
-      "id": "format-2-patch-map-defaultpatchencoding",
-      "href": "https://www.w3.org/TR/IFT/#format-2-patch-map-defaultpatchencoding",
+      "id": "format-2-patch-map-defaultpatchformat",
+      "href": "https://www.w3.org/TR/IFT/#format-2-patch-map-defaultpatchformat",
       "linkingText": [
-        "defaultPatchEncoding"
+        "defaultPatchFormat"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -855,9 +1049,10 @@
         "id": "patch-map-format-2",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-2",
         "title": "Patch Map Table: Format 2",
-        "number": "5.2.2"
+        "number": "5.3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "format-2-patch-map-entrycount",
@@ -876,9 +1071,10 @@
         "id": "patch-map-format-2",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-2",
         "title": "Patch Map Table: Format 2",
-        "number": "5.2.2"
+        "number": "5.3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "format-2-patch-map-entries",
@@ -897,9 +1093,10 @@
         "id": "patch-map-format-2",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-2",
         "title": "Patch Map Table: Format 2",
-        "number": "5.2.2"
+        "number": "5.3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "format-2-patch-map-entryidstringdata",
@@ -918,15 +1115,16 @@
         "id": "patch-map-format-2",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-2",
         "title": "Patch Map Table: Format 2",
-        "number": "5.2.2"
+        "number": "5.3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
-      "id": "format-2-patch-map-uritemplate",
-      "href": "https://www.w3.org/TR/IFT/#format-2-patch-map-uritemplate",
+      "id": "format-2-patch-map-urltemplate",
+      "href": "https://www.w3.org/TR/IFT/#format-2-patch-map-urltemplate",
       "linkingText": [
-        "uriTemplate"
+        "urlTemplate"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -939,9 +1137,54 @@
         "id": "patch-map-format-2",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-2",
         "title": "Patch Map Table: Format 2",
-        "number": "5.2.2"
+        "number": "5.3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "format-2-patch-map-cffcharstringsoffset",
+      "href": "https://www.w3.org/TR/IFT/#format-2-patch-map-cffcharstringsoffset",
+      "linkingText": [
+        "cffCharStringsOffset"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Format 2 Patch Map"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "patch-map-format-2",
+        "href": "https://www.w3.org/TR/IFT/#patch-map-format-2",
+        "title": "Patch Map Table: Format 2",
+        "number": "5.3.2"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "format-2-patch-map-cff2charstringsoffset",
+      "href": "https://www.w3.org/TR/IFT/#format-2-patch-map-cff2charstringsoffset",
+      "linkingText": [
+        "cff2CharStringsOffset"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Format 2 Patch Map"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "patch-map-format-2",
+        "href": "https://www.w3.org/TR/IFT/#patch-map-format-2",
+        "title": "Patch Map Table: Format 2",
+        "number": "5.3.2"
+      },
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "mapping-entries",
@@ -958,9 +1201,10 @@
         "id": "patch-map-format-2",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-2",
         "title": "Patch Map Table: Format 2",
-        "number": "5.2.2"
+        "number": "5.3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "mapping-entries-entries",
@@ -979,9 +1223,10 @@
         "id": "patch-map-format-2",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-2",
         "title": "Patch Map Table: Format 2",
-        "number": "5.2.2"
+        "number": "5.3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "mapping-entry",
@@ -998,9 +1243,10 @@
         "id": "patch-map-format-2",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-2",
         "title": "Patch Map Table: Format 2",
-        "number": "5.2.2"
+        "number": "5.3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "mapping-entry-formatflags",
@@ -1019,9 +1265,10 @@
         "id": "patch-map-format-2",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-2",
         "title": "Patch Map Table: Format 2",
-        "number": "5.2.2"
+        "number": "5.3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "mapping-entry-featurecount",
@@ -1040,9 +1287,10 @@
         "id": "patch-map-format-2",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-2",
         "title": "Patch Map Table: Format 2",
-        "number": "5.2.2"
+        "number": "5.3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "mapping-entry-featuretags",
@@ -1061,9 +1309,10 @@
         "id": "patch-map-format-2",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-2",
         "title": "Patch Map Table: Format 2",
-        "number": "5.2.2"
+        "number": "5.3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "mapping-entry-designspacecount",
@@ -1082,9 +1331,10 @@
         "id": "patch-map-format-2",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-2",
         "title": "Patch Map Table: Format 2",
-        "number": "5.2.2"
+        "number": "5.3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "mapping-entry-designspacesegments",
@@ -1103,15 +1353,16 @@
         "id": "patch-map-format-2",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-2",
         "title": "Patch Map Table: Format 2",
-        "number": "5.2.2"
+        "number": "5.3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
-      "id": "mapping-entry-copycount",
-      "href": "https://www.w3.org/TR/IFT/#mapping-entry-copycount",
+      "id": "mapping-entry-childentrymatchmodeandcount",
+      "href": "https://www.w3.org/TR/IFT/#mapping-entry-childentrymatchmodeandcount",
       "linkingText": [
-        "copyCount"
+        "childEntryMatchModeAndCount"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1124,15 +1375,16 @@
         "id": "patch-map-format-2",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-2",
         "title": "Patch Map Table: Format 2",
-        "number": "5.2.2"
+        "number": "5.3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
-      "id": "mapping-entry-copyindices",
-      "href": "https://www.w3.org/TR/IFT/#mapping-entry-copyindices",
+      "id": "mapping-entry-childentryindices",
+      "href": "https://www.w3.org/TR/IFT/#mapping-entry-childentryindices",
       "linkingText": [
-        "copyIndices"
+        "childEntryIndices"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1145,9 +1397,10 @@
         "id": "patch-map-format-2",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-2",
         "title": "Patch Map Table: Format 2",
-        "number": "5.2.2"
+        "number": "5.3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "mapping-entry-entryiddelta",
@@ -1166,9 +1419,10 @@
         "id": "patch-map-format-2",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-2",
         "title": "Patch Map Table: Format 2",
-        "number": "5.2.2"
+        "number": "5.3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "mapping-entry-entryidstringlength",
@@ -1187,15 +1441,16 @@
         "id": "patch-map-format-2",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-2",
         "title": "Patch Map Table: Format 2",
-        "number": "5.2.2"
+        "number": "5.3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
-      "id": "mapping-entry-patchencoding",
-      "href": "https://www.w3.org/TR/IFT/#mapping-entry-patchencoding",
+      "id": "mapping-entry-patchformat",
+      "href": "https://www.w3.org/TR/IFT/#mapping-entry-patchformat",
       "linkingText": [
-        "patchEncoding"
+        "patchFormat"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1208,9 +1463,10 @@
         "id": "patch-map-format-2",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-2",
         "title": "Patch Map Table: Format 2",
-        "number": "5.2.2"
+        "number": "5.3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "mapping-entry-bias",
@@ -1229,15 +1485,16 @@
         "id": "patch-map-format-2",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-2",
         "title": "Patch Map Table: Format 2",
-        "number": "5.2.2"
+        "number": "5.3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "mapping-entry-codepoints",
       "href": "https://www.w3.org/TR/IFT/#mapping-entry-codepoints",
       "linkingText": [
-        "codepoints"
+        "codePoints"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1250,9 +1507,10 @@
         "id": "patch-map-format-2",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-2",
         "title": "Patch Map Table: Format 2",
-        "number": "5.2.2"
+        "number": "5.3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "design-space-segment",
@@ -1269,9 +1527,10 @@
         "id": "patch-map-format-2",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-2",
         "title": "Patch Map Table: Format 2",
-        "number": "5.2.2"
+        "number": "5.3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "design-space-segment-tag",
@@ -1290,9 +1549,10 @@
         "id": "patch-map-format-2",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-2",
         "title": "Patch Map Table: Format 2",
-        "number": "5.2.2"
+        "number": "5.3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "design-space-segment-start",
@@ -1311,9 +1571,10 @@
         "id": "patch-map-format-2",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-2",
         "title": "Patch Map Table: Format 2",
-        "number": "5.2.2"
+        "number": "5.3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "design-space-segment-end",
@@ -1332,9 +1593,10 @@
         "id": "patch-map-format-2",
         "href": "https://www.w3.org/TR/IFT/#patch-map-format-2",
         "title": "Patch Map Table: Format 2",
-        "number": "5.2.2"
+        "number": "5.3.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "abstract-opdef-interpret-format-2-patch-map",
@@ -1351,9 +1613,10 @@
         "id": "interpreting-patch-map-format-2",
         "href": "https://www.w3.org/TR/IFT/#interpreting-patch-map-format-2",
         "title": "Interpreting Format 2",
-        "number": "5.2.2.1"
+        "number": "5.3.2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "abstract-opdef-interpret-format-2-patch-map-entry",
@@ -1370,9 +1633,10 @@
         "id": "interpreting-patch-map-format-2",
         "href": "https://www.w3.org/TR/IFT/#interpreting-patch-map-format-2",
         "title": "Interpreting Format 2",
-        "number": "5.2.2.1"
+        "number": "5.3.2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "abstract-opdef-remove-entries-from-format-2-patch-map",
@@ -1389,9 +1653,10 @@
         "id": "remove-entries-format-2",
         "href": "https://www.w3.org/TR/IFT/#remove-entries-format-2",
         "title": "Remove Entries from Format 2",
-        "number": "5.2.2.2"
+        "number": "5.3.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "sparse-bit-set",
@@ -1408,9 +1673,10 @@
         "id": "sparse-bit-set-decoding",
         "href": "https://www.w3.org/TR/IFT/#sparse-bit-set-decoding",
         "title": "Sparse Bit Set",
-        "number": "5.2.2.3"
+        "number": "5.3.2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "branch-factor-encoding",
@@ -1427,9 +1693,10 @@
         "id": "sparse-bit-set-decoding",
         "href": "https://www.w3.org/TR/IFT/#sparse-bit-set-decoding",
         "title": "Sparse Bit Set",
-        "number": "5.2.2.3"
+        "number": "5.3.2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "abstract-opdef-decoding-sparse-bit-set-treedata",
@@ -1446,97 +1713,16 @@
         "id": "sparse-bit-set-decoding",
         "href": "https://www.w3.org/TR/IFT/#sparse-bit-set-decoding",
         "title": "Sparse Bit Set",
-        "number": "5.2.2.3"
+        "number": "5.3.2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "brotli-patch",
-      "href": "https://www.w3.org/TR/IFT/#brotli-patch",
+      "id": "abstract-opdef-expand-url-template",
+      "href": "https://www.w3.org/TR/IFT/#abstract-opdef-expand-url-template",
       "linkingText": [
-        "Brotli patch"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "brotli",
-        "href": "https://www.w3.org/TR/IFT/#brotli",
-        "title": "Brotli Patch",
-        "number": "6.2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "brotli-patch-format",
-      "href": "https://www.w3.org/TR/IFT/#brotli-patch-format",
-      "linkingText": [
-        "format"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "Brotli patch"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "brotli",
-        "href": "https://www.w3.org/TR/IFT/#brotli",
-        "title": "Brotli Patch",
-        "number": "6.2"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "brotli-patch-compatibilityid",
-      "href": "https://www.w3.org/TR/IFT/#brotli-patch-compatibilityid",
-      "linkingText": [
-        "compatibilityId"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "Brotli patch"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "brotli",
-        "href": "https://www.w3.org/TR/IFT/#brotli",
-        "title": "Brotli Patch",
-        "number": "6.2"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "brotli-patch-brotlistream",
-      "href": "https://www.w3.org/TR/IFT/#brotli-patch-brotlistream",
-      "linkingText": [
-        "brotliStream"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "Brotli patch"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "brotli",
-        "href": "https://www.w3.org/TR/IFT/#brotli",
-        "title": "Brotli Patch",
-        "number": "6.2"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "abstract-opdef-apply-brotli-patch",
-      "href": "https://www.w3.org/TR/IFT/#abstract-opdef-apply-brotli-patch",
-      "linkingText": [
-        "Apply brotli patch"
+        "Expand URL Template"
       ],
       "localLinkingText": [],
       "type": "abstract-op",
@@ -1544,18 +1730,19 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "apply-brotli",
-        "href": "https://www.w3.org/TR/IFT/#apply-brotli",
-        "title": "Applying Brotli Patches",
-        "number": "6.2.1"
+        "id": "url-templates",
+        "href": "https://www.w3.org/TR/IFT/#url-templates",
+        "title": "URL Templates",
+        "number": "5.3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "per-table-brotli-patch",
-      "href": "https://www.w3.org/TR/IFT/#per-table-brotli-patch",
+      "id": "table-keyed-patch",
+      "href": "https://www.w3.org/TR/IFT/#table-keyed-patch",
       "linkingText": [
-        "Per table brotli patch"
+        "Table keyed patch"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -1563,75 +1750,57 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "per-table-brotli",
-        "href": "https://www.w3.org/TR/IFT/#per-table-brotli",
-        "title": "Per Table Brotli",
-        "number": "6.3"
+        "id": "table-keyed",
+        "href": "https://www.w3.org/TR/IFT/#table-keyed",
+        "title": "Table Keyed",
+        "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "per-table-brotli-patch-format",
-      "href": "https://www.w3.org/TR/IFT/#per-table-brotli-patch-format",
-      "linkingText": [
-        "format"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "Per table brotli patch"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "per-table-brotli",
-        "href": "https://www.w3.org/TR/IFT/#per-table-brotli",
-        "title": "Per Table Brotli",
-        "number": "6.3"
-      },
-      "definedIn": "table"
-    },
-    {
-      "id": "per-table-brotli-patch-compatibilityid",
-      "href": "https://www.w3.org/TR/IFT/#per-table-brotli-patch-compatibilityid",
+      "id": "table-keyed-patch-compatibilityid",
+      "href": "https://www.w3.org/TR/IFT/#table-keyed-patch-compatibilityid",
       "linkingText": [
         "compatibilityId"
       ],
       "localLinkingText": [],
       "type": "dfn",
       "for": [
-        "Per table brotli patch"
+        "Table keyed patch"
       ],
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "per-table-brotli",
-        "href": "https://www.w3.org/TR/IFT/#per-table-brotli",
-        "title": "Per Table Brotli",
-        "number": "6.3"
+        "id": "table-keyed",
+        "href": "https://www.w3.org/TR/IFT/#table-keyed",
+        "title": "Table Keyed",
+        "number": "6.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
-      "id": "per-table-brotli-patch-patches",
-      "href": "https://www.w3.org/TR/IFT/#per-table-brotli-patch-patches",
+      "id": "table-keyed-patch-patches",
+      "href": "https://www.w3.org/TR/IFT/#table-keyed-patch-patches",
       "linkingText": [
         "patches"
       ],
       "localLinkingText": [],
       "type": "dfn",
       "for": [
-        "Per table brotli patch"
+        "Table keyed patch"
       ],
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "per-table-brotli",
-        "href": "https://www.w3.org/TR/IFT/#per-table-brotli",
-        "title": "Per Table Brotli",
-        "number": "6.3"
+        "id": "table-keyed",
+        "href": "https://www.w3.org/TR/IFT/#table-keyed",
+        "title": "Table Keyed",
+        "number": "6.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "tablepatch",
@@ -1645,12 +1814,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "per-table-brotli",
-        "href": "https://www.w3.org/TR/IFT/#per-table-brotli",
-        "title": "Per Table Brotli",
-        "number": "6.3"
+        "id": "table-keyed",
+        "href": "https://www.w3.org/TR/IFT/#table-keyed",
+        "title": "Table Keyed",
+        "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "tablepatch-tag",
@@ -1666,12 +1836,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "per-table-brotli",
-        "href": "https://www.w3.org/TR/IFT/#per-table-brotli",
-        "title": "Per Table Brotli",
-        "number": "6.3"
+        "id": "table-keyed",
+        "href": "https://www.w3.org/TR/IFT/#table-keyed",
+        "title": "Table Keyed",
+        "number": "6.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "tablepatch-flags",
@@ -1687,12 +1858,35 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "per-table-brotli",
-        "href": "https://www.w3.org/TR/IFT/#per-table-brotli",
-        "title": "Per Table Brotli",
-        "number": "6.3"
+        "id": "table-keyed",
+        "href": "https://www.w3.org/TR/IFT/#table-keyed",
+        "title": "Table Keyed",
+        "number": "6.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "tablepatch-maxuncompressedlength",
+      "href": "https://www.w3.org/TR/IFT/#tablepatch-maxuncompressedlength",
+      "linkingText": [
+        "maxUncompressedLength"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "TablePatch"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "table-keyed",
+        "href": "https://www.w3.org/TR/IFT/#table-keyed",
+        "title": "Table Keyed",
+        "number": "6.2"
+      },
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "tablepatch-brotlistream",
@@ -1708,18 +1902,19 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "per-table-brotli",
-        "href": "https://www.w3.org/TR/IFT/#per-table-brotli",
-        "title": "Per Table Brotli",
-        "number": "6.3"
+        "id": "table-keyed",
+        "href": "https://www.w3.org/TR/IFT/#table-keyed",
+        "title": "Table Keyed",
+        "number": "6.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
-      "id": "abstract-opdef-apply-per-table-brotli-patch",
-      "href": "https://www.w3.org/TR/IFT/#abstract-opdef-apply-per-table-brotli-patch",
+      "id": "abstract-opdef-apply-table-keyed-patch",
+      "href": "https://www.w3.org/TR/IFT/#abstract-opdef-apply-table-keyed-patch",
       "linkingText": [
-        "Apply per table brotli patch"
+        "Apply table keyed patch"
       ],
       "localLinkingText": [],
       "type": "abstract-op",
@@ -1727,12 +1922,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "apply-per-table-brotli",
-        "href": "https://www.w3.org/TR/IFT/#apply-per-table-brotli",
-        "title": "Applying Per Table Brotli Patches",
-        "number": "6.3.1"
+        "id": "apply-table-keyed",
+        "href": "https://www.w3.org/TR/IFT/#apply-table-keyed",
+        "title": "Applying Table Keyed Patches",
+        "number": "6.2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "glyph-keyed-patch",
@@ -1749,30 +1945,10 @@
         "id": "glyph-keyed",
         "href": "https://www.w3.org/TR/IFT/#glyph-keyed",
         "title": "Glyph Keyed",
-        "number": "6.4"
+        "number": "6.3"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "glyph-keyed-patch-format",
-      "href": "https://www.w3.org/TR/IFT/#glyph-keyed-patch-format",
-      "linkingText": [
-        "format"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "Glyph keyed patch"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "glyph-keyed",
-        "href": "https://www.w3.org/TR/IFT/#glyph-keyed",
-        "title": "Glyph Keyed",
-        "number": "6.4"
-      },
-      "definedIn": "table"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "glyph-keyed-patch-flags",
@@ -1791,9 +1967,10 @@
         "id": "glyph-keyed",
         "href": "https://www.w3.org/TR/IFT/#glyph-keyed",
         "title": "Glyph Keyed",
-        "number": "6.4"
+        "number": "6.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "glyph-keyed-patch-compatibilityid",
@@ -1812,9 +1989,32 @@
         "id": "glyph-keyed",
         "href": "https://www.w3.org/TR/IFT/#glyph-keyed",
         "title": "Glyph Keyed",
-        "number": "6.4"
+        "number": "6.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "glyph-keyed-patch-maxuncompressedlength",
+      "href": "https://www.w3.org/TR/IFT/#glyph-keyed-patch-maxuncompressedlength",
+      "linkingText": [
+        "maxUncompressedLength"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "Glyph keyed patch"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "glyph-keyed",
+        "href": "https://www.w3.org/TR/IFT/#glyph-keyed",
+        "title": "Glyph Keyed",
+        "number": "6.3"
+      },
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "glyph-keyed-patch-brotlistream",
@@ -1833,9 +2033,10 @@
         "id": "glyph-keyed",
         "href": "https://www.w3.org/TR/IFT/#glyph-keyed",
         "title": "Glyph Keyed",
-        "number": "6.4"
+        "number": "6.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "glyphpatches",
@@ -1852,9 +2053,10 @@
         "id": "glyph-keyed",
         "href": "https://www.w3.org/TR/IFT/#glyph-keyed",
         "title": "Glyph Keyed",
-        "number": "6.4"
+        "number": "6.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "glyphpatches-glyphcount",
@@ -1873,9 +2075,10 @@
         "id": "glyph-keyed",
         "href": "https://www.w3.org/TR/IFT/#glyph-keyed",
         "title": "Glyph Keyed",
-        "number": "6.4"
+        "number": "6.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "glyphpatches-glyphids",
@@ -1894,9 +2097,10 @@
         "id": "glyph-keyed",
         "href": "https://www.w3.org/TR/IFT/#glyph-keyed",
         "title": "Glyph Keyed",
-        "number": "6.4"
+        "number": "6.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "glyphpatches-tables",
@@ -1915,9 +2119,10 @@
         "id": "glyph-keyed",
         "href": "https://www.w3.org/TR/IFT/#glyph-keyed",
         "title": "Glyph Keyed",
-        "number": "6.4"
+        "number": "6.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "glyphpatches-glyphdataoffsets",
@@ -1936,9 +2141,10 @@
         "id": "glyph-keyed",
         "href": "https://www.w3.org/TR/IFT/#glyph-keyed",
         "title": "Glyph Keyed",
-        "number": "6.4"
+        "number": "6.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "glyphpatches-glyphdata",
@@ -1957,9 +2163,10 @@
         "id": "glyph-keyed",
         "href": "https://www.w3.org/TR/IFT/#glyph-keyed",
         "title": "Glyph Keyed",
-        "number": "6.4"
+        "number": "6.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "abstract-opdef-apply-glyph-keyed-patch",
@@ -1976,9 +2183,10 @@
         "id": "apply-glyph-keyed",
         "href": "https://www.w3.org/TR/IFT/#apply-glyph-keyed",
         "title": "Applying Glyph Keyed Patches",
-        "number": "6.4.1"
+        "number": "6.3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "glyph-closure",
@@ -1997,7 +2205,8 @@
         "title": "Encoding Considerations",
         "number": "7.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

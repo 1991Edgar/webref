@@ -16,8 +16,7 @@
       "https://infra.spec.whatwg.org/": {},
       "https://w3c.github.io/permissions/": {},
       "https://webidl.spec.whatwg.org/": {},
-      "https://www.khronos.org/registry/webgl/specs/latest/2.0/": {},
-      "https://www.w3.org/TR/webxr/": {}
+      "https://www.khronos.org/registry/webgl/specs/latest/2.0/": {}
     },
     "autolinks": {
       "https://immersive-web.github.io/layers/": {
@@ -85,7 +84,7 @@
           "requestanimationframe",
           "xrframe-interface",
           "xr-compositor",
-          "ended"
+          "xrsession-ended"
         ]
       }
     }

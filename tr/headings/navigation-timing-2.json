@@ -11,10 +11,25 @@
       "title": "Navigation Timing Level 2"
     },
     {
+      "id": "abstract",
+      "href": "https://www.w3.org/TR/navigation-timing-2/#abstract",
+      "level": 2,
+      "title": "Abstract"
+    },
+    {
+      "id": "sotd",
+      "href": "https://www.w3.org/TR/navigation-timing-2/#sotd",
+      "level": 2,
+      "title": "Status of this document"
+    },
+    {
       "id": "toc",
       "href": "https://www.w3.org/TR/navigation-timing-2/#toc",
       "level": 2,
-      "title": "Table of Contents"
+      "title": "Table of Contents",
+      "alternateIds": [
+        "contents"
+      ]
     },
     {
       "id": "introduction",
@@ -62,8 +77,22 @@
       "id": "sec-performance-navigation-types",
       "href": "https://www.w3.org/TR/navigation-timing-2/#sec-performance-navigation-types",
       "level": 4,
-      "title": "NavigationTimingType enum",
+      "title": "The NavigationTimingType enum",
       "number": "3.3.1"
+    },
+    {
+      "id": "sec-performance-timing-confidence",
+      "href": "https://www.w3.org/TR/navigation-timing-2/#sec-performance-timing-confidence",
+      "level": 4,
+      "title": "The PerformanceTimingConfidence interface",
+      "number": "3.3.2"
+    },
+    {
+      "id": "sec-performance-timing-confidence-value",
+      "href": "https://www.w3.org/TR/navigation-timing-2/#sec-performance-timing-confidence-value",
+      "level": 4,
+      "title": "The PerformanceTimingConfidenceValue enum",
+      "number": "3.3.3"
     },
     {
       "id": "process",
@@ -122,8 +151,8 @@
       "number": "7.1"
     },
     {
-      "id": "obsolete",
-      "href": "https://www.w3.org/TR/navigation-timing-2/#obsolete",
+      "id": "obsolete-heading",
+      "href": "https://www.w3.org/TR/navigation-timing-2/#obsolete-heading",
       "level": 2,
       "title": "Obsolete",
       "number": "8"
@@ -150,39 +179,71 @@
       "number": "8.3"
     },
     {
-      "id": "conformance",
-      "href": "https://www.w3.org/TR/navigation-timing-2/#conformance",
-      "level": 2,
-      "title": "Conformance",
-      "number": "9"
-    },
-    {
       "id": "acknowledgements",
       "href": "https://www.w3.org/TR/navigation-timing-2/#acknowledgements",
       "level": 2,
       "title": "Acknowledgments",
-      "number": "A"
+      "number": "9"
+    },
+    {
+      "id": "w3c-conformance",
+      "href": "https://www.w3.org/TR/navigation-timing-2/#w3c-conformance",
+      "level": 2,
+      "title": "Conformance"
+    },
+    {
+      "id": "w3c-conventions",
+      "href": "https://www.w3.org/TR/navigation-timing-2/#w3c-conventions",
+      "level": 3,
+      "title": "Document conventions"
+    },
+    {
+      "id": "w3c-conformant-algorithms",
+      "href": "https://www.w3.org/TR/navigation-timing-2/#w3c-conformant-algorithms",
+      "level": 3,
+      "title": "Conformant Algorithms"
+    },
+    {
+      "id": "index",
+      "href": "https://www.w3.org/TR/navigation-timing-2/#index",
+      "level": 2,
+      "title": "Index"
+    },
+    {
+      "id": "index-defined-here",
+      "href": "https://www.w3.org/TR/navigation-timing-2/#index-defined-here",
+      "level": 3,
+      "title": "Terms defined by this specification"
+    },
+    {
+      "id": "index-defined-elsewhere",
+      "href": "https://www.w3.org/TR/navigation-timing-2/#index-defined-elsewhere",
+      "level": 3,
+      "title": "Terms defined by reference"
     },
     {
       "id": "references",
       "href": "https://www.w3.org/TR/navigation-timing-2/#references",
       "level": 2,
-      "title": "References",
-      "number": "B"
+      "title": "References"
     },
     {
-      "id": "normative-references",
-      "href": "https://www.w3.org/TR/navigation-timing-2/#normative-references",
+      "id": "normative",
+      "href": "https://www.w3.org/TR/navigation-timing-2/#normative",
       "level": 3,
-      "title": "Normative references",
-      "number": "B.1"
+      "title": "Normative References"
     },
     {
-      "id": "informative-references",
-      "href": "https://www.w3.org/TR/navigation-timing-2/#informative-references",
+      "id": "informative",
+      "href": "https://www.w3.org/TR/navigation-timing-2/#informative",
       "level": 3,
-      "title": "Informative references",
-      "number": "B.2"
+      "title": "Non-Normative References"
+    },
+    {
+      "id": "idl-index",
+      "href": "https://www.w3.org/TR/navigation-timing-2/#idl-index",
+      "level": 2,
+      "title": "IDL Index"
     }
   ]
 }

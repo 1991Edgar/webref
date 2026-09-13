@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSSOM View Module",
+    "title": "CSSOM View Module Level 1",
     "url": "https://drafts.csswg.org/cssom-view-1/"
   },
   "dfns": [
@@ -21,7 +21,8 @@
         "title": "Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "scrolling-box",
@@ -40,7 +41,8 @@
         "title": "Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "overflow-directions",
@@ -59,7 +61,8 @@
         "title": "Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "scrolling-area",
@@ -70,7 +73,7 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
         "id": "terminology",
@@ -78,7 +81,8 @@
         "title": "Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "scrolling-area-origin",
@@ -97,7 +101,8 @@
         "title": "Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "beginning-edges",
@@ -116,7 +121,8 @@
         "title": "Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "ending-edges",
@@ -135,76 +141,18 @@
         "title": "Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "visual-viewport",
-      "href": "https://drafts.csswg.org/cssom-view-1/#visual-viewport",
-      "linkingText": [
-        "visual viewport"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "terminology",
-        "href": "https://drafts.csswg.org/cssom-view-1/#terminology",
-        "title": "Terminology",
-        "number": "2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "layout-viewport",
-      "href": "https://drafts.csswg.org/cssom-view-1/#layout-viewport",
-      "linkingText": [
-        "layout viewport"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "public",
-      "informative": false,
-      "heading": {
-        "id": "terminology",
-        "href": "https://drafts.csswg.org/cssom-view-1/#terminology",
-        "title": "Terminology",
-        "number": "2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "scale-factor",
-      "href": "https://drafts.csswg.org/cssom-view-1/#scale-factor",
-      "linkingText": [
-        "scale factor"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "terminology",
-        "href": "https://drafts.csswg.org/cssom-view-1/#terminology",
-        "title": "Terminology",
-        "number": "2"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "visualviewport-associated-document",
-      "href": "https://drafts.csswg.org/cssom-view-1/#visualviewport-associated-document",
+      "id": "associated-document",
+      "href": "https://drafts.csswg.org/cssom-view-1/#associated-document",
       "linkingText": [
         "associated document"
       ],
       "localLinkingText": [],
       "type": "dfn",
-      "for": [
-        "visualviewport"
-      ],
+      "for": [],
       "access": "private",
       "informative": false,
       "heading": {
@@ -213,7 +161,8 @@
         "title": "Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "svg-layout-box",
@@ -232,7 +181,8 @@
         "title": "Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "transforms",
@@ -251,7 +201,8 @@
         "title": "Terminology",
         "number": "2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "page-zoom",
@@ -270,7 +221,8 @@
         "title": "Zooming",
         "number": "2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "web-exposed-screen-area",
@@ -289,7 +241,8 @@
         "title": "Web-exposed screen information",
         "number": "2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "web-exposed-available-screen-area",
@@ -308,7 +261,8 @@
         "title": "Web-exposed screen information",
         "number": "2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "perform-a-scroll",
@@ -327,7 +281,8 @@
         "title": "Scrolling",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "viewport-perform-a-scroll",
@@ -348,7 +303,8 @@
         "title": "Scrolling",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "scroll-completed",
@@ -367,7 +323,8 @@
         "title": "Scrolling",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "concept-smooth-scroll",
@@ -386,7 +343,8 @@
         "title": "Scrolling",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "smooth-scroll-completed",
@@ -405,7 +363,8 @@
         "title": "Scrolling",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "smooth-scroll-aborted",
@@ -424,7 +383,8 @@
         "title": "Scrolling",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "concept-instant-scroll",
@@ -443,7 +403,8 @@
         "title": "Scrolling",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "scroll-to-the-beginning-of-the-document",
@@ -462,7 +423,8 @@
         "title": "Scrolling",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "normalize-non-finite-values",
@@ -481,7 +443,8 @@
         "title": "WebIDL values",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "enumdef-scrollbehavior",
@@ -500,7 +463,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-scrollbehavior-auto",
@@ -521,7 +485,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-scrollbehavior-instant",
@@ -542,7 +507,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-scrollbehavior-smooth",
@@ -563,7 +529,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-scrolloptions",
@@ -582,7 +549,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-scrolloptions-behavior",
@@ -603,7 +571,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-scrolltooptions",
@@ -622,7 +591,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-scrolltooptions-left",
@@ -643,7 +613,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-scrolltooptions-top",
@@ -664,7 +635,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-window-matchmedia-query-query",
@@ -685,7 +657,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-window-moveto-x-y-x",
@@ -706,7 +679,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-window-moveto-x-y-y",
@@ -727,7 +701,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-window-moveby-x-y-x",
@@ -748,7 +723,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-window-moveby-x-y-y",
@@ -769,7 +745,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-window-resizeto-width-height-width",
@@ -790,7 +767,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-window-resizeto-width-height-height",
@@ -811,7 +789,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-window-resizeby-x-y-x",
@@ -832,7 +811,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-window-resizeby-x-y-y",
@@ -853,7 +833,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-window-scroll-options-options",
@@ -875,7 +856,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-window-scroll-x-y-x",
@@ -896,7 +878,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-window-scroll-x-y-y",
@@ -917,7 +900,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-window-scrollto-options-options",
@@ -939,7 +923,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-window-scrollto-x-y-x",
@@ -960,7 +945,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-window-scrollto-x-y-y",
@@ -981,7 +967,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-window-scrollby-options-options",
@@ -1003,7 +990,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-window-scrollby-x-y-x",
@@ -1024,7 +1012,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-window-scrollby-x-y-y",
@@ -1045,7 +1034,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-window-matchmedia",
@@ -1066,7 +1056,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-window-screen",
@@ -1087,7 +1078,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-window-visualviewport",
@@ -1108,7 +1100,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-window-moveto",
@@ -1129,7 +1122,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-window-moveby",
@@ -1150,7 +1144,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-window-resizeto",
@@ -1171,7 +1166,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-window-resizeby",
@@ -1192,7 +1188,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-window-innerwidth",
@@ -1213,7 +1210,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-window-innerheight",
@@ -1234,7 +1232,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-window-scrollx",
@@ -1255,7 +1254,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-window-pagexoffset",
@@ -1276,7 +1276,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-window-scrolly",
@@ -1297,7 +1298,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-window-pageyoffset",
@@ -1318,7 +1320,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-window-scroll",
@@ -1341,7 +1344,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-window-scrollto",
@@ -1364,7 +1368,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-window-scrollby",
@@ -1387,7 +1392,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-window-screenx",
@@ -1408,7 +1414,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-window-screenleft",
@@ -1429,7 +1436,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-window-screeny",
@@ -1450,7 +1458,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-window-screentop",
@@ -1471,7 +1480,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-window-outerwidth",
@@ -1492,7 +1502,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-window-outerheight",
@@ -1513,7 +1524,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-window-devicepixelratio",
@@ -1534,7 +1546,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "determine-the-device-pixel-ratio",
@@ -1553,7 +1566,8 @@
         "title": "Extensions to the Window Interface",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "set-up-browsing-context-features",
@@ -1572,7 +1586,8 @@
         "title": "The features argument to the open() method",
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "supported-open-feature-name",
@@ -1591,7 +1606,8 @@
         "title": "The features argument to the open() method",
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "supported-open-feature-name-width",
@@ -1612,7 +1628,8 @@
         "title": "The features argument to the open() method",
         "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "supported-open-feature-name-height",
@@ -1633,7 +1650,8 @@
         "title": "The features argument to the open() method",
         "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "supported-open-feature-name-left",
@@ -1654,7 +1672,8 @@
         "title": "The features argument to the open() method",
         "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "supported-open-feature-name-top",
@@ -1675,7 +1694,8 @@
         "title": "The features argument to the open() method",
         "number": "4.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "mediaquerylist-media-query-list",
@@ -1696,7 +1716,8 @@
         "title": "The MediaQueryList Interface",
         "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "mediaquerylist-document",
@@ -1717,7 +1738,8 @@
         "title": "The MediaQueryList Interface",
         "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "mediaquerylist-media",
@@ -1738,7 +1760,8 @@
         "title": "The MediaQueryList Interface",
         "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "mediaquerylist-matches-state",
@@ -1759,7 +1782,8 @@
         "title": "The MediaQueryList Interface",
         "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "evaluate-media-queries-and-report-changes",
@@ -1778,7 +1802,8 @@
         "title": "The MediaQueryList Interface",
         "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "mediaquerylist",
@@ -1797,7 +1822,8 @@
         "title": "The MediaQueryList Interface",
         "number": "4.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mediaquerylist-addlistener-callback-callback",
@@ -1818,7 +1844,8 @@
         "title": "The MediaQueryList Interface",
         "number": "4.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mediaquerylist-removelistener-callback-callback",
@@ -1839,7 +1866,8 @@
         "title": "The MediaQueryList Interface",
         "number": "4.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mediaquerylist-media",
@@ -1860,7 +1888,8 @@
         "title": "The MediaQueryList Interface",
         "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mediaquerylist-matches",
@@ -1881,7 +1910,8 @@
         "title": "The MediaQueryList Interface",
         "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mediaquerylist-addlistener",
@@ -1902,7 +1932,8 @@
         "title": "The MediaQueryList Interface",
         "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mediaquerylist-removelistener",
@@ -1923,7 +1954,8 @@
         "title": "The MediaQueryList Interface",
         "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mediaquerylist-onchange",
@@ -1944,7 +1976,8 @@
         "title": "The MediaQueryList Interface",
         "number": "4.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "mediaquerylistevent",
@@ -1963,7 +1996,8 @@
         "title": "The MediaQueryList Interface",
         "number": "4.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mediaquerylistevent-mediaquerylistevent",
@@ -1987,7 +2021,8 @@
         "title": "The MediaQueryList Interface",
         "number": "4.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mediaquerylistevent-mediaquerylistevent-type-eventinitdict-type",
@@ -2011,7 +2046,8 @@
         "title": "The MediaQueryList Interface",
         "number": "4.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mediaquerylistevent-mediaquerylistevent-type-eventinitdict-eventinitdict",
@@ -2035,7 +2071,8 @@
         "title": "The MediaQueryList Interface",
         "number": "4.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-mediaquerylisteventinit",
@@ -2054,7 +2091,8 @@
         "title": "The MediaQueryList Interface",
         "number": "4.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mediaquerylisteventinit-media",
@@ -2075,7 +2113,8 @@
         "title": "The MediaQueryList Interface",
         "number": "4.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mediaquerylisteventinit-matches",
@@ -2096,7 +2135,8 @@
         "title": "The MediaQueryList Interface",
         "number": "4.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mediaquerylistevent-media",
@@ -2117,7 +2157,8 @@
         "title": "The MediaQueryList Interface",
         "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mediaquerylistevent-matches",
@@ -2138,7 +2179,8 @@
         "title": "The MediaQueryList Interface",
         "number": "4.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "eventdef-mediaquerylist-change",
@@ -2159,7 +2201,8 @@
         "title": "Event summary",
         "number": "4.2.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "screen",
@@ -2178,7 +2221,8 @@
         "title": "The Screen Interface",
         "number": "4.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-screen-availwidth",
@@ -2199,7 +2243,8 @@
         "title": "The Screen Interface",
         "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-screen-availheight",
@@ -2220,7 +2265,8 @@
         "title": "The Screen Interface",
         "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-screen-width",
@@ -2241,7 +2287,8 @@
         "title": "The Screen Interface",
         "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-screen-height",
@@ -2262,7 +2309,8 @@
         "title": "The Screen Interface",
         "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-screen-colordepth",
@@ -2283,7 +2331,8 @@
         "title": "The Screen Interface",
         "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-screen-pixeldepth",
@@ -2304,7 +2353,8 @@
         "title": "The Screen Interface",
         "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-document-elementfrompoint-x-y-x",
@@ -2325,7 +2375,8 @@
         "title": "Extensions to the Document Interface",
         "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-document-elementfrompoint-x-y-y",
@@ -2346,7 +2397,8 @@
         "title": "Extensions to the Document Interface",
         "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-document-elementsfrompoint-x-y-x",
@@ -2367,7 +2419,8 @@
         "title": "Extensions to the Document Interface",
         "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-document-elementsfrompoint-x-y-y",
@@ -2388,7 +2441,8 @@
         "title": "Extensions to the Document Interface",
         "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-document-caretpositionfrompoint-x-y-options-x",
@@ -2410,7 +2464,8 @@
         "title": "Extensions to the Document Interface",
         "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-document-caretpositionfrompoint-x-y-options-y",
@@ -2432,7 +2487,8 @@
         "title": "Extensions to the Document Interface",
         "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-document-caretpositionfrompoint-x-y-options-options",
@@ -2454,7 +2510,8 @@
         "title": "Extensions to the Document Interface",
         "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-caretpositionfrompointoptions",
@@ -2473,7 +2530,8 @@
         "title": "Extensions to the Document Interface",
         "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-caretpositionfrompointoptions-shadowroots",
@@ -2494,7 +2552,8 @@
         "title": "Extensions to the Document Interface",
         "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-document-elementfrompoint",
@@ -2515,7 +2574,8 @@
         "title": "Extensions to the Document Interface",
         "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-document-elementsfrompoint",
@@ -2536,7 +2596,8 @@
         "title": "Extensions to the Document Interface",
         "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-document-caretpositionfrompoint",
@@ -2558,7 +2619,8 @@
         "title": "Extensions to the Document Interface",
         "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-document-scrollingelement",
@@ -2579,7 +2641,8 @@
         "title": "Extensions to the Document Interface",
         "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "caret-position",
@@ -2598,7 +2661,8 @@
         "title": "The CaretPosition Interface",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "caret-node",
@@ -2617,7 +2681,8 @@
         "title": "The CaretPosition Interface",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "caret-offset",
@@ -2636,7 +2701,8 @@
         "title": "The CaretPosition Interface",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "caretposition",
@@ -2655,7 +2721,8 @@
         "title": "The CaretPosition Interface",
         "number": "5.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-caretposition-offsetnode",
@@ -2676,7 +2743,8 @@
         "title": "The CaretPosition Interface",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-caretposition-offset",
@@ -2697,7 +2765,8 @@
         "title": "The CaretPosition Interface",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-caretposition-getclientrect",
@@ -2718,7 +2787,8 @@
         "title": "The CaretPosition Interface",
         "number": "5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "enumdef-scrolllogicalposition",
@@ -2737,7 +2807,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-scrolllogicalposition-start",
@@ -2758,7 +2829,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-scrolllogicalposition-center",
@@ -2779,7 +2851,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-scrolllogicalposition-end",
@@ -2800,7 +2873,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-scrolllogicalposition-nearest",
@@ -2821,7 +2895,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-scrollintoviewoptions",
@@ -2840,7 +2915,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-scrollintoviewoptions-block",
@@ -2861,7 +2937,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-scrollintoviewoptions-inline",
@@ -2882,7 +2959,94 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-scrollintoviewoptions-container",
+      "href": "https://drafts.csswg.org/cssom-view-1/#dom-scrollintoviewoptions-container",
+      "linkingText": [
+        "container"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "ScrollIntoViewOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extension-to-the-element-interface",
+        "href": "https://drafts.csswg.org/cssom-view-1/#extension-to-the-element-interface",
+        "title": "Extensions to the Element Interface",
+        "number": "6"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "enumdef-scrollintoviewcontainer",
+      "href": "https://drafts.csswg.org/cssom-view-1/#enumdef-scrollintoviewcontainer",
+      "linkingText": [
+        "ScrollIntoViewContainer"
+      ],
+      "localLinkingText": [],
+      "type": "enum",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extension-to-the-element-interface",
+        "href": "https://drafts.csswg.org/cssom-view-1/#extension-to-the-element-interface",
+        "title": "Extensions to the Element Interface",
+        "number": "6"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-scrollintoviewcontainer-all",
+      "href": "https://drafts.csswg.org/cssom-view-1/#dom-scrollintoviewcontainer-all",
+      "linkingText": [
+        "\"all\""
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "ScrollIntoViewContainer"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extension-to-the-element-interface",
+        "href": "https://drafts.csswg.org/cssom-view-1/#extension-to-the-element-interface",
+        "title": "Extensions to the Element Interface",
+        "number": "6"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-scrollintoviewcontainer-nearest",
+      "href": "https://drafts.csswg.org/cssom-view-1/#dom-scrollintoviewcontainer-nearest",
+      "linkingText": [
+        "\"nearest\""
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "ScrollIntoViewContainer"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extension-to-the-element-interface",
+        "href": "https://drafts.csswg.org/cssom-view-1/#extension-to-the-element-interface",
+        "title": "Extensions to the Element Interface",
+        "number": "6"
+      },
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-checkvisibilityoptions",
@@ -2901,7 +3065,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-checkvisibilityoptions-checkopacity",
@@ -2922,7 +3087,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-checkvisibilityoptions-checkvisibilitycss",
@@ -2943,7 +3109,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-checkvisibilityoptions-contentvisibilityauto",
@@ -2964,7 +3131,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-checkvisibilityoptions-opacityproperty",
@@ -2985,7 +3153,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-checkvisibilityoptions-visibilityproperty",
@@ -3006,7 +3175,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-element-checkvisibility-options-options",
@@ -3028,7 +3198,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-element-scrollintoview-arg-arg",
@@ -3050,7 +3221,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-element-scroll-options-options",
@@ -3072,7 +3244,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-element-scroll-x-y-x",
@@ -3093,7 +3266,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-element-scroll-x-y-y",
@@ -3114,7 +3288,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-element-scrollto-options-options",
@@ -3136,7 +3311,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-element-scrollto-x-y-x",
@@ -3157,7 +3333,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-element-scrollto-x-y-y",
@@ -3178,7 +3355,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-element-scrollby-options-options",
@@ -3200,7 +3378,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-element-scrollby-x-y-x",
@@ -3221,7 +3400,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-element-scrollby-x-y-y",
@@ -3242,7 +3422,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-element-getclientrects",
@@ -3263,7 +3444,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-element-getboundingclientrect",
@@ -3284,7 +3466,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "element-get-the-bounding-box",
@@ -3305,7 +3488,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-element-checkvisibility",
@@ -3327,7 +3511,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-element-scrollintoview",
@@ -3349,7 +3534,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-element-scroll",
@@ -3372,7 +3558,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-element-scrollto",
@@ -3395,7 +3582,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-element-scrollby",
@@ -3418,7 +3606,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-element-scrolltop",
@@ -3439,7 +3628,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-element-scrollleft",
@@ -3460,7 +3650,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-element-scrollwidth",
@@ -3481,7 +3672,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-element-scrollheight",
@@ -3502,7 +3694,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-element-clienttop",
@@ -3523,7 +3716,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-element-clientleft",
@@ -3544,7 +3738,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-element-clientwidth",
@@ -3565,7 +3760,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-element-clientheight",
@@ -3586,7 +3782,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-element-currentcsszoom",
@@ -3607,7 +3804,8 @@
         "title": "Extensions to the Element Interface",
         "number": "6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "determine-the-scroll-into-view-position",
@@ -3626,7 +3824,8 @@
         "title": "Element Scrolling Members",
         "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "scroll-a-target-into-view",
@@ -3645,7 +3844,8 @@
         "title": "Element Scrolling Members",
         "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "scroll-an-element",
@@ -3664,7 +3864,30 @@
         "title": "Element Scrolling Members",
         "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dom-htmlelement-scrollparent",
+      "href": "https://drafts.csswg.org/cssom-view-1/#dom-htmlelement-scrollparent",
+      "linkingText": [
+        "scrollParent"
+      ],
+      "localLinkingText": [],
+      "type": "attribute",
+      "for": [
+        "HTMLElement"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "extensions-to-the-htmlelement-interface",
+        "href": "https://drafts.csswg.org/cssom-view-1/#extensions-to-the-htmlelement-interface",
+        "title": "Extensions to the HTMLElement Interface",
+        "number": "7"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-htmlelement-offsetparent",
@@ -3685,7 +3908,8 @@
         "title": "Extensions to the HTMLElement Interface",
         "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-htmlelement-offsettop",
@@ -3706,7 +3930,8 @@
         "title": "Extensions to the HTMLElement Interface",
         "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-htmlelement-offsetleft",
@@ -3727,7 +3952,8 @@
         "title": "Extensions to the HTMLElement Interface",
         "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-htmlelement-offsetwidth",
@@ -3748,7 +3974,8 @@
         "title": "Extensions to the HTMLElement Interface",
         "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-htmlelement-offsetheight",
@@ -3769,7 +3996,8 @@
         "title": "Extensions to the HTMLElement Interface",
         "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-htmlimageelement-x",
@@ -3790,7 +4018,8 @@
         "title": "Extensions to the HTMLImageElement Interface",
         "number": "8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-htmlimageelement-y",
@@ -3811,7 +4040,8 @@
         "title": "Extensions to the HTMLImageElement Interface",
         "number": "8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-range-getclientrects",
@@ -3832,7 +4062,8 @@
         "title": "Extensions to the Range Interface",
         "number": "9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-range-getboundingclientrect",
@@ -3853,7 +4084,8 @@
         "title": "Extensions to the Range Interface",
         "number": "9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mouseeventinit-screenx",
@@ -3873,7 +4105,8 @@
         "href": "https://drafts.csswg.org/cssom-view-1/#extensions-to-the-mouseevent-interface",
         "title": "10. Extensions to the MouseEvent Interface"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mouseeventinit-screeny",
@@ -3893,7 +4126,8 @@
         "href": "https://drafts.csswg.org/cssom-view-1/#extensions-to-the-mouseevent-interface",
         "title": "10. Extensions to the MouseEvent Interface"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mouseeventinit-clientx",
@@ -3913,7 +4147,8 @@
         "href": "https://drafts.csswg.org/cssom-view-1/#extensions-to-the-mouseevent-interface",
         "title": "10. Extensions to the MouseEvent Interface"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mouseeventinit-clienty",
@@ -3933,7 +4168,8 @@
         "href": "https://drafts.csswg.org/cssom-view-1/#extensions-to-the-mouseevent-interface",
         "title": "10. Extensions to the MouseEvent Interface"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-mouseevent-screenx",
@@ -3953,7 +4189,8 @@
         "href": "https://drafts.csswg.org/cssom-view-1/#extensions-to-the-mouseevent-interface",
         "title": "10. Extensions to the MouseEvent Interface"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mouseevent-screeny",
@@ -3973,7 +4210,8 @@
         "href": "https://drafts.csswg.org/cssom-view-1/#extensions-to-the-mouseevent-interface",
         "title": "10. Extensions to the MouseEvent Interface"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mouseevent-pagex",
@@ -3993,7 +4231,8 @@
         "href": "https://drafts.csswg.org/cssom-view-1/#extensions-to-the-mouseevent-interface",
         "title": "10. Extensions to the MouseEvent Interface"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mouseevent-pagey",
@@ -4013,7 +4252,8 @@
         "href": "https://drafts.csswg.org/cssom-view-1/#extensions-to-the-mouseevent-interface",
         "title": "10. Extensions to the MouseEvent Interface"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mouseevent-clientx",
@@ -4033,7 +4273,8 @@
         "href": "https://drafts.csswg.org/cssom-view-1/#extensions-to-the-mouseevent-interface",
         "title": "10. Extensions to the MouseEvent Interface"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mouseevent-clienty",
@@ -4053,7 +4294,8 @@
         "href": "https://drafts.csswg.org/cssom-view-1/#extensions-to-the-mouseevent-interface",
         "title": "10. Extensions to the MouseEvent Interface"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mouseevent-x",
@@ -4073,7 +4315,8 @@
         "href": "https://drafts.csswg.org/cssom-view-1/#extensions-to-the-mouseevent-interface",
         "title": "10. Extensions to the MouseEvent Interface"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mouseevent-y",
@@ -4093,7 +4336,8 @@
         "href": "https://drafts.csswg.org/cssom-view-1/#extensions-to-the-mouseevent-interface",
         "title": "10. Extensions to the MouseEvent Interface"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mouseevent-offsetx",
@@ -4113,7 +4357,8 @@
         "href": "https://drafts.csswg.org/cssom-view-1/#extensions-to-the-mouseevent-interface",
         "title": "10. Extensions to the MouseEvent Interface"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-mouseevent-offsety",
@@ -4133,7 +4378,8 @@
         "href": "https://drafts.csswg.org/cssom-view-1/#extensions-to-the-mouseevent-interface",
         "title": "10. Extensions to the MouseEvent Interface"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "enumdef-cssboxtype",
@@ -4152,7 +4398,8 @@
         "title": "The GeometryUtils Interface",
         "number": "11.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssboxtype-margin",
@@ -4173,7 +4420,8 @@
         "title": "The GeometryUtils Interface",
         "number": "11.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssboxtype-border",
@@ -4194,7 +4442,8 @@
         "title": "The GeometryUtils Interface",
         "number": "11.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssboxtype-padding",
@@ -4215,7 +4464,8 @@
         "title": "The GeometryUtils Interface",
         "number": "11.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-cssboxtype-content",
@@ -4236,7 +4486,8 @@
         "title": "The GeometryUtils Interface",
         "number": "11.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-boxquadoptions",
@@ -4255,7 +4506,8 @@
         "title": "The GeometryUtils Interface",
         "number": "11.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-boxquadoptions-box",
@@ -4276,7 +4528,8 @@
         "title": "The GeometryUtils Interface",
         "number": "11.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-boxquadoptions-relativeto",
@@ -4297,7 +4550,8 @@
         "title": "The GeometryUtils Interface",
         "number": "11.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-convertcoordinateoptions",
@@ -4316,7 +4570,8 @@
         "title": "The GeometryUtils Interface",
         "number": "11.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-convertcoordinateoptions-frombox",
@@ -4337,7 +4592,8 @@
         "title": "The GeometryUtils Interface",
         "number": "11.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-convertcoordinateoptions-tobox",
@@ -4358,7 +4614,8 @@
         "title": "The GeometryUtils Interface",
         "number": "11.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "geometryutils",
@@ -4377,7 +4634,8 @@
         "title": "The GeometryUtils Interface",
         "number": "11.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-geometryutils-getboxquads-options-options",
@@ -4399,7 +4657,8 @@
         "title": "The GeometryUtils Interface",
         "number": "11.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-geometryutils-convertquadfromnode-quad-from-options-quad",
@@ -4421,7 +4680,8 @@
         "title": "The GeometryUtils Interface",
         "number": "11.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-geometryutils-convertquadfromnode-quad-from-options-from",
@@ -4443,7 +4703,8 @@
         "title": "The GeometryUtils Interface",
         "number": "11.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-geometryutils-convertquadfromnode-quad-from-options-options",
@@ -4465,7 +4726,8 @@
         "title": "The GeometryUtils Interface",
         "number": "11.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-geometryutils-convertrectfromnode-rect-from-options-rect",
@@ -4487,7 +4749,8 @@
         "title": "The GeometryUtils Interface",
         "number": "11.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-geometryutils-convertrectfromnode-rect-from-options-from",
@@ -4509,7 +4772,8 @@
         "title": "The GeometryUtils Interface",
         "number": "11.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-geometryutils-convertrectfromnode-rect-from-options-options",
@@ -4531,7 +4795,8 @@
         "title": "The GeometryUtils Interface",
         "number": "11.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-geometryutils-convertpointfromnode-point-from-options-point",
@@ -4553,7 +4818,8 @@
         "title": "The GeometryUtils Interface",
         "number": "11.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-geometryutils-convertpointfromnode-point-from-options-from",
@@ -4575,7 +4841,8 @@
         "title": "The GeometryUtils Interface",
         "number": "11.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-geometryutils-convertpointfromnode-point-from-options-options",
@@ -4597,7 +4864,8 @@
         "title": "The GeometryUtils Interface",
         "number": "11.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedefdef-geometrynode",
@@ -4616,7 +4884,110 @@
         "title": "The GeometryUtils Interface",
         "number": "11.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "geometryutils-associated-document",
+      "href": "https://drafts.csswg.org/cssom-view-1/#geometryutils-associated-document",
+      "linkingText": [
+        "associated document"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "GeometryUtils"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-geometryutils-interface",
+        "href": "https://drafts.csswg.org/cssom-view-1/#the-geometryutils-interface",
+        "title": "The GeometryUtils Interface",
+        "number": "11.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "check-the-documents-for-coordinate-conversion",
+      "href": "https://drafts.csswg.org/cssom-view-1/#check-the-documents-for-coordinate-conversion",
+      "linkingText": [
+        "check the documents for coordinate conversion"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "the-geometryutils-interface",
+        "href": "https://drafts.csswg.org/cssom-view-1/#the-geometryutils-interface",
+        "title": "The GeometryUtils Interface",
+        "number": "11.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "get-the-complete-transform",
+      "href": "https://drafts.csswg.org/cssom-view-1/#get-the-complete-transform",
+      "linkingText": [
+        "get the complete transform"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-geometryutils-interface",
+        "href": "https://drafts.csswg.org/cssom-view-1/#the-geometryutils-interface",
+        "title": "The GeometryUtils Interface",
+        "number": "11.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "adjust-a-point-to-the-border-box",
+      "href": "https://drafts.csswg.org/cssom-view-1/#adjust-a-point-to-the-border-box",
+      "linkingText": [
+        "adjust a point to the border box"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-geometryutils-interface",
+        "href": "https://drafts.csswg.org/cssom-view-1/#the-geometryutils-interface",
+        "title": "The GeometryUtils Interface",
+        "number": "11.1"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "adjust-a-point-from-the-border-box",
+      "href": "https://drafts.csswg.org/cssom-view-1/#adjust-a-point-from-the-border-box",
+      "linkingText": [
+        "adjust a point from the border box"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "the-geometryutils-interface",
+        "href": "https://drafts.csswg.org/cssom-view-1/#the-geometryutils-interface",
+        "title": "The GeometryUtils Interface",
+        "number": "11.1"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-geometryutils-getboxquads",
@@ -4638,7 +5009,8 @@
         "title": "The GeometryUtils Interface",
         "number": "11.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-geometryutils-convertquadfromnode",
@@ -4660,7 +5032,8 @@
         "title": "The GeometryUtils Interface",
         "number": "11.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-geometryutils-convertrectfromnode",
@@ -4682,7 +5055,8 @@
         "title": "The GeometryUtils Interface",
         "number": "11.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-geometryutils-convertpointfromnode",
@@ -4704,7 +5078,8 @@
         "title": "The GeometryUtils Interface",
         "number": "11.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "visualviewport",
@@ -4723,7 +5098,8 @@
         "title": "The VisualViewport Interface",
         "number": "12.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-visualviewport-offsetleft",
@@ -4744,7 +5120,8 @@
         "title": "The VisualViewport Interface",
         "number": "12.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-visualviewport-offsettop",
@@ -4765,7 +5142,8 @@
         "title": "The VisualViewport Interface",
         "number": "12.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-visualviewport-pageleft",
@@ -4786,7 +5164,8 @@
         "title": "The VisualViewport Interface",
         "number": "12.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-visualviewport-pagetop",
@@ -4807,7 +5186,8 @@
         "title": "The VisualViewport Interface",
         "number": "12.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-visualviewport-width",
@@ -4828,7 +5208,8 @@
         "title": "The VisualViewport Interface",
         "number": "12.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-visualviewport-height",
@@ -4849,7 +5230,8 @@
         "title": "The VisualViewport Interface",
         "number": "12.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-visualviewport-scale",
@@ -4870,7 +5252,8 @@
         "title": "The VisualViewport Interface",
         "number": "12.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-visualviewport-onresize",
@@ -4891,7 +5274,8 @@
         "title": "The VisualViewport Interface",
         "number": "12.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-visualviewport-onscroll",
@@ -4912,7 +5296,8 @@
         "title": "The VisualViewport Interface",
         "number": "12.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-visualviewport-onscrollend",
@@ -4933,7 +5318,8 @@
         "title": "The VisualViewport Interface",
         "number": "12.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "document-run-the-resize-steps",
@@ -4954,13 +5340,14 @@
         "title": "Resizing viewports",
         "number": "13.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "document-pending-scroll-event-targets",
-      "href": "https://drafts.csswg.org/cssom-view-1/#document-pending-scroll-event-targets",
+      "id": "document-pending-scroll-events",
+      "href": "https://drafts.csswg.org/cssom-view-1/#document-pending-scroll-events",
       "linkingText": [
-        "pending scroll event targets"
+        "pending scroll events"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -4975,28 +5362,8 @@
         "title": "Scrolling",
         "number": "13.2"
       },
-      "definedIn": "prose"
-    },
-    {
-      "id": "document-pending-scrollend-event-targets",
-      "href": "https://drafts.csswg.org/cssom-view-1/#document-pending-scrollend-event-targets",
-      "linkingText": [
-        "pending scrollend event targets"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [
-        "Document"
-      ],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "scrolling-events",
-        "href": "https://drafts.csswg.org/cssom-view-1/#scrolling-events",
-        "title": "Scrolling",
-        "number": "13.2"
-      },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "document-run-the-scroll-steps",
@@ -5017,7 +5384,8 @@
         "title": "Scrolling",
         "number": "13.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "eventdef-window-resize",
@@ -5039,7 +5407,8 @@
         "title": "Event summary",
         "number": "13.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "eventdef-document-scroll",
@@ -5062,7 +5431,8 @@
         "title": "Event summary",
         "number": "13.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "eventdef-document-scrollend",
@@ -5085,7 +5455,8 @@
         "title": "Event summary",
         "number": "13.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "run-snapshot-post-layout-state-steps",
@@ -5103,7 +5474,8 @@
         "href": "https://drafts.csswg.org/cssom-view-1/#post-layout-snapshot",
         "title": "14. Post-Layout State Snapshotting"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

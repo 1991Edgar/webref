@@ -6,16 +6,12 @@
   "refs": {
     "normative": [
       {
-        "name": "JSON-LD11",
-        "url": "https://www.w3.org/TR/json-ld11/"
+        "name": "BCP47",
+        "url": "https://www.rfc-editor.org/info/rfc5646/"
       },
       {
         "name": "NFC",
         "url": "https://www.w3.org/TR/nfc/"
-      },
-      {
-        "name": "RDF-SCHEMA",
-        "url": "https://www.w3.org/TR/rdf-schema/"
       },
       {
         "name": "RDF-SYNTAX-GRAMMAR-19990222",
@@ -30,44 +26,24 @@
         "url": "https://www.w3.org/TR/rdf12-n-triples/"
       },
       {
-        "name": "RDF12-SEMANTICS",
-        "url": "https://www.w3.org/TR/rdf12-semantics/"
-      },
-      {
-        "name": "RDF12-TRIG",
-        "url": "https://www.w3.org/TR/rdf12-trig/"
-      },
-      {
-        "name": "RDF12-TURTLE",
-        "url": "https://www.w3.org/TR/rdf12-turtle/"
-      },
-      {
-        "name": "RDFA-PRIMER",
-        "url": "https://www.w3.org/TR/rdfa-primer/"
-      },
-      {
         "name": "RFC2119",
-        "url": "https://www.rfc-editor.org/rfc/rfc2119"
+        "url": "https://www.rfc-editor.org/info/rfc2119/"
       },
       {
         "name": "RFC3870",
-        "url": "https://www.rfc-editor.org/rfc/rfc3870"
+        "url": "https://www.rfc-editor.org/info/rfc3870/"
       },
       {
         "name": "RFC3986",
-        "url": "https://www.rfc-editor.org/rfc/rfc3986"
+        "url": "https://www.rfc-editor.org/info/rfc3986/"
       },
       {
         "name": "RFC8174",
-        "url": "https://www.rfc-editor.org/rfc/rfc8174"
+        "url": "https://www.rfc-editor.org/info/rfc8174/"
       },
       {
         "name": "SAX",
         "url": "https://accu.org/journals/overload/7/34/cornish_515/"
-      },
-      {
-        "name": "STRIPEDRDF",
-        "url": "http://www.w3.org/2001/10/stripes/"
       },
       {
         "name": "UNICODE",
@@ -104,8 +80,24 @@
         "url": "https://www.w3.org/TR/charmod/"
       },
       {
+        "name": "ITS20",
+        "url": "https://www.w3.org/TR/its20/"
+      },
+      {
+        "name": "JSON-LD11",
+        "url": "https://www.w3.org/TR/json-ld11/"
+      },
+      {
+        "name": "RDF-SCHEMA",
+        "url": "https://www.w3.org/TR/rdf-schema/"
+      },
+      {
         "name": "rdf-syntax-grammar",
         "url": "https://www.w3.org/TR/rdf-syntax-grammar/"
+      },
+      {
+        "name": "RDF12-INTEROP",
+        "url": "https://w3c.github.io/rdf-interop/spec/"
       },
       {
         "name": "RDF12-N-QUADS",
@@ -117,11 +109,27 @@
       },
       {
         "name": "RDF12-PRIMER",
-        "url": "https://w3c.github.io/rdf-primer/spec/"
+        "url": "https://www.w3.org/TR/rdf12-primer/"
       },
       {
         "name": "RDF12-SCHEMA",
         "url": "https://www.w3.org/TR/rdf12-schema/"
+      },
+      {
+        "name": "RDF12-SEMANTICS",
+        "url": "https://www.w3.org/TR/rdf12-semantics/"
+      },
+      {
+        "name": "RDF12-TRIG",
+        "url": "https://www.w3.org/TR/rdf12-trig/"
+      },
+      {
+        "name": "RDF12-TURTLE",
+        "url": "https://www.w3.org/TR/rdf12-turtle/"
+      },
+      {
+        "name": "RDFA-PRIMER",
+        "url": "https://www.w3.org/TR/rdfa-primer/"
       },
       {
         "name": "RELAXNG-SCHEMA",
@@ -176,16 +184,16 @@
         "url": "https://www.w3.org/TR/sparql12-update/"
       },
       {
+        "name": "STRIPEDRDF",
+        "url": "http://www.w3.org/2001/10/stripes/"
+      },
+      {
         "name": "SVG10",
         "url": "https://www.w3.org/TR/SVG/"
       },
       {
         "name": "SVG11",
         "url": "https://www.w3.org/TR/SVG11/"
-      },
-      {
-        "name": "XMLSCHEMA11-1",
-        "url": "https://www.w3.org/TR/xmlschema11-1/"
       },
       {
         "name": "XPATH-DATAMODEL-30",

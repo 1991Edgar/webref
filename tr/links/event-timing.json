@@ -6,6 +6,8 @@
   "links": {
     "rawlinks": {
       "https://datatracker.ietf.org/doc/html/rfc2119": {},
+      "https://developer.mozilla.org/en-US/docs/Glossary/First_input_delay": {},
+      "https://developer.mozilla.org/en-US/docs/Glossary/Interaction_to_next_paint": {},
       "https://developer.mozilla.org/en-US/docs/Web/API/EventCounts": {},
       "https://developer.mozilla.org/en-US/docs/Web/API/Performance/eventCounts": {},
       "https://developer.mozilla.org/en-US/docs/Web/API/PerformanceEventTiming": {},
@@ -30,14 +32,12 @@
         ]
       },
       "https://webidl.spec.whatwg.org/": {},
-      "https://wicg.github.io/element-timing/": {},
       "https://www.nngroup.com/articles/response-times-3-important-limits/": {},
       "https://www.w3.org/TR/": {},
       "https://www.w3.org/TR/hr-time-2/": {},
       "https://www.w3.org/TR/paint-timing/": {},
       "https://www.w3.org/TR/performance-timeline/": {},
-      "https://www.w3.org/TR/pointerevents/": {},
-      "https://www.w3.org/TR/pointerevents3/": {},
+      "https://www.w3.org/TR/pointerevents4/": {},
       "https://www.w3.org/TR/touch-events/": {},
       "https://www.w3.org/TR/uievents/": {},
       "https://www.w3.org/groups/wg/webperf": {},
@@ -48,7 +48,7 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {
+      "https://www.w3.org/policies/process/20250818/": {
         "anchors": [
           "recs-and-notes"
         ]
@@ -67,7 +67,10 @@
           "dom-event-cancelable",
           "dom-event-target",
           "retarget",
-          "concept-tree-root"
+          "concept-tree-root",
+          "eventtarget",
+          "dom-node-nodename",
+          "element"
         ]
       },
       "https://html.spec.whatwg.org/multipage/": {
@@ -89,8 +92,8 @@
       },
       "https://html.spec.whatwg.org/multipage/nav-history-apis.html": {
         "anchors": [
-          "concept-document-window",
-          "window"
+          "window",
+          "concept-document-window"
         ]
       },
       "https://html.spec.whatwg.org/multipage/webappapis.html": {
@@ -103,12 +106,12 @@
       "https://infra.spec.whatwg.org/": {
         "anchors": [
           "ordered-map",
-          "ordered-set",
           "map-remove",
           "map-getting-the-values",
           "map-clear",
           "map-exists",
-          "map-set"
+          "map-set",
+          "string-concatenate"
         ]
       },
       "https://w3c.github.io/hr-time/": {
@@ -121,14 +124,15 @@
       },
       "https://w3c.github.io/paint-timing/": {
         "anchors": [
+          "exposed-for-paint-timing",
           "mark-paint-timing"
         ]
       },
       "https://w3c.github.io/performance-timeline/": {
         "anchors": [
-          "dom-performanceentry-starttime",
           "dom-performanceentry-duration",
           "the-performanceobserver-interface",
+          "dom-performanceentry-starttime",
           "the-performanceentry-interface",
           "supportedentrytypes-attribute",
           "dom-performanceentry-name",
@@ -139,39 +143,42 @@
       },
       "https://w3c.github.io/pointerevents/": {
         "anchors": [
+          "the-pointerdown-event",
+          "the-pointermove-event",
+          "the-pointerup-event",
+          "dfn-click",
+          "dfn-auxclick",
+          "dfn-contextmenu",
+          "dfn-dblclick",
+          "dfn-mousedown",
+          "dfn-mouseenter",
+          "dfn-mouseleave",
+          "dfn-mouseout",
+          "dfn-mouseover",
+          "dfn-mouseup",
           "the-pointerover-event",
           "the-pointerenter-event",
-          "the-pointerdown-event",
-          "the-pointerup-event",
           "the-pointercancel-event",
           "the-pointerout-event",
           "the-pointerleave-event",
           "the-gotpointercapture-event",
           "the-lostpointercapture-event",
-          "the-pointermove-event",
-          "the-pointerrawupdate-event"
+          "dfn-mousemove",
+          "the-pointerrawupdate-event",
+          "dfn-wheel"
         ]
       },
       "https://w3c.github.io/touch-events/": {
         "anchors": [
           "the-touchstart-event",
+          "the-touchmove-event",
           "the-touchend-event",
-          "the-touchcancel-event",
-          "the-touchmove-event"
+          "the-touchcancel-event"
         ]
       },
       "https://w3c.github.io/uievents/": {
         "anchors": [
-          "event-type-auxclick",
-          "event-type-click",
-          "event-type-contextmenu",
-          "event-type-dblclick",
-          "event-type-mousedown",
-          "event-type-mouseenter",
-          "event-type-mouseleave",
-          "event-type-mouseout",
-          "event-type-mouseover",
-          "event-type-mouseup",
+          "uievent",
           "event-type-keydown",
           "event-type-keypress",
           "event-type-keyup",
@@ -179,30 +186,23 @@
           "event-type-input",
           "event-type-compositionstart",
           "event-type-compositionupdate",
-          "event-type-compositionend",
-          "event-type-mousemove",
-          "event-type-wheel"
+          "event-type-compositionend"
         ]
       },
       "https://webidl.spec.whatwg.org/": {
         "anchors": [
           "Exposed",
           "idl-boolean",
+          "idl-DOMString",
           "idl-unsigned-long-long",
           "Default",
           "idl-object",
           "this",
-          "idl-DOMString",
           "SameObject",
           "implements"
         ]
       },
-      "https://wicg.github.io/element-timing/": {
-        "anchors": [
-          "get-an-element"
-        ]
-      },
-      "https://www.w3.org/TR/pointerevents3/": {
+      "https://www.w3.org/TR/pointerevents4/": {
         "anchors": [
           "dom-pointerevent-pointerid"
         ]

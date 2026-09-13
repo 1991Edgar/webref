@@ -7,7 +7,15 @@
     "normative": [
       {
         "name": "CSS-FONTS-4",
-        "url": "https://www.w3.org/TR/css-fonts-4/"
+        "url": "https://drafts.csswg.org/css-fonts-4/"
+      },
+      {
+        "name": "FETCH",
+        "url": "https://fetch.spec.whatwg.org/"
+      },
+      {
+        "name": "I18N-GLOSSARY",
+        "url": "https://w3c.github.io/i18n-glossary/"
       },
       {
         "name": "ISO14496-22",
@@ -15,7 +23,7 @@
       },
       {
         "name": "OPEN-TYPE",
-        "url": "https://docs.microsoft.com/en-us/typography/opentype/spec"
+        "url": "https://learn.microsoft.com/en-us/typography/opentype/spec"
       },
       {
         "name": "PFE-report",
@@ -26,24 +34,16 @@
         "url": "https://datatracker.ietf.org/doc/html/rfc2119"
       },
       {
-        "name": "RFC3986",
-        "url": "https://www.rfc-editor.org/rfc/rfc3986"
-      },
-      {
         "name": "RFC4648",
-        "url": "https://www.rfc-editor.org/rfc/rfc4648"
-      },
-      {
-        "name": "RFC6570",
-        "url": "https://www.rfc-editor.org/rfc/rfc6570"
+        "url": "https://www.rfc-editor.org/info/rfc4648/"
       },
       {
         "name": "RFC7932",
-        "url": "https://www.rfc-editor.org/rfc/rfc7932"
+        "url": "https://www.rfc-editor.org/info/rfc7932/"
       },
       {
         "name": "Shared-Brotli",
-        "url": "https://datatracker.ietf.org/doc/html/draft-vandevenne-shared-brotli-format-09"
+        "url": "https://datatracker.ietf.org/doc/html/draft-vandevenne-shared-brotli-format-15"
       },
       {
         "name": "UNICODE",
@@ -51,25 +51,25 @@
       },
       {
         "name": "UTF-8",
-        "url": "https://www.rfc-editor.org/rfc/rfc3629"
+        "url": "https://www.rfc-editor.org/info/rfc3629/"
+      },
+      {
+        "name": "WHATWG-URL",
+        "url": "https://url.spec.whatwg.org/"
       },
       {
         "name": "WOFF2",
-        "url": "https://www.w3.org/TR/WOFF2/"
+        "url": "https://w3c.github.io/woff/woff2/"
       }
     ],
     "informative": [
       {
         "name": "CSS-CONDITIONAL-5",
-        "url": "https://www.w3.org/TR/css-conditional-5/"
+        "url": "https://drafts.csswg.org/css-conditional-5/"
       },
       {
         "name": "ENABLING-TYPOGRAPHY",
-        "url": "https://tiro.com/John/Enabling_Typography_(OTL).pdf"
-      },
-      {
-        "name": "FETCH",
-        "url": "https://fetch.spec.whatwg.org/"
+        "url": "https://www.tiro.com/articles/enabling-typography"
       },
       {
         "name": "RFC9113",

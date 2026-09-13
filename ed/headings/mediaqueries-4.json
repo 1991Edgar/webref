@@ -26,7 +26,10 @@
       "id": "toc",
       "href": "https://drafts.csswg.org/mediaqueries-4/#toc",
       "level": 2,
-      "title": "Table of Contents"
+      "title": "Table of Contents",
+      "alternateIds": [
+        "contents"
+      ]
     },
     {
       "id": "intro",
@@ -302,8 +305,8 @@
       "number": "7.2"
     },
     {
-      "id": "any-input",
-      "href": "https://drafts.csswg.org/mediaqueries-4/#any-input",
+      "id": "@media/any-input",
+      "href": "https://drafts.csswg.org/mediaqueries-4/#%40media%2Fany-input",
       "level": 3,
       "title": "All Available Interaction Capabilities: the any-pointer and any-hover features",
       "number": "7.3"
@@ -424,6 +427,12 @@
       "title": "Non-experimental implementations"
     },
     {
+      "id": "w3c-cr-exit-criteria",
+      "href": "https://drafts.csswg.org/mediaqueries-4/#w3c-cr-exit-criteria",
+      "level": 3,
+      "title": "CR exit criteria"
+    },
+    {
       "id": "index",
       "href": "https://drafts.csswg.org/mediaqueries-4/#index",
       "level": 2,
@@ -457,7 +466,7 @@
       "id": "informative",
       "href": "https://drafts.csswg.org/mediaqueries-4/#informative",
       "level": 3,
-      "title": "Informative References"
+      "title": "Non-Normative References"
     },
     {
       "id": "property-index",

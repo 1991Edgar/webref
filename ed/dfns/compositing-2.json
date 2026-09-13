@@ -1,12 +1,12 @@
 {
   "spec": {
-    "title": "Compositing and Blending Level 2",
-    "url": "https://drafts.fxtf.org/compositing-2/"
+    "title": "Compositing and Blending Module Level 2",
+    "url": "https://drafts.csswg.org/compositing-2/"
   },
   "dfns": [
     {
       "id": "propdef-mix-blend-mode",
-      "href": "https://drafts.fxtf.org/compositing-2/#propdef-mix-blend-mode",
+      "href": "https://drafts.csswg.org/compositing-2/#propdef-mix-blend-mode",
       "linkingText": [
         "mix-blend-mode"
       ],
@@ -17,15 +17,16 @@
       "informative": false,
       "heading": {
         "id": "mix-blend-mode",
-        "href": "https://drafts.fxtf.org/compositing-2/#mix-blend-mode",
+        "href": "https://drafts.csswg.org/compositing-2/#mix-blend-mode",
         "title": "The mix-blend-mode property",
         "number": "3.4.1"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "ltblendmodegt",
-      "href": "https://drafts.fxtf.org/compositing-2/#ltblendmodegt",
+      "href": "https://drafts.csswg.org/compositing-2/#ltblendmodegt",
       "linkingText": [
         "<blend-mode>"
       ],
@@ -36,15 +37,16 @@
       "informative": false,
       "heading": {
         "id": "mix-blend-mode",
-        "href": "https://drafts.fxtf.org/compositing-2/#mix-blend-mode",
+        "href": "https://drafts.csswg.org/compositing-2/#mix-blend-mode",
         "title": "The mix-blend-mode property",
         "number": "3.4.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "propdef-isolation",
-      "href": "https://drafts.fxtf.org/compositing-2/#propdef-isolation",
+      "href": "https://drafts.csswg.org/compositing-2/#propdef-isolation",
       "linkingText": [
         "isolation"
       ],
@@ -55,15 +57,16 @@
       "informative": false,
       "heading": {
         "id": "isolation",
-        "href": "https://drafts.fxtf.org/compositing-2/#isolation",
+        "href": "https://drafts.csswg.org/compositing-2/#isolation",
         "title": "The isolation property",
         "number": "3.4.2"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "isolated-propid",
-      "href": "https://drafts.fxtf.org/compositing-2/#isolated-propid",
+      "href": "https://drafts.csswg.org/compositing-2/#isolated-propid",
       "linkingText": [
         "<isolation-mode>"
       ],
@@ -74,15 +77,16 @@
       "informative": false,
       "heading": {
         "id": "isolation",
-        "href": "https://drafts.fxtf.org/compositing-2/#isolation",
+        "href": "https://drafts.csswg.org/compositing-2/#isolation",
         "title": "The isolation property",
         "number": "3.4.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "propdef-background-blend-mode",
-      "href": "https://drafts.fxtf.org/compositing-2/#propdef-background-blend-mode",
+      "href": "https://drafts.csswg.org/compositing-2/#propdef-background-blend-mode",
       "linkingText": [
         "background-blend-mode"
       ],
@@ -93,15 +97,16 @@
       "informative": false,
       "heading": {
         "id": "background-blend-mode",
-        "href": "https://drafts.fxtf.org/compositing-2/#background-blend-mode",
+        "href": "https://drafts.csswg.org/compositing-2/#background-blend-mode",
         "title": "The background-blend-mode property",
         "number": "3.4.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "compositemode",
-      "href": "https://drafts.fxtf.org/compositing-2/#compositemode",
+      "href": "https://drafts.csswg.org/compositing-2/#compositemode",
       "linkingText": [
         "<composite-mode>"
       ],
@@ -112,15 +117,16 @@
       "informative": false,
       "heading": {
         "id": "canvascompositingandblending",
-        "href": "https://drafts.fxtf.org/compositing-2/#canvascompositingandblending",
+        "href": "https://drafts.csswg.org/compositing-2/#canvascompositingandblending",
         "title": "Specifying Compositing and Blending in Canvas 2D",
         "number": "4"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "backdrop",
-      "href": "https://drafts.fxtf.org/compositing-2/#backdrop",
+      "href": "https://drafts.csswg.org/compositing-2/#backdrop",
       "linkingText": [
         "backdrop"
       ],
@@ -131,15 +137,16 @@
       "informative": false,
       "heading": {
         "id": "backdropCalc",
-        "href": "https://drafts.fxtf.org/compositing-2/#backdropCalc",
+        "href": "https://drafts.csswg.org/compositing-2/#backdropCalc",
         "title": "Backdrop calculation",
         "number": "7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "clear",
-      "href": "https://drafts.fxtf.org/compositing-2/#clear",
+      "href": "https://drafts.csswg.org/compositing-2/#clear",
       "linkingText": [
         "clear"
       ],
@@ -150,15 +157,16 @@
       "informative": false,
       "heading": {
         "id": "porterduffcompositingoperators_clear",
-        "href": "https://drafts.fxtf.org/compositing-2/#porterduffcompositingoperators_clear",
+        "href": "https://drafts.csswg.org/compositing-2/#porterduffcompositingoperators_clear",
         "title": "Clear",
         "number": "9.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "copy",
-      "href": "https://drafts.fxtf.org/compositing-2/#copy",
+      "href": "https://drafts.csswg.org/compositing-2/#copy",
       "linkingText": [
         "copy"
       ],
@@ -169,15 +177,16 @@
       "informative": false,
       "heading": {
         "id": "porterduffcompositingoperators_src",
-        "href": "https://drafts.fxtf.org/compositing-2/#porterduffcompositingoperators_src",
+        "href": "https://drafts.csswg.org/compositing-2/#porterduffcompositingoperators_src",
         "title": "Copy",
         "number": "9.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "destination",
-      "href": "https://drafts.fxtf.org/compositing-2/#destination",
+      "href": "https://drafts.csswg.org/compositing-2/#destination",
       "linkingText": [
         "destination"
       ],
@@ -188,15 +197,16 @@
       "informative": false,
       "heading": {
         "id": "porterduffcompositingoperators_dst",
-        "href": "https://drafts.fxtf.org/compositing-2/#porterduffcompositingoperators_dst",
+        "href": "https://drafts.csswg.org/compositing-2/#porterduffcompositingoperators_dst",
         "title": "Destination",
         "number": "9.1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "source-over",
-      "href": "https://drafts.fxtf.org/compositing-2/#source-over",
+      "href": "https://drafts.csswg.org/compositing-2/#source-over",
       "linkingText": [
         "source-over"
       ],
@@ -207,15 +217,16 @@
       "informative": false,
       "heading": {
         "id": "porterduffcompositingoperators_srcover",
-        "href": "https://drafts.fxtf.org/compositing-2/#porterduffcompositingoperators_srcover",
+        "href": "https://drafts.csswg.org/compositing-2/#porterduffcompositingoperators_srcover",
         "title": "Source Over",
         "number": "9.1.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "destination-over",
-      "href": "https://drafts.fxtf.org/compositing-2/#destination-over",
+      "href": "https://drafts.csswg.org/compositing-2/#destination-over",
       "linkingText": [
         "destination-over"
       ],
@@ -226,15 +237,16 @@
       "informative": false,
       "heading": {
         "id": "porterduffcompositingoperators_dstover",
-        "href": "https://drafts.fxtf.org/compositing-2/#porterduffcompositingoperators_dstover",
+        "href": "https://drafts.csswg.org/compositing-2/#porterduffcompositingoperators_dstover",
         "title": "Destination Over",
         "number": "9.1.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "source-in",
-      "href": "https://drafts.fxtf.org/compositing-2/#source-in",
+      "href": "https://drafts.csswg.org/compositing-2/#source-in",
       "linkingText": [
         "source-in"
       ],
@@ -245,15 +257,16 @@
       "informative": false,
       "heading": {
         "id": "porterduffcompositingoperators_srcin",
-        "href": "https://drafts.fxtf.org/compositing-2/#porterduffcompositingoperators_srcin",
+        "href": "https://drafts.csswg.org/compositing-2/#porterduffcompositingoperators_srcin",
         "title": "Source In",
         "number": "9.1.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "destination-in",
-      "href": "https://drafts.fxtf.org/compositing-2/#destination-in",
+      "href": "https://drafts.csswg.org/compositing-2/#destination-in",
       "linkingText": [
         "destination-in"
       ],
@@ -264,15 +277,16 @@
       "informative": false,
       "heading": {
         "id": "porterduffcompositingoperators_dstin",
-        "href": "https://drafts.fxtf.org/compositing-2/#porterduffcompositingoperators_dstin",
+        "href": "https://drafts.csswg.org/compositing-2/#porterduffcompositingoperators_dstin",
         "title": "Destination In",
         "number": "9.1.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "source-out",
-      "href": "https://drafts.fxtf.org/compositing-2/#source-out",
+      "href": "https://drafts.csswg.org/compositing-2/#source-out",
       "linkingText": [
         "source-out"
       ],
@@ -283,15 +297,16 @@
       "informative": false,
       "heading": {
         "id": "porterduffcompositingoperators_srcout",
-        "href": "https://drafts.fxtf.org/compositing-2/#porterduffcompositingoperators_srcout",
+        "href": "https://drafts.csswg.org/compositing-2/#porterduffcompositingoperators_srcout",
         "title": "Source Out",
         "number": "9.1.8"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "destination-out",
-      "href": "https://drafts.fxtf.org/compositing-2/#destination-out",
+      "href": "https://drafts.csswg.org/compositing-2/#destination-out",
       "linkingText": [
         "destination-out"
       ],
@@ -302,15 +317,16 @@
       "informative": false,
       "heading": {
         "id": "porterduffcompositingoperators_dstout",
-        "href": "https://drafts.fxtf.org/compositing-2/#porterduffcompositingoperators_dstout",
+        "href": "https://drafts.csswg.org/compositing-2/#porterduffcompositingoperators_dstout",
         "title": "Destination Out",
         "number": "9.1.9"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "source-atop",
-      "href": "https://drafts.fxtf.org/compositing-2/#source-atop",
+      "href": "https://drafts.csswg.org/compositing-2/#source-atop",
       "linkingText": [
         "source-atop"
       ],
@@ -321,15 +337,16 @@
       "informative": false,
       "heading": {
         "id": "porterduffcompositingoperators_srcatop",
-        "href": "https://drafts.fxtf.org/compositing-2/#porterduffcompositingoperators_srcatop",
+        "href": "https://drafts.csswg.org/compositing-2/#porterduffcompositingoperators_srcatop",
         "title": "Source Atop",
         "number": "9.1.10"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "destination-atop",
-      "href": "https://drafts.fxtf.org/compositing-2/#destination-atop",
+      "href": "https://drafts.csswg.org/compositing-2/#destination-atop",
       "linkingText": [
         "destination-atop"
       ],
@@ -340,15 +357,16 @@
       "informative": false,
       "heading": {
         "id": "porterduffcompositingoperators_dstatop",
-        "href": "https://drafts.fxtf.org/compositing-2/#porterduffcompositingoperators_dstatop",
+        "href": "https://drafts.csswg.org/compositing-2/#porterduffcompositingoperators_dstatop",
         "title": "Destination Atop",
         "number": "9.1.11"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "xor",
-      "href": "https://drafts.fxtf.org/compositing-2/#xor",
+      "href": "https://drafts.csswg.org/compositing-2/#xor",
       "linkingText": [
         "xor"
       ],
@@ -359,15 +377,16 @@
       "informative": false,
       "heading": {
         "id": "porterduffcompositingoperators_xor",
-        "href": "https://drafts.fxtf.org/compositing-2/#porterduffcompositingoperators_xor",
+        "href": "https://drafts.csswg.org/compositing-2/#porterduffcompositingoperators_xor",
         "title": "XOR",
         "number": "9.1.12"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "lighter",
-      "href": "https://drafts.fxtf.org/compositing-2/#lighter",
+      "href": "https://drafts.csswg.org/compositing-2/#lighter",
       "linkingText": [
         "lighter"
       ],
@@ -378,15 +397,16 @@
       "informative": false,
       "heading": {
         "id": "porterduffcompositingoperators_plus",
-        "href": "https://drafts.fxtf.org/compositing-2/#porterduffcompositingoperators_plus",
+        "href": "https://drafts.csswg.org/compositing-2/#porterduffcompositingoperators_plus",
         "title": "Lighter",
         "number": "9.1.13"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "plus-darker",
-      "href": "https://drafts.fxtf.org/compositing-2/#plus-darker",
+      "href": "https://drafts.csswg.org/compositing-2/#plus-darker",
       "linkingText": [
         "plus-darker"
       ],
@@ -397,15 +417,16 @@
       "informative": false,
       "heading": {
         "id": "porterduffcompositingoperators_plus_darker",
-        "href": "https://drafts.fxtf.org/compositing-2/#porterduffcompositingoperators_plus_darker",
+        "href": "https://drafts.csswg.org/compositing-2/#porterduffcompositingoperators_plus_darker",
         "title": "Plus-darker",
         "number": "9.1.14"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "plus-lighter",
-      "href": "https://drafts.fxtf.org/compositing-2/#plus-lighter",
+      "href": "https://drafts.csswg.org/compositing-2/#plus-lighter",
       "linkingText": [
         "plus-lighter"
       ],
@@ -416,15 +437,16 @@
       "informative": false,
       "heading": {
         "id": "porterduffcompositingoperators_plus_lighter",
-        "href": "https://drafts.fxtf.org/compositing-2/#porterduffcompositingoperators_plus_lighter",
+        "href": "https://drafts.csswg.org/compositing-2/#porterduffcompositingoperators_plus_lighter",
         "title": "Plus-lighter",
         "number": "9.1.15"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "valdef-blend-mode-normal",
-      "href": "https://drafts.fxtf.org/compositing-2/#valdef-blend-mode-normal",
+      "href": "https://drafts.csswg.org/compositing-2/#valdef-blend-mode-normal",
       "linkingText": [
         "normal"
       ],
@@ -437,15 +459,16 @@
       "informative": false,
       "heading": {
         "id": "blendingnormal",
-        "href": "https://drafts.fxtf.org/compositing-2/#blendingnormal",
+        "href": "https://drafts.csswg.org/compositing-2/#blendingnormal",
         "title": "normal blend mode",
         "number": "10.1.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "valdef-blend-mode-multiply",
-      "href": "https://drafts.fxtf.org/compositing-2/#valdef-blend-mode-multiply",
+      "href": "https://drafts.csswg.org/compositing-2/#valdef-blend-mode-multiply",
       "linkingText": [
         "multiply"
       ],
@@ -458,15 +481,16 @@
       "informative": false,
       "heading": {
         "id": "blendingmultiply",
-        "href": "https://drafts.fxtf.org/compositing-2/#blendingmultiply",
+        "href": "https://drafts.csswg.org/compositing-2/#blendingmultiply",
         "title": "multiply blend mode",
         "number": "10.1.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "valdef-blend-mode-screen",
-      "href": "https://drafts.fxtf.org/compositing-2/#valdef-blend-mode-screen",
+      "href": "https://drafts.csswg.org/compositing-2/#valdef-blend-mode-screen",
       "linkingText": [
         "screen"
       ],
@@ -479,15 +503,16 @@
       "informative": false,
       "heading": {
         "id": "blendingscreen",
-        "href": "https://drafts.fxtf.org/compositing-2/#blendingscreen",
+        "href": "https://drafts.csswg.org/compositing-2/#blendingscreen",
         "title": "screen blend mode",
         "number": "10.1.3"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "valdef-blend-mode-overlay",
-      "href": "https://drafts.fxtf.org/compositing-2/#valdef-blend-mode-overlay",
+      "href": "https://drafts.csswg.org/compositing-2/#valdef-blend-mode-overlay",
       "linkingText": [
         "overlay"
       ],
@@ -500,15 +525,16 @@
       "informative": false,
       "heading": {
         "id": "blendingoverlay",
-        "href": "https://drafts.fxtf.org/compositing-2/#blendingoverlay",
+        "href": "https://drafts.csswg.org/compositing-2/#blendingoverlay",
         "title": "overlay blend mode",
         "number": "10.1.4"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "valdef-blend-mode-darken",
-      "href": "https://drafts.fxtf.org/compositing-2/#valdef-blend-mode-darken",
+      "href": "https://drafts.csswg.org/compositing-2/#valdef-blend-mode-darken",
       "linkingText": [
         "darken"
       ],
@@ -521,15 +547,16 @@
       "informative": false,
       "heading": {
         "id": "blendingdarken",
-        "href": "https://drafts.fxtf.org/compositing-2/#blendingdarken",
+        "href": "https://drafts.csswg.org/compositing-2/#blendingdarken",
         "title": "darken blend mode",
         "number": "10.1.5"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "valdef-blend-mode-lighten",
-      "href": "https://drafts.fxtf.org/compositing-2/#valdef-blend-mode-lighten",
+      "href": "https://drafts.csswg.org/compositing-2/#valdef-blend-mode-lighten",
       "linkingText": [
         "lighten"
       ],
@@ -542,15 +569,16 @@
       "informative": false,
       "heading": {
         "id": "blendinglighten",
-        "href": "https://drafts.fxtf.org/compositing-2/#blendinglighten",
+        "href": "https://drafts.csswg.org/compositing-2/#blendinglighten",
         "title": "lighten blend mode",
         "number": "10.1.6"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "valdef-blend-mode-color-dodge",
-      "href": "https://drafts.fxtf.org/compositing-2/#valdef-blend-mode-color-dodge",
+      "href": "https://drafts.csswg.org/compositing-2/#valdef-blend-mode-color-dodge",
       "linkingText": [
         "color-dodge"
       ],
@@ -563,15 +591,16 @@
       "informative": false,
       "heading": {
         "id": "blendingcolordodge",
-        "href": "https://drafts.fxtf.org/compositing-2/#blendingcolordodge",
+        "href": "https://drafts.csswg.org/compositing-2/#blendingcolordodge",
         "title": "color-dodge blend mode",
         "number": "10.1.7"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "valdef-blend-mode-color-burn",
-      "href": "https://drafts.fxtf.org/compositing-2/#valdef-blend-mode-color-burn",
+      "href": "https://drafts.csswg.org/compositing-2/#valdef-blend-mode-color-burn",
       "linkingText": [
         "color-burn"
       ],
@@ -584,15 +613,16 @@
       "informative": false,
       "heading": {
         "id": "blendingcolorburn",
-        "href": "https://drafts.fxtf.org/compositing-2/#blendingcolorburn",
+        "href": "https://drafts.csswg.org/compositing-2/#blendingcolorburn",
         "title": "color-burn blend mode",
         "number": "10.1.8"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "valdef-blend-mode-hard-light",
-      "href": "https://drafts.fxtf.org/compositing-2/#valdef-blend-mode-hard-light",
+      "href": "https://drafts.csswg.org/compositing-2/#valdef-blend-mode-hard-light",
       "linkingText": [
         "hard-light"
       ],
@@ -605,15 +635,16 @@
       "informative": false,
       "heading": {
         "id": "blendinghardlight",
-        "href": "https://drafts.fxtf.org/compositing-2/#blendinghardlight",
+        "href": "https://drafts.csswg.org/compositing-2/#blendinghardlight",
         "title": "hard-light blend mode",
         "number": "10.1.9"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "valdef-blend-mode-soft-light",
-      "href": "https://drafts.fxtf.org/compositing-2/#valdef-blend-mode-soft-light",
+      "href": "https://drafts.csswg.org/compositing-2/#valdef-blend-mode-soft-light",
       "linkingText": [
         "soft-light"
       ],
@@ -626,15 +657,16 @@
       "informative": false,
       "heading": {
         "id": "blendingsoftlight",
-        "href": "https://drafts.fxtf.org/compositing-2/#blendingsoftlight",
+        "href": "https://drafts.csswg.org/compositing-2/#blendingsoftlight",
         "title": "soft-light blend mode",
         "number": "10.1.10"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "valdef-blend-mode-difference",
-      "href": "https://drafts.fxtf.org/compositing-2/#valdef-blend-mode-difference",
+      "href": "https://drafts.csswg.org/compositing-2/#valdef-blend-mode-difference",
       "linkingText": [
         "difference"
       ],
@@ -647,15 +679,16 @@
       "informative": false,
       "heading": {
         "id": "blendingdifference",
-        "href": "https://drafts.fxtf.org/compositing-2/#blendingdifference",
+        "href": "https://drafts.csswg.org/compositing-2/#blendingdifference",
         "title": "difference blend mode",
         "number": "10.1.11"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "valdef-blend-mode-exclusion",
-      "href": "https://drafts.fxtf.org/compositing-2/#valdef-blend-mode-exclusion",
+      "href": "https://drafts.csswg.org/compositing-2/#valdef-blend-mode-exclusion",
       "linkingText": [
         "exclusion"
       ],
@@ -668,15 +701,16 @@
       "informative": false,
       "heading": {
         "id": "blendingexclusion",
-        "href": "https://drafts.fxtf.org/compositing-2/#blendingexclusion",
+        "href": "https://drafts.csswg.org/compositing-2/#blendingexclusion",
         "title": "exclusion blend mode",
         "number": "10.1.12"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "valdef-blend-mode-hue",
-      "href": "https://drafts.fxtf.org/compositing-2/#valdef-blend-mode-hue",
+      "href": "https://drafts.csswg.org/compositing-2/#valdef-blend-mode-hue",
       "linkingText": [
         "hue"
       ],
@@ -689,15 +723,16 @@
       "informative": false,
       "heading": {
         "id": "blendinghue",
-        "href": "https://drafts.fxtf.org/compositing-2/#blendinghue",
+        "href": "https://drafts.csswg.org/compositing-2/#blendinghue",
         "title": "hue blend mode",
         "number": "10.2.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "valdef-blend-mode-saturation",
-      "href": "https://drafts.fxtf.org/compositing-2/#valdef-blend-mode-saturation",
+      "href": "https://drafts.csswg.org/compositing-2/#valdef-blend-mode-saturation",
       "linkingText": [
         "saturation"
       ],
@@ -710,15 +745,16 @@
       "informative": false,
       "heading": {
         "id": "blendingsaturation",
-        "href": "https://drafts.fxtf.org/compositing-2/#blendingsaturation",
+        "href": "https://drafts.csswg.org/compositing-2/#blendingsaturation",
         "title": "saturation blend mode",
         "number": "10.2.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "valdef-blend-mode-color",
-      "href": "https://drafts.fxtf.org/compositing-2/#valdef-blend-mode-color",
+      "href": "https://drafts.csswg.org/compositing-2/#valdef-blend-mode-color",
       "linkingText": [
         "color"
       ],
@@ -731,15 +767,16 @@
       "informative": false,
       "heading": {
         "id": "blendingcolor",
-        "href": "https://drafts.fxtf.org/compositing-2/#blendingcolor",
+        "href": "https://drafts.csswg.org/compositing-2/#blendingcolor",
         "title": "color blend mode",
         "number": "10.2.3"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "valdef-blend-mode-luminosity",
-      "href": "https://drafts.fxtf.org/compositing-2/#valdef-blend-mode-luminosity",
+      "href": "https://drafts.csswg.org/compositing-2/#valdef-blend-mode-luminosity",
       "linkingText": [
         "luminosity"
       ],
@@ -752,11 +789,12 @@
       "informative": false,
       "heading": {
         "id": "blendingluminosity",
-        "href": "https://drafts.fxtf.org/compositing-2/#blendingluminosity",
+        "href": "https://drafts.csswg.org/compositing-2/#blendingluminosity",
         "title": "luminosity blend mode",
         "number": "10.2.4"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     }
   ]
 }

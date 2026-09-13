@@ -13,21 +13,82 @@
       "localLinkingText": [],
       "type": "dfn",
       "for": [],
-      "access": "private",
+      "access": "public",
       "informative": false,
       "heading": {
-        "id": "the-viewport",
-        "href": "https://drafts.csswg.org/css-viewport/#the-viewport",
-        "title": "The viewport",
+        "id": "terminology",
+        "href": "https://drafts.csswg.org/css-viewport/#terminology",
+        "title": "Terminology",
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
-      "id": "actual-viewport",
-      "href": "https://drafts.csswg.org/css-viewport/#actual-viewport",
+      "id": "layout-viewport",
+      "href": "https://drafts.csswg.org/css-viewport/#layout-viewport",
       "linkingText": [
-        "actual viewport"
+        "layout viewport"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://drafts.csswg.org/css-viewport/#terminology",
+        "title": "Terminology",
+        "number": "2"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "visual-viewport",
+      "href": "https://drafts.csswg.org/css-viewport/#visual-viewport",
+      "linkingText": [
+        "visual viewport"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://drafts.csswg.org/css-viewport/#terminology",
+        "title": "Terminology",
+        "number": "2"
+      },
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "scale-factor",
+      "href": "https://drafts.csswg.org/css-viewport/#scale-factor",
+      "linkingText": [
+        "scale factor"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "terminology",
+        "href": "https://drafts.csswg.org/css-viewport/#terminology",
+        "title": "Terminology",
+        "number": "2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "display-feature",
+      "href": "https://drafts.csswg.org/css-viewport/#display-feature",
+      "linkingText": [
+        "Display feature"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -35,12 +96,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "the-viewport",
-        "href": "https://drafts.csswg.org/css-viewport/#the-viewport",
-        "title": "The viewport",
-        "number": "2"
+        "id": "the-display-feature",
+        "href": "https://drafts.csswg.org/css-viewport/#the-display-feature",
+        "title": "Display feature definition",
+        "number": "2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "interactive-widget",
@@ -59,7 +121,8 @@
         "title": "interactive-widget",
         "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "overlays-content",
@@ -78,7 +141,8 @@
         "title": "interactive-widget",
         "number": "3.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "resizes-content",
@@ -97,7 +161,8 @@
         "title": "interactive-widget",
         "number": "3.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "resizes-visual",
@@ -116,7 +181,8 @@
         "title": "interactive-widget",
         "number": "3.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "resize",
@@ -135,7 +201,8 @@
         "title": "interactive-widget",
         "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "propdef-zoom",
@@ -154,7 +221,8 @@
         "title": "The zoom property",
         "number": "4"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "effective-zoom",
@@ -173,7 +241,8 @@
         "title": "The zoom property",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "scaled",
@@ -192,7 +261,8 @@
         "title": "The zoom property",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "unscaled",
@@ -211,7 +281,8 @@
         "title": "The zoom property",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-window-viewport",
@@ -232,11 +303,12 @@
         "title": "Extensions to the Window Interface",
         "number": "5"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
-      "id": "viewport①",
-      "href": "https://drafts.csswg.org/css-viewport/#viewport%E2%91%A0",
+      "id": "viewport",
+      "href": "https://drafts.csswg.org/css-viewport/#viewport",
       "linkingText": [
         "Viewport"
       ],
@@ -249,9 +321,10 @@
         "id": "the-viewport-interface",
         "href": "https://drafts.csswg.org/css-viewport/#the-viewport-interface",
         "title": "The Viewport Interface",
-        "number": "6.1"
+        "number": "6"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-viewport-segments",
@@ -272,7 +345,111 @@
         "title": "The segments property",
         "number": "7"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
+    },
+    {
+      "id": "display-feature-override",
+      "href": "https://drafts.csswg.org/css-viewport/#display-feature-override",
+      "linkingText": [
+        "display feature override"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "automation-segments",
+        "href": "https://drafts.csswg.org/css-viewport/#automation-segments",
+        "title": "Automation of the segments property"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "display-feature-override-orientation",
+      "href": "https://drafts.csswg.org/css-viewport/#display-feature-override-orientation",
+      "linkingText": [
+        "orientation"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "display feature override"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "automation-segments",
+        "href": "https://drafts.csswg.org/css-viewport/#automation-segments",
+        "title": "Automation of the segments property"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "display-feature-override-mask-length",
+      "href": "https://drafts.csswg.org/css-viewport/#display-feature-override-mask-length",
+      "linkingText": [
+        "mask length"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "display feature override"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "automation-segments",
+        "href": "https://drafts.csswg.org/css-viewport/#automation-segments",
+        "title": "Automation of the segments property"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "display-feature-override-offset",
+      "href": "https://drafts.csswg.org/css-viewport/#display-feature-override-offset",
+      "linkingText": [
+        "offset"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "display feature override"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "automation-segments",
+        "href": "https://drafts.csswg.org/css-viewport/#automation-segments",
+        "title": "Automation of the segments property"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "top-level-traversable-displayfeaturesoverride",
+      "href": "https://drafts.csswg.org/css-viewport/#top-level-traversable-displayfeaturesoverride",
+      "linkingText": [
+        "[[DisplayFeaturesOverride]]"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [
+        "top-level traversable"
+      ],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "internal-slots",
+        "href": "https://drafts.csswg.org/css-viewport/#internal-slots",
+        "title": "Internal slots"
+      },
+      "definedIn": "table",
+      "links": []
     }
   ]
 }

@@ -23,7 +23,8 @@
         "title": "Device Orientation",
         "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "device-orientation-y",
@@ -39,11 +40,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-orientation-model",
+        "href": "https://w3c.github.io/deviceorientation/#device-orientation-model",
+        "title": "Device Orientation",
+        "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "device-orientation-z",
@@ -59,11 +62,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-orientation-model",
+        "href": "https://w3c.github.io/deviceorientation/#device-orientation-model",
+        "title": "Device Orientation",
+        "number": "3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "relative-device-orientation",
@@ -84,7 +89,8 @@
         "title": "Choice of reference coordinate system",
         "number": "3.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "absolute-orientation",
@@ -98,11 +104,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "choice-of-reference-coordinate-system",
+        "href": "https://w3c.github.io/deviceorientation/#choice-of-reference-coordinate-system",
+        "title": "Choice of reference coordinate system",
+        "number": "3.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "linear-device-acceleration",
@@ -123,7 +131,8 @@
         "title": "Device Motion",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "acceleration-with-gravity",
@@ -137,11 +146,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-model",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-model",
+        "title": "Device Motion",
+        "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "rotation-rate",
@@ -155,11 +166,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-model",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-model",
+        "title": "Device Motion",
+        "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "permissiondef-accelerometer",
@@ -178,7 +191,8 @@
         "title": "Permissions",
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "permissiondef-gyroscope",
@@ -192,11 +206,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "permissions-integration",
+        "href": "https://w3c.github.io/deviceorientation/#permissions-integration",
+        "title": "Permissions",
+        "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "permissiondef-magnetometer",
@@ -210,11 +226,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "permissions-integration",
+        "href": "https://w3c.github.io/deviceorientation/#permissions-integration",
+        "title": "Permissions",
+        "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "device-motion-and-orientation-task-source",
@@ -233,7 +251,8 @@
         "title": "Task Source",
         "number": "5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "deviceorientationevent",
@@ -252,7 +271,8 @@
         "title": "deviceorientation Event",
         "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-deviceorientationevent-deviceorientationevent",
@@ -271,11 +291,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "deviceorientation",
+        "href": "https://w3c.github.io/deviceorientation/#deviceorientation",
+        "title": "deviceorientation Event",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-deviceorientationevent-deviceorientationevent-type-eventinitdict-type",
@@ -294,11 +316,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "deviceorientation",
+        "href": "https://w3c.github.io/deviceorientation/#deviceorientation",
+        "title": "deviceorientation Event",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-deviceorientationevent-deviceorientationevent-type-eventinitdict-eventinitdict",
@@ -317,11 +341,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "deviceorientation",
+        "href": "https://w3c.github.io/deviceorientation/#deviceorientation",
+        "title": "deviceorientation Event",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-deviceorientationevent-requestpermission-absolute-absolute",
@@ -338,11 +364,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "deviceorientation",
+        "href": "https://w3c.github.io/deviceorientation/#deviceorientation",
+        "title": "deviceorientation Event",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-deviceorientationeventinit",
@@ -356,11 +384,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "deviceorientation",
+        "href": "https://w3c.github.io/deviceorientation/#deviceorientation",
+        "title": "deviceorientation Event",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-deviceorientationeventinit-alpha",
@@ -376,11 +406,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "deviceorientation",
+        "href": "https://w3c.github.io/deviceorientation/#deviceorientation",
+        "title": "deviceorientation Event",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-deviceorientationeventinit-beta",
@@ -396,11 +428,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "deviceorientation",
+        "href": "https://w3c.github.io/deviceorientation/#deviceorientation",
+        "title": "deviceorientation Event",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-deviceorientationeventinit-gamma",
@@ -416,11 +450,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "deviceorientation",
+        "href": "https://w3c.github.io/deviceorientation/#deviceorientation",
+        "title": "deviceorientation Event",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-deviceorientationeventinit-absolute",
@@ -436,11 +472,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "deviceorientation",
+        "href": "https://w3c.github.io/deviceorientation/#deviceorientation",
+        "title": "deviceorientation Event",
+        "number": "6.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-window-ondeviceorientation",
@@ -456,11 +494,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "deviceorientation",
+        "href": "https://w3c.github.io/deviceorientation/#deviceorientation",
+        "title": "deviceorientation Event",
+        "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "def-deviceorientation",
@@ -476,11 +516,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "deviceorientation",
+        "href": "https://w3c.github.io/deviceorientation/#deviceorientation",
+        "title": "deviceorientation Event",
+        "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-deviceorientationevent-alpha",
@@ -496,11 +538,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "deviceorientation",
+        "href": "https://w3c.github.io/deviceorientation/#deviceorientation",
+        "title": "deviceorientation Event",
+        "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-deviceorientationevent-beta",
@@ -516,11 +560,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "deviceorientation",
+        "href": "https://w3c.github.io/deviceorientation/#deviceorientation",
+        "title": "deviceorientation Event",
+        "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-deviceorientationevent-gamma",
@@ -536,11 +582,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "deviceorientation",
+        "href": "https://w3c.github.io/deviceorientation/#deviceorientation",
+        "title": "deviceorientation Event",
+        "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-deviceorientationevent-absolute",
@@ -556,11 +604,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "deviceorientation",
+        "href": "https://w3c.github.io/deviceorientation/#deviceorientation",
+        "title": "deviceorientation Event",
+        "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-deviceorientationevent-requestpermission",
@@ -577,11 +627,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "deviceorientation",
+        "href": "https://w3c.github.io/deviceorientation/#deviceorientation",
+        "title": "deviceorientation Event",
+        "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "fire-an-orientation-event",
@@ -595,11 +647,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "deviceorientation",
+        "href": "https://w3c.github.io/deviceorientation/#deviceorientation",
+        "title": "deviceorientation Event",
+        "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "significant-change-in-orientation",
@@ -613,11 +667,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "deviceorientation",
+        "href": "https://w3c.github.io/deviceorientation/#deviceorientation",
+        "title": "deviceorientation Event",
+        "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-window-ondeviceorientationabsolute",
@@ -638,7 +694,8 @@
         "title": "deviceorientationabsolute Event",
         "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "def-deviceorientationabsolute",
@@ -654,11 +711,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "deviceorientationabsolute",
+        "href": "https://w3c.github.io/deviceorientation/#deviceorientationabsolute",
+        "title": "deviceorientationabsolute Event",
+        "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "devicemotioneventacceleration",
@@ -677,7 +736,8 @@
         "title": "The DeviceMotionEventAcceleration interface",
         "number": "6.3.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "devicemotioneventacceleration-x-axis-acceleration",
@@ -693,11 +753,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-acceleration-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-acceleration-api",
+        "title": "The DeviceMotionEventAcceleration interface",
+        "number": "6.3.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "devicemotioneventacceleration-y-axis-acceleration",
@@ -713,11 +775,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-acceleration-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-acceleration-api",
+        "title": "The DeviceMotionEventAcceleration interface",
+        "number": "6.3.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "devicemotioneventacceleration-z-axis-acceleration",
@@ -733,11 +797,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-acceleration-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-acceleration-api",
+        "title": "The DeviceMotionEventAcceleration interface",
+        "number": "6.3.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-devicemotioneventacceleration-x",
@@ -753,11 +819,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-acceleration-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-acceleration-api",
+        "title": "The DeviceMotionEventAcceleration interface",
+        "number": "6.3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-devicemotioneventacceleration-y",
@@ -773,11 +841,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-acceleration-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-acceleration-api",
+        "title": "The DeviceMotionEventAcceleration interface",
+        "number": "6.3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-devicemotioneventacceleration-z",
@@ -793,11 +863,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-acceleration-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-acceleration-api",
+        "title": "The DeviceMotionEventAcceleration interface",
+        "number": "6.3.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "devicemotioneventrotationrate",
@@ -816,7 +888,8 @@
         "title": "The DeviceMotionEventRotationRate interface",
         "number": "6.3.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "devicemotioneventrotationrate-x-axis-rotation-rate",
@@ -832,11 +905,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-rotation-rate-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-rotation-rate-api",
+        "title": "The DeviceMotionEventRotationRate interface",
+        "number": "6.3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "devicemotioneventrotationrate-y-axis-rotation-rate",
@@ -852,11 +927,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-rotation-rate-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-rotation-rate-api",
+        "title": "The DeviceMotionEventRotationRate interface",
+        "number": "6.3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "devicemotioneventrotationrate-z-axis-rotation-rate",
@@ -872,11 +949,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-rotation-rate-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-rotation-rate-api",
+        "title": "The DeviceMotionEventRotationRate interface",
+        "number": "6.3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dom-devicemotioneventrotationrate-alpha",
@@ -892,11 +971,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-rotation-rate-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-rotation-rate-api",
+        "title": "The DeviceMotionEventRotationRate interface",
+        "number": "6.3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-devicemotioneventrotationrate-beta",
@@ -912,11 +993,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-rotation-rate-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-rotation-rate-api",
+        "title": "The DeviceMotionEventRotationRate interface",
+        "number": "6.3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-devicemotioneventrotationrate-gamma",
@@ -932,11 +1015,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-rotation-rate-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-rotation-rate-api",
+        "title": "The DeviceMotionEventRotationRate interface",
+        "number": "6.3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "devicemotionevent",
@@ -955,7 +1040,8 @@
         "title": "The DeviceMotionEvent interface",
         "number": "6.3.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-devicemotionevent-devicemotionevent",
@@ -974,11 +1060,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-devicemotionevent-devicemotionevent-type-eventinitdict-type",
@@ -997,11 +1085,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-devicemotionevent-devicemotionevent-type-eventinitdict-eventinitdict",
@@ -1020,11 +1110,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-devicemotioneventaccelerationinit",
@@ -1038,11 +1130,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-devicemotioneventaccelerationinit-x",
@@ -1058,11 +1152,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-devicemotioneventaccelerationinit-y",
@@ -1078,11 +1174,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-devicemotioneventaccelerationinit-z",
@@ -1098,11 +1196,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-devicemotioneventrotationrateinit",
@@ -1116,11 +1216,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-devicemotioneventrotationrateinit-alpha",
@@ -1136,11 +1238,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-devicemotioneventrotationrateinit-beta",
@@ -1156,11 +1260,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-devicemotioneventrotationrateinit-gamma",
@@ -1176,11 +1282,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-devicemotioneventinit",
@@ -1194,11 +1302,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-devicemotioneventinit-acceleration",
@@ -1214,11 +1324,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-devicemotioneventinit-accelerationincludinggravity",
@@ -1234,11 +1346,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-devicemotioneventinit-rotationrate",
@@ -1254,11 +1368,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-devicemotioneventinit-interval",
@@ -1274,11 +1390,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-window-ondevicemotion",
@@ -1294,11 +1412,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "def-devicemotion",
@@ -1314,11 +1434,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-devicemotionevent-acceleration",
@@ -1334,11 +1456,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-devicemotionevent-accelerationincludinggravity",
@@ -1354,11 +1478,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-devicemotionevent-rotationrate",
@@ -1374,11 +1500,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-devicemotionevent-interval",
@@ -1394,11 +1522,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-devicemotionevent-requestpermission",
@@ -1414,11 +1544,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/deviceorientation/#title",
-        "title": "Device Orientation and Motion"
+        "id": "device-motion-event-api",
+        "href": "https://w3c.github.io/deviceorientation/#device-motion-event-api",
+        "title": "The DeviceMotionEvent interface",
+        "number": "6.3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "parse-orientation-data-reading",
@@ -1437,7 +1569,8 @@
         "title": "Parse orientation reading data algorithm",
         "number": "9.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "absolute-orientation-virtual-sensor-type",
@@ -1456,7 +1589,8 @@
         "title": "The \"absolute-orientation\" virtual sensor type",
         "number": "9.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "relative-orientation-virtual-sensor-type",
@@ -1475,7 +1609,8 @@
         "title": "The \"relative-orientation\" virtual sensor type",
         "number": "9.1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "accelerometer-virtual-sensor-type",
@@ -1494,7 +1629,8 @@
         "title": "The \"accelerometer\" virtual sensor type",
         "number": "9.2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "linear-acceleration-virtual-sensor-type",
@@ -1513,7 +1649,8 @@
         "title": "The \"linear-acceleration\" virtual sensor type",
         "number": "9.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "gyroscope-virtual-sensor-type",
@@ -1532,7 +1669,8 @@
         "title": "The \"gyroscope\" virtual sensor type",
         "number": "9.2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

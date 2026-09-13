@@ -23,7 +23,8 @@
         "title": "Measure API",
         "number": "2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-document-measureelement-element-element",
@@ -39,11 +40,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#title",
-        "title": "Font Metrics API Level 1"
+        "id": "measure-api",
+        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#measure-api",
+        "title": "Measure API",
+        "number": "2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-document-measuretext",
@@ -59,11 +62,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#title",
-        "title": "Font Metrics API Level 1"
+        "id": "measure-api",
+        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#measure-api",
+        "title": "Measure API",
+        "number": "2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-document-measuretext-text-stylemap-text",
@@ -79,11 +84,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#title",
-        "title": "Font Metrics API Level 1"
+        "id": "measure-api",
+        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#measure-api",
+        "title": "Measure API",
+        "number": "2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-document-measuretext-text-stylemap-stylemap",
@@ -99,11 +106,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#title",
-        "title": "Font Metrics API Level 1"
+        "id": "measure-api",
+        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#measure-api",
+        "title": "Measure API",
+        "number": "2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "fontmetrics",
@@ -122,7 +131,8 @@
         "title": "FontMetrics object",
         "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-fontmetrics-width",
@@ -138,11 +148,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#title",
-        "title": "Font Metrics API Level 1"
+        "id": "fontmetrics-definition",
+        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#fontmetrics-definition",
+        "title": "FontMetrics object",
+        "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-fontmetrics-advances",
@@ -158,11 +170,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#title",
-        "title": "Font Metrics API Level 1"
+        "id": "fontmetrics-definition",
+        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#fontmetrics-definition",
+        "title": "FontMetrics object",
+        "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-fontmetrics-boundingboxleft",
@@ -178,11 +192,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#title",
-        "title": "Font Metrics API Level 1"
+        "id": "fontmetrics-definition",
+        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#fontmetrics-definition",
+        "title": "FontMetrics object",
+        "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-fontmetrics-boundingboxright",
@@ -198,11 +214,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#title",
-        "title": "Font Metrics API Level 1"
+        "id": "fontmetrics-definition",
+        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#fontmetrics-definition",
+        "title": "FontMetrics object",
+        "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-fontmetrics-height",
@@ -218,11 +236,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#title",
-        "title": "Font Metrics API Level 1"
+        "id": "fontmetrics-definition",
+        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#fontmetrics-definition",
+        "title": "FontMetrics object",
+        "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-fontmetrics-emheightascent",
@@ -238,11 +258,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#title",
-        "title": "Font Metrics API Level 1"
+        "id": "fontmetrics-definition",
+        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#fontmetrics-definition",
+        "title": "FontMetrics object",
+        "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-fontmetrics-emheightdescent",
@@ -258,11 +280,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#title",
-        "title": "Font Metrics API Level 1"
+        "id": "fontmetrics-definition",
+        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#fontmetrics-definition",
+        "title": "FontMetrics object",
+        "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-fontmetrics-boundingboxascent",
@@ -278,11 +302,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#title",
-        "title": "Font Metrics API Level 1"
+        "id": "fontmetrics-definition",
+        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#fontmetrics-definition",
+        "title": "FontMetrics object",
+        "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-fontmetrics-boundingboxdescent",
@@ -298,11 +324,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#title",
-        "title": "Font Metrics API Level 1"
+        "id": "fontmetrics-definition",
+        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#fontmetrics-definition",
+        "title": "FontMetrics object",
+        "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-fontmetrics-fontboundingboxascent",
@@ -318,11 +346,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#title",
-        "title": "Font Metrics API Level 1"
+        "id": "fontmetrics-definition",
+        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#fontmetrics-definition",
+        "title": "FontMetrics object",
+        "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-fontmetrics-fontboundingboxdescent",
@@ -338,11 +368,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#title",
-        "title": "Font Metrics API Level 1"
+        "id": "fontmetrics-definition",
+        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#fontmetrics-definition",
+        "title": "FontMetrics object",
+        "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-fontmetrics-dominantbaseline",
@@ -358,11 +390,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#title",
-        "title": "Font Metrics API Level 1"
+        "id": "fontmetrics-definition",
+        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#fontmetrics-definition",
+        "title": "FontMetrics object",
+        "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-fontmetrics-baselines",
@@ -378,11 +412,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#title",
-        "title": "Font Metrics API Level 1"
+        "id": "fontmetrics-definition",
+        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#fontmetrics-definition",
+        "title": "FontMetrics object",
+        "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-fontmetrics-fonts",
@@ -398,11 +434,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#title",
-        "title": "Font Metrics API Level 1"
+        "id": "fontmetrics-definition",
+        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#fontmetrics-definition",
+        "title": "FontMetrics object",
+        "number": "2.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "baseline",
@@ -421,7 +459,8 @@
         "title": "Baseline object",
         "number": "2.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-baseline-name",
@@ -437,11 +476,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#title",
-        "title": "Font Metrics API Level 1"
+        "id": "baseline-definition",
+        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#baseline-definition",
+        "title": "Baseline object",
+        "number": "2.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-baseline-value",
@@ -457,11 +498,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#title",
-        "title": "Font Metrics API Level 1"
+        "id": "baseline-definition",
+        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#baseline-definition",
+        "title": "Baseline object",
+        "number": "2.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "font",
@@ -480,7 +523,8 @@
         "title": "Font object",
         "number": "2.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-font-name",
@@ -496,11 +540,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#title",
-        "title": "Font Metrics API Level 1"
+        "id": "font-definition",
+        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#font-definition",
+        "title": "Font object",
+        "number": "2.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-font-glyphsrendered",
@@ -516,11 +562,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#title",
-        "title": "Font Metrics API Level 1"
+        "id": "font-definition",
+        "href": "https://drafts.css-houdini.org/font-metrics-api-1/#font-definition",
+        "title": "Font object",
+        "number": "2.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     }
   ]
 }

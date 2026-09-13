@@ -21,7 +21,8 @@
         "title": "Introduction",
         "number": "1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "user-agents-that-do-not-support-css",
@@ -40,7 +41,8 @@
         "title": "Conformance classes",
         "number": "2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "user-agents-that-do-not-support-a-full-html-css-engine",
@@ -54,11 +56,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "conformance-classes",
+        "href": "https://w3c.github.io/webvtt/#conformance-classes",
+        "title": "Conformance classes",
+        "number": "2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "user-agents-that-support-a-full-html-css-engine",
@@ -72,11 +76,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "conformance-classes",
+        "href": "https://w3c.github.io/webvtt/#conformance-classes",
+        "title": "Conformance classes",
+        "number": "2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-cue",
@@ -95,7 +101,8 @@
         "title": "WebVTT cues",
         "number": "3.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "cue-text",
@@ -109,11 +116,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "model-cues",
+        "href": "https://w3c.github.io/webvtt/#model-cues",
+        "title": "WebVTT cues",
+        "number": "3.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-caption-or-subtitle-cue",
@@ -132,7 +141,8 @@
         "title": "WebVTT caption or subtitle cues",
         "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-cue-box",
@@ -146,11 +156,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cues",
+        "href": "https://w3c.github.io/webvtt/#cues",
+        "title": "WebVTT caption or subtitle cues",
+        "number": "3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-cue-writing-direction",
@@ -164,11 +176,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cues",
+        "href": "https://w3c.github.io/webvtt/#cues",
+        "title": "WebVTT caption or subtitle cues",
+        "number": "3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-cue-horizontal-writing-direction",
@@ -182,11 +196,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cues",
+        "href": "https://w3c.github.io/webvtt/#cues",
+        "title": "WebVTT caption or subtitle cues",
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-cue-vertical-growing-left-writing-direction",
@@ -200,11 +216,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cues",
+        "href": "https://w3c.github.io/webvtt/#cues",
+        "title": "WebVTT caption or subtitle cues",
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-cue-vertical-growing-right-writing-direction",
@@ -218,11 +236,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cues",
+        "href": "https://w3c.github.io/webvtt/#cues",
+        "title": "WebVTT caption or subtitle cues",
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-cue-snap-to-lines-flag",
@@ -236,11 +256,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cues",
+        "href": "https://w3c.github.io/webvtt/#cues",
+        "title": "WebVTT caption or subtitle cues",
+        "number": "3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-cue-line",
@@ -254,11 +276,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cues",
+        "href": "https://w3c.github.io/webvtt/#cues",
+        "title": "WebVTT caption or subtitle cues",
+        "number": "3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-cue-line-automatic",
@@ -272,11 +296,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cues",
+        "href": "https://w3c.github.io/webvtt/#cues",
+        "title": "WebVTT caption or subtitle cues",
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "cue-computed-line",
@@ -290,11 +316,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cues",
+        "href": "https://w3c.github.io/webvtt/#cues",
+        "title": "WebVTT caption or subtitle cues",
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-cue-line-alignment",
@@ -308,11 +336,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cues",
+        "href": "https://w3c.github.io/webvtt/#cues",
+        "title": "WebVTT caption or subtitle cues",
+        "number": "3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-cue-line-start-alignment",
@@ -326,11 +356,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cues",
+        "href": "https://w3c.github.io/webvtt/#cues",
+        "title": "WebVTT caption or subtitle cues",
+        "number": "3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-cue-line-center-alignment",
@@ -344,11 +376,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cues",
+        "href": "https://w3c.github.io/webvtt/#cues",
+        "title": "WebVTT caption or subtitle cues",
+        "number": "3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-cue-line-end-alignment",
@@ -362,11 +396,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cues",
+        "href": "https://w3c.github.io/webvtt/#cues",
+        "title": "WebVTT caption or subtitle cues",
+        "number": "3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-cue-position",
@@ -380,11 +416,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cues",
+        "href": "https://w3c.github.io/webvtt/#cues",
+        "title": "WebVTT caption or subtitle cues",
+        "number": "3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-cue-automatic-position",
@@ -398,11 +436,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cues",
+        "href": "https://w3c.github.io/webvtt/#cues",
+        "title": "WebVTT caption or subtitle cues",
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "cue-computed-position",
@@ -416,11 +456,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cues",
+        "href": "https://w3c.github.io/webvtt/#cues",
+        "title": "WebVTT caption or subtitle cues",
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-cue-position-alignment",
@@ -434,11 +476,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cues",
+        "href": "https://w3c.github.io/webvtt/#cues",
+        "title": "WebVTT caption or subtitle cues",
+        "number": "3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-cue-position-line-left-alignment",
@@ -452,11 +496,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cues",
+        "href": "https://w3c.github.io/webvtt/#cues",
+        "title": "WebVTT caption or subtitle cues",
+        "number": "3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-cue-position-center-alignment",
@@ -470,11 +516,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cues",
+        "href": "https://w3c.github.io/webvtt/#cues",
+        "title": "WebVTT caption or subtitle cues",
+        "number": "3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-cue-position-line-right-alignment",
@@ -488,11 +536,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cues",
+        "href": "https://w3c.github.io/webvtt/#cues",
+        "title": "WebVTT caption or subtitle cues",
+        "number": "3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-cue-position-automatic-alignment",
@@ -506,11 +556,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cues",
+        "href": "https://w3c.github.io/webvtt/#cues",
+        "title": "WebVTT caption or subtitle cues",
+        "number": "3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "cue-computed-position-alignment",
@@ -524,11 +576,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cues",
+        "href": "https://w3c.github.io/webvtt/#cues",
+        "title": "WebVTT caption or subtitle cues",
+        "number": "3.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-cue-size",
@@ -542,11 +596,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cues",
+        "href": "https://w3c.github.io/webvtt/#cues",
+        "title": "WebVTT caption or subtitle cues",
+        "number": "3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-cue-text-alignment",
@@ -560,11 +616,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cues",
+        "href": "https://w3c.github.io/webvtt/#cues",
+        "title": "WebVTT caption or subtitle cues",
+        "number": "3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-cue-start-alignment",
@@ -578,11 +636,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cues",
+        "href": "https://w3c.github.io/webvtt/#cues",
+        "title": "WebVTT caption or subtitle cues",
+        "number": "3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-cue-center-alignment",
@@ -596,11 +656,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cues",
+        "href": "https://w3c.github.io/webvtt/#cues",
+        "title": "WebVTT caption or subtitle cues",
+        "number": "3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-cue-end-alignment",
@@ -614,11 +676,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cues",
+        "href": "https://w3c.github.io/webvtt/#cues",
+        "title": "WebVTT caption or subtitle cues",
+        "number": "3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-cue-left-alignment",
@@ -632,11 +696,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cues",
+        "href": "https://w3c.github.io/webvtt/#cues",
+        "title": "WebVTT caption or subtitle cues",
+        "number": "3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-cue-right-alignment",
@@ -650,11 +716,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cues",
+        "href": "https://w3c.github.io/webvtt/#cues",
+        "title": "WebVTT caption or subtitle cues",
+        "number": "3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-cue-region",
@@ -668,11 +736,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cues",
+        "href": "https://w3c.github.io/webvtt/#cues",
+        "title": "WebVTT caption or subtitle cues",
+        "number": "3.3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-region",
@@ -691,7 +761,8 @@
         "title": "WebVTT caption or subtitle regions",
         "number": "3.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-region-identifier",
@@ -705,11 +776,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "regions",
+        "href": "https://w3c.github.io/webvtt/#regions",
+        "title": "WebVTT caption or subtitle regions",
+        "number": "3.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-region-width",
@@ -723,11 +796,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "regions",
+        "href": "https://w3c.github.io/webvtt/#regions",
+        "title": "WebVTT caption or subtitle regions",
+        "number": "3.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-region-lines",
@@ -741,11 +816,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "regions",
+        "href": "https://w3c.github.io/webvtt/#regions",
+        "title": "WebVTT caption or subtitle regions",
+        "number": "3.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-region-anchor",
@@ -759,11 +836,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "regions",
+        "href": "https://w3c.github.io/webvtt/#regions",
+        "title": "WebVTT caption or subtitle regions",
+        "number": "3.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-region-viewport-anchor",
@@ -777,11 +856,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "regions",
+        "href": "https://w3c.github.io/webvtt/#regions",
+        "title": "WebVTT caption or subtitle regions",
+        "number": "3.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-region-scroll",
@@ -795,11 +876,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "regions",
+        "href": "https://w3c.github.io/webvtt/#regions",
+        "title": "WebVTT caption or subtitle regions",
+        "number": "3.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-region-scroll-none",
@@ -813,11 +896,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "regions",
+        "href": "https://w3c.github.io/webvtt/#regions",
+        "title": "WebVTT caption or subtitle regions",
+        "number": "3.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-region-scroll-up",
@@ -831,11 +916,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "regions",
+        "href": "https://w3c.github.io/webvtt/#regions",
+        "title": "WebVTT caption or subtitle regions",
+        "number": "3.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "text-track-list-of-regions",
@@ -849,11 +936,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "regions",
+        "href": "https://w3c.github.io/webvtt/#regions",
+        "title": "WebVTT caption or subtitle regions",
+        "number": "3.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-chapter-cue",
@@ -872,7 +961,8 @@
         "title": "WebVTT chapter cues",
         "number": "3.5"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-metadata-cue",
@@ -891,7 +981,8 @@
         "title": "WebVTT metadata cues",
         "number": "3.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-file",
@@ -910,7 +1001,8 @@
         "title": "WebVTT file structure",
         "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-file-body",
@@ -924,11 +1016,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "file-structure",
+        "href": "https://w3c.github.io/webvtt/#file-structure",
+        "title": "WebVTT file structure",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-line-terminator",
@@ -942,11 +1036,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "file-structure",
+        "href": "https://w3c.github.io/webvtt/#file-structure",
+        "title": "WebVTT file structure",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-region-definition-block",
@@ -960,11 +1056,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "file-structure",
+        "href": "https://w3c.github.io/webvtt/#file-structure",
+        "title": "WebVTT file structure",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-style-block",
@@ -978,11 +1076,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "file-structure",
+        "href": "https://w3c.github.io/webvtt/#file-structure",
+        "title": "WebVTT file structure",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-cue-block",
@@ -996,11 +1096,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "file-structure",
+        "href": "https://w3c.github.io/webvtt/#file-structure",
+        "title": "WebVTT file structure",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "cue-payload",
@@ -1014,11 +1116,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "file-structure",
+        "href": "https://w3c.github.io/webvtt/#file-structure",
+        "title": "WebVTT file structure",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-cue-identifier",
@@ -1032,11 +1136,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "file-structure",
+        "href": "https://w3c.github.io/webvtt/#file-structure",
+        "title": "WebVTT file structure",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-cue-timings",
@@ -1050,11 +1156,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "file-structure",
+        "href": "https://w3c.github.io/webvtt/#file-structure",
+        "title": "WebVTT file structure",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-timestamp",
@@ -1068,11 +1176,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "file-structure",
+        "href": "https://w3c.github.io/webvtt/#file-structure",
+        "title": "WebVTT file structure",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-cue-settings-list",
@@ -1086,11 +1196,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "file-structure",
+        "href": "https://w3c.github.io/webvtt/#file-structure",
+        "title": "WebVTT file structure",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-cue-setting",
@@ -1104,11 +1216,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "file-structure",
+        "href": "https://w3c.github.io/webvtt/#file-structure",
+        "title": "WebVTT file structure",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-cue-setting-name",
@@ -1122,11 +1236,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "file-structure",
+        "href": "https://w3c.github.io/webvtt/#file-structure",
+        "title": "WebVTT file structure",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-cue-setting-value",
@@ -1140,11 +1256,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "file-structure",
+        "href": "https://w3c.github.io/webvtt/#file-structure",
+        "title": "WebVTT file structure",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-percentage",
@@ -1158,11 +1276,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "file-structure",
+        "href": "https://w3c.github.io/webvtt/#file-structure",
+        "title": "WebVTT file structure",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-comment-block",
@@ -1176,11 +1296,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "file-structure",
+        "href": "https://w3c.github.io/webvtt/#file-structure",
+        "title": "WebVTT file structure",
+        "number": "4.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-metadata-text",
@@ -1199,7 +1321,8 @@
         "title": "WebVTT metadata text",
         "number": "4.2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-caption-or-subtitle-cue-text",
@@ -1218,7 +1341,8 @@
         "title": "WebVTT caption or subtitle cue text",
         "number": "4.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-caption-or-subtitle-cue-components",
@@ -1232,11 +1356,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "caption-text",
+        "href": "https://w3c.github.io/webvtt/#caption-text",
+        "title": "WebVTT caption or subtitle cue text",
+        "number": "4.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "cue-component-class-names",
@@ -1250,11 +1376,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "caption-text",
+        "href": "https://w3c.github.io/webvtt/#caption-text",
+        "title": "WebVTT caption or subtitle cue text",
+        "number": "4.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-cue-internal-text",
@@ -1268,11 +1396,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "caption-text",
+        "href": "https://w3c.github.io/webvtt/#caption-text",
+        "title": "WebVTT caption or subtitle cue text",
+        "number": "4.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-cue-class-span",
@@ -1286,11 +1416,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "caption-text",
+        "href": "https://w3c.github.io/webvtt/#caption-text",
+        "title": "WebVTT caption or subtitle cue text",
+        "number": "4.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-cue-italics-span",
@@ -1304,11 +1436,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "caption-text",
+        "href": "https://w3c.github.io/webvtt/#caption-text",
+        "title": "WebVTT caption or subtitle cue text",
+        "number": "4.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-cue-bold-span",
@@ -1322,11 +1456,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "caption-text",
+        "href": "https://w3c.github.io/webvtt/#caption-text",
+        "title": "WebVTT caption or subtitle cue text",
+        "number": "4.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-cue-underline-span",
@@ -1340,11 +1476,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "caption-text",
+        "href": "https://w3c.github.io/webvtt/#caption-text",
+        "title": "WebVTT caption or subtitle cue text",
+        "number": "4.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-cue-ruby-span",
@@ -1358,11 +1496,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "caption-text",
+        "href": "https://w3c.github.io/webvtt/#caption-text",
+        "title": "WebVTT caption or subtitle cue text",
+        "number": "4.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-cue-ruby-text-span",
@@ -1376,11 +1516,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "caption-text",
+        "href": "https://w3c.github.io/webvtt/#caption-text",
+        "title": "WebVTT caption or subtitle cue text",
+        "number": "4.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-cue-voice-span",
@@ -1394,11 +1536,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "caption-text",
+        "href": "https://w3c.github.io/webvtt/#caption-text",
+        "title": "WebVTT caption or subtitle cue text",
+        "number": "4.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-cue-language-span",
@@ -1412,11 +1556,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "caption-text",
+        "href": "https://w3c.github.io/webvtt/#caption-text",
+        "title": "WebVTT caption or subtitle cue text",
+        "number": "4.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-cue-span-start-tag",
@@ -1430,11 +1576,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "caption-text",
+        "href": "https://w3c.github.io/webvtt/#caption-text",
+        "title": "WebVTT caption or subtitle cue text",
+        "number": "4.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-cue-span-end-tag",
@@ -1448,11 +1596,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "caption-text",
+        "href": "https://w3c.github.io/webvtt/#caption-text",
+        "title": "WebVTT caption or subtitle cue text",
+        "number": "4.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-cue-timestamp",
@@ -1466,11 +1616,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "caption-text",
+        "href": "https://w3c.github.io/webvtt/#caption-text",
+        "title": "WebVTT caption or subtitle cue text",
+        "number": "4.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-cue-text-span",
@@ -1484,11 +1636,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "caption-text",
+        "href": "https://w3c.github.io/webvtt/#caption-text",
+        "title": "WebVTT caption or subtitle cue text",
+        "number": "4.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-cue-span-start-tag-annotation-text",
@@ -1502,11 +1656,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "caption-text",
+        "href": "https://w3c.github.io/webvtt/#caption-text",
+        "title": "WebVTT caption or subtitle cue text",
+        "number": "4.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-chapter-title-text",
@@ -1525,7 +1681,8 @@
         "title": "WebVTT chapter title text",
         "number": "4.2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-region-settings-list",
@@ -1544,7 +1701,8 @@
         "title": "WebVTT region settings",
         "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-region-identifier-setting",
@@ -1558,11 +1716,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "region-settings",
+        "href": "https://w3c.github.io/webvtt/#region-settings",
+        "title": "WebVTT region settings",
+        "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-region-width-setting",
@@ -1576,11 +1736,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "region-settings",
+        "href": "https://w3c.github.io/webvtt/#region-settings",
+        "title": "WebVTT region settings",
+        "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-region-lines-setting",
@@ -1594,11 +1756,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "region-settings",
+        "href": "https://w3c.github.io/webvtt/#region-settings",
+        "title": "WebVTT region settings",
+        "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-region-anchor-setting",
@@ -1612,11 +1776,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "region-settings",
+        "href": "https://w3c.github.io/webvtt/#region-settings",
+        "title": "WebVTT region settings",
+        "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-region-viewport-anchor-setting",
@@ -1630,11 +1796,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "region-settings",
+        "href": "https://w3c.github.io/webvtt/#region-settings",
+        "title": "WebVTT region settings",
+        "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-region-scroll-setting",
@@ -1648,11 +1816,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "region-settings",
+        "href": "https://w3c.github.io/webvtt/#region-settings",
+        "title": "WebVTT region settings",
+        "number": "4.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-vertical-text-cue-setting",
@@ -1671,7 +1841,8 @@
         "title": "WebVTT cue settings",
         "number": "4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-line-cue-setting",
@@ -1685,11 +1856,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-settings",
+        "href": "https://w3c.github.io/webvtt/#cue-settings",
+        "title": "WebVTT cue settings",
+        "number": "4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-position-cue-setting",
@@ -1703,11 +1876,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-settings",
+        "href": "https://w3c.github.io/webvtt/#cue-settings",
+        "title": "WebVTT cue settings",
+        "number": "4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-size-cue-setting",
@@ -1721,11 +1896,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-settings",
+        "href": "https://w3c.github.io/webvtt/#cue-settings",
+        "title": "WebVTT cue settings",
+        "number": "4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-alignment-cue-setting",
@@ -1739,11 +1916,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-settings",
+        "href": "https://w3c.github.io/webvtt/#cue-settings",
+        "title": "WebVTT cue settings",
+        "number": "4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-region-cue-setting",
@@ -1757,11 +1936,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-settings",
+        "href": "https://w3c.github.io/webvtt/#cue-settings",
+        "title": "WebVTT cue settings",
+        "number": "4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-file-using-only-nested-cues",
@@ -1780,7 +1961,8 @@
         "title": "WebVTT file using only nested cues",
         "number": "4.5.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-file-using-metadata-content",
@@ -1799,7 +1981,8 @@
         "title": "WebVTT file using metadata content",
         "number": "4.6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-file-using-chapter-title-text",
@@ -1818,7 +2001,8 @@
         "title": "WebVTT file using chapter title text",
         "number": "4.6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-file-using-caption-or-subtitle-cue-text",
@@ -1837,7 +2021,8 @@
         "title": "WebVTT file using caption or subtitle cue text",
         "number": "4.6.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-parser",
@@ -1856,7 +2041,8 @@
         "title": "WebVTT file parsing",
         "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "incremental-webvtt-parser",
@@ -1870,11 +2056,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "file-parsing",
+        "href": "https://w3c.github.io/webvtt/#file-parsing",
+        "title": "WebVTT file parsing",
+        "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-parser-algorithm",
@@ -1888,11 +2076,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "file-parsing",
+        "href": "https://w3c.github.io/webvtt/#file-parsing",
+        "title": "WebVTT file parsing",
+        "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "collect-a-webvtt-block",
@@ -1906,11 +2096,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "file-parsing",
+        "href": "https://w3c.github.io/webvtt/#file-parsing",
+        "title": "WebVTT file parsing",
+        "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "collect-webvtt-region-settings",
@@ -1929,7 +2121,8 @@
         "title": "WebVTT region settings parsing",
         "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-region-object",
@@ -1943,11 +2136,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "region-settings-parsing",
+        "href": "https://w3c.github.io/webvtt/#region-settings-parsing",
+        "title": "WebVTT region settings parsing",
+        "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "parse-a-percentage-string",
@@ -1961,11 +2156,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "region-settings-parsing",
+        "href": "https://w3c.github.io/webvtt/#region-settings-parsing",
+        "title": "WebVTT region settings parsing",
+        "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "collect-webvtt-cue-timings-and-settings",
@@ -1984,7 +2181,8 @@
         "title": "WebVTT cue timings and settings parsing",
         "number": "6.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "parse-the-webvtt-cue-settings",
@@ -1998,11 +2196,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-timings-and-settings-parsing",
+        "href": "https://w3c.github.io/webvtt/#cue-timings-and-settings-parsing",
+        "title": "WebVTT cue timings and settings parsing",
+        "number": "6.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "collect-a-webvtt-timestamp",
@@ -2016,11 +2216,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-timings-and-settings-parsing",
+        "href": "https://w3c.github.io/webvtt/#cue-timings-and-settings-parsing",
+        "title": "WebVTT cue timings and settings parsing",
+        "number": "6.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-node-object",
@@ -2039,7 +2241,8 @@
         "title": "WebVTT cue text parsing rules",
         "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-internal-node-object",
@@ -2053,17 +2256,19 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-text-parsing-rules",
+        "href": "https://w3c.github.io/webvtt/#cue-text-parsing-rules",
+        "title": "WebVTT cue text parsing rules",
+        "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-node-objects-applicable-classes",
       "href": "https://w3c.github.io/webvtt/#webvtt-node-objects-applicable-classes",
       "linkingText": [
-        "WebVTT Node Object’s applicable classes"
+        "WebVTT Node Object's applicable classes"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -2071,17 +2276,19 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-text-parsing-rules",
+        "href": "https://w3c.github.io/webvtt/#cue-text-parsing-rules",
+        "title": "WebVTT cue text parsing rules",
+        "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-node-objects-applicable-language",
       "href": "https://w3c.github.io/webvtt/#webvtt-node-objects-applicable-language",
       "linkingText": [
-        "WebVTT Node Object’s applicable language"
+        "WebVTT Node Object's applicable language"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -2089,11 +2296,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-text-parsing-rules",
+        "href": "https://w3c.github.io/webvtt/#cue-text-parsing-rules",
+        "title": "WebVTT cue text parsing rules",
+        "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "list-of-webvtt-node-objects",
@@ -2107,11 +2316,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-text-parsing-rules",
+        "href": "https://w3c.github.io/webvtt/#cue-text-parsing-rules",
+        "title": "WebVTT cue text parsing rules",
+        "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-class-object",
@@ -2125,11 +2336,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-text-parsing-rules",
+        "href": "https://w3c.github.io/webvtt/#cue-text-parsing-rules",
+        "title": "WebVTT cue text parsing rules",
+        "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-italic-object",
@@ -2143,11 +2356,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-text-parsing-rules",
+        "href": "https://w3c.github.io/webvtt/#cue-text-parsing-rules",
+        "title": "WebVTT cue text parsing rules",
+        "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-bold-object",
@@ -2161,11 +2376,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-text-parsing-rules",
+        "href": "https://w3c.github.io/webvtt/#cue-text-parsing-rules",
+        "title": "WebVTT cue text parsing rules",
+        "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-underline-object",
@@ -2179,11 +2396,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-text-parsing-rules",
+        "href": "https://w3c.github.io/webvtt/#cue-text-parsing-rules",
+        "title": "WebVTT cue text parsing rules",
+        "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-ruby-object",
@@ -2197,11 +2416,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-text-parsing-rules",
+        "href": "https://w3c.github.io/webvtt/#cue-text-parsing-rules",
+        "title": "WebVTT cue text parsing rules",
+        "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-ruby-text-object",
@@ -2215,11 +2436,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-text-parsing-rules",
+        "href": "https://w3c.github.io/webvtt/#cue-text-parsing-rules",
+        "title": "WebVTT cue text parsing rules",
+        "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-voice-object",
@@ -2233,11 +2456,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-text-parsing-rules",
+        "href": "https://w3c.github.io/webvtt/#cue-text-parsing-rules",
+        "title": "WebVTT cue text parsing rules",
+        "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-language-object",
@@ -2251,11 +2476,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-text-parsing-rules",
+        "href": "https://w3c.github.io/webvtt/#cue-text-parsing-rules",
+        "title": "WebVTT cue text parsing rules",
+        "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-leaf-node-object",
@@ -2269,11 +2496,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-text-parsing-rules",
+        "href": "https://w3c.github.io/webvtt/#cue-text-parsing-rules",
+        "title": "WebVTT cue text parsing rules",
+        "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-text-object",
@@ -2287,11 +2516,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-text-parsing-rules",
+        "href": "https://w3c.github.io/webvtt/#cue-text-parsing-rules",
+        "title": "WebVTT cue text parsing rules",
+        "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-timestamp-object",
@@ -2305,11 +2536,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-text-parsing-rules",
+        "href": "https://w3c.github.io/webvtt/#cue-text-parsing-rules",
+        "title": "WebVTT cue text parsing rules",
+        "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-cue-text-parsing-rules",
@@ -2323,11 +2556,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-text-parsing-rules",
+        "href": "https://w3c.github.io/webvtt/#cue-text-parsing-rules",
+        "title": "WebVTT cue text parsing rules",
+        "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "attach-a-webvtt-internal-node-object",
@@ -2341,11 +2576,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-text-parsing-rules",
+        "href": "https://w3c.github.io/webvtt/#cue-text-parsing-rules",
+        "title": "WebVTT cue text parsing rules",
+        "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-cue-text-tokenizer",
@@ -2359,11 +2596,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-text-parsing-rules",
+        "href": "https://w3c.github.io/webvtt/#cue-text-parsing-rules",
+        "title": "WebVTT cue text parsing rules",
+        "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-data-state",
@@ -2377,11 +2616,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-text-parsing-rules",
+        "href": "https://w3c.github.io/webvtt/#cue-text-parsing-rules",
+        "title": "WebVTT cue text parsing rules",
+        "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "html-character-reference-in-data-state",
@@ -2395,11 +2636,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-text-parsing-rules",
+        "href": "https://w3c.github.io/webvtt/#cue-text-parsing-rules",
+        "title": "WebVTT cue text parsing rules",
+        "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-tag-state",
@@ -2413,11 +2656,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-text-parsing-rules",
+        "href": "https://w3c.github.io/webvtt/#cue-text-parsing-rules",
+        "title": "WebVTT cue text parsing rules",
+        "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-start-tag-state",
@@ -2431,11 +2676,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-text-parsing-rules",
+        "href": "https://w3c.github.io/webvtt/#cue-text-parsing-rules",
+        "title": "WebVTT cue text parsing rules",
+        "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-start-tag-class-state",
@@ -2449,11 +2696,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-text-parsing-rules",
+        "href": "https://w3c.github.io/webvtt/#cue-text-parsing-rules",
+        "title": "WebVTT cue text parsing rules",
+        "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-start-tag-annotation-state",
@@ -2467,11 +2716,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-text-parsing-rules",
+        "href": "https://w3c.github.io/webvtt/#cue-text-parsing-rules",
+        "title": "WebVTT cue text parsing rules",
+        "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "html-character-reference-in-annotation-state",
@@ -2485,11 +2736,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-text-parsing-rules",
+        "href": "https://w3c.github.io/webvtt/#cue-text-parsing-rules",
+        "title": "WebVTT cue text parsing rules",
+        "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-end-tag-state",
@@ -2503,11 +2756,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-text-parsing-rules",
+        "href": "https://w3c.github.io/webvtt/#cue-text-parsing-rules",
+        "title": "WebVTT cue text parsing rules",
+        "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "webvtt-timestamp-tag-state",
@@ -2521,11 +2776,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-text-parsing-rules",
+        "href": "https://w3c.github.io/webvtt/#cue-text-parsing-rules",
+        "title": "WebVTT cue text parsing rules",
+        "number": "6.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "consume-an-html-character-reference",
@@ -2539,11 +2796,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "cue-text-parsing-rules",
+        "href": "https://w3c.github.io/webvtt/#cue-text-parsing-rules",
+        "title": "WebVTT cue text parsing rules",
+        "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-cue-text-dom-construction-rules",
@@ -2562,7 +2821,8 @@
         "title": "WebVTT cue text DOM construction rules",
         "number": "6.5"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "webvtt-rules-for-extracting-the-chapter-title",
@@ -2581,7 +2841,8 @@
         "title": "WebVTT rules for extracting the chapter title",
         "number": "6.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "rules-for-updating-the-display-of-webvtt-text-tracks",
@@ -2600,7 +2861,8 @@
         "title": "Processing model",
         "number": "7.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "apply-webvtt-cue-settings",
@@ -2619,7 +2881,8 @@
         "title": "Processing cue settings",
         "number": "7.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "obtain-a-set-of-css-boxes",
@@ -2638,7 +2901,8 @@
         "title": "Obtaining CSS boxes",
         "number": "7.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "webvtt-cue-background-box",
@@ -2652,11 +2916,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "obtaining-css-boxes",
+        "href": "https://w3c.github.io/webvtt/#obtaining-css-boxes",
+        "title": "Obtaining CSS boxes",
+        "number": "7.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "selectordef-cue",
@@ -2675,7 +2941,8 @@
         "title": "The ::cue pseudo-element",
         "number": "8.2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "selectordef-cue-selector",
@@ -2689,11 +2956,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-cue-pseudo-element",
+        "href": "https://w3c.github.io/webvtt/#the-cue-pseudo-element",
+        "title": "The ::cue pseudo-element",
+        "number": "8.2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "selectordef-past",
@@ -2712,7 +2981,8 @@
         "title": "The :past and :future pseudo-classes",
         "number": "8.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "abstract-opdef-in-the-past",
@@ -2726,11 +2996,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-past-and-future-pseudo-classes",
+        "href": "https://w3c.github.io/webvtt/#the-past-and-future-pseudo-classes",
+        "title": "The :past and :future pseudo-classes",
+        "number": "8.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "selectordef-future",
@@ -2744,11 +3016,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-past-and-future-pseudo-classes",
+        "href": "https://w3c.github.io/webvtt/#the-past-and-future-pseudo-classes",
+        "title": "The :past and :future pseudo-classes",
+        "number": "8.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "abstract-opdef-in-the-future",
@@ -2762,11 +3036,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-past-and-future-pseudo-classes",
+        "href": "https://w3c.github.io/webvtt/#the-past-and-future-pseudo-classes",
+        "title": "The :past and :future pseudo-classes",
+        "number": "8.2.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "selectordef-cue-region",
@@ -2785,7 +3061,8 @@
         "title": "The ::cue-region pseudo-element",
         "number": "8.2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "selectordef-cue-region-selector",
@@ -2799,11 +3076,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-cue-region-pseudo-element",
+        "href": "https://w3c.github.io/webvtt/#the-cue-region-pseudo-element",
+        "title": "The ::cue-region pseudo-element",
+        "number": "8.2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "enumdef-autokeyword",
@@ -2822,7 +3101,8 @@
         "title": "The VTTCue interface",
         "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-autokeyword-auto",
@@ -2838,11 +3118,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "typedefdef-lineandpositionsetting",
@@ -2856,11 +3138,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "enumdef-directionsetting",
@@ -2874,11 +3158,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-directionsetting",
@@ -2894,11 +3180,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-directionsetting-rl",
@@ -2914,11 +3202,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-directionsetting-lr",
@@ -2934,11 +3224,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "enumdef-linealignsetting",
@@ -2952,11 +3244,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-linealignsetting-start",
@@ -2972,11 +3266,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-linealignsetting-center",
@@ -2992,11 +3288,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-linealignsetting-end",
@@ -3012,11 +3310,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "enumdef-positionalignsetting",
@@ -3030,11 +3330,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-positionalignsetting-line-left",
@@ -3050,11 +3352,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-positionalignsetting-center",
@@ -3070,11 +3374,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-positionalignsetting-line-right",
@@ -3090,11 +3396,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-positionalignsetting-auto",
@@ -3110,11 +3418,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "enumdef-alignsetting",
@@ -3128,11 +3438,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-alignsetting-start",
@@ -3148,11 +3460,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-alignsetting-center",
@@ -3168,11 +3482,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-alignsetting-end",
@@ -3188,11 +3504,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-alignsetting-left",
@@ -3208,11 +3526,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-alignsetting-right",
@@ -3228,11 +3548,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "vttcue",
@@ -3246,11 +3568,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-vttcue-vttcue-starttime-endtime-text-starttime",
@@ -3267,11 +3591,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-vttcue-vttcue-starttime-endtime-text-endtime",
@@ -3288,11 +3614,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-vttcue-vttcue-starttime-endtime-text-text",
@@ -3309,11 +3637,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-vttcue-vttcue",
@@ -3330,11 +3660,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-vttcue-region",
@@ -3350,11 +3682,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-vttcue-vertical",
@@ -3370,11 +3704,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-vttcue-snaptolines",
@@ -3390,11 +3726,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-vttcue-line",
@@ -3410,11 +3748,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-vttcue-linealign",
@@ -3430,11 +3770,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-vttcue-position",
@@ -3450,11 +3792,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-vttcue-positionalign",
@@ -3470,11 +3814,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-vttcue-size",
@@ -3490,11 +3836,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-vttcue-align",
@@ -3510,11 +3858,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-vttcue-text",
@@ -3530,11 +3880,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-vttcue-getcueashtml",
@@ -3550,11 +3902,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttcue-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttcue-interface",
+        "title": "The VTTCue interface",
+        "number": "9.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "enumdef-scrollsetting",
@@ -3573,7 +3927,8 @@
         "title": "The VTTRegion interface",
         "number": "9.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-scrollsetting",
@@ -3589,11 +3944,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttregion-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttregion-interface",
+        "title": "The VTTRegion interface",
+        "number": "9.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-scrollsetting-up",
@@ -3609,11 +3966,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttregion-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttregion-interface",
+        "title": "The VTTRegion interface",
+        "number": "9.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "vttregion",
@@ -3627,11 +3986,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttregion-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttregion-interface",
+        "title": "The VTTRegion interface",
+        "number": "9.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-vttregion-vttregion",
@@ -3648,11 +4009,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttregion-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttregion-interface",
+        "title": "The VTTRegion interface",
+        "number": "9.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-vttregion-id",
@@ -3668,11 +4031,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttregion-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttregion-interface",
+        "title": "The VTTRegion interface",
+        "number": "9.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-vttregion-width",
@@ -3688,11 +4053,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttregion-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttregion-interface",
+        "title": "The VTTRegion interface",
+        "number": "9.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-vttregion-lines",
@@ -3708,11 +4075,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttregion-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttregion-interface",
+        "title": "The VTTRegion interface",
+        "number": "9.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-vttregion-regionanchorx",
@@ -3728,11 +4097,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttregion-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttregion-interface",
+        "title": "The VTTRegion interface",
+        "number": "9.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-vttregion-regionanchory",
@@ -3748,11 +4119,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttregion-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttregion-interface",
+        "title": "The VTTRegion interface",
+        "number": "9.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-vttregion-viewportanchorx",
@@ -3768,11 +4141,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttregion-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttregion-interface",
+        "title": "The VTTRegion interface",
+        "number": "9.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-vttregion-viewportanchory",
@@ -3788,11 +4163,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttregion-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttregion-interface",
+        "title": "The VTTRegion interface",
+        "number": "9.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-vttregion-scroll",
@@ -3808,11 +4185,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://w3c.github.io/webvtt/#title",
-        "title": "WebVTT: The Web Video Text Tracks Format"
+        "id": "the-vttregion-interface",
+        "href": "https://w3c.github.io/webvtt/#the-vttregion-interface",
+        "title": "The VTTRegion interface",
+        "number": "9.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "text-vtt",
@@ -3831,7 +4210,8 @@
         "title": "text/vtt",
         "number": "10.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     }
   ]
 }

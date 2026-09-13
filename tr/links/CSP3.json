@@ -22,7 +22,6 @@
         ]
       },
       "https://github.com/w3c/webappsec-csp/issues/212": {},
-      "https://github.com/w3c/webappsec-csp/issues/426": {},
       "https://github.com/w3c/webappsec-csp/issues/98": {},
       "https://github.com/whatwg/html/issues/3257": {},
       "https://github.com/whatwg/html/issues/968": {},
@@ -47,20 +46,15 @@
       "https://webidl.spec.whatwg.org/": {},
       "https://websockets.spec.whatwg.org/": {},
       "https://wicg.github.io/reporting/": {},
-      "https://www.rfc-editor.org/rfc/rfc3492": {},
-      "https://www.rfc-editor.org/rfc/rfc3864": {},
-      "https://www.rfc-editor.org/rfc/rfc3986": {},
-      "https://www.rfc-editor.org/rfc/rfc4648": {},
-      "https://www.rfc-editor.org/rfc/rfc5234": {},
-      "https://www.rfc-editor.org/rfc/rfc7762": {},
+      "https://www.rfc-editor.org/info/rfc3492/": {},
+      "https://www.rfc-editor.org/info/rfc3864/": {},
+      "https://www.rfc-editor.org/info/rfc3986/": {},
+      "https://www.rfc-editor.org/info/rfc4648/": {},
+      "https://www.rfc-editor.org/info/rfc5234/": {},
+      "https://www.rfc-editor.org/info/rfc7762/": {},
       "https://www.w3.org/Mail/Request": {},
       "https://www.w3.org/TR/": {},
       "https://www.w3.org/TR/CSP2/": {},
-      "https://www.w3.org/TR/SRI/": {
-        "anchors": [
-          "parse-metadata"
-        ]
-      },
       "https://www.w3.org/TR/UISecurity/": {},
       "https://www.w3.org/TR/appmanifest/": {},
       "https://www.w3.org/TR/beacon/": {},
@@ -71,6 +65,7 @@
       "https://www.w3.org/TR/mixed-content/": {},
       "https://www.w3.org/TR/reporting-1/": {},
       "https://www.w3.org/TR/service-workers/": {},
+      "https://www.w3.org/TR/sri-2/": {},
       "https://www.w3.org/TR/trusted-types/": {},
       "https://www.w3.org/TR/upgrade-insecure-requests/": {},
       "https://www.w3.org/TR/webrtc/": {},
@@ -83,7 +78,7 @@
           "sec-Disclosure"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {
+      "https://www.w3.org/policies/process/20250818/": {
         "anchors": [
           "recs-and-notes"
         ]
@@ -95,7 +90,6 @@
         "anchors": [
           "document",
           "element",
-          "concept-document",
           "concept-document-url",
           "event",
           "dictdef-eventinit",
@@ -146,6 +140,7 @@
           "concept-request-redirect-mode",
           "concept-request-mode",
           "concept-fetch",
+          "request-webtransport-hash-list",
           "is-local",
           "concept-request-integrity-metadata",
           "concept-request-redirect-count"
@@ -176,18 +171,14 @@
           "sandboxed-scripts-browsing-context-flag",
           "sandboxed-origin-browsing-context-flag",
           "ascii-serialisation-of-an-origin",
-          "concept-origin-scheme"
+          "concept-origin-scheme",
+          "same-origin"
         ]
       },
       "https://html.spec.whatwg.org/multipage/browsing-the-web.html": {
         "anchors": [
           "create-navigation-params-by-fetching",
           "attempt-to-populate-the-history-entry's-document"
-        ]
-      },
-      "https://html.spec.whatwg.org/multipage/document-lifecycle.html": {
-        "anchors": [
-          "x-frame-options"
         ]
       },
       "https://html.spec.whatwg.org/multipage/document-sequences.html": {
@@ -226,7 +217,6 @@
       "https://html.spec.whatwg.org/multipage/nav-history-apis.html": {
         "anchors": [
           "window",
-          "dom-document-2",
           "concept-document-window"
         ]
       },
@@ -242,7 +232,8 @@
       },
       "https://html.spec.whatwg.org/multipage/scripting.html": {
         "anchors": [
-          "script"
+          "script",
+          "parser-inserted"
         ]
       },
       "https://html.spec.whatwg.org/multipage/semantics.html": {
@@ -256,6 +247,11 @@
           "set-the-frozen-base-url",
           "attr-base-href",
           "the-style-element"
+        ]
+      },
+      "https://html.spec.whatwg.org/multipage/speculative-loading.html": {
+        "anchors": [
+          "x-frame-options"
         ]
       },
       "https://html.spec.whatwg.org/multipage/text-level-semantics.html": {
@@ -305,6 +301,7 @@
         "anchors": [
           "ascii-whitespace",
           "ordered-set",
+          "struct",
           "list",
           "list-contain",
           "ascii-string",
@@ -321,11 +318,9 @@
           "set-append",
           "list-is-empty",
           "ascii-case-insensitive",
-          "list-append",
           "string-concatenate",
           "list-size",
           "the-range",
-          "struct",
           "ordered-map",
           "serialize-an-infra-value-to-json-bytes",
           "string-is",
@@ -382,12 +377,13 @@
           "concept-url-parser",
           "concept-base-url",
           "dom-url-host",
-          "concept-url-path",
+          "url-path-serializer",
           "dom-url-port",
           "default-port",
           "concept-host",
           "concept-domain",
           "concept-url-port",
+          "concept-url-path",
           "string-percent-decode"
         ]
       },
@@ -424,15 +420,12 @@
       "https://webidl.spec.whatwg.org/": {
         "anchors": [
           "implements",
-          "new",
           "exceptiondef-evalerror",
-          "Exposed",
-          "Default",
-          "idl-object",
           "idl-USVString",
           "idl-DOMString",
           "idl-unsigned-short",
-          "idl-unsigned-long"
+          "idl-unsigned-long",
+          "Exposed"
         ]
       },
       "https://www.w3.org/TR/css-cascade-5/": {
@@ -460,11 +453,17 @@
           "serviceworker"
         ]
       },
+      "https://www.w3.org/TR/sri-2/": {
+        "anchors": [
+          "parse-metadata"
+        ]
+      },
       "https://www.w3.org/TR/trusted-types/": {
         "anchors": [
           "trustedscript",
           "trustedscript-data",
-          "abstract-opdef-get-trusted-type-compliant-string"
+          "get-trusted-type-compliant-string",
+          "does-sink-type-require-trusted-types"
         ]
       },
       "https://www.w3.org/TR/webrtc/": {

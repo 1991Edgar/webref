@@ -1,12 +1,12 @@
 {
   "spec": {
     "title": "Verifiable Credential Data Integrity 1.0",
-    "url": "https://w3c.github.io/vc-data-integrity/"
+    "url": "https://www.w3.org/TR/vc-data-integrity/"
   },
   "dfns": [
     {
       "id": "dfn-transformation",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-transformation",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-transformation",
       "linkingText": [
         "Transformation"
       ],
@@ -17,15 +17,19 @@
       "informative": true,
       "heading": {
         "id": "how-it-works",
-        "href": "https://w3c.github.io/vc-data-integrity/#how-it-works",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#how-it-works",
         "title": "How it Works",
+        "alternateIds": [
+          "x1-1-how-it-works"
+        ],
         "number": "1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-transformation-algorithm",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-transformation-algorithm",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-transformation-algorithm",
       "linkingText": [
         "transformation algorithm"
       ],
@@ -36,15 +40,19 @@
       "informative": true,
       "heading": {
         "id": "how-it-works",
-        "href": "https://w3c.github.io/vc-data-integrity/#how-it-works",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#how-it-works",
         "title": "How it Works",
+        "alternateIds": [
+          "x1-1-how-it-works"
+        ],
         "number": "1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-hashing",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-hashing",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-hashing",
       "linkingText": [
         "Hashing"
       ],
@@ -55,15 +63,19 @@
       "informative": true,
       "heading": {
         "id": "how-it-works",
-        "href": "https://w3c.github.io/vc-data-integrity/#how-it-works",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#how-it-works",
         "title": "How it Works",
+        "alternateIds": [
+          "x1-1-how-it-works"
+        ],
         "number": "1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-hashing-algorithm",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-hashing-algorithm",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-hashing-algorithm",
       "linkingText": [
         "hashing algorithm"
       ],
@@ -74,15 +86,19 @@
       "informative": true,
       "heading": {
         "id": "how-it-works",
-        "href": "https://w3c.github.io/vc-data-integrity/#how-it-works",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#how-it-works",
         "title": "How it Works",
+        "alternateIds": [
+          "x1-1-how-it-works"
+        ],
         "number": "1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-proof-generation",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-proof-generation",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-proof-generation",
       "linkingText": [
         "Proof Generation"
       ],
@@ -93,15 +109,19 @@
       "informative": true,
       "heading": {
         "id": "how-it-works",
-        "href": "https://w3c.github.io/vc-data-integrity/#how-it-works",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#how-it-works",
         "title": "How it Works",
+        "alternateIds": [
+          "x1-1-how-it-works"
+        ],
         "number": "1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-proof-serialization-algorithm",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-proof-serialization-algorithm",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-proof-serialization-algorithm",
       "linkingText": [
         "proof serialization algorithm"
       ],
@@ -112,15 +132,19 @@
       "informative": true,
       "heading": {
         "id": "how-it-works",
-        "href": "https://w3c.github.io/vc-data-integrity/#how-it-works",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#how-it-works",
         "title": "How it Works",
+        "alternateIds": [
+          "x1-1-how-it-works"
+        ],
         "number": "1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-proof-verification",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-proof-verification",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-proof-verification",
       "linkingText": [
         "Proof Verification"
       ],
@@ -131,15 +155,19 @@
       "informative": true,
       "heading": {
         "id": "how-it-works",
-        "href": "https://w3c.github.io/vc-data-integrity/#how-it-works",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#how-it-works",
         "title": "How it Works",
+        "alternateIds": [
+          "x1-1-how-it-works"
+        ],
         "number": "1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-proof-verification-algorithm",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-proof-verification-algorithm",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-proof-verification-algorithm",
       "linkingText": [
         "proof verification algorithm"
       ],
@@ -150,15 +178,19 @@
       "informative": true,
       "heading": {
         "id": "how-it-works",
-        "href": "https://w3c.github.io/vc-data-integrity/#how-it-works",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#how-it-works",
         "title": "How it Works",
+        "alternateIds": [
+          "x1-1-how-it-works"
+        ],
         "number": "1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-conforming-secured-document",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-conforming-secured-document",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-conforming-secured-document",
       "linkingText": [
         "conforming secured document"
       ],
@@ -169,15 +201,19 @@
       "informative": true,
       "heading": {
         "id": "conformance",
-        "href": "https://w3c.github.io/vc-data-integrity/#conformance",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#conformance",
         "title": "Conformance",
+        "alternateIds": [
+          "x1-3-conformance"
+        ],
         "number": "1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-conforming-cryptographic-suite-specification",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-conforming-cryptographic-suite-specification",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-conforming-cryptographic-suite-specification",
       "linkingText": [
         "conforming cryptographic suite specification"
       ],
@@ -188,15 +224,19 @@
       "informative": true,
       "heading": {
         "id": "conformance",
-        "href": "https://w3c.github.io/vc-data-integrity/#conformance",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#conformance",
         "title": "Conformance",
+        "alternateIds": [
+          "x1-3-conformance"
+        ],
         "number": "1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-conforming-processor",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-conforming-processor",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-conforming-processor",
       "linkingText": [
         "conforming processor"
       ],
@@ -207,17 +247,21 @@
       "informative": true,
       "heading": {
         "id": "conformance",
-        "href": "https://w3c.github.io/vc-data-integrity/#conformance",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#conformance",
         "title": "Conformance",
+        "alternateIds": [
+          "x1-3-conformance"
+        ],
         "number": "1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
-      "id": "dfn-controller-document",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-controller-document",
+      "id": "dfn-controlled-identifier-document",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-controlled-identifier-document",
       "linkingText": [
-        "controller document"
+        "controlled identifier document"
       ],
       "localLinkingText": [],
       "type": "dfn",
@@ -226,16 +270,20 @@
       "informative": true,
       "heading": {
         "id": "terminology",
-        "href": "https://w3c.github.io/vc-data-integrity/#terminology",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#terminology",
         "title": "Terminology",
+        "alternateIds": [
+          "x1-4-terminology"
+        ],
         "number": "1.4"
       },
       "definedIn": "dt",
-      "htmlProse": "A document that contains public cryptographic material as defined in the\n<cite><a href=\"https://www.w3.org/TR/controller-document/\">Controlled Identifier Document 1.0</a></cite> specification."
+      "links": [],
+      "htmlProse": "A document that contains public cryptographic material as defined in the\n<cite><a href=\"https://www.w3.org/TR/cid-1.0/\">Controlled Identifiers v1.0</a></cite> specification."
     },
     {
       "id": "dfn-cryptosuite",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-cryptosuite",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-cryptosuite",
       "linkingText": [
         "cryptosuite",
         "cryptographic suite"
@@ -247,16 +295,20 @@
       "informative": true,
       "heading": {
         "id": "terminology",
-        "href": "https://w3c.github.io/vc-data-integrity/#terminology",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#terminology",
         "title": "Terminology",
+        "alternateIds": [
+          "x1-4-terminology"
+        ],
         "number": "1.4"
       },
       "definedIn": "dt",
-      "htmlProse": "A specification defining the usage of specific cryptographic primitives in\norder to achieve a particular security goal. These documents are often used\nto specify <a href=\"https://w3c.github.io/vc-data-integrity/#dfn-verification-method\">verification methods</a>, digital signature types,\ntheir identifiers, and other related properties. See Section\n<a href=\"https://w3c.github.io/vc-data-integrity/#cryptographic-suites\"><bdi>3. </bdi>Cryptographic Suites</a> for further detail."
+      "links": [],
+      "htmlProse": "A specification defining the usage of specific cryptographic primitives in\norder to achieve a particular security goal. These documents are often used\nto specify <a href=\"https://www.w3.org/TR/vc-data-integrity/#dfn-verification-method\">verification methods</a>, digital signature types,\ntheir identifiers, and other related properties. See Section\n<a href=\"https://www.w3.org/TR/vc-data-integrity/#cryptographic-suites\"><bdi>3. </bdi>Cryptographic Suites</a> for further detail."
     },
     {
       "id": "dfn-data-integrity-proof",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-data-integrity-proof",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-data-integrity-proof",
       "linkingText": [
         "data integrity proof"
       ],
@@ -267,16 +319,20 @@
       "informative": true,
       "heading": {
         "id": "terminology",
-        "href": "https://w3c.github.io/vc-data-integrity/#terminology",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#terminology",
         "title": "Terminology",
+        "alternateIds": [
+          "x1-4-terminology"
+        ],
         "number": "1.4"
       },
       "definedIn": "dt",
+      "links": [],
       "htmlProse": "A set of attributes that represent a digital proof and the parameters required\nto verify it. A <strong>digital signature</strong> is a type of data integrity\nproof."
     },
     {
       "id": "dfn-proof-purpose",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-proof-purpose",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-proof-purpose",
       "linkingText": [
         "proof purpose"
       ],
@@ -287,16 +343,20 @@
       "informative": true,
       "heading": {
         "id": "terminology",
-        "href": "https://w3c.github.io/vc-data-integrity/#terminology",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#terminology",
         "title": "Terminology",
+        "alternateIds": [
+          "x1-4-terminology"
+        ],
         "number": "1.4"
       },
       "definedIn": "dt",
+      "links": [],
       "htmlProse": "The specific intent for the proof; the reason why an entity created it. The\nprotected declaration acts as a safeguard to prevent the proof from being\nmisused for a purpose other than the one it was intended for."
     },
     {
       "id": "dfn-public-key",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-public-key",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-public-key",
       "linkingText": [
         "public key"
       ],
@@ -307,16 +367,20 @@
       "informative": true,
       "heading": {
         "id": "terminology",
-        "href": "https://w3c.github.io/vc-data-integrity/#terminology",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#terminology",
         "title": "Terminology",
+        "alternateIds": [
+          "x1-4-terminology"
+        ],
         "number": "1.4"
       },
       "definedIn": "dt",
-      "htmlProse": "Cryptographic material that can be used to verify digital proofs created with a\ncorresponding <a href=\"https://w3c.github.io/vc-data-integrity/#dfn-secret-key\">secret key</a>."
+      "links": [],
+      "htmlProse": "Cryptographic material that can be used to verify digital proofs created with a\ncorresponding <a href=\"https://www.w3.org/TR/vc-data-integrity/#dfn-secret-key\">secret key</a>."
     },
     {
       "id": "dfn-secret-key",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-secret-key",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-secret-key",
       "linkingText": [
         "secret key"
       ],
@@ -327,16 +391,20 @@
       "informative": true,
       "heading": {
         "id": "terminology",
-        "href": "https://w3c.github.io/vc-data-integrity/#terminology",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#terminology",
         "title": "Terminology",
+        "alternateIds": [
+          "x1-4-terminology"
+        ],
         "number": "1.4"
       },
       "definedIn": "dt",
+      "links": [],
       "htmlProse": "Cryptographic material, sometimes referred to as a\n<strong>private key</strong>, that is not to be shared with anyone, and is used\nto generate digital proofs and/or digital signatures."
     },
     {
       "id": "dfn-verification-method",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-verification-method",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-verification-method",
       "linkingText": [
         "verification method"
       ],
@@ -347,16 +415,20 @@
       "informative": true,
       "heading": {
         "id": "terminology",
-        "href": "https://w3c.github.io/vc-data-integrity/#terminology",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#terminology",
         "title": "Terminology",
+        "alternateIds": [
+          "x1-4-terminology"
+        ],
         "number": "1.4"
       },
       "definedIn": "dt",
-      "htmlProse": "<p>\nA set of parameters that can be used together with a process to independently\nverify a proof. For example, a cryptographic <a href=\"https://w3c.github.io/vc-data-integrity/#dfn-public-key\">public key</a> can be used as a\nverification method with respect to a digital signature; in such usage, it\nverifies that the signer possessed the associated cryptographic <a href=\"https://w3c.github.io/vc-data-integrity/#dfn-secret-key\">secret key</a>.\n            </p>\n            <p>\n\"Verification\" and \"proof\" in this definition are intended to apply broadly. For\nexample, a cryptographic public key might be used during Diffie-Hellman key\nexchange to negotiate a shared symmetric key for encryption. This guarantees the\nintegrity of the key agreement process. It is thus another type of verification\nmethod, even though descriptions of the process might not use the words\n\"verification\" or \"proof.\"\n            </p>"
+      "links": [],
+      "htmlProse": "<p>\nA set of parameters that can be used together with a process to independently\nverify a proof. For example, a cryptographic <a href=\"https://www.w3.org/TR/vc-data-integrity/#dfn-public-key\">public key</a> can be used as a\nverification method with respect to a digital signature; in such usage, it\nverifies that the signer possessed the associated cryptographic <a href=\"https://www.w3.org/TR/vc-data-integrity/#dfn-secret-key\">secret key</a>.\n            </p>\n            <p>\n\"Verification\" and \"proof\" in this definition are intended to apply broadly. For\nexample, a cryptographic public key might be used during Diffie-Hellman key\nexchange to negotiate a shared symmetric key for encryption. This guarantees the\nintegrity of the key agreement process. It is thus another type of verification\nmethod, even though descriptions of the process might not use the words\n\"verification\" or \"proof.\"\n            </p>"
     },
     {
       "id": "dfn-verifier",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-verifier",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-verifier",
       "linkingText": [
         "verifier",
         "verifiers",
@@ -369,16 +441,20 @@
       "informative": true,
       "heading": {
         "id": "terminology",
-        "href": "https://w3c.github.io/vc-data-integrity/#terminology",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#terminology",
         "title": "Terminology",
+        "alternateIds": [
+          "x1-4-terminology"
+        ],
         "number": "1.4"
       },
       "definedIn": "dt",
-      "htmlProse": "A role an entity performs by receiving data containing one or more\n<a href=\"https://w3c.github.io/vc-data-integrity/#dfn-data-integrity-proof\">data integrity proofs</a> and then determining whether or not the proof\nis legitimate."
+      "links": [],
+      "htmlProse": "A role an entity performs by receiving data containing one or more\n<a href=\"https://www.w3.org/TR/vc-data-integrity/#dfn-data-integrity-proof\">data integrity proofs</a> and then determining whether or not the proof\nis legitimate."
     },
     {
       "id": "dfn-proof",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-proof",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-proof",
       "linkingText": [
         "proof"
       ],
@@ -389,15 +465,19 @@
       "informative": false,
       "heading": {
         "id": "proofs",
-        "href": "https://w3c.github.io/vc-data-integrity/#proofs",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#proofs",
         "title": "Proofs",
+        "alternateIds": [
+          "x2-1-proofs"
+        ],
         "number": "2.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-proofpurpose",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-proofpurpose",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-proofpurpose",
       "linkingText": [
         "proofPurpose"
       ],
@@ -408,15 +488,19 @@
       "informative": false,
       "heading": {
         "id": "proofs",
-        "href": "https://w3c.github.io/vc-data-integrity/#proofs",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#proofs",
         "title": "Proofs",
+        "alternateIds": [
+          "x2-1-proofs"
+        ],
         "number": "2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-created",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-created",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-created",
       "linkingText": [
         "created"
       ],
@@ -427,15 +511,19 @@
       "informative": false,
       "heading": {
         "id": "proofs",
-        "href": "https://w3c.github.io/vc-data-integrity/#proofs",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#proofs",
         "title": "Proofs",
+        "alternateIds": [
+          "x2-1-proofs"
+        ],
         "number": "2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-challenge",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-challenge",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-challenge",
       "linkingText": [
         "challenge"
       ],
@@ -446,15 +534,19 @@
       "informative": false,
       "heading": {
         "id": "proofs",
-        "href": "https://w3c.github.io/vc-data-integrity/#proofs",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#proofs",
         "title": "Proofs",
+        "alternateIds": [
+          "x2-1-proofs"
+        ],
         "number": "2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-proofvalue",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-proofvalue",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-proofvalue",
       "linkingText": [
         "proofValue"
       ],
@@ -465,15 +557,19 @@
       "informative": false,
       "heading": {
         "id": "proofs",
-        "href": "https://w3c.github.io/vc-data-integrity/#proofs",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#proofs",
         "title": "Proofs",
+        "alternateIds": [
+          "x2-1-proofs"
+        ],
         "number": "2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-previousproof",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-previousproof",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-previousproof",
       "linkingText": [
         "previousProof"
       ],
@@ -484,15 +580,19 @@
       "informative": false,
       "heading": {
         "id": "proofs",
-        "href": "https://w3c.github.io/vc-data-integrity/#proofs",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#proofs",
         "title": "Proofs",
+        "alternateIds": [
+          "x2-1-proofs"
+        ],
         "number": "2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-nonce",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-nonce",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-nonce",
       "linkingText": [
         "nonce"
       ],
@@ -503,15 +603,19 @@
       "informative": false,
       "heading": {
         "id": "proofs",
-        "href": "https://w3c.github.io/vc-data-integrity/#proofs",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#proofs",
         "title": "Proofs",
+        "alternateIds": [
+          "x2-1-proofs"
+        ],
         "number": "2.1"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-proof-set",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-proof-set",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-proof-set",
       "linkingText": [
         "proof set"
       ],
@@ -522,15 +626,19 @@
       "informative": false,
       "heading": {
         "id": "proof-sets",
-        "href": "https://w3c.github.io/vc-data-integrity/#proof-sets",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#proof-sets",
         "title": "Proof Sets",
+        "alternateIds": [
+          "x2-1-1-proof-sets"
+        ],
         "number": "2.1.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-proof-chain",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-proof-chain",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-proof-chain",
       "linkingText": [
         "proof chain"
       ],
@@ -541,15 +649,19 @@
       "informative": false,
       "heading": {
         "id": "proof-chains",
-        "href": "https://w3c.github.io/vc-data-integrity/#proof-chains",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#proof-chains",
         "title": "Proof Chains",
+        "alternateIds": [
+          "x2-1-2-proof-chains"
+        ],
         "number": "2.1.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-proof-graph",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-proof-graph",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-proof-graph",
       "linkingText": [
         "proof graph"
       ],
@@ -560,15 +672,19 @@
       "informative": false,
       "heading": {
         "id": "proof-graphs",
-        "href": "https://w3c.github.io/vc-data-integrity/#proof-graphs",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#proof-graphs",
         "title": "Proof Graphs",
+        "alternateIds": [
+          "x2-1-3-proof-graphs"
+        ],
         "number": "2.1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-named-graph",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-named-graph",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-named-graph",
       "linkingText": [
         "named graph"
       ],
@@ -579,15 +695,19 @@
       "informative": false,
       "heading": {
         "id": "proof-graphs",
-        "href": "https://w3c.github.io/vc-data-integrity/#proof-graphs",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#proof-graphs",
         "title": "Proof Graphs",
+        "alternateIds": [
+          "x2-1-3-proof-graphs"
+        ],
         "number": "2.1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-proofgraph",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-proofgraph",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-proofgraph",
       "linkingText": [
         "ProofGraph"
       ],
@@ -598,15 +718,19 @@
       "informative": false,
       "heading": {
         "id": "proof-graphs",
-        "href": "https://w3c.github.io/vc-data-integrity/#proof-graphs",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#proof-graphs",
         "title": "Proof Graphs",
+        "alternateIds": [
+          "x2-1-3-proof-graphs"
+        ],
         "number": "2.1.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-authentication",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-authentication",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-authentication",
       "linkingText": [
         "authentication"
       ],
@@ -617,15 +741,19 @@
       "informative": false,
       "heading": {
         "id": "proof-purposes",
-        "href": "https://w3c.github.io/vc-data-integrity/#proof-purposes",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#proof-purposes",
         "title": "Proof Purposes",
+        "alternateIds": [
+          "x2-2-proof-purposes"
+        ],
         "number": "2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-assertionmethod",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-assertionmethod",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-assertionmethod",
       "linkingText": [
         "assertionMethod"
       ],
@@ -636,15 +764,19 @@
       "informative": false,
       "heading": {
         "id": "proof-purposes",
-        "href": "https://w3c.github.io/vc-data-integrity/#proof-purposes",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#proof-purposes",
         "title": "Proof Purposes",
+        "alternateIds": [
+          "x2-2-proof-purposes"
+        ],
         "number": "2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-keyagreement",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-keyagreement",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-keyagreement",
       "linkingText": [
         "keyAgreement"
       ],
@@ -655,15 +787,19 @@
       "informative": false,
       "heading": {
         "id": "proof-purposes",
-        "href": "https://w3c.github.io/vc-data-integrity/#proof-purposes",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#proof-purposes",
         "title": "Proof Purposes",
+        "alternateIds": [
+          "x2-2-proof-purposes"
+        ],
         "number": "2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-capabilitydelegation",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-capabilitydelegation",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-capabilitydelegation",
       "linkingText": [
         "capabilityDelegation"
       ],
@@ -674,15 +810,19 @@
       "informative": false,
       "heading": {
         "id": "proof-purposes",
-        "href": "https://w3c.github.io/vc-data-integrity/#proof-purposes",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#proof-purposes",
         "title": "Proof Purposes",
+        "alternateIds": [
+          "x2-2-proof-purposes"
+        ],
         "number": "2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-capabilityinvocation",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-capabilityinvocation",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-capabilityinvocation",
       "linkingText": [
         "capabilityInvocation"
       ],
@@ -693,15 +833,19 @@
       "informative": false,
       "heading": {
         "id": "proof-purposes",
-        "href": "https://w3c.github.io/vc-data-integrity/#proof-purposes",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#proof-purposes",
         "title": "Proof Purposes",
+        "alternateIds": [
+          "x2-2-proof-purposes"
+        ],
         "number": "2.2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-digestmultibase",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-digestmultibase",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-digestmultibase",
       "linkingText": [
         "digestMultibase"
       ],
@@ -712,15 +856,19 @@
       "informative": false,
       "heading": {
         "id": "resource-integrity",
-        "href": "https://w3c.github.io/vc-data-integrity/#resource-integrity",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#resource-integrity",
         "title": "Resource Integrity",
+        "alternateIds": [
+          "x2-3-resource-integrity"
+        ],
         "number": "2.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-cryptosuite-instantiation-algorithm",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-cryptosuite-instantiation-algorithm",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-cryptosuite-instantiation-algorithm",
       "linkingText": [
         "cryptosuite instantiation algorithm",
         "data integrity cryptographic suite instantiation algorithm"
@@ -732,15 +880,19 @@
       "informative": false,
       "heading": {
         "id": "cryptographic-suites",
-        "href": "https://w3c.github.io/vc-data-integrity/#cryptographic-suites",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#cryptographic-suites",
         "title": "Cryptographic Suites",
+        "alternateIds": [
+          "x3-cryptographic-suites"
+        ],
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-data-integrity-cryptographic-suite-instance",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-data-integrity-cryptographic-suite-instance",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-data-integrity-cryptographic-suite-instance",
       "linkingText": [
         "data integrity cryptographic suite instance",
         "cryptosuite instance"
@@ -754,15 +906,19 @@
       "informative": false,
       "heading": {
         "id": "cryptographic-suites",
-        "href": "https://w3c.github.io/vc-data-integrity/#cryptographic-suites",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#cryptographic-suites",
         "title": "Cryptographic Suites",
+        "alternateIds": [
+          "x3-cryptographic-suites"
+        ],
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-createproof",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-createproof",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-createproof",
       "linkingText": [
         "createProof"
       ],
@@ -773,15 +929,19 @@
       "informative": false,
       "heading": {
         "id": "cryptographic-suites",
-        "href": "https://w3c.github.io/vc-data-integrity/#cryptographic-suites",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#cryptographic-suites",
         "title": "Cryptographic Suites",
+        "alternateIds": [
+          "x3-cryptographic-suites"
+        ],
         "number": "3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-verifyproof",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-verifyproof",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-verifyproof",
       "linkingText": [
         "verifyProof"
       ],
@@ -792,15 +952,19 @@
       "informative": false,
       "heading": {
         "id": "cryptographic-suites",
-        "href": "https://w3c.github.io/vc-data-integrity/#cryptographic-suites",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#cryptographic-suites",
         "title": "Cryptographic Suites",
+        "alternateIds": [
+          "x3-cryptographic-suites"
+        ],
         "number": "3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-cryptosuite-verification-result",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-cryptosuite-verification-result",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-cryptosuite-verification-result",
       "linkingText": [
         "cryptosuite verification result"
       ],
@@ -811,15 +975,19 @@
       "informative": false,
       "heading": {
         "id": "cryptographic-suites",
-        "href": "https://w3c.github.io/vc-data-integrity/#cryptographic-suites",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#cryptographic-suites",
         "title": "Cryptographic Suites",
+        "alternateIds": [
+          "x3-cryptographic-suites"
+        ],
         "number": "3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-verified",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-verified",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-verified",
       "linkingText": [
         "verified"
       ],
@@ -830,15 +998,19 @@
       "informative": false,
       "heading": {
         "id": "cryptographic-suites",
-        "href": "https://w3c.github.io/vc-data-integrity/#cryptographic-suites",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#cryptographic-suites",
         "title": "Cryptographic Suites",
+        "alternateIds": [
+          "x3-cryptographic-suites"
+        ],
         "number": "3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-verifieddocument",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-verifieddocument",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-verifieddocument",
       "linkingText": [
         "verifiedDocument"
       ],
@@ -849,15 +1021,19 @@
       "informative": false,
       "heading": {
         "id": "cryptographic-suites",
-        "href": "https://w3c.github.io/vc-data-integrity/#cryptographic-suites",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#cryptographic-suites",
         "title": "Cryptographic Suites",
+        "alternateIds": [
+          "x3-cryptographic-suites"
+        ],
         "number": "3"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-unsecured-data-document",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-unsecured-data-document",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-unsecured-data-document",
       "linkingText": [
         "unsecured data document"
       ],
@@ -868,15 +1044,19 @@
       "informative": false,
       "heading": {
         "id": "algorithms",
-        "href": "https://w3c.github.io/vc-data-integrity/#algorithms",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#algorithms",
         "title": "Algorithms",
+        "alternateIds": [
+          "x4-algorithms"
+        ],
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-input-document",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-input-document",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-input-document",
       "linkingText": [
         "input document"
       ],
@@ -887,15 +1067,19 @@
       "informative": false,
       "heading": {
         "id": "algorithms",
-        "href": "https://w3c.github.io/vc-data-integrity/#algorithms",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#algorithms",
         "title": "Algorithms",
+        "alternateIds": [
+          "x4-algorithms"
+        ],
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-secured-data-document",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-secured-data-document",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-secured-data-document",
       "linkingText": [
         "secured data document"
       ],
@@ -906,15 +1090,19 @@
       "informative": false,
       "heading": {
         "id": "algorithms",
-        "href": "https://w3c.github.io/vc-data-integrity/#algorithms",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#algorithms",
         "title": "Algorithms",
+        "alternateIds": [
+          "x4-algorithms"
+        ],
         "number": "4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-verification-result",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-verification-result",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-verification-result",
       "linkingText": [
         "verification result"
       ],
@@ -925,15 +1113,19 @@
       "informative": false,
       "heading": {
         "id": "verify-proof",
-        "href": "https://w3c.github.io/vc-data-integrity/#verify-proof",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#verify-proof",
         "title": "Verify Proof",
+        "alternateIds": [
+          "x4-4-verify-proof"
+        ],
         "number": "4.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-verified-0",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-verified-0",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-verified-0",
       "linkingText": [
         "verified"
       ],
@@ -946,15 +1138,19 @@
       "informative": false,
       "heading": {
         "id": "verify-proof",
-        "href": "https://w3c.github.io/vc-data-integrity/#verify-proof",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#verify-proof",
         "title": "Verify Proof",
+        "alternateIds": [
+          "x4-4-verify-proof"
+        ],
         "number": "4.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-verifieddocument-0",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-verifieddocument-0",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-verifieddocument-0",
       "linkingText": [
         "verifiedDocument"
       ],
@@ -967,15 +1163,19 @@
       "informative": false,
       "heading": {
         "id": "verify-proof",
-        "href": "https://w3c.github.io/vc-data-integrity/#verify-proof",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#verify-proof",
         "title": "Verify Proof",
+        "alternateIds": [
+          "x4-4-verify-proof"
+        ],
         "number": "4.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-mediatype",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-mediatype",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-mediatype",
       "linkingText": [
         "mediaType"
       ],
@@ -988,15 +1188,19 @@
       "informative": false,
       "heading": {
         "id": "verify-proof",
-        "href": "https://w3c.github.io/vc-data-integrity/#verify-proof",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#verify-proof",
         "title": "Verify Proof",
+        "alternateIds": [
+          "x4-4-verify-proof"
+        ],
         "number": "4.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-warnings",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-warnings",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-warnings",
       "linkingText": [
         "warnings"
       ],
@@ -1009,15 +1213,19 @@
       "informative": false,
       "heading": {
         "id": "verify-proof",
-        "href": "https://w3c.github.io/vc-data-integrity/#verify-proof",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#verify-proof",
         "title": "Verify Proof",
+        "alternateIds": [
+          "x4-4-verify-proof"
+        ],
         "number": "4.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-errors",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-errors",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-errors",
       "linkingText": [
         "errors"
       ],
@@ -1030,15 +1238,19 @@
       "informative": false,
       "heading": {
         "id": "verify-proof",
-        "href": "https://w3c.github.io/vc-data-integrity/#verify-proof",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#verify-proof",
         "title": "Verify Proof",
+        "alternateIds": [
+          "x4-4-verify-proof"
+        ],
         "number": "4.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-context-validation-result",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-context-validation-result",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-context-validation-result",
       "linkingText": [
         "context validation result"
       ],
@@ -1049,15 +1261,19 @@
       "informative": false,
       "heading": {
         "id": "context-validation",
-        "href": "https://w3c.github.io/vc-data-integrity/#context-validation",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#context-validation",
         "title": "Context Validation",
+        "alternateIds": [
+          "x4-6-context-validation"
+        ],
         "number": "4.6"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-validated",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-validated",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-validated",
       "linkingText": [
         "validated"
       ],
@@ -1070,15 +1286,19 @@
       "informative": false,
       "heading": {
         "id": "context-validation",
-        "href": "https://w3c.github.io/vc-data-integrity/#context-validation",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#context-validation",
         "title": "Context Validation",
+        "alternateIds": [
+          "x4-6-context-validation"
+        ],
         "number": "4.6"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-validateddocument",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-validateddocument",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-validateddocument",
       "linkingText": [
         "validatedDocument"
       ],
@@ -1091,15 +1311,19 @@
       "informative": false,
       "heading": {
         "id": "context-validation",
-        "href": "https://w3c.github.io/vc-data-integrity/#context-validation",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#context-validation",
         "title": "Context Validation",
+        "alternateIds": [
+          "x4-6-context-validation"
+        ],
         "number": "4.6"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-warnings-0",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-warnings-0",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-warnings-0",
       "linkingText": [
         "warnings"
       ],
@@ -1112,15 +1336,19 @@
       "informative": false,
       "heading": {
         "id": "context-validation",
-        "href": "https://w3c.github.io/vc-data-integrity/#context-validation",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#context-validation",
         "title": "Context Validation",
+        "alternateIds": [
+          "x4-6-context-validation"
+        ],
         "number": "4.6"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-errors-0",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-errors-0",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-errors-0",
       "linkingText": [
         "errors"
       ],
@@ -1133,15 +1361,19 @@
       "informative": false,
       "heading": {
         "id": "context-validation",
-        "href": "https://w3c.github.io/vc-data-integrity/#context-validation",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#context-validation",
         "title": "Context Validation",
+        "alternateIds": [
+          "x4-6-context-validation"
+        ],
         "number": "4.6"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-problemdetails",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-problemdetails",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-problemdetails",
       "linkingText": [
         "ProblemDetails"
       ],
@@ -1152,15 +1384,19 @@
       "informative": false,
       "heading": {
         "id": "processing-errors",
-        "href": "https://w3c.github.io/vc-data-integrity/#processing-errors",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#processing-errors",
         "title": "Processing Errors",
+        "alternateIds": [
+          "x4-7-processing-errors"
+        ],
         "number": "4.7"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-cryptographic-agility",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-cryptographic-agility",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-cryptographic-agility",
       "linkingText": [
         "Cryptographic agility"
       ],
@@ -1171,15 +1407,19 @@
       "informative": false,
       "heading": {
         "id": "agility-and-layering",
-        "href": "https://w3c.github.io/vc-data-integrity/#agility-and-layering",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#agility-and-layering",
         "title": "Agility and Layering",
+        "alternateIds": [
+          "x5-4-agility-and-layering"
+        ],
         "number": "5.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-cryptographic-layering",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-cryptographic-layering",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-cryptographic-layering",
       "linkingText": [
         "Cryptographic layering"
       ],
@@ -1190,15 +1430,19 @@
       "informative": false,
       "heading": {
         "id": "agility-and-layering",
-        "href": "https://w3c.github.io/vc-data-integrity/#agility-and-layering",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#agility-and-layering",
         "title": "Agility and Layering",
+        "alternateIds": [
+          "x5-4-agility-and-layering"
+        ],
         "number": "5.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-unlinkability",
-      "href": "https://w3c.github.io/vc-data-integrity/#dfn-unlinkability",
+      "href": "https://www.w3.org/TR/vc-data-integrity/#dfn-unlinkability",
       "linkingText": [
         "unlinkability"
       ],
@@ -1209,11 +1453,15 @@
       "informative": false,
       "heading": {
         "id": "unlinkability",
-        "href": "https://w3c.github.io/vc-data-integrity/#unlinkability",
+        "href": "https://www.w3.org/TR/vc-data-integrity/#unlinkability",
         "title": "Unlinkability",
+        "alternateIds": [
+          "x6-1-unlinkability"
+        ],
         "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     }
   ]
 }

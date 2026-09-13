@@ -35,7 +35,8 @@
           "name": "<opacity-value>",
           "prose": "The opacity to be applied to the element. The resulting opacity is applied to the entire element, rather than a particular color. Opacity values outside the range [0,1] are not invalid, and are preserved in specified values, but are clamped to the range [0, 1] in computed values.",
           "href": "https://www.w3.org/TR/css-color-4/#typedef-opacity-opacity-value",
-          "type": "type"
+          "type": "type",
+          "value": "<number> | <percentage>"
         }
       ],
       "styleDeclaration": [
@@ -82,161 +83,161 @@
         },
         {
           "name": "ActiveBorder",
-          "prose": "Active window border. Same as ButtonBorder.",
+          "prose": "Active window border. Computes to the color of ButtonBorder.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-activeborder",
           "type": "value",
           "value": "ActiveBorder"
         },
         {
           "name": "ActiveCaption",
-          "prose": "Active window caption. Same as Canvas.",
+          "prose": "Active window caption. Computes to the color of Canvas.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-activecaption",
           "type": "value",
           "value": "ActiveCaption"
         },
         {
           "name": "AppWorkspace",
-          "prose": "Background color of multiple document interface. Same as Canvas.",
+          "prose": "Background color of multiple document interface. Computes to the color of Canvas.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-appworkspace",
           "type": "value",
           "value": "AppWorkspace"
         },
         {
           "name": "Background",
-          "prose": "Desktop background. Same as Canvas.",
+          "prose": "Desktop background. Computes to the color of Canvas.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-background",
           "type": "value",
           "value": "Background"
         },
         {
           "name": "ButtonHighlight",
-          "prose": "The color of the border facing the light source for 3-D elements that appear 3-D due to one layer of surrounding border. Same as ButtonFace.",
+          "prose": "The color of the border facing the light source for 3-D elements that appear 3-D due to one layer of surrounding border. Computes to the color of ButtonFace.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-buttonhighlight",
           "type": "value",
           "value": "ButtonHighlight"
         },
         {
           "name": "ButtonShadow",
-          "prose": "The color of the border away from the light source for 3-D elements that appear 3-D due to one layer of surrounding border. Same as ButtonFace.",
+          "prose": "The color of the border away from the light source for 3-D elements that appear 3-D due to one layer of surrounding border. Computes to the color of ButtonFace.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-buttonshadow",
           "type": "value",
           "value": "ButtonShadow"
         },
         {
           "name": "CaptionText",
-          "prose": "Text in caption, size box, and scrollbar arrow box. Same as CanvasText.",
+          "prose": "Text in caption, size box, and scrollbar arrow box. Computes to the color of CanvasText.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-captiontext",
           "type": "value",
           "value": "CaptionText"
         },
         {
           "name": "InactiveBorder",
-          "prose": "Inactive window border. Same as ButtonBorder.",
+          "prose": "Inactive window border. Computes to the color of ButtonBorder.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-inactiveborder",
           "type": "value",
           "value": "InactiveBorder"
         },
         {
           "name": "InactiveCaption",
-          "prose": "Inactive window caption. Same as Canvas.",
+          "prose": "Inactive window caption. Computes to the color of Canvas.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-inactivecaption",
           "type": "value",
           "value": "InactiveCaption"
         },
         {
           "name": "InactiveCaptionText",
-          "prose": "Color of text in an inactive caption. Same as GrayText.",
+          "prose": "Color of text in an inactive caption. Computes to the color of GrayText.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-inactivecaptiontext",
           "type": "value",
           "value": "InactiveCaptionText"
         },
         {
           "name": "InfoBackground",
-          "prose": "Background color for tooltip controls. Same as Canvas.",
+          "prose": "Background color for tooltip controls. Computes to the color of Canvas.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-infobackground",
           "type": "value",
           "value": "InfoBackground"
         },
         {
           "name": "InfoText",
-          "prose": "Text color for tooltip controls. Same as CanvasText.",
+          "prose": "Text color for tooltip controls. Computes to the color of CanvasText.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-infotext",
           "type": "value",
           "value": "InfoText"
         },
         {
           "name": "Menu",
-          "prose": "Menu background. Same as Canvas.",
+          "prose": "Menu background. Computes to the color of Canvas.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-menu",
           "type": "value",
           "value": "Menu"
         },
         {
           "name": "MenuText",
-          "prose": "Text in menus. Same as CanvasText.",
+          "prose": "Text in menus. Computes to the color of CanvasText.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-menutext",
           "type": "value",
           "value": "MenuText"
         },
         {
           "name": "Scrollbar",
-          "prose": "Scroll bar gray area. Same as Canvas.",
+          "prose": "Scroll bar gray area. Computes to the color of Canvas.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-scrollbar",
           "type": "value",
           "value": "Scrollbar"
         },
         {
           "name": "ThreeDDarkShadow",
-          "prose": "The color of the darker (generally outer) of the two borders away from the light source for 3-D elements that appear 3-D due to two concentric layers of surrounding border. Same as ButtonBorder.",
+          "prose": "The color of the darker (generally outer) of the two borders away from the light source for 3-D elements that appear 3-D due to two concentric layers of surrounding border. Computes to the color of ButtonBorder.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-threeddarkshadow",
           "type": "value",
           "value": "ThreeDDarkShadow"
         },
         {
           "name": "ThreeDFace",
-          "prose": "The face background color for 3-D elements that appear 3-D due to two concentric layers of surrounding border. Same as ButtonFace.",
+          "prose": "The face background color for 3-D elements that appear 3-D due to two concentric layers of surrounding border. Computes to the color of ButtonFace.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-threedface",
           "type": "value",
           "value": "ThreeDFace"
         },
         {
           "name": "ThreeDHighlight",
-          "prose": "The color of the lighter (generally outer) of the two borders facing the light source for 3-D elements that appear 3-D due to two concentric layers of surrounding border. Same as ButtonBorder.",
+          "prose": "The color of the lighter (generally outer) of the two borders facing the light source for 3-D elements that appear 3-D due to two concentric layers of surrounding border. Computes to the color of ButtonBorder.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-threedhighlight",
           "type": "value",
           "value": "ThreeDHighlight"
         },
         {
           "name": "ThreeDLightShadow",
-          "prose": "The color of the darker (generally inner) of the two borders facing the light source for 3-D elements that appear 3-D due to two concentric layers of surrounding border. Same as ButtonBorder.",
+          "prose": "The color of the darker (generally inner) of the two borders facing the light source for 3-D elements that appear 3-D due to two concentric layers of surrounding border. Computes to the color of ButtonBorder.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-threedlightshadow",
           "type": "value",
           "value": "ThreeDLightShadow"
         },
         {
           "name": "ThreeDShadow",
-          "prose": "The color of the lighter (generally inner) of the two borders away from the light source for 3-D elements that appear 3-D due to two concentric layers of surrounding border. Same as ButtonBorder.",
+          "prose": "The color of the lighter (generally inner) of the two borders away from the light source for 3-D elements that appear 3-D due to two concentric layers of surrounding border. Computes to the color of ButtonBorder.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-threedshadow",
           "type": "value",
           "value": "ThreeDShadow"
         },
         {
           "name": "Window",
-          "prose": "Window background. Same as Canvas.",
+          "prose": "Window background. Computes to the color of Canvas.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-window",
           "type": "value",
           "value": "Window"
         },
         {
           "name": "WindowFrame",
-          "prose": "Window frame. Same as ButtonBorder.",
+          "prose": "Window frame. Computes to the color of ButtonBorder.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-windowframe",
           "type": "value",
           "value": "WindowFrame"
         },
         {
           "name": "WindowText",
-          "prose": "Text in windows. Same as CanvasText.",
+          "prose": "Text in windows. Computes to the color of CanvasText.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-windowtext",
           "type": "value",
           "value": "WindowText"
@@ -263,15 +264,15 @@
     },
     {
       "name": "rgb()",
+      "value": "[ <legacy-rgb-syntax> | <modern-rgb-syntax> ]",
       "href": "https://www.w3.org/TR/css-color-4/#funcdef-rgb",
-      "type": "function",
-      "value": "[ <legacy-rgb-syntax> | <modern-rgb-syntax> ]"
+      "type": "function"
     },
     {
       "name": "rgba()",
+      "value": "[ <legacy-rgba-syntax> | <modern-rgba-syntax> ]",
       "href": "https://www.w3.org/TR/css-color-4/#funcdef-rgba",
-      "type": "function",
-      "value": "[ <legacy-rgba-syntax> | <modern-rgba-syntax> ]"
+      "type": "function"
     },
     {
       "name": "<legacy-rgb-syntax>",
@@ -1201,7 +1202,7 @@
     },
     {
       "name": "<system-color>",
-      "prose": "However, in forced colors mode, most colors on the page are forced into a restricted, user-chosen palette. The <system-color> keywords expose these user-chosen colors so that the rest of the page can integrate with this restricted palette.",
+      "prose": "However, in forced colors mode, most colors on the page are forced into a restricted, user-chosen palette, see CSS Color Adjustment 1 § 5.2 Forced Colors Mode Color Palettes. The <system-color> keywords expose these user-chosen colors so that the rest of the page can integrate with this restricted palette.",
       "href": "https://www.w3.org/TR/css-color-4/#typedef-system-color",
       "type": "type",
       "values": [
@@ -1342,9 +1343,9 @@
     },
     {
       "name": "hsl()",
+      "value": "[ <legacy-hsl-syntax> | <modern-hsl-syntax> ]",
       "href": "https://www.w3.org/TR/css-color-4/#funcdef-hsl",
       "type": "function",
-      "value": "[ <legacy-hsl-syntax> | <modern-hsl-syntax> ]",
       "values": [
         {
           "name": "HSL",
@@ -1357,9 +1358,9 @@
     },
     {
       "name": "hsla()",
+      "value": "[ <legacy-hsla-syntax> | <modern-hsla-syntax> ]",
       "href": "https://www.w3.org/TR/css-color-4/#funcdef-hsla",
-      "type": "function",
-      "value": "[ <legacy-hsla-syntax> | <modern-hsla-syntax> ]"
+      "type": "function"
     },
     {
       "name": "<modern-hsl-syntax>",
@@ -1387,9 +1388,9 @@
     },
     {
       "name": "hwb()",
+      "value": "hwb( [<hue> | none] [<percentage> | <number> | none] [<percentage> | <number> | none] [ / [<alpha-value> | none] ]? )",
       "href": "https://www.w3.org/TR/css-color-4/#funcdef-hwb",
       "type": "function",
-      "value": "hwb( [<hue> | none] [<percentage> | <number> | none] [<percentage> | <number> | none] [ / [<alpha-value> | none] ]? )",
       "values": [
         {
           "name": "HWB",
@@ -1402,9 +1403,9 @@
     },
     {
       "name": "lab()",
+      "value": "lab( [<percentage> | <number> | none] [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ / [<alpha-value> | none] ]? )",
       "href": "https://www.w3.org/TR/css-color-4/#funcdef-lab",
       "type": "function",
-      "value": "lab( [<percentage> | <number> | none] [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ / [<alpha-value> | none] ]? )",
       "values": [
         {
           "name": "Lab",
@@ -1417,9 +1418,9 @@
     },
     {
       "name": "lch()",
+      "value": "lch( [<percentage> | <number> | none] [ <percentage> | <number> | none] [ <hue> | none] [ / [<alpha-value> | none] ]? )",
       "href": "https://www.w3.org/TR/css-color-4/#funcdef-lch",
       "type": "function",
-      "value": "lch( [<percentage> | <number> | none] [ <percentage> | <number> | none] [ <hue> | none] [ / [<alpha-value> | none] ]? )",
       "values": [
         {
           "name": "LCH",
@@ -1432,9 +1433,9 @@
     },
     {
       "name": "oklab()",
+      "value": "oklab( [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ / [<alpha-value> | none] ]? )",
       "href": "https://www.w3.org/TR/css-color-4/#funcdef-oklab",
       "type": "function",
-      "value": "oklab( [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ / [<alpha-value> | none] ]? )",
       "values": [
         {
           "name": "Oklab",
@@ -1447,84 +1448,91 @@
     },
     {
       "name": "oklch()",
+      "value": "oklch( [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ <hue> | none] [ / [<alpha-value> | none] ]? )",
       "href": "https://www.w3.org/TR/css-color-4/#funcdef-oklch",
       "type": "function",
-      "value": "oklch( [ <percentage> | <number> | none] [ <percentage> | <number> | none] [ <hue> | none] [ / [<alpha-value> | none] ]? )",
       "values": [
         {
-          "name": "Oklch",
-          "prose": "In Oklch the first argument specifies the Oklch Lightness L, interpreted identically to the Lightness argument of oklab().",
+          "name": "OkLCh",
+          "prose": "In OkLCh the first argument specifies the OkLCh Lightness L, interpreted identically to the Lightness argument of oklab().",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-oklch-oklch",
           "type": "value",
-          "value": "Oklch"
+          "value": "OkLCh"
         }
       ]
     },
     {
       "name": "color()",
+      "value": "color( <colorspace-params> [ / [ <alpha-value> | none ] ]? )",
       "href": "https://www.w3.org/TR/css-color-4/#funcdef-color",
       "type": "function",
-      "value": "color( <colorspace-params> [ / [ <alpha-value> | none ] ]? )",
       "values": [
         {
           "name": "srgb",
-          "prose": "The srgb [SRGB] color space accepts three numeric parameters, representing the red, green, and blue channels of the color. In-gamut colors have all three components in the range [0, 1]. The whitepoint is D65. [SRGB] specifies two viewing conditions, encoding and typical. The [ICC] recommends using the encoding conditions for color conversion and for optimal viewing, which are the values in the table below. sRGB is the default color space for CSS, used for all the legacy color functions. It has the following characteristics: x y Red chromaticity 0.640 0.330 Green chromaticity 0.300 0.600 Blue chromaticity 0.150 0.060 White chromaticity D65 Transfer function see below White luminance 80.0 cd/m Black luminance 0.20 cd/m Image state display-referred Percentages Allowed for R, G and B Percent reference range for R,G,B: 0% = 0.0, 100% = 1.0 let sign = c < 0? -1 : 1; let abs = Math.abs(c); if (abs <= 0.04045) { cl = c / 12.92; } else { cl = sign * (Math.pow((abs + 0.055) / 1.055, 2.4)); } c is the gamma-encoded red, green or blue component. cl is the corresponding linear-light component. Visualization of the sRGB color space in LCH. The primaries and secondaries are shown.",
+          "prose": "The srgb [SRGB] color space accepts three numeric parameters, representing the red, green, and blue components of the color. In-gamut colors have all three components in the range [0, 1]. The whitepoint is D65. [SRGB] specifies two viewing conditions, encoding and typical. The [ICC] recommends using the encoding conditions for color conversion and for optimal viewing, which are the values in the table below. sRGB is the default color space for CSS, used for all the legacy color functions. It has the following characteristics: x y Red chromaticity 0.640 0.330 Green chromaticity 0.300 0.600 Blue chromaticity 0.150 0.060 White chromaticity D65 Transfer function see below White luminance 80.0 cd/m Black luminance 0.20 cd/m Image state display-referred Percentages Allowed for R, G and B Percent reference range for R,G,B: 0% = 0.0, 100% = 1.0 let sign = c < 0? -1 : 1; let abs = Math.abs(c); if (abs <= 0.04045) { cl = c / 12.92; } else { cl = sign * (Math.pow((abs + 0.055) / 1.055, 2.4)); } c is the gamma-encoded red, green or blue component. cl is the corresponding linear-light component. Visualization of the sRGB color space in Oklch. The primaries and secondaries are shown.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-srgb",
           "type": "value",
           "value": "srgb"
         },
         {
           "name": "srgb-linear",
-          "prose": "The srgb-linear [SRGB] color space accepts three numeric parameters, representing the red, green, and blue channels of the color. In-gamut colors have all three components in the range [0, 1]. The whitepoint is D65. It has the following characteristics: x y Red chromaticity 0.640 0.330 Green chromaticity 0.300 0.600 Blue chromaticity 0.150 0.060 White chromaticity D65 Transfer function unity, see below White luminance 80.0 cd/m Black luminance 0.20 cd/m Image state display-referred Percentages Allowed for R, G and B Percent reference range for R,G,B: 0% = 0.0, 100% = 1.0 cl = c; c is the red, green or blue component. cl is the corresponding linear-light component, which is identical. To avoid banding artifacts, a higher precision is required for srgb-linear than for srgb. For example, these are the same color color(srgb 0.691 0.139 0.259) color(srgb-linear 0.435 0.017 0.055)",
+          "prose": "The srgb-linear [SRGB] color space accepts three numeric parameters, representing the red, green, and blue components of the color. In-gamut colors have all three components in the range [0, 1]. The whitepoint is D65. It has the following characteristics: x y Red chromaticity 0.640 0.330 Green chromaticity 0.300 0.600 Blue chromaticity 0.150 0.060 White chromaticity D65 Transfer function unity, see below White luminance 80.0 cd/m Black luminance 0.20 cd/m Image state display-referred Percentages Allowed for R, G and B Percent reference range for R,G,B: 0% = 0.0, 100% = 1.0 cl = c; c is the red, green or blue component. cl is the corresponding linear-light component, which is identical. To avoid banding artifacts, a higher precision is required for srgb-linear than for srgb. For example, these are the same color color(srgb 0.691 0.139 0.259) color(srgb-linear 0.435 0.017 0.055)",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-srgb-linear",
           "type": "value",
           "value": "srgb-linear"
         },
         {
           "name": "display-p3",
-          "prose": "The display-p3 [Display-P3] color space accepts three numeric parameters, representing the red, green, and blue channels of the color. In-gamut colors have all three components in the range [0, 1]. It uses the same primary chromaticities as [DCI-P3], but with a D65 whitepoint, and the same transfer curve as sRGB. Modern displays, TVs, laptop screens and phone screens are able to display all, or nearly all, of the display-p3 gamut. It has the following characteristics: x y Red chromaticity 0.680 0.320 Green chromaticity 0.265 0.690 Blue chromaticity 0.150 0.060 White chromaticity D65 Transfer function same as srgb White luminance 80.0 cd/m Black luminance 0.80 cd/m Image state display-referred Percentages Allowed for R, G and B Percent reference range for R,G,B: 0% = 0.0, 100% = 1.0 Visualization of the P3 color space in LCH. The primaries and secondaries are shown (but in sRGB, not in the correct colors). For comparison, the sRGB primaries and secondaries are also shown, as dashed circles. P3 primaries have higher Chroma.",
+          "prose": "The display-p3 [Display-P3] color space accepts three numeric parameters, representing the red, green, and blue components of the color. In-gamut colors have all three components in the range [0, 1]. It uses the same primary chromaticities as [DCI-P3], but with a D65 whitepoint, and the same transfer curve as sRGB. Modern displays, TVs, laptop screens and phone screens are able to display all, or nearly all, of the display-p3 gamut. It has the following characteristics: x y Red chromaticity 0.680 0.320 Green chromaticity 0.265 0.690 Blue chromaticity 0.150 0.060 White chromaticity D65 Transfer function same as srgb White luminance 80.0 cd/m Black luminance 0.80 cd/m Image state display-referred Percentages Allowed for R, G and B Percent reference range for R,G,B: 0% = 0.0, 100% = 1.0 Visualization of the P3 color space in Oklch. The primaries and secondaries are shown (but in sRGB, not in the correct colors). For comparison, the sRGB primaries and secondaries are also shown, as dashed circles. P3 primaries have higher Chroma.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-display-p3",
           "type": "value",
           "value": "display-p3"
         },
         {
+          "name": "display-p3-linear",
+          "prose": "The display-p3-linear predefined color space is the same as display-p3 except that the transfer function is linear-light (there is no gamma-encoding). It has the following characteristics: x y Red chromaticity 0.680 0.320 Green chromaticity 0.265 0.690 Blue chromaticity 0.150 0.060 White chromaticity D65 Transfer function unity, see below White luminance 80.0 cd/m Black luminance 0.80 cd/m Image state display-referred Percentages Allowed for R, G and B Percent reference range for R,G,B: 0% = 0.0, 100% = 1.0 cl = c; c is the red, green or blue component. cl is the corresponding linear-light component, which is identical. To avoid banding artifacts, a higher precision is required for display-p3-linear than for display-p3. For example, these are the same color color(display-p3 0.591 0.123 0.264) color(display-p3-linear 0.3081 0.014 0.0567)",
+          "href": "https://www.w3.org/TR/css-color-4/#valdef-color-display-p3-linear",
+          "type": "value",
+          "value": "display-p3-linear"
+        },
+        {
           "name": "a98-rgb",
-          "prose": "The a98-rgb color space accepts three numeric parameters, representing the red, green, and blue channels of the color. In-gamut colors have all three components in the range [0, 1]. The transfer curve is a gamma function, close to but not exactly 1/2.2. It has the following characteristics: x y Red chromaticity 0.6400 0.3300 Green chromaticity 0.2100 0.7100 Blue chromaticity 0.1500 0.0600 White chromaticity D65 Transfer function 256/563 White luminance 160.0 cd/m Black luminance 0.5557 cd/m Image state display-referred Percentages Allowed for R, G and B Percent reference range for R,G,B: 0% = 0.0, 100% = 1.0 Visualization of the A98 color space in LCH. The primaries and secondaries are shown (but in sRGB, not in the correct colors). For comparison, the sRGB primaries and secondaries are also shown, as dashed circles. a98 primaries have higher Chroma, especially the yellow, green and cyan.",
+          "prose": "The a98-rgb color space accepts three numeric parameters, representing the red, green, and blue components of the color. In-gamut colors have all three components in the range [0, 1]. The transfer curve is a gamma function, close to but not exactly 1/2.2. It has the following characteristics: x y Red chromaticity 0.6400 0.3300 Green chromaticity 0.2100 0.7100 Blue chromaticity 0.1500 0.0600 White chromaticity D65 Transfer function 256/563 White luminance 160.0 cd/m Black luminance 0.5557 cd/m Image state display-referred Percentages Allowed for R, G and B Percent reference range for R,G,B: 0% = 0.0, 100% = 1.0 Visualization of the A98 color space in Oklch. The primaries and secondaries are shown (but in sRGB, not in the correct colors). For comparison, the sRGB primaries and secondaries are also shown, as dashed circles. a98 primaries have higher Chroma, especially the yellow, green and cyan.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-a98-rgb",
           "type": "value",
           "value": "a98-rgb"
         },
         {
           "name": "prophoto-rgb",
-          "prose": "The prophoto-rgb color space accepts three numeric parameters, representing the red, green, and blue channels of the color. In-gamut colors have all three components in the range [0, 1]. The transfer curve is a gamma function with a value of 1/1.8, and a small linear portion near black. The white point is D50, the same as is used by CIE Lab. Thus, conversion to CIE Lab does not require the chromatic adaptation step. The ProPhoto RGB space uses hyper-saturated, non physically realizable primaries. These were chosen to allow a wide color gamut and in particular, to minimize hue shifts under tonal manipulation. It is often used in digital photography as a wide gamut color space for the archival version of photographic images. The prophoto-rgb color space allows CSS to specify colors that will match colors in such images having the same RGB values. The ProPhoto RGB space was originally developed by Kodak and is described in [Wolfe]. It was standardized by ISO as [ROMM],[ROMM-RGB]. The white luminance is given as a range, and the viewing flare (and thus, the black luminance) is 0.5% to 1.0% of this. It has the following characteristics: x y Red chromaticity 0.734699 0.265301 Green chromaticity 0.159597 0.840403 Blue chromaticity 0.036598 0.000105 White chromaticity D50 Transfer function see below White luminance 160.0 to 640.0 cd/m Black luminance See text Image state display-referred Percentages Allowed for R, G and B Percent reference range for R,G,B: 0% = 0.0, 100% = 1.0 const E = 16/512; let sign = c < 0? -1 : 1; let abs = Math.abs(c); if (abs <= E) { cl = c / 16; } else { cl = sign * Math.pow(c, 1.8); } c is the gamma-encoded red, green or blue component. cl is the corresponding linear-light component. Visualization of the prophoto-rgb color space in LCH. The primaries and secondaries are shown (but in sRGB, not in the correct colors). For comparison, the sRGB primaries and secondaries are also shown, as dashed circles. prophoto-rgb primaries and secondaries have much higher Chroma, but much of this ultrawide gamut does not correspond to physically realizable colors.",
+          "prose": "The prophoto-rgb color space accepts three numeric parameters, representing the red, green, and blue components of the color. In-gamut colors have all three components in the range [0, 1]. The transfer curve is a gamma function with a value of 1/1.8, and a small linear portion near black. The white point is D50, the same as is used by CIE Lab. Thus, conversion to CIE Lab does not require the chromatic adaptation step. The ProPhoto RGB space uses hyper-saturated, non physically realizable primaries. These were chosen to allow a wide color gamut and in particular, to minimize hue shifts under tonal manipulation. It is often used in digital photography as a wide gamut color space for the archival version of photographic images. The prophoto-rgb color space allows CSS to specify colors that will match colors in such images having the same RGB values. The ProPhoto RGB space was originally developed by Kodak and is described in [Wolfe]. It was standardized by ISO as [ROMM],[ROMM-RGB]. The white luminance is given as a range, and the viewing flare (and thus, the black luminance) is 0.5% to 1.0% of this. It has the following characteristics: x y Red chromaticity 0.734699 0.265301 Green chromaticity 0.159597 0.840403 Blue chromaticity 0.036598 0.000105 White chromaticity D50 Transfer function see below White luminance 160.0 to 640.0 cd/m Black luminance See text Image state display-referred Percentages Allowed for R, G and B Percent reference range for R,G,B: 0% = 0.0, 100% = 1.0 const E = 16/512; let sign = c < 0? -1 : 1; let abs = Math.abs(c); if (abs <= E) { cl = c / 16; } else { cl = sign * Math.pow(c, 1.8); } c is the gamma-encoded red, green or blue component. cl is the corresponding linear-light component. Visualization of the prophoto-rgb color space in Oklch. The primaries and secondaries are shown (but in sRGB, not in the correct colors). For comparison, the sRGB primaries and secondaries are also shown, as dashed circles. prophoto-rgb primaries and secondaries have much higher Chroma, but much of this ultrawide gamut does not correspond to physically realizable colors.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-prophoto-rgb",
           "type": "value",
           "value": "prophoto-rgb"
         },
         {
           "name": "rec2020",
-          "prose": "The rec2020 [Rec.2020] color space accepts three numeric parameters, representing the red, green, and blue channels of the color. In-gamut colors have all three components in the range [0, 1], (\"full-range\", in video terminology). ITU Reference 2020 is used for Ultra High Definition, 4k and 8k television. The primaries are physically realizable, but with difficulty as they lie very close to the spectral locus. Current displays are unable to reproduce the full gamut of rec2020. Coverage is expected to increase over time as displays improve. It has the following characteristics: x y Red chromaticity 0.708 0.292 Green chromaticity 0.170 0.797 Blue chromaticity 0.131 0.046 White chromaticity D65 Transfer function see below, from [Rec.2020] table 4 Image state display-referred Percentages Allowed for R, G and B Percent reference range for R,G,B: 0% = 0.0, 100% = 1.0 const α = 1.09929682680944 ; const β = 0.018053968510807; let sign = c < 0? -1 : 1; let abs = Math.abs(c); if (abs < β * 4.5 ) { cl = c / 4.5; } else { cl = sign * (Math.pow((abs + α -1 ) / α, 1/0.45)); } c is the gamma-encoded red, green or blue component. cl is the corresponding linear-light component. Visualization of the rec2020 color space in LCH. The primaries and secondaries are shown (but in sRGB, not in the correct colors). For comparison, the sRGB primaries and secondaries are also shown, as dashed circles. rec2020 primaries have much higher Chroma.",
+          "prose": "The rec2020 [Rec.2020] color space accepts three numeric parameters, representing the red, green, and blue components of the color. In-gamut colors have all three components in the range [0, 1], (\"full-range\", in video terminology). ITU Reference 2020 is used for Ultra High Definition, 4k and 8k television. The primaries are physically realizable, but with difficulty as they lie very close to the spectral locus. Current displays are unable to reproduce the full gamut of rec2020. Coverage is expected to increase over time as displays improve. It has the following characteristics: x y Red chromaticity 0.708 0.292 Green chromaticity 0.170 0.797 Blue chromaticity 0.131 0.046 White chromaticity D65 Transfer function gamma 2.40, from [REC_BT.1886] Image state display-referred Percentages Allowed for R, G and B Percent reference range for R,G,B: 0% = 0.0, 100% = 1.0 Visualization of the rec2020 color space in Oklch. The primaries and secondaries are shown (but in sRGB, not in the correct colors). For comparison, the sRGB primaries and secondaries are also shown, as dashed circles. rec2020 primaries have much higher Chroma.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-rec2020",
           "type": "value",
           "value": "rec2020"
         },
         {
           "name": "xyz-d50",
-          "prose": "The xyz color space accepts three numeric parameters, representing the X,Y and Z values. It represents the CIE XYZ [COLORIMETRY] color space, scaled such that diffuse white has a luminance (Y) of 1.0. and, if necessary, chromatically adapted to the reference white. The reference white for xyz-d50 is D50, while the reference white for xyz-d65 and xyz is D65. Values greater than 1.0/100% are allowed and must not be clamped; they represent colors brighter than diffuse white. Values less than 0/0% are uncommon, but can occur as a result of chromatic adaptation, and likewise must not be clamped. It has the following characteristics: Percentages Allowed for X,Y,Z Percent reference range for X,Y,Z: 0% = 0.0, 100% = 1.0 These are exactly equivalent: #7654CD rgb(46.27% 32.94% 80.39%) lab(44.36% 36.05 -58.99) color(xyz-d50 0.2005 0.14089 0.4472) color(xyz-d65 0.21661 0.14602 0.59452)",
+          "prose": "The xyz color space accepts three numeric parameters, representing the X,Y and Z values. It represents the CIE XYZ [COLORIMETRY] color space, scaled such that diffuse white has a luminance (Y) of 1.0. and, if necessary, chromatically adapted to the reference white. The reference white for xyz-d50 is D50, while the reference white for xyz-d65 and xyz is D65. Values greater than 1.0/100% are allowed and must not be clamped; colors where Y is greater than 1.0 represent colors brighter than diffuse white. Values less than 0/0% are uncommon, but can occur as a result of chromatic adaptation, and likewise must not be clamped. It has the following characteristics: Percentages Allowed for X,Y,Z Percent reference range for X,Y,Z: 0% = 0.0, 100% = 1.0 These are exactly equivalent: #7654CD rgb(46.27% 32.94% 80.39%) lab(44.36% 36.05 -58.99) color(xyz-d50 0.2005 0.14089 0.4472) color(xyz-d65 0.21661 0.14602 0.59452) These colors are exactly equivalent, and represent white: #FFFFFF color(xyz-d50 0.9643 1 0.8251) color(xyz-d65 0.9505 1 1.089)",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-xyz-d50",
           "type": "value",
           "value": "xyz-d50"
         },
         {
           "name": "xyz-d65",
-          "prose": "The xyz color space accepts three numeric parameters, representing the X,Y and Z values. It represents the CIE XYZ [COLORIMETRY] color space, scaled such that diffuse white has a luminance (Y) of 1.0. and, if necessary, chromatically adapted to the reference white. The reference white for xyz-d50 is D50, while the reference white for xyz-d65 and xyz is D65. Values greater than 1.0/100% are allowed and must not be clamped; they represent colors brighter than diffuse white. Values less than 0/0% are uncommon, but can occur as a result of chromatic adaptation, and likewise must not be clamped. It has the following characteristics: Percentages Allowed for X,Y,Z Percent reference range for X,Y,Z: 0% = 0.0, 100% = 1.0 These are exactly equivalent: #7654CD rgb(46.27% 32.94% 80.39%) lab(44.36% 36.05 -58.99) color(xyz-d50 0.2005 0.14089 0.4472) color(xyz-d65 0.21661 0.14602 0.59452)",
+          "prose": "The xyz color space accepts three numeric parameters, representing the X,Y and Z values. It represents the CIE XYZ [COLORIMETRY] color space, scaled such that diffuse white has a luminance (Y) of 1.0. and, if necessary, chromatically adapted to the reference white. The reference white for xyz-d50 is D50, while the reference white for xyz-d65 and xyz is D65. Values greater than 1.0/100% are allowed and must not be clamped; colors where Y is greater than 1.0 represent colors brighter than diffuse white. Values less than 0/0% are uncommon, but can occur as a result of chromatic adaptation, and likewise must not be clamped. It has the following characteristics: Percentages Allowed for X,Y,Z Percent reference range for X,Y,Z: 0% = 0.0, 100% = 1.0 These are exactly equivalent: #7654CD rgb(46.27% 32.94% 80.39%) lab(44.36% 36.05 -58.99) color(xyz-d50 0.2005 0.14089 0.4472) color(xyz-d65 0.21661 0.14602 0.59452) These colors are exactly equivalent, and represent white: #FFFFFF color(xyz-d50 0.9643 1 0.8251) color(xyz-d65 0.9505 1 1.089)",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-xyz-d65",
           "type": "value",
           "value": "xyz-d65"
         },
         {
           "name": "xyz",
-          "prose": "The xyz color space accepts three numeric parameters, representing the X,Y and Z values. It represents the CIE XYZ [COLORIMETRY] color space, scaled such that diffuse white has a luminance (Y) of 1.0. and, if necessary, chromatically adapted to the reference white. The reference white for xyz-d50 is D50, while the reference white for xyz-d65 and xyz is D65. Values greater than 1.0/100% are allowed and must not be clamped; they represent colors brighter than diffuse white. Values less than 0/0% are uncommon, but can occur as a result of chromatic adaptation, and likewise must not be clamped. It has the following characteristics: Percentages Allowed for X,Y,Z Percent reference range for X,Y,Z: 0% = 0.0, 100% = 1.0 These are exactly equivalent: #7654CD rgb(46.27% 32.94% 80.39%) lab(44.36% 36.05 -58.99) color(xyz-d50 0.2005 0.14089 0.4472) color(xyz-d65 0.21661 0.14602 0.59452)",
+          "prose": "The xyz color space accepts three numeric parameters, representing the X,Y and Z values. It represents the CIE XYZ [COLORIMETRY] color space, scaled such that diffuse white has a luminance (Y) of 1.0. and, if necessary, chromatically adapted to the reference white. The reference white for xyz-d50 is D50, while the reference white for xyz-d65 and xyz is D65. Values greater than 1.0/100% are allowed and must not be clamped; colors where Y is greater than 1.0 represent colors brighter than diffuse white. Values less than 0/0% are uncommon, but can occur as a result of chromatic adaptation, and likewise must not be clamped. It has the following characteristics: Percentages Allowed for X,Y,Z Percent reference range for X,Y,Z: 0% = 0.0, 100% = 1.0 These are exactly equivalent: #7654CD rgb(46.27% 32.94% 80.39%) lab(44.36% 36.05 -58.99) color(xyz-d50 0.2005 0.14089 0.4472) color(xyz-d65 0.21661 0.14602 0.59452) These colors are exactly equivalent, and represent white: #FFFFFF color(xyz-d50 0.9643 1 0.8251) color(xyz-d65 0.9505 1 1.089)",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-xyz",
           "type": "value",
           "value": "xyz"
@@ -1547,7 +1555,7 @@
       "name": "<predefined-rgb>",
       "href": "https://www.w3.org/TR/css-color-4/#typedef-predefined-rgb",
       "type": "type",
-      "value": "srgb | srgb-linear | display-p3 | a98-rgb | prophoto-rgb | rec2020"
+      "value": "srgb | srgb-linear | display-p3 | display-p3-linear | a98-rgb | prophoto-rgb | rec2020"
     },
     {
       "name": "<xyz-params>",
@@ -1571,7 +1579,7 @@
       "name": "<rectangular-color-space>",
       "href": "https://www.w3.org/TR/css-color-4/#typedef-rectangular-color-space",
       "type": "type",
-      "value": "srgb | srgb-linear | display-p3 | a98-rgb | prophoto-rgb | rec2020 | lab | oklab | xyz | xyz-d50 | xyz-d65"
+      "value": "srgb | srgb-linear | display-p3 | display-p3-linear | a98-rgb | prophoto-rgb | rec2020 | lab | oklab | <xyz-space>"
     },
     {
       "name": "<polar-color-space>",
@@ -1599,161 +1607,161 @@
       "values": [
         {
           "name": "ActiveBorder",
-          "prose": "Active window border. Same as ButtonBorder.",
+          "prose": "Active window border. Computes to the color of ButtonBorder.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-activeborder",
           "type": "value",
           "value": "ActiveBorder"
         },
         {
           "name": "ActiveCaption",
-          "prose": "Active window caption. Same as Canvas.",
+          "prose": "Active window caption. Computes to the color of Canvas.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-activecaption",
           "type": "value",
           "value": "ActiveCaption"
         },
         {
           "name": "AppWorkspace",
-          "prose": "Background color of multiple document interface. Same as Canvas.",
+          "prose": "Background color of multiple document interface. Computes to the color of Canvas.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-appworkspace",
           "type": "value",
           "value": "AppWorkspace"
         },
         {
           "name": "Background",
-          "prose": "Desktop background. Same as Canvas.",
+          "prose": "Desktop background. Computes to the color of Canvas.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-background",
           "type": "value",
           "value": "Background"
         },
         {
           "name": "ButtonHighlight",
-          "prose": "The color of the border facing the light source for 3-D elements that appear 3-D due to one layer of surrounding border. Same as ButtonFace.",
+          "prose": "The color of the border facing the light source for 3-D elements that appear 3-D due to one layer of surrounding border. Computes to the color of ButtonFace.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-buttonhighlight",
           "type": "value",
           "value": "ButtonHighlight"
         },
         {
           "name": "ButtonShadow",
-          "prose": "The color of the border away from the light source for 3-D elements that appear 3-D due to one layer of surrounding border. Same as ButtonFace.",
+          "prose": "The color of the border away from the light source for 3-D elements that appear 3-D due to one layer of surrounding border. Computes to the color of ButtonFace.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-buttonshadow",
           "type": "value",
           "value": "ButtonShadow"
         },
         {
           "name": "CaptionText",
-          "prose": "Text in caption, size box, and scrollbar arrow box. Same as CanvasText.",
+          "prose": "Text in caption, size box, and scrollbar arrow box. Computes to the color of CanvasText.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-captiontext",
           "type": "value",
           "value": "CaptionText"
         },
         {
           "name": "InactiveBorder",
-          "prose": "Inactive window border. Same as ButtonBorder.",
+          "prose": "Inactive window border. Computes to the color of ButtonBorder.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-inactiveborder",
           "type": "value",
           "value": "InactiveBorder"
         },
         {
           "name": "InactiveCaption",
-          "prose": "Inactive window caption. Same as Canvas.",
+          "prose": "Inactive window caption. Computes to the color of Canvas.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-inactivecaption",
           "type": "value",
           "value": "InactiveCaption"
         },
         {
           "name": "InactiveCaptionText",
-          "prose": "Color of text in an inactive caption. Same as GrayText.",
+          "prose": "Color of text in an inactive caption. Computes to the color of GrayText.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-inactivecaptiontext",
           "type": "value",
           "value": "InactiveCaptionText"
         },
         {
           "name": "InfoBackground",
-          "prose": "Background color for tooltip controls. Same as Canvas.",
+          "prose": "Background color for tooltip controls. Computes to the color of Canvas.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-infobackground",
           "type": "value",
           "value": "InfoBackground"
         },
         {
           "name": "InfoText",
-          "prose": "Text color for tooltip controls. Same as CanvasText.",
+          "prose": "Text color for tooltip controls. Computes to the color of CanvasText.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-infotext",
           "type": "value",
           "value": "InfoText"
         },
         {
           "name": "Menu",
-          "prose": "Menu background. Same as Canvas.",
+          "prose": "Menu background. Computes to the color of Canvas.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-menu",
           "type": "value",
           "value": "Menu"
         },
         {
           "name": "MenuText",
-          "prose": "Text in menus. Same as CanvasText.",
+          "prose": "Text in menus. Computes to the color of CanvasText.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-menutext",
           "type": "value",
           "value": "MenuText"
         },
         {
           "name": "Scrollbar",
-          "prose": "Scroll bar gray area. Same as Canvas.",
+          "prose": "Scroll bar gray area. Computes to the color of Canvas.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-scrollbar",
           "type": "value",
           "value": "Scrollbar"
         },
         {
           "name": "ThreeDDarkShadow",
-          "prose": "The color of the darker (generally outer) of the two borders away from the light source for 3-D elements that appear 3-D due to two concentric layers of surrounding border. Same as ButtonBorder.",
+          "prose": "The color of the darker (generally outer) of the two borders away from the light source for 3-D elements that appear 3-D due to two concentric layers of surrounding border. Computes to the color of ButtonBorder.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-threeddarkshadow",
           "type": "value",
           "value": "ThreeDDarkShadow"
         },
         {
           "name": "ThreeDFace",
-          "prose": "The face background color for 3-D elements that appear 3-D due to two concentric layers of surrounding border. Same as ButtonFace.",
+          "prose": "The face background color for 3-D elements that appear 3-D due to two concentric layers of surrounding border. Computes to the color of ButtonFace.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-threedface",
           "type": "value",
           "value": "ThreeDFace"
         },
         {
           "name": "ThreeDHighlight",
-          "prose": "The color of the lighter (generally outer) of the two borders facing the light source for 3-D elements that appear 3-D due to two concentric layers of surrounding border. Same as ButtonBorder.",
+          "prose": "The color of the lighter (generally outer) of the two borders facing the light source for 3-D elements that appear 3-D due to two concentric layers of surrounding border. Computes to the color of ButtonBorder.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-threedhighlight",
           "type": "value",
           "value": "ThreeDHighlight"
         },
         {
           "name": "ThreeDLightShadow",
-          "prose": "The color of the darker (generally inner) of the two borders facing the light source for 3-D elements that appear 3-D due to two concentric layers of surrounding border. Same as ButtonBorder.",
+          "prose": "The color of the darker (generally inner) of the two borders facing the light source for 3-D elements that appear 3-D due to two concentric layers of surrounding border. Computes to the color of ButtonBorder.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-threedlightshadow",
           "type": "value",
           "value": "ThreeDLightShadow"
         },
         {
           "name": "ThreeDShadow",
-          "prose": "The color of the lighter (generally inner) of the two borders away from the light source for 3-D elements that appear 3-D due to two concentric layers of surrounding border. Same as ButtonBorder.",
+          "prose": "The color of the lighter (generally inner) of the two borders away from the light source for 3-D elements that appear 3-D due to two concentric layers of surrounding border. Computes to the color of ButtonBorder.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-threedshadow",
           "type": "value",
           "value": "ThreeDShadow"
         },
         {
           "name": "Window",
-          "prose": "Window background. Same as Canvas.",
+          "prose": "Window background. Computes to the color of Canvas.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-window",
           "type": "value",
           "value": "Window"
         },
         {
           "name": "WindowFrame",
-          "prose": "Window frame. Same as ButtonBorder.",
+          "prose": "Window frame. Computes to the color of ButtonBorder.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-windowframe",
           "type": "value",
           "value": "WindowFrame"
         },
         {
           "name": "WindowText",
-          "prose": "Text in windows. Same as CanvasText.",
+          "prose": "Text in windows. Computes to the color of CanvasText.",
           "href": "https://www.w3.org/TR/css-color-4/#valdef-color-windowtext",
           "type": "value",
           "value": "WindowText"

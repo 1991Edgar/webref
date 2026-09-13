@@ -19,9 +19,13 @@
         "id": "terms",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#terms",
         "title": "Important Terms",
+        "alternateIds": [
+          "x2-important-terms"
+        ],
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-accessible-object",
@@ -38,13 +42,17 @@
         "id": "terms",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#terms",
         "title": "Important Terms",
+        "alternateIds": [
+          "x2-important-terms"
+        ],
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
-      "id": "dfn-assistive-technologies",
-      "href": "https://www.w3.org/TR/wai-aria-1.3/#dfn-assistive-technologies",
+      "id": "assistive-technology",
+      "href": "https://www.w3.org/TR/wai-aria-1.3/#assistive-technology",
       "linkingText": [
         "Assistive Technologies"
       ],
@@ -57,17 +65,19 @@
         "id": "terms",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#terms",
         "title": "Important Terms",
+        "alternateIds": [
+          "x2-important-terms"
+        ],
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-deprecated",
       "href": "https://www.w3.org/TR/wai-aria-1.3/#dfn-deprecated",
       "linkingText": [
-        "Deprecated",
-        "deprecate",
-        "deprecation"
+        "Deprecated"
       ],
       "localLinkingText": [
         "deprecate",
@@ -81,9 +91,13 @@
         "id": "terms",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#terms",
         "title": "Important Terms",
+        "alternateIds": [
+          "x2-important-terms"
+        ],
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-defines",
@@ -100,16 +114,19 @@
         "id": "terms",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#terms",
         "title": "Important Terms",
+        "alternateIds": [
+          "x2-important-terms"
+        ],
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-desktop-focus-event",
       "href": "https://www.w3.org/TR/wai-aria-1.3/#dfn-desktop-focus-event",
       "linkingText": [
-        "Desktop focus event",
-        "desktop focus"
+        "Desktop focus event"
       ],
       "localLinkingText": [
         "desktop focus"
@@ -122,9 +139,13 @@
         "id": "terms",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#terms",
         "title": "Important Terms",
+        "alternateIds": [
+          "x2-important-terms"
+        ],
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-event",
@@ -141,9 +162,13 @@
         "id": "terms",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#terms",
         "title": "Important Terms",
+        "alternateIds": [
+          "x2-important-terms"
+        ],
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-expose",
@@ -160,9 +185,36 @@
         "id": "terms",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#terms",
         "title": "Important Terms",
+        "alternateIds": [
+          "x2-important-terms"
+        ],
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-focusable",
+      "href": "https://www.w3.org/TR/wai-aria-1.3/#dfn-focusable",
+      "linkingText": [
+        "Focusable"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": true,
+      "heading": {
+        "id": "terms",
+        "href": "https://www.w3.org/TR/wai-aria-1.3/#terms",
+        "title": "Important Terms",
+        "alternateIds": [
+          "x2-important-terms"
+        ],
+        "number": "2"
+      },
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-graphical-document",
@@ -179,9 +231,13 @@
         "id": "terms",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#terms",
         "title": "Important Terms",
+        "alternateIds": [
+          "x2-important-terms"
+        ],
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-hidden",
@@ -200,9 +256,13 @@
         "id": "terms",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#terms",
         "title": "Important Terms",
+        "alternateIds": [
+          "x2-important-terms"
+        ],
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-hide-from-all-users",
@@ -222,9 +282,13 @@
         "id": "terms",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#terms",
         "title": "Important Terms",
+        "alternateIds": [
+          "x2-important-terms"
+        ],
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-identifies",
@@ -241,9 +305,13 @@
         "id": "terms",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#terms",
         "title": "Important Terms",
+        "alternateIds": [
+          "x2-important-terms"
+        ],
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-indicates",
@@ -260,9 +328,13 @@
         "id": "terms",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#terms",
         "title": "Important Terms",
+        "alternateIds": [
+          "x2-important-terms"
+        ],
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-keyboard-accessible",
@@ -279,9 +351,13 @@
         "id": "terms",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#terms",
         "title": "Important Terms",
+        "alternateIds": [
+          "x2-important-terms"
+        ],
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-landmark",
@@ -298,9 +374,13 @@
         "id": "terms",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#terms",
         "title": "Important Terms",
+        "alternateIds": [
+          "x2-important-terms"
+        ],
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-live-region",
@@ -317,9 +397,13 @@
         "id": "terms",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#terms",
         "title": "Important Terms",
+        "alternateIds": [
+          "x2-important-terms"
+        ],
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-managed-state",
@@ -336,9 +420,13 @@
         "id": "terms",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#terms",
         "title": "Important Terms",
+        "alternateIds": [
+          "x2-important-terms"
+        ],
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-nemeth-braille",
@@ -355,9 +443,13 @@
         "id": "terms",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#terms",
         "title": "Important Terms",
+        "alternateIds": [
+          "x2-important-terms"
+        ],
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-object",
@@ -374,9 +466,13 @@
         "id": "terms",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#terms",
         "title": "Important Terms",
+        "alternateIds": [
+          "x2-important-terms"
+        ],
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-ontology",
@@ -393,9 +489,13 @@
         "id": "terms",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#terms",
         "title": "Important Terms",
+        "alternateIds": [
+          "x2-important-terms"
+        ],
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-operable",
@@ -412,9 +512,13 @@
         "id": "terms",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#terms",
         "title": "Important Terms",
+        "alternateIds": [
+          "x2-important-terms"
+        ],
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-perceivable",
@@ -431,9 +535,13 @@
         "id": "terms",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#terms",
         "title": "Important Terms",
+        "alternateIds": [
+          "x2-important-terms"
+        ],
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-property",
@@ -452,9 +560,13 @@
         "id": "terms",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#terms",
         "title": "Important Terms",
+        "alternateIds": [
+          "x2-important-terms"
+        ],
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-relationship",
@@ -471,9 +583,13 @@
         "id": "terms",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#terms",
         "title": "Important Terms",
+        "alternateIds": [
+          "x2-important-terms"
+        ],
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-role",
@@ -490,16 +606,19 @@
         "id": "terms",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#terms",
         "title": "Important Terms",
+        "alternateIds": [
+          "x2-important-terms"
+        ],
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-semantics",
       "href": "https://www.w3.org/TR/wai-aria-1.3/#dfn-semantics",
       "linkingText": [
-        "Semantics",
-        "semantically"
+        "Semantics"
       ],
       "localLinkingText": [
         "semantically"
@@ -512,9 +631,13 @@
         "id": "terms",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#terms",
         "title": "Important Terms",
+        "alternateIds": [
+          "x2-important-terms"
+        ],
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-state",
@@ -531,9 +654,13 @@
         "id": "terms",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#terms",
         "title": "Important Terms",
+        "alternateIds": [
+          "x2-important-terms"
+        ],
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-target-element",
@@ -550,9 +677,13 @@
         "id": "terms",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#terms",
         "title": "Important Terms",
+        "alternateIds": [
+          "x2-important-terms"
+        ],
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-unicode-braille",
@@ -570,9 +701,13 @@
         "id": "terms",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#terms",
         "title": "Important Terms",
+        "alternateIds": [
+          "x2-important-terms"
+        ],
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
     },
     {
       "id": "dfn-widget",
@@ -589,9 +724,36 @@
         "id": "terms",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#terms",
         "title": "Important Terms",
+        "alternateIds": [
+          "x2-important-terms"
+        ],
         "number": "2"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-prohibited",
+      "href": "https://www.w3.org/TR/wai-aria-1.3/#dfn-prohibited",
+      "linkingText": [
+        "Prohibited"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "prohibitedattributes",
+        "href": "https://www.w3.org/TR/wai-aria-1.3/#prohibitedattributes",
+        "title": "Prohibited States and Properties",
+        "alternateIds": [
+          "x5-2-5-prohibited-states-and-properties"
+        ],
+        "number": "5.2.5"
+      },
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dfn-token-list",
@@ -608,9 +770,36 @@
         "id": "propcharacteristic_value",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#propcharacteristic_value",
         "title": "Value",
+        "alternateIds": [
+          "x6-2-4-value"
+        ],
         "number": "6.2.4"
       },
-      "definedIn": "dt"
+      "definedIn": "dt",
+      "links": []
+    },
+    {
+      "id": "dfn-global",
+      "href": "https://www.w3.org/TR/wai-aria-1.3/#dfn-global",
+      "linkingText": [
+        "Global"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "private",
+      "informative": false,
+      "heading": {
+        "id": "global_states",
+        "href": "https://www.w3.org/TR/wai-aria-1.3/#global_states",
+        "title": "Global States and Properties",
+        "alternateIds": [
+          "x6-5-global-states-and-properties"
+        ],
+        "number": "6.5"
+      },
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dfn-accessibility-tree",
@@ -627,9 +816,13 @@
         "id": "accessibility_tree",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibility_tree",
         "title": "Accessibility Tree",
+        "alternateIds": [
+          "x7-accessibility-tree"
+        ],
         "number": "7"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "dfn-accessibility-child",
@@ -637,10 +830,6 @@
       "linkingText": [
         "accessibility child",
         "owned child",
-        "child element",
-        "child",
-        "children",
-        "child elements",
         "accessibility children"
       ],
       "localLinkingText": [],
@@ -652,9 +841,13 @@
         "id": "tree_relationships",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#tree_relationships",
         "title": "Relationships in the Accessibility Tree",
+        "alternateIds": [
+          "x7-3-relationships-in-the-accessibility-tree"
+        ],
         "number": "7.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-accessibility-descendant",
@@ -672,9 +865,13 @@
         "id": "tree_relationships",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#tree_relationships",
         "title": "Relationships in the Accessibility Tree",
+        "alternateIds": [
+          "x7-3-relationships-in-the-accessibility-tree"
+        ],
         "number": "7.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dfn-accessibility-parent",
@@ -693,9 +890,36 @@
         "id": "tree_relationships",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#tree_relationships",
         "title": "Relationships in the Accessibility Tree",
+        "alternateIds": [
+          "x7-3-relationships-in-the-accessibility-tree"
+        ],
         "number": "7.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-host-language",
+      "href": "https://www.w3.org/TR/wai-aria-1.3/#dfn-host-language",
+      "linkingText": [
+        "host language"
+      ],
+      "localLinkingText": [],
+      "type": "dfn",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "host_languages",
+        "href": "https://www.w3.org/TR/wai-aria-1.3/#host_languages",
+        "title": "Implementation in Host Languages",
+        "alternateIds": [
+          "x8-implementation-in-host-languages"
+        ],
+        "number": "8"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-ariamixin",
@@ -712,9 +936,211 @@
         "id": "ARIAMixin",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#ARIAMixin",
         "title": "Interface Mixin ARIAMixin",
+        "alternateIds": [
+          "x10-1-interface-mixin-ariamixin"
+        ],
         "number": "10.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
+    },
+    {
+      "id": "dom-arianotifymixin",
+      "href": "https://www.w3.org/TR/wai-aria-1.3/#dom-arianotifymixin",
+      "linkingText": [
+        "ARIANotifyMixin"
+      ],
+      "localLinkingText": [],
+      "type": "interface",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "ARIANotifyMixin",
+        "href": "https://www.w3.org/TR/wai-aria-1.3/#ARIANotifyMixin",
+        "title": "Interface Mixin ARIANotifyMixin",
+        "alternateIds": [
+          "x10-2-interface-mixin-arianotifymixin"
+        ],
+        "number": "10.2"
+      },
+      "definedIn": "heading",
+      "links": []
+    },
+    {
+      "id": "dom-arianotifypriority",
+      "href": "https://www.w3.org/TR/wai-aria-1.3/#dom-arianotifypriority",
+      "linkingText": [
+        "AriaNotifyPriority"
+      ],
+      "localLinkingText": [],
+      "type": "enum",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "ARIANotifyMixin",
+        "href": "https://www.w3.org/TR/wai-aria-1.3/#ARIANotifyMixin",
+        "title": "Interface Mixin ARIANotifyMixin",
+        "alternateIds": [
+          "x10-2-interface-mixin-arianotifymixin"
+        ],
+        "number": "10.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-arianotifypriority-normal",
+      "href": "https://www.w3.org/TR/wai-aria-1.3/#dom-arianotifypriority-normal",
+      "linkingText": [
+        "normal"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "AriaNotifyPriority"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "ARIANotifyMixin",
+        "href": "https://www.w3.org/TR/wai-aria-1.3/#ARIANotifyMixin",
+        "title": "Interface Mixin ARIANotifyMixin",
+        "alternateIds": [
+          "x10-2-interface-mixin-arianotifymixin"
+        ],
+        "number": "10.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-arianotifypriority-high",
+      "href": "https://www.w3.org/TR/wai-aria-1.3/#dom-arianotifypriority-high",
+      "linkingText": [
+        "high"
+      ],
+      "localLinkingText": [],
+      "type": "enum-value",
+      "for": [
+        "AriaNotifyPriority"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "ARIANotifyMixin",
+        "href": "https://www.w3.org/TR/wai-aria-1.3/#ARIANotifyMixin",
+        "title": "Interface Mixin ARIANotifyMixin",
+        "alternateIds": [
+          "x10-2-interface-mixin-arianotifymixin"
+        ],
+        "number": "10.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-arianotificationoptions",
+      "href": "https://www.w3.org/TR/wai-aria-1.3/#dom-arianotificationoptions",
+      "linkingText": [
+        "AriaNotificationOptions"
+      ],
+      "localLinkingText": [],
+      "type": "dictionary",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "ARIANotifyMixin",
+        "href": "https://www.w3.org/TR/wai-aria-1.3/#ARIANotifyMixin",
+        "title": "Interface Mixin ARIANotifyMixin",
+        "alternateIds": [
+          "x10-2-interface-mixin-arianotifymixin"
+        ],
+        "number": "10.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-arianotificationoptions-priority",
+      "href": "https://www.w3.org/TR/wai-aria-1.3/#dom-arianotificationoptions-priority",
+      "linkingText": [
+        "priority"
+      ],
+      "localLinkingText": [],
+      "type": "dict-member",
+      "for": [
+        "AriaNotificationOptions"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "ARIANotifyMixin",
+        "href": "https://www.w3.org/TR/wai-aria-1.3/#ARIANotifyMixin",
+        "title": "Interface Mixin ARIANotifyMixin",
+        "alternateIds": [
+          "x10-2-interface-mixin-arianotifymixin"
+        ],
+        "number": "10.2"
+      },
+      "definedIn": "pre",
+      "links": []
+    },
+    {
+      "id": "dom-arianotifymixin-arianotify",
+      "href": "https://www.w3.org/TR/wai-aria-1.3/#dom-arianotifymixin-arianotify",
+      "linkingText": [
+        "ariaNotify()",
+        "ariaNotify(announcement)",
+        "ariaNotify(announcement, options)"
+      ],
+      "localLinkingText": [
+        "ARIANotifyMixin.ariaNotify",
+        "ARIANotifyMixin.ariaNotify()",
+        "ariaNotify"
+      ],
+      "type": "method",
+      "for": [
+        "ARIANotifyMixin"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "ARIANotifyMixin",
+        "href": "https://www.w3.org/TR/wai-aria-1.3/#ARIANotifyMixin",
+        "title": "Interface Mixin ARIANotifyMixin",
+        "alternateIds": [
+          "x10-2-interface-mixin-arianotifymixin"
+        ],
+        "number": "10.2"
+      },
+      "definedIn": "prose",
+      "links": []
+    },
+    {
+      "id": "dfn-aria-notify",
+      "href": "https://www.w3.org/TR/wai-aria-1.3/#dfn-aria-notify",
+      "linkingText": [
+        "\"aria-notify\""
+      ],
+      "localLinkingText": [],
+      "type": "permission",
+      "for": [],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "arianotify-permissions-policy",
+        "href": "https://www.w3.org/TR/wai-aria-1.3/#arianotify-permissions-policy",
+        "title": "Permissions Policy Integration",
+        "alternateIds": [
+          "x10-2-1-permissions-policy-integration"
+        ],
+        "number": "10.2.1"
+      },
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "dom-ariamixin-role",
@@ -732,50 +1158,16 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "ARIAMixin",
-        "href": "https://www.w3.org/TR/wai-aria-1.3/#ARIAMixin",
-        "title": "Interface Mixin ARIAMixin",
-        "number": "10.1"
+        "id": "accessibilityroleandproperties-correspondence",
+        "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
+        "title": "ARIA Attribute Correspondence",
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "pre"
-    },
-    {
-      "id": "dfn-ariamixin-getter-steps",
-      "href": "https://www.w3.org/TR/wai-aria-1.3/#dfn-ariamixin-getter-steps",
-      "linkingText": [
-        "ARIAMixin getter steps"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "ARIAMixin",
-        "href": "https://www.w3.org/TR/wai-aria-1.3/#ARIAMixin",
-        "title": "Interface Mixin ARIAMixin",
-        "number": "10.1"
-      },
-      "definedIn": "prose"
-    },
-    {
-      "id": "dfn-ariamixin-setter-steps",
-      "href": "https://www.w3.org/TR/wai-aria-1.3/#dfn-ariamixin-setter-steps",
-      "linkingText": [
-        "ARIAMixin setter steps"
-      ],
-      "localLinkingText": [],
-      "type": "dfn",
-      "for": [],
-      "access": "private",
-      "informative": false,
-      "heading": {
-        "id": "ARIAMixin",
-        "href": "https://www.w3.org/TR/wai-aria-1.3/#ARIAMixin",
-        "title": "Interface Mixin ARIAMixin",
-        "number": "10.1"
-      },
-      "definedIn": "prose"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariaactivedescendantelement",
@@ -796,9 +1188,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariaatomic",
@@ -819,9 +1215,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariaautocomplete",
@@ -842,9 +1242,67 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dom-ariamixin-ariabraillelabel",
+      "href": "https://www.w3.org/TR/wai-aria-1.3/#dom-ariamixin-ariabraillelabel",
+      "linkingText": [
+        "ariaBrailleLabel"
+      ],
+      "localLinkingText": [
+        "ARIAMixin.ariaBrailleLabel"
+      ],
+      "type": "attribute",
+      "for": [
+        "ARIAMixin"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "accessibilityroleandproperties-correspondence",
+        "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
+        "title": "ARIA Attribute Correspondence",
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
+      },
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dom-ariamixin-ariabrailleroledescription",
+      "href": "https://www.w3.org/TR/wai-aria-1.3/#dom-ariamixin-ariabrailleroledescription",
+      "linkingText": [
+        "ariaBrailleRoleDescription"
+      ],
+      "localLinkingText": [
+        "ARIAMixin.ariaBrailleRoleDescription"
+      ],
+      "type": "attribute",
+      "for": [
+        "ARIAMixin"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "accessibilityroleandproperties-correspondence",
+        "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
+        "title": "ARIA Attribute Correspondence",
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
+      },
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariabusy",
@@ -865,9 +1323,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariachecked",
@@ -888,9 +1350,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariacolcount",
@@ -911,9 +1377,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariacolindex",
@@ -934,9 +1404,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariacolindextext",
@@ -957,9 +1431,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariacolspan",
@@ -980,9 +1458,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariacontrolselements",
@@ -1003,9 +1485,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariacurrent",
@@ -1026,9 +1512,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariadescribedbyelements",
@@ -1049,9 +1539,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariadescription",
@@ -1072,9 +1566,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariadetailselements",
@@ -1095,9 +1593,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariadisabled",
@@ -1118,9 +1620,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariaerrormessageelements",
@@ -1141,9 +1647,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariaexpanded",
@@ -1164,9 +1674,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariaflowtoelements",
@@ -1187,9 +1701,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariahaspopup",
@@ -1210,9 +1728,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariahidden",
@@ -1233,9 +1755,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariainvalid",
@@ -1256,9 +1782,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariakeyshortcuts",
@@ -1279,9 +1809,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-arialabel",
@@ -1302,9 +1836,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-arialabelledbyelements",
@@ -1325,9 +1863,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-arialevel",
@@ -1348,9 +1890,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-arialive",
@@ -1371,9 +1917,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariamodal",
@@ -1394,9 +1944,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariamultiline",
@@ -1417,9 +1971,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariamultiselectable",
@@ -1440,9 +1998,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariaorientation",
@@ -1463,9 +2025,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariaownselements",
@@ -1486,9 +2052,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariaplaceholder",
@@ -1509,9 +2079,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariaposinset",
@@ -1532,9 +2106,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariapressed",
@@ -1555,9 +2133,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariareadonly",
@@ -1578,9 +2160,40 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
+    },
+    {
+      "id": "dom-ariamixin-ariarelevant",
+      "href": "https://www.w3.org/TR/wai-aria-1.3/#dom-ariamixin-ariarelevant",
+      "linkingText": [
+        "ariaRelevant"
+      ],
+      "localLinkingText": [
+        "ARIAMixin.ariaRelevant"
+      ],
+      "type": "attribute",
+      "for": [
+        "ARIAMixin"
+      ],
+      "access": "public",
+      "informative": false,
+      "heading": {
+        "id": "accessibilityroleandproperties-correspondence",
+        "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
+        "title": "ARIA Attribute Correspondence",
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
+      },
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariarequired",
@@ -1601,9 +2214,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariaroledescription",
@@ -1624,9 +2241,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariarowcount",
@@ -1647,9 +2268,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariarowindex",
@@ -1670,9 +2295,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariarowindextext",
@@ -1693,9 +2322,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariarowspan",
@@ -1716,9 +2349,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariaselected",
@@ -1739,9 +2376,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariasetsize",
@@ -1762,9 +2403,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariasort",
@@ -1785,9 +2430,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariavaluemax",
@@ -1808,9 +2457,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariavaluemin",
@@ -1831,9 +2484,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariavaluenow",
@@ -1854,9 +2511,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     },
     {
       "id": "dom-ariamixin-ariavaluetext",
@@ -1877,9 +2538,13 @@
         "id": "accessibilityroleandproperties-correspondence",
         "href": "https://www.w3.org/TR/wai-aria-1.3/#accessibilityroleandproperties-correspondence",
         "title": "ARIA Attribute Correspondence",
-        "number": "10.2"
+        "alternateIds": [
+          "x10-3-aria-attribute-correspondence"
+        ],
+        "number": "10.3"
       },
-      "definedIn": "table"
+      "definedIn": "table",
+      "links": []
     }
   ]
 }

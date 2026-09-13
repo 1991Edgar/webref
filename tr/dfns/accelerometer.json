@@ -21,7 +21,8 @@
         "title": "Accelerometer",
         "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "acceleration",
@@ -35,11 +36,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/accelerometer/#title",
-        "title": "Accelerometer"
+        "id": "accelerometer-model",
+        "href": "https://www.w3.org/TR/accelerometer/#accelerometer-model",
+        "title": "Accelerometer",
+        "number": "6.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "linear-acceleration-sensor-sensor-type",
@@ -58,7 +61,8 @@
         "title": "Linear Acceleration Sensor",
         "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "linear-acceleration",
@@ -72,11 +76,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/accelerometer/#title",
-        "title": "Accelerometer"
+        "id": "linear-acceleration-sensor-model",
+        "href": "https://www.w3.org/TR/accelerometer/#linear-acceleration-sensor-model",
+        "title": "Linear Acceleration Sensor",
+        "number": "6.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "gravity-sensor-sensor-type",
@@ -95,7 +101,8 @@
         "title": "Gravity Sensor",
         "number": "6.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "gravity-virtual-sensor-type",
@@ -109,11 +116,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/accelerometer/#title",
-        "title": "Accelerometer"
+        "id": "gravity-sensor-model",
+        "href": "https://www.w3.org/TR/accelerometer/#gravity-sensor-model",
+        "title": "Gravity Sensor",
+        "number": "6.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "gravity",
@@ -127,11 +136,13 @@
       "access": "private",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/accelerometer/#title",
-        "title": "Accelerometer"
+        "id": "gravity-sensor-model",
+        "href": "https://www.w3.org/TR/accelerometer/#gravity-sensor-model",
+        "title": "Gravity Sensor",
+        "number": "6.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "device-coordinate-system",
@@ -150,7 +161,8 @@
         "title": "Reference Frame",
         "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "screen-coordinate-system",
@@ -164,11 +176,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/accelerometer/#title",
-        "title": "Accelerometer"
+        "id": "reference-frame",
+        "href": "https://www.w3.org/TR/accelerometer/#reference-frame",
+        "title": "Reference Frame",
+        "number": "6.4"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "accelerometer",
@@ -187,7 +201,8 @@
         "title": "The Accelerometer Interface",
         "number": "7.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-accelerometer-accelerometer-options-options",
@@ -206,11 +221,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/accelerometer/#title",
-        "title": "Accelerometer"
+        "id": "accelerometer-interface",
+        "href": "https://www.w3.org/TR/accelerometer/#accelerometer-interface",
+        "title": "The Accelerometer Interface",
+        "number": "7.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-accelerometer-x",
@@ -226,11 +243,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/accelerometer/#title",
-        "title": "Accelerometer"
+        "id": "accelerometer-interface",
+        "href": "https://www.w3.org/TR/accelerometer/#accelerometer-interface",
+        "title": "The Accelerometer Interface",
+        "number": "7.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-accelerometer-y",
@@ -246,11 +265,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/accelerometer/#title",
-        "title": "Accelerometer"
+        "id": "accelerometer-interface",
+        "href": "https://www.w3.org/TR/accelerometer/#accelerometer-interface",
+        "title": "The Accelerometer Interface",
+        "number": "7.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-accelerometer-z",
@@ -266,11 +287,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/accelerometer/#title",
-        "title": "Accelerometer"
+        "id": "accelerometer-interface",
+        "href": "https://www.w3.org/TR/accelerometer/#accelerometer-interface",
+        "title": "The Accelerometer Interface",
+        "number": "7.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "enumdef-accelerometerlocalcoordinatesystem",
@@ -284,11 +307,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/accelerometer/#title",
-        "title": "Accelerometer"
+        "id": "accelerometer-interface",
+        "href": "https://www.w3.org/TR/accelerometer/#accelerometer-interface",
+        "title": "The Accelerometer Interface",
+        "number": "7.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-accelerometerlocalcoordinatesystem-device",
@@ -304,11 +329,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/accelerometer/#title",
-        "title": "Accelerometer"
+        "id": "accelerometer-interface",
+        "href": "https://www.w3.org/TR/accelerometer/#accelerometer-interface",
+        "title": "The Accelerometer Interface",
+        "number": "7.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-accelerometerlocalcoordinatesystem-screen",
@@ -324,11 +351,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/accelerometer/#title",
-        "title": "Accelerometer"
+        "id": "accelerometer-interface",
+        "href": "https://www.w3.org/TR/accelerometer/#accelerometer-interface",
+        "title": "The Accelerometer Interface",
+        "number": "7.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dictdef-accelerometersensoroptions",
@@ -342,11 +371,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/accelerometer/#title",
-        "title": "Accelerometer"
+        "id": "accelerometer-interface",
+        "href": "https://www.w3.org/TR/accelerometer/#accelerometer-interface",
+        "title": "The Accelerometer Interface",
+        "number": "7.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-accelerometersensoroptions-referenceframe",
@@ -362,11 +393,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/accelerometer/#title",
-        "title": "Accelerometer"
+        "id": "accelerometer-interface",
+        "href": "https://www.w3.org/TR/accelerometer/#accelerometer-interface",
+        "title": "The Accelerometer Interface",
+        "number": "7.1"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-accelerometer-accelerometer",
@@ -385,11 +418,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/accelerometer/#title",
-        "title": "Accelerometer"
+        "id": "accelerometer-interface",
+        "href": "https://www.w3.org/TR/accelerometer/#accelerometer-interface",
+        "title": "The Accelerometer Interface",
+        "number": "7.1"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "linearaccelerationsensor",
@@ -408,7 +443,8 @@
         "title": "The LinearAccelerationSensor Interface",
         "number": "7.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-linearaccelerationsensor-linearaccelerationsensor-options-options",
@@ -427,11 +463,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/accelerometer/#title",
-        "title": "Accelerometer"
+        "id": "linearaccelerationsensor-interface",
+        "href": "https://www.w3.org/TR/accelerometer/#linearaccelerationsensor-interface",
+        "title": "The LinearAccelerationSensor Interface",
+        "number": "7.2"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-linearaccelerationsensor-linearaccelerationsensor",
@@ -450,11 +488,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/accelerometer/#title",
-        "title": "Accelerometer"
+        "id": "linearaccelerationsensor-interface",
+        "href": "https://www.w3.org/TR/accelerometer/#linearaccelerationsensor-interface",
+        "title": "The LinearAccelerationSensor Interface",
+        "number": "7.2"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "gravitysensor",
@@ -473,7 +513,8 @@
         "title": "The GravitySensor Interface",
         "number": "7.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-gravitysensor-gravitysensor-options-options",
@@ -492,11 +533,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/accelerometer/#title",
-        "title": "Accelerometer"
+        "id": "gravitysensor-interface",
+        "href": "https://www.w3.org/TR/accelerometer/#gravitysensor-interface",
+        "title": "The GravitySensor Interface",
+        "number": "7.3"
       },
-      "definedIn": "pre"
+      "definedIn": "pre",
+      "links": []
     },
     {
       "id": "dom-gravitysensor-gravitysensor",
@@ -515,11 +558,13 @@
       "access": "public",
       "informative": false,
       "heading": {
-        "id": "title",
-        "href": "https://www.w3.org/TR/accelerometer/#title",
-        "title": "Accelerometer"
+        "id": "gravitysensor-interface",
+        "href": "https://www.w3.org/TR/accelerometer/#gravitysensor-interface",
+        "title": "The GravitySensor Interface",
+        "number": "7.3"
       },
-      "definedIn": "prose"
+      "definedIn": "prose",
+      "links": []
     },
     {
       "id": "construct-an-accelerometer-object",
@@ -538,7 +583,8 @@
         "title": "Construct an accelerometer object",
         "number": "8.1"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     },
     {
       "id": "accelerometer-reading-quantization-algorithm",
@@ -557,7 +603,8 @@
         "title": "Accelerometer reading quantization algorithm",
         "number": "8.2"
       },
-      "definedIn": "heading"
+      "definedIn": "heading",
+      "links": []
     }
   ]
 }

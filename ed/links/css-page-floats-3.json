@@ -1,6 +1,6 @@
 {
   "spec": {
-    "title": "CSS Page Floats",
+    "title": "CSS Page Floats Module Level 3",
     "url": "https://drafts.csswg.org/css-page-floats-3/"
   },
   "links": {
@@ -23,8 +23,10 @@
       },
       "https://datatracker.ietf.org/doc/html/rfc2119": {},
       "https://drafts.csswg.org/css-break-4/": {},
+      "https://drafts.csswg.org/css-display-4/": {},
       "https://drafts.csswg.org/css-exclusions/": {},
       "https://drafts.csswg.org/css-gcpm/": {},
+      "https://drafts.csswg.org/css-sizing-3/": {},
       "https://drafts.csswg.org/css-values-3/": {},
       "https://drafts.csswg.org/css-values-4/": {},
       "https://drafts.csswg.org/css-writing-modes-3/": {},
@@ -68,7 +70,7 @@
           "animation-type"
         ]
       },
-      "https://www.w3.org/policies/process/20231103/": {}
+      "https://www.w3.org/policies/process/20250818/": {}
     },
     "autolinks": {
       "https://drafts.csswg.org/css-break-4/": {
@@ -77,9 +79,19 @@
           "fragmentation-context"
         ]
       },
+      "https://drafts.csswg.org/css-display-4/": {
+        "anchors": [
+          "out-of-flow"
+        ]
+      },
       "https://drafts.csswg.org/css-exclusions-1/": {
         "anchors": [
           "propdef-wrap-flow"
+        ]
+      },
+      "https://drafts.csswg.org/css-sizing-3/": {
+        "anchors": [
+          "inline-size"
         ]
       },
       "https://drafts.csswg.org/css-values-4/": {
@@ -100,14 +112,7 @@
       },
       "https://drafts.csswg.org/css-writing-modes-4/": {
         "anchors": [
-          "inline-size",
           "propdef-writing-mode"
-        ]
-      },
-      "https://www.w3.org/TR/CSS22/visudet.html": {
-        "anchors": [
-          "propdef-max-width",
-          "propdef-max-height"
         ]
       }
     }

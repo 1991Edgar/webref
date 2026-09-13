@@ -6,6 +6,10 @@
   "refs": {
     "normative": [
       {
+        "name": "CSS-2025",
+        "url": "https://drafts.csswg.org/css-2025/"
+      },
+      {
         "name": "CSS-ALIGN-3",
         "url": "https://drafts.csswg.org/css-align/"
       },
@@ -31,7 +35,7 @@
       },
       {
         "name": "CSS-COLOR-4",
-        "url": "https://drafts.csswg.org/css-color/"
+        "url": "https://drafts.csswg.org/css-color-4/"
       },
       {
         "name": "CSS-COLOR-5",
@@ -51,7 +55,7 @@
       },
       {
         "name": "CSS-FLEXBOX-1",
-        "url": "https://drafts.csswg.org/css-flexbox-1/"
+        "url": "https://drafts.csswg.org/css-flexbox/"
       },
       {
         "name": "CSS-IMAGES-4",
@@ -59,7 +63,7 @@
       },
       {
         "name": "CSS-MASKING-1",
-        "url": "https://drafts.fxtf.org/css-masking-1/"
+        "url": "https://drafts.csswg.org/css-masking-1/"
       },
       {
         "name": "CSS-SIZE-ADJUST-1",
@@ -90,10 +94,6 @@
         "url": "https://drafts.csswg.org/css-values-4/"
       },
       {
-        "name": "CSS21",
-        "url": "https://drafts.csswg.org/css2/"
-      },
-      {
         "name": "CSS3-IMAGES-20110217",
         "url": "https://www.w3.org/TR/2011/WD-css3-images-20110217/"
       },
@@ -107,11 +107,11 @@
       },
       {
         "name": "FILTER-EFFECTS-1",
-        "url": "https://drafts.fxtf.org/filter-effects-1/"
+        "url": "https://drafts.csswg.org/filter-effects-1/"
       },
       {
         "name": "GEOMETRY-1",
-        "url": "https://drafts.fxtf.org/geometry/"
+        "url": "https://drafts.csswg.org/geometry/"
       },
       {
         "name": "HTML",
